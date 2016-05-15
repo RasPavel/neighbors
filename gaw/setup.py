@@ -14,7 +14,11 @@ def configuration(parent_package='', top_path=None):
 
     config = Configuration('gaw', parent_package, top_path)
     
+    config.add_subpackage('externals')
     config.add_subpackage('neighbors')
+    config.add_subpackage('preprocessing')
+    config.add_subpackage('metrics')
+    config.add_subpackage('metrics/cluster')
 
     # some libs needs cblas, fortran-compiled BLAS will not be sufficient
     blas_info = get_info('blas_opt', 0)
@@ -23,6 +27,11 @@ def configuration(parent_package='', top_path=None):
         config.add_library('cblas',
                            sources=[join('src', 'cblas', '*.c')])
         warnings.warn(BlasNotFoundError.__doc__)
+
+    # the following packages depend on cblas, so they have to be build
+    # after the above.
+    config.add_subpackage('utils')
+
 
     return config
 
