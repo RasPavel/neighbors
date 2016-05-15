@@ -1,14 +1,4 @@
-./build/**/*
-*.c
 *.so
 *.pyc
 *.o
 cythonize.dat
-
-build/lib.macosx-10.11-x86_64-2.7/gaw/__init__.py
-
-build/lib.macosx-10.11-x86_64-2.7/gaw/neighbors/__init__.py
-
-build/lib.macosx-10.11-x86_64-2.7/gaw/neighbors/setup.py
-
-build/lib.macosx-10.11-x86_64-2.7/gaw/setup.py
