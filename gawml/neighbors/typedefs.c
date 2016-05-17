@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__neighbors__typedefs
-#define __PYX_HAVE_API__neighbors__typedefs
+#define __PYX_HAVE__gawml__neighbors__typedefs
+#define __PYX_HAVE_API__gawml__neighbors__typedefs
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -504,7 +504,7 @@ static const char *__pyx_filename;
 
 static const char *__pyx_f[] = {
   "__init__.pxd",
-  "gaw/neighbors/typedefs.pyx",
+  "gawml/neighbors/typedefs.pyx",
   "type.pxd",
 };
 
@@ -697,23 +697,23 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "neighbors/typedefs.pxd":5
+/* "gawml/neighbors/typedefs.pxd":5
  * 
  * # Floating point/data type
  * ctypedef np.float64_t DTYPE_t  # WARNING: should match DTYPE in typedefs.pyx             # <<<<<<<<<<<<<<
  * 
  * cdef enum:
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_9neighbors_8typedefs_DTYPE_t;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t;
 
-/* "neighbors/typedefs.pxd":13
+/* "gawml/neighbors/typedefs.pxd":13
  * # Index/integer type.
  * #  WARNING: ITYPE_t must be a signed integer type or you will have a bad time!
  * ctypedef np.intp_t ITYPE_t  # WARNING: should match ITYPE in typedefs.pyx             # <<<<<<<<<<<<<<
  * 
  * # Fused type for certain operations
  */
-typedef __pyx_t_5numpy_intp_t __pyx_t_9neighbors_8typedefs_ITYPE_t;
+typedef __pyx_t_5numpy_intp_t __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -775,7 +775,7 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "neighbors/typedefs.pxd":7
+/* "gawml/neighbors/typedefs.pxd":7
  * ctypedef np.float64_t DTYPE_t  # WARNING: should match DTYPE in typedefs.pyx
  * 
  * cdef enum:             # <<<<<<<<<<<<<<
@@ -784,15 +784,15 @@ typedef npy_cdouble __pyx_t_5numpy_complex_t;
  */
 enum  {
 
-  /* "neighbors/typedefs.pxd":9
+  /* "gawml/neighbors/typedefs.pxd":9
  * cdef enum:
  *     DTYPECODE = np.NPY_FLOAT64
  *     ITYPECODE = np.NPY_INTP             # <<<<<<<<<<<<<<
  * 
  * # Index/integer type.
  */
-  __pyx_e_9neighbors_8typedefs_DTYPECODE = NPY_FLOAT64,
-  __pyx_e_9neighbors_8typedefs_ITYPECODE = NPY_INTP
+  __pyx_e_5gawml_9neighbors_8typedefs_DTYPECODE = NPY_FLOAT64,
+  __pyx_e_5gawml_9neighbors_8typedefs_ITYPECODE = NPY_INTP
 };
 
 /* --- Runtime support code (head) --- */
@@ -1141,14 +1141,14 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'neighbors.typedefs' */
-static __pyx_t_9neighbors_8typedefs_DTYPE_t __pyx_v_9neighbors_8typedefs_INF;
-static __pyx_t_9neighbors_8typedefs_DTYPE_t __pyx_v_9neighbors_8typedefs_PI;
-static __pyx_t_9neighbors_8typedefs_DTYPE_t __pyx_v_9neighbors_8typedefs_ROOT_2PI;
-#define __Pyx_MODULE_NAME "neighbors.typedefs"
-int __pyx_module_is_main_neighbors__typedefs = 0;
+/* Module declarations from 'gawml.neighbors.typedefs' */
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_5gawml_9neighbors_8typedefs_INF;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_5gawml_9neighbors_8typedefs_PI;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_5gawml_9neighbors_8typedefs_ROOT_2PI;
+#define __Pyx_MODULE_NAME "gawml.neighbors.typedefs"
+int __pyx_module_is_main_gawml__neighbors__typedefs = 0;
 
-/* Implementation of 'neighbors.typedefs' */
+/* Implementation of 'gawml.neighbors.typedefs' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -3470,7 +3470,7 @@ PyMODINIT_FUNC PyInit_typedefs(void)
 {
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_9neighbors_8typedefs_DTYPE_t __pyx_t_3;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_3;
   __Pyx_RefNannyDeclarations
   #if CYTHON_REFNANNY
   __Pyx_RefNanny = __Pyx_RefNannyImportAPI("refnanny");
@@ -3527,14 +3527,14 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_neighbors__typedefs) {
+  if (__pyx_module_is_main_gawml__neighbors__typedefs) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(1, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "neighbors.typedefs")) {
-      if (unlikely(PyDict_SetItemString(modules, "neighbors.typedefs", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.neighbors.typedefs")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.neighbors.typedefs", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -3566,7 +3566,7 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
 
-  /* "neighbors/typedefs.pyx":3
+  /* "gawml/neighbors/typedefs.pyx":3
  * #!python
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -3578,7 +3578,7 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "neighbors/typedefs.pyx":13
+  /* "gawml/neighbors/typedefs.pyx":13
  * #cdef ITYPE_t[:] idummy_view = <ITYPE_t[:1]> &idummy
  * #ITYPE = np.asarray(idummy_view).dtype
  * ITYPE = np.intp  # WARNING: this should match ITYPE_t in typedefs.pxd             # <<<<<<<<<<<<<<
@@ -3593,7 +3593,7 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ITYPE, __pyx_t_2) < 0) __PYX_ERR(1, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "neighbors/typedefs.pyx":18
+  /* "gawml/neighbors/typedefs.pyx":18
  * #cdef DTYPE_t[:] ddummy_view = <DTYPE_t[:1]> &ddummy
  * #DTYPE = np.asarray(ddummy_view).dtype
  * DTYPE = np.float64  # WARNING: this should match DTYPE_t in typedefs.pxd             # <<<<<<<<<<<<<<
@@ -3608,7 +3608,7 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_1) < 0) __PYX_ERR(1, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "neighbors/typedefs.pyx":21
+  /* "gawml/neighbors/typedefs.pyx":21
  * 
  * # some handy constants
  * cdef DTYPE_t INF = np.inf             # <<<<<<<<<<<<<<
@@ -3622,9 +3622,9 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_3 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(1, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_9neighbors_8typedefs_INF = __pyx_t_3;
+  __pyx_v_5gawml_9neighbors_8typedefs_INF = __pyx_t_3;
 
-  /* "neighbors/typedefs.pyx":22
+  /* "gawml/neighbors/typedefs.pyx":22
  * # some handy constants
  * cdef DTYPE_t INF = np.inf
  * cdef DTYPE_t PI = np.pi             # <<<<<<<<<<<<<<
@@ -3637,16 +3637,16 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_3 = __pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_3 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(1, 22, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_9neighbors_8typedefs_PI = __pyx_t_3;
+  __pyx_v_5gawml_9neighbors_8typedefs_PI = __pyx_t_3;
 
-  /* "neighbors/typedefs.pyx":23
+  /* "gawml/neighbors/typedefs.pyx":23
  * cdef DTYPE_t INF = np.inf
  * cdef DTYPE_t PI = np.pi
  * cdef DTYPE_t ROOT_2PI = sqrt(2 * PI)             # <<<<<<<<<<<<<<
  */
-  __pyx_v_9neighbors_8typedefs_ROOT_2PI = sqrt((2.0 * __pyx_v_9neighbors_8typedefs_PI));
+  __pyx_v_5gawml_9neighbors_8typedefs_ROOT_2PI = sqrt((2.0 * __pyx_v_5gawml_9neighbors_8typedefs_PI));
 
-  /* "neighbors/typedefs.pyx":1
+  /* "gawml/neighbors/typedefs.pyx":1
  * #!python             # <<<<<<<<<<<<<<
  * 
  * import numpy as np
@@ -3672,11 +3672,11 @@ PyMODINIT_FUNC PyInit_typedefs(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init neighbors.typedefs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.neighbors.typedefs", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init neighbors.typedefs");
+    PyErr_SetString(PyExc_ImportError, "init gawml.neighbors.typedefs");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

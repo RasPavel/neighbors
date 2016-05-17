@@ -26,7 +26,7 @@ else:
 # machinery.
 builtins.__SKLEARN_SETUP__ = True
 
-DISTNAME = 'gaw-metrics'
+DISTNAME = 'gaw-ml'
 DESCRIPTION = 'Distance metric for GAW project'
 with open('README.rst') as f:
     LONG_DESCRIPTION = f.read()
@@ -79,7 +79,7 @@ class CleanCommand(Clean):
             print('Will remove generated .c files')
         if os.path.exists('build'):
             shutil.rmtree('build')
-        for dirpath, dirnames, filenames in os.walk('gaw'):
+        for dirpath, dirnames, filenames in os.walk('gawml'):
             for filename in filenames:
                 if any(filename.endswith(suffix) for suffix in
                        (".so", ".pyd", ".dll", ".pyc")):
@@ -125,7 +125,7 @@ def configuration(parent_package='', top_path=None):
                        delegate_options_to_subpackages=True,
                        quiet=True)
 
-    config.add_subpackage('gaw')
+    config.add_subpackage('gawml')
 
     return config
 
@@ -178,7 +178,7 @@ def generate_cython():
     p = subprocess.call([sys.executable, os.path.join(cwd,
                                                       'build_tools',
                                                       'cythonize.py'),
-                         'gaw'],
+                         'gawml'],
                         cwd=cwd)
     if p != 0:
         raise RuntimeError("Running cythonize failed!")
@@ -280,7 +280,7 @@ def setup_package():
 
             # Clean left-over .so file
             for dirpath, dirnames, filenames in os.walk(
-                    os.path.join(cwd, 'gaw')):
+                    os.path.join(cwd, 'gawml')):
                 for filename in filenames:
                     extension = os.path.splitext(filename)[1]
                     if extension in (".so", ".pyd", ".dll"):

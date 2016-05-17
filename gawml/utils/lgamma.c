@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__lgamma
-#define __PYX_HAVE_API__gaw__utils__lgamma
+#define __PYX_HAVE__gawml__utils__lgamma
+#define __PYX_HAVE_API__gawml__utils__lgamma
 #include "src/gamma.h"
 #ifdef _OPENMP
 #include <omp.h>
@@ -476,7 +476,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/lgamma.pyx",
+  "gawml/utils/lgamma.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -641,11 +641,11 @@ static int __Pyx_ExportFunction(const char *name, void (*f)(void), const char *s
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'gaw.utils.lgamma' */
-#define __Pyx_MODULE_NAME "gaw.utils.lgamma"
-int __pyx_module_is_main_gaw__utils__lgamma = 0;
+/* Module declarations from 'gawml.utils.lgamma' */
+#define __Pyx_MODULE_NAME "gawml.utils.lgamma"
+int __pyx_module_is_main_gawml__utils__lgamma = 0;
 
-/* Implementation of 'gaw.utils.lgamma' */
+/* Implementation of 'gawml.utils.lgamma' */
 static PyObject *__pyx_builtin_ValueError;
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_test[] = "__test__";
@@ -656,7 +656,7 @@ static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_kp_s_x_must_be_strictly_positive_got;
 
-/* "gaw/utils/lgamma.pyx":5
+/* "gawml/utils/lgamma.pyx":5
  * 
  * 
  * cdef double lgamma(double x):             # <<<<<<<<<<<<<<
@@ -664,7 +664,7 @@ static PyObject *__pyx_kp_s_x_must_be_strictly_positive_got;
  *         raise ValueError("x must be strictly positive, got %f" % x)
  */
 
-static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
+static double __pyx_f_5gawml_5utils_6lgamma_lgamma(double __pyx_v_x) {
   double __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -672,7 +672,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("lgamma", 0);
 
-  /* "gaw/utils/lgamma.pyx":6
+  /* "gawml/utils/lgamma.pyx":6
  * 
  * cdef double lgamma(double x):
  *     if x <= 0:             # <<<<<<<<<<<<<<
@@ -682,7 +682,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
   __pyx_t_1 = ((__pyx_v_x <= 0.0) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/lgamma.pyx":7
+    /* "gawml/utils/lgamma.pyx":7
  * cdef double lgamma(double x):
  *     if x <= 0:
  *         raise ValueError("x must be strictly positive, got %f" % x)             # <<<<<<<<<<<<<<
@@ -705,7 +705,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(0, 7, __pyx_L1_error)
 
-    /* "gaw/utils/lgamma.pyx":6
+    /* "gawml/utils/lgamma.pyx":6
  * 
  * cdef double lgamma(double x):
  *     if x <= 0:             # <<<<<<<<<<<<<<
@@ -714,7 +714,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
  */
   }
 
-  /* "gaw/utils/lgamma.pyx":8
+  /* "gawml/utils/lgamma.pyx":8
  *     if x <= 0:
  *         raise ValueError("x must be strictly positive, got %f" % x)
  *     return sklearn_lgamma(x)             # <<<<<<<<<<<<<<
@@ -722,7 +722,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
   __pyx_r = sklearn_lgamma(__pyx_v_x);
   goto __pyx_L0;
 
-  /* "gaw/utils/lgamma.pyx":5
+  /* "gawml/utils/lgamma.pyx":5
  * 
  * 
  * cdef double lgamma(double x):             # <<<<<<<<<<<<<<
@@ -734,7 +734,7 @@ static double __pyx_f_3gaw_5utils_6lgamma_lgamma(double __pyx_v_x) {
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_WriteUnraisable("gaw.utils.lgamma.lgamma", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.lgamma.lgamma", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -856,14 +856,14 @@ PyMODINIT_FUNC PyInit_lgamma(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__lgamma) {
+  if (__pyx_module_is_main_gawml__utils__lgamma) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.lgamma")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.lgamma", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.lgamma")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.lgamma", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -874,7 +874,7 @@ PyMODINIT_FUNC PyInit_lgamma(void)
   /*--- Global init code ---*/
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
-  if (__Pyx_ExportFunction("lgamma", (void (*)(void))__pyx_f_3gaw_5utils_6lgamma_lgamma, "double (double)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_ExportFunction("lgamma", (void (*)(void))__pyx_f_5gawml_5utils_6lgamma_lgamma, "double (double)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   /*--- Type init code ---*/
   /*--- Type import code ---*/
   /*--- Variable import code ---*/
@@ -884,7 +884,7 @@ PyMODINIT_FUNC PyInit_lgamma(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/lgamma.pyx":1
+  /* "gawml/utils/lgamma.pyx":1
  * cdef extern from "src/gamma.h":             # <<<<<<<<<<<<<<
  *     cdef double sklearn_lgamma(double x)
  * 
@@ -901,11 +901,11 @@ PyMODINIT_FUNC PyInit_lgamma(void)
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.lgamma", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.lgamma", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.lgamma");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.lgamma");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

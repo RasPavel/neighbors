@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__neighbors__dist_metrics
-#define __PYX_HAVE_API__gaw__neighbors__dist_metrics
+#define __PYX_HAVE__gawml__neighbors__dist_metrics
+#define __PYX_HAVE_API__gawml__neighbors__dist_metrics
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -506,8 +506,8 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/neighbors/dist_metrics.pxd",
-  "gaw/neighbors/dist_metrics.pyx",
+  "gawml/neighbors/dist_metrics.pxd",
+  "gawml/neighbors/dist_metrics.pyx",
   "__init__.pxd",
   "stringsource",
   "type.pxd",
@@ -804,7 +804,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
  * 
  * cdef enum:
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t;
 
 /* "typedefs.pxd":13
  * # Index/integer type.
@@ -813,7 +813,7 @@ typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t;
  * 
  * # Fused type for certain operations
  */
-typedef __pyx_t_5numpy_intp_t __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t;
+typedef __pyx_t_5numpy_intp_t __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -838,27 +838,27 @@ typedef __pyx_t_5numpy_intp_t __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t;
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance;
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
 struct __pyx_array_obj;
 struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
@@ -916,268 +916,268 @@ enum  {
  * 
  * # Index/integer type.
  */
-  __pyx_e_3gaw_9neighbors_8typedefs_DTYPECODE = NPY_FLOAT64,
-  __pyx_e_3gaw_9neighbors_8typedefs_ITYPECODE = NPY_INTP
+  __pyx_e_5gawml_9neighbors_8typedefs_DTYPECODE = NPY_FLOAT64,
+  __pyx_e_5gawml_9neighbors_8typedefs_ITYPECODE = NPY_INTP
 };
 
-/* "gaw/neighbors/dist_metrics.pxd":48
+/* "gawml/neighbors/dist_metrics.pxd":48
  * ######################################################################
  * # DistanceMetric base class
  * cdef class DistanceMetric:             # <<<<<<<<<<<<<<
  *     # The following attributes are required for a few of the subclasses.
  *     # we must define them here so that cython's limited polymorphism will work.
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric {
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric {
   PyObject_HEAD
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_vtab;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t p;
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_vtab;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t p;
   PyArrayObject *vec;
   PyArrayObject *mat;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *vec_ptr;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *mat_ptr;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t size;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *vec_ptr;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *mat_ptr;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t size;
   PyObject *func;
   PyObject *kwargs;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":405
+/* "gawml/neighbors/dist_metrics.pyx":405
  * # Euclidean Distance
  * #  d = sqrt(sum(x_i^2 - y_i^2))
  * cdef class EuclideanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Euclidean Distance metric
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":438
+/* "gawml/neighbors/dist_metrics.pyx":438
  * # SEuclidean Distance
  * #  d = sqrt(sum((x_i - y_i2)^2 / v_i))
  * cdef class SEuclideanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Standardized Euclidean Distance metric
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":482
+/* "gawml/neighbors/dist_metrics.pyx":482
  * # Manhattan Distance
  * #  d = sum(abs(x_i - y_i))
  * cdef class ManhattanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Manhattan/City-block Distance metric
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":503
+/* "gawml/neighbors/dist_metrics.pyx":503
  * # Chebyshev Distance
  * #  d = max_i(abs(x_i - y_i))
  * cdef class ChebyshevDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Chebyshev/Infinity Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":524
+/* "gawml/neighbors/dist_metrics.pyx":524
  * # Minkowski Distance
  * #  d = sum(x_i^p - y_i^p) ^ (1/p)
  * cdef class MinkowskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Minkowski Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":571
+/* "gawml/neighbors/dist_metrics.pyx":571
  * # W-Minkowski Distance
  * #  d = sum(w_i * (x_i^p - y_i^p)) ^ (1/p)
  * cdef class WMinkowskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Weighted Minkowski Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":630
+/* "gawml/neighbors/dist_metrics.pyx":630
  * # Mahalanobis Distance
  * #  d = sqrt( (x - y)^T V^-1 (x - y) )
  * cdef class MahalanobisDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Mahalanobis Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":703
+/* "gawml/neighbors/dist_metrics.pyx":703
  * # Hamming Distance
  * #  d = N_unequal(x, y) / N_tot
  * cdef class HammingDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Hamming Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":730
+/* "gawml/neighbors/dist_metrics.pyx":730
  * # Canberra Distance
  * #  D(x, y) = sum[ abs(x_i - y_i) / (abs(x_i) + abs(y_i)) ]
  * cdef class CanberraDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Canberra Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":753
+/* "gawml/neighbors/dist_metrics.pyx":753
  * # Bray-Curtis Distance
  * #  D(x, y) = sum[abs(x_i - y_i)] / sum[abs(x_i) + abs(y_i)]
  * cdef class BrayCurtisDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Bray-Curtis Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":778
+/* "gawml/neighbors/dist_metrics.pyx":778
  * # Jaccard Distance (boolean)
  * #  D(x, y) = N_unequal(x, y) / N_nonzero(x, y)
  * cdef class JaccardDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Jaccard Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":803
+/* "gawml/neighbors/dist_metrics.pyx":803
  * # Matching Distance (boolean)
  * #  D(x, y) = n_neq / n
  * cdef class MatchingDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Matching Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":827
+/* "gawml/neighbors/dist_metrics.pyx":827
  * # Dice Distance (boolean)
  * #  D(x, y) = n_neq / (2 * ntt + n_neq)
  * cdef class DiceDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Dice Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":852
+/* "gawml/neighbors/dist_metrics.pyx":852
  * # Kulsinski Distance (boolean)
  * #  D(x, y) = (ntf + nft - ntt + n) / (n_neq + n)
  * cdef class KulsinskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Kulsinski Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":877
+/* "gawml/neighbors/dist_metrics.pyx":877
  * # Rogers-Tanimoto Distance (boolean)
  * #  D(x, y) = 2 * n_neq / (n + n_neq)
  * cdef class RogersTanimotoDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Rogers-Tanimoto Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":901
+/* "gawml/neighbors/dist_metrics.pyx":901
  * # Russell-Rao Distance (boolean)
  * #  D(x, y) = (n - ntt) / n
  * cdef class RussellRaoDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Russell-Rao Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":925
+/* "gawml/neighbors/dist_metrics.pyx":925
  * # Sokal-Michener Distance (boolean)
  * #  D(x, y) = 2 * n_neq / (n + n_neq)
  * cdef class SokalMichenerDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Sokal-Michener Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":949
+/* "gawml/neighbors/dist_metrics.pyx":949
  * # Sokal-Sneath Distance (boolean)
  * #  D(x, y) = n_neq / (0.5 * n_tt + n_neq)
  * cdef class SokalSneathDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Sokal-Sneath Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":975
+/* "gawml/neighbors/dist_metrics.pyx":975
  * #  D(x, y) = 2 arcsin{sqrt[sin^2 ((x1 - y1) / 2)
  * #                          + cos(x1) cos(y1) sin^2 ((x2 - y2) / 2)]}
  * cdef class HaversineDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """Haversine (Spherical) Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
-/* "gaw/neighbors/dist_metrics.pyx":1087
+/* "gawml/neighbors/dist_metrics.pyx":1087
  * # User-defined distance
  * #
  * cdef class PyFuncDistance(DistanceMetric):             # <<<<<<<<<<<<<<
  *     """PyFunc Distance
  * 
  */
-struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
 
 
@@ -1259,7 +1259,7 @@ struct __pyx_memoryviewslice_obj {
 
 
 
-/* "gaw/neighbors/dist_metrics.pyx":107
+/* "gawml/neighbors/dist_metrics.pyx":107
  * ######################################################################
  * # Distance Metric Classes
  * cdef class DistanceMetric:             # <<<<<<<<<<<<<<
@@ -1267,18 +1267,18 @@ struct __pyx_memoryviewslice_obj {
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*dist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t);
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*rdist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t);
-  int (*pdist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice);
-  int (*cdist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*_rdist_to_dist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t);
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*_dist_to_rdist)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t);
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*dist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t);
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*rdist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t);
+  int (*pdist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice);
+  int (*cdist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice);
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*_rdist_to_dist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t);
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*_dist_to_rdist)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t);
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":405
+/* "gawml/neighbors/dist_metrics.pyx":405
  * # Euclidean Distance
  * #  d = sqrt(sum(x_i^2 - y_i^2))
  * cdef class EuclideanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1286,13 +1286,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *__
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_EuclideanDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_EuclideanDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":438
+/* "gawml/neighbors/dist_metrics.pyx":438
  * # SEuclidean Distance
  * #  d = sqrt(sum((x_i - y_i2)^2 / v_i))
  * cdef class SEuclideanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1300,13 +1300,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_EuclideanDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SEuclideanDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SEuclideanDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":482
+/* "gawml/neighbors/dist_metrics.pyx":482
  * # Manhattan Distance
  * #  d = sum(abs(x_i - y_i))
  * cdef class ManhattanDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1314,13 +1314,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SEuclideanDistance
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ManhattanDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ManhattanDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ManhattanDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ManhattanDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":503
+/* "gawml/neighbors/dist_metrics.pyx":503
  * # Chebyshev Distance
  * #  d = max_i(abs(x_i - y_i))
  * cdef class ChebyshevDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1328,13 +1328,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ManhattanDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ChebyshevDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ChebyshevDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":524
+/* "gawml/neighbors/dist_metrics.pyx":524
  * # Minkowski Distance
  * #  d = sum(x_i^p - y_i^p) ^ (1/p)
  * cdef class MinkowskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1342,13 +1342,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ChebyshevDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MinkowskiDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MinkowskiDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":571
+/* "gawml/neighbors/dist_metrics.pyx":571
  * # W-Minkowski Distance
  * #  d = sum(w_i * (x_i^p - y_i^p)) ^ (1/p)
  * cdef class WMinkowskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1356,13 +1356,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MinkowskiDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":630
+/* "gawml/neighbors/dist_metrics.pyx":630
  * # Mahalanobis Distance
  * #  d = sqrt( (x - y)^T V^-1 (x - y) )
  * cdef class MahalanobisDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1370,13 +1370,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MahalanobisDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MahalanobisDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":703
+/* "gawml/neighbors/dist_metrics.pyx":703
  * # Hamming Distance
  * #  d = N_unequal(x, y) / N_tot
  * cdef class HammingDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1384,13 +1384,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MahalanobisDistanc
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HammingDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HammingDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HammingDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HammingDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HammingDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HammingDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":730
+/* "gawml/neighbors/dist_metrics.pyx":730
  * # Canberra Distance
  * #  D(x, y) = sum[ abs(x_i - y_i) / (abs(x_i) + abs(y_i)) ]
  * cdef class CanberraDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1398,13 +1398,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HammingDistance *_
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_CanberraDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_CanberraDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_CanberraDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_CanberraDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_CanberraDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_CanberraDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":753
+/* "gawml/neighbors/dist_metrics.pyx":753
  * # Bray-Curtis Distance
  * #  D(x, y) = sum[abs(x_i - y_i)] / sum[abs(x_i) + abs(y_i)]
  * cdef class BrayCurtisDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1412,13 +1412,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_CanberraDistance *
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":778
+/* "gawml/neighbors/dist_metrics.pyx":778
  * # Jaccard Distance (boolean)
  * #  D(x, y) = N_unequal(x, y) / N_nonzero(x, y)
  * cdef class JaccardDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1426,13 +1426,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_JaccardDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_JaccardDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_JaccardDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_JaccardDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_JaccardDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_JaccardDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":803
+/* "gawml/neighbors/dist_metrics.pyx":803
  * # Matching Distance (boolean)
  * #  D(x, y) = n_neq / n
  * cdef class MatchingDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1440,13 +1440,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_JaccardDistance *_
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MatchingDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MatchingDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MatchingDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MatchingDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MatchingDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MatchingDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":827
+/* "gawml/neighbors/dist_metrics.pyx":827
  * # Dice Distance (boolean)
  * #  D(x, y) = n_neq / (2 * ntt + n_neq)
  * cdef class DiceDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1454,13 +1454,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MatchingDistance *
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DiceDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DiceDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DiceDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DiceDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DiceDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DiceDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":852
+/* "gawml/neighbors/dist_metrics.pyx":852
  * # Kulsinski Distance (boolean)
  * #  D(x, y) = (ntf + nft - ntt + n) / (n_neq + n)
  * cdef class KulsinskiDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1468,13 +1468,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DiceDistance *__py
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_KulsinskiDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_KulsinskiDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":877
+/* "gawml/neighbors/dist_metrics.pyx":877
  * # Rogers-Tanimoto Distance (boolean)
  * #  D(x, y) = 2 * n_neq / (n + n_neq)
  * cdef class RogersTanimotoDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1482,13 +1482,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_KulsinskiDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":901
+/* "gawml/neighbors/dist_metrics.pyx":901
  * # Russell-Rao Distance (boolean)
  * #  D(x, y) = (n - ntt) / n
  * cdef class RussellRaoDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1496,13 +1496,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RogersTanimotoDist
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RussellRaoDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RussellRaoDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":925
+/* "gawml/neighbors/dist_metrics.pyx":925
  * # Sokal-Michener Distance (boolean)
  * #  D(x, y) = 2 * n_neq / (n + n_neq)
  * cdef class SokalMichenerDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1510,13 +1510,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RussellRaoDistance
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":949
+/* "gawml/neighbors/dist_metrics.pyx":949
  * # Sokal-Sneath Distance (boolean)
  * #  D(x, y) = n_neq / (0.5 * n_tt + n_neq)
  * cdef class SokalSneathDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1524,13 +1524,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalMichenerDista
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalSneathDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalSneathDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":975
+/* "gawml/neighbors/dist_metrics.pyx":975
  * #  D(x, y) = 2 arcsin{sqrt[sin^2 ((x1 - y1) / 2)
  * #                          + cos(x1) cos(y1) sin^2 ((x2 - y2) / 2)]}
  * cdef class HaversineDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1538,13 +1538,13 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalSneathDistanc
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HaversineDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HaversineDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HaversineDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HaversineDistance;
 
 
-/* "gaw/neighbors/dist_metrics.pyx":1087
+/* "gawml/neighbors/dist_metrics.pyx":1087
  * # User-defined distance
  * #
  * cdef class PyFuncDistance(DistanceMetric):             # <<<<<<<<<<<<<<
@@ -1552,10 +1552,10 @@ static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HaversineDistance 
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_PyFuncDistance {
-  struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
+struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_PyFuncDistance {
+  struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_base;
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_PyFuncDistance *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_PyFuncDistance *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
 
 
 /* "View.MemoryView":103
@@ -2263,7 +2263,7 @@ static int __Pyx_ValidateAndInit_memviewslice(
                 PyObject *original_obj);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t(PyObject *);
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t(PyObject *);
 
 /* CheckBinaryVersion.proto */
 static int __Pyx_check_binary_version(void);
@@ -2286,50 +2286,50 @@ static PyTypeObject *__Pyx_ImportType(const char *module_name, const char *class
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_D); /* proto*/
-static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_Y, __Pyx_memviewslice __pyx_v_D); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_15HammingDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_16CanberraDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18BrayCurtisDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_15JaccardDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_16MatchingDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_12DiceDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17KulsinskiDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18RussellRaoDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_21SokalMichenerDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19SokalSneathDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static int __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_D); /* proto*/
+static int __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_Y, __Pyx_memviewslice __pyx_v_D); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_15HammingDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_16CanberraDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18BrayCurtisDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_15JaccardDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_16MatchingDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_12DiceDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17KulsinskiDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18RussellRaoDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_21SokalMichenerDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19SokalSneathDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist); /* proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size); /* proto*/
 static PyObject *__pyx_array_get_memview(struct __pyx_array_obj *__pyx_v_self); /* proto*/
 static char *__pyx_memoryview_get_item_pointer(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_index); /* proto*/
 static PyObject *__pyx_memoryview_is_slice(struct __pyx_memoryview_obj *__pyx_v_self, PyObject *__pyx_v_obj); /* proto*/
@@ -2377,35 +2377,35 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'gaw.neighbors.typedefs' */
+/* Module declarations from 'gawml.neighbors.typedefs' */
 
-/* Module declarations from 'gaw.neighbors.dist_metrics' */
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_EuclideanDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_SEuclideanDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_ChebyshevDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_MahalanobisDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_HammingDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_CanberraDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_JaccardDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_MatchingDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_DiceDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_KulsinskiDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_RussellRaoDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalSneathDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_HaversineDistance = 0;
-static PyTypeObject *__pyx_ptype_3gaw_9neighbors_12dist_metrics_PyFuncDistance = 0;
+/* Module declarations from 'gawml.neighbors.dist_metrics' */
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_EuclideanDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_SEuclideanDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_ChebyshevDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_MahalanobisDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_HammingDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_CanberraDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_JaccardDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_MatchingDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_DiceDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_KulsinskiDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_RussellRaoDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalSneathDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_HaversineDistance = 0;
+static PyTypeObject *__pyx_ptype_5gawml_9neighbors_12dist_metrics_PyFuncDistance = 0;
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
 static PyTypeObject *__pyx_memoryviewslice_type = 0;
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_3gaw_9neighbors_12dist_metrics_INF;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_5gawml_9neighbors_12dist_metrics_INF;
 static PyObject *generic = 0;
 static PyObject *strided = 0;
 static PyObject *indirect = 0;
@@ -2413,13 +2413,13 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_dist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t); /*proto*/
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_rdist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t); /*proto*/
-static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(PyArrayObject *); /*proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(PyArrayObject *); /*proto*/
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist_metrics_get_mat_ptr(PyArrayObject *); /*proto*/
-static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, npy_intp); /*proto*/
-static CYTHON_INLINE double __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(double, double); /*proto*/
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_dist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t); /*proto*/
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_rdist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t); /*proto*/
+static __Pyx_memviewslice __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(PyArrayObject *); /*proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(PyArrayObject *); /*proto*/
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_f_5gawml_9neighbors_12dist_metrics_get_mat_ptr(PyArrayObject *); /*proto*/
+static CYTHON_INLINE PyArrayObject *__pyx_f_5gawml_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, npy_intp); /*proto*/
+static CYTHON_INLINE double __pyx_f_5gawml_9neighbors_12dist_metrics_fmax(double, double); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2453,11 +2453,11 @@ static void __pyx_memoryview_refcount_objects_in_slice(char *, Py_ssize_t *, Py_
 static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size_t, void *, int); /*proto*/
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "gaw.neighbors.dist_metrics"
-int __pyx_module_is_main_gaw__neighbors__dist_metrics = 0;
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
+#define __Pyx_MODULE_NAME "gawml.neighbors.dist_metrics"
+int __pyx_module_is_main_gawml__neighbors__dist_metrics = 0;
 
-/* Implementation of 'gaw.neighbors.dist_metrics' */
+/* Implementation of 'gawml.neighbors.dist_metrics' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_NotImplementedError;
@@ -2592,15 +2592,15 @@ static const char __pyx_k_Cannot_index_with_type_s[] = "Cannot index with type '
 static const char __pyx_k_func_must_return_a_float[] = "func must return a float";
 static const char __pyx_k_p_must_be_greater_than_1[] = "p must be greater than 1";
 static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %d: %d.";
-static const char __pyx_k_gaw_neighbors_dist_metrics[] = "gaw.neighbors.dist_metrics";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
+static const char __pyx_k_gawml_neighbors_dist_metrics[] = "gawml.neighbors.dist_metrics";
 static const char __pyx_k_get_valid_metric_ids_line_92[] = "get_valid_metric_ids (line 92)";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_Mahalanobis_dist_size_of_V_does[] = "Mahalanobis dist: size of V does not match";
 static const char __pyx_k_Must_provide_either_V_or_VI_for[] = "Must provide either V or VI for Mahalanobis distance";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/neighbors/dist_metrics.pyx";
+static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gawml/neighbors/dist_metrics.pyx";
 static const char __pyx_k_WMinkowskiDistance_dist_size_of[] = "WMinkowskiDistance dist: size of w does not match";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
@@ -2703,7 +2703,7 @@ static PyObject *__pyx_n_u_fortran;
 static PyObject *__pyx_n_s_func;
 static PyObject *__pyx_kp_s_func_must_be_a_callable_taking_t;
 static PyObject *__pyx_kp_s_func_must_return_a_float;
-static PyObject *__pyx_n_s_gaw_neighbors_dist_metrics;
+static PyObject *__pyx_n_s_gawml_neighbors_dist_metrics;
 static PyObject *__pyx_n_s_get_metric;
 static PyObject *__pyx_n_s_get_valid_metric_ids;
 static PyObject *__pyx_kp_u_get_valid_metric_ids_line_92;
@@ -2782,38 +2782,38 @@ static PyObject *__pyx_n_s_val;
 static PyObject *__pyx_n_s_w;
 static PyObject *__pyx_n_s_wminkowski;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_L); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_state); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(CYTHON_UNUSED PyTypeObject *__pyx_v_cls, PyObject *__pyx_v_metric, PyObject *__pyx_v_kwargs); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_X, PyObject *__pyx_v_Y); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_V); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_w); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_V, PyObject *__pyx_v_VI); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, PyObject *__pyx_v_w); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, PyObject *__pyx_v_func, PyObject *__pyx_v_kwargs); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_2get_valid_metric_ids(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_L); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric___cinit__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_state); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(CYTHON_UNUSED PyTypeObject *__pyx_v_cls, PyObject *__pyx_v_metric, PyObject *__pyx_v_kwargs); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_10__init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_X, PyObject *__pyx_v_Y); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_V); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17ManhattanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_w); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_V, PyObject *__pyx_v_VI); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_15HammingDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, PyObject *__pyx_v_w); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_rdist); /* proto */
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_dist); /* proto */
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14PyFuncDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, PyObject *__pyx_v_func, PyObject *__pyx_v_kwargs); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
@@ -2848,27 +2848,27 @@ static PyObject *__pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_20
 static PyObject *__pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_22copy_fortran(struct __pyx_memoryview_obj *__pyx_v_self); /* proto */
 static void __pyx_memoryviewslice___pyx_pf_15View_dot_MemoryView_16_memoryviewslice___dealloc__(struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_15View_dot_MemoryView_16_memoryviewslice_4base___get__(struct __pyx_memoryviewslice_obj *__pyx_v_self); /* proto */
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_EuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SEuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_ManhattanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_ChebyshevDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MahalanobisDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_HammingDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_CanberraDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_JaccardDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MatchingDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_DiceDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_KulsinskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_RussellRaoDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalSneathDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_HaversineDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_PyFuncDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_EuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SEuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_ManhattanDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_ChebyshevDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MahalanobisDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_HammingDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_CanberraDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_JaccardDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MatchingDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_DiceDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_KulsinskiDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_RussellRaoDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalSneathDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_HaversineDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_PyFuncDistance(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
@@ -2928,7 +2928,7 @@ static PyObject *__pyx_tuple__53;
 static PyObject *__pyx_codeobj__46;
 static PyObject *__pyx_codeobj__48;
 
-/* "gaw/neighbors/dist_metrics.pyx":17
+/* "gawml/neighbors/dist_metrics.pyx":17
  * ######################################################################
  * # Numpy 1.3-1.4 compatibility utilities
  * cdef DTYPE_t[:, ::1] get_memview_DTYPE_2D(             # <<<<<<<<<<<<<<
@@ -2936,12 +2936,12 @@ static PyObject *__pyx_codeobj__48;
  *     return <DTYPE_t[:X.shape[0],:X.shape[1]:1]> (<DTYPE_t*> X.data)
  */
 
-static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(PyArrayObject *__pyx_v_X) {
+static __Pyx_memviewslice __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(PyArrayObject *__pyx_v_X) {
   __Pyx_LocalBuf_ND __pyx_pybuffernd_X;
   __Pyx_Buffer __pyx_pybuffer_X;
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_RefNannyDeclarations
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_t_1;
   struct __pyx_array_obj *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
   PyObject *__pyx_t_4 = NULL;
@@ -2953,33 +2953,33 @@ static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTY
   __pyx_pybuffernd_X.rcbuffer = &__pyx_pybuffer_X;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_X.rcbuffer->pybuffer, (PyObject*)__pyx_v_X, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 17, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_X.rcbuffer->pybuffer, (PyObject*)__pyx_v_X, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 17, __pyx_L1_error)
   }
   __pyx_pybuffernd_X.diminfo[0].strides = __pyx_pybuffernd_X.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X.diminfo[0].shape = __pyx_pybuffernd_X.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_X.diminfo[1].strides = __pyx_pybuffernd_X.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_X.diminfo[1].shape = __pyx_pybuffernd_X.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/neighbors/dist_metrics.pyx":19
+  /* "gawml/neighbors/dist_metrics.pyx":19
  * cdef DTYPE_t[:, ::1] get_memview_DTYPE_2D(
  *                                np.ndarray[DTYPE_t, ndim=2, mode='c'] X):
  *     return <DTYPE_t[:X.shape[0],:X.shape[1]:1]> (<DTYPE_t*> X.data)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_1 = ((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *)__pyx_v_X->data);
+  __pyx_t_1 = ((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *)__pyx_v_X->data);
   if (!__pyx_t_1) {
     PyErr_SetString(PyExc_ValueError,"Cannot create cython.array from NULL pointer");
     __PYX_ERR(1, 19, __pyx_L1_error)
   }
-  __pyx_t_4 = __pyx_format_from_typeinfo(&__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t);
+  __pyx_t_4 = __pyx_format_from_typeinfo(&__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t);
   __pyx_t_3 = Py_BuildValue((char*) "("  __PYX_BUILD_PY_SSIZE_T  __PYX_BUILD_PY_SSIZE_T  ")", ((Py_ssize_t)(__pyx_v_X->dimensions[0])), ((Py_ssize_t)(__pyx_v_X->dimensions[1])));
   if (unlikely(!__pyx_t_4 || !__pyx_t_3 || !PyBytes_AsString(__pyx_t_4))) __PYX_ERR(1, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __pyx_array_new(__pyx_t_3, sizeof(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t), PyBytes_AS_STRING(__pyx_t_4), (char *) "c", (char *) __pyx_t_1);
+  __pyx_t_2 = __pyx_array_new(__pyx_t_3, sizeof(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t), PyBytes_AS_STRING(__pyx_t_4), (char *) "c", (char *) __pyx_t_1);
   if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t(((PyObject *)__pyx_t_2));
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t(((PyObject *)__pyx_t_2));
   if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(1, 19, __pyx_L1_error)
   __Pyx_DECREF(((PyObject *)__pyx_t_2)); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_5;
@@ -2987,7 +2987,7 @@ static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTY
   __pyx_t_5.data = NULL;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":17
+  /* "gawml/neighbors/dist_metrics.pyx":17
  * ######################################################################
  * # Numpy 1.3-1.4 compatibility utilities
  * cdef DTYPE_t[:, ::1] get_memview_DTYPE_2D(             # <<<<<<<<<<<<<<
@@ -3009,7 +3009,7 @@ static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTY
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.get_memview_DTYPE_2D", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.get_memview_DTYPE_2D", __pyx_clineno, __pyx_lineno, __pyx_filename);
 
   goto __pyx_L2;
   __pyx_L0:;
@@ -3022,7 +3022,7 @@ static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTY
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":22
+/* "gawml/neighbors/dist_metrics.pyx":22
  * 
  * 
  * cdef DTYPE_t* get_vec_ptr(np.ndarray[DTYPE_t, ndim=1, mode='c'] vec):             # <<<<<<<<<<<<<<
@@ -3030,10 +3030,10 @@ static __Pyx_memviewslice __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTY
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(PyArrayObject *__pyx_v_vec) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(PyArrayObject *__pyx_v_vec) {
   __Pyx_LocalBuf_ND __pyx_pybuffernd_vec;
   __Pyx_Buffer __pyx_pybuffer_vec;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_r;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
   __Pyx_RefNannySetupContext("get_vec_ptr", 0);
@@ -3043,11 +3043,11 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
   __pyx_pybuffernd_vec.rcbuffer = &__pyx_pybuffer_vec;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_vec.rcbuffer->pybuffer, (PyObject*)__pyx_v_vec, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(1, 22, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_vec.rcbuffer->pybuffer, (PyObject*)__pyx_v_vec, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(1, 22, __pyx_L1_error)
   }
   __pyx_pybuffernd_vec.diminfo[0].strides = __pyx_pybuffernd_vec.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_vec.diminfo[0].shape = __pyx_pybuffernd_vec.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/neighbors/dist_metrics.pyx":23
+  /* "gawml/neighbors/dist_metrics.pyx":23
  * 
  * cdef DTYPE_t* get_vec_ptr(np.ndarray[DTYPE_t, ndim=1, mode='c'] vec):
  *     return &vec[0]             # <<<<<<<<<<<<<<
@@ -3055,10 +3055,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
  * 
  */
   __pyx_t_1 = 0;
-  __pyx_r = (&(*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_pybuffernd_vec.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_vec.diminfo[0].strides)));
+  __pyx_r = (&(*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_pybuffernd_vec.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_vec.diminfo[0].strides)));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":22
+  /* "gawml/neighbors/dist_metrics.pyx":22
  * 
  * 
  * cdef DTYPE_t* get_vec_ptr(np.ndarray[DTYPE_t, ndim=1, mode='c'] vec):             # <<<<<<<<<<<<<<
@@ -3074,7 +3074,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_vec.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.neighbors.dist_metrics.get_vec_ptr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.neighbors.dist_metrics.get_vec_ptr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3084,7 +3084,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":26
+/* "gawml/neighbors/dist_metrics.pyx":26
  * 
  * 
  * cdef DTYPE_t* get_mat_ptr(np.ndarray[DTYPE_t, ndim=2, mode='c'] mat):             # <<<<<<<<<<<<<<
@@ -3092,10 +3092,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
  * ######################################################################
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist_metrics_get_mat_ptr(PyArrayObject *__pyx_v_mat) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_f_5gawml_9neighbors_12dist_metrics_get_mat_ptr(PyArrayObject *__pyx_v_mat) {
   __Pyx_LocalBuf_ND __pyx_pybuffernd_mat;
   __Pyx_Buffer __pyx_pybuffer_mat;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_r;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
   Py_ssize_t __pyx_t_2;
@@ -3106,11 +3106,11 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
   __pyx_pybuffernd_mat.rcbuffer = &__pyx_pybuffer_mat;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_mat.rcbuffer->pybuffer, (PyObject*)__pyx_v_mat, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 26, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_mat.rcbuffer->pybuffer, (PyObject*)__pyx_v_mat, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 26, __pyx_L1_error)
   }
   __pyx_pybuffernd_mat.diminfo[0].strides = __pyx_pybuffernd_mat.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_mat.diminfo[0].shape = __pyx_pybuffernd_mat.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_mat.diminfo[1].strides = __pyx_pybuffernd_mat.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_mat.diminfo[1].shape = __pyx_pybuffernd_mat.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/neighbors/dist_metrics.pyx":27
+  /* "gawml/neighbors/dist_metrics.pyx":27
  * 
  * cdef DTYPE_t* get_mat_ptr(np.ndarray[DTYPE_t, ndim=2, mode='c'] mat):
  *     return &mat[0, 0]             # <<<<<<<<<<<<<<
@@ -3119,10 +3119,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
  */
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_r = (&(*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_pybuffernd_mat.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_mat.diminfo[0].strides, __pyx_t_2, __pyx_pybuffernd_mat.diminfo[1].strides)));
+  __pyx_r = (&(*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_pybuffernd_mat.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_mat.diminfo[0].strides, __pyx_t_2, __pyx_pybuffernd_mat.diminfo[1].strides)));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":26
+  /* "gawml/neighbors/dist_metrics.pyx":26
  * 
  * 
  * cdef DTYPE_t* get_mat_ptr(np.ndarray[DTYPE_t, ndim=2, mode='c'] mat):             # <<<<<<<<<<<<<<
@@ -3138,7 +3138,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_mat.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.neighbors.dist_metrics.get_mat_ptr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.neighbors.dist_metrics.get_mat_ptr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3148,7 +3148,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":37
+/* "gawml/neighbors/dist_metrics.pyx":37
  * 
  * 
  * cdef inline np.ndarray _buffer_to_ndarray(DTYPE_t* x, np.npy_intp n):             # <<<<<<<<<<<<<<
@@ -3156,13 +3156,13 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_f_3gaw_9neighbors_12dist
  *     # In particular, if x is deallocated before the returned array goes
  */
 
-static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x, npy_intp __pyx_v_n) {
+static CYTHON_INLINE PyArrayObject *__pyx_f_5gawml_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x, npy_intp __pyx_v_n) {
   PyArrayObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("_buffer_to_ndarray", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":44
+  /* "gawml/neighbors/dist_metrics.pyx":44
  * 
  *     # Note: this Segfaults unless np.import_array() is called above
  *     return PyArray_SimpleNewFromData(1, &n, DTYPECODE, <void*>x)             # <<<<<<<<<<<<<<
@@ -3170,14 +3170,14 @@ static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buff
  * 
  */
   __Pyx_XDECREF(((PyObject *)__pyx_r));
-  __pyx_t_1 = PyArray_SimpleNewFromData(1, (&__pyx_v_n), __pyx_e_3gaw_9neighbors_8typedefs_DTYPECODE, ((void *)__pyx_v_x)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 44, __pyx_L1_error)
+  __pyx_t_1 = PyArray_SimpleNewFromData(1, (&__pyx_v_n), __pyx_e_5gawml_9neighbors_8typedefs_DTYPECODE, ((void *)__pyx_v_x)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 44, __pyx_L1_error)
   __pyx_r = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":37
+  /* "gawml/neighbors/dist_metrics.pyx":37
  * 
  * 
  * cdef inline np.ndarray _buffer_to_ndarray(DTYPE_t* x, np.npy_intp n):             # <<<<<<<<<<<<<<
@@ -3188,7 +3188,7 @@ static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buff
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics._buffer_to_ndarray", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics._buffer_to_ndarray", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF((PyObject *)__pyx_r);
@@ -3196,7 +3196,7 @@ static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buff
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":58
+/* "gawml/neighbors/dist_metrics.pyx":58
  * # newObj function
  * #  this is a helper function for pickling
  * def newObj(obj):             # <<<<<<<<<<<<<<
@@ -3205,20 +3205,20 @@ static CYTHON_INLINE PyArrayObject *__pyx_f_3gaw_9neighbors_12dist_metrics__buff
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_1newObj(PyObject *__pyx_self, PyObject *__pyx_v_obj); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_9neighbors_12dist_metrics_1newObj = {"newObj", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_1newObj, METH_O, 0};
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_1newObj(PyObject *__pyx_self, PyObject *__pyx_v_obj) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_1newObj(PyObject *__pyx_self, PyObject *__pyx_v_obj); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_9neighbors_12dist_metrics_1newObj = {"newObj", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_1newObj, METH_O, 0};
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_1newObj(PyObject *__pyx_self, PyObject *__pyx_v_obj) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("newObj (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(__pyx_self, ((PyObject *)__pyx_v_obj));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_newObj(__pyx_self, ((PyObject *)__pyx_v_obj));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_obj) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3227,7 +3227,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED Py
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("newObj", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":59
+  /* "gawml/neighbors/dist_metrics.pyx":59
  * #  this is a helper function for pickling
  * def newObj(obj):
  *     return obj.__new__(obj)             # <<<<<<<<<<<<<<
@@ -3266,7 +3266,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED Py
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":58
+  /* "gawml/neighbors/dist_metrics.pyx":58
  * # newObj function
  * #  this is a helper function for pickling
  * def newObj(obj):             # <<<<<<<<<<<<<<
@@ -3280,7 +3280,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.newObj", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.newObj", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3288,7 +3288,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":92
+/* "gawml/neighbors/dist_metrics.pyx":92
  * 
  * 
  * def get_valid_metric_ids(L):             # <<<<<<<<<<<<<<
@@ -3297,21 +3297,21 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_newObj(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_3get_valid_metric_ids(PyObject *__pyx_self, PyObject *__pyx_v_L); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids[] = "Given an iterable of metric class names or class identifiers,\n    return a list of metric IDs which map to those classes.\n\n    Example:\n    >>> L = get_valid_metric_ids([EuclideanDistance, 'ManhattanDistance'])\n    >>> sorted(L)\n    ['cityblock', 'euclidean', 'l1', 'l2', 'manhattan']\n    ";
-static PyMethodDef __pyx_mdef_3gaw_9neighbors_12dist_metrics_3get_valid_metric_ids = {"get_valid_metric_ids", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_3get_valid_metric_ids, METH_O, __pyx_doc_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids};
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_3get_valid_metric_ids(PyObject *__pyx_self, PyObject *__pyx_v_L) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_3get_valid_metric_ids(PyObject *__pyx_self, PyObject *__pyx_v_L); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_2get_valid_metric_ids[] = "Given an iterable of metric class names or class identifiers,\n    return a list of metric IDs which map to those classes.\n\n    Example:\n    >>> L = get_valid_metric_ids([EuclideanDistance, 'ManhattanDistance'])\n    >>> sorted(L)\n    ['cityblock', 'euclidean', 'l1', 'l2', 'manhattan']\n    ";
+static PyMethodDef __pyx_mdef_5gawml_9neighbors_12dist_metrics_3get_valid_metric_ids = {"get_valid_metric_ids", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_3get_valid_metric_ids, METH_O, __pyx_doc_5gawml_9neighbors_12dist_metrics_2get_valid_metric_ids};
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_3get_valid_metric_ids(PyObject *__pyx_self, PyObject *__pyx_v_L) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_valid_metric_ids (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(__pyx_self, ((PyObject *)__pyx_v_L));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_2get_valid_metric_ids(__pyx_self, ((PyObject *)__pyx_v_L));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_L) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_2get_valid_metric_ids(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_L) {
   PyObject *__pyx_v_key = NULL;
   PyObject *__pyx_v_val = NULL;
   PyObject *__pyx_r = NULL;
@@ -3330,7 +3330,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
   int __pyx_t_12;
   __Pyx_RefNannySetupContext("get_valid_metric_ids", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":101
+  /* "gawml/neighbors/dist_metrics.pyx":101
  *     ['cityblock', 'euclidean', 'l1', 'l2', 'manhattan']
  *     """
  *     return [key for (key, val) in METRIC_MAPPING.items()             # <<<<<<<<<<<<<<
@@ -3458,7 +3458,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
     __Pyx_XDECREF_SET(__pyx_v_val, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":102
+    /* "gawml/neighbors/dist_metrics.pyx":102
  *     """
  *     return [key for (key, val) in METRIC_MAPPING.items()
  *             if (val.__name__ in L) or (val in L)]             # <<<<<<<<<<<<<<
@@ -3481,7 +3481,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
     __pyx_L8_bool_binop_done:;
     if (__pyx_t_10) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":101
+      /* "gawml/neighbors/dist_metrics.pyx":101
  *     ['cityblock', 'euclidean', 'l1', 'l2', 'manhattan']
  *     """
  *     return [key for (key, val) in METRIC_MAPPING.items()             # <<<<<<<<<<<<<<
@@ -3490,7 +3490,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
  */
       if (unlikely(__Pyx_ListComp_Append(__pyx_t_1, (PyObject*)__pyx_v_key))) __PYX_ERR(1, 101, __pyx_L1_error)
 
-      /* "gaw/neighbors/dist_metrics.pyx":102
+      /* "gawml/neighbors/dist_metrics.pyx":102
  *     """
  *     return [key for (key, val) in METRIC_MAPPING.items()
  *             if (val.__name__ in L) or (val in L)]             # <<<<<<<<<<<<<<
@@ -3499,7 +3499,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":101
+    /* "gawml/neighbors/dist_metrics.pyx":101
  *     ['cityblock', 'euclidean', 'l1', 'l2', 'manhattan']
  *     """
  *     return [key for (key, val) in METRIC_MAPPING.items()             # <<<<<<<<<<<<<<
@@ -3512,7 +3512,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":92
+  /* "gawml/neighbors/dist_metrics.pyx":92
  * 
  * 
  * def get_valid_metric_ids(L):             # <<<<<<<<<<<<<<
@@ -3528,7 +3528,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.get_valid_metric_ids", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.get_valid_metric_ids", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_key);
@@ -3538,7 +3538,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":211
+/* "gawml/neighbors/dist_metrics.pyx":211
  *     scaling as other distances.
  *     """
  *     def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -3547,22 +3547,22 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_2get_valid_metric_ids(C
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__cinit__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__cinit__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__cinit__", 0))) return -1;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric___cinit__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric___cinit__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3570,7 +3570,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
   PyObject *__pyx_t_3 = NULL;
   __Pyx_RefNannySetupContext("__cinit__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":212
+  /* "gawml/neighbors/dist_metrics.pyx":212
  *     """
  *     def __cinit__(self):
  *         self.p = 2             # <<<<<<<<<<<<<<
@@ -3579,7 +3579,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
  */
   __pyx_v_self->p = 2.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":213
+  /* "gawml/neighbors/dist_metrics.pyx":213
  *     def __cinit__(self):
  *         self.p = 2
  *         self.vec = np.zeros(1, dtype=DTYPE, order='c')             # <<<<<<<<<<<<<<
@@ -3609,7 +3609,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
   __pyx_v_self->vec = ((PyArrayObject *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":214
+  /* "gawml/neighbors/dist_metrics.pyx":214
  *         self.p = 2
  *         self.vec = np.zeros(1, dtype=DTYPE, order='c')
  *         self.mat = np.zeros((1, 1), dtype=DTYPE, order='c')             # <<<<<<<<<<<<<<
@@ -3639,7 +3639,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
   __pyx_v_self->mat = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":215
+  /* "gawml/neighbors/dist_metrics.pyx":215
  *         self.vec = np.zeros(1, dtype=DTYPE, order='c')
  *         self.mat = np.zeros((1, 1), dtype=DTYPE, order='c')
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -3648,10 +3648,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
  */
   __pyx_t_2 = ((PyObject *)__pyx_v_self->vec);
   __Pyx_INCREF(__pyx_t_2);
-  __pyx_v_self->vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_2));
+  __pyx_v_self->vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_2));
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":216
+  /* "gawml/neighbors/dist_metrics.pyx":216
  *         self.mat = np.zeros((1, 1), dtype=DTYPE, order='c')
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.mat_ptr = get_mat_ptr(self.mat)             # <<<<<<<<<<<<<<
@@ -3660,10 +3660,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
  */
   __pyx_t_2 = ((PyObject *)__pyx_v_self->mat);
   __Pyx_INCREF(__pyx_t_2);
-  __pyx_v_self->mat_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_2));
+  __pyx_v_self->mat_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_2));
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":217
+  /* "gawml/neighbors/dist_metrics.pyx":217
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.mat_ptr = get_mat_ptr(self.mat)
  *         self.size = 1             # <<<<<<<<<<<<<<
@@ -3672,7 +3672,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
  */
   __pyx_v_self->size = 1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":211
+  /* "gawml/neighbors/dist_metrics.pyx":211
  *     scaling as other distances.
  *     """
  *     def __cinit__(self):             # <<<<<<<<<<<<<<
@@ -3687,14 +3687,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":219
+/* "gawml/neighbors/dist_metrics.pyx":219
  *         self.size = 1
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -3703,20 +3703,20 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric___cinit__(st
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__[] = "\n        reduce method used for pickling\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__[] = "\n        reduce method used for pickling\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__reduce__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3726,7 +3726,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__red
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("__reduce__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":223
+  /* "gawml/neighbors/dist_metrics.pyx":223
  *         reduce method used for pickling
  *         """
  *         return (newObj, (self.__class__,), self.__getstate__())             # <<<<<<<<<<<<<<
@@ -3778,7 +3778,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__red
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":219
+  /* "gawml/neighbors/dist_metrics.pyx":219
  *         self.size = 1
  * 
  *     def __reduce__(self):             # <<<<<<<<<<<<<<
@@ -3793,7 +3793,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__red
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.__reduce__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.__reduce__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3801,7 +3801,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__red
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":225
+/* "gawml/neighbors/dist_metrics.pyx":225
  *         return (newObj, (self.__class__,), self.__getstate__())
  * 
  *     def __getstate__(self):             # <<<<<<<<<<<<<<
@@ -3810,20 +3810,20 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__red
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__[] = "\n        get state for pickling\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__[] = "\n        get state for pickling\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__getstate__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3831,7 +3831,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
   int __pyx_t_3;
   __Pyx_RefNannySetupContext("__getstate__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":229
+  /* "gawml/neighbors/dist_metrics.pyx":229
  *         get state for pickling
  *         """
  *         if self.__class__.__name__ == "PyFuncDistance":             # <<<<<<<<<<<<<<
@@ -3847,7 +3847,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_3) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":230
+    /* "gawml/neighbors/dist_metrics.pyx":230
  *         """
  *         if self.__class__.__name__ == "PyFuncDistance":
  *             return (float(self.p), self.vec, self.mat, self.func, self.kwargs)             # <<<<<<<<<<<<<<
@@ -3878,7 +3878,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":229
+    /* "gawml/neighbors/dist_metrics.pyx":229
  *         get state for pickling
  *         """
  *         if self.__class__.__name__ == "PyFuncDistance":             # <<<<<<<<<<<<<<
@@ -3887,7 +3887,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":231
+  /* "gawml/neighbors/dist_metrics.pyx":231
  *         if self.__class__.__name__ == "PyFuncDistance":
  *             return (float(self.p), self.vec, self.mat, self.func, self.kwargs)
  *         return (float(self.p), self.vec, self.mat)             # <<<<<<<<<<<<<<
@@ -3912,7 +3912,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":225
+  /* "gawml/neighbors/dist_metrics.pyx":225
  *         return (newObj, (self.__class__,), self.__getstate__())
  * 
  *     def __getstate__(self):             # <<<<<<<<<<<<<<
@@ -3924,7 +3924,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.__getstate__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.__getstate__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3932,7 +3932,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":233
+/* "gawml/neighbors/dist_metrics.pyx":233
  *         return (float(self.p), self.vec, self.mat)
  * 
  *     def __setstate__(self, state):             # <<<<<<<<<<<<<<
@@ -3941,29 +3941,29 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__get
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__(PyObject *__pyx_v_self, PyObject *__pyx_v_state); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__[] = "\n        set state for pickling\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__(PyObject *__pyx_v_self, PyObject *__pyx_v_state) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__(PyObject *__pyx_v_self, PyObject *__pyx_v_state); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__[] = "\n        set state for pickling\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__(PyObject *__pyx_v_self, PyObject *__pyx_v_state) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__setstate__ (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_state));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_state));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_state) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_state) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_2;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_2;
   PyObject *__pyx_t_3 = NULL;
   int __pyx_t_4;
   __Pyx_RefNannySetupContext("__setstate__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":237
+  /* "gawml/neighbors/dist_metrics.pyx":237
  *         set state for pickling
  *         """
  *         self.p = state[0]             # <<<<<<<<<<<<<<
@@ -3976,7 +3976,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->p = __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":238
+  /* "gawml/neighbors/dist_metrics.pyx":238
  *         """
  *         self.p = state[0]
  *         self.vec = state[1]             # <<<<<<<<<<<<<<
@@ -3992,7 +3992,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   __pyx_v_self->vec = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":239
+  /* "gawml/neighbors/dist_metrics.pyx":239
  *         self.p = state[0]
  *         self.vec = state[1]
  *         self.mat = state[2]             # <<<<<<<<<<<<<<
@@ -4008,7 +4008,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   __pyx_v_self->mat = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":240
+  /* "gawml/neighbors/dist_metrics.pyx":240
  *         self.vec = state[1]
  *         self.mat = state[2]
  *         if self.__class__.__name__ == "PyFuncDistance":             # <<<<<<<<<<<<<<
@@ -4024,7 +4024,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":241
+    /* "gawml/neighbors/dist_metrics.pyx":241
  *         self.mat = state[2]
  *         if self.__class__.__name__ == "PyFuncDistance":
  *             self.func = state[3]             # <<<<<<<<<<<<<<
@@ -4039,7 +4039,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
     __pyx_v_self->func = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":242
+    /* "gawml/neighbors/dist_metrics.pyx":242
  *         if self.__class__.__name__ == "PyFuncDistance":
  *             self.func = state[3]
  *             self.kwargs = state[4]             # <<<<<<<<<<<<<<
@@ -4054,7 +4054,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
     __pyx_v_self->kwargs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":240
+    /* "gawml/neighbors/dist_metrics.pyx":240
  *         self.vec = state[1]
  *         self.mat = state[2]
  *         if self.__class__.__name__ == "PyFuncDistance":             # <<<<<<<<<<<<<<
@@ -4063,7 +4063,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":243
+  /* "gawml/neighbors/dist_metrics.pyx":243
  *             self.func = state[3]
  *             self.kwargs = state[4]
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -4072,10 +4072,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
  */
   __pyx_t_3 = ((PyObject *)__pyx_v_self->vec);
   __Pyx_INCREF(__pyx_t_3);
-  __pyx_v_self->vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_3));
+  __pyx_v_self->vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_3));
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":244
+  /* "gawml/neighbors/dist_metrics.pyx":244
  *             self.kwargs = state[4]
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.mat_ptr = get_mat_ptr(self.mat)             # <<<<<<<<<<<<<<
@@ -4084,10 +4084,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
  */
   __pyx_t_3 = ((PyObject *)__pyx_v_self->mat);
   __Pyx_INCREF(__pyx_t_3);
-  __pyx_v_self->mat_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_3));
+  __pyx_v_self->mat_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_3));
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":245
+  /* "gawml/neighbors/dist_metrics.pyx":245
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.mat_ptr = get_mat_ptr(self.mat)
  *         self.size = self.vec.shape[0]             # <<<<<<<<<<<<<<
@@ -4096,7 +4096,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
  */
   __pyx_v_self->size = (__pyx_v_self->vec->dimensions[0]);
 
-  /* "gaw/neighbors/dist_metrics.pyx":233
+  /* "gawml/neighbors/dist_metrics.pyx":233
  *         return (float(self.p), self.vec, self.mat)
  * 
  *     def __setstate__(self, state):             # <<<<<<<<<<<<<<
@@ -4110,7 +4110,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.__setstate__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.__setstate__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -4118,7 +4118,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":248
+/* "gawml/neighbors/dist_metrics.pyx":248
  * 
  *     @classmethod
  *     def get_metric(cls, metric, **kwargs):             # <<<<<<<<<<<<<<
@@ -4127,9 +4127,9 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__set
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_9get_metric(PyObject *__pyx_v_cls, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_metric[] = "Get the given distance metric from the string identifier.\n\n        See the docstring of DistanceMetric for a list of available metrics.\n\n        Parameters\n        ----------\n        metric : string or class name\n            The distance metric to use\n        **kwargs\n            additional arguments will be passed to the requested metric\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_9get_metric(PyObject *__pyx_v_cls, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_9get_metric(PyObject *__pyx_v_cls, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_8get_metric[] = "Get the given distance metric from the string identifier.\n\n        See the docstring of DistanceMetric for a list of available metrics.\n\n        Parameters\n        ----------\n        metric : string or class name\n            The distance metric to use\n        **kwargs\n            additional arguments will be passed to the requested metric\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_9get_metric(PyObject *__pyx_v_cls, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_metric = 0;
   PyObject *__pyx_v_kwargs = 0;
   PyObject *__pyx_r = 0;
@@ -4169,11 +4169,11 @@ static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_9get_m
   __Pyx_RaiseArgtupleInvalid("get_metric", 1, 1, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 248, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_kwargs); __pyx_v_kwargs = 0;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(((PyTypeObject*)__pyx_v_cls), __pyx_v_metric, __pyx_v_kwargs);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(((PyTypeObject*)__pyx_v_cls), __pyx_v_metric, __pyx_v_kwargs);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_kwargs);
@@ -4181,7 +4181,7 @@ static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_9get_m
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(CYTHON_UNUSED PyTypeObject *__pyx_v_cls, PyObject *__pyx_v_metric, PyObject *__pyx_v_kwargs) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_8get_metric(CYTHON_UNUSED PyTypeObject *__pyx_v_cls, PyObject *__pyx_v_metric, PyObject *__pyx_v_kwargs) {
   PyObject *__pyx_v_p = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -4199,18 +4199,18 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
   __Pyx_RefNannySetupContext("get_metric", 0);
   __Pyx_INCREF(__pyx_v_metric);
 
-  /* "gaw/neighbors/dist_metrics.pyx":260
+  /* "gawml/neighbors/dist_metrics.pyx":260
  *             additional arguments will be passed to the requested metric
  *         """
  *         if isinstance(metric, DistanceMetric):             # <<<<<<<<<<<<<<
  *             return metric
  * 
  */
-  __pyx_t_1 = __Pyx_TypeCheck(__pyx_v_metric, __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric); 
+  __pyx_t_1 = __Pyx_TypeCheck(__pyx_v_metric, __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric); 
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":261
+    /* "gawml/neighbors/dist_metrics.pyx":261
  *         """
  *         if isinstance(metric, DistanceMetric):
  *             return metric             # <<<<<<<<<<<<<<
@@ -4222,7 +4222,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __pyx_r = __pyx_v_metric;
     goto __pyx_L0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":260
+    /* "gawml/neighbors/dist_metrics.pyx":260
  *             additional arguments will be passed to the requested metric
  *         """
  *         if isinstance(metric, DistanceMetric):             # <<<<<<<<<<<<<<
@@ -4231,7 +4231,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":263
+  /* "gawml/neighbors/dist_metrics.pyx":263
  *             return metric
  * 
  *         if callable(metric):             # <<<<<<<<<<<<<<
@@ -4242,7 +4242,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":264
+    /* "gawml/neighbors/dist_metrics.pyx":264
  * 
  *         if callable(metric):
  *             return PyFuncDistance(metric, **kwargs)             # <<<<<<<<<<<<<<
@@ -4255,14 +4255,14 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __Pyx_INCREF(__pyx_v_metric);
     __Pyx_GIVEREF(__pyx_v_metric);
     PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_metric);
-    __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_PyFuncDistance), __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 264, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_PyFuncDistance), __pyx_t_3, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 264, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
     __pyx_t_4 = 0;
     goto __pyx_L0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":263
+    /* "gawml/neighbors/dist_metrics.pyx":263
  *             return metric
  * 
  *         if callable(metric):             # <<<<<<<<<<<<<<
@@ -4271,7 +4271,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":267
+  /* "gawml/neighbors/dist_metrics.pyx":267
  * 
  *         # Map the metric string ID to the metric class
  *         if isinstance(metric, type) and issubclass(metric, DistanceMetric):             # <<<<<<<<<<<<<<
@@ -4285,7 +4285,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __pyx_t_1 = __pyx_t_5;
     goto __pyx_L6_bool_binop_done;
   }
-  __pyx_t_5 = PyObject_IsSubclass(__pyx_v_metric, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric)); if (unlikely(__pyx_t_5 == -1)) __PYX_ERR(1, 267, __pyx_L1_error)
+  __pyx_t_5 = PyObject_IsSubclass(__pyx_v_metric, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric)); if (unlikely(__pyx_t_5 == -1)) __PYX_ERR(1, 267, __pyx_L1_error)
   __pyx_t_2 = (__pyx_t_5 != 0);
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
@@ -4293,7 +4293,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     goto __pyx_L5;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":270
+  /* "gawml/neighbors/dist_metrics.pyx":270
  *             pass
  *         else:
  *             try:             # <<<<<<<<<<<<<<
@@ -4310,7 +4310,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
       __Pyx_XGOTREF(__pyx_t_8);
       /*try:*/ {
 
-        /* "gaw/neighbors/dist_metrics.pyx":271
+        /* "gawml/neighbors/dist_metrics.pyx":271
  *         else:
  *             try:
  *                 metric = METRIC_MAPPING[metric]             # <<<<<<<<<<<<<<
@@ -4325,7 +4325,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
         __Pyx_DECREF_SET(__pyx_v_metric, __pyx_t_3);
         __pyx_t_3 = 0;
 
-        /* "gaw/neighbors/dist_metrics.pyx":270
+        /* "gawml/neighbors/dist_metrics.pyx":270
  *             pass
  *         else:
  *             try:             # <<<<<<<<<<<<<<
@@ -4342,7 +4342,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":272
+      /* "gawml/neighbors/dist_metrics.pyx":272
  *             try:
  *                 metric = METRIC_MAPPING[metric]
  *             except:             # <<<<<<<<<<<<<<
@@ -4350,13 +4350,13 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  * 
  */
       /*except:*/ {
-        __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
+        __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
         if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_4, &__pyx_t_9) < 0) __PYX_ERR(1, 272, __pyx_L10_except_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_GOTREF(__pyx_t_9);
 
-        /* "gaw/neighbors/dist_metrics.pyx":273
+        /* "gawml/neighbors/dist_metrics.pyx":273
  *                 metric = METRIC_MAPPING[metric]
  *             except:
  *                 raise ValueError("Unrecognized metric '%s'" % metric)             # <<<<<<<<<<<<<<
@@ -4379,7 +4379,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
       }
       __pyx_L10_except_error:;
 
-      /* "gaw/neighbors/dist_metrics.pyx":270
+      /* "gawml/neighbors/dist_metrics.pyx":270
  *             pass
  *         else:
  *             try:             # <<<<<<<<<<<<<<
@@ -4397,18 +4397,18 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
   }
   __pyx_L5:;
 
-  /* "gaw/neighbors/dist_metrics.pyx":276
+  /* "gawml/neighbors/dist_metrics.pyx":276
  * 
  *         # In Minkowski special cases, return more efficient methods
  *         if metric is MinkowskiDistance:             # <<<<<<<<<<<<<<
  *             p = kwargs.pop('p', 2)
  *             if p == 1:
  */
-  __pyx_t_1 = (__pyx_v_metric == ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance));
+  __pyx_t_1 = (__pyx_v_metric == ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance));
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":277
+    /* "gawml/neighbors/dist_metrics.pyx":277
  *         # In Minkowski special cases, return more efficient methods
  *         if metric is MinkowskiDistance:
  *             p = kwargs.pop('p', 2)             # <<<<<<<<<<<<<<
@@ -4423,7 +4423,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __pyx_v_p = __pyx_t_4;
     __pyx_t_4 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":278
+    /* "gawml/neighbors/dist_metrics.pyx":278
  *         if metric is MinkowskiDistance:
  *             p = kwargs.pop('p', 2)
  *             if p == 1:             # <<<<<<<<<<<<<<
@@ -4436,7 +4436,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_2) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":279
+      /* "gawml/neighbors/dist_metrics.pyx":279
  *             p = kwargs.pop('p', 2)
  *             if p == 1:
  *                 return ManhattanDistance(**kwargs)             # <<<<<<<<<<<<<<
@@ -4444,13 +4444,13 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  *                 return EuclideanDistance(**kwargs)
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 279, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 279, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_r = __pyx_t_4;
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":278
+      /* "gawml/neighbors/dist_metrics.pyx":278
  *         if metric is MinkowskiDistance:
  *             p = kwargs.pop('p', 2)
  *             if p == 1:             # <<<<<<<<<<<<<<
@@ -4459,7 +4459,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":280
+    /* "gawml/neighbors/dist_metrics.pyx":280
  *             if p == 1:
  *                 return ManhattanDistance(**kwargs)
  *             elif p == 2:             # <<<<<<<<<<<<<<
@@ -4472,7 +4472,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_2) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":281
+      /* "gawml/neighbors/dist_metrics.pyx":281
  *                 return ManhattanDistance(**kwargs)
  *             elif p == 2:
  *                 return EuclideanDistance(**kwargs)             # <<<<<<<<<<<<<<
@@ -4480,13 +4480,13 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  *                 return ChebyshevDistance(**kwargs)
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_EuclideanDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 281, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_EuclideanDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 281, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_r = __pyx_t_4;
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":280
+      /* "gawml/neighbors/dist_metrics.pyx":280
  *             if p == 1:
  *                 return ManhattanDistance(**kwargs)
  *             elif p == 2:             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":282
+    /* "gawml/neighbors/dist_metrics.pyx":282
  *             elif p == 2:
  *                 return EuclideanDistance(**kwargs)
  *             elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -4536,7 +4536,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_2) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":283
+      /* "gawml/neighbors/dist_metrics.pyx":283
  *                 return EuclideanDistance(**kwargs)
  *             elif np.isinf(p):
  *                 return ChebyshevDistance(**kwargs)             # <<<<<<<<<<<<<<
@@ -4544,13 +4544,13 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  *                 return MinkowskiDistance(p, **kwargs)
  */
       __Pyx_XDECREF(__pyx_r);
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ChebyshevDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 283, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ChebyshevDistance), __pyx_empty_tuple, __pyx_v_kwargs); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 283, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_r = __pyx_t_4;
       __pyx_t_4 = 0;
       goto __pyx_L0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":282
+      /* "gawml/neighbors/dist_metrics.pyx":282
  *             elif p == 2:
  *                 return EuclideanDistance(**kwargs)
  *             elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -4559,7 +4559,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":285
+    /* "gawml/neighbors/dist_metrics.pyx":285
  *                 return ChebyshevDistance(**kwargs)
  *             else:
  *                 return MinkowskiDistance(p, **kwargs)             # <<<<<<<<<<<<<<
@@ -4573,7 +4573,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
       __Pyx_INCREF(__pyx_v_p);
       __Pyx_GIVEREF(__pyx_v_p);
       PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_p);
-      __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance), __pyx_t_4, __pyx_v_kwargs); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 285, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance), __pyx_t_4, __pyx_v_kwargs); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 285, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __pyx_r = __pyx_t_3;
@@ -4581,7 +4581,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
       goto __pyx_L0;
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":276
+    /* "gawml/neighbors/dist_metrics.pyx":276
  * 
  *         # In Minkowski special cases, return more efficient methods
  *         if metric is MinkowskiDistance:             # <<<<<<<<<<<<<<
@@ -4590,7 +4590,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":287
+  /* "gawml/neighbors/dist_metrics.pyx":287
  *                 return MinkowskiDistance(p, **kwargs)
  *         else:
  *             return metric(**kwargs)             # <<<<<<<<<<<<<<
@@ -4606,7 +4606,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
     goto __pyx_L0;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":248
+  /* "gawml/neighbors/dist_metrics.pyx":248
  * 
  *     @classmethod
  *     def get_metric(cls, metric, **kwargs):             # <<<<<<<<<<<<<<
@@ -4621,7 +4621,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.get_metric", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_p);
@@ -4631,7 +4631,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":289
+/* "gawml/neighbors/dist_metrics.pyx":289
  *             return metric(**kwargs)
  * 
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -4640,22 +4640,22 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_m
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_10__init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_10__init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4663,7 +4663,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
   int __pyx_t_3;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":290
+  /* "gawml/neighbors/dist_metrics.pyx":290
  * 
  *     def __init__(self):
  *         if self.__class__ is DistanceMetric:             # <<<<<<<<<<<<<<
@@ -4672,12 +4672,12 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_class); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__pyx_t_1 == ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric));
+  __pyx_t_2 = (__pyx_t_1 == ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric));
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":291
+    /* "gawml/neighbors/dist_metrics.pyx":291
  *     def __init__(self):
  *         if self.__class__ is DistanceMetric:
  *             raise NotImplementedError("DistanceMetric is an abstract class")             # <<<<<<<<<<<<<<
@@ -4690,7 +4690,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(1, 291, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":290
+    /* "gawml/neighbors/dist_metrics.pyx":290
  * 
  *     def __init__(self):
  *         if self.__class__ is DistanceMetric:             # <<<<<<<<<<<<<<
@@ -4699,7 +4699,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":289
+  /* "gawml/neighbors/dist_metrics.pyx":289
  *             return metric(**kwargs)
  * 
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -4712,14 +4712,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":293
+/* "gawml/neighbors/dist_metrics.pyx":293
  *             raise NotImplementedError("DistanceMetric is an abstract class")
  * 
  *     cdef DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -4727,10 +4727,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_10__init__(s
  *         """Compute the distance between vectors x1 and x2
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, CYTHON_UNUSED __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, CYTHON_UNUSED __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":299
+  /* "gawml/neighbors/dist_metrics.pyx":299
  *         This should be overridden in a base class.
  *         """
  *         return -999             # <<<<<<<<<<<<<<
@@ -4740,7 +4740,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = -999.0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":293
+  /* "gawml/neighbors/dist_metrics.pyx":293
  *             raise NotImplementedError("DistanceMetric is an abstract class")
  * 
  *     cdef DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -4753,7 +4753,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":301
+/* "gawml/neighbors/dist_metrics.pyx":301
  *         return -999
  * 
  *     cdef DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -4761,22 +4761,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         """Compute the reduced distance between vectors x1 and x2.
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":312
+  /* "gawml/neighbors/dist_metrics.pyx":312
  *         distance.
  *         """
  *         return self.dist(x1, x2, size)             # <<<<<<<<<<<<<<
  * 
  *     cdef int pdist(self, DTYPE_t[:, ::1] X, DTYPE_t[:, ::1] D) except -1:
  */
-  __pyx_t_1 = ((struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 312, __pyx_L1_error)
+  __pyx_t_1 = ((struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 312, __pyx_L1_error)
   __pyx_r = __pyx_t_1;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":301
+  /* "gawml/neighbors/dist_metrics.pyx":301
  *         return -999
  * 
  *     cdef DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -4790,7 +4790,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -4800,7 +4800,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":314
+/* "gawml/neighbors/dist_metrics.pyx":314
  *         return self.dist(x1, x2, size)
  * 
  *     cdef int pdist(self, DTYPE_t[:, ::1] X, DTYPE_t[:, ::1] D) except -1:             # <<<<<<<<<<<<<<
@@ -4808,20 +4808,20 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef ITYPE_t i1, i2
  */
 
-static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_D) {
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_i1;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_i2;
+static int __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_D) {
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_i1;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_i2;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   Py_ssize_t __pyx_t_1;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_2;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_2;
   Py_ssize_t __pyx_t_3;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_4;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_4;
   Py_ssize_t __pyx_t_5;
   Py_ssize_t __pyx_t_6;
   Py_ssize_t __pyx_t_7;
   Py_ssize_t __pyx_t_8;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_9;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
   Py_ssize_t __pyx_t_11;
   Py_ssize_t __pyx_t_12;
@@ -4830,7 +4830,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
   Py_ssize_t __pyx_t_15;
   __Pyx_RefNannySetupContext("pdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":317
+  /* "gawml/neighbors/dist_metrics.pyx":317
  *         """compute the pairwise distances between points in X"""
  *         cdef ITYPE_t i1, i2
  *         for i1 in range(X.shape[0]):             # <<<<<<<<<<<<<<
@@ -4841,7 +4841,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i1 = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":318
+    /* "gawml/neighbors/dist_metrics.pyx":318
  *         cdef ITYPE_t i1, i2
  *         for i1 in range(X.shape[0]):
  *             for i2 in range(i1, X.shape[0]):             # <<<<<<<<<<<<<<
@@ -4852,7 +4852,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
     for (__pyx_t_4 = __pyx_v_i1; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i2 = __pyx_t_4;
 
-      /* "gaw/neighbors/dist_metrics.pyx":319
+      /* "gawml/neighbors/dist_metrics.pyx":319
  *         for i1 in range(X.shape[0]):
  *             for i2 in range(i1, X.shape[0]):
  *                 D[i1, i2] = self.dist(&X[i1, 0], &X[i2, 0], X.shape[1])             # <<<<<<<<<<<<<<
@@ -4863,12 +4863,12 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
       __pyx_t_6 = 0;
       __pyx_t_7 = __pyx_v_i2;
       __pyx_t_8 = 0;
-      __pyx_t_9 = ((struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, (&(*((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_5 * __pyx_v_X.strides[0]) )) + __pyx_t_6)) )))), (&(*((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_7 * __pyx_v_X.strides[0]) )) + __pyx_t_8)) )))), (__pyx_v_X.shape[1])); if (unlikely(__pyx_t_9 == -1.0)) __PYX_ERR(1, 319, __pyx_L1_error)
+      __pyx_t_9 = ((struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, (&(*((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_5 * __pyx_v_X.strides[0]) )) + __pyx_t_6)) )))), (&(*((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_7 * __pyx_v_X.strides[0]) )) + __pyx_t_8)) )))), (__pyx_v_X.shape[1])); if (unlikely(__pyx_t_9 == -1.0)) __PYX_ERR(1, 319, __pyx_L1_error)
       __pyx_t_10 = __pyx_v_i1;
       __pyx_t_11 = __pyx_v_i2;
-      *((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_10 * __pyx_v_D.strides[0]) )) + __pyx_t_11)) )) = __pyx_t_9;
+      *((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_10 * __pyx_v_D.strides[0]) )) + __pyx_t_11)) )) = __pyx_t_9;
 
-      /* "gaw/neighbors/dist_metrics.pyx":320
+      /* "gawml/neighbors/dist_metrics.pyx":320
  *             for i2 in range(i1, X.shape[0]):
  *                 D[i1, i2] = self.dist(&X[i1, 0], &X[i2, 0], X.shape[1])
  *                 D[i2, i1] = D[i1, i2]             # <<<<<<<<<<<<<<
@@ -4879,11 +4879,11 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
       __pyx_t_13 = __pyx_v_i2;
       __pyx_t_14 = __pyx_v_i2;
       __pyx_t_15 = __pyx_v_i1;
-      *((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_14 * __pyx_v_D.strides[0]) )) + __pyx_t_15)) )) = (*((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_12 * __pyx_v_D.strides[0]) )) + __pyx_t_13)) )));
+      *((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_14 * __pyx_v_D.strides[0]) )) + __pyx_t_15)) )) = (*((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_12 * __pyx_v_D.strides[0]) )) + __pyx_t_13)) )));
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":321
+  /* "gawml/neighbors/dist_metrics.pyx":321
  *                 D[i1, i2] = self.dist(&X[i1, 0], &X[i2, 0], X.shape[1])
  *                 D[i2, i1] = D[i1, i2]
  *         return 0             # <<<<<<<<<<<<<<
@@ -4893,7 +4893,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":314
+  /* "gawml/neighbors/dist_metrics.pyx":314
  *         return self.dist(x1, x2, size)
  * 
  *     cdef int pdist(self, DTYPE_t[:, ::1] X, DTYPE_t[:, ::1] D) except -1:             # <<<<<<<<<<<<<<
@@ -4903,14 +4903,14 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.pdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.pdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":323
+/* "gawml/neighbors/dist_metrics.pyx":323
  *         return 0
  * 
  *     cdef int cdist(self, DTYPE_t[:, ::1] X, DTYPE_t[:, ::1] Y,             # <<<<<<<<<<<<<<
@@ -4918,27 +4918,27 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist(struct 
  *         """compute the cross-pairwise distances between arrays X and Y"""
  */
 
-static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_Y, __Pyx_memviewslice __pyx_v_D) {
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_i1;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_i2;
+static int __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __Pyx_memviewslice __pyx_v_X, __Pyx_memviewslice __pyx_v_Y, __Pyx_memviewslice __pyx_v_D) {
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_i1;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_i2;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
   Py_ssize_t __pyx_t_3;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_4;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_4;
   Py_ssize_t __pyx_t_5;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_6;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_6;
   Py_ssize_t __pyx_t_7;
   Py_ssize_t __pyx_t_8;
   Py_ssize_t __pyx_t_9;
   Py_ssize_t __pyx_t_10;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_11;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_11;
   Py_ssize_t __pyx_t_12;
   Py_ssize_t __pyx_t_13;
   __Pyx_RefNannySetupContext("cdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":327
+  /* "gawml/neighbors/dist_metrics.pyx":327
  *         """compute the cross-pairwise distances between arrays X and Y"""
  *         cdef ITYPE_t i1, i2
  *         if X.shape[1] != Y.shape[1]:             # <<<<<<<<<<<<<<
@@ -4948,7 +4948,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
   __pyx_t_1 = (((__pyx_v_X.shape[1]) != (__pyx_v_Y.shape[1])) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":328
+    /* "gawml/neighbors/dist_metrics.pyx":328
  *         cdef ITYPE_t i1, i2
  *         if X.shape[1] != Y.shape[1]:
  *             raise ValueError('X and Y must have the same second dimension')             # <<<<<<<<<<<<<<
@@ -4961,7 +4961,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(1, 328, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":327
+    /* "gawml/neighbors/dist_metrics.pyx":327
  *         """compute the cross-pairwise distances between arrays X and Y"""
  *         cdef ITYPE_t i1, i2
  *         if X.shape[1] != Y.shape[1]:             # <<<<<<<<<<<<<<
@@ -4970,7 +4970,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":329
+  /* "gawml/neighbors/dist_metrics.pyx":329
  *         if X.shape[1] != Y.shape[1]:
  *             raise ValueError('X and Y must have the same second dimension')
  *         for i1 in range(X.shape[0]):             # <<<<<<<<<<<<<<
@@ -4981,7 +4981,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i1 = __pyx_t_4;
 
-    /* "gaw/neighbors/dist_metrics.pyx":330
+    /* "gawml/neighbors/dist_metrics.pyx":330
  *             raise ValueError('X and Y must have the same second dimension')
  *         for i1 in range(X.shape[0]):
  *             for i2 in range(Y.shape[0]):             # <<<<<<<<<<<<<<
@@ -4992,7 +4992,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_i2 = __pyx_t_6;
 
-      /* "gaw/neighbors/dist_metrics.pyx":331
+      /* "gawml/neighbors/dist_metrics.pyx":331
  *         for i1 in range(X.shape[0]):
  *             for i2 in range(Y.shape[0]):
  *                 D[i1, i2] = self.dist(&X[i1, 0], &Y[i2, 0], X.shape[1])             # <<<<<<<<<<<<<<
@@ -5003,14 +5003,14 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
       __pyx_t_8 = 0;
       __pyx_t_9 = __pyx_v_i2;
       __pyx_t_10 = 0;
-      __pyx_t_11 = ((struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, (&(*((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_7 * __pyx_v_X.strides[0]) )) + __pyx_t_8)) )))), (&(*((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_Y.data + __pyx_t_9 * __pyx_v_Y.strides[0]) )) + __pyx_t_10)) )))), (__pyx_v_X.shape[1])); if (unlikely(__pyx_t_11 == -1.0)) __PYX_ERR(1, 331, __pyx_L1_error)
+      __pyx_t_11 = ((struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->dist(__pyx_v_self, (&(*((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_X.data + __pyx_t_7 * __pyx_v_X.strides[0]) )) + __pyx_t_8)) )))), (&(*((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_Y.data + __pyx_t_9 * __pyx_v_Y.strides[0]) )) + __pyx_t_10)) )))), (__pyx_v_X.shape[1])); if (unlikely(__pyx_t_11 == -1.0)) __PYX_ERR(1, 331, __pyx_L1_error)
       __pyx_t_12 = __pyx_v_i1;
       __pyx_t_13 = __pyx_v_i2;
-      *((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_12 * __pyx_v_D.strides[0]) )) + __pyx_t_13)) )) = __pyx_t_11;
+      *((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=1 */ ((char *) (((__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *) ( /* dim=0 */ (__pyx_v_D.data + __pyx_t_12 * __pyx_v_D.strides[0]) )) + __pyx_t_13)) )) = __pyx_t_11;
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":332
+  /* "gawml/neighbors/dist_metrics.pyx":332
  *             for i2 in range(Y.shape[0]):
  *                 D[i1, i2] = self.dist(&X[i1, 0], &Y[i2, 0], X.shape[1])
  *         return 0             # <<<<<<<<<<<<<<
@@ -5020,7 +5020,7 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":323
+  /* "gawml/neighbors/dist_metrics.pyx":323
  *         return 0
  * 
  *     cdef int cdist(self, DTYPE_t[:, ::1] X, DTYPE_t[:, ::1] Y,             # <<<<<<<<<<<<<<
@@ -5031,14 +5031,14 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.cdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.cdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":334
+/* "gawml/neighbors/dist_metrics.pyx":334
  *         return 0
  * 
  *     cdef DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -5046,12 +5046,12 @@ static int __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist(struct 
  *         return rdist
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":336
+  /* "gawml/neighbors/dist_metrics.pyx":336
  *     cdef DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         """Convert the reduced distance to the distance"""
  *         return rdist             # <<<<<<<<<<<<<<
@@ -5061,7 +5061,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_rdist;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":334
+  /* "gawml/neighbors/dist_metrics.pyx":334
  *         return 0
  * 
  *     cdef DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -5075,7 +5075,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":338
+/* "gawml/neighbors/dist_metrics.pyx":338
  *         return rdist
  * 
  *     cdef DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -5083,10 +5083,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return dist
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":340
+  /* "gawml/neighbors/dist_metrics.pyx":340
  *     cdef DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         """Convert the distance to the reduced distance"""
  *         return dist             # <<<<<<<<<<<<<<
@@ -5096,7 +5096,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_dist;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":338
+  /* "gawml/neighbors/dist_metrics.pyx":338
  *         return rdist
  * 
  *     cdef DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -5109,7 +5109,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":342
+/* "gawml/neighbors/dist_metrics.pyx":342
  *         return dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -5118,25 +5118,25 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist[] = "Convert the Reduced distance to the true distance.\n\n        The reduced distance, defined for some metrics, is a computationally\n        more efficent measure which preserves the rank of the true distance.\n        For example, in the Euclidean distance metric, the reduced distance\n        is the squared-euclidean distance.\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist[] = "Convert the Reduced distance to the true distance.\n\n        The reduced distance, defined for some metrics, is a computationally\n        more efficent measure which preserves the rank of the true distance.\n        For example, in the Euclidean distance metric, the reduced distance\n        is the squared-euclidean distance.\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":350
+  /* "gawml/neighbors/dist_metrics.pyx":350
  *         is the squared-euclidean distance.
  *         """
  *         return rdist             # <<<<<<<<<<<<<<
@@ -5148,7 +5148,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdis
   __pyx_r = __pyx_v_rdist;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":342
+  /* "gawml/neighbors/dist_metrics.pyx":342
  *         return dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -5163,7 +5163,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdis
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":352
+/* "gawml/neighbors/dist_metrics.pyx":352
  *         return rdist
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -5172,25 +5172,25 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdis
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist[] = "Convert the true distance to the reduced distance.\n\n        The reduced distance, defined for some metrics, is a computationally\n        more efficent measure which preserves the rank of the true distance.\n        For example, in the Euclidean distance metric, the reduced distance\n        is the squared-euclidean distance.\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist[] = "Convert the true distance to the reduced distance.\n\n        The reduced distance, defined for some metrics, is a computationally\n        more efficent measure which preserves the rank of the true distance.\n        For example, in the Euclidean distance metric, the reduced distance\n        is the squared-euclidean distance.\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":360
+  /* "gawml/neighbors/dist_metrics.pyx":360
  *         is the squared-euclidean distance.
  *         """
  *         return dist             # <<<<<<<<<<<<<<
@@ -5202,7 +5202,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist
   __pyx_r = __pyx_v_dist;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":352
+  /* "gawml/neighbors/dist_metrics.pyx":352
  *         return rdist
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -5217,7 +5217,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":362
+/* "gawml/neighbors/dist_metrics.pyx":362
  *         return dist
  * 
  *     def pairwise(self, X, Y=None):             # <<<<<<<<<<<<<<
@@ -5226,9 +5226,9 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_17pairwise(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pairwise[] = "Compute the pairwise distances between X and Y\n\n        This is a convenience routine for the sake of testing.  For many\n        metrics, the utilities in scipy.spatial.distance.cdist and\n        scipy.spatial.distance.pdist will be faster.\n\n        Parameters\n        ----------\n        X : array_like\n            Array of shape (Nx, D), representing Nx points in D dimensions.\n        Y : array_like (optional)\n            Array of shape (Ny, D), representing Ny points in D dimensions.\n            If not specified, then Y=X.\n        Returns\n        -------\n        dist : ndarray\n            The shape (Nx, Ny) array of pairwise distances between points in\n            X and Y.\n        ";
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_17pairwise(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_17pairwise(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_16pairwise[] = "Compute the pairwise distances between X and Y\n\n        This is a convenience routine for the sake of testing.  For many\n        metrics, the utilities in scipy.spatial.distance.cdist and\n        scipy.spatial.distance.pdist will be faster.\n\n        Parameters\n        ----------\n        X : array_like\n            Array of shape (Nx, D), representing Nx points in D dimensions.\n        Y : array_like (optional)\n            Array of shape (Ny, D), representing Ny points in D dimensions.\n            If not specified, then Y=X.\n        Returns\n        -------\n        dist : ndarray\n            The shape (Nx, Ny) array of pairwise distances between points in\n            X and Y.\n        ";
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_17pairwise(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_X = 0;
   PyObject *__pyx_v_Y = 0;
   PyObject *__pyx_r = 0;
@@ -5276,18 +5276,18 @@ static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_17pair
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("pairwise", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 362, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.pairwise", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.pairwise", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_X, __pyx_v_Y);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_X, __pyx_v_Y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_X, PyObject *__pyx_v_Y) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_14DistanceMetric_16pairwise(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *__pyx_v_self, PyObject *__pyx_v_X, PyObject *__pyx_v_Y) {
   PyArrayObject *__pyx_v_Xarr = 0;
   PyArrayObject *__pyx_v_Yarr = 0;
   PyArrayObject *__pyx_v_Darr = 0;
@@ -5329,7 +5329,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   __pyx_pybuffernd_Darr.data = NULL;
   __pyx_pybuffernd_Darr.rcbuffer = &__pyx_pybuffer_Darr;
 
-  /* "gaw/neighbors/dist_metrics.pyx":386
+  /* "gawml/neighbors/dist_metrics.pyx":386
  *         cdef np.ndarray[DTYPE_t, ndim=2, mode='c'] Darr
  * 
  *         Xarr = np.asarray(X, dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -5363,10 +5363,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer);
-    __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer, (PyObject*)__pyx_t_5, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
+    __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer, (PyObject*)__pyx_t_5, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
     if (unlikely(__pyx_t_6 < 0)) {
       PyErr_Fetch(&__pyx_t_7, &__pyx_t_8, &__pyx_t_9);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Xarr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Xarr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_7); Py_XDECREF(__pyx_t_8); Py_XDECREF(__pyx_t_9);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -5380,7 +5380,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   __pyx_v_Xarr = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":387
+  /* "gawml/neighbors/dist_metrics.pyx":387
  * 
  *         Xarr = np.asarray(X, dtype=DTYPE, order='C')
  *         if Y is None:             # <<<<<<<<<<<<<<
@@ -5391,7 +5391,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   __pyx_t_11 = (__pyx_t_10 != 0);
   if (__pyx_t_11) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":388
+    /* "gawml/neighbors/dist_metrics.pyx":388
  *         Xarr = np.asarray(X, dtype=DTYPE, order='C')
  *         if Y is None:
  *             Darr = np.zeros((Xarr.shape[0], Xarr.shape[0]),             # <<<<<<<<<<<<<<
@@ -5421,7 +5421,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":389
+    /* "gawml/neighbors/dist_metrics.pyx":389
  *         if Y is None:
  *             Darr = np.zeros((Xarr.shape[0], Xarr.shape[0]),
  *                          dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -5436,7 +5436,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_order, __pyx_n_s_C) < 0) __PYX_ERR(1, 389, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":388
+    /* "gawml/neighbors/dist_metrics.pyx":388
  *         Xarr = np.asarray(X, dtype=DTYPE, order='C')
  *         if Y is None:
  *             Darr = np.zeros((Xarr.shape[0], Xarr.shape[0]),             # <<<<<<<<<<<<<<
@@ -5453,10 +5453,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
       __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer);
-      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_t_12, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
+      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_t_12, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
       if (unlikely(__pyx_t_6 < 0)) {
         PyErr_Fetch(&__pyx_t_9, &__pyx_t_8, &__pyx_t_7);
-        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Darr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
+        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Darr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_9); Py_XDECREF(__pyx_t_8); Py_XDECREF(__pyx_t_7);
           __Pyx_RaiseBufferFallbackError();
         } else {
@@ -5470,36 +5470,36 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __pyx_v_Darr = ((PyArrayObject *)__pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":390
+    /* "gawml/neighbors/dist_metrics.pyx":390
  *             Darr = np.zeros((Xarr.shape[0], Xarr.shape[0]),
  *                          dtype=DTYPE, order='C')
  *             self.pdist(get_memview_DTYPE_2D(Xarr),             # <<<<<<<<<<<<<<
  *                        get_memview_DTYPE_2D(Darr))
  *         else:
  */
-    __pyx_t_13 = __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Xarr)); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(1, 390, __pyx_L1_error)
+    __pyx_t_13 = __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Xarr)); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(1, 390, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":391
+    /* "gawml/neighbors/dist_metrics.pyx":391
  *                          dtype=DTYPE, order='C')
  *             self.pdist(get_memview_DTYPE_2D(Xarr),
  *                        get_memview_DTYPE_2D(Darr))             # <<<<<<<<<<<<<<
  *         else:
  *             Yarr = np.asarray(Y, dtype=DTYPE, order='C')
  */
-    __pyx_t_14 = __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Darr)); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(1, 391, __pyx_L1_error)
+    __pyx_t_14 = __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Darr)); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(1, 391, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":390
+    /* "gawml/neighbors/dist_metrics.pyx":390
  *             Darr = np.zeros((Xarr.shape[0], Xarr.shape[0]),
  *                          dtype=DTYPE, order='C')
  *             self.pdist(get_memview_DTYPE_2D(Xarr),             # <<<<<<<<<<<<<<
  *                        get_memview_DTYPE_2D(Darr))
  *         else:
  */
-    __pyx_t_6 = ((struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->pdist(__pyx_v_self, __pyx_t_13, __pyx_t_14); if (unlikely(__pyx_t_6 == -1)) __PYX_ERR(1, 390, __pyx_L1_error)
+    __pyx_t_6 = ((struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->pdist(__pyx_v_self, __pyx_t_13, __pyx_t_14); if (unlikely(__pyx_t_6 == -1)) __PYX_ERR(1, 390, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_t_13, 1);
     __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
 
-    /* "gaw/neighbors/dist_metrics.pyx":387
+    /* "gawml/neighbors/dist_metrics.pyx":387
  * 
  *         Xarr = np.asarray(X, dtype=DTYPE, order='C')
  *         if Y is None:             # <<<<<<<<<<<<<<
@@ -5509,7 +5509,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     goto __pyx_L3;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":393
+  /* "gawml/neighbors/dist_metrics.pyx":393
  *                        get_memview_DTYPE_2D(Darr))
  *         else:
  *             Yarr = np.asarray(Y, dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -5544,10 +5544,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
       __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer);
-      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer, (PyObject*)__pyx_t_15, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
+      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer, (PyObject*)__pyx_t_15, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
       if (unlikely(__pyx_t_6 < 0)) {
         PyErr_Fetch(&__pyx_t_7, &__pyx_t_8, &__pyx_t_9);
-        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Yarr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
+        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Yarr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_7); Py_XDECREF(__pyx_t_8); Py_XDECREF(__pyx_t_9);
           __Pyx_RaiseBufferFallbackError();
         } else {
@@ -5561,7 +5561,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __pyx_v_Yarr = ((PyArrayObject *)__pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":394
+    /* "gawml/neighbors/dist_metrics.pyx":394
  *         else:
  *             Yarr = np.asarray(Y, dtype=DTYPE, order='C')
  *             Darr = np.zeros((Xarr.shape[0], Yarr.shape[0]),             # <<<<<<<<<<<<<<
@@ -5591,7 +5591,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":395
+    /* "gawml/neighbors/dist_metrics.pyx":395
  *             Yarr = np.asarray(Y, dtype=DTYPE, order='C')
  *             Darr = np.zeros((Xarr.shape[0], Yarr.shape[0]),
  *                          dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -5606,7 +5606,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_order, __pyx_n_s_C) < 0) __PYX_ERR(1, 395, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":394
+    /* "gawml/neighbors/dist_metrics.pyx":394
  *         else:
  *             Yarr = np.asarray(Y, dtype=DTYPE, order='C')
  *             Darr = np.zeros((Xarr.shape[0], Yarr.shape[0]),             # <<<<<<<<<<<<<<
@@ -5623,10 +5623,10 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
       __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer);
-      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_t_12, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
+      __pyx_t_6 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_t_12, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack);
       if (unlikely(__pyx_t_6 < 0)) {
         PyErr_Fetch(&__pyx_t_9, &__pyx_t_8, &__pyx_t_7);
-        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Darr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
+        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_Darr.rcbuffer->pybuffer, (PyObject*)__pyx_v_Darr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 2, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_9); Py_XDECREF(__pyx_t_8); Py_XDECREF(__pyx_t_7);
           __Pyx_RaiseBufferFallbackError();
         } else {
@@ -5640,48 +5640,48 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __pyx_v_Darr = ((PyArrayObject *)__pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":396
+    /* "gawml/neighbors/dist_metrics.pyx":396
  *             Darr = np.zeros((Xarr.shape[0], Yarr.shape[0]),
  *                          dtype=DTYPE, order='C')
  *             self.cdist(get_memview_DTYPE_2D(Xarr),             # <<<<<<<<<<<<<<
  *                        get_memview_DTYPE_2D(Yarr),
  *                        get_memview_DTYPE_2D(Darr))
  */
-    __pyx_t_14 = __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Xarr)); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(1, 396, __pyx_L1_error)
+    __pyx_t_14 = __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Xarr)); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(1, 396, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":397
+    /* "gawml/neighbors/dist_metrics.pyx":397
  *                          dtype=DTYPE, order='C')
  *             self.cdist(get_memview_DTYPE_2D(Xarr),
  *                        get_memview_DTYPE_2D(Yarr),             # <<<<<<<<<<<<<<
  *                        get_memview_DTYPE_2D(Darr))
  *         return Darr
  */
-    __pyx_t_13 = __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Yarr)); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(1, 397, __pyx_L1_error)
+    __pyx_t_13 = __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Yarr)); if (unlikely(!__pyx_t_13.memview)) __PYX_ERR(1, 397, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":398
+    /* "gawml/neighbors/dist_metrics.pyx":398
  *             self.cdist(get_memview_DTYPE_2D(Xarr),
  *                        get_memview_DTYPE_2D(Yarr),
  *                        get_memview_DTYPE_2D(Darr))             # <<<<<<<<<<<<<<
  *         return Darr
  * 
  */
-    __pyx_t_16 = __pyx_f_3gaw_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Darr)); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(1, 398, __pyx_L1_error)
+    __pyx_t_16 = __pyx_f_5gawml_9neighbors_12dist_metrics_get_memview_DTYPE_2D(((PyArrayObject *)__pyx_v_Darr)); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(1, 398, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":396
+    /* "gawml/neighbors/dist_metrics.pyx":396
  *             Darr = np.zeros((Xarr.shape[0], Yarr.shape[0]),
  *                          dtype=DTYPE, order='C')
  *             self.cdist(get_memview_DTYPE_2D(Xarr),             # <<<<<<<<<<<<<<
  *                        get_memview_DTYPE_2D(Yarr),
  *                        get_memview_DTYPE_2D(Darr))
  */
-    __pyx_t_6 = ((struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->cdist(__pyx_v_self, __pyx_t_14, __pyx_t_13, __pyx_t_16); if (unlikely(__pyx_t_6 == -1)) __PYX_ERR(1, 396, __pyx_L1_error)
+    __pyx_t_6 = ((struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self->__pyx_vtab)->cdist(__pyx_v_self, __pyx_t_14, __pyx_t_13, __pyx_t_16); if (unlikely(__pyx_t_6 == -1)) __PYX_ERR(1, 396, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
     __PYX_XDEC_MEMVIEW(&__pyx_t_13, 1);
     __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
   }
   __pyx_L3:;
 
-  /* "gaw/neighbors/dist_metrics.pyx":399
+  /* "gawml/neighbors/dist_metrics.pyx":399
  *                        get_memview_DTYPE_2D(Yarr),
  *                        get_memview_DTYPE_2D(Darr))
  *         return Darr             # <<<<<<<<<<<<<<
@@ -5693,7 +5693,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   __pyx_r = ((PyObject *)__pyx_v_Darr);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":362
+  /* "gawml/neighbors/dist_metrics.pyx":362
  *         return dist
  * 
  *     def pairwise(self, X, Y=None):             # <<<<<<<<<<<<<<
@@ -5718,7 +5718,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Xarr.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_Yarr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.DistanceMetric.pairwise", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.DistanceMetric.pairwise", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5734,7 +5734,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":411
+/* "gawml/neighbors/dist_metrics.pyx":411
  *        D(x, y) = \sqrt{ \sum_i (x_i - y_i) ^ 2 }
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -5743,27 +5743,27 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pair
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":412
+  /* "gawml/neighbors/dist_metrics.pyx":412
  *     """
  *     def __init__(self):
  *         self.p = 2             # <<<<<<<<<<<<<<
@@ -5772,7 +5772,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(
  */
   __pyx_v_self->__pyx_base.p = 2.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":411
+  /* "gawml/neighbors/dist_metrics.pyx":411
  *        D(x, y) = \sqrt{ \sum_i (x_i - y_i) ^ 2 }
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -5786,7 +5786,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":414
+/* "gawml/neighbors/dist_metrics.pyx":414
  *         self.p = 2
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -5794,22 +5794,22 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance___init__(
  *         return euclidean_dist(x1, x2, size)
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":416
+  /* "gawml/neighbors/dist_metrics.pyx":416
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         return euclidean_dist(x1, x2, size)             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_dist(__pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 416, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_dist(__pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 416, __pyx_L1_error)
   __pyx_r = __pyx_t_1;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":414
+  /* "gawml/neighbors/dist_metrics.pyx":414
  *         self.p = 2
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -5823,7 +5823,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.EuclideanDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.EuclideanDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -5833,7 +5833,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":418
+/* "gawml/neighbors/dist_metrics.pyx":418
  *         return euclidean_dist(x1, x2, size)
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -5841,22 +5841,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return euclidean_rdist(x1, x2, size)
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":420
+  /* "gawml/neighbors/dist_metrics.pyx":420
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         return euclidean_rdist(x1, x2, size)             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_rdist(__pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 420, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_rdist(__pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 420, __pyx_L1_error)
   __pyx_r = __pyx_t_1;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":418
+  /* "gawml/neighbors/dist_metrics.pyx":418
  *         return euclidean_dist(x1, x2, size)
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -5870,7 +5870,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.EuclideanDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.EuclideanDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -5880,7 +5880,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":422
+/* "gawml/neighbors/dist_metrics.pyx":422
  *         return euclidean_rdist(x1, x2, size)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -5888,12 +5888,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":423
+  /* "gawml/neighbors/dist_metrics.pyx":423
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -5903,7 +5903,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = sqrt(__pyx_v_rdist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":422
+  /* "gawml/neighbors/dist_metrics.pyx":422
  *         return euclidean_rdist(x1, x2, size)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -5917,7 +5917,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":425
+/* "gawml/neighbors/dist_metrics.pyx":425
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -5925,10 +5925,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":426
+  /* "gawml/neighbors/dist_metrics.pyx":426
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         return dist * dist             # <<<<<<<<<<<<<<
@@ -5938,7 +5938,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_dist * __pyx_v_dist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":425
+  /* "gawml/neighbors/dist_metrics.pyx":425
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -5951,7 +5951,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":428
+/* "gawml/neighbors/dist_metrics.pyx":428
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -5960,19 +5960,19 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -5981,7 +5981,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rd
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":429
+  /* "gawml/neighbors/dist_metrics.pyx":429
  * 
  *     def rdist_to_dist(self, rdist):
  *         return np.sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -6023,7 +6023,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rd
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":428
+  /* "gawml/neighbors/dist_metrics.pyx":428
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -6037,7 +6037,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rd
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.EuclideanDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.EuclideanDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6045,7 +6045,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rd
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":431
+/* "gawml/neighbors/dist_metrics.pyx":431
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -6054,25 +6054,25 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_2rd
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":432
+  /* "gawml/neighbors/dist_metrics.pyx":432
  * 
  *     def dist_to_rdist(self, dist):
  *         return dist ** 2             # <<<<<<<<<<<<<<
@@ -6086,7 +6086,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4di
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":431
+  /* "gawml/neighbors/dist_metrics.pyx":431
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -6097,7 +6097,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4di
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.EuclideanDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.EuclideanDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6105,7 +6105,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4di
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":444
+/* "gawml/neighbors/dist_metrics.pyx":444
  *        D(x, y) = \sqrt{ \sum_i \frac{ (x_i - y_i) ^ 2}{V_i} }
  *     """
  *     def __init__(self, V):             # <<<<<<<<<<<<<<
@@ -6114,8 +6114,8 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_4di
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_V = 0;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -6151,18 +6151,18 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_1__init_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 444, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), __pyx_v_V);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), __pyx_v_V);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_V) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_V) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -6171,7 +6171,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":445
+  /* "gawml/neighbors/dist_metrics.pyx":445
  *     """
  *     def __init__(self, V):
  *         self.vec = np.asarray(V, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -6206,7 +6206,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
   __pyx_v_self->__pyx_base.vec = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":446
+  /* "gawml/neighbors/dist_metrics.pyx":446
  *     def __init__(self, V):
  *         self.vec = np.asarray(V, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -6215,10 +6215,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
  */
   __pyx_t_4 = ((PyObject *)__pyx_v_self->__pyx_base.vec);
   __Pyx_INCREF(__pyx_t_4);
-  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_4));
+  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_4));
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":447
+  /* "gawml/neighbors/dist_metrics.pyx":447
  *         self.vec = np.asarray(V, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.size = self.vec.shape[0]             # <<<<<<<<<<<<<<
@@ -6227,7 +6227,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
  */
   __pyx_v_self->__pyx_base.size = (__pyx_v_self->__pyx_base.vec->dimensions[0]);
 
-  /* "gaw/neighbors/dist_metrics.pyx":448
+  /* "gawml/neighbors/dist_metrics.pyx":448
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.size = self.vec.shape[0]
  *         self.p = 2             # <<<<<<<<<<<<<<
@@ -6236,7 +6236,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
  */
   __pyx_v_self->__pyx_base.p = 2.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":444
+  /* "gawml/neighbors/dist_metrics.pyx":444
  *        D(x, y) = \sqrt{ \sum_i \frac{ (x_i - y_i) ^ 2}{V_i} }
  *     """
  *     def __init__(self, V):             # <<<<<<<<<<<<<<
@@ -6252,14 +6252,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":450
+/* "gawml/neighbors/dist_metrics.pyx":450
  *         self.p = 2
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6267,15 +6267,15 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance___init__
  *         if size != self.size:
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
   __pyx_t_5numpy_intp_t __pyx_t_4;
   #ifdef WITH_THREAD
   PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
@@ -6285,7 +6285,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":452
+  /* "gawml/neighbors/dist_metrics.pyx":452
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -6296,7 +6296,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_1 = ((__pyx_v_size != __pyx_v_self->__pyx_base.size) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":453
+      /* "gawml/neighbors/dist_metrics.pyx":453
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -6309,7 +6309,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           #endif
           /*try:*/ {
 
-            /* "gaw/neighbors/dist_metrics.pyx":454
+            /* "gawml/neighbors/dist_metrics.pyx":454
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('SEuclidean dist: size of V does not match')             # <<<<<<<<<<<<<<
@@ -6323,7 +6323,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
             __PYX_ERR(1, 454, __pyx_L8_error)
           }
 
-          /* "gaw/neighbors/dist_metrics.pyx":453
+          /* "gawml/neighbors/dist_metrics.pyx":453
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -6340,7 +6340,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           }
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":452
+      /* "gawml/neighbors/dist_metrics.pyx":452
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -6349,7 +6349,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":455
+    /* "gawml/neighbors/dist_metrics.pyx":455
  *             with gil:
  *                 raise ValueError('SEuclidean dist: size of V does not match')
  *         cdef DTYPE_t tmp, d=0             # <<<<<<<<<<<<<<
@@ -6358,7 +6358,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_d = 0.0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":457
+    /* "gawml/neighbors/dist_metrics.pyx":457
  *         cdef DTYPE_t tmp, d=0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -6369,7 +6369,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_j = __pyx_t_4;
 
-      /* "gaw/neighbors/dist_metrics.pyx":458
+      /* "gawml/neighbors/dist_metrics.pyx":458
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tmp = x1[j] - x2[j]             # <<<<<<<<<<<<<<
@@ -6378,7 +6378,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
       __pyx_v_tmp = ((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]));
 
-      /* "gaw/neighbors/dist_metrics.pyx":459
+      /* "gawml/neighbors/dist_metrics.pyx":459
  *         for j in range(size):
  *             tmp = x1[j] - x2[j]
  *             d += tmp * tmp / self.vec_ptr[j]             # <<<<<<<<<<<<<<
@@ -6388,7 +6388,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
       __pyx_v_d = (__pyx_v_d + ((__pyx_v_tmp * __pyx_v_tmp) / (__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_j])));
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":460
+    /* "gawml/neighbors/dist_metrics.pyx":460
  *             tmp = x1[j] - x2[j]
  *             d += tmp * tmp / self.vec_ptr[j]
  *         return d             # <<<<<<<<<<<<<<
@@ -6399,7 +6399,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L3_return;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":452
+  /* "gawml/neighbors/dist_metrics.pyx":452
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -6421,7 +6421,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":450
+  /* "gawml/neighbors/dist_metrics.pyx":450
  *         self.p = 2
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6434,7 +6434,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   #ifdef WITH_THREAD
@@ -6443,7 +6443,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":462
+/* "gawml/neighbors/dist_metrics.pyx":462
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6451,22 +6451,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return sqrt(self.rdist(x1, x2, size))
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":464
+  /* "gawml/neighbors/dist_metrics.pyx":464
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         return sqrt(self.rdist(x1, x2, size))             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 464, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 464, __pyx_L1_error)
   __pyx_r = sqrt(__pyx_t_1);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":462
+  /* "gawml/neighbors/dist_metrics.pyx":462
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6480,7 +6480,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -6490,7 +6490,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":466
+/* "gawml/neighbors/dist_metrics.pyx":466
  *         return sqrt(self.rdist(x1, x2, size))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -6498,12 +6498,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":467
+  /* "gawml/neighbors/dist_metrics.pyx":467
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -6513,7 +6513,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = sqrt(__pyx_v_rdist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":466
+  /* "gawml/neighbors/dist_metrics.pyx":466
  *         return sqrt(self.rdist(x1, x2, size))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -6527,7 +6527,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":469
+/* "gawml/neighbors/dist_metrics.pyx":469
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -6535,10 +6535,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":470
+  /* "gawml/neighbors/dist_metrics.pyx":470
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         return dist * dist             # <<<<<<<<<<<<<<
@@ -6548,7 +6548,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_dist * __pyx_v_dist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":469
+  /* "gawml/neighbors/dist_metrics.pyx":469
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -6561,7 +6561,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":472
+/* "gawml/neighbors/dist_metrics.pyx":472
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -6570,19 +6570,19 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -6591,7 +6591,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2r
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":473
+  /* "gawml/neighbors/dist_metrics.pyx":473
  * 
  *     def rdist_to_dist(self, rdist):
  *         return np.sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -6633,7 +6633,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2r
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":472
+  /* "gawml/neighbors/dist_metrics.pyx":472
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -6647,7 +6647,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2r
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6655,7 +6655,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2r
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":475
+/* "gawml/neighbors/dist_metrics.pyx":475
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -6664,25 +6664,25 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_2r
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":476
+  /* "gawml/neighbors/dist_metrics.pyx":476
  * 
  *     def dist_to_rdist(self, dist):
  *         return dist ** 2             # <<<<<<<<<<<<<<
@@ -6696,7 +6696,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4d
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":475
+  /* "gawml/neighbors/dist_metrics.pyx":475
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -6707,7 +6707,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4d
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.SEuclideanDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.SEuclideanDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -6715,7 +6715,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4d
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":488
+/* "gawml/neighbors/dist_metrics.pyx":488
  *        D(x, y) = \sum_i |x_i - y_i|
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6724,27 +6724,27 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_4d
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17ManhattanDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17ManhattanDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":489
+  /* "gawml/neighbors/dist_metrics.pyx":489
  *     """
  *     def __init__(self):
  *         self.p = 1             # <<<<<<<<<<<<<<
@@ -6753,7 +6753,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(
  */
   __pyx_v_self->__pyx_base.p = 1.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":488
+  /* "gawml/neighbors/dist_metrics.pyx":488
  *        D(x, y) = \sum_i |x_i - y_i|
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6767,7 +6767,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":491
+/* "gawml/neighbors/dist_metrics.pyx":491
  *         self.p = 1
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6775,14 +6775,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ManhattanDistance___init__(
  *         cdef DTYPE_t d = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":493
+  /* "gawml/neighbors/dist_metrics.pyx":493
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t d = 0             # <<<<<<<<<<<<<<
@@ -6791,7 +6791,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":495
+  /* "gawml/neighbors/dist_metrics.pyx":495
  *         cdef DTYPE_t d = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -6802,7 +6802,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":496
+    /* "gawml/neighbors/dist_metrics.pyx":496
  *         cdef np.intp_t j
  *         for j in range(size):
  *             d += fabs(x1[j] - x2[j])             # <<<<<<<<<<<<<<
@@ -6812,7 +6812,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_d = (__pyx_v_d + fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":497
+  /* "gawml/neighbors/dist_metrics.pyx":497
  *         for j in range(size):
  *             d += fabs(x1[j] - x2[j])
  *         return d             # <<<<<<<<<<<<<<
@@ -6822,7 +6822,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_d;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":491
+  /* "gawml/neighbors/dist_metrics.pyx":491
  *         self.p = 1
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6835,7 +6835,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":509
+/* "gawml/neighbors/dist_metrics.pyx":509
  *        D(x, y) = max_i (|x_i - y_i|)
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6844,36 +6844,36 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__ (wrapper)", 0);
   if (unlikely(PyTuple_GET_SIZE(__pyx_args) > 0)) {
     __Pyx_RaiseArgtupleInvalid("__init__", 1, 0, 0, PyTuple_GET_SIZE(__pyx_args)); return -1;}
   if (unlikely(__pyx_kwds) && unlikely(PyDict_Size(__pyx_kwds) > 0) && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "__init__", 0))) return -1;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *)__pyx_v_self));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":510
+  /* "gawml/neighbors/dist_metrics.pyx":510
  *     """
  *     def __init__(self):
  *         self.p = INF             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  */
-  __pyx_v_self->__pyx_base.p = __pyx_v_3gaw_9neighbors_12dist_metrics_INF;
+  __pyx_v_self->__pyx_base.p = __pyx_v_5gawml_9neighbors_12dist_metrics_INF;
 
-  /* "gaw/neighbors/dist_metrics.pyx":509
+  /* "gawml/neighbors/dist_metrics.pyx":509
  *        D(x, y) = max_i (|x_i - y_i|)
  *     """
  *     def __init__(self):             # <<<<<<<<<<<<<<
@@ -6887,7 +6887,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance___init__(
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":512
+/* "gawml/neighbors/dist_metrics.pyx":512
  *         self.p = INF
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6895,14 +6895,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance___init__(
  *         cdef DTYPE_t d = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":514
+  /* "gawml/neighbors/dist_metrics.pyx":514
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t d = 0             # <<<<<<<<<<<<<<
@@ -6911,7 +6911,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":516
+  /* "gawml/neighbors/dist_metrics.pyx":516
  *         cdef DTYPE_t d = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -6922,17 +6922,17 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":517
+    /* "gawml/neighbors/dist_metrics.pyx":517
  *         cdef np.intp_t j
  *         for j in range(size):
  *             d = fmax(d, fabs(x1[j] - x2[j]))             # <<<<<<<<<<<<<<
  *         return d
  * 
  */
-    __pyx_v_d = __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(__pyx_v_d, fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))));
+    __pyx_v_d = __pyx_f_5gawml_9neighbors_12dist_metrics_fmax(__pyx_v_d, fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":518
+  /* "gawml/neighbors/dist_metrics.pyx":518
  *         for j in range(size):
  *             d = fmax(d, fabs(x1[j] - x2[j]))
  *         return d             # <<<<<<<<<<<<<<
@@ -6942,7 +6942,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_d;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":512
+  /* "gawml/neighbors/dist_metrics.pyx":512
  *         self.p = INF
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -6955,7 +6955,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":535
+/* "gawml/neighbors/dist_metrics.pyx":535
  *     p=2, EuclideanDistance is more efficient.
  *     """
  *     def __init__(self, p):             # <<<<<<<<<<<<<<
@@ -6964,8 +6964,8 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_p = 0;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -7001,18 +7001,18 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 535, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), __pyx_v_p);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), __pyx_v_p);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7020,10 +7020,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
   PyObject *__pyx_t_3 = NULL;
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_6;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_6;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":536
+  /* "gawml/neighbors/dist_metrics.pyx":536
  *     """
  *     def __init__(self, p):
  *         if p < 1:             # <<<<<<<<<<<<<<
@@ -7035,7 +7035,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":537
+    /* "gawml/neighbors/dist_metrics.pyx":537
  *     def __init__(self, p):
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")             # <<<<<<<<<<<<<<
@@ -7048,7 +7048,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(1, 537, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":536
+    /* "gawml/neighbors/dist_metrics.pyx":536
  *     """
  *     def __init__(self, p):
  *         if p < 1:             # <<<<<<<<<<<<<<
@@ -7057,7 +7057,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":538
+  /* "gawml/neighbors/dist_metrics.pyx":538
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -7098,7 +7098,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":539
+    /* "gawml/neighbors/dist_metrics.pyx":539
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):
  *             raise ValueError("MinkowskiDistance requires finite p. "             # <<<<<<<<<<<<<<
@@ -7111,7 +7111,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(1, 539, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":538
+    /* "gawml/neighbors/dist_metrics.pyx":538
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -7120,7 +7120,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":541
+  /* "gawml/neighbors/dist_metrics.pyx":541
  *             raise ValueError("MinkowskiDistance requires finite p. "
  *                              "For p=inf, use ChebyshevDistance.")
  *         self.p = p             # <<<<<<<<<<<<<<
@@ -7130,7 +7130,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
   __pyx_t_6 = __pyx_PyFloat_AsDouble(__pyx_v_p); if (unlikely((__pyx_t_6 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(1, 541, __pyx_L1_error)
   __pyx_v_self->__pyx_base.p = __pyx_t_6;
 
-  /* "gaw/neighbors/dist_metrics.pyx":535
+  /* "gawml/neighbors/dist_metrics.pyx":535
  *     p=2, EuclideanDistance is more efficient.
  *     """
  *     def __init__(self, p):             # <<<<<<<<<<<<<<
@@ -7146,14 +7146,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":543
+/* "gawml/neighbors/dist_metrics.pyx":543
  *         self.p = p
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7161,14 +7161,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance___init__(
  *         cdef DTYPE_t d=0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":545
+  /* "gawml/neighbors/dist_metrics.pyx":545
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t d=0             # <<<<<<<<<<<<<<
@@ -7177,7 +7177,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":547
+  /* "gawml/neighbors/dist_metrics.pyx":547
  *         cdef DTYPE_t d=0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -7188,7 +7188,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":548
+    /* "gawml/neighbors/dist_metrics.pyx":548
  *         cdef np.intp_t j
  *         for j in range(size):
  *             d += pow(fabs(x1[j] - x2[j]), self.p)             # <<<<<<<<<<<<<<
@@ -7198,7 +7198,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_d = (__pyx_v_d + pow(fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))), __pyx_v_self->__pyx_base.p));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":549
+  /* "gawml/neighbors/dist_metrics.pyx":549
  *         for j in range(size):
  *             d += pow(fabs(x1[j] - x2[j]), self.p)
  *         return d             # <<<<<<<<<<<<<<
@@ -7208,7 +7208,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_d;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":543
+  /* "gawml/neighbors/dist_metrics.pyx":543
  *         self.p = p
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7221,7 +7221,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":551
+/* "gawml/neighbors/dist_metrics.pyx":551
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7229,22 +7229,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":553
+  /* "gawml/neighbors/dist_metrics.pyx":553
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 553, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 553, __pyx_L1_error)
   __pyx_r = pow(__pyx_t_1, (1. / __pyx_v_self->__pyx_base.p));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":551
+  /* "gawml/neighbors/dist_metrics.pyx":551
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7258,7 +7258,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MinkowskiDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MinkowskiDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -7268,7 +7268,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":555
+/* "gawml/neighbors/dist_metrics.pyx":555
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -7276,12 +7276,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":556
+  /* "gawml/neighbors/dist_metrics.pyx":556
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return pow(rdist, 1. / self.p)             # <<<<<<<<<<<<<<
@@ -7291,7 +7291,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = pow(__pyx_v_rdist, (1. / __pyx_v_self->__pyx_base.p));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":555
+  /* "gawml/neighbors/dist_metrics.pyx":555
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -7305,7 +7305,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":558
+/* "gawml/neighbors/dist_metrics.pyx":558
  *         return pow(rdist, 1. / self.p)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -7313,10 +7313,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":559
+  /* "gawml/neighbors/dist_metrics.pyx":559
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         return pow(dist, self.p)             # <<<<<<<<<<<<<<
@@ -7326,7 +7326,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = pow(__pyx_v_dist, __pyx_v_self->__pyx_base.p);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":558
+  /* "gawml/neighbors/dist_metrics.pyx":558
  *         return pow(rdist, 1. / self.p)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -7339,7 +7339,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":561
+/* "gawml/neighbors/dist_metrics.pyx":561
  *         return pow(dist, self.p)
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -7348,26 +7348,26 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_2rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":562
+  /* "gawml/neighbors/dist_metrics.pyx":562
  * 
  *     def rdist_to_dist(self, rdist):
  *         return rdist ** (1. / self.p)             # <<<<<<<<<<<<<<
@@ -7384,7 +7384,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rd
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":561
+  /* "gawml/neighbors/dist_metrics.pyx":561
  *         return pow(dist, self.p)
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -7396,7 +7396,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rd
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MinkowskiDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MinkowskiDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7404,7 +7404,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rd
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":564
+/* "gawml/neighbors/dist_metrics.pyx":564
  *         return rdist ** (1. / self.p)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -7413,26 +7413,26 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_2rd
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_4dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":565
+  /* "gawml/neighbors/dist_metrics.pyx":565
  * 
  *     def dist_to_rdist(self, dist):
  *         return dist ** self.p             # <<<<<<<<<<<<<<
@@ -7449,7 +7449,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4di
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":564
+  /* "gawml/neighbors/dist_metrics.pyx":564
  *         return rdist ** (1. / self.p)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -7461,7 +7461,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4di
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MinkowskiDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MinkowskiDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -7469,7 +7469,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4di
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":587
+/* "gawml/neighbors/dist_metrics.pyx":587
  * 
  *     """
  *     def __init__(self, p, w):             # <<<<<<<<<<<<<<
@@ -7478,8 +7478,8 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_4di
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_p = 0;
   PyObject *__pyx_v_w = 0;
   int __pyx_r;
@@ -7524,18 +7524,18 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 587, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), __pyx_v_p, __pyx_v_w);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), __pyx_v_p, __pyx_v_w);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_w) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_p, PyObject *__pyx_v_w) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7543,10 +7543,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   PyObject *__pyx_t_3 = NULL;
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_6;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_6;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":588
+  /* "gawml/neighbors/dist_metrics.pyx":588
  *     """
  *     def __init__(self, p, w):
  *         if p < 1:             # <<<<<<<<<<<<<<
@@ -7558,7 +7558,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":589
+    /* "gawml/neighbors/dist_metrics.pyx":589
  *     def __init__(self, p, w):
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")             # <<<<<<<<<<<<<<
@@ -7571,7 +7571,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(1, 589, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":588
+    /* "gawml/neighbors/dist_metrics.pyx":588
  *     """
  *     def __init__(self, p, w):
  *         if p < 1:             # <<<<<<<<<<<<<<
@@ -7580,7 +7580,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":590
+  /* "gawml/neighbors/dist_metrics.pyx":590
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -7621,7 +7621,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":591
+    /* "gawml/neighbors/dist_metrics.pyx":591
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):
  *             raise ValueError("WMinkowskiDistance requires finite p. "             # <<<<<<<<<<<<<<
@@ -7634,7 +7634,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(1, 591, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":590
+    /* "gawml/neighbors/dist_metrics.pyx":590
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):             # <<<<<<<<<<<<<<
@@ -7643,7 +7643,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":593
+  /* "gawml/neighbors/dist_metrics.pyx":593
  *             raise ValueError("WMinkowskiDistance requires finite p. "
  *                              "For p=inf, use ChebyshevDistance.")
  *         self.p = p             # <<<<<<<<<<<<<<
@@ -7653,7 +7653,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   __pyx_t_6 = __pyx_PyFloat_AsDouble(__pyx_v_p); if (unlikely((__pyx_t_6 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(1, 593, __pyx_L1_error)
   __pyx_v_self->__pyx_base.p = __pyx_t_6;
 
-  /* "gaw/neighbors/dist_metrics.pyx":594
+  /* "gawml/neighbors/dist_metrics.pyx":594
  *                              "For p=inf, use ChebyshevDistance.")
  *         self.p = p
  *         self.vec = np.asarray(w, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -7688,7 +7688,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   __pyx_v_self->__pyx_base.vec = ((PyArrayObject *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":595
+  /* "gawml/neighbors/dist_metrics.pyx":595
  *         self.p = p
  *         self.vec = np.asarray(w, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -7697,10 +7697,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
  */
   __pyx_t_3 = ((PyObject *)__pyx_v_self->__pyx_base.vec);
   __Pyx_INCREF(__pyx_t_3);
-  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_3));
+  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_3));
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":596
+  /* "gawml/neighbors/dist_metrics.pyx":596
  *         self.vec = np.asarray(w, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.size = self.vec.shape[0]             # <<<<<<<<<<<<<<
@@ -7709,7 +7709,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
  */
   __pyx_v_self->__pyx_base.size = (__pyx_v_self->__pyx_base.vec->dimensions[0]);
 
-  /* "gaw/neighbors/dist_metrics.pyx":587
+  /* "gawml/neighbors/dist_metrics.pyx":587
  * 
  *     """
  *     def __init__(self, p, w):             # <<<<<<<<<<<<<<
@@ -7725,14 +7725,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":598
+/* "gawml/neighbors/dist_metrics.pyx":598
  *         self.size = self.vec.shape[0]
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7740,14 +7740,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance___init__
  *         if size != self.size:
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
   __pyx_t_5numpy_intp_t __pyx_t_4;
   #ifdef WITH_THREAD
   PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
@@ -7757,7 +7757,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":600
+  /* "gawml/neighbors/dist_metrics.pyx":600
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -7768,7 +7768,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_1 = ((__pyx_v_size != __pyx_v_self->__pyx_base.size) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":601
+      /* "gawml/neighbors/dist_metrics.pyx":601
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -7781,7 +7781,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           #endif
           /*try:*/ {
 
-            /* "gaw/neighbors/dist_metrics.pyx":602
+            /* "gawml/neighbors/dist_metrics.pyx":602
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('WMinkowskiDistance dist: '             # <<<<<<<<<<<<<<
@@ -7795,7 +7795,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
             __PYX_ERR(1, 602, __pyx_L8_error)
           }
 
-          /* "gaw/neighbors/dist_metrics.pyx":601
+          /* "gawml/neighbors/dist_metrics.pyx":601
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -7812,7 +7812,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           }
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":600
+      /* "gawml/neighbors/dist_metrics.pyx":600
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -7821,7 +7821,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":604
+    /* "gawml/neighbors/dist_metrics.pyx":604
  *                 raise ValueError('WMinkowskiDistance dist: '
  *                                  'size of w does not match')
  *         cdef DTYPE_t d=0             # <<<<<<<<<<<<<<
@@ -7830,7 +7830,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_d = 0.0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":606
+    /* "gawml/neighbors/dist_metrics.pyx":606
  *         cdef DTYPE_t d=0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -7841,7 +7841,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_j = __pyx_t_4;
 
-      /* "gaw/neighbors/dist_metrics.pyx":607
+      /* "gawml/neighbors/dist_metrics.pyx":607
  *         cdef np.intp_t j
  *         for j in range(size):
  *             d += pow(self.vec_ptr[j] * fabs(x1[j] - x2[j]), self.p)             # <<<<<<<<<<<<<<
@@ -7851,7 +7851,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
       __pyx_v_d = (__pyx_v_d + pow(((__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_j]) * fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j])))), __pyx_v_self->__pyx_base.p));
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":608
+    /* "gawml/neighbors/dist_metrics.pyx":608
  *         for j in range(size):
  *             d += pow(self.vec_ptr[j] * fabs(x1[j] - x2[j]), self.p)
  *         return d             # <<<<<<<<<<<<<<
@@ -7862,7 +7862,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L3_return;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":600
+  /* "gawml/neighbors/dist_metrics.pyx":600
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -7884,7 +7884,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":598
+  /* "gawml/neighbors/dist_metrics.pyx":598
  *         self.size = self.vec.shape[0]
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7897,7 +7897,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   #ifdef WITH_THREAD
@@ -7906,7 +7906,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":610
+/* "gawml/neighbors/dist_metrics.pyx":610
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7914,22 +7914,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":612
+  /* "gawml/neighbors/dist_metrics.pyx":612
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 612, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 612, __pyx_L1_error)
   __pyx_r = pow(__pyx_t_1, (1. / __pyx_v_self->__pyx_base.p));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":610
+  /* "gawml/neighbors/dist_metrics.pyx":610
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -7943,7 +7943,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -7953,7 +7953,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":614
+/* "gawml/neighbors/dist_metrics.pyx":614
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -7961,12 +7961,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":615
+  /* "gawml/neighbors/dist_metrics.pyx":615
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return pow(rdist, 1. / self.p)             # <<<<<<<<<<<<<<
@@ -7976,7 +7976,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = pow(__pyx_v_rdist, (1. / __pyx_v_self->__pyx_base.p));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":614
+  /* "gawml/neighbors/dist_metrics.pyx":614
  *         return pow(self.rdist(x1, x2, size), 1. / self.p)
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -7990,7 +7990,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":617
+/* "gawml/neighbors/dist_metrics.pyx":617
  *         return pow(rdist, 1. / self.p)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -7998,10 +7998,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":618
+  /* "gawml/neighbors/dist_metrics.pyx":618
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         return pow(dist, self.p)             # <<<<<<<<<<<<<<
@@ -8011,7 +8011,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = pow(__pyx_v_dist, __pyx_v_self->__pyx_base.p);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":617
+  /* "gawml/neighbors/dist_metrics.pyx":617
  *         return pow(rdist, 1. / self.p)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -8024,7 +8024,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":620
+/* "gawml/neighbors/dist_metrics.pyx":620
  *         return pow(dist, self.p)
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -8033,26 +8033,26 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_2rdist_to_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":621
+  /* "gawml/neighbors/dist_metrics.pyx":621
  * 
  *     def rdist_to_dist(self, rdist):
  *         return rdist ** (1. / self.p)             # <<<<<<<<<<<<<<
@@ -8069,7 +8069,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2r
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":620
+  /* "gawml/neighbors/dist_metrics.pyx":620
  *         return pow(dist, self.p)
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -8081,7 +8081,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2r
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8089,7 +8089,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2r
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":623
+/* "gawml/neighbors/dist_metrics.pyx":623
  *         return rdist ** (1. / self.p)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -8098,26 +8098,26 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_2r
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_4dist_to_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":624
+  /* "gawml/neighbors/dist_metrics.pyx":624
  * 
  *     def dist_to_rdist(self, dist):
  *         return dist ** self.p             # <<<<<<<<<<<<<<
@@ -8134,7 +8134,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4d
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":623
+  /* "gawml/neighbors/dist_metrics.pyx":623
  *         return rdist ** (1. / self.p)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -8146,7 +8146,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4d
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.WMinkowskiDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.WMinkowskiDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8154,7 +8154,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4d
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":645
+/* "gawml/neighbors/dist_metrics.pyx":645
  *         then V is not referenced.
  *     """
  *     def __init__(self, V=None, VI=None):             # <<<<<<<<<<<<<<
@@ -8163,8 +8163,8 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_4d
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_V = 0;
   PyObject *__pyx_v_VI = 0;
   int __pyx_r;
@@ -8215,18 +8215,18 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_1__init
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 0, 0, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 645, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), __pyx_v_V, __pyx_v_VI);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), __pyx_v_V, __pyx_v_VI);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_V, PyObject *__pyx_v_VI) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_V, PyObject *__pyx_v_VI) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -8238,7 +8238,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __Pyx_RefNannySetupContext("__init__", 0);
   __Pyx_INCREF(__pyx_v_VI);
 
-  /* "gaw/neighbors/dist_metrics.pyx":646
+  /* "gawml/neighbors/dist_metrics.pyx":646
  *     """
  *     def __init__(self, V=None, VI=None):
  *         if VI is None:             # <<<<<<<<<<<<<<
@@ -8249,7 +8249,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":647
+    /* "gawml/neighbors/dist_metrics.pyx":647
  *     def __init__(self, V=None, VI=None):
  *         if VI is None:
  *             if V is None:             # <<<<<<<<<<<<<<
@@ -8260,7 +8260,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
     __pyx_t_1 = (__pyx_t_2 != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":648
+      /* "gawml/neighbors/dist_metrics.pyx":648
  *         if VI is None:
  *             if V is None:
  *                 raise ValueError("Must provide either V or VI "             # <<<<<<<<<<<<<<
@@ -8273,7 +8273,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 648, __pyx_L1_error)
 
-      /* "gaw/neighbors/dist_metrics.pyx":647
+      /* "gawml/neighbors/dist_metrics.pyx":647
  *     def __init__(self, V=None, VI=None):
  *         if VI is None:
  *             if V is None:             # <<<<<<<<<<<<<<
@@ -8282,7 +8282,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":650
+    /* "gawml/neighbors/dist_metrics.pyx":650
  *                 raise ValueError("Must provide either V or VI "
  *                                  "for Mahalanobis distance")
  *             VI = np.linalg.inv(V)             # <<<<<<<<<<<<<<
@@ -8325,7 +8325,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
     __Pyx_DECREF_SET(__pyx_v_VI, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":646
+    /* "gawml/neighbors/dist_metrics.pyx":646
  *     """
  *     def __init__(self, V=None, VI=None):
  *         if VI is None:             # <<<<<<<<<<<<<<
@@ -8334,7 +8334,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":651
+  /* "gawml/neighbors/dist_metrics.pyx":651
  *                                  "for Mahalanobis distance")
  *             VI = np.linalg.inv(V)
  *         if VI.ndim != 2 or VI.shape[0] != VI.shape[1]:             # <<<<<<<<<<<<<<
@@ -8371,7 +8371,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __pyx_L6_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":652
+    /* "gawml/neighbors/dist_metrics.pyx":652
  *             VI = np.linalg.inv(V)
  *         if VI.ndim != 2 or VI.shape[0] != VI.shape[1]:
  *             raise ValueError("V/VI must be square")             # <<<<<<<<<<<<<<
@@ -8384,7 +8384,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(1, 652, __pyx_L1_error)
 
-    /* "gaw/neighbors/dist_metrics.pyx":651
+    /* "gawml/neighbors/dist_metrics.pyx":651
  *                                  "for Mahalanobis distance")
  *             VI = np.linalg.inv(V)
  *         if VI.ndim != 2 or VI.shape[0] != VI.shape[1]:             # <<<<<<<<<<<<<<
@@ -8393,7 +8393,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":654
+  /* "gawml/neighbors/dist_metrics.pyx":654
  *             raise ValueError("V/VI must be square")
  * 
  *         self.mat = np.asarray(VI, dtype=float, order='C')             # <<<<<<<<<<<<<<
@@ -8426,7 +8426,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __pyx_v_self->__pyx_base.mat = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":655
+  /* "gawml/neighbors/dist_metrics.pyx":655
  * 
  *         self.mat = np.asarray(VI, dtype=float, order='C')
  *         self.mat_ptr = get_mat_ptr(self.mat)             # <<<<<<<<<<<<<<
@@ -8435,10 +8435,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
   __pyx_t_5 = ((PyObject *)__pyx_v_self->__pyx_base.mat);
   __Pyx_INCREF(__pyx_t_5);
-  __pyx_v_self->__pyx_base.mat_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_5));
+  __pyx_v_self->__pyx_base.mat_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_mat_ptr(((PyArrayObject *)__pyx_t_5));
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":657
+  /* "gawml/neighbors/dist_metrics.pyx":657
  *         self.mat_ptr = get_mat_ptr(self.mat)
  * 
  *         self.size = self.mat.shape[0]             # <<<<<<<<<<<<<<
@@ -8447,7 +8447,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
   __pyx_v_self->__pyx_base.size = (__pyx_v_self->__pyx_base.mat->dimensions[0]);
 
-  /* "gaw/neighbors/dist_metrics.pyx":660
+  /* "gawml/neighbors/dist_metrics.pyx":660
  * 
  *         # we need vec as a work buffer
  *         self.vec = np.zeros(self.size, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -8484,7 +8484,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __pyx_v_self->__pyx_base.vec = ((PyArrayObject *)__pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":661
+  /* "gawml/neighbors/dist_metrics.pyx":661
  *         # we need vec as a work buffer
  *         self.vec = np.zeros(self.size, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -8493,10 +8493,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  */
   __pyx_t_6 = ((PyObject *)__pyx_v_self->__pyx_base.vec);
   __Pyx_INCREF(__pyx_t_6);
-  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_6));
+  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_6));
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":645
+  /* "gawml/neighbors/dist_metrics.pyx":645
  *         then V is not referenced.
  *     """
  *     def __init__(self, V=None, VI=None):             # <<<<<<<<<<<<<<
@@ -8512,7 +8512,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_VI);
@@ -8520,7 +8520,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":663
+/* "gawml/neighbors/dist_metrics.pyx":663
  *         self.vec_ptr = get_vec_ptr(self.vec)
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -8528,18 +8528,18 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance___init_
  *         if size != self.size:
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_i;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_3;
   __pyx_t_5numpy_intp_t __pyx_t_4;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_5;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_5;
   __pyx_t_5numpy_intp_t __pyx_t_6;
   #ifdef WITH_THREAD
   PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
@@ -8549,7 +8549,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":665
+  /* "gawml/neighbors/dist_metrics.pyx":665
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -8560,7 +8560,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_1 = ((__pyx_v_size != __pyx_v_self->__pyx_base.size) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":666
+      /* "gawml/neighbors/dist_metrics.pyx":666
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -8573,7 +8573,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           #endif
           /*try:*/ {
 
-            /* "gaw/neighbors/dist_metrics.pyx":667
+            /* "gawml/neighbors/dist_metrics.pyx":667
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('Mahalanobis dist: size of V does not match')             # <<<<<<<<<<<<<<
@@ -8587,7 +8587,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
             __PYX_ERR(1, 667, __pyx_L8_error)
           }
 
-          /* "gaw/neighbors/dist_metrics.pyx":666
+          /* "gawml/neighbors/dist_metrics.pyx":666
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -8604,7 +8604,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           }
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":665
+      /* "gawml/neighbors/dist_metrics.pyx":665
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -8613,7 +8613,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":669
+    /* "gawml/neighbors/dist_metrics.pyx":669
  *                 raise ValueError('Mahalanobis dist: size of V does not match')
  * 
  *         cdef DTYPE_t tmp, d = 0             # <<<<<<<<<<<<<<
@@ -8622,7 +8622,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_d = 0.0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":673
+    /* "gawml/neighbors/dist_metrics.pyx":673
  * 
  *         # compute (x1 - x2).T * VI * (x1 - x2)
  *         for i in range(size):             # <<<<<<<<<<<<<<
@@ -8633,7 +8633,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i = __pyx_t_4;
 
-      /* "gaw/neighbors/dist_metrics.pyx":674
+      /* "gawml/neighbors/dist_metrics.pyx":674
  *         # compute (x1 - x2).T * VI * (x1 - x2)
  *         for i in range(size):
  *             self.vec_ptr[i] = x1[i] - x2[i]             # <<<<<<<<<<<<<<
@@ -8643,7 +8643,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
       (__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_i]) = ((__pyx_v_x1[__pyx_v_i]) - (__pyx_v_x2[__pyx_v_i]));
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":676
+    /* "gawml/neighbors/dist_metrics.pyx":676
  *             self.vec_ptr[i] = x1[i] - x2[i]
  * 
  *         for i in range(size):             # <<<<<<<<<<<<<<
@@ -8654,7 +8654,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_i = __pyx_t_4;
 
-      /* "gaw/neighbors/dist_metrics.pyx":677
+      /* "gawml/neighbors/dist_metrics.pyx":677
  * 
  *         for i in range(size):
  *             tmp = 0             # <<<<<<<<<<<<<<
@@ -8663,7 +8663,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
       __pyx_v_tmp = 0.0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":678
+      /* "gawml/neighbors/dist_metrics.pyx":678
  *         for i in range(size):
  *             tmp = 0
  *             for j in range(size):             # <<<<<<<<<<<<<<
@@ -8674,7 +8674,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
       for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
         __pyx_v_j = __pyx_t_6;
 
-        /* "gaw/neighbors/dist_metrics.pyx":679
+        /* "gawml/neighbors/dist_metrics.pyx":679
  *             tmp = 0
  *             for j in range(size):
  *                 tmp += self.mat_ptr[i * size + j] * self.vec_ptr[j]             # <<<<<<<<<<<<<<
@@ -8684,7 +8684,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
         __pyx_v_tmp = (__pyx_v_tmp + ((__pyx_v_self->__pyx_base.mat_ptr[((__pyx_v_i * __pyx_v_size) + __pyx_v_j)]) * (__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_j])));
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":680
+      /* "gawml/neighbors/dist_metrics.pyx":680
  *             for j in range(size):
  *                 tmp += self.mat_ptr[i * size + j] * self.vec_ptr[j]
  *             d += tmp * self.vec_ptr[i]             # <<<<<<<<<<<<<<
@@ -8694,7 +8694,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
       __pyx_v_d = (__pyx_v_d + (__pyx_v_tmp * (__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_i])));
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":681
+    /* "gawml/neighbors/dist_metrics.pyx":681
  *                 tmp += self.mat_ptr[i * size + j] * self.vec_ptr[j]
  *             d += tmp * self.vec_ptr[i]
  *         return d             # <<<<<<<<<<<<<<
@@ -8705,7 +8705,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L3_return;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":665
+  /* "gawml/neighbors/dist_metrics.pyx":665
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != self.size:             # <<<<<<<<<<<<<<
@@ -8727,7 +8727,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":663
+  /* "gawml/neighbors/dist_metrics.pyx":663
  *         self.vec_ptr = get_vec_ptr(self.vec)
  * 
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -8740,7 +8740,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   #ifdef WITH_THREAD
@@ -8749,7 +8749,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":683
+/* "gawml/neighbors/dist_metrics.pyx":683
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -8757,22 +8757,22 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return sqrt(self.rdist(x1, x2, size))
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_1;
 
-  /* "gaw/neighbors/dist_metrics.pyx":685
+  /* "gawml/neighbors/dist_metrics.pyx":685
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         return sqrt(self.rdist(x1, x2, size))             # <<<<<<<<<<<<<<
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  */
-  __pyx_t_1 = __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 685, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)__pyx_v_self), __pyx_v_x1, __pyx_v_x2, __pyx_v_size); if (unlikely(__pyx_t_1 == -1.0)) __PYX_ERR(1, 685, __pyx_L1_error)
   __pyx_r = sqrt(__pyx_t_1);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":683
+  /* "gawml/neighbors/dist_metrics.pyx":683
  *         return d
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -8786,7 +8786,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     #ifdef WITH_THREAD
     PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
     #endif
-    __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+    __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
     #ifdef WITH_THREAD
     PyGILState_Release(__pyx_gilstate_save);
     #endif
@@ -8796,7 +8796,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":687
+/* "gawml/neighbors/dist_metrics.pyx":687
  *         return sqrt(self.rdist(x1, x2, size))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -8804,12 +8804,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":688
+  /* "gawml/neighbors/dist_metrics.pyx":688
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -8819,7 +8819,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = sqrt(__pyx_v_rdist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":687
+  /* "gawml/neighbors/dist_metrics.pyx":687
  *         return sqrt(self.rdist(x1, x2, size))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -8833,7 +8833,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":690
+/* "gawml/neighbors/dist_metrics.pyx":690
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -8841,10 +8841,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":691
+  /* "gawml/neighbors/dist_metrics.pyx":691
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         return dist * dist             # <<<<<<<<<<<<<<
@@ -8854,7 +8854,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_dist * __pyx_v_dist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":690
+  /* "gawml/neighbors/dist_metrics.pyx":690
  *         return sqrt(rdist)
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -8867,7 +8867,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":693
+/* "gawml/neighbors/dist_metrics.pyx":693
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -8876,19 +8876,19 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_2rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -8897,7 +8897,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":694
+  /* "gawml/neighbors/dist_metrics.pyx":694
  * 
  *     def rdist_to_dist(self, rdist):
  *         return np.sqrt(rdist)             # <<<<<<<<<<<<<<
@@ -8939,7 +8939,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":693
+  /* "gawml/neighbors/dist_metrics.pyx":693
  *         return dist * dist
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -8953,7 +8953,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -8961,7 +8961,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":696
+/* "gawml/neighbors/dist_metrics.pyx":696
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -8970,25 +8970,25 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_2
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_4dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":697
+  /* "gawml/neighbors/dist_metrics.pyx":697
  * 
  *     def dist_to_rdist(self, dist):
  *         return dist ** 2             # <<<<<<<<<<<<<<
@@ -9002,7 +9002,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":696
+  /* "gawml/neighbors/dist_metrics.pyx":696
  *         return np.sqrt(rdist)
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -9013,7 +9013,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.MahalanobisDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.MahalanobisDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9021,7 +9021,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":712
+/* "gawml/neighbors/dist_metrics.pyx":712
  *        D(x, y) = \frac{1}{N} \sum_i \delta_{x_i, y_i}
  *     """
  *     def __init__(self, w):             # <<<<<<<<<<<<<<
@@ -9030,8 +9030,8 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_4
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_15HammingDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_15HammingDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_15HammingDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_15HammingDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_w = 0;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
@@ -9067,18 +9067,18 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_15HammingDistance_1__init__(P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 712, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HammingDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HammingDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *)__pyx_v_self), __pyx_v_w);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_15HammingDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *)__pyx_v_self), __pyx_v_w);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, PyObject *__pyx_v_w) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_15HammingDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, PyObject *__pyx_v_w) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9087,7 +9087,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":713
+  /* "gawml/neighbors/dist_metrics.pyx":713
  *     """
  *     def __init__(self, w):
  *         self.vec = np.asarray(w, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -9122,7 +9122,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
   __pyx_v_self->__pyx_base.vec = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":714
+  /* "gawml/neighbors/dist_metrics.pyx":714
  *     def __init__(self, w):
  *         self.vec = np.asarray(w, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)             # <<<<<<<<<<<<<<
@@ -9131,10 +9131,10 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
  */
   __pyx_t_4 = ((PyObject *)__pyx_v_self->__pyx_base.vec);
   __Pyx_INCREF(__pyx_t_4);
-  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_3gaw_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_4));
+  __pyx_v_self->__pyx_base.vec_ptr = __pyx_f_5gawml_9neighbors_12dist_metrics_get_vec_ptr(((PyArrayObject *)__pyx_t_4));
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":715
+  /* "gawml/neighbors/dist_metrics.pyx":715
  *         self.vec = np.asarray(w, dtype=DTYPE)
  *         self.vec_ptr = get_vec_ptr(self.vec)
  *         self.size = self.vec.shape[0]             # <<<<<<<<<<<<<<
@@ -9143,7 +9143,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
  */
   __pyx_v_self->__pyx_base.size = (__pyx_v_self->__pyx_base.vec->dimensions[0]);
 
-  /* "gaw/neighbors/dist_metrics.pyx":712
+  /* "gawml/neighbors/dist_metrics.pyx":712
  *        D(x, y) = \frac{1}{N} \sum_i \delta_{x_i, y_i}
  *     """
  *     def __init__(self, w):             # <<<<<<<<<<<<<<
@@ -9159,14 +9159,14 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HammingDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HammingDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":717
+/* "gawml/neighbors/dist_metrics.pyx":717
  *         self.size = self.vec.shape[0]
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9174,15 +9174,15 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_15HammingDistance___init__(st
  *         cdef DTYPE_t d = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_15HammingDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_15HammingDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":719
+  /* "gawml/neighbors/dist_metrics.pyx":719
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t d = 0             # <<<<<<<<<<<<<<
@@ -9191,7 +9191,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":721
+  /* "gawml/neighbors/dist_metrics.pyx":721
  *         cdef DTYPE_t d = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9202,7 +9202,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":722
+    /* "gawml/neighbors/dist_metrics.pyx":722
  *         cdef np.intp_t j
  *         for j in range(size):
  *             if x1[j] != x2[j]:             # <<<<<<<<<<<<<<
@@ -9212,7 +9212,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_3 = (((__pyx_v_x1[__pyx_v_j]) != (__pyx_v_x2[__pyx_v_j])) != 0);
     if (__pyx_t_3) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":723
+      /* "gawml/neighbors/dist_metrics.pyx":723
  *         for j in range(size):
  *             if x1[j] != x2[j]:
  *                 d += self.vec_ptr[j]             # <<<<<<<<<<<<<<
@@ -9221,7 +9221,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
       __pyx_v_d = (__pyx_v_d + (__pyx_v_self->__pyx_base.vec_ptr[__pyx_v_j]));
 
-      /* "gaw/neighbors/dist_metrics.pyx":722
+      /* "gawml/neighbors/dist_metrics.pyx":722
  *         cdef np.intp_t j
  *         for j in range(size):
  *             if x1[j] != x2[j]:             # <<<<<<<<<<<<<<
@@ -9231,7 +9231,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":724
+  /* "gawml/neighbors/dist_metrics.pyx":724
  *             if x1[j] != x2[j]:
  *                 d += self.vec_ptr[j]
  *         return d / size             # <<<<<<<<<<<<<<
@@ -9241,7 +9241,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_d / __pyx_v_size);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":717
+  /* "gawml/neighbors/dist_metrics.pyx":717
  *         self.size = self.vec.shape[0]
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9254,7 +9254,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":739
+/* "gawml/neighbors/dist_metrics.pyx":739
  *        D(x, y) = \sum_i \frac{|x_i - y_i|}{|x_i| + |y_i|}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9262,16 +9262,16 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef DTYPE_t denom, d = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_16CanberraDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_denom;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_16CanberraDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_denom;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":741
+  /* "gawml/neighbors/dist_metrics.pyx":741
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t denom, d = 0             # <<<<<<<<<<<<<<
@@ -9280,7 +9280,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":743
+  /* "gawml/neighbors/dist_metrics.pyx":743
  *         cdef DTYPE_t denom, d = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9291,7 +9291,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":744
+    /* "gawml/neighbors/dist_metrics.pyx":744
  *         cdef np.intp_t j
  *         for j in range(size):
  *             denom = fabs(x1[j]) + fabs(x2[j])             # <<<<<<<<<<<<<<
@@ -9300,7 +9300,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_denom = (fabs((__pyx_v_x1[__pyx_v_j])) + fabs((__pyx_v_x2[__pyx_v_j])));
 
-    /* "gaw/neighbors/dist_metrics.pyx":745
+    /* "gawml/neighbors/dist_metrics.pyx":745
  *         for j in range(size):
  *             denom = fabs(x1[j]) + fabs(x2[j])
  *             if denom > 0:             # <<<<<<<<<<<<<<
@@ -9310,7 +9310,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_3 = ((__pyx_v_denom > 0.0) != 0);
     if (__pyx_t_3) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":746
+      /* "gawml/neighbors/dist_metrics.pyx":746
  *             denom = fabs(x1[j]) + fabs(x2[j])
  *             if denom > 0:
  *                 d += fabs(x1[j] - x2[j]) / denom             # <<<<<<<<<<<<<<
@@ -9319,7 +9319,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
       __pyx_v_d = (__pyx_v_d + (fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))) / __pyx_v_denom));
 
-      /* "gaw/neighbors/dist_metrics.pyx":745
+      /* "gawml/neighbors/dist_metrics.pyx":745
  *         for j in range(size):
  *             denom = fabs(x1[j]) + fabs(x2[j])
  *             if denom > 0:             # <<<<<<<<<<<<<<
@@ -9329,7 +9329,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":747
+  /* "gawml/neighbors/dist_metrics.pyx":747
  *             if denom > 0:
  *                 d += fabs(x1[j] - x2[j]) / denom
  *         return d             # <<<<<<<<<<<<<<
@@ -9339,7 +9339,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = __pyx_v_d;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":739
+  /* "gawml/neighbors/dist_metrics.pyx":739
  *        D(x, y) = \sum_i \frac{|x_i - y_i|}{|x_i| + |y_i|}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9352,7 +9352,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":762
+/* "gawml/neighbors/dist_metrics.pyx":762
  *        D(x, y) = \frac{\sum_i |x_i - y_i|}{\sum_i(|x_i| + |y_i|)}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9360,16 +9360,16 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef DTYPE_t num = 0, denom = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18BrayCurtisDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_num;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_denom;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18BrayCurtisDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_num;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_denom;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":764
+  /* "gawml/neighbors/dist_metrics.pyx":764
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef DTYPE_t num = 0, denom = 0             # <<<<<<<<<<<<<<
@@ -9379,7 +9379,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_v_num = 0.0;
   __pyx_v_denom = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":766
+  /* "gawml/neighbors/dist_metrics.pyx":766
  *         cdef DTYPE_t num = 0, denom = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9390,7 +9390,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":767
+    /* "gawml/neighbors/dist_metrics.pyx":767
  *         cdef np.intp_t j
  *         for j in range(size):
  *             num += fabs(x1[j] - x2[j])             # <<<<<<<<<<<<<<
@@ -9399,7 +9399,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_num = (__pyx_v_num + fabs(((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]))));
 
-    /* "gaw/neighbors/dist_metrics.pyx":768
+    /* "gawml/neighbors/dist_metrics.pyx":768
  *         for j in range(size):
  *             num += fabs(x1[j] - x2[j])
  *             denom += fabs(x1[j]) + fabs(x2[j])             # <<<<<<<<<<<<<<
@@ -9409,7 +9409,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_denom = (__pyx_v_denom + (fabs((__pyx_v_x1[__pyx_v_j])) + fabs((__pyx_v_x2[__pyx_v_j]))));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":769
+  /* "gawml/neighbors/dist_metrics.pyx":769
  *             num += fabs(x1[j] - x2[j])
  *             denom += fabs(x1[j]) + fabs(x2[j])
  *         if denom > 0:             # <<<<<<<<<<<<<<
@@ -9419,7 +9419,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_t_3 = ((__pyx_v_denom > 0.0) != 0);
   if (__pyx_t_3) {
 
-    /* "gaw/neighbors/dist_metrics.pyx":770
+    /* "gawml/neighbors/dist_metrics.pyx":770
  *             denom += fabs(x1[j]) + fabs(x2[j])
  *         if denom > 0:
  *             return num / denom             # <<<<<<<<<<<<<<
@@ -9429,7 +9429,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_r = (__pyx_v_num / __pyx_v_denom);
     goto __pyx_L0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":769
+    /* "gawml/neighbors/dist_metrics.pyx":769
  *             num += fabs(x1[j] - x2[j])
  *             denom += fabs(x1[j]) + fabs(x2[j])
  *         if denom > 0:             # <<<<<<<<<<<<<<
@@ -9438,7 +9438,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":772
+  /* "gawml/neighbors/dist_metrics.pyx":772
  *             return num / denom
  *         else:
  *             return 0.0             # <<<<<<<<<<<<<<
@@ -9450,7 +9450,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L0;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":762
+  /* "gawml/neighbors/dist_metrics.pyx":762
  *        D(x, y) = \frac{\sum_i |x_i - y_i|}{\sum_i(|x_i| + |y_i|)}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9463,7 +9463,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":788
+/* "gawml/neighbors/dist_metrics.pyx":788
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N_{TT} + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9471,18 +9471,18 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, n_eq = 0, nnz = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_15JaccardDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_15JaccardDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_n_eq;
   int __pyx_v_nnz;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":790
+  /* "gawml/neighbors/dist_metrics.pyx":790
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, n_eq = 0, nnz = 0             # <<<<<<<<<<<<<<
@@ -9492,7 +9492,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_v_n_eq = 0;
   __pyx_v_nnz = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":792
+  /* "gawml/neighbors/dist_metrics.pyx":792
  *         cdef int tf1, tf2, n_eq = 0, nnz = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9503,7 +9503,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":793
+    /* "gawml/neighbors/dist_metrics.pyx":793
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -9512,7 +9512,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":794
+    /* "gawml/neighbors/dist_metrics.pyx":794
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -9521,7 +9521,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":795
+    /* "gawml/neighbors/dist_metrics.pyx":795
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             nnz += (tf1 or tf2)             # <<<<<<<<<<<<<<
@@ -9537,7 +9537,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_L5_bool_binop_done:;
     __pyx_v_nnz = (__pyx_v_nnz + __pyx_t_3);
 
-    /* "gaw/neighbors/dist_metrics.pyx":796
+    /* "gawml/neighbors/dist_metrics.pyx":796
  *             tf2 = x2[j] != 0
  *             nnz += (tf1 or tf2)
  *             n_eq += (tf1 and tf2)             # <<<<<<<<<<<<<<
@@ -9554,7 +9554,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_n_eq = (__pyx_v_n_eq + __pyx_t_3);
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":797
+  /* "gawml/neighbors/dist_metrics.pyx":797
  *             nnz += (tf1 or tf2)
  *             n_eq += (tf1 and tf2)
  *         return (nnz - n_eq) * 1.0 / nnz             # <<<<<<<<<<<<<<
@@ -9564,7 +9564,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (((__pyx_v_nnz - __pyx_v_n_eq) * 1.0) / __pyx_v_nnz);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":788
+  /* "gawml/neighbors/dist_metrics.pyx":788
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N_{TT} + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9577,7 +9577,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":813
+/* "gawml/neighbors/dist_metrics.pyx":813
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9585,16 +9585,16 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, n_neq = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_16MatchingDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_16MatchingDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_n_neq;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":815
+  /* "gawml/neighbors/dist_metrics.pyx":815
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, n_neq = 0             # <<<<<<<<<<<<<<
@@ -9603,7 +9603,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_n_neq = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":817
+  /* "gawml/neighbors/dist_metrics.pyx":817
  *         cdef int tf1, tf2, n_neq = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9614,7 +9614,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":818
+    /* "gawml/neighbors/dist_metrics.pyx":818
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -9623,7 +9623,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":819
+    /* "gawml/neighbors/dist_metrics.pyx":819
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -9632,7 +9632,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":820
+    /* "gawml/neighbors/dist_metrics.pyx":820
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -9642,7 +9642,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":821
+  /* "gawml/neighbors/dist_metrics.pyx":821
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)
  *         return n_neq * 1. / size             # <<<<<<<<<<<<<<
@@ -9652,7 +9652,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = ((__pyx_v_n_neq * 1.) / __pyx_v_size);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":813
+  /* "gawml/neighbors/dist_metrics.pyx":813
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9665,7 +9665,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":837
+/* "gawml/neighbors/dist_metrics.pyx":837
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{2 * N_{TT} + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9673,18 +9673,18 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, n_neq = 0, ntt = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_12DiceDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_12DiceDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_n_neq;
   int __pyx_v_ntt;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":839
+  /* "gawml/neighbors/dist_metrics.pyx":839
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, n_neq = 0, ntt = 0             # <<<<<<<<<<<<<<
@@ -9694,7 +9694,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_v_n_neq = 0;
   __pyx_v_ntt = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":841
+  /* "gawml/neighbors/dist_metrics.pyx":841
  *         cdef int tf1, tf2, n_neq = 0, ntt = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9705,7 +9705,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":842
+    /* "gawml/neighbors/dist_metrics.pyx":842
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -9714,7 +9714,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":843
+    /* "gawml/neighbors/dist_metrics.pyx":843
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -9723,7 +9723,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":844
+    /* "gawml/neighbors/dist_metrics.pyx":844
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             ntt += (tf1 and tf2)             # <<<<<<<<<<<<<<
@@ -9739,7 +9739,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_L5_bool_binop_done:;
     __pyx_v_ntt = (__pyx_v_ntt + __pyx_t_3);
 
-    /* "gaw/neighbors/dist_metrics.pyx":845
+    /* "gawml/neighbors/dist_metrics.pyx":845
  *             tf2 = x2[j] != 0
  *             ntt += (tf1 and tf2)
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -9749,7 +9749,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":846
+  /* "gawml/neighbors/dist_metrics.pyx":846
  *             ntt += (tf1 and tf2)
  *             n_neq += (tf1 != tf2)
  *         return n_neq / (2.0 * ntt + n_neq)             # <<<<<<<<<<<<<<
@@ -9759,7 +9759,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_n_neq / ((2.0 * __pyx_v_ntt) + __pyx_v_n_neq));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":837
+  /* "gawml/neighbors/dist_metrics.pyx":837
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{2 * N_{TT} + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9772,7 +9772,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":862
+/* "gawml/neighbors/dist_metrics.pyx":862
  *        D(x, y) = 1 - \frac{N_{TT}}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9780,18 +9780,18 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17KulsinskiDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17KulsinskiDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_ntt;
   int __pyx_v_n_neq;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":864
+  /* "gawml/neighbors/dist_metrics.pyx":864
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0             # <<<<<<<<<<<<<<
@@ -9801,7 +9801,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_v_ntt = 0;
   __pyx_v_n_neq = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":866
+  /* "gawml/neighbors/dist_metrics.pyx":866
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9812,7 +9812,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":867
+    /* "gawml/neighbors/dist_metrics.pyx":867
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -9821,7 +9821,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":868
+    /* "gawml/neighbors/dist_metrics.pyx":868
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -9830,7 +9830,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":869
+    /* "gawml/neighbors/dist_metrics.pyx":869
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -9839,7 +9839,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
 
-    /* "gaw/neighbors/dist_metrics.pyx":870
+    /* "gawml/neighbors/dist_metrics.pyx":870
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)
  *             ntt += (tf1 and tf2)             # <<<<<<<<<<<<<<
@@ -9856,7 +9856,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_ntt = (__pyx_v_ntt + __pyx_t_3);
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":871
+  /* "gawml/neighbors/dist_metrics.pyx":871
  *             n_neq += (tf1 != tf2)
  *             ntt += (tf1 and tf2)
  *         return (n_neq - ntt + size) * 1.0 / (n_neq + size)             # <<<<<<<<<<<<<<
@@ -9866,7 +9866,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = ((((__pyx_v_n_neq - __pyx_v_ntt) + __pyx_v_size) * 1.0) / (__pyx_v_n_neq + __pyx_v_size));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":862
+  /* "gawml/neighbors/dist_metrics.pyx":862
  *        D(x, y) = 1 - \frac{N_{TT}}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9879,7 +9879,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":887
+/* "gawml/neighbors/dist_metrics.pyx":887
  *        D(x, y) = \frac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9887,16 +9887,16 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, n_neq = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_n_neq;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":889
+  /* "gawml/neighbors/dist_metrics.pyx":889
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, n_neq = 0             # <<<<<<<<<<<<<<
@@ -9905,7 +9905,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_n_neq = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":891
+  /* "gawml/neighbors/dist_metrics.pyx":891
  *         cdef int tf1, tf2, n_neq = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -9916,7 +9916,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":892
+    /* "gawml/neighbors/dist_metrics.pyx":892
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -9925,7 +9925,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":893
+    /* "gawml/neighbors/dist_metrics.pyx":893
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -9934,7 +9934,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":894
+    /* "gawml/neighbors/dist_metrics.pyx":894
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -9944,7 +9944,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":895
+  /* "gawml/neighbors/dist_metrics.pyx":895
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)
  *         return (2.0 * n_neq) / (size + n_neq)             # <<<<<<<<<<<<<<
@@ -9954,7 +9954,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = ((2.0 * __pyx_v_n_neq) / (__pyx_v_size + __pyx_v_n_neq));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":887
+  /* "gawml/neighbors/dist_metrics.pyx":887
  *        D(x, y) = \frac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9967,7 +9967,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":911
+/* "gawml/neighbors/dist_metrics.pyx":911
  *        D(x, y) = \frac{N - N_{TT}}{N}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -9975,17 +9975,17 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, ntt = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_18RussellRaoDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_18RussellRaoDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_ntt;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":913
+  /* "gawml/neighbors/dist_metrics.pyx":913
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, ntt = 0             # <<<<<<<<<<<<<<
@@ -9994,7 +9994,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_ntt = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":915
+  /* "gawml/neighbors/dist_metrics.pyx":915
  *         cdef int tf1, tf2, ntt = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -10005,7 +10005,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":916
+    /* "gawml/neighbors/dist_metrics.pyx":916
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -10014,7 +10014,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":917
+    /* "gawml/neighbors/dist_metrics.pyx":917
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -10023,7 +10023,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":918
+    /* "gawml/neighbors/dist_metrics.pyx":918
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             ntt += (tf1 and tf2)             # <<<<<<<<<<<<<<
@@ -10040,7 +10040,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_ntt = (__pyx_v_ntt + __pyx_t_3);
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":919
+  /* "gawml/neighbors/dist_metrics.pyx":919
  *             tf2 = x2[j] != 0
  *             ntt += (tf1 and tf2)
  *         return (size - ntt) * 1. / size             # <<<<<<<<<<<<<<
@@ -10050,7 +10050,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (((__pyx_v_size - __pyx_v_ntt) * 1.) / __pyx_v_size);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":911
+  /* "gawml/neighbors/dist_metrics.pyx":911
  *        D(x, y) = \frac{N - N_{TT}}{N}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10063,7 +10063,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":935
+/* "gawml/neighbors/dist_metrics.pyx":935
  *        D(x, y) = \frac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10071,16 +10071,16 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, n_neq = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_21SokalMichenerDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_21SokalMichenerDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_n_neq;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pyx":937
+  /* "gawml/neighbors/dist_metrics.pyx":937
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, n_neq = 0             # <<<<<<<<<<<<<<
@@ -10089,7 +10089,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_n_neq = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":939
+  /* "gawml/neighbors/dist_metrics.pyx":939
  *         cdef int tf1, tf2, n_neq = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -10100,7 +10100,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":940
+    /* "gawml/neighbors/dist_metrics.pyx":940
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -10109,7 +10109,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":941
+    /* "gawml/neighbors/dist_metrics.pyx":941
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -10118,7 +10118,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":942
+    /* "gawml/neighbors/dist_metrics.pyx":942
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -10128,7 +10128,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":943
+  /* "gawml/neighbors/dist_metrics.pyx":943
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)
  *         return (2.0 * n_neq) / (size + n_neq)             # <<<<<<<<<<<<<<
@@ -10138,7 +10138,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = ((2.0 * __pyx_v_n_neq) / (__pyx_v_size + __pyx_v_n_neq));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":935
+  /* "gawml/neighbors/dist_metrics.pyx":935
  *        D(x, y) = \frac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10151,7 +10151,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":959
+/* "gawml/neighbors/dist_metrics.pyx":959
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N_{TT} / 2 + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10159,18 +10159,18 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_19SokalSneathDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_19SokalSneathDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   int __pyx_v_tf1;
   int __pyx_v_tf2;
   int __pyx_v_ntt;
   int __pyx_v_n_neq;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":961
+  /* "gawml/neighbors/dist_metrics.pyx":961
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) nogil except -1:
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0             # <<<<<<<<<<<<<<
@@ -10180,7 +10180,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_v_ntt = 0;
   __pyx_v_n_neq = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":963
+  /* "gawml/neighbors/dist_metrics.pyx":963
  *         cdef int tf1, tf2, ntt = 0, n_neq = 0
  *         cdef np.intp_t j
  *         for j in range(size):             # <<<<<<<<<<<<<<
@@ -10191,7 +10191,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pyx":964
+    /* "gawml/neighbors/dist_metrics.pyx":964
  *         cdef np.intp_t j
  *         for j in range(size):
  *             tf1 = x1[j] != 0             # <<<<<<<<<<<<<<
@@ -10200,7 +10200,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf1 = ((__pyx_v_x1[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":965
+    /* "gawml/neighbors/dist_metrics.pyx":965
  *         for j in range(size):
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0             # <<<<<<<<<<<<<<
@@ -10209,7 +10209,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_tf2 = ((__pyx_v_x2[__pyx_v_j]) != 0.0);
 
-    /* "gaw/neighbors/dist_metrics.pyx":966
+    /* "gawml/neighbors/dist_metrics.pyx":966
  *             tf1 = x1[j] != 0
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)             # <<<<<<<<<<<<<<
@@ -10218,7 +10218,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_n_neq = (__pyx_v_n_neq + (__pyx_v_tf1 != __pyx_v_tf2));
 
-    /* "gaw/neighbors/dist_metrics.pyx":967
+    /* "gawml/neighbors/dist_metrics.pyx":967
  *             tf2 = x2[j] != 0
  *             n_neq += (tf1 != tf2)
  *             ntt += (tf1 and tf2)             # <<<<<<<<<<<<<<
@@ -10235,7 +10235,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_v_ntt = (__pyx_v_ntt + __pyx_t_3);
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":968
+  /* "gawml/neighbors/dist_metrics.pyx":968
  *             n_neq += (tf1 != tf2)
  *             ntt += (tf1 and tf2)
  *         return n_neq / (0.5 * ntt + n_neq)             # <<<<<<<<<<<<<<
@@ -10245,7 +10245,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_n_neq / ((0.5 * __pyx_v_ntt) + __pyx_v_n_neq));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":959
+  /* "gawml/neighbors/dist_metrics.pyx":959
  *        D(x, y) = \frac{N_{TF} + N_{FT}}{N_{TT} / 2 + N_{TF} + N_{FT}}
  *     """
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10258,7 +10258,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":987
+/* "gawml/neighbors/dist_metrics.pyx":987
  *                                 + cos(x1)cos(y1)sin^2((x2 - y2) / 2)}]
  *     """
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10266,10 +10266,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         if size != 2:
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_0;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_1;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_0;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
@@ -10281,7 +10281,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":989
+  /* "gawml/neighbors/dist_metrics.pyx":989
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10292,7 +10292,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_1 = ((__pyx_v_size != 2) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":990
+      /* "gawml/neighbors/dist_metrics.pyx":990
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -10305,7 +10305,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           #endif
           /*try:*/ {
 
-            /* "gaw/neighbors/dist_metrics.pyx":991
+            /* "gawml/neighbors/dist_metrics.pyx":991
  *         if size != 2:
  *             with gil:
  *                 raise ValueError("Haversine distance only valid "             # <<<<<<<<<<<<<<
@@ -10319,7 +10319,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
             __PYX_ERR(1, 991, __pyx_L8_error)
           }
 
-          /* "gaw/neighbors/dist_metrics.pyx":990
+          /* "gawml/neighbors/dist_metrics.pyx":990
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -10336,7 +10336,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           }
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":989
+      /* "gawml/neighbors/dist_metrics.pyx":989
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10345,7 +10345,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":993
+    /* "gawml/neighbors/dist_metrics.pyx":993
  *                 raise ValueError("Haversine distance only valid "
  *                                  "in 2 dimensions")
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))             # <<<<<<<<<<<<<<
@@ -10354,7 +10354,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_sin_0 = sin((0.5 * ((__pyx_v_x1[0]) - (__pyx_v_x2[0]))));
 
-    /* "gaw/neighbors/dist_metrics.pyx":994
+    /* "gawml/neighbors/dist_metrics.pyx":994
  *                                  "in 2 dimensions")
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))
  *         cdef DTYPE_t sin_1 = sin(0.5 * (x1[1] - x2[1]))             # <<<<<<<<<<<<<<
@@ -10363,7 +10363,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_sin_1 = sin((0.5 * ((__pyx_v_x1[1]) - (__pyx_v_x2[1]))));
 
-    /* "gaw/neighbors/dist_metrics.pyx":995
+    /* "gawml/neighbors/dist_metrics.pyx":995
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))
  *         cdef DTYPE_t sin_1 = sin(0.5 * (x1[1] - x2[1]))
  *         return (sin_0 * sin_0 + cos(x1[0]) * cos(x2[0]) * sin_1 * sin_1)             # <<<<<<<<<<<<<<
@@ -10374,7 +10374,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L3_return;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":989
+  /* "gawml/neighbors/dist_metrics.pyx":989
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10396,7 +10396,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":987
+  /* "gawml/neighbors/dist_metrics.pyx":987
  *                                 + cos(x1)cos(y1)sin^2((x2 - y2) / 2)}]
  *     """
  *     cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10409,7 +10409,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HaversineDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HaversineDistance.rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   #ifdef WITH_THREAD
@@ -10418,7 +10418,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":997
+/* "gawml/neighbors/dist_metrics.pyx":997
  *         return (sin_0 * sin_0 + cos(x1[0]) * cos(x2[0]) * sin_1 * sin_1)
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10426,10 +10426,10 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         if size != 2:
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_0;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_1;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_0;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_sin_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
@@ -10441,7 +10441,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":999
+  /* "gawml/neighbors/dist_metrics.pyx":999
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10452,7 +10452,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     __pyx_t_1 = ((__pyx_v_size != 2) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/neighbors/dist_metrics.pyx":1000
+      /* "gawml/neighbors/dist_metrics.pyx":1000
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -10465,7 +10465,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           #endif
           /*try:*/ {
 
-            /* "gaw/neighbors/dist_metrics.pyx":1001
+            /* "gawml/neighbors/dist_metrics.pyx":1001
  *         if size != 2:
  *             with gil:
  *                 raise ValueError("Haversine distance only valid in 2 dimensions")             # <<<<<<<<<<<<<<
@@ -10479,7 +10479,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
             __PYX_ERR(1, 1001, __pyx_L8_error)
           }
 
-          /* "gaw/neighbors/dist_metrics.pyx":1000
+          /* "gawml/neighbors/dist_metrics.pyx":1000
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:
  *             with gil:             # <<<<<<<<<<<<<<
@@ -10496,7 +10496,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           }
       }
 
-      /* "gaw/neighbors/dist_metrics.pyx":999
+      /* "gawml/neighbors/dist_metrics.pyx":999
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10505,7 +10505,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     }
 
-    /* "gaw/neighbors/dist_metrics.pyx":1002
+    /* "gawml/neighbors/dist_metrics.pyx":1002
  *             with gil:
  *                 raise ValueError("Haversine distance only valid in 2 dimensions")
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))             # <<<<<<<<<<<<<<
@@ -10514,7 +10514,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_sin_0 = sin((0.5 * ((__pyx_v_x1[0]) - (__pyx_v_x2[0]))));
 
-    /* "gaw/neighbors/dist_metrics.pyx":1003
+    /* "gawml/neighbors/dist_metrics.pyx":1003
  *                 raise ValueError("Haversine distance only valid in 2 dimensions")
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))
  *         cdef DTYPE_t sin_1 = sin(0.5 * (x1[1] - x2[1]))             # <<<<<<<<<<<<<<
@@ -10523,7 +10523,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
     __pyx_v_sin_1 = sin((0.5 * ((__pyx_v_x1[1]) - (__pyx_v_x2[1]))));
 
-    /* "gaw/neighbors/dist_metrics.pyx":1004
+    /* "gawml/neighbors/dist_metrics.pyx":1004
  *         cdef DTYPE_t sin_0 = sin(0.5 * (x1[0] - x2[0]))
  *         cdef DTYPE_t sin_1 = sin(0.5 * (x1[1] - x2[1]))
  *         return 2 * asin(sqrt(sin_0 * sin_0             # <<<<<<<<<<<<<<
@@ -10534,7 +10534,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     goto __pyx_L3_return;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":999
+  /* "gawml/neighbors/dist_metrics.pyx":999
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                               ITYPE_t size) nogil except -1:
  *         if size != 2:             # <<<<<<<<<<<<<<
@@ -10556,7 +10556,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":997
+  /* "gawml/neighbors/dist_metrics.pyx":997
  *         return (sin_0 * sin_0 + cos(x1[0]) * cos(x2[0]) * sin_1 * sin_1)
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -10569,7 +10569,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HaversineDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HaversineDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   #ifdef WITH_THREAD
@@ -10578,7 +10578,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1007
+/* "gawml/neighbors/dist_metrics.pyx":1007
  *                              + cos(x1[0]) * cos(x2[0]) * sin_1 * sin_1))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -10586,12 +10586,12 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  * 
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_rdist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1008
+  /* "gawml/neighbors/dist_metrics.pyx":1008
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:
  *         return 2 * asin(sqrt(rdist))             # <<<<<<<<<<<<<<
@@ -10601,7 +10601,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (2.0 * asin(sqrt(__pyx_v_rdist)));
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1007
+  /* "gawml/neighbors/dist_metrics.pyx":1007
  *                              + cos(x1[0]) * cos(x2[0]) * sin_1 * sin_1))
  * 
  *     cdef inline DTYPE_t _rdist_to_dist(self, DTYPE_t rdist) except -1:             # <<<<<<<<<<<<<<
@@ -10615,7 +10615,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1010
+/* "gawml/neighbors/dist_metrics.pyx":1010
  *         return 2 * asin(sqrt(rdist))
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -10623,11 +10623,11 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  *         return tmp * tmp
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1011
+  /* "gawml/neighbors/dist_metrics.pyx":1011
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         cdef DTYPE_t tmp = sin(0.5 * dist)             # <<<<<<<<<<<<<<
@@ -10636,7 +10636,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   __pyx_v_tmp = sin((0.5 * __pyx_v_dist));
 
-  /* "gaw/neighbors/dist_metrics.pyx":1012
+  /* "gawml/neighbors/dist_metrics.pyx":1012
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:
  *         cdef DTYPE_t tmp = sin(0.5 * dist)
  *         return tmp * tmp             # <<<<<<<<<<<<<<
@@ -10646,7 +10646,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __pyx_r = (__pyx_v_tmp * __pyx_v_tmp);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1010
+  /* "gawml/neighbors/dist_metrics.pyx":1010
  *         return 2 * asin(sqrt(rdist))
  * 
  *     cdef inline DTYPE_t _dist_to_rdist(self, DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -10659,7 +10659,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1014
+/* "gawml/neighbors/dist_metrics.pyx":1014
  *         return tmp * tmp
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -10668,19 +10668,19 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist(PyObject *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rdist_to_dist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *)__pyx_v_self), ((PyObject *)__pyx_v_rdist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist_to_dist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_rdist) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -10691,7 +10691,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdi
   PyObject *__pyx_t_6 = NULL;
   __Pyx_RefNannySetupContext("rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1015
+  /* "gawml/neighbors/dist_metrics.pyx":1015
  * 
  *     def rdist_to_dist(self, rdist):
  *         return 2 * np.arcsin(np.sqrt(rdist))             # <<<<<<<<<<<<<<
@@ -10767,7 +10767,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdi
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1014
+  /* "gawml/neighbors/dist_metrics.pyx":1014
  *         return tmp * tmp
  * 
  *     def rdist_to_dist(self, rdist):             # <<<<<<<<<<<<<<
@@ -10783,7 +10783,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdi
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HaversineDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HaversineDistance.rdist_to_dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -10791,7 +10791,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdi
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1017
+/* "gawml/neighbors/dist_metrics.pyx":1017
  *         return 2 * np.arcsin(np.sqrt(rdist))
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -10800,19 +10800,19 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdi
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
-static PyObject *__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist); /*proto*/
+static PyObject *__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist(PyObject *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("dist_to_rdist (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *)__pyx_v_self), ((PyObject *)__pyx_v_dist));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
+static PyObject *__pyx_pf_5gawml_9neighbors_12dist_metrics_17HaversineDistance_2dist_to_rdist(CYTHON_UNUSED struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *__pyx_v_self, PyObject *__pyx_v_dist) {
   PyObject *__pyx_v_tmp = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
@@ -10823,7 +10823,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("dist_to_rdist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1018
+  /* "gawml/neighbors/dist_metrics.pyx":1018
  * 
  *     def dist_to_rdist(self, dist):
  *         tmp = np.sin(0.5 * dist)             # <<<<<<<<<<<<<<
@@ -10866,7 +10866,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
   __pyx_v_tmp = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1019
+  /* "gawml/neighbors/dist_metrics.pyx":1019
  *     def dist_to_rdist(self, dist):
  *         tmp = np.sin(0.5 * dist)
  *         return tmp * tmp             # <<<<<<<<<<<<<<
@@ -10880,7 +10880,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1017
+  /* "gawml/neighbors/dist_metrics.pyx":1017
  *         return 2 * np.arcsin(np.sqrt(rdist))
  * 
  *     def dist_to_rdist(self, dist):             # <<<<<<<<<<<<<<
@@ -10895,7 +10895,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.HaversineDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.HaversineDistance.dist_to_rdist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_tmp);
@@ -10904,7 +10904,7 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1097
+/* "gawml/neighbors/dist_metrics.pyx":1097
  *         func should take two numpy arrays as input, and return a distance.
  *     """
  *     def __init__(self, func, **kwargs):             # <<<<<<<<<<<<<<
@@ -10913,8 +10913,8 @@ static PyObject *__pyx_pf_3gaw_9neighbors_12dist_metrics_17HaversineDistance_2di
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_func = 0;
   PyObject *__pyx_v_kwargs = 0;
   int __pyx_r;
@@ -10954,11 +10954,11 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(Py
   __Pyx_RaiseArgtupleInvalid("__init__", 1, 1, 1, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 1097, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_kwargs); __pyx_v_kwargs = 0;
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *)__pyx_v_self), __pyx_v_func, __pyx_v_kwargs);
+  __pyx_r = __pyx_pf_5gawml_9neighbors_12dist_metrics_14PyFuncDistance___init__(((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *)__pyx_v_self), __pyx_v_func, __pyx_v_kwargs);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_kwargs);
@@ -10966,7 +10966,7 @@ static int __pyx_pw_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_1__init__(Py
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, PyObject *__pyx_v_func, PyObject *__pyx_v_kwargs) {
+static int __pyx_pf_5gawml_9neighbors_12dist_metrics_14PyFuncDistance___init__(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, PyObject *__pyx_v_func, PyObject *__pyx_v_kwargs) {
   PyObject *__pyx_v_x = NULL;
   PyObject *__pyx_v_d = NULL;
   int __pyx_r;
@@ -10981,7 +10981,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("__init__", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1098
+  /* "gawml/neighbors/dist_metrics.pyx":1098
  *     """
  *     def __init__(self, func, **kwargs):
  *         self.func = func             # <<<<<<<<<<<<<<
@@ -10994,7 +10994,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   __Pyx_DECREF(__pyx_v_self->__pyx_base.func);
   __pyx_v_self->__pyx_base.func = __pyx_v_func;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1099
+  /* "gawml/neighbors/dist_metrics.pyx":1099
  *     def __init__(self, func, **kwargs):
  *         self.func = func
  *         x = np.random.random(10)             # <<<<<<<<<<<<<<
@@ -11015,7 +11015,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   __pyx_v_x = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1100
+  /* "gawml/neighbors/dist_metrics.pyx":1100
  *         self.func = func
  *         x = np.random.random(10)
  *         try:             # <<<<<<<<<<<<<<
@@ -11031,7 +11031,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __Pyx_XGOTREF(__pyx_t_5);
     /*try:*/ {
 
-      /* "gaw/neighbors/dist_metrics.pyx":1101
+      /* "gawml/neighbors/dist_metrics.pyx":1101
  *         x = np.random.random(10)
  *         try:
  *             d = self.func(x, x, **kwargs)             # <<<<<<<<<<<<<<
@@ -11052,7 +11052,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
       __pyx_v_d = __pyx_t_1;
       __pyx_t_1 = 0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":1100
+      /* "gawml/neighbors/dist_metrics.pyx":1100
  *         self.func = func
  *         x = np.random.random(10)
  *         try:             # <<<<<<<<<<<<<<
@@ -11069,7 +11069,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":1102
+    /* "gawml/neighbors/dist_metrics.pyx":1102
  *         try:
  *             d = self.func(x, x, **kwargs)
  *         except TypeError:             # <<<<<<<<<<<<<<
@@ -11078,13 +11078,13 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
  */
     __pyx_t_6 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_6) {
-      __Pyx_AddTraceback("gaw.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_2, &__pyx_t_7) < 0) __PYX_ERR(1, 1102, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "gaw/neighbors/dist_metrics.pyx":1103
+      /* "gawml/neighbors/dist_metrics.pyx":1103
  *             d = self.func(x, x, **kwargs)
  *         except TypeError:
  *             raise ValueError("func must be a callable taking two arrays")             # <<<<<<<<<<<<<<
@@ -11100,7 +11100,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "gaw/neighbors/dist_metrics.pyx":1100
+    /* "gawml/neighbors/dist_metrics.pyx":1100
  *         self.func = func
  *         x = np.random.random(10)
  *         try:             # <<<<<<<<<<<<<<
@@ -11116,7 +11116,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __pyx_L10_try_end:;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":1105
+  /* "gawml/neighbors/dist_metrics.pyx":1105
  *             raise ValueError("func must be a callable taking two arrays")
  * 
  *         try:             # <<<<<<<<<<<<<<
@@ -11132,7 +11132,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "gaw/neighbors/dist_metrics.pyx":1106
+      /* "gawml/neighbors/dist_metrics.pyx":1106
  * 
  *         try:
  *             d = float(d)             # <<<<<<<<<<<<<<
@@ -11144,7 +11144,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
       __Pyx_DECREF_SET(__pyx_v_d, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "gaw/neighbors/dist_metrics.pyx":1105
+      /* "gawml/neighbors/dist_metrics.pyx":1105
  *             raise ValueError("func must be a callable taking two arrays")
  * 
  *         try:             # <<<<<<<<<<<<<<
@@ -11163,7 +11163,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gaw/neighbors/dist_metrics.pyx":1107
+    /* "gawml/neighbors/dist_metrics.pyx":1107
  *         try:
  *             d = float(d)
  *         except TypeError:             # <<<<<<<<<<<<<<
@@ -11172,13 +11172,13 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
  */
     __pyx_t_6 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_6) {
-      __Pyx_AddTraceback("gaw.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_7, &__pyx_t_2, &__pyx_t_1) < 0) __PYX_ERR(1, 1107, __pyx_L15_except_error)
       __Pyx_GOTREF(__pyx_t_7);
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_GOTREF(__pyx_t_1);
 
-      /* "gaw/neighbors/dist_metrics.pyx":1108
+      /* "gawml/neighbors/dist_metrics.pyx":1108
  *             d = float(d)
  *         except TypeError:
  *             raise ValueError("func must return a float")             # <<<<<<<<<<<<<<
@@ -11194,7 +11194,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     goto __pyx_L15_except_error;
     __pyx_L15_except_error:;
 
-    /* "gaw/neighbors/dist_metrics.pyx":1105
+    /* "gawml/neighbors/dist_metrics.pyx":1105
  *             raise ValueError("func must be a callable taking two arrays")
  * 
  *         try:             # <<<<<<<<<<<<<<
@@ -11210,7 +11210,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
     __pyx_L20_try_end:;
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":1110
+  /* "gawml/neighbors/dist_metrics.pyx":1110
  *             raise ValueError("func must return a float")
  * 
  *         self.kwargs = kwargs             # <<<<<<<<<<<<<<
@@ -11223,7 +11223,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   __Pyx_DECREF(__pyx_v_self->__pyx_base.kwargs);
   __pyx_v_self->__pyx_base.kwargs = __pyx_v_kwargs;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1097
+  /* "gawml/neighbors/dist_metrics.pyx":1097
  *         func should take two numpy arrays as input, and return a distance.
  *     """
  *     def __init__(self, func, **kwargs):             # <<<<<<<<<<<<<<
@@ -11239,7 +11239,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.PyFuncDistance.__init__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_x);
@@ -11248,7 +11248,7 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1112
+/* "gawml/neighbors/dist_metrics.pyx":1112
  *         self.kwargs = kwargs
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11256,15 +11256,15 @@ static int __pyx_pf_3gaw_9neighbors_12dist_metrics_14PyFuncDistance___init__(str
  *         cdef np.ndarray x1arr
  */
 
-static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_dist(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+static __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_dist(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *__pyx_v_self, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
   PyArrayObject *__pyx_v_x1arr = 0;
   PyArrayObject *__pyx_v_x2arr = 0;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_4;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_4;
   #ifdef WITH_THREAD
   PyGILState_STATE __pyx_gilstate_save = PyGILState_Ensure();
   #endif
@@ -11274,7 +11274,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   PyGILState_Release(__pyx_gilstate_save);
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":1114
+  /* "gawml/neighbors/dist_metrics.pyx":1114
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) except -1 with gil:
  *         cdef np.ndarray x1arr             # <<<<<<<<<<<<<<
@@ -11283,7 +11283,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
  */
   /*try:*/ {
 
-    /* "gaw/neighbors/dist_metrics.pyx":1116
+    /* "gawml/neighbors/dist_metrics.pyx":1116
  *         cdef np.ndarray x1arr
  *         cdef np.ndarray x2arr
  *         with gil:             # <<<<<<<<<<<<<<
@@ -11296,31 +11296,31 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
         #endif
         /*try:*/ {
 
-          /* "gaw/neighbors/dist_metrics.pyx":1117
+          /* "gawml/neighbors/dist_metrics.pyx":1117
  *         cdef np.ndarray x2arr
  *         with gil:
  *             x1arr = _buffer_to_ndarray(x1, size)             # <<<<<<<<<<<<<<
  *             x2arr = _buffer_to_ndarray(x2, size)
  *             return self.func(x1arr, x2arr, **self.kwargs)
  */
-          __pyx_t_1 = ((PyObject *)__pyx_f_3gaw_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_v_x1, __pyx_v_size)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 1117, __pyx_L7_error)
+          __pyx_t_1 = ((PyObject *)__pyx_f_5gawml_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_v_x1, __pyx_v_size)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 1117, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_1);
           __pyx_v_x1arr = ((PyArrayObject *)__pyx_t_1);
           __pyx_t_1 = 0;
 
-          /* "gaw/neighbors/dist_metrics.pyx":1118
+          /* "gawml/neighbors/dist_metrics.pyx":1118
  *         with gil:
  *             x1arr = _buffer_to_ndarray(x1, size)
  *             x2arr = _buffer_to_ndarray(x2, size)             # <<<<<<<<<<<<<<
  *             return self.func(x1arr, x2arr, **self.kwargs)
  * 
  */
-          __pyx_t_1 = ((PyObject *)__pyx_f_3gaw_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_v_x2, __pyx_v_size)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 1118, __pyx_L7_error)
+          __pyx_t_1 = ((PyObject *)__pyx_f_5gawml_9neighbors_12dist_metrics__buffer_to_ndarray(__pyx_v_x2, __pyx_v_size)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 1118, __pyx_L7_error)
           __Pyx_GOTREF(__pyx_t_1);
           __pyx_v_x2arr = ((PyArrayObject *)__pyx_t_1);
           __pyx_t_1 = 0;
 
-          /* "gaw/neighbors/dist_metrics.pyx":1119
+          /* "gawml/neighbors/dist_metrics.pyx":1119
  *             x1arr = _buffer_to_ndarray(x1, size)
  *             x2arr = _buffer_to_ndarray(x2, size)
  *             return self.func(x1arr, x2arr, **self.kwargs)             # <<<<<<<<<<<<<<
@@ -11356,7 +11356,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
           goto __pyx_L6_return;
         }
 
-        /* "gaw/neighbors/dist_metrics.pyx":1116
+        /* "gawml/neighbors/dist_metrics.pyx":1116
  *         cdef np.ndarray x1arr
  *         cdef np.ndarray x2arr
  *         with gil:             # <<<<<<<<<<<<<<
@@ -11380,7 +11380,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":1114
+  /* "gawml/neighbors/dist_metrics.pyx":1114
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,
  *                              ITYPE_t size) except -1 with gil:
  *         cdef np.ndarray x1arr             # <<<<<<<<<<<<<<
@@ -11402,7 +11402,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
     }
   }
 
-  /* "gaw/neighbors/dist_metrics.pyx":1112
+  /* "gawml/neighbors/dist_metrics.pyx":1112
  *         self.kwargs = kwargs
  * 
  *     cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11417,7 +11417,7 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("gaw.neighbors.dist_metrics.PyFuncDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.neighbors.dist_metrics.PyFuncDistance.dist", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1.0;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_x1arr);
@@ -11429,20 +11429,20 @@ static __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pyx":1122
+/* "gawml/neighbors/dist_metrics.pyx":1122
  * 
  * 
  * cdef inline double fmax(double a, double b) nogil:             # <<<<<<<<<<<<<<
  *     return max(a, b)
  */
 
-static CYTHON_INLINE double __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(double __pyx_v_a, double __pyx_v_b) {
+static CYTHON_INLINE double __pyx_f_5gawml_9neighbors_12dist_metrics_fmax(double __pyx_v_a, double __pyx_v_b) {
   double __pyx_r;
   double __pyx_t_1;
   double __pyx_t_2;
   double __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1123
+  /* "gawml/neighbors/dist_metrics.pyx":1123
  * 
  * cdef inline double fmax(double a, double b) nogil:
  *     return max(a, b)             # <<<<<<<<<<<<<<
@@ -11457,7 +11457,7 @@ static CYTHON_INLINE double __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(double _
   __pyx_r = __pyx_t_3;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":1122
+  /* "gawml/neighbors/dist_metrics.pyx":1122
  * 
  * 
  * cdef inline double fmax(double a, double b) nogil:             # <<<<<<<<<<<<<<
@@ -11469,7 +11469,7 @@ static CYTHON_INLINE double __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(double _
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pxd":18
+/* "gawml/neighbors/dist_metrics.pxd":18
  * #  We use these for the default (euclidean) case so that they can be
  * #  inlined.  This leads to faster computation for the most common case
  * cdef inline DTYPE_t euclidean_dist(DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11477,15 +11477,15 @@ static CYTHON_INLINE double __pyx_f_3gaw_9neighbors_12dist_metrics_fmax(double _
  *     cdef DTYPE_t tmp, d=0
  */
 
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_dist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_dist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pxd":20
+  /* "gawml/neighbors/dist_metrics.pxd":20
  * cdef inline DTYPE_t euclidean_dist(DTYPE_t* x1, DTYPE_t* x2,
  *                                    ITYPE_t size) nogil except -1:
  *     cdef DTYPE_t tmp, d=0             # <<<<<<<<<<<<<<
@@ -11494,7 +11494,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":22
+  /* "gawml/neighbors/dist_metrics.pxd":22
  *     cdef DTYPE_t tmp, d=0
  *     cdef np.intp_t j
  *     for j in range(size):             # <<<<<<<<<<<<<<
@@ -11505,7 +11505,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pxd":23
+    /* "gawml/neighbors/dist_metrics.pxd":23
  *     cdef np.intp_t j
  *     for j in range(size):
  *         tmp = x1[j] - x2[j]             # <<<<<<<<<<<<<<
@@ -11514,7 +11514,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  */
     __pyx_v_tmp = ((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]));
 
-    /* "gaw/neighbors/dist_metrics.pxd":24
+    /* "gawml/neighbors/dist_metrics.pxd":24
  *     for j in range(size):
  *         tmp = x1[j] - x2[j]
  *         d += tmp * tmp             # <<<<<<<<<<<<<<
@@ -11524,7 +11524,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
     __pyx_v_d = (__pyx_v_d + (__pyx_v_tmp * __pyx_v_tmp));
   }
 
-  /* "gaw/neighbors/dist_metrics.pxd":25
+  /* "gawml/neighbors/dist_metrics.pxd":25
  *         tmp = x1[j] - x2[j]
  *         d += tmp * tmp
  *     return sqrt(d)             # <<<<<<<<<<<<<<
@@ -11534,7 +11534,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   __pyx_r = sqrt(__pyx_v_d);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":18
+  /* "gawml/neighbors/dist_metrics.pxd":18
  * #  We use these for the default (euclidean) case so that they can be
  * #  inlined.  This leads to faster computation for the most common case
  * cdef inline DTYPE_t euclidean_dist(DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11547,7 +11547,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pxd":28
+/* "gawml/neighbors/dist_metrics.pxd":28
  * 
  * 
  * cdef inline DTYPE_t euclidean_rdist(DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11555,15 +11555,15 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  *     cdef DTYPE_t tmp, d=0
  */
 
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_rdist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_rdist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x1, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *__pyx_v_x2, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_v_size) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_tmp;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_d;
   __pyx_t_5numpy_intp_t __pyx_v_j;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
-  __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
+  __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t __pyx_t_1;
   __pyx_t_5numpy_intp_t __pyx_t_2;
 
-  /* "gaw/neighbors/dist_metrics.pxd":30
+  /* "gawml/neighbors/dist_metrics.pxd":30
  * cdef inline DTYPE_t euclidean_rdist(DTYPE_t* x1, DTYPE_t* x2,
  *                                     ITYPE_t size) nogil except -1:
  *     cdef DTYPE_t tmp, d=0             # <<<<<<<<<<<<<<
@@ -11572,7 +11572,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  */
   __pyx_v_d = 0.0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":32
+  /* "gawml/neighbors/dist_metrics.pxd":32
  *     cdef DTYPE_t tmp, d=0
  *     cdef np.intp_t j
  *     for j in range(size):             # <<<<<<<<<<<<<<
@@ -11583,7 +11583,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_j = __pyx_t_2;
 
-    /* "gaw/neighbors/dist_metrics.pxd":33
+    /* "gawml/neighbors/dist_metrics.pxd":33
  *     cdef np.intp_t j
  *     for j in range(size):
  *         tmp = x1[j] - x2[j]             # <<<<<<<<<<<<<<
@@ -11592,7 +11592,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  */
     __pyx_v_tmp = ((__pyx_v_x1[__pyx_v_j]) - (__pyx_v_x2[__pyx_v_j]));
 
-    /* "gaw/neighbors/dist_metrics.pxd":34
+    /* "gawml/neighbors/dist_metrics.pxd":34
  *     for j in range(size):
  *         tmp = x1[j] - x2[j]
  *         d += tmp * tmp             # <<<<<<<<<<<<<<
@@ -11602,7 +11602,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
     __pyx_v_d = (__pyx_v_d + (__pyx_v_tmp * __pyx_v_tmp));
   }
 
-  /* "gaw/neighbors/dist_metrics.pxd":35
+  /* "gawml/neighbors/dist_metrics.pxd":35
  *         tmp = x1[j] - x2[j]
  *         d += tmp * tmp
  *     return d             # <<<<<<<<<<<<<<
@@ -11612,7 +11612,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   __pyx_r = __pyx_v_d;
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":28
+  /* "gawml/neighbors/dist_metrics.pxd":28
  * 
  * 
  * cdef inline DTYPE_t euclidean_rdist(DTYPE_t* x1, DTYPE_t* x2,             # <<<<<<<<<<<<<<
@@ -11625,7 +11625,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pxd":38
+/* "gawml/neighbors/dist_metrics.pxd":38
  * 
  * 
  * cdef inline DTYPE_t euclidean_dist_to_rdist(DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -11633,10 +11633,10 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  * 
  */
 
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_dist_to_rdist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_dist_to_rdist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
 
-  /* "gaw/neighbors/dist_metrics.pxd":39
+  /* "gawml/neighbors/dist_metrics.pxd":39
  * 
  * cdef inline DTYPE_t euclidean_dist_to_rdist(DTYPE_t dist) nogil except -1:
  *     return dist * dist             # <<<<<<<<<<<<<<
@@ -11646,7 +11646,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   __pyx_r = (__pyx_v_dist * __pyx_v_dist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":38
+  /* "gawml/neighbors/dist_metrics.pxd":38
  * 
  * 
  * cdef inline DTYPE_t euclidean_dist_to_rdist(DTYPE_t dist) nogil except -1:             # <<<<<<<<<<<<<<
@@ -11659,7 +11659,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   return __pyx_r;
 }
 
-/* "gaw/neighbors/dist_metrics.pxd":42
+/* "gawml/neighbors/dist_metrics.pxd":42
  * 
  * 
  * cdef inline DTYPE_t euclidean_rdist_to_dist(DTYPE_t dist) except -1:             # <<<<<<<<<<<<<<
@@ -11667,12 +11667,12 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
  * 
  */
 
-static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9neighbors_12dist_metrics_euclidean_rdist_to_dist(__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_r;
+static CYTHON_INLINE __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_f_5gawml_9neighbors_12dist_metrics_euclidean_rdist_to_dist(__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_v_dist) {
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("euclidean_rdist_to_dist", 0);
 
-  /* "gaw/neighbors/dist_metrics.pxd":43
+  /* "gawml/neighbors/dist_metrics.pxd":43
  * 
  * cdef inline DTYPE_t euclidean_rdist_to_dist(DTYPE_t dist) except -1:
  *     return sqrt(dist)             # <<<<<<<<<<<<<<
@@ -11682,7 +11682,7 @@ static CYTHON_INLINE __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_f_3gaw_9nei
   __pyx_r = sqrt(__pyx_v_dist);
   goto __pyx_L0;
 
-  /* "gaw/neighbors/dist_metrics.pxd":42
+  /* "gawml/neighbors/dist_metrics.pxd":42
  * 
  * 
  * cdef inline DTYPE_t euclidean_rdist_to_dist(DTYPE_t dist) except -1:             # <<<<<<<<<<<<<<
@@ -25742,10 +25742,10 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *p;
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(PyTypeObject *t, CYTHON_UNUSED PyObject *a, CYTHON_UNUSED PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -25753,20 +25753,20 @@ static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyTy
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)o);
-  p->__pyx_vtab = __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)o);
+  p->__pyx_vtab = __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
   p->vec = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->mat = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->func = Py_None; Py_INCREF(Py_None);
   p->kwargs = Py_None; Py_INCREF(Py_None);
-  if (unlikely(__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(o, __pyx_empty_tuple, NULL) < 0)) {
+  if (unlikely(__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_1__cinit__(o, __pyx_empty_tuple, NULL) < 0)) {
     Py_DECREF(o); o = 0;
   }
   return o;
 }
 
-static void __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObject *o) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)o;
+static void __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric(PyObject *o) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)o;
   #if PY_VERSION_HEX >= 0x030400a1
   if (unlikely(Py_TYPE(o)->tp_finalize) && !_PyGC_FINALIZED(o)) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -25780,9 +25780,9 @@ static void __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObj
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static int __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)o;
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)o;
   if (p->vec) {
     e = (*v)(((PyObject*)p->vec), a); if (e) return e;
   }
@@ -25798,9 +25798,9 @@ static int __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObj
   return 0;
 }
 
-static int __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObject *o) {
+static int __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *)o;
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *p = (struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *)o;
   tmp = ((PyObject*)p->vec);
   p->vec = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
@@ -25816,23 +25816,23 @@ static int __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric(PyObject
   return 0;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_DistanceMetric[] = {
-  {"__reduce__", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__, METH_NOARGS, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__},
-  {"__getstate__", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__, METH_NOARGS, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__},
-  {"__setstate__", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__, METH_O, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__},
-  {"get_metric", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_9get_metric, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_8get_metric},
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist, METH_O, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist, METH_O, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist},
-  {"pairwise", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_17pairwise, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_9neighbors_12dist_metrics_14DistanceMetric_16pairwise},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_DistanceMetric[] = {
+  {"__reduce__", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_3__reduce__, METH_NOARGS, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_2__reduce__},
+  {"__getstate__", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_5__getstate__, METH_NOARGS, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_4__getstate__},
+  {"__setstate__", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_7__setstate__, METH_O, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_6__setstate__},
+  {"get_metric", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_9get_metric, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_8get_metric},
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_13rdist_to_dist, METH_O, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_12rdist_to_dist},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_15dist_to_rdist, METH_O, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_14dist_to_rdist},
+  {"pairwise", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_17pairwise, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_9neighbors_12dist_metrics_14DistanceMetric_16pairwise},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.DistanceMetric", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.DistanceMetric", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -25854,13 +25854,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "DistanceMetric class\n\n    This class provides a uniform interface to fast distance metric\n    functions.  The various metrics can be accessed via the `get_metric`\n    class method and the metric string identifier (see below).\n    For example, to use the Euclidean distance:\n\n    >>> dist = DistanceMetric.get_metric('euclidean')\n    >>> X = [[0, 1, 2],\n             [3, 4, 5]])\n    >>> dist.pairwise(X)\n    array([[ 0.        ,  5.19615242],\n           [ 5.19615242,  0.        ]])\n\n    Available Metrics\n    The following lists the string metric identifiers and the associated\n    distance metric classes:\n\n    **Metrics intended for real-valued vector spaces:**\n\n    ==============  ====================  ========  ===============================\n    identifier      class name            args      distance function\n    --------------  --------------------  --------  -------------------------------\n    \"euclidean\"     EuclideanDistance     -         ``sqrt(sum((x - y)^2))``\n    \"manhattan\"     ManhattanDistance     -         ``sum(|x - y|)``\n    \"chebyshev\"     ChebyshevDistance     -         ``max(|x - y|)``\n    \"minkowski\"     MinkowskiDistance     p         ``sum(|x - y|^p)^(1/p)``\n    \"wminkowski\"    WMinkowskiDistance    p, w      ``sum(w * |x - y|^p)^(1/p)``\n    \"seuclidean\"    SEuclideanDistance    V         ``sqrt(sum((x - y)^2 / V))``\n    \"mahalanobis\"   MahalanobisDistance   V or VI   ``sqrt((x - y)' V^-1 (x - y))``\n    ==============  ====================  ========  ===============================\n\n    **Metrics intended for two-dimensional vector spaces:**  Note that the haversine\n    distance metric requires data in the form of [latitude, longitude] and both\n    inputs and outputs are in units of radians.\n\n    ============  ==================  ========================================\n    identifier    class name          distance function\n    ------------  ------------------  -----------------------------------""-----\n    \"haversine\"   HaversineDistance   2 arcsin(sqrt(sin^2(0.5*dx)\n                                             + cos(x1)cos(x2)sin^2(0.5*dy)))\n    ============  ==================  ========================================\n\n\n    **Metrics intended for integer-valued vector spaces:**  Though intended\n    for integer-valued vectors, these are also valid metrics in the case of\n    real-valued vectors.\n\n    =============  ====================  ========================================\n    identifier     class name            distance function\n    -------------  --------------------  ----------------------------------------\n    \"hamming\"      HammingDistance       ``N_unequal(x, y) / N_tot``\n    \"canberra\"     CanberraDistance      ``sum(|x - y| / (|x| + |y|))``\n    \"braycurtis\"   BrayCurtisDistance    ``sum(|x - y|) / (sum(|x|) + sum(|y|))``\n    =============  ====================  ========================================\n\n    **Metrics intended for boolean-valued vector spaces:**  Any nonzero entry\n    is evaluated to \"True\".  In the listings below, the following\n    abbreviations are used:\n\n     - N  : number of dimensions\n     - NTT : number of dims in which both values are True\n     - NTF : number of dims in which the first value is True, second is False\n     - NFT : number of dims in which the first value is False, second is True\n     - NFF : number of dims in which both values are False\n     - NNEQ : number of non-equal dimensions, NNEQ = NTF + NFT\n     - NNZ : number of nonzero dimensions, NNZ = NTF + NFT + NTT\n\n    =================  =======================  ===============================\n    identifier         class name               distance function\n    -----------------  -----------------------  -------------------------------\n    \"jaccard\"          JaccardDistance          NNEQ / NNZ\n    \"matching\"         MatchingDistance         NNEQ / N\n    \"dice\"             DiceDistance             NNEQ / (NTT + ""NNZ)\n    \"kulsinski\"        KulsinskiDistance        (NNEQ + N - NTT) / (NNEQ + N)\n    \"rogerstanimoto\"   RogersTanimotoDistance   2 * NNEQ / (N + NNEQ)\n    \"russellrao\"       RussellRaoDistance       NNZ / N\n    \"sokalmichener\"    SokalMichenerDistance    2 * NNEQ / (N + NNEQ)\n    \"sokalsneath\"      SokalSneathDistance      NNEQ / (NNEQ + 0.5 * NTT)\n    =================  =======================  ===============================\n\n    **User-defined distance:**\n\n    ===========    ===============    =======\n    identifier     class name         args\n    -----------    ---------------    -------\n    \"pyfunc\"       PyFuncDistance     func\n    ===========    ===============    =======\n\n    Here ``func`` is a function which takes two one-dimensional numpy\n    arrays, and returns a distance.  Note that in order to be used within\n    the BallTree, the distance must be a true metric:\n    i.e. it must satisfy the following properties\n\n    1) Non-negativity: d(x, y) >= 0\n    2) Identity: d(x, y) = 0 if and only if x == y\n    3) Symmetry: d(x, y) = d(y, x)\n    4) Triangle Inequality: d(x, y) + d(y, z) >= d(x, z)\n\n    Because of the Python object overhead involved in calling the python\n    function, this will be fairly slow, but it will have the same\n    scaling as other distances.\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -25868,9 +25868,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric = {
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -25884,29 +25884,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric = {
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_EuclideanDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_EuclideanDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_EuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_EuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_EuclideanDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_EuclideanDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_3rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_5dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.EuclideanDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_EuclideanDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.EuclideanDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_EuclideanDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -25928,13 +25928,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Euclidean Distance metric\n\n    .. math::\n       D(x, y) = \\sqrt{ \\sum_i (x_i - y_i) ^ 2 }\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_EuclideanDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_EuclideanDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -25942,9 +25942,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance 
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_EuclideanDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_EuclideanDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -25958,29 +25958,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SEuclideanDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SEuclideanDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SEuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SEuclideanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_SEuclideanDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_SEuclideanDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_3rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_5dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.SEuclideanDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SEuclideanDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.SEuclideanDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SEuclideanDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26002,13 +26002,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Standardized Euclidean Distance metric\n\n    .. math::\n       D(x, y) = \\sqrt{ \\sum_i \014rac{ (x_i - y_i) ^ 2}{V_i} }\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_SEuclideanDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_SEuclideanDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26016,9 +26016,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_SEuclideanDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_SEuclideanDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26032,27 +26032,27 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ManhattanDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ManhattanDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_ManhattanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_ManhattanDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_ManhattanDistance[] = {
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_ManhattanDistance[] = {
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.ManhattanDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ManhattanDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.ManhattanDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ManhattanDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26074,13 +26074,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Manhattan/City-block Distance metric\n\n    .. math::\n       D(x, y) = \\sum_i |x_i - y_i|\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_ManhattanDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_ManhattanDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26088,9 +26088,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance 
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_ManhattanDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_ManhattanDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26104,27 +26104,27 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_ChebyshevDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_ChebyshevDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_ChebyshevDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_ChebyshevDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_ChebyshevDistance[] = {
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_ChebyshevDistance[] = {
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.ChebyshevDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_ChebyshevDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.ChebyshevDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_ChebyshevDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26146,13 +26146,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Chebyshev/Infinity Distance\n\n    .. math::\n       D(x, y) = max_i (|x_i - y_i|)\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_ChebyshevDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_ChebyshevDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26160,9 +26160,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance 
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_ChebyshevDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_ChebyshevDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26176,29 +26176,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MinkowskiDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MinkowskiDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_MinkowskiDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_MinkowskiDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_3rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_5dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.MinkowskiDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MinkowskiDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.MinkowskiDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MinkowskiDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26220,13 +26220,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Minkowski Distance\n\n    .. math::\n       D(x, y) = [\\sum_i (x_i - y_i)^p] ^ (1/p)\n\n    Minkowski Distance requires p >= 1 and finite. For p = infinity,\n    use ChebyshevDistance.\n    Note that for p=1, ManhattanDistance is more efficient, and for\n    p=2, EuclideanDistance is more efficient.\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_MinkowskiDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_MinkowskiDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26234,9 +26234,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance 
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_MinkowskiDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_MinkowskiDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26250,29 +26250,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_3rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_5dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.WMinkowskiDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.WMinkowskiDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26294,13 +26294,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Weighted Minkowski Distance\n\n    .. math::\n       D(x, y) = [\\sum_i w_i (x_i - y_i)^p] ^ (1/p)\n\n    Weighted Minkowski Distance requires p >= 1 and finite.\n\n    Parameters\n    ----------\n    p : int\n        The order of the norm of the difference :math:`{||u-v||}_p`.\n    w : (N,) array_like\n        The weight vector.\n\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26308,9 +26308,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26324,29 +26324,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MahalanobisDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MahalanobisDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MahalanobisDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MahalanobisDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_MahalanobisDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_MahalanobisDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_3rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_5dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.MahalanobisDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MahalanobisDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.MahalanobisDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MahalanobisDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26368,13 +26368,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistanc
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Mahalanobis Distance\n\n    .. math::\n       D(x, y) = \\sqrt{ (x - y)^T V^{-1} (x - y) }\n\n    Parameters\n    ----------\n    V : array_like\n        Symmetric positive-definite covariance matrix.\n        The inverse of this matrix will be explicitly computed.\n    VI : array_like\n        optionally specify the inverse directly.  If VI is passed,\n        then V is not referenced.\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_MahalanobisDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_MahalanobisDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26382,9 +26382,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistanc
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_MahalanobisDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_MahalanobisDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26398,27 +26398,27 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistanc
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HammingDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_HammingDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HammingDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_HammingDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_HammingDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_HammingDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HammingDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HammingDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_HammingDistance[] = {
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_HammingDistance[] = {
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.HammingDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HammingDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.HammingDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HammingDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26440,13 +26440,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance = 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Hamming Distance\n\n    Hamming distance is meant for discrete-valued vectors, though it is\n    a valid metric for real-valued vectors.\n\n    .. math::\n       D(x, y) = \014rac{1}{N} \\sum_i \\delta_{x_i, y_i}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_HammingDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_HammingDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -26454,9 +26454,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance = 
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_15HammingDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_15HammingDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_HammingDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_HammingDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26470,23 +26470,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance = 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_CanberraDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_CanberraDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_CanberraDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_CanberraDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_CanberraDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_CanberraDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_CanberraDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_CanberraDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.CanberraDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_CanberraDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.CanberraDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_CanberraDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26508,8 +26508,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance =
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Canberra Distance\n\n    Canberra distance is meant for discrete-valued vectors, though it is\n    a valid metric for real-valued vectors.\n\n    .. math::\n       D(x, y) = \\sum_i \014rac{|x_i - y_i|}{|x_i| + |y_i|}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26523,12 +26523,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance =
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_CanberraDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_CanberraDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26542,23 +26542,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance =
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.BrayCurtisDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.BrayCurtisDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26580,8 +26580,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Bray-Curtis Distance\n\n    Bray-Curtis distance is meant for discrete-valued vectors, though it is\n    a valid metric for real-valued vectors.\n\n    .. math::\n       D(x, y) = \014rac{\\sum_i |x_i - y_i|}{\\sum_i(|x_i| + |y_i|)}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26595,12 +26595,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26614,23 +26614,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_JaccardDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_JaccardDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_JaccardDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_JaccardDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_JaccardDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_JaccardDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_JaccardDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_JaccardDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.JaccardDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_JaccardDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.JaccardDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_JaccardDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26652,8 +26652,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance = 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Jaccard Distance\n\n    Jaccard Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{N_{TF} + N_{FT}}{N_{TT} + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26667,12 +26667,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance = 
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_JaccardDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_JaccardDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26686,23 +26686,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance = 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_MatchingDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_MatchingDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_MatchingDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_MatchingDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_MatchingDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_MatchingDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MatchingDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MatchingDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.MatchingDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_MatchingDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.MatchingDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_MatchingDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26724,8 +26724,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance =
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Matching Distance\n\n    Matching Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{N_{TF} + N_{FT}}{N}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26739,12 +26739,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance =
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_MatchingDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_MatchingDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26758,23 +26758,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance =
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DiceDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_DiceDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DiceDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_DiceDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_DiceDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_DiceDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DiceDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DiceDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.DiceDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DiceDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.DiceDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DiceDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26796,8 +26796,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Dice Distance\n\n    Dice Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{N_{TF} + N_{FT}}{2 * N_{TT} + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26811,12 +26811,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance = {
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DiceDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DiceDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26830,23 +26830,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance = {
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_KulsinskiDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_KulsinskiDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_KulsinskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_KulsinskiDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.KulsinskiDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_KulsinskiDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.KulsinskiDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_KulsinskiDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26868,8 +26868,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Kulsinski Distance\n\n    Kulsinski Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = 1 - \014rac{N_{TT}}{N + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26883,12 +26883,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance 
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_KulsinskiDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_KulsinskiDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26902,23 +26902,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.RogersTanimotoDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.RogersTanimotoDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -26940,8 +26940,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDist
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Rogers-Tanimoto Distance\n\n    Rogers-Tanimoto Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -26955,12 +26955,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDist
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -26974,23 +26974,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDist
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_RussellRaoDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_RussellRaoDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_RussellRaoDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_RussellRaoDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.RussellRaoDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_RussellRaoDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.RussellRaoDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_RussellRaoDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -27012,8 +27012,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Russell-Rao Distance\n\n    Russell-Rao Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{N - N_{TT}}{N}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -27027,12 +27027,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_RussellRaoDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_RussellRaoDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27046,23 +27046,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.SokalMichenerDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.SokalMichenerDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -27084,8 +27084,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDista
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Sokal-Michener Distance\n\n    Sokal-Michener Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{2 (N_{TF} + N_{FT})}{N + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -27099,12 +27099,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDista
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27118,23 +27118,23 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDista
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_SokalSneathDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_SokalSneathDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalSneathDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalSneathDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
   return o;
 }
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.SokalSneathDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_SokalSneathDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.SokalSneathDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_SokalSneathDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -27156,8 +27156,8 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistanc
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Sokal-Sneath Distance\n\n    Sokal-Sneath Distance is a dissimilarity measure for boolean-valued\n    vectors. All nonzero entries will be treated as True, zero entries will\n    be treated as False.\n\n    .. math::\n       D(x, y) = \014rac{N_{TF} + N_{FT}}{N_{TT} / 2 + N_{TF} + N_{FT}}\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
@@ -27171,12 +27171,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistanc
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_SokalSneathDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_SokalSneathDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27190,29 +27190,29 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistanc
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_HaversineDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_HaversineDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_HaversineDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_HaversineDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HaversineDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HaversineDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_HaversineDistance[] = {
-  {"rdist_to_dist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist, METH_O, 0},
-  {"dist_to_rdist", (PyCFunction)__pyx_pw_3gaw_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist, METH_O, 0},
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_HaversineDistance[] = {
+  {"rdist_to_dist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_1rdist_to_dist, METH_O, 0},
+  {"dist_to_rdist", (PyCFunction)__pyx_pw_5gawml_9neighbors_12dist_metrics_17HaversineDistance_3dist_to_rdist, METH_O, 0},
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.HaversineDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_HaversineDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.HaversineDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_HaversineDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -27234,13 +27234,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance 
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Haversine (Spherical) Distance\n\n    The Haversine distance is the angular distance between two points on\n    the surface of a sphere.  The first distance of each point is assumed\n    to be the latitude, the second is the longitude, given in radians.\n    The dimension of the points must be 2:\n\n    .. math::\n       D(x, y) = 2\007rcsin[\\sqrt{\\sin^2((x1 - y1) / 2)\n                                + cos(x1)cos(y1)sin^2((x2 - y2) / 2)}]\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_HaversineDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_HaversineDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -27249,12 +27249,12 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance 
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
   #if CYTHON_COMPILING_IN_PYPY
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14DistanceMetric_11__init__, /*tp_init*/
   #else
   0, /*tp_init*/
   #endif
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_HaversineDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_HaversineDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27268,27 +27268,27 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance 
   0, /*tp_finalize*/
   #endif
 };
-static struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_PyFuncDistance __pyx_vtable_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
+static struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_PyFuncDistance __pyx_vtable_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
 
-static PyObject *__pyx_tp_new_3gaw_9neighbors_12dist_metrics_PyFuncDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *p;
-  PyObject *o = __pyx_tp_new_3gaw_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
+static PyObject *__pyx_tp_new_5gawml_9neighbors_12dist_metrics_PyFuncDistance(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *p;
+  PyObject *o = __pyx_tp_new_5gawml_9neighbors_12dist_metrics_DistanceMetric(t, a, k);
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance *)o);
-  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_3gaw_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
+  p = ((struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance *)o);
+  p->__pyx_base.__pyx_vtab = (struct __pyx_vtabstruct_5gawml_9neighbors_12dist_metrics_DistanceMetric*)__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
   return o;
 }
 
-static PyMethodDef __pyx_methods_3gaw_9neighbors_12dist_metrics_PyFuncDistance[] = {
+static PyMethodDef __pyx_methods_5gawml_9neighbors_12dist_metrics_PyFuncDistance[] = {
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance = {
+static PyTypeObject __pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.PyFuncDistance", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_PyFuncDistance), /*tp_basicsize*/
+  "gawml.neighbors.dist_metrics.PyFuncDistance", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_PyFuncDistance), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -27310,13 +27310,13 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "PyFunc Distance\n\n    A user-defined distance\n\n    Parameters\n    ----------\n    func : function\n        func should take two numpy arrays as input, and return a distance.\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_9neighbors_12dist_metrics_DistanceMetric, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_9neighbors_12dist_metrics_PyFuncDistance, /*tp_methods*/
+  __pyx_methods_5gawml_9neighbors_12dist_metrics_PyFuncDistance, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -27324,9 +27324,9 @@ static PyTypeObject __pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance = {
   0, /*tp_descr_get*/
   0, /*tp_descr_set*/
   0, /*tp_dictoffset*/
-  __pyx_pw_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_1__init__, /*tp_init*/
+  __pyx_pw_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_1__init__, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_9neighbors_12dist_metrics_PyFuncDistance, /*tp_new*/
+  __pyx_tp_new_5gawml_9neighbors_12dist_metrics_PyFuncDistance, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -27460,7 +27460,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.array", /*tp_name*/
+  "gawml.neighbors.dist_metrics.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -27566,7 +27566,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.Enum", /*tp_name*/
+  "gawml.neighbors.dist_metrics.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -27813,7 +27813,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics.memoryview", /*tp_name*/
+  "gawml.neighbors.dist_metrics.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -27938,7 +27938,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.neighbors.dist_metrics._memoryviewslice", /*tp_name*/
+  "gawml.neighbors.dist_metrics._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -28104,7 +28104,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_func, __pyx_k_func, sizeof(__pyx_k_func), 0, 0, 1, 1},
   {&__pyx_kp_s_func_must_be_a_callable_taking_t, __pyx_k_func_must_be_a_callable_taking_t, sizeof(__pyx_k_func_must_be_a_callable_taking_t), 0, 0, 1, 0},
   {&__pyx_kp_s_func_must_return_a_float, __pyx_k_func_must_return_a_float, sizeof(__pyx_k_func_must_return_a_float), 0, 0, 1, 0},
-  {&__pyx_n_s_gaw_neighbors_dist_metrics, __pyx_k_gaw_neighbors_dist_metrics, sizeof(__pyx_k_gaw_neighbors_dist_metrics), 0, 0, 1, 1},
+  {&__pyx_n_s_gawml_neighbors_dist_metrics, __pyx_k_gawml_neighbors_dist_metrics, sizeof(__pyx_k_gawml_neighbors_dist_metrics), 0, 0, 1, 1},
   {&__pyx_n_s_get_metric, __pyx_k_get_metric, sizeof(__pyx_k_get_metric), 0, 0, 1, 1},
   {&__pyx_n_s_get_valid_metric_ids, __pyx_k_get_valid_metric_ids, sizeof(__pyx_k_get_valid_metric_ids), 0, 0, 1, 1},
   {&__pyx_kp_u_get_valid_metric_ids_line_92, __pyx_k_get_valid_metric_ids_line_92, sizeof(__pyx_k_get_valid_metric_ids_line_92), 0, 1, 0, 0},
@@ -28205,7 +28205,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gaw/neighbors/dist_metrics.pyx":213
+  /* "gawml/neighbors/dist_metrics.pyx":213
  *     def __cinit__(self):
  *         self.p = 2
  *         self.vec = np.zeros(1, dtype=DTYPE, order='c')             # <<<<<<<<<<<<<<
@@ -28216,7 +28216,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "gaw/neighbors/dist_metrics.pyx":214
+  /* "gawml/neighbors/dist_metrics.pyx":214
  *         self.p = 2
  *         self.vec = np.zeros(1, dtype=DTYPE, order='c')
  *         self.mat = np.zeros((1, 1), dtype=DTYPE, order='c')             # <<<<<<<<<<<<<<
@@ -28230,7 +28230,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "gaw/neighbors/dist_metrics.pyx":277
+  /* "gawml/neighbors/dist_metrics.pyx":277
  *         # In Minkowski special cases, return more efficient methods
  *         if metric is MinkowskiDistance:
  *             p = kwargs.pop('p', 2)             # <<<<<<<<<<<<<<
@@ -28241,7 +28241,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "gaw/neighbors/dist_metrics.pyx":291
+  /* "gawml/neighbors/dist_metrics.pyx":291
  *     def __init__(self):
  *         if self.__class__ is DistanceMetric:
  *             raise NotImplementedError("DistanceMetric is an abstract class")             # <<<<<<<<<<<<<<
@@ -28252,7 +28252,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "gaw/neighbors/dist_metrics.pyx":328
+  /* "gawml/neighbors/dist_metrics.pyx":328
  *         cdef ITYPE_t i1, i2
  *         if X.shape[1] != Y.shape[1]:
  *             raise ValueError('X and Y must have the same second dimension')             # <<<<<<<<<<<<<<
@@ -28263,7 +28263,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "gaw/neighbors/dist_metrics.pyx":454
+  /* "gawml/neighbors/dist_metrics.pyx":454
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('SEuclidean dist: size of V does not match')             # <<<<<<<<<<<<<<
@@ -28274,7 +28274,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "gaw/neighbors/dist_metrics.pyx":537
+  /* "gawml/neighbors/dist_metrics.pyx":537
  *     def __init__(self, p):
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")             # <<<<<<<<<<<<<<
@@ -28285,7 +28285,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "gaw/neighbors/dist_metrics.pyx":539
+  /* "gawml/neighbors/dist_metrics.pyx":539
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):
  *             raise ValueError("MinkowskiDistance requires finite p. "             # <<<<<<<<<<<<<<
@@ -28296,7 +28296,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "gaw/neighbors/dist_metrics.pyx":589
+  /* "gawml/neighbors/dist_metrics.pyx":589
  *     def __init__(self, p, w):
  *         if p < 1:
  *             raise ValueError("p must be greater than 1")             # <<<<<<<<<<<<<<
@@ -28307,7 +28307,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "gaw/neighbors/dist_metrics.pyx":591
+  /* "gawml/neighbors/dist_metrics.pyx":591
  *             raise ValueError("p must be greater than 1")
  *         elif np.isinf(p):
  *             raise ValueError("WMinkowskiDistance requires finite p. "             # <<<<<<<<<<<<<<
@@ -28318,7 +28318,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "gaw/neighbors/dist_metrics.pyx":602
+  /* "gawml/neighbors/dist_metrics.pyx":602
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('WMinkowskiDistance dist: '             # <<<<<<<<<<<<<<
@@ -28329,7 +28329,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "gaw/neighbors/dist_metrics.pyx":648
+  /* "gawml/neighbors/dist_metrics.pyx":648
  *         if VI is None:
  *             if V is None:
  *                 raise ValueError("Must provide either V or VI "             # <<<<<<<<<<<<<<
@@ -28340,7 +28340,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "gaw/neighbors/dist_metrics.pyx":652
+  /* "gawml/neighbors/dist_metrics.pyx":652
  *             VI = np.linalg.inv(V)
  *         if VI.ndim != 2 or VI.shape[0] != VI.shape[1]:
  *             raise ValueError("V/VI must be square")             # <<<<<<<<<<<<<<
@@ -28351,7 +28351,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "gaw/neighbors/dist_metrics.pyx":667
+  /* "gawml/neighbors/dist_metrics.pyx":667
  *         if size != self.size:
  *             with gil:
  *                 raise ValueError('Mahalanobis dist: size of V does not match')             # <<<<<<<<<<<<<<
@@ -28362,7 +28362,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "gaw/neighbors/dist_metrics.pyx":991
+  /* "gawml/neighbors/dist_metrics.pyx":991
  *         if size != 2:
  *             with gil:
  *                 raise ValueError("Haversine distance only valid "             # <<<<<<<<<<<<<<
@@ -28373,7 +28373,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1001
+  /* "gawml/neighbors/dist_metrics.pyx":1001
  *         if size != 2:
  *             with gil:
  *                 raise ValueError("Haversine distance only valid in 2 dimensions")             # <<<<<<<<<<<<<<
@@ -28384,7 +28384,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1099
+  /* "gawml/neighbors/dist_metrics.pyx":1099
  *     def __init__(self, func, **kwargs):
  *         self.func = func
  *         x = np.random.random(10)             # <<<<<<<<<<<<<<
@@ -28395,7 +28395,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1103
+  /* "gawml/neighbors/dist_metrics.pyx":1103
  *             d = self.func(x, x, **kwargs)
  *         except TypeError:
  *             raise ValueError("func must be a callable taking two arrays")             # <<<<<<<<<<<<<<
@@ -28406,7 +28406,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1108
+  /* "gawml/neighbors/dist_metrics.pyx":1108
  *             d = float(d)
  *         except TypeError:
  *             raise ValueError("func must return a float")             # <<<<<<<<<<<<<<
@@ -28629,7 +28629,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__39);
   __Pyx_GIVEREF(__pyx_tuple__39);
 
-  /* "gaw/neighbors/dist_metrics.pyx":58
+  /* "gawml/neighbors/dist_metrics.pyx":58
  * # newObj function
  * #  this is a helper function for pickling
  * def newObj(obj):             # <<<<<<<<<<<<<<
@@ -28641,7 +28641,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__45);
   __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_newObj, 58, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) __PYX_ERR(1, 58, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":92
+  /* "gawml/neighbors/dist_metrics.pyx":92
  * 
  * 
  * def get_valid_metric_ids(L):             # <<<<<<<<<<<<<<
@@ -28737,7 +28737,7 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
 {
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t __pyx_t_3;
+  __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t __pyx_t_3;
   static PyThread_type_lock __pyx_t_4[8];
   __Pyx_RefNannyDeclarations
   #if CYTHON_REFNANNY
@@ -28795,14 +28795,14 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__neighbors__dist_metrics) {
+  if (__pyx_module_is_main_gawml__neighbors__dist_metrics) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(1, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.neighbors.dist_metrics")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.neighbors.dist_metrics", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.neighbors.dist_metrics")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.neighbors.dist_metrics", __pyx_m) < 0)) __PYX_ERR(1, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -28819,216 +28819,216 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
   /*--- Type init code ---*/
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric.pdist = (int (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_pdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric.cdist = (int (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric_cdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DistanceMetric._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DistanceMetric", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric = &__pyx_type_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_EuclideanDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "EuclideanDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_EuclideanDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_EuclideanDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SEuclideanDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "SEuclideanDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_SEuclideanDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_SEuclideanDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ManhattanDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_ManhattanDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_ManhattanDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17ManhattanDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "ManhattanDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_ManhattanDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ChebyshevDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_ChebyshevDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_ChebyshevDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17ChebyshevDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "ChebyshevDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_ChebyshevDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_ChebyshevDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MinkowskiDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "MinkowskiDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_MinkowskiDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "WMinkowskiDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MahalanobisDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "MahalanobisDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_MahalanobisDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_MahalanobisDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HammingDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_HammingDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HammingDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HammingDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_15HammingDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "HammingDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_HammingDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_HammingDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_CanberraDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_CanberraDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_CanberraDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_CanberraDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_16CanberraDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "CanberraDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_CanberraDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_CanberraDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18BrayCurtisDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "BrayCurtisDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_JaccardDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_JaccardDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_JaccardDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_JaccardDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_15JaccardDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "JaccardDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_JaccardDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_JaccardDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MatchingDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_MatchingDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MatchingDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_MatchingDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_16MatchingDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "MatchingDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_MatchingDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_MatchingDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DiceDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_DiceDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DiceDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_DiceDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_12DiceDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "DiceDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_DiceDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_DiceDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_KulsinskiDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_KulsinskiDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_KulsinskiDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17KulsinskiDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "KulsinskiDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_KulsinskiDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_KulsinskiDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "RogersTanimotoDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RussellRaoDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_RussellRaoDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_RussellRaoDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_18RussellRaoDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "RussellRaoDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_RussellRaoDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_RussellRaoDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_21SokalMichenerDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "SokalMichenerDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalSneathDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalSneathDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_SokalSneathDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_19SokalSneathDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "SokalSneathDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalSneathDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_SokalSneathDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HaversineDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance.__pyx_base.rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance_rdist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance.__pyx_base._rdist_to_dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_HaversineDistance.__pyx_base._dist_to_rdist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "HaversineDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_HaversineDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_HaversineDistance;
-  __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_PyFuncDistance = &__pyx_vtable_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_PyFuncDistance.__pyx_base = *__pyx_vtabptr_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  __pyx_vtable_3gaw_9neighbors_12dist_metrics_PyFuncDistance.__pyx_base.dist = (__pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_3gaw_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t *, __pyx_t_3gaw_9neighbors_8typedefs_ITYPE_t))__pyx_f_3gaw_9neighbors_12dist_metrics_14PyFuncDistance_dist;
-  __pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance.tp_base = __pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric;
-  if (PyType_Ready(&__pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
-  __pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance.tp_dict, __pyx_vtabptr_3gaw_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "PyFuncDistance", (PyObject *)&__pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
-  __pyx_ptype_3gaw_9neighbors_12dist_metrics_PyFuncDistance = &__pyx_type_3gaw_9neighbors_12dist_metrics_PyFuncDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric.pdist = (int (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_pdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric.cdist = (int (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric_cdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DistanceMetric._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_14DistanceMetric__dist_to_rdist;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DistanceMetric", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric) < 0) __PYX_ERR(1, 107, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric = &__pyx_type_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_EuclideanDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_EuclideanDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17EuclideanDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "EuclideanDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance) < 0) __PYX_ERR(1, 405, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_EuclideanDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_EuclideanDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SEuclideanDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18SEuclideanDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "SEuclideanDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance) < 0) __PYX_ERR(1, 438, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_SEuclideanDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_SEuclideanDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ManhattanDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_ManhattanDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_ManhattanDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17ManhattanDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "ManhattanDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance) < 0) __PYX_ERR(1, 482, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_ManhattanDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ChebyshevDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_ChebyshevDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_ChebyshevDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17ChebyshevDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "ChebyshevDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance) < 0) __PYX_ERR(1, 503, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_ChebyshevDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_ChebyshevDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MinkowskiDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17MinkowskiDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "MinkowskiDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance) < 0) __PYX_ERR(1, 524, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_MinkowskiDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18WMinkowskiDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "WMinkowskiDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance) < 0) __PYX_ERR(1, 571, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MahalanobisDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_19MahalanobisDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "MahalanobisDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance) < 0) __PYX_ERR(1, 630, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_MahalanobisDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_MahalanobisDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HammingDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_HammingDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HammingDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HammingDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_15HammingDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "HammingDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance) < 0) __PYX_ERR(1, 703, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_HammingDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_HammingDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_CanberraDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_CanberraDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_CanberraDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_CanberraDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_16CanberraDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "CanberraDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_CanberraDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_CanberraDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18BrayCurtisDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "BrayCurtisDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance) < 0) __PYX_ERR(1, 753, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_JaccardDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_JaccardDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_JaccardDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_JaccardDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_15JaccardDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "JaccardDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance) < 0) __PYX_ERR(1, 778, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_JaccardDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_JaccardDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MatchingDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_MatchingDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MatchingDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_MatchingDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_16MatchingDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "MatchingDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance) < 0) __PYX_ERR(1, 803, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_MatchingDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_MatchingDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DiceDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_DiceDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DiceDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_DiceDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_12DiceDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "DiceDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance) < 0) __PYX_ERR(1, 827, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_DiceDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_DiceDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_KulsinskiDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_KulsinskiDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_KulsinskiDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17KulsinskiDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "KulsinskiDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance) < 0) __PYX_ERR(1, 852, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_KulsinskiDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_KulsinskiDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_22RogersTanimotoDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "RogersTanimotoDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance) < 0) __PYX_ERR(1, 877, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RussellRaoDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_RussellRaoDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_RussellRaoDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_18RussellRaoDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "RussellRaoDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance) < 0) __PYX_ERR(1, 901, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_RussellRaoDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_RussellRaoDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_21SokalMichenerDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "SokalMichenerDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance) < 0) __PYX_ERR(1, 925, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalSneathDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalSneathDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_SokalSneathDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_19SokalSneathDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "SokalSneathDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance) < 0) __PYX_ERR(1, 949, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalSneathDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_SokalSneathDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HaversineDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance.__pyx_base.rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance_rdist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance.__pyx_base._rdist_to_dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__rdist_to_dist;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_HaversineDistance.__pyx_base._dist_to_rdist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_17HaversineDistance__dist_to_rdist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "HaversineDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance) < 0) __PYX_ERR(1, 975, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_HaversineDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_HaversineDistance;
+  __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_PyFuncDistance = &__pyx_vtable_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_PyFuncDistance.__pyx_base = *__pyx_vtabptr_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  __pyx_vtable_5gawml_9neighbors_12dist_metrics_PyFuncDistance.__pyx_base.dist = (__pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t (*)(struct __pyx_obj_5gawml_9neighbors_12dist_metrics_DistanceMetric *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t *, __pyx_t_5gawml_9neighbors_8typedefs_ITYPE_t))__pyx_f_5gawml_9neighbors_12dist_metrics_14PyFuncDistance_dist;
+  __pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance.tp_base = __pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric;
+  if (PyType_Ready(&__pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
+  __pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance.tp_dict, __pyx_vtabptr_5gawml_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "PyFuncDistance", (PyObject *)&__pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance) < 0) __PYX_ERR(1, 1087, __pyx_L1_error)
+  __pyx_ptype_5gawml_9neighbors_12dist_metrics_PyFuncDistance = &__pyx_type_5gawml_9neighbors_12dist_metrics_PyFuncDistance;
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
   if (PyType_Ready(&__pyx_type___pyx_array) < 0) __PYX_ERR(3, 103, __pyx_L1_error)
@@ -29079,7 +29079,7 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(1, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/neighbors/dist_metrics.pyx":10
+  /* "gawml/neighbors/dist_metrics.pyx":10
  * # License: BSD
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -29091,7 +29091,7 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(1, 10, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":12
+  /* "gawml/neighbors/dist_metrics.pyx":12
  * import numpy as np
  * cimport numpy as np
  * np.import_array()  # required in order to use C-API             # <<<<<<<<<<<<<<
@@ -29100,7 +29100,7 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
  */
   import_array();
 
-  /* "gaw/neighbors/dist_metrics.pyx":49
+  /* "gawml/neighbors/dist_metrics.pyx":49
  * # some handy constants
  * from libc.math cimport fabs, sqrt, exp, pow, cos, sin, asin
  * cdef DTYPE_t INF = np.inf             # <<<<<<<<<<<<<<
@@ -29114,9 +29114,9 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_3 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(1, 49, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_3gaw_9neighbors_12dist_metrics_INF = __pyx_t_3;
+  __pyx_v_5gawml_9neighbors_12dist_metrics_INF = __pyx_t_3;
 
-  /* "gaw/neighbors/dist_metrics.pyx":52
+  /* "gawml/neighbors/dist_metrics.pyx":52
  * 
  * from typedefs cimport DTYPE_t, ITYPE_t, DITYPE_t, DTYPECODE
  * from typedefs import DTYPE, ITYPE             # <<<<<<<<<<<<<<
@@ -29144,19 +29144,19 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":58
+  /* "gawml/neighbors/dist_metrics.pyx":58
  * # newObj function
  * #  this is a helper function for pickling
  * def newObj(obj):             # <<<<<<<<<<<<<<
  *     return obj.__new__(obj)
  * 
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3gaw_9neighbors_12dist_metrics_1newObj, NULL, __pyx_n_s_gaw_neighbors_dist_metrics); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 58, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5gawml_9neighbors_12dist_metrics_1newObj, NULL, __pyx_n_s_gawml_neighbors_dist_metrics); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 58, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_newObj, __pyx_t_1) < 0) __PYX_ERR(1, 58, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":65
+  /* "gawml/neighbors/dist_metrics.pyx":65
  * # metric mappings
  * #  These map from metric id strings to class names
  * METRIC_MAPPING = {'euclidean': EuclideanDistance,             # <<<<<<<<<<<<<<
@@ -29165,249 +29165,249 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
  */
   __pyx_t_1 = PyDict_New(); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_euclidean, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_EuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_euclidean, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_EuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":66
+  /* "gawml/neighbors/dist_metrics.pyx":66
  * #  These map from metric id strings to class names
  * METRIC_MAPPING = {'euclidean': EuclideanDistance,
  *                   'l2': EuclideanDistance,             # <<<<<<<<<<<<<<
  *                   'minkowski': MinkowskiDistance,
  *                   'p': MinkowskiDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_l2, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_EuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_l2, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_EuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":67
+  /* "gawml/neighbors/dist_metrics.pyx":67
  * METRIC_MAPPING = {'euclidean': EuclideanDistance,
  *                   'l2': EuclideanDistance,
  *                   'minkowski': MinkowskiDistance,             # <<<<<<<<<<<<<<
  *                   'p': MinkowskiDistance,
  *                   'manhattan': ManhattanDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_minkowski, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_minkowski, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":68
+  /* "gawml/neighbors/dist_metrics.pyx":68
  *                   'l2': EuclideanDistance,
  *                   'minkowski': MinkowskiDistance,
  *                   'p': MinkowskiDistance,             # <<<<<<<<<<<<<<
  *                   'manhattan': ManhattanDistance,
  *                   'cityblock': ManhattanDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_p, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_p, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":69
+  /* "gawml/neighbors/dist_metrics.pyx":69
  *                   'minkowski': MinkowskiDistance,
  *                   'p': MinkowskiDistance,
  *                   'manhattan': ManhattanDistance,             # <<<<<<<<<<<<<<
  *                   'cityblock': ManhattanDistance,
  *                   'l1': ManhattanDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_manhattan, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_manhattan, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":70
+  /* "gawml/neighbors/dist_metrics.pyx":70
  *                   'p': MinkowskiDistance,
  *                   'manhattan': ManhattanDistance,
  *                   'cityblock': ManhattanDistance,             # <<<<<<<<<<<<<<
  *                   'l1': ManhattanDistance,
  *                   'chebyshev': ChebyshevDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_cityblock, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_cityblock, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":71
+  /* "gawml/neighbors/dist_metrics.pyx":71
  *                   'manhattan': ManhattanDistance,
  *                   'cityblock': ManhattanDistance,
  *                   'l1': ManhattanDistance,             # <<<<<<<<<<<<<<
  *                   'chebyshev': ChebyshevDistance,
  *                   'infinity': ChebyshevDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_l1, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_l1, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ManhattanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":72
+  /* "gawml/neighbors/dist_metrics.pyx":72
  *                   'cityblock': ManhattanDistance,
  *                   'l1': ManhattanDistance,
  *                   'chebyshev': ChebyshevDistance,             # <<<<<<<<<<<<<<
  *                   'infinity': ChebyshevDistance,
  *                   'seuclidean': SEuclideanDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_chebyshev, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ChebyshevDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_chebyshev, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ChebyshevDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":73
+  /* "gawml/neighbors/dist_metrics.pyx":73
  *                   'l1': ManhattanDistance,
  *                   'chebyshev': ChebyshevDistance,
  *                   'infinity': ChebyshevDistance,             # <<<<<<<<<<<<<<
  *                   'seuclidean': SEuclideanDistance,
  *                   'mahalanobis': MahalanobisDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_infinity, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_ChebyshevDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_infinity, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_ChebyshevDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":74
+  /* "gawml/neighbors/dist_metrics.pyx":74
  *                   'chebyshev': ChebyshevDistance,
  *                   'infinity': ChebyshevDistance,
  *                   'seuclidean': SEuclideanDistance,             # <<<<<<<<<<<<<<
  *                   'mahalanobis': MahalanobisDistance,
  *                   'wminkowski': WMinkowskiDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_seuclidean, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_SEuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_seuclidean, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_SEuclideanDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":75
+  /* "gawml/neighbors/dist_metrics.pyx":75
  *                   'infinity': ChebyshevDistance,
  *                   'seuclidean': SEuclideanDistance,
  *                   'mahalanobis': MahalanobisDistance,             # <<<<<<<<<<<<<<
  *                   'wminkowski': WMinkowskiDistance,
  *                   'hamming': HammingDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_mahalanobis, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MahalanobisDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_mahalanobis, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MahalanobisDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":76
+  /* "gawml/neighbors/dist_metrics.pyx":76
  *                   'seuclidean': SEuclideanDistance,
  *                   'mahalanobis': MahalanobisDistance,
  *                   'wminkowski': WMinkowskiDistance,             # <<<<<<<<<<<<<<
  *                   'hamming': HammingDistance,
  *                   'canberra': CanberraDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_wminkowski, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_WMinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_wminkowski, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_WMinkowskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":77
+  /* "gawml/neighbors/dist_metrics.pyx":77
  *                   'mahalanobis': MahalanobisDistance,
  *                   'wminkowski': WMinkowskiDistance,
  *                   'hamming': HammingDistance,             # <<<<<<<<<<<<<<
  *                   'canberra': CanberraDistance,
  *                   'braycurtis': BrayCurtisDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_hamming, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_HammingDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_hamming, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_HammingDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":78
+  /* "gawml/neighbors/dist_metrics.pyx":78
  *                   'wminkowski': WMinkowskiDistance,
  *                   'hamming': HammingDistance,
  *                   'canberra': CanberraDistance,             # <<<<<<<<<<<<<<
  *                   'braycurtis': BrayCurtisDistance,
  *                   'matching': MatchingDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_canberra, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_CanberraDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_canberra, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_CanberraDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":79
+  /* "gawml/neighbors/dist_metrics.pyx":79
  *                   'hamming': HammingDistance,
  *                   'canberra': CanberraDistance,
  *                   'braycurtis': BrayCurtisDistance,             # <<<<<<<<<<<<<<
  *                   'matching': MatchingDistance,
  *                   'jaccard': JaccardDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_braycurtis, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_BrayCurtisDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_braycurtis, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_BrayCurtisDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":80
+  /* "gawml/neighbors/dist_metrics.pyx":80
  *                   'canberra': CanberraDistance,
  *                   'braycurtis': BrayCurtisDistance,
  *                   'matching': MatchingDistance,             # <<<<<<<<<<<<<<
  *                   'jaccard': JaccardDistance,
  *                   'dice': DiceDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_matching, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_MatchingDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_matching, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_MatchingDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":81
+  /* "gawml/neighbors/dist_metrics.pyx":81
  *                   'braycurtis': BrayCurtisDistance,
  *                   'matching': MatchingDistance,
  *                   'jaccard': JaccardDistance,             # <<<<<<<<<<<<<<
  *                   'dice': DiceDistance,
  *                   'kulsinski': KulsinskiDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_jaccard, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_JaccardDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_jaccard, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_JaccardDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":82
+  /* "gawml/neighbors/dist_metrics.pyx":82
  *                   'matching': MatchingDistance,
  *                   'jaccard': JaccardDistance,
  *                   'dice': DiceDistance,             # <<<<<<<<<<<<<<
  *                   'kulsinski': KulsinskiDistance,
  *                   'rogerstanimoto': RogersTanimotoDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dice, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_DiceDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dice, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_DiceDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":83
+  /* "gawml/neighbors/dist_metrics.pyx":83
  *                   'jaccard': JaccardDistance,
  *                   'dice': DiceDistance,
  *                   'kulsinski': KulsinskiDistance,             # <<<<<<<<<<<<<<
  *                   'rogerstanimoto': RogersTanimotoDistance,
  *                   'russellrao': RussellRaoDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_kulsinski, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_KulsinskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_kulsinski, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_KulsinskiDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":84
+  /* "gawml/neighbors/dist_metrics.pyx":84
  *                   'dice': DiceDistance,
  *                   'kulsinski': KulsinskiDistance,
  *                   'rogerstanimoto': RogersTanimotoDistance,             # <<<<<<<<<<<<<<
  *                   'russellrao': RussellRaoDistance,
  *                   'sokalmichener': SokalMichenerDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_rogerstanimoto, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_RogersTanimotoDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_rogerstanimoto, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_RogersTanimotoDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":85
+  /* "gawml/neighbors/dist_metrics.pyx":85
  *                   'kulsinski': KulsinskiDistance,
  *                   'rogerstanimoto': RogersTanimotoDistance,
  *                   'russellrao': RussellRaoDistance,             # <<<<<<<<<<<<<<
  *                   'sokalmichener': SokalMichenerDistance,
  *                   'sokalsneath': SokalSneathDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_russellrao, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_RussellRaoDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_russellrao, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_RussellRaoDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":86
+  /* "gawml/neighbors/dist_metrics.pyx":86
  *                   'rogerstanimoto': RogersTanimotoDistance,
  *                   'russellrao': RussellRaoDistance,
  *                   'sokalmichener': SokalMichenerDistance,             # <<<<<<<<<<<<<<
  *                   'sokalsneath': SokalSneathDistance,
  *                   'haversine': HaversineDistance,
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sokalmichener, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalMichenerDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sokalmichener, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalMichenerDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":87
+  /* "gawml/neighbors/dist_metrics.pyx":87
  *                   'russellrao': RussellRaoDistance,
  *                   'sokalmichener': SokalMichenerDistance,
  *                   'sokalsneath': SokalSneathDistance,             # <<<<<<<<<<<<<<
  *                   'haversine': HaversineDistance,
  *                   'pyfunc': PyFuncDistance}
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sokalsneath, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_SokalSneathDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sokalsneath, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_SokalSneathDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":88
+  /* "gawml/neighbors/dist_metrics.pyx":88
  *                   'sokalmichener': SokalMichenerDistance,
  *                   'sokalsneath': SokalSneathDistance,
  *                   'haversine': HaversineDistance,             # <<<<<<<<<<<<<<
  *                   'pyfunc': PyFuncDistance}
  * 
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_haversine, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_HaversineDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_haversine, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_HaversineDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
 
-  /* "gaw/neighbors/dist_metrics.pyx":89
+  /* "gawml/neighbors/dist_metrics.pyx":89
  *                   'sokalsneath': SokalSneathDistance,
  *                   'haversine': HaversineDistance,
  *                   'pyfunc': PyFuncDistance}             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_pyfunc, ((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_PyFuncDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_pyfunc, ((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_PyFuncDistance)) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_METRIC_MAPPING, __pyx_t_1) < 0) __PYX_ERR(1, 65, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":92
+  /* "gawml/neighbors/dist_metrics.pyx":92
  * 
  * 
  * def get_valid_metric_ids(L):             # <<<<<<<<<<<<<<
  *     """Given an iterable of metric class names or class identifiers,
  *     return a list of metric IDs which map to those classes.
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3gaw_9neighbors_12dist_metrics_3get_valid_metric_ids, NULL, __pyx_n_s_gaw_neighbors_dist_metrics); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 92, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5gawml_9neighbors_12dist_metrics_3get_valid_metric_ids, NULL, __pyx_n_s_gawml_neighbors_dist_metrics); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_valid_metric_ids, __pyx_t_1) < 0) __PYX_ERR(1, 92, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/neighbors/dist_metrics.pyx":248
+  /* "gawml/neighbors/dist_metrics.pyx":248
  * 
  *     @classmethod
  *     def get_metric(cls, metric, **kwargs):             # <<<<<<<<<<<<<<
  *         """Get the given distance metric from the string identifier.
  * 
  */
-  __pyx_t_1 = __Pyx_GetNameInClass((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric, __pyx_n_s_get_metric); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 248, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetNameInClass((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric, __pyx_n_s_get_metric); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 248, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "gaw/neighbors/dist_metrics.pyx":247
+  /* "gawml/neighbors/dist_metrics.pyx":247
  *         self.size = self.vec.shape[0]
  * 
  *     @classmethod             # <<<<<<<<<<<<<<
@@ -29417,11 +29417,11 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   __pyx_t_2 = __Pyx_Method_ClassMethod(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem((PyObject *)__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric->tp_dict, __pyx_n_s_get_metric, __pyx_t_2) < 0) __PYX_ERR(1, 248, __pyx_L1_error)
+  if (PyDict_SetItem((PyObject *)__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric->tp_dict, __pyx_n_s_get_metric, __pyx_t_2) < 0) __PYX_ERR(1, 248, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  PyType_Modified(__pyx_ptype_3gaw_9neighbors_12dist_metrics_DistanceMetric);
+  PyType_Modified(__pyx_ptype_5gawml_9neighbors_12dist_metrics_DistanceMetric);
 
-  /* "gaw/neighbors/dist_metrics.pyx":1
+  /* "gawml/neighbors/dist_metrics.pyx":1
  * #!python             # <<<<<<<<<<<<<<
  * #cython: boundscheck=False
  * #cython: wraparound=False
@@ -29583,11 +29583,11 @@ PyMODINIT_FUNC PyInit_dist_metrics(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.neighbors.dist_metrics", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.neighbors.dist_metrics", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.neighbors.dist_metrics");
+    PyErr_SetString(PyExc_ImportError, "init gawml.neighbors.dist_metrics");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -33371,7 +33371,7 @@ no_fail:
 }
 
 /* ObjectToMemviewSlice */
-            static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t(PyObject *obj) {
+            static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t(PyObject *obj) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
     int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
@@ -33382,7 +33382,7 @@ no_fail:
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
                                                  (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT | PyBUF_WRITABLE), 2,
-                                                 &__Pyx_TypeInfo_nn___pyx_t_3gaw_9neighbors_8typedefs_DTYPE_t, stack,
+                                                 &__Pyx_TypeInfo_nn___pyx_t_5gawml_9neighbors_8typedefs_DTYPE_t, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))
         goto __pyx_fail;

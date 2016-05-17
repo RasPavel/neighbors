@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__sparsetools___graph_tools
-#define __PYX_HAVE_API__gaw__utils__sparsetools___graph_tools
+#define __PYX_HAVE__gawml__utils__sparsetools___graph_tools
+#define __PYX_HAVE_API__gawml__utils__sparsetools___graph_tools
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -502,7 +502,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/sparsetools/_graph_tools.pyx",
+  "gawml/utils/sparsetools/_graph_tools.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -732,23 +732,23 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":15
+/* "gawml/utils/sparsetools/_graph_tools.pyx":15
  * 
  * DTYPE = np.float64
  * ctypedef np.float64_t DTYPE_t             # <<<<<<<<<<<<<<
  * 
  * ITYPE = np.int32
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t;
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":18
+/* "gawml/utils/sparsetools/_graph_tools.pyx":18
  * 
  * ITYPE = np.int32
  * ctypedef np.int32_t ITYPE_t             # <<<<<<<<<<<<<<
  * 
  * # EPS is the precision of DTYPE
  */
-typedef __pyx_t_5numpy_int32_t __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t;
+typedef __pyx_t_5numpy_int32_t __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1304,17 +1304,17 @@ static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 
-/* Module declarations from 'gaw.utils.sparsetools._graph_tools' */
-static __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_EPS;
-static __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t __pyx_v_3gaw_5utils_11sparsetools_12_graph_tools_NULL_IDX;
-static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t); /*proto*/
-static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(PyArrayObject *, PyArrayObject *, PyArrayObject *, int, __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t), 0 };
-#define __Pyx_MODULE_NAME "gaw.utils.sparsetools._graph_tools"
-int __pyx_module_is_main_gaw__utils__sparsetools___graph_tools = 0;
+/* Module declarations from 'gawml.utils.sparsetools._graph_tools' */
+static __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_EPS;
+static __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t __pyx_v_5gawml_5utils_11sparsetools_12_graph_tools_NULL_IDX;
+static void __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__populate_graph(PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t); /*proto*/
+static void __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(PyArrayObject *, PyArrayObject *, PyArrayObject *, int, __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t); /*proto*/
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t), 0 };
+#define __Pyx_MODULE_NAME "gawml.utils.sparsetools._graph_tools"
+int __pyx_module_is_main_gawml__utils__sparsetools___graph_tools = 0;
 
-/* Implementation of 'gaw.utils.sparsetools._graph_tools' */
+/* Implementation of 'gawml.utils.sparsetools._graph_tools' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -1403,14 +1403,14 @@ static const char __pyx_k_csgraph_to_dense_line_172[] = "csgraph_to_dense (line 
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_graph_should_be_a_square_array[] = "graph should be a square array";
 static const char __pyx_k_Tools_and_utilities_for_working[] = "\nTools and utilities for working with compressed sparse graphs\n";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/utils/sparsetools/_graph_tools.pyx";
+static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gawml/utils/sparsetools/_graph_tools.pyx";
 static const char __pyx_k_csgraph_to_dense_csgraph_null_v[] = "\n    csgraph_to_dense(csgraph, null_value=0)\n\n    Convert a sparse graph representation to a dense representation\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : csr_matrix, csc_matrix, or lil_matrix\n        Sparse representation of a graph.\n    null_value : float, optional\n        The value used to indicate null edges in the dense representation.\n        Default is 0.\n\n    Returns\n    -------\n    graph : ndarray\n        The dense representation of the sparse graph.\n\n    Notes\n    -----\n    For normal sparse graph representations, calling csgraph_to_dense with\n    null_value=0 produces an equivalent result to using dense format\n    conversions in the main sparse package.  When the sparse representations\n    have repeated values, however, the results will differ.  The tools in\n    scipy.sparse will add repeating values to obtain a final value.  This\n    function will select the minimum among repeating values to obtain a\n    final value.  For example, here we'll create a two-node directed sparse\n    graph with multiple edges from node 0 to node 1, of weights 2 and 3.\n    This illustrates the difference in behavior:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([2, 3])\n    >>> indices = np.array([1, 1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 5],\n           [0, 0]])\n    >>> csgraph_to_dense(M)\n    array([[0, 2],\n           [0, 0]])\n\n    The reason for this difference is to allow a compressed sparse graph to\n    represent multiple edges between any two nodes.  As most sparse graph\n    algorithms are concerned with the single lowest-cost edge between any\n    two nodes, the default scipy.sparse behavior of summming multiple weights\n    does not make sense in this context.\n\n    The other reason for using this routine is to allow for graphs with\n    zero-weight edges.  Let's look at"" the example of a two-node directed\n    graph, connected by an edge of weight zero:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([0.0])\n    >>> indices = np.array([1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 0],\n           [0, 0]])\n    >>> csgraph_to_dense(M, np.inf)\n    array([[ Inf,   0.],\n           [ Inf,  Inf]])\n\n    In the first case, the zero-weight edge gets lost in the dense\n    representation.  In the second case, we can choose a different null value\n    and see the true form of the graph.\n    ";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static const char __pyx_k_csgraph_must_be_lil_csr_or_csc_f[] = "csgraph must be lil, csr, or csc format";
 static const char __pyx_k_csgraph_should_be_a_square_matri[] = "csgraph should be a square matrix";
-static const char __pyx_k_gaw_utils_sparsetools__graph_too[] = "gaw.utils.sparsetools._graph_tools";
+static const char __pyx_k_gawml_utils_sparsetools__graph_t[] = "gawml.utils.sparsetools._graph_tools";
 static const char __pyx_k_graph_and_predecessors_must_have[] = "graph and predecessors must have the same shape";
 static const char __pyx_k_graph_should_have_two_dimensions[] = "graph should have two dimensions";
 static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
@@ -1459,7 +1459,7 @@ static PyObject *__pyx_n_s_dtype;
 static PyObject *__pyx_n_s_empty;
 static PyObject *__pyx_n_s_fill;
 static PyObject *__pyx_n_s_float64;
-static PyObject *__pyx_n_s_gaw_utils_sparsetools__graph_too;
+static PyObject *__pyx_n_s_gawml_utils_sparsetools__graph_t;
 static PyObject *__pyx_n_s_graph;
 static PyObject *__pyx_kp_s_graph_and_predecessors_must_have;
 static PyObject *__pyx_kp_s_graph_should_be_a_square_array;
@@ -1511,13 +1511,13 @@ static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_validate_graph;
 static PyObject *__pyx_n_s_validation;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null, PyObject *__pyx_v_copy); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_null_value); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed, PyObject *__pyx_v_null_value); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null, PyObject *__pyx_v_copy); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_null_value); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_10reconstruct_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed, PyObject *__pyx_v_null_value); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_int_0;
@@ -1555,7 +1555,7 @@ static PyObject *__pyx_codeobj__27;
 static PyObject *__pyx_codeobj__29;
 static PyObject *__pyx_codeobj__31;
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":26
+/* "gawml/utils/sparsetools/_graph_tools.pyx":26
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def csgraph_from_masked(graph):             # <<<<<<<<<<<<<<
@@ -1564,21 +1564,21 @@ static PyObject *__pyx_codeobj__31;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked(PyObject *__pyx_self, PyObject *__pyx_v_graph); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_masked[] = "\n    csgraph_from_masked(graph)\n\n    Construct a CSR-format graph from a masked array.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : MaskedArray\n        Input graph.  Shape should be (n_nodes, n_nodes).\n\n    Returns\n    -------\n    csgraph : csr_matrix\n        Compressed sparse representation of graph, \n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked = {"csgraph_from_masked", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked, METH_O, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_masked};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked(PyObject *__pyx_self, PyObject *__pyx_v_graph) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked(PyObject *__pyx_self, PyObject *__pyx_v_graph); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_csgraph_from_masked[] = "\n    csgraph_from_masked(graph)\n\n    Construct a CSR-format graph from a masked array.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : MaskedArray\n        Input graph.  Shape should be (n_nodes, n_nodes).\n\n    Returns\n    -------\n    csgraph : csr_matrix\n        Compressed sparse representation of graph, \n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked = {"csgraph_from_masked", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked, METH_O, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_csgraph_from_masked};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked(PyObject *__pyx_self, PyObject *__pyx_v_graph) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("csgraph_from_masked (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(__pyx_self, ((PyObject *)__pyx_v_graph));
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(__pyx_self, ((PyObject *)__pyx_v_graph));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_csgraph_from_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph) {
   PyObject *__pyx_v_N = NULL;
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_mask = NULL;
@@ -1598,7 +1598,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_RefNannySetupContext("csgraph_from_masked", 0);
   __Pyx_INCREF(__pyx_v_graph);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":45
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":45
  *     """
  *     # check that graph is a square matrix
  *     graph = np.ma.asarray(graph)             # <<<<<<<<<<<<<<
@@ -1641,7 +1641,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_DECREF_SET(__pyx_v_graph, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":47
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":47
  *     graph = np.ma.asarray(graph)
  * 
  *     if graph.ndim != 2:             # <<<<<<<<<<<<<<
@@ -1656,7 +1656,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":48
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":48
  * 
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")             # <<<<<<<<<<<<<<
@@ -1669,7 +1669,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 48, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":47
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":47
  *     graph = np.ma.asarray(graph)
  * 
  *     if graph.ndim != 2:             # <<<<<<<<<<<<<<
@@ -1678,7 +1678,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":49
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":49
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -1693,7 +1693,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __pyx_v_N = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":50
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":50
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -1711,7 +1711,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":51
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":51
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:
  *         raise ValueError("graph should be a square array")             # <<<<<<<<<<<<<<
@@ -1724,7 +1724,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(0, 51, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":50
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":50
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -1733,7 +1733,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":54
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":54
  * 
  *     # construct the csr matrix using graph and mask
  *     if np.ma.is_masked(graph):             # <<<<<<<<<<<<<<
@@ -1777,7 +1777,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":55
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":55
  *     # construct the csr matrix using graph and mask
  *     if np.ma.is_masked(graph):
  *         data = graph.compressed()             # <<<<<<<<<<<<<<
@@ -1807,7 +1807,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     __pyx_v_data = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":56
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":56
  *     if np.ma.is_masked(graph):
  *         data = graph.compressed()
  *         mask = ~graph.mask             # <<<<<<<<<<<<<<
@@ -1822,7 +1822,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     __pyx_v_mask = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":54
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":54
  * 
  *     # construct the csr matrix using graph and mask
  *     if np.ma.is_masked(graph):             # <<<<<<<<<<<<<<
@@ -1832,7 +1832,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     goto __pyx_L5;
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":58
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":58
  *         mask = ~graph.mask
  *     else:
  *         data = graph.data             # <<<<<<<<<<<<<<
@@ -1845,7 +1845,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
     __pyx_v_data = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":59
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":59
  *     else:
  *         data = graph.data
  *         mask = np.ones(graph.shape, dtype='bool')             # <<<<<<<<<<<<<<
@@ -1877,7 +1877,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   }
   __pyx_L5:;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":61
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":61
  *         mask = np.ones(graph.shape, dtype='bool')
  * 
  *     data = np.asarray(data, dtype=DTYPE, order='c')             # <<<<<<<<<<<<<<
@@ -1909,7 +1909,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_DECREF_SET(__pyx_v_data, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":63
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":63
  *     data = np.asarray(data, dtype=DTYPE, order='c')
  * 
  *     idx_grid = np.empty((N, N), dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -1948,7 +1948,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __pyx_v_idx_grid = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":64
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":64
  * 
  *     idx_grid = np.empty((N, N), dtype=ITYPE)
  *     idx_grid[:] = np.arange(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -1979,7 +1979,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   if (__Pyx_PyObject_SetSlice(__pyx_v_idx_grid, __pyx_t_3, 0, 0, NULL, NULL, &__pyx_slice__3, 0, 0, 1) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":65
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":65
  *     idx_grid = np.empty((N, N), dtype=ITYPE)
  *     idx_grid[:] = np.arange(N, dtype=ITYPE)
  *     indices = np.asarray(idx_grid[mask], dtype=ITYPE, order='c')             # <<<<<<<<<<<<<<
@@ -2013,7 +2013,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __pyx_v_indices = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":67
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":67
  *     indices = np.asarray(idx_grid[mask], dtype=ITYPE, order='c')
  * 
  *     indptr = np.zeros(N + 1, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -2046,7 +2046,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __pyx_v_indptr = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":68
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":68
  * 
  *     indptr = np.zeros(N + 1, dtype=ITYPE)
  *     indptr[1:] = mask.sum(1).cumsum()             # <<<<<<<<<<<<<<
@@ -2082,7 +2082,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   if (__Pyx_PyObject_SetSlice(__pyx_v_indptr, __pyx_t_4, 1, 0, NULL, NULL, &__pyx_slice__5, 1, 0, 1) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":70
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":70
  *     indptr[1:] = mask.sum(1).cumsum()
  * 
  *     return csr_matrix((data, indices, indptr), (N, N))             # <<<<<<<<<<<<<<
@@ -2142,7 +2142,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":26
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":26
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def csgraph_from_masked(graph):             # <<<<<<<<<<<<<<
@@ -2158,7 +2158,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_from_masked", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_from_masked", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_N);
@@ -2173,7 +2173,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":73
+/* "gawml/utils/sparsetools/_graph_tools.pyx":73
  * 
  * 
  * def csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -2182,10 +2182,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_csgraph_from_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense[] = "\n    csgraph_masked_from_dense(graph, null_value=0, nan_null=True,\n                              infinity_null=True, copy=True)\n\n    Construct a masked array graph representation from a dense matrix.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like\n        Input graph.  Shape should be (n_nodes, n_nodes).\n    null_value : float or None (optional)\n        Value that denotes non-edges in the graph.  Default is zero.\n    infinity_null : bool\n        If True (default), then infinite entries (both positive and negative)\n        are treated as null edges.\n    nan_null : bool\n        If True (default), then NaN entries are treated as non-edges\n\n    Returns\n    -------\n    csgraph : MaskedArray\n        masked array representation of graph\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense = {"csgraph_masked_from_dense", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense[] = "\n    csgraph_masked_from_dense(graph, null_value=0, nan_null=True,\n                              infinity_null=True, copy=True)\n\n    Construct a masked array graph representation from a dense matrix.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like\n        Input graph.  Shape should be (n_nodes, n_nodes).\n    null_value : float or None (optional)\n        Value that denotes non-edges in the graph.  Default is zero.\n    infinity_null : bool\n        If True (default), then infinite entries (both positive and negative)\n        are treated as null edges.\n    nan_null : bool\n        If True (default), then NaN entries are treated as non-edges\n\n    Returns\n    -------\n    csgraph : MaskedArray\n        masked array representation of graph\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense = {"csgraph_masked_from_dense", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_graph = 0;
   PyObject *__pyx_v_null_value = 0;
   PyObject *__pyx_v_nan_null = 0;
@@ -2199,7 +2199,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_mask
     PyObject* values[5] = {0,0,0,0,0};
     values[1] = ((PyObject *)__pyx_int_0);
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":75
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":75
  * def csgraph_masked_from_dense(graph,
  *                               null_value=0,
  *                               nan_null=True,             # <<<<<<<<<<<<<<
@@ -2208,7 +2208,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_mask
  */
     values[2] = ((PyObject *)Py_True);
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":76
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":76
  *                               null_value=0,
  *                               nan_null=True,
  *                               infinity_null=True,             # <<<<<<<<<<<<<<
@@ -2217,7 +2217,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_mask
  */
     values[3] = ((PyObject *)Py_True);
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":77
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":77
  *                               nan_null=True,
  *                               infinity_null=True,
  *                               copy=True):             # <<<<<<<<<<<<<<
@@ -2287,13 +2287,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_mask
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("csgraph_masked_from_dense", 0, 1, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 73, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_masked_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_masked_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(__pyx_self, __pyx_v_graph, __pyx_v_null_value, __pyx_v_nan_null, __pyx_v_infinity_null, __pyx_v_copy);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(__pyx_self, __pyx_v_graph, __pyx_v_null_value, __pyx_v_nan_null, __pyx_v_infinity_null, __pyx_v_copy);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":73
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":73
  * 
  * 
  * def csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -2306,7 +2306,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_mask
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null, PyObject *__pyx_v_copy) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_2csgraph_masked_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null, PyObject *__pyx_v_copy) {
   PyObject *__pyx_v_N = NULL;
   PyObject *__pyx_v_mask = NULL;
   PyObject *__pyx_r = NULL;
@@ -2324,7 +2324,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __Pyx_INCREF(__pyx_v_nan_null);
   __Pyx_INCREF(__pyx_v_infinity_null);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":103
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":103
  *         masked array representation of graph
  *     """
  *     graph = np.array(graph, copy=copy)             # <<<<<<<<<<<<<<
@@ -2352,7 +2352,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __Pyx_DECREF_SET(__pyx_v_graph, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":106
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":106
  * 
  *     # check that graph is a square matrix
  *     if graph.ndim != 2:             # <<<<<<<<<<<<<<
@@ -2367,7 +2367,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":107
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":107
  *     # check that graph is a square matrix
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")             # <<<<<<<<<<<<<<
@@ -2380,7 +2380,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(0, 107, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":106
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":106
  * 
  *     # check that graph is a square matrix
  *     if graph.ndim != 2:             # <<<<<<<<<<<<<<
@@ -2389,7 +2389,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":108
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":108
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -2404,7 +2404,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_v_N = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":109
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":109
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -2422,7 +2422,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":110
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":110
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:
  *         raise ValueError("graph should be a square array")             # <<<<<<<<<<<<<<
@@ -2435,7 +2435,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __PYX_ERR(0, 110, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":109
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":109
  *         raise ValueError("graph should have two dimensions")
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -2444,7 +2444,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":113
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":113
  * 
  *     # check whether null_value is infinity or NaN
  *     if null_value is not None:             # <<<<<<<<<<<<<<
@@ -2455,7 +2455,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_t_6 = (__pyx_t_5 != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":114
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":114
  *     # check whether null_value is infinity or NaN
  *     if null_value is not None:
  *         null_value = DTYPE(null_value)             # <<<<<<<<<<<<<<
@@ -2492,7 +2492,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF_SET(__pyx_v_null_value, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":115
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":115
  *     if null_value is not None:
  *         null_value = DTYPE(null_value)
  *         if np.isnan(null_value):             # <<<<<<<<<<<<<<
@@ -2533,7 +2533,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_6) {
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":116
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":116
  *         null_value = DTYPE(null_value)
  *         if np.isnan(null_value):
  *             nan_null = True             # <<<<<<<<<<<<<<
@@ -2543,7 +2543,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
       __Pyx_INCREF(Py_True);
       __Pyx_DECREF_SET(__pyx_v_nan_null, Py_True);
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":117
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":117
  *         if np.isnan(null_value):
  *             nan_null = True
  *             null_value = None             # <<<<<<<<<<<<<<
@@ -2553,7 +2553,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
       __Pyx_INCREF(Py_None);
       __Pyx_DECREF_SET(__pyx_v_null_value, Py_None);
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":115
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":115
  *     if null_value is not None:
  *         null_value = DTYPE(null_value)
  *         if np.isnan(null_value):             # <<<<<<<<<<<<<<
@@ -2563,7 +2563,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
       goto __pyx_L6;
     }
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":118
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":118
  *             nan_null = True
  *             null_value = None
  *         elif np.isinf(null_value):             # <<<<<<<<<<<<<<
@@ -2604,7 +2604,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_6) {
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":119
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":119
  *             null_value = None
  *         elif np.isinf(null_value):
  *             infinity_null = True             # <<<<<<<<<<<<<<
@@ -2614,7 +2614,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
       __Pyx_INCREF(Py_True);
       __Pyx_DECREF_SET(__pyx_v_infinity_null, Py_True);
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":120
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":120
  *         elif np.isinf(null_value):
  *             infinity_null = True
  *             null_value = None             # <<<<<<<<<<<<<<
@@ -2624,7 +2624,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
       __Pyx_INCREF(Py_None);
       __Pyx_DECREF_SET(__pyx_v_null_value, Py_None);
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":118
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":118
  *             nan_null = True
  *             null_value = None
  *         elif np.isinf(null_value):             # <<<<<<<<<<<<<<
@@ -2634,7 +2634,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     }
     __pyx_L6:;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":113
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":113
  * 
  *     # check whether null_value is infinity or NaN
  *     if null_value is not None:             # <<<<<<<<<<<<<<
@@ -2643,7 +2643,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":123
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":123
  * 
  *     # flag all the null edges
  *     if null_value is None:             # <<<<<<<<<<<<<<
@@ -2654,7 +2654,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_t_5 = (__pyx_t_6 != 0);
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":124
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":124
  *     # flag all the null edges
  *     if null_value is None:
  *         mask = np.zeros(graph.shape, dtype='bool')             # <<<<<<<<<<<<<<
@@ -2684,7 +2684,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __pyx_v_mask = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":125
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":125
  *     if null_value is None:
  *         mask = np.zeros(graph.shape, dtype='bool')
  *         graph = np.ma.masked_array(graph, mask, copy=False)             # <<<<<<<<<<<<<<
@@ -2718,7 +2718,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     __Pyx_DECREF_SET(__pyx_v_graph, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":123
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":123
  * 
  *     # flag all the null edges
  *     if null_value is None:             # <<<<<<<<<<<<<<
@@ -2728,7 +2728,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     goto __pyx_L7;
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":127
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":127
  *         graph = np.ma.masked_array(graph, mask, copy=False)
  *     else:
  *         graph = np.ma.masked_values(graph, null_value, copy=False)             # <<<<<<<<<<<<<<
@@ -2765,7 +2765,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   }
   __pyx_L7:;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":129
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":129
  *         graph = np.ma.masked_values(graph, null_value, copy=False)
  * 
  *     if infinity_null:             # <<<<<<<<<<<<<<
@@ -2775,7 +2775,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_infinity_null); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 129, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":130
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":130
  * 
  *     if infinity_null:
  *         graph.mask |= np.isinf(graph)             # <<<<<<<<<<<<<<
@@ -2821,7 +2821,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_graph, __pyx_n_s_mask, __pyx_t_1) < 0) __PYX_ERR(0, 130, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":129
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":129
  *         graph = np.ma.masked_values(graph, null_value, copy=False)
  * 
  *     if infinity_null:             # <<<<<<<<<<<<<<
@@ -2830,7 +2830,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":132
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":132
  *         graph.mask |= np.isinf(graph)
  * 
  *     if nan_null:             # <<<<<<<<<<<<<<
@@ -2840,7 +2840,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_nan_null); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 132, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":133
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":133
  * 
  *     if nan_null:
  *         graph.mask |= np.isnan(graph)             # <<<<<<<<<<<<<<
@@ -2886,7 +2886,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
     if (__Pyx_PyObject_SetAttrStr(__pyx_v_graph, __pyx_n_s_mask, __pyx_t_7) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":132
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":132
  *         graph.mask |= np.isinf(graph)
  * 
  *     if nan_null:             # <<<<<<<<<<<<<<
@@ -2895,7 +2895,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":135
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":135
  *         graph.mask |= np.isnan(graph)
  * 
  *     return graph             # <<<<<<<<<<<<<<
@@ -2907,7 +2907,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __pyx_r = __pyx_v_graph;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":73
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":73
  * 
  * 
  * def csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -2922,7 +2922,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_masked_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_masked_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_N);
@@ -2936,7 +2936,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":138
+/* "gawml/utils/sparsetools/_graph_tools.pyx":138
  * 
  * 
  * def csgraph_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -2945,10 +2945,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_2csgraph_mask
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense[] = "\n    csgraph_from_dense(graph, null_value=0, nan_null=True, infinity_null=True)\n\n    Construct a CSR-format sparse graph from a dense matrix.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like\n        Input graph.  Shape should be (n_nodes, n_nodes).\n    null_value : float or None (optional)\n        Value that denotes non-edges in the graph.  Default is zero.\n    infinity_null : bool\n        If True (default), then infinite entries (both positive and negative)\n        are treated as null edges.\n    nan_null : bool\n        If True (default), then NaN entries are treated as non-edges\n\n    Returns\n    -------\n    csgraph : csr_matrix\n        Compressed sparse representation of graph, \n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense = {"csgraph_from_dense", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense[] = "\n    csgraph_from_dense(graph, null_value=0, nan_null=True, infinity_null=True)\n\n    Construct a CSR-format sparse graph from a dense matrix.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like\n        Input graph.  Shape should be (n_nodes, n_nodes).\n    null_value : float or None (optional)\n        Value that denotes non-edges in the graph.  Default is zero.\n    infinity_null : bool\n        If True (default), then infinite entries (both positive and negative)\n        are treated as null edges.\n    nan_null : bool\n        If True (default), then NaN entries are treated as non-edges\n\n    Returns\n    -------\n    csgraph : csr_matrix\n        Compressed sparse representation of graph, \n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense = {"csgraph_from_dense", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_graph = 0;
   PyObject *__pyx_v_null_value = 0;
   PyObject *__pyx_v_nan_null = 0;
@@ -2961,7 +2961,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from
     PyObject* values[4] = {0,0,0,0};
     values[1] = ((PyObject *)__pyx_int_0);
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":140
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":140
  * def csgraph_from_dense(graph,
  *                        null_value=0,
  *                        nan_null=True,             # <<<<<<<<<<<<<<
@@ -2970,7 +2970,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from
  */
     values[2] = ((PyObject *)Py_True);
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":141
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":141
  *                        null_value=0,
  *                        nan_null=True,
  *                        infinity_null=True):             # <<<<<<<<<<<<<<
@@ -3032,13 +3032,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("csgraph_from_dense", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 138, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(__pyx_self, __pyx_v_graph, __pyx_v_null_value, __pyx_v_nan_null, __pyx_v_infinity_null);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(__pyx_self, __pyx_v_graph, __pyx_v_null_value, __pyx_v_nan_null, __pyx_v_infinity_null);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":138
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":138
  * 
  * 
  * def csgraph_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -3051,7 +3051,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_4csgraph_from_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_null_value, PyObject *__pyx_v_nan_null, PyObject *__pyx_v_infinity_null) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3063,7 +3063,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
   PyObject *__pyx_t_7 = NULL;
   __Pyx_RefNannySetupContext("csgraph_from_dense", 0);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":166
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":166
  *         Compressed sparse representation of graph,
  *     """
  *     return csgraph_from_masked(csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -3076,7 +3076,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_csgraph_masked_from_dense); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 166, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":169
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":169
  *                                                          null_value,
  *                                                          nan_null,
  *                                                          infinity_null))             # <<<<<<<<<<<<<<
@@ -3146,7 +3146,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":138
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":138
  * 
  * 
  * def csgraph_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -3162,7 +3162,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_from_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3170,7 +3170,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":172
+/* "gawml/utils/sparsetools/_graph_tools.pyx":172
  * 
  * 
  * def csgraph_to_dense(csgraph, null_value=0):             # <<<<<<<<<<<<<<
@@ -3179,10 +3179,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_4csgraph_from
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense[] = "\n    csgraph_to_dense(csgraph, null_value=0)\n\n    Convert a sparse graph representation to a dense representation\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : csr_matrix, csc_matrix, or lil_matrix\n        Sparse representation of a graph.\n    null_value : float, optional\n        The value used to indicate null edges in the dense representation.\n        Default is 0.\n\n    Returns\n    -------\n    graph : ndarray\n        The dense representation of the sparse graph.\n\n    Notes\n    -----\n    For normal sparse graph representations, calling csgraph_to_dense with\n    null_value=0 produces an equivalent result to using dense format\n    conversions in the main sparse package.  When the sparse representations\n    have repeated values, however, the results will differ.  The tools in\n    scipy.sparse will add repeating values to obtain a final value.  This\n    function will select the minimum among repeating values to obtain a\n    final value.  For example, here we'll create a two-node directed sparse\n    graph with multiple edges from node 0 to node 1, of weights 2 and 3.\n    This illustrates the difference in behavior:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([2, 3])\n    >>> indices = np.array([1, 1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 5],\n           [0, 0]])\n    >>> csgraph_to_dense(M)\n    array([[0, 2],\n           [0, 0]])\n\n    The reason for this difference is to allow a compressed sparse graph to\n    represent multiple edges between any two nodes.  As most sparse graph\n    algorithms are concerned with the single lowest-cost edge between any\n    two nodes, the default scipy.sparse behavior of summming multiple weights\n    does not make sense in this context.\n\n    The other reason for using this routine is to allow for graphs with\n    zero-weight edges.  Let's look at"" the example of a two-node directed\n    graph, connected by an edge of weight zero:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([0.0])\n    >>> indices = np.array([1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 0],\n           [0, 0]])\n    >>> csgraph_to_dense(M, np.inf)\n    array([[ Inf,   0.],\n           [ Inf,  Inf]])\n\n    In the first case, the zero-weight edge gets lost in the dense\n    representation.  In the second case, we can choose a different null value\n    and see the true form of the graph.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense = {"csgraph_to_dense", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense[] = "\n    csgraph_to_dense(csgraph, null_value=0)\n\n    Convert a sparse graph representation to a dense representation\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : csr_matrix, csc_matrix, or lil_matrix\n        Sparse representation of a graph.\n    null_value : float, optional\n        The value used to indicate null edges in the dense representation.\n        Default is 0.\n\n    Returns\n    -------\n    graph : ndarray\n        The dense representation of the sparse graph.\n\n    Notes\n    -----\n    For normal sparse graph representations, calling csgraph_to_dense with\n    null_value=0 produces an equivalent result to using dense format\n    conversions in the main sparse package.  When the sparse representations\n    have repeated values, however, the results will differ.  The tools in\n    scipy.sparse will add repeating values to obtain a final value.  This\n    function will select the minimum among repeating values to obtain a\n    final value.  For example, here we'll create a two-node directed sparse\n    graph with multiple edges from node 0 to node 1, of weights 2 and 3.\n    This illustrates the difference in behavior:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([2, 3])\n    >>> indices = np.array([1, 1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 5],\n           [0, 0]])\n    >>> csgraph_to_dense(M)\n    array([[0, 2],\n           [0, 0]])\n\n    The reason for this difference is to allow a compressed sparse graph to\n    represent multiple edges between any two nodes.  As most sparse graph\n    algorithms are concerned with the single lowest-cost edge between any\n    two nodes, the default scipy.sparse behavior of summming multiple weights\n    does not make sense in this context.\n\n    The other reason for using this routine is to allow for graphs with\n    zero-weight edges.  Let's look at"" the example of a two-node directed\n    graph, connected by an edge of weight zero:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> data = np.array([0.0])\n    >>> indices = np.array([1])\n    >>> indptr = np.array([0, 2, 2])\n    >>> M = csr_matrix((data, indices, indptr), shape=(2, 2))\n    >>> M.toarray()\n    array([[0, 0],\n           [0, 0]])\n    >>> csgraph_to_dense(M, np.inf)\n    array([[ Inf,   0.],\n           [ Inf,  Inf]])\n\n    In the first case, the zero-weight edge gets lost in the dense\n    representation.  In the second case, we can choose a different null value\n    and see the true form of the graph.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense = {"csgraph_to_dense", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_null_value = 0;
   PyObject *__pyx_r = 0;
@@ -3230,18 +3230,18 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_d
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("csgraph_to_dense", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 172, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_to_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_to_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(__pyx_self, __pyx_v_csgraph, __pyx_v_null_value);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(__pyx_self, __pyx_v_csgraph, __pyx_v_null_value);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_null_value) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_6csgraph_to_dense(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_null_value) {
   PyObject *__pyx_v_N = NULL;
   PyObject *__pyx_v_data = NULL;
   PyObject *__pyx_v_indices = NULL;
@@ -3256,11 +3256,11 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   PyObject *__pyx_t_5 = NULL;
   int __pyx_t_6;
   PyObject *__pyx_t_7 = NULL;
-  __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_t_8;
+  __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_t_8;
   __Pyx_RefNannySetupContext("csgraph_to_dense", 0);
   __Pyx_INCREF(__pyx_v_csgraph);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":245
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":245
  *     # Allow only csr, lil and csc matrices: other formats when converted to csr
  *     # combine duplicated edges: we don't want this to happen in the background.
  *     if isspmatrix_csc(csgraph) or isspmatrix_lil(csgraph):             # <<<<<<<<<<<<<<
@@ -3334,7 +3334,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":246
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":246
  *     # combine duplicated edges: we don't want this to happen in the background.
  *     if isspmatrix_csc(csgraph) or isspmatrix_lil(csgraph):
  *         csgraph = csgraph.tocsr()             # <<<<<<<<<<<<<<
@@ -3364,7 +3364,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
     __Pyx_DECREF_SET(__pyx_v_csgraph, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":245
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":245
  *     # Allow only csr, lil and csc matrices: other formats when converted to csr
  *     # combine duplicated edges: we don't want this to happen in the background.
  *     if isspmatrix_csc(csgraph) or isspmatrix_lil(csgraph):             # <<<<<<<<<<<<<<
@@ -3374,7 +3374,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":247
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":247
  *     if isspmatrix_csc(csgraph) or isspmatrix_lil(csgraph):
  *         csgraph = csgraph.tocsr()
  *     elif not isspmatrix_csr(csgraph):             # <<<<<<<<<<<<<<
@@ -3413,7 +3413,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_t_6 = ((!__pyx_t_1) != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":248
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":248
  *         csgraph = csgraph.tocsr()
  *     elif not isspmatrix_csr(csgraph):
  *         raise ValueError("csgraph must be lil, csr, or csc format")             # <<<<<<<<<<<<<<
@@ -3426,7 +3426,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __PYX_ERR(0, 248, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":247
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":247
  *     if isspmatrix_csc(csgraph) or isspmatrix_lil(csgraph):
  *         csgraph = csgraph.tocsr()
  *     elif not isspmatrix_csr(csgraph):             # <<<<<<<<<<<<<<
@@ -3436,7 +3436,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":250
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":250
  *         raise ValueError("csgraph must be lil, csr, or csc format")
  * 
  *     N = csgraph.shape[0]             # <<<<<<<<<<<<<<
@@ -3451,7 +3451,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_v_N = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":251
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":251
  * 
  *     N = csgraph.shape[0]
  *     if csgraph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -3469,7 +3469,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_6) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":252
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":252
  *     N = csgraph.shape[0]
  *     if csgraph.shape[1] != N:
  *         raise ValueError('csgraph should be a square matrix')             # <<<<<<<<<<<<<<
@@ -3482,7 +3482,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(0, 252, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":251
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":251
  * 
  *     N = csgraph.shape[0]
  *     if csgraph.shape[1] != N:             # <<<<<<<<<<<<<<
@@ -3491,7 +3491,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":255
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":255
  * 
  *     # get attribute arrays
  *     data = np.asarray(csgraph.data, dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -3525,7 +3525,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_v_data = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":256
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":256
  *     # get attribute arrays
  *     data = np.asarray(csgraph.data, dtype=DTYPE, order='C')
  *     indices = np.asarray(csgraph.indices, dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -3559,7 +3559,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_v_indices = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":257
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":257
  *     data = np.asarray(csgraph.data, dtype=DTYPE, order='C')
  *     indices = np.asarray(csgraph.indices, dtype=ITYPE, order='C')
  *     indptr = np.asarray(csgraph.indptr, dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -3593,7 +3593,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_v_indptr = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":260
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":260
  * 
  *     # create the output array
  *     graph = np.empty(csgraph.shape, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -3626,7 +3626,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_v_graph = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":261
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":261
  *     # create the output array
  *     graph = np.empty(csgraph.shape, dtype=DTYPE)
  *     graph.fill(np.inf)             # <<<<<<<<<<<<<<
@@ -3668,7 +3668,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":262
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":262
  *     graph = np.empty(csgraph.shape, dtype=DTYPE)
  *     graph.fill(np.inf)
  *     _populate_graph(data, indices, indptr, graph, null_value)             # <<<<<<<<<<<<<<
@@ -3680,9 +3680,9 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   if (!(likely(((__pyx_v_indptr) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_indptr, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 262, __pyx_L1_error)
   if (!(likely(((__pyx_v_graph) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_graph, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 262, __pyx_L1_error)
   __pyx_t_8 = __pyx_PyFloat_AsDouble(__pyx_v_null_value); if (unlikely((__pyx_t_8 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(0, 262, __pyx_L1_error)
-  __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(((PyArrayObject *)__pyx_v_data), ((PyArrayObject *)__pyx_v_indices), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_graph), __pyx_t_8);
+  __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__populate_graph(((PyArrayObject *)__pyx_v_data), ((PyArrayObject *)__pyx_v_indices), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_graph), __pyx_t_8);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":263
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":263
  *     graph.fill(np.inf)
  *     _populate_graph(data, indices, indptr, graph, null_value)
  *     return graph             # <<<<<<<<<<<<<<
@@ -3694,7 +3694,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __pyx_r = __pyx_v_graph;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":172
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":172
  * 
  * 
  * def csgraph_to_dense(csgraph, null_value=0):             # <<<<<<<<<<<<<<
@@ -3709,7 +3709,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_to_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_to_dense", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_N);
@@ -3723,7 +3723,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":266
+/* "gawml/utils/sparsetools/_graph_tools.pyx":266
  * 
  * 
  * def csgraph_to_masked(csgraph):             # <<<<<<<<<<<<<<
@@ -3732,21 +3732,21 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_6csgraph_to_d
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked(PyObject *__pyx_self, PyObject *__pyx_v_csgraph); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked[] = "\n    csgraph_to_masked(csgraph)\n\n    Convert a sparse graph representation to a masked array representation\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : csr_matrix, csc_matrix, or lil_matrix\n        Sparse representation of a graph.\n\n    Returns\n    -------\n    graph : MaskedArray\n        The masked dense representation of the sparse graph.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked = {"csgraph_to_masked", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked, METH_O, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked(PyObject *__pyx_self, PyObject *__pyx_v_csgraph) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked(PyObject *__pyx_self, PyObject *__pyx_v_csgraph); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked[] = "\n    csgraph_to_masked(csgraph)\n\n    Convert a sparse graph representation to a masked array representation\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : csr_matrix, csc_matrix, or lil_matrix\n        Sparse representation of a graph.\n\n    Returns\n    -------\n    graph : MaskedArray\n        The masked dense representation of the sparse graph.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked = {"csgraph_to_masked", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked, METH_O, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked(PyObject *__pyx_self, PyObject *__pyx_v_csgraph) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("csgraph_to_masked (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(__pyx_self, ((PyObject *)__pyx_v_csgraph));
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(__pyx_self, ((PyObject *)__pyx_v_csgraph));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_8csgraph_to_masked(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3759,7 +3759,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_m
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("csgraph_to_masked", 0);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":284
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":284
  *         The masked dense representation of the sparse graph.
  *     """
  *     return np.ma.masked_invalid(csgraph_to_dense(csgraph, np.nan))             # <<<<<<<<<<<<<<
@@ -3839,7 +3839,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_m
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":266
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":266
  * 
  * 
  * def csgraph_to_masked(csgraph):             # <<<<<<<<<<<<<<
@@ -3856,7 +3856,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_m
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.csgraph_to_masked", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.csgraph_to_masked", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3864,7 +3864,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_m
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":287
+/* "gawml/utils/sparsetools/_graph_tools.pyx":287
  * 
  * 
  * cdef void _populate_graph(np.ndarray[DTYPE_t, ndim=1, mode='c'] data,             # <<<<<<<<<<<<<<
@@ -3872,7 +3872,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_8csgraph_to_m
  *                           np.ndarray[ITYPE_t, ndim=1, mode='c'] indptr,
  */
 
-static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyArrayObject *__pyx_v_data, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_graph, __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_null_value) {
+static void __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__populate_graph(PyArrayObject *__pyx_v_data, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_graph, __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_null_value) {
   unsigned int __pyx_v_N;
   PyArrayObject *__pyx_v_null_flag = 0;
   npy_bool *__pyx_v_null_ptr;
@@ -3896,7 +3896,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   size_t __pyx_t_6;
   int __pyx_t_7;
   Py_ssize_t __pyx_t_8;
-  __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t __pyx_t_9;
+  __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t __pyx_t_9;
   size_t __pyx_t_10;
   size_t __pyx_t_11;
   size_t __pyx_t_12;
@@ -3924,26 +3924,26 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   __pyx_pybuffernd_graph.rcbuffer = &__pyx_pybuffer_graph;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_v_data, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_v_data, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
   }
   __pyx_pybuffernd_data.diminfo[0].strides = __pyx_pybuffernd_data.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_data.diminfo[0].shape = __pyx_pybuffernd_data.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices.diminfo[0].strides = __pyx_pybuffernd_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices.diminfo[0].shape = __pyx_pybuffernd_indices.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr.diminfo[0].strides = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr.diminfo[0].shape = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 287, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":295
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":295
  *     # on input, graph should be filled with infinities, and should be
  *     # of size [N, N], which is also the size of the sparse matrix
  *     cdef unsigned int N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -3952,7 +3952,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":296
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":296
  *     # of size [N, N], which is also the size of the sparse matrix
  *     cdef unsigned int N = graph.shape[0]
  *     cdef np.ndarray null_flag = np.ones((N, N), dtype=bool, order='C')             # <<<<<<<<<<<<<<
@@ -3994,7 +3994,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   __pyx_v_null_flag = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":297
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":297
  *     cdef unsigned int N = graph.shape[0]
  *     cdef np.ndarray null_flag = np.ones((N, N), dtype=bool, order='C')
  *     cdef np.npy_bool* null_ptr = <np.npy_bool*> null_flag.data             # <<<<<<<<<<<<<<
@@ -4003,7 +4003,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
  */
   __pyx_v_null_ptr = ((npy_bool *)__pyx_v_null_flag->data);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":300
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":300
  *     cdef unsigned int row, col, i
  * 
  *     for row from 0 <= row < N:             # <<<<<<<<<<<<<<
@@ -4013,7 +4013,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   __pyx_t_5 = __pyx_v_N;
   for (__pyx_v_row = 0; __pyx_v_row < __pyx_t_5; __pyx_v_row++) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":301
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":301
  * 
  *     for row from 0 <= row < N:
  *         for i from indptr[row] <= i < indptr[row + 1]:             # <<<<<<<<<<<<<<
@@ -4037,10 +4037,10 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
       __Pyx_RaiseBufferIndexError(__pyx_t_7);
       __PYX_ERR(0, 301, __pyx_L1_error)
     }
-    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
+    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":302
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":302
  *     for row from 0 <= row < N:
  *         for i from indptr[row] <= i < indptr[row + 1]:
  *             col = indices[i]             # <<<<<<<<<<<<<<
@@ -4054,9 +4054,9 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
         __Pyx_RaiseBufferIndexError(__pyx_t_7);
         __PYX_ERR(0, 302, __pyx_L1_error)
       }
-      __pyx_v_col = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices.diminfo[0].strides));
+      __pyx_v_col = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":303
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":303
  *         for i from indptr[row] <= i < indptr[row + 1]:
  *             col = indices[i]
  *             null_ptr[col] = 0             # <<<<<<<<<<<<<<
@@ -4065,7 +4065,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
  */
       (__pyx_v_null_ptr[__pyx_v_col]) = 0;
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":305
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":305
  *             null_ptr[col] = 0
  *             # in case of multiple edges, we'll choose the smallest
  *             if data[i] < graph[row, col]:             # <<<<<<<<<<<<<<
@@ -4088,10 +4088,10 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
         __Pyx_RaiseBufferIndexError(__pyx_t_7);
         __PYX_ERR(0, 305, __pyx_L1_error)
       }
-      __pyx_t_14 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_data.diminfo[0].strides)) < (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
+      __pyx_t_14 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_data.diminfo[0].strides)) < (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
       if (__pyx_t_14) {
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":306
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":306
  *             # in case of multiple edges, we'll choose the smallest
  *             if data[i] < graph[row, col]:
  *                 graph[row, col] = data[i]             # <<<<<<<<<<<<<<
@@ -4114,9 +4114,9 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
           __Pyx_RaiseBufferIndexError(__pyx_t_7);
           __PYX_ERR(0, 306, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_data.diminfo[0].strides));
+        *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_data.diminfo[0].strides));
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":305
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":305
  *             null_ptr[col] = 0
  *             # in case of multiple edges, we'll choose the smallest
  *             if data[i] < graph[row, col]:             # <<<<<<<<<<<<<<
@@ -4126,7 +4126,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
       }
     }
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":307
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":307
  *             if data[i] < graph[row, col]:
  *                 graph[row, col] = data[i]
  *         null_ptr += N             # <<<<<<<<<<<<<<
@@ -4136,7 +4136,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
     __pyx_v_null_ptr = (__pyx_v_null_ptr + __pyx_v_N);
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":309
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":309
  *         null_ptr += N
  * 
  *     graph[null_flag] = null_value             # <<<<<<<<<<<<<<
@@ -4148,7 +4148,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_graph), ((PyObject *)__pyx_v_null_flag), __pyx_t_1) < 0)) __PYX_ERR(0, 309, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":287
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":287
  * 
  * 
  * cdef void _populate_graph(np.ndarray[DTYPE_t, ndim=1, mode='c'] data,             # <<<<<<<<<<<<<<
@@ -4172,7 +4172,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indices.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._graph_tools._populate_graph", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._graph_tools._populate_graph", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_data.rcbuffer->pybuffer);
@@ -4184,7 +4184,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":312
+/* "gawml/utils/sparsetools/_graph_tools.pyx":312
  * 
  * 
  * def reconstruct_path(csgraph, predecessors, directed=True):             # <<<<<<<<<<<<<<
@@ -4193,10 +4193,10 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__populate_graph(PyA
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct_path[] = "\n    reconstruct_path(csgraph, predecessors, directed=True)\n\n    Construct a tree from a graph and a predecessor list.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the directed or undirected graph\n        from which the predecessors are drawn.\n    predecessors : array_like, one dimension\n        The length-N array of indices of predecessors for the tree.  The\n        index of the parent of node i is given by predecessors[i].\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only move from\n        point i to point j along paths csgraph[i, j].\n        If False, then operate on an undirected graph: the algorithm can\n        progress from point i to j along csgraph[i, j] or csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the tree drawn\n        from csgraph which is encoded by the predecessor list.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct_path = {"reconstruct_path", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct_path, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct_path};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_11reconstruct_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_10reconstruct_path[] = "\n    reconstruct_path(csgraph, predecessors, directed=True)\n\n    Construct a tree from a graph and a predecessor list.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the directed or undirected graph\n        from which the predecessors are drawn.\n    predecessors : array_like, one dimension\n        The length-N array of indices of predecessors for the tree.  The\n        index of the parent of node i is given by predecessors[i].\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only move from\n        point i to point j along paths csgraph[i, j].\n        If False, then operate on an undirected graph: the algorithm can\n        progress from point i to j along csgraph[i, j] or csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the tree drawn\n        from csgraph which is encoded by the predecessor list.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_11reconstruct_path = {"reconstruct_path", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_11reconstruct_path, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_10reconstruct_path};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_11reconstruct_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_predecessors = 0;
   PyObject *__pyx_v_directed = 0;
@@ -4253,18 +4253,18 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("reconstruct_path", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 312, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.reconstruct_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.reconstruct_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct_path(__pyx_self, __pyx_v_csgraph, __pyx_v_predecessors, __pyx_v_directed);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_10reconstruct_path(__pyx_self, __pyx_v_csgraph, __pyx_v_predecessors, __pyx_v_directed);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_10reconstruct_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed) {
   PyObject *__pyx_v_validate_graph = NULL;
   PyObject *__pyx_v_N = NULL;
   PyObject *__pyx_v_nnull = NULL;
@@ -4289,7 +4289,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_RefNannySetupContext("reconstruct_path", 0);
   __Pyx_INCREF(__pyx_v_csgraph);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":340
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":340
  *         from csgraph which is encoded by the predecessor list.
  *     """
  *     from _validation import validate_graph             # <<<<<<<<<<<<<<
@@ -4311,7 +4311,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":341
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":341
  *     """
  *     from _validation import validate_graph
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)             # <<<<<<<<<<<<<<
@@ -4336,7 +4336,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_DECREF_SET(__pyx_v_csgraph, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":343
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":343
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)
  * 
  *     N = csgraph.shape[0]             # <<<<<<<<<<<<<<
@@ -4351,7 +4351,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_v_N = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":345
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":345
  *     N = csgraph.shape[0]
  * 
  *     nnull = (predecessors < 0).sum()             # <<<<<<<<<<<<<<
@@ -4383,7 +4383,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_v_nnull = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":347
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":347
  *     nnull = (predecessors < 0).sum()
  * 
  *     indices = np.argsort(predecessors)[nnull:].astype(ITYPE)             # <<<<<<<<<<<<<<
@@ -4457,7 +4457,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_v_indices = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":348
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":348
  * 
  *     indices = np.argsort(predecessors)[nnull:].astype(ITYPE)
  *     pind = predecessors[indices]             # <<<<<<<<<<<<<<
@@ -4469,7 +4469,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_v_pind = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":349
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":349
  *     indices = np.argsort(predecessors)[nnull:].astype(ITYPE)
  *     pind = predecessors[indices]
  *     indptr = pind.searchsorted(np.arange(N + 1)).astype(ITYPE)             # <<<<<<<<<<<<<<
@@ -4571,7 +4571,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_v_indptr = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":351
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":351
  *     indptr = pind.searchsorted(np.arange(N + 1)).astype(ITYPE)
  * 
  *     if directed == True:             # <<<<<<<<<<<<<<
@@ -4583,7 +4583,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_9) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":352
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":352
  * 
  *     if directed == True:
  *         data = csgraph[pind, indices]             # <<<<<<<<<<<<<<
@@ -4604,7 +4604,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     __pyx_v_data = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":351
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":351
  *     indptr = pind.searchsorted(np.arange(N + 1)).astype(ITYPE)
  * 
  *     if directed == True:             # <<<<<<<<<<<<<<
@@ -4614,7 +4614,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":354
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":354
  *         data = csgraph[pind, indices]
  *     else:
  *         data1 = csgraph[pind, indices]             # <<<<<<<<<<<<<<
@@ -4636,7 +4636,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     __pyx_v_data1 = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":355
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":355
  *     else:
  *         data1 = csgraph[pind, indices]
  *         data2 = csgraph[indices, pind]             # <<<<<<<<<<<<<<
@@ -4657,7 +4657,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     __pyx_v_data2 = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":356
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":356
  *         data1 = csgraph[pind, indices]
  *         data2 = csgraph[indices, pind]
  *         data1[data1 == 0] = np.inf             # <<<<<<<<<<<<<<
@@ -4675,7 +4675,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":357
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":357
  *         data2 = csgraph[indices, pind]
  *         data1[data1 == 0] = np.inf
  *         data2[data2 == 0] = np.inf             # <<<<<<<<<<<<<<
@@ -4693,7 +4693,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":358
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":358
  *         data1[data1 == 0] = np.inf
  *         data2[data2 == 0] = np.inf
  *         data = np.minimum(data1, data2)             # <<<<<<<<<<<<<<
@@ -4737,7 +4737,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":360
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":360
  *         data = np.minimum(data1, data2)
  * 
  *     data = np.asarray(data).ravel()             # <<<<<<<<<<<<<<
@@ -4798,7 +4798,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_DECREF_SET(__pyx_v_data, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":362
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":362
  *     data = np.asarray(data).ravel()
  * 
  *     return csr_matrix((data, indices, indptr), shape=(N, N))             # <<<<<<<<<<<<<<
@@ -4845,7 +4845,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __pyx_t_8 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":312
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":312
  * 
  * 
  * def reconstruct_path(csgraph, predecessors, directed=True):             # <<<<<<<<<<<<<<
@@ -4863,7 +4863,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.reconstruct_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.reconstruct_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_validate_graph);
@@ -4881,7 +4881,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":365
+/* "gawml/utils/sparsetools/_graph_tools.pyx":365
  * 
  * 
  * def construct_dist_matrix(graph,             # <<<<<<<<<<<<<<
@@ -4890,10 +4890,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_10reconstruct
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix[] = "\n    construct_dist_matrix(graph, predecessors, directed=True, null_value=np.inf)\n\n    Construct distance matrix from a predecessor matrix\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like or sparse\n        The N x N matrix representation of a directed or undirected graph.\n        If dense, then non-edges are indicated by zeros or infinities.\n    predecessors : array_like\n        The N x N matrix of predecessors of each node (see Notes below).\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only move from\n        point i to point j along paths csgraph[i, j].\n        If False, then operate on an undirected graph: the algorithm can\n        progress from point i to j along csgraph[i, j] or csgraph[j, i].\n    null_value : bool, optional\n        value to use for distances between unconnected nodes.  Default is\n        np.inf\n\n    Returns\n    -------\n    dist_matrix : ndarray\n        The N x N matrix of distances between nodes along the path specified\n        by the predecessor matrix.  If no path exists, the distance is zero.\n\n    Notes\n    -----\n    The predecessor matrix is of the form returned by\n    :func:`graph_shortest_path`.  Row i of the predecessor matrix contains\n    information on the shortest paths from point i: each entry\n    predecessors[i, j] gives the index of the previous node in the path from\n    point i to point j.  If no path exists between point i and j, then\n    predecessors[i, j] = -9999\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix = {"construct_dist_matrix", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix[] = "\n    construct_dist_matrix(graph, predecessors, directed=True, null_value=np.inf)\n\n    Construct distance matrix from a predecessor matrix\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    graph : array_like or sparse\n        The N x N matrix representation of a directed or undirected graph.\n        If dense, then non-edges are indicated by zeros or infinities.\n    predecessors : array_like\n        The N x N matrix of predecessors of each node (see Notes below).\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only move from\n        point i to point j along paths csgraph[i, j].\n        If False, then operate on an undirected graph: the algorithm can\n        progress from point i to j along csgraph[i, j] or csgraph[j, i].\n    null_value : bool, optional\n        value to use for distances between unconnected nodes.  Default is\n        np.inf\n\n    Returns\n    -------\n    dist_matrix : ndarray\n        The N x N matrix of distances between nodes along the path specified\n        by the predecessor matrix.  If no path exists, the distance is zero.\n\n    Notes\n    -----\n    The predecessor matrix is of the form returned by\n    :func:`graph_shortest_path`.  Row i of the predecessor matrix contains\n    information on the shortest paths from point i: each entry\n    predecessors[i, j] gives the index of the previous node in the path from\n    point i to point j.  If no path exists between point i and j, then\n    predecessors[i, j] = -9999\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix = {"construct_dist_matrix", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_graph = 0;
   PyObject *__pyx_v_predecessors = 0;
   PyObject *__pyx_v_directed = 0;
@@ -4905,7 +4905,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_d
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_graph,&__pyx_n_s_predecessors,&__pyx_n_s_directed,&__pyx_n_s_null_value,0};
     PyObject* values[4] = {0,0,0,0};
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":367
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":367
  * def construct_dist_matrix(graph,
  *                           predecessors,
  *                           directed=True,             # <<<<<<<<<<<<<<
@@ -4968,13 +4968,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_d
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("construct_dist_matrix", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 365, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(__pyx_self, __pyx_v_graph, __pyx_v_predecessors, __pyx_v_directed, __pyx_v_null_value);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(__pyx_self, __pyx_v_graph, __pyx_v_predecessors, __pyx_v_directed, __pyx_v_null_value);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":365
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":365
  * 
  * 
  * def construct_dist_matrix(graph,             # <<<<<<<<<<<<<<
@@ -4987,7 +4987,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_12_graph_tools_13construct_d
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed, PyObject *__pyx_v_null_value) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_12_graph_tools_12construct_dist_matrix(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_graph, PyObject *__pyx_v_predecessors, PyObject *__pyx_v_directed, PyObject *__pyx_v_null_value) {
   PyObject *__pyx_v_validate_graph = NULL;
   PyObject *__pyx_v_dist_matrix = NULL;
   PyObject *__pyx_r = NULL;
@@ -4998,12 +4998,12 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   int __pyx_t_4;
   PyObject *__pyx_t_5 = NULL;
   int __pyx_t_6;
-  __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_t_7;
+  __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_t_7;
   __Pyx_RefNannySetupContext("construct_dist_matrix", 0);
   __Pyx_INCREF(__pyx_v_graph);
   __Pyx_INCREF(__pyx_v_predecessors);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":407
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":407
  *     predecessors[i, j] = -9999
  *     """
  *     from _validation import validate_graph             # <<<<<<<<<<<<<<
@@ -5025,7 +5025,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":408
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":408
  *     """
  *     from _validation import validate_graph
  *     graph = validate_graph(graph, directed, dtype=DTYPE,             # <<<<<<<<<<<<<<
@@ -5047,7 +5047,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":409
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":409
  *     from _validation import validate_graph
  *     graph = validate_graph(graph, directed, dtype=DTYPE,
  *                            csr_output=False,             # <<<<<<<<<<<<<<
@@ -5056,7 +5056,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
  */
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_csr_output, Py_False) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":410
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":410
  *     graph = validate_graph(graph, directed, dtype=DTYPE,
  *                            csr_output=False,
  *                            copy_if_dense=not directed)             # <<<<<<<<<<<<<<
@@ -5069,7 +5069,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_copy_if_dense, __pyx_t_3) < 0) __PYX_ERR(0, 408, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":408
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":408
  *     """
  *     from _validation import validate_graph
  *     graph = validate_graph(graph, directed, dtype=DTYPE,             # <<<<<<<<<<<<<<
@@ -5083,7 +5083,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __Pyx_DECREF_SET(__pyx_v_graph, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":411
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":411
  *                            csr_output=False,
  *                            copy_if_dense=not directed)
  *     predecessors = np.asarray(predecessors)             # <<<<<<<<<<<<<<
@@ -5123,7 +5123,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __Pyx_DECREF_SET(__pyx_v_predecessors, __pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":413
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":413
  *     predecessors = np.asarray(predecessors)
  * 
  *     if predecessors.shape != graph.shape:             # <<<<<<<<<<<<<<
@@ -5141,7 +5141,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":414
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":414
  * 
  *     if predecessors.shape != graph.shape:
  *         raise ValueError("graph and predecessors must have the same shape")             # <<<<<<<<<<<<<<
@@ -5154,7 +5154,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_ERR(0, 414, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":413
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":413
  *     predecessors = np.asarray(predecessors)
  * 
  *     if predecessors.shape != graph.shape:             # <<<<<<<<<<<<<<
@@ -5163,7 +5163,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":416
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":416
  *         raise ValueError("graph and predecessors must have the same shape")
  * 
  *     dist_matrix = np.zeros(graph.shape, dtype=DTYPE)             # <<<<<<<<<<<<<<
@@ -5196,7 +5196,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __pyx_v_dist_matrix = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":417
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":417
  * 
  *     dist_matrix = np.zeros(graph.shape, dtype=DTYPE)
  *     _construct_dist_matrix(graph, predecessors, dist_matrix,             # <<<<<<<<<<<<<<
@@ -5207,7 +5207,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   if (!(likely(((__pyx_v_predecessors) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_predecessors, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 417, __pyx_L1_error)
   if (!(likely(((__pyx_v_dist_matrix) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_dist_matrix, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 417, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":418
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":418
  *     dist_matrix = np.zeros(graph.shape, dtype=DTYPE)
  *     _construct_dist_matrix(graph, predecessors, dist_matrix,
  *                            directed, null_value)             # <<<<<<<<<<<<<<
@@ -5217,16 +5217,16 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __pyx_t_6 = __Pyx_PyInt_As_int(__pyx_v_directed); if (unlikely((__pyx_t_6 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 418, __pyx_L1_error)
   __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_v_null_value); if (unlikely((__pyx_t_7 == (npy_float64)-1) && PyErr_Occurred())) __PYX_ERR(0, 418, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":417
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":417
  * 
  *     dist_matrix = np.zeros(graph.shape, dtype=DTYPE)
  *     _construct_dist_matrix(graph, predecessors, dist_matrix,             # <<<<<<<<<<<<<<
  *                            directed, null_value)
  * 
  */
-  __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(((PyArrayObject *)__pyx_v_graph), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_dist_matrix), __pyx_t_6, __pyx_t_7);
+  __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(((PyArrayObject *)__pyx_v_graph), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_dist_matrix), __pyx_t_6, __pyx_t_7);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":420
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":420
  *                            directed, null_value)
  * 
  *     return dist_matrix             # <<<<<<<<<<<<<<
@@ -5238,7 +5238,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __pyx_r = __pyx_v_dist_matrix;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":365
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":365
  * 
  * 
  * def construct_dist_matrix(graph,             # <<<<<<<<<<<<<<
@@ -5252,7 +5252,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._graph_tools.construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._graph_tools.construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_validate_graph);
@@ -5264,7 +5264,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_graph_tools.pyx":423
+/* "gawml/utils/sparsetools/_graph_tools.pyx":423
  * 
  * 
  * cdef void _construct_dist_matrix(np.ndarray[DTYPE_t, ndim=2] graph,             # <<<<<<<<<<<<<<
@@ -5272,7 +5272,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_12_graph_tools_12construct_d
  *                                  np.ndarray[DTYPE_t, ndim=2] dist,
  */
 
-static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(PyArrayObject *__pyx_v_graph, PyArrayObject *__pyx_v_pred, PyArrayObject *__pyx_v_dist, int __pyx_v_directed, __pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_null_value) {
+static void __pyx_f_5gawml_5utils_11sparsetools_12_graph_tools__construct_dist_matrix(PyArrayObject *__pyx_v_graph, PyArrayObject *__pyx_v_pred, PyArrayObject *__pyx_v_dist, int __pyx_v_directed, __pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t __pyx_v_null_value) {
   int __pyx_v_i;
   int __pyx_v_j;
   int __pyx_v_k1;
@@ -5328,21 +5328,21 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
   __pyx_pybuffernd_dist.rcbuffer = &__pyx_pybuffer_dist;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_pred.rcbuffer->pybuffer, (PyObject*)__pyx_v_pred, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_pred.rcbuffer->pybuffer, (PyObject*)__pyx_v_pred, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
   }
   __pyx_pybuffernd_pred.diminfo[0].strides = __pyx_pybuffernd_pred.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_pred.diminfo[0].shape = __pyx_pybuffernd_pred.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_pred.diminfo[1].strides = __pyx_pybuffernd_pred.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_pred.diminfo[1].shape = __pyx_pybuffernd_pred.rcbuffer->pybuffer.shape[1];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_dist.rcbuffer->pybuffer, (PyObject*)__pyx_v_dist, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_dist.rcbuffer->pybuffer, (PyObject*)__pyx_v_dist, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 423, __pyx_L1_error)
   }
   __pyx_pybuffernd_dist.diminfo[0].strides = __pyx_pybuffernd_dist.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_dist.diminfo[0].shape = __pyx_pybuffernd_dist.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_dist.diminfo[1].strides = __pyx_pybuffernd_dist.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_dist.diminfo[1].shape = __pyx_pybuffernd_dist.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":434
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":434
  * 
  *     cdef int i, j, k1, k2, N, null_path
  *     N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -5351,7 +5351,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":438
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":438
  *     #------------------------------------------
  *     # symmetrize matrix if necessary
  *     if not directed:             # <<<<<<<<<<<<<<
@@ -5361,7 +5361,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
   __pyx_t_1 = ((!(__pyx_v_directed != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":439
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":439
  *     # symmetrize matrix if necessary
  *     if not directed:
  *         graph[graph == 0] = np.inf             # <<<<<<<<<<<<<<
@@ -5378,7 +5378,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":440
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":440
  *     if not directed:
  *         graph[graph == 0] = np.inf
  *         for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -5388,7 +5388,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
     __pyx_t_4 = __pyx_v_N;
     for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_4; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":441
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":441
  *         graph[graph == 0] = np.inf
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:             # <<<<<<<<<<<<<<
@@ -5398,7 +5398,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
       __pyx_t_5 = __pyx_v_N;
       for (__pyx_v_j = (__pyx_v_i + 1); __pyx_v_j < __pyx_t_5; __pyx_v_j++) {
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":442
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":442
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:             # <<<<<<<<<<<<<<
@@ -5435,10 +5435,10 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
           __Pyx_RaiseBufferIndexError(__pyx_t_8);
           __PYX_ERR(0, 442, __pyx_L1_error)
         }
-        __pyx_t_1 = (((*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_7, __pyx_pybuffernd_graph.diminfo[1].strides)) <= (*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
+        __pyx_t_1 = (((*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_7, __pyx_pybuffernd_graph.diminfo[1].strides)) <= (*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
         if (__pyx_t_1) {
 
-          /* "gaw/utils/sparsetools/_graph_tools.pyx":443
+          /* "gawml/utils/sparsetools/_graph_tools.pyx":443
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:
  *                     graph[i, j] = graph[j, i]             # <<<<<<<<<<<<<<
@@ -5475,9 +5475,9 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
             __Pyx_RaiseBufferIndexError(__pyx_t_8);
             __PYX_ERR(0, 443, __pyx_L1_error)
           }
-          *__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[1].strides));
+          *__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[1].strides));
 
-          /* "gaw/utils/sparsetools/_graph_tools.pyx":442
+          /* "gawml/utils/sparsetools/_graph_tools.pyx":442
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:             # <<<<<<<<<<<<<<
@@ -5487,7 +5487,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
           goto __pyx_L8;
         }
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":445
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":445
  *                     graph[i, j] = graph[j, i]
  *                 else:
  *                     graph[j, i] = graph[i, j]             # <<<<<<<<<<<<<<
@@ -5525,13 +5525,13 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
             __Pyx_RaiseBufferIndexError(__pyx_t_8);
             __PYX_ERR(0, 445, __pyx_L1_error)
           }
-          *__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[1].strides));
+          *__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[1].strides));
         }
         __pyx_L8:;
       }
     }
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":438
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":438
  *     #------------------------------------------
  *     # symmetrize matrix if necessary
  *     if not directed:             # <<<<<<<<<<<<<<
@@ -5540,7 +5540,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":448
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":448
  *     #------------------------------------------
  * 
  *     for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -5550,7 +5550,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
   __pyx_t_4 = __pyx_v_N;
   for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_4; __pyx_v_i++) {
 
-    /* "gaw/utils/sparsetools/_graph_tools.pyx":449
+    /* "gawml/utils/sparsetools/_graph_tools.pyx":449
  * 
  *     for i from 0 <= i < N:
  *         for j from 0 <= j < N:             # <<<<<<<<<<<<<<
@@ -5560,7 +5560,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
     __pyx_t_5 = __pyx_v_N;
     for (__pyx_v_j = 0; __pyx_v_j < __pyx_t_5; __pyx_v_j++) {
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":450
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":450
  *     for i from 0 <= i < N:
  *         for j from 0 <= j < N:
  *             null_path = True             # <<<<<<<<<<<<<<
@@ -5569,7 +5569,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
       __pyx_v_null_path = 1;
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":451
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":451
  *         for j from 0 <= j < N:
  *             null_path = True
  *             k2 = j             # <<<<<<<<<<<<<<
@@ -5578,7 +5578,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
       __pyx_v_k2 = __pyx_v_j;
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":452
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":452
  *             null_path = True
  *             k2 = j
  *             while k2 != i:             # <<<<<<<<<<<<<<
@@ -5589,7 +5589,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
         __pyx_t_1 = ((__pyx_v_k2 != __pyx_v_i) != 0);
         if (!__pyx_t_1) break;
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":453
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":453
  *             k2 = j
  *             while k2 != i:
  *                 k1 = pred[i, k2]             # <<<<<<<<<<<<<<
@@ -5611,19 +5611,19 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
           __Pyx_RaiseBufferIndexError(__pyx_t_8);
           __PYX_ERR(0, 453, __pyx_L1_error)
         }
-        __pyx_v_k1 = (*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_pred.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_pred.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_pred.diminfo[1].strides));
+        __pyx_v_k1 = (*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_ITYPE_t *, __pyx_pybuffernd_pred.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_pred.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_pred.diminfo[1].strides));
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":454
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":454
  *             while k2 != i:
  *                 k1 = pred[i, k2]
  *                 if k1 == NULL_IDX:             # <<<<<<<<<<<<<<
  *                     break
  *                 dist[i, j] += graph[k1, k2]
  */
-        __pyx_t_1 = ((__pyx_v_k1 == __pyx_v_3gaw_5utils_11sparsetools_12_graph_tools_NULL_IDX) != 0);
+        __pyx_t_1 = ((__pyx_v_k1 == __pyx_v_5gawml_5utils_11sparsetools_12_graph_tools_NULL_IDX) != 0);
         if (__pyx_t_1) {
 
-          /* "gaw/utils/sparsetools/_graph_tools.pyx":455
+          /* "gawml/utils/sparsetools/_graph_tools.pyx":455
  *                 k1 = pred[i, k2]
  *                 if k1 == NULL_IDX:
  *                     break             # <<<<<<<<<<<<<<
@@ -5632,7 +5632,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
           goto __pyx_L14_break;
 
-          /* "gaw/utils/sparsetools/_graph_tools.pyx":454
+          /* "gawml/utils/sparsetools/_graph_tools.pyx":454
  *             while k2 != i:
  *                 k1 = pred[i, k2]
  *                 if k1 == NULL_IDX:             # <<<<<<<<<<<<<<
@@ -5641,7 +5641,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
         }
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":456
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":456
  *                 if k1 == NULL_IDX:
  *                     break
  *                 dist[i, j] += graph[k1, k2]             # <<<<<<<<<<<<<<
@@ -5678,9 +5678,9 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
           __Pyx_RaiseBufferIndexError(__pyx_t_8);
           __PYX_ERR(0, 456, __pyx_L1_error)
         }
-        *__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_dist.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_dist.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_dist.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_graph.diminfo[1].strides));
+        *__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_dist.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_dist.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_dist.diminfo[1].strides) += (*__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_graph.diminfo[1].strides));
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":457
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":457
  *                     break
  *                 dist[i, j] += graph[k1, k2]
  *                 null_path = False             # <<<<<<<<<<<<<<
@@ -5689,7 +5689,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
  */
         __pyx_v_null_path = 0;
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":458
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":458
  *                 dist[i, j] += graph[k1, k2]
  *                 null_path = False
  *                 k2 = k1             # <<<<<<<<<<<<<<
@@ -5700,7 +5700,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
       }
       __pyx_L14_break:;
 
-      /* "gaw/utils/sparsetools/_graph_tools.pyx":459
+      /* "gawml/utils/sparsetools/_graph_tools.pyx":459
  *                 null_path = False
  *                 k2 = k1
  *             if null_path and i != j:             # <<<<<<<<<<<<<<
@@ -5717,7 +5717,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
       __pyx_L17_bool_binop_done:;
       if (__pyx_t_1) {
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":460
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":460
  *                 k2 = k1
  *             if null_path and i != j:
  *                 dist[i, j] = null_value             # <<<<<<<<<<<<<<
@@ -5737,9 +5737,9 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
           __Pyx_RaiseBufferIndexError(__pyx_t_8);
           __PYX_ERR(0, 460, __pyx_L1_error)
         }
-        *__Pyx_BufPtrStrided2d(__pyx_t_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_dist.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_dist.diminfo[0].strides, __pyx_t_27, __pyx_pybuffernd_dist.diminfo[1].strides) = __pyx_v_null_value;
+        *__Pyx_BufPtrStrided2d(__pyx_t_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_t *, __pyx_pybuffernd_dist.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_dist.diminfo[0].strides, __pyx_t_27, __pyx_pybuffernd_dist.diminfo[1].strides) = __pyx_v_null_value;
 
-        /* "gaw/utils/sparsetools/_graph_tools.pyx":459
+        /* "gawml/utils/sparsetools/_graph_tools.pyx":459
  *                 null_path = False
  *                 k2 = k1
  *             if null_path and i != j:             # <<<<<<<<<<<<<<
@@ -5749,7 +5749,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
     }
   }
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":423
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":423
  * 
  * 
  * cdef void _construct_dist_matrix(np.ndarray[DTYPE_t, ndim=2] graph,             # <<<<<<<<<<<<<<
@@ -5770,7 +5770,7 @@ static void __pyx_f_3gaw_5utils_11sparsetools_12_graph_tools__construct_dist_mat
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_graph.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pred.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._graph_tools._construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._graph_tools._construct_dist_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_dist.rcbuffer->pybuffer);
@@ -7969,7 +7969,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_empty, __pyx_k_empty, sizeof(__pyx_k_empty), 0, 0, 1, 1},
   {&__pyx_n_s_fill, __pyx_k_fill, sizeof(__pyx_k_fill), 0, 0, 1, 1},
   {&__pyx_n_s_float64, __pyx_k_float64, sizeof(__pyx_k_float64), 0, 0, 1, 1},
-  {&__pyx_n_s_gaw_utils_sparsetools__graph_too, __pyx_k_gaw_utils_sparsetools__graph_too, sizeof(__pyx_k_gaw_utils_sparsetools__graph_too), 0, 0, 1, 1},
+  {&__pyx_n_s_gawml_utils_sparsetools__graph_t, __pyx_k_gawml_utils_sparsetools__graph_t, sizeof(__pyx_k_gawml_utils_sparsetools__graph_t), 0, 0, 1, 1},
   {&__pyx_n_s_graph, __pyx_k_graph, sizeof(__pyx_k_graph), 0, 0, 1, 1},
   {&__pyx_kp_s_graph_and_predecessors_must_have, __pyx_k_graph_and_predecessors_must_have, sizeof(__pyx_k_graph_and_predecessors_must_have), 0, 0, 1, 0},
   {&__pyx_kp_s_graph_should_be_a_square_array, __pyx_k_graph_should_be_a_square_array, sizeof(__pyx_k_graph_should_be_a_square_array), 0, 0, 1, 0},
@@ -8036,7 +8036,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":48
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":48
  * 
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")             # <<<<<<<<<<<<<<
@@ -8047,7 +8047,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":51
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":51
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:
  *         raise ValueError("graph should be a square array")             # <<<<<<<<<<<<<<
@@ -8058,7 +8058,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":64
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":64
  * 
  *     idx_grid = np.empty((N, N), dtype=ITYPE)
  *     idx_grid[:] = np.arange(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -8069,7 +8069,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__3);
   __Pyx_GIVEREF(__pyx_slice__3);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":68
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":68
  * 
  *     indptr = np.zeros(N + 1, dtype=ITYPE)
  *     indptr[1:] = mask.sum(1).cumsum()             # <<<<<<<<<<<<<<
@@ -8083,7 +8083,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__5);
   __Pyx_GIVEREF(__pyx_slice__5);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":107
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":107
  *     # check that graph is a square matrix
  *     if graph.ndim != 2:
  *         raise ValueError("graph should have two dimensions")             # <<<<<<<<<<<<<<
@@ -8094,7 +8094,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":110
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":110
  *     N = graph.shape[0]
  *     if graph.shape[1] != N:
  *         raise ValueError("graph should be a square array")             # <<<<<<<<<<<<<<
@@ -8105,7 +8105,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":248
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":248
  *         csgraph = csgraph.tocsr()
  *     elif not isspmatrix_csr(csgraph):
  *         raise ValueError("csgraph must be lil, csr, or csc format")             # <<<<<<<<<<<<<<
@@ -8116,7 +8116,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":252
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":252
  *     N = csgraph.shape[0]
  *     if csgraph.shape[1] != N:
  *         raise ValueError('csgraph should be a square matrix')             # <<<<<<<<<<<<<<
@@ -8127,7 +8127,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":414
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":414
  * 
  *     if predecessors.shape != graph.shape:
  *         raise ValueError("graph and predecessors must have the same shape")             # <<<<<<<<<<<<<<
@@ -8204,7 +8204,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":26
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":26
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def csgraph_from_masked(graph):             # <<<<<<<<<<<<<<
@@ -8216,7 +8216,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__18);
   __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(1, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csgraph_from_masked, 26, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) __PYX_ERR(0, 26, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":73
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":73
  * 
  * 
  * def csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -8228,7 +8228,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__20);
   __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(5, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csgraph_masked_from_dense, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":138
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":138
  * 
  * 
  * def csgraph_from_dense(graph,             # <<<<<<<<<<<<<<
@@ -8240,7 +8240,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__22);
   __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(4, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csgraph_from_dense, 138, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 138, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":172
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":172
  * 
  * 
  * def csgraph_to_dense(csgraph, null_value=0):             # <<<<<<<<<<<<<<
@@ -8252,7 +8252,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__24);
   __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(2, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csgraph_to_dense, 172, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 172, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":266
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":266
  * 
  * 
  * def csgraph_to_masked(csgraph):             # <<<<<<<<<<<<<<
@@ -8264,7 +8264,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__26);
   __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csgraph_to_masked, 266, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 266, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":312
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":312
  * 
  * 
  * def reconstruct_path(csgraph, predecessors, directed=True):             # <<<<<<<<<<<<<<
@@ -8276,7 +8276,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__28);
   __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(3, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_reconstruct_path, 312, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 312, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":365
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":365
  * 
  * 
  * def construct_dist_matrix(graph,             # <<<<<<<<<<<<<<
@@ -8370,14 +8370,14 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__sparsetools___graph_tools) {
+  if (__pyx_module_is_main_gawml__utils__sparsetools___graph_tools) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.sparsetools._graph_tools")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.sparsetools._graph_tools", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.sparsetools._graph_tools")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.sparsetools._graph_tools", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -8409,7 +8409,7 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":8
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":8
  * # License: BSD, (C) 2012
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -8421,7 +8421,7 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":11
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":11
  * cimport numpy as np
  * 
  * from scipy.sparse import csr_matrix, isspmatrix,\             # <<<<<<<<<<<<<<
@@ -8470,7 +8470,7 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":14
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":14
  *     isspmatrix_csr, isspmatrix_csc, isspmatrix_lil
  * 
  * DTYPE = np.float64             # <<<<<<<<<<<<<<
@@ -8485,7 +8485,7 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":17
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":17
  * ctypedef np.float64_t DTYPE_t
  * 
  * ITYPE = np.int32             # <<<<<<<<<<<<<<
@@ -8500,97 +8500,97 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ITYPE, __pyx_t_2) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":21
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":21
  * 
  * # EPS is the precision of DTYPE
  * cdef DTYPE_t DTYPE_EPS = 1E-15             # <<<<<<<<<<<<<<
  * 
  * # NULL_IDX is the index used in predecessor matrices to store a non-path
  */
-  __pyx_v_3gaw_5utils_11sparsetools_12_graph_tools_DTYPE_EPS = 1E-15;
+  __pyx_v_5gawml_5utils_11sparsetools_12_graph_tools_DTYPE_EPS = 1E-15;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":24
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":24
  * 
  * # NULL_IDX is the index used in predecessor matrices to store a non-path
  * cdef ITYPE_t NULL_IDX = -9999             # <<<<<<<<<<<<<<
  * 
  * def csgraph_from_masked(graph):
  */
-  __pyx_v_3gaw_5utils_11sparsetools_12_graph_tools_NULL_IDX = -9999;
+  __pyx_v_5gawml_5utils_11sparsetools_12_graph_tools_NULL_IDX = -9999;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":26
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":26
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def csgraph_from_masked(graph):             # <<<<<<<<<<<<<<
  *     """
  *     csgraph_from_masked(graph)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_1csgraph_from_masked, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csgraph_from_masked, __pyx_t_2) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":73
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":73
  * 
  * 
  * def csgraph_masked_from_dense(graph,             # <<<<<<<<<<<<<<
  *                               null_value=0,
  *                               nan_null=True,
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_3csgraph_masked_from_dense, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csgraph_masked_from_dense, __pyx_t_2) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":138
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":138
  * 
  * 
  * def csgraph_from_dense(graph,             # <<<<<<<<<<<<<<
  *                        null_value=0,
  *                        nan_null=True,
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_5csgraph_from_dense, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csgraph_from_dense, __pyx_t_2) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":172
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":172
  * 
  * 
  * def csgraph_to_dense(csgraph, null_value=0):             # <<<<<<<<<<<<<<
  *     """
  *     csgraph_to_dense(csgraph, null_value=0)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_7csgraph_to_dense, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csgraph_to_dense, __pyx_t_2) < 0) __PYX_ERR(0, 172, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":266
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":266
  * 
  * 
  * def csgraph_to_masked(csgraph):             # <<<<<<<<<<<<<<
  *     """
  *     csgraph_to_masked(csgraph)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 266, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_9csgraph_to_masked, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 266, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csgraph_to_masked, __pyx_t_2) < 0) __PYX_ERR(0, 266, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":312
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":312
  * 
  * 
  * def reconstruct_path(csgraph, predecessors, directed=True):             # <<<<<<<<<<<<<<
  *     """
  *     reconstruct_path(csgraph, predecessors, directed=True)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_11reconstruct_path, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_11reconstruct_path, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_reconstruct_path, __pyx_t_2) < 0) __PYX_ERR(0, 312, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":368
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":368
  *                           predecessors,
  *                           directed=True,
  *                           null_value=np.inf):             # <<<<<<<<<<<<<<
@@ -8606,19 +8606,19 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   __Pyx_GIVEREF(__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":365
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":365
  * 
  * 
  * def construct_dist_matrix(graph,             # <<<<<<<<<<<<<<
  *                           predecessors,
  *                           directed=True,
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix, NULL, __pyx_n_s_gaw_utils_sparsetools__graph_too); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_12_graph_tools_13construct_dist_matrix, NULL, __pyx_n_s_gawml_utils_sparsetools__graph_t); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_construct_dist_matrix, __pyx_t_1) < 0) __PYX_ERR(0, 365, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_graph_tools.pyx":1
+  /* "gawml/utils/sparsetools/_graph_tools.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Tools and utilities for working with compressed sparse graphs
  * """
@@ -8645,11 +8645,11 @@ PyMODINIT_FUNC PyInit__graph_tools(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.sparsetools._graph_tools", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.sparsetools._graph_tools", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.sparsetools._graph_tools");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.sparsetools._graph_tools");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

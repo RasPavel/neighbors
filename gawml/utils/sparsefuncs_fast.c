@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__sparsefuncs_fast
-#define __PYX_HAVE_API__gaw__utils__sparsefuncs_fast
+#define __PYX_HAVE__gawml__utils__sparsefuncs_fast
+#define __PYX_HAVE_API__gawml__utils__sparsefuncs_fast
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -505,7 +505,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/sparsefuncs_fast.pyx",
+  "gawml/utils/sparsefuncs_fast.pyx",
   "__init__.pxd",
   "stringsource",
   "type.pxd",
@@ -795,14 +795,14 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "gaw/utils/sparsefuncs_fast.pyx":22
+/* "gawml/utils/sparsefuncs_fast.pyx":22
  * 
  * 
  * ctypedef np.float64_t DOUBLE             # <<<<<<<<<<<<<<
  * 
  * def csr_row_norms(X):
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1808,7 +1808,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'gaw.utils.sparsefuncs_fast' */
+/* Module declarations from 'gawml.utils.sparsefuncs_fast' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -1853,15 +1853,15 @@ static void __pyx_memoryview_refcount_objects_in_slice(char *, Py_ssize_t *, Py_
 static void __pyx_memoryview_slice_assign_scalar(__Pyx_memviewslice *, int, size_t, void *, int); /*proto*/
 static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize_t *, int, size_t, void *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_int = { "int", NULL, sizeof(int), { 0 }, 0, IS_UNSIGNED(int) ? 'U' : 'I', IS_UNSIGNED(int), 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE = { "DOUBLE", NULL, sizeof(__pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE = { "DOUBLE", NULL, sizeof(__pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_float = { "float", NULL, sizeof(float), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn_npy_intp = { "npy_intp", NULL, sizeof(npy_intp), { 0 }, 0, IS_UNSIGNED(npy_intp) ? 'U' : 'I', IS_UNSIGNED(npy_intp), 0 };
-#define __Pyx_MODULE_NAME "gaw.utils.sparsefuncs_fast"
-int __pyx_module_is_main_gaw__utils__sparsefuncs_fast = 0;
+#define __Pyx_MODULE_NAME "gawml.utils.sparsefuncs_fast"
+int __pyx_module_is_main_gawml__utils__sparsefuncs_fast = 0;
 
-/* Implementation of 'gaw.utils.sparsefuncs_fast' */
+/* Implementation of 'gawml.utils.sparsefuncs_fast' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ImportError;
 static PyObject *__pyx_builtin_AttributeError;
@@ -1999,11 +1999,11 @@ static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %
 static const char __pyx_k_cannot_assign_d_rows_to_d[] = "cannot assign %d rows to %d";
 static const char __pyx_k_csc_mean_variance_axis0_2[] = "csc_mean_variance_axis0";
 static const char __pyx_k_csr_mean_variance_axis0_2[] = "csr_mean_variance_axis0";
-static const char __pyx_k_gaw_utils_sparsefuncs_fast[] = "gaw.utils.sparsefuncs_fast";
 static const char __pyx_k_incr_mean_variance_axis0_2[] = "incr_mean_variance_axis0";
 static const char __pyx_k_No_matching_signature_found[] = "No matching signature found";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
+static const char __pyx_k_gawml_utils_sparsefuncs_fast[] = "gawml.utils.sparsefuncs_fast";
 static const char __pyx_k_inplace_csr_row_normalize_l1[] = "_inplace_csr_row_normalize_l1";
 static const char __pyx_k_inplace_csr_row_normalize_l2[] = "_inplace_csr_row_normalize_l2";
 static const char __pyx_k_Expected_at_least_d_arguments[] = "Expected at least %d arguments";
@@ -2011,7 +2011,7 @@ static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate 
 static const char __pyx_k_inplace_csr_row_normalize_l1_2[] = "inplace_csr_row_normalize_l1";
 static const char __pyx_k_inplace_csr_row_normalize_l2_2[] = "inplace_csr_row_normalize_l2";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/utils/sparsefuncs_fast.pyx";
+static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gawml/utils/sparsefuncs_fast.pyx";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
 static const char __pyx_k_Can_only_create_a_buffer_that_is[] = "Can only create a buffer that is contiguous in memory.";
@@ -2101,7 +2101,7 @@ static PyObject *__pyx_n_s_float64;
 static PyObject *__pyx_n_s_format;
 static PyObject *__pyx_n_s_fortran;
 static PyObject *__pyx_n_u_fortran;
-static PyObject *__pyx_n_s_gaw_utils_sparsefuncs_fast;
+static PyObject *__pyx_n_s_gawml_utils_sparsefuncs_fast;
 static PyObject *__pyx_kp_s_got_differing_extents_in_dimensi;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_id;
@@ -2181,30 +2181,30 @@ static PyObject *__pyx_n_s_xrange;
 static PyObject *__pyx_n_s_zeros;
 static PyObject *__pyx_n_s_zeros_like;
 static PyObject *__pyx_n_s_zip;
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
@@ -2321,7 +2321,7 @@ static PyObject *__pyx_codeobj__66;
 static PyObject *__pyx_codeobj__68;
 static PyObject *__pyx_codeobj__70;
 
-/* "gaw/utils/sparsefuncs_fast.pyx":24
+/* "gawml/utils/sparsefuncs_fast.pyx":24
  * ctypedef np.float64_t DOUBLE
  * 
  * def csr_row_norms(X):             # <<<<<<<<<<<<<<
@@ -2330,21 +2330,21 @@ static PyObject *__pyx_codeobj__70;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_1csr_row_norms(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_csr_row_norms[] = "L2 norm of each row in CSR matrix X.";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_1csr_row_norms = {"csr_row_norms", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_1csr_row_norms, METH_O, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_csr_row_norms};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_1csr_row_norms(PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_1csr_row_norms(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_csr_row_norms[] = "L2 norm of each row in CSR matrix X.";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_1csr_row_norms = {"csr_row_norms", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_1csr_row_norms, METH_O, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_csr_row_norms};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_1csr_row_norms(PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("csr_row_norms (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(__pyx_self, ((PyObject *)__pyx_v_X));
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_csr_row_norms(__pyx_self, ((PyObject *)__pyx_v_X));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
   unsigned int __pyx_v_n_samples;
   CYTHON_UNUSED unsigned int __pyx_v_n_features;
   PyArrayObject *__pyx_v_norms = 0;
@@ -2403,7 +2403,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_pybuffernd_indptr.data = NULL;
   __pyx_pybuffernd_indptr.rcbuffer = &__pyx_pybuffer_indptr;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":27
+  /* "gawml/utils/sparsefuncs_fast.pyx":27
  *     """L2 norm of each row in CSR matrix X."""
  *     cdef:
  *         unsigned int n_samples = X.shape[0]             # <<<<<<<<<<<<<<
@@ -2419,7 +2419,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_n_samples = __pyx_t_3;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":28
+  /* "gawml/utils/sparsefuncs_fast.pyx":28
  *     cdef:
  *         unsigned int n_samples = X.shape[0]
  *         unsigned int n_features = X.shape[1]             # <<<<<<<<<<<<<<
@@ -2435,7 +2435,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_3;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":31
+  /* "gawml/utils/sparsefuncs_fast.pyx":31
  *         np.ndarray[DOUBLE, ndim=1, mode="c"] norms
  *         np.ndarray[DOUBLE, ndim=1, mode="c"] data
  *         np.ndarray[int, ndim=1, mode="c"] indices = X.indices             # <<<<<<<<<<<<<<
@@ -2458,7 +2458,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_v_indices = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":32
+  /* "gawml/utils/sparsefuncs_fast.pyx":32
  *         np.ndarray[DOUBLE, ndim=1, mode="c"] data
  *         np.ndarray[int, ndim=1, mode="c"] indices = X.indices
  *         np.ndarray[int, ndim=1, mode="c"] indptr = X.indptr             # <<<<<<<<<<<<<<
@@ -2481,7 +2481,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_v_indptr = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":37
+  /* "gawml/utils/sparsefuncs_fast.pyx":37
  *         double sum_
  * 
  *     norms = np.zeros(n_samples, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -2519,10 +2519,10 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_norms.rcbuffer->pybuffer);
-    __pyx_t_10 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_norms.rcbuffer->pybuffer, (PyObject*)__pyx_t_9, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_10 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_norms.rcbuffer->pybuffer, (PyObject*)__pyx_t_9, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_10 < 0)) {
       PyErr_Fetch(&__pyx_t_11, &__pyx_t_12, &__pyx_t_13);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_norms.rcbuffer->pybuffer, (PyObject*)__pyx_v_norms, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_norms.rcbuffer->pybuffer, (PyObject*)__pyx_v_norms, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_11); Py_XDECREF(__pyx_t_12); Py_XDECREF(__pyx_t_13);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -2536,7 +2536,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_v_norms = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":38
+  /* "gawml/utils/sparsefuncs_fast.pyx":38
  * 
  *     norms = np.zeros(n_samples, dtype=np.float64)
  *     data = np.asarray(X.data, dtype=np.float64)     # might copy!             # <<<<<<<<<<<<<<
@@ -2574,10 +2574,10 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_data.rcbuffer->pybuffer);
-    __pyx_t_10 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_t_14, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack);
+    __pyx_t_10 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_t_14, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_10 < 0)) {
       PyErr_Fetch(&__pyx_t_13, &__pyx_t_12, &__pyx_t_11);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_v_data, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_data.rcbuffer->pybuffer, (PyObject*)__pyx_v_data, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_13); Py_XDECREF(__pyx_t_12); Py_XDECREF(__pyx_t_11);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -2591,7 +2591,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_v_data = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":40
+  /* "gawml/utils/sparsefuncs_fast.pyx":40
  *     data = np.asarray(X.data, dtype=np.float64)     # might copy!
  * 
  *     for i in range(n_samples):             # <<<<<<<<<<<<<<
@@ -2602,7 +2602,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_3; __pyx_t_15+=1) {
     __pyx_v_i = __pyx_t_15;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":41
+    /* "gawml/utils/sparsefuncs_fast.pyx":41
  * 
  *     for i in range(n_samples):
  *         sum_ = 0.0             # <<<<<<<<<<<<<<
@@ -2611,7 +2611,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
  */
     __pyx_v_sum_ = 0.0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":42
+    /* "gawml/utils/sparsefuncs_fast.pyx":42
  *     for i in range(n_samples):
  *         sum_ = 0.0
  *         for j in range(indptr[i], indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -2624,7 +2624,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
     for (__pyx_t_18 = (*__Pyx_BufPtrCContig1d(int *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_t_18 < __pyx_t_10; __pyx_t_18+=1) {
       __pyx_v_j = __pyx_t_18;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":43
+      /* "gawml/utils/sparsefuncs_fast.pyx":43
  *         sum_ = 0.0
  *         for j in range(indptr[i], indptr[i + 1]):
  *             sum_ += data[j] * data[j]             # <<<<<<<<<<<<<<
@@ -2633,10 +2633,10 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
  */
       __pyx_t_19 = __pyx_v_j;
       __pyx_t_20 = __pyx_v_j;
-      __pyx_v_sum_ = (__pyx_v_sum_ + ((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_data.diminfo[0].strides)) * (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_data.diminfo[0].strides))));
+      __pyx_v_sum_ = (__pyx_v_sum_ + ((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_data.diminfo[0].strides)) * (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_data.diminfo[0].strides))));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":44
+    /* "gawml/utils/sparsefuncs_fast.pyx":44
  *         for j in range(indptr[i], indptr[i + 1]):
  *             sum_ += data[j] * data[j]
  *         norms[i] = sum_             # <<<<<<<<<<<<<<
@@ -2644,10 +2644,10 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
  *     return norms
  */
     __pyx_t_21 = __pyx_v_i;
-    *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_norms.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_norms.diminfo[0].strides) = __pyx_v_sum_;
+    *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_16sparsefuncs_fast_DOUBLE *, __pyx_pybuffernd_norms.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_norms.diminfo[0].strides) = __pyx_v_sum_;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":46
+  /* "gawml/utils/sparsefuncs_fast.pyx":46
  *         norms[i] = sum_
  * 
  *     return norms             # <<<<<<<<<<<<<<
@@ -2659,7 +2659,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   __pyx_r = ((PyObject *)__pyx_v_norms);
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":24
+  /* "gawml/utils/sparsefuncs_fast.pyx":24
  * ctypedef np.float64_t DOUBLE
  * 
  * def csr_row_norms(X):             # <<<<<<<<<<<<<<
@@ -2683,7 +2683,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_norms.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.csr_row_norms", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.csr_row_norms", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -2701,7 +2701,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":49
+/* "gawml/utils/sparsefuncs_fast.pyx":49
  * 
  * 
  * def csr_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -2710,21 +2710,21 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_csr_row_norms(CYTHON_UN
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSR matrix\n\n    Parameters\n    ----------\n    X: CSR sparse matrix, shape (n_samples, n_features)\n        Input data.\n\n    Returns\n    -------\n\n    means: float array with shape (n_features,)\n        Feature-wise means\n\n    variances: float array with shape (n_features,)\n        Feature-wise variances\n\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0 = {"csr_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0, METH_O, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSR matrix\n\n    Parameters\n    ----------\n    X: CSR sparse matrix, shape (n_samples, n_features)\n        Input data.\n\n    Returns\n    -------\n\n    means: float array with shape (n_features,)\n        Feature-wise means\n\n    variances: float array with shape (n_features,)\n        Feature-wise variances\n\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0 = {"csr_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0, METH_O, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("csr_mean_variance_axis0 (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(__pyx_self, ((PyObject *)__pyx_v_X));
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(__pyx_self, ((PyObject *)__pyx_v_X));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_2csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2739,7 +2739,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
   __Pyx_RefNannySetupContext("csr_mean_variance_axis0", 0);
   __Pyx_INCREF(__pyx_v_X);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":67
+  /* "gawml/utils/sparsefuncs_fast.pyx":67
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -2760,7 +2760,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":68
+    /* "gawml/utils/sparsefuncs_fast.pyx":68
  *     """
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)             # <<<<<<<<<<<<<<
@@ -2803,7 +2803,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
     __Pyx_DECREF_SET(__pyx_v_X, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":67
+    /* "gawml/utils/sparsefuncs_fast.pyx":67
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -2812,7 +2812,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":69
+  /* "gawml/utils/sparsefuncs_fast.pyx":69
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)
  *     return _csr_mean_variance_axis0(X.data, X.shape, X.indices)             # <<<<<<<<<<<<<<
@@ -2862,7 +2862,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":49
+  /* "gawml/utils/sparsefuncs_fast.pyx":49
  * 
  * 
  * def csr_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -2879,7 +2879,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_X);
@@ -2888,7 +2888,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":72
+/* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -2897,9 +2897,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_2csr_mean_variance_axis
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0 = {"_csr_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0 = {"_csr_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -2962,18 +2962,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axi
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 72, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_4_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -3055,7 +3055,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axi
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 72, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -3493,7 +3493,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axi
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -3513,9 +3513,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_4_csr_mean_variance_axi
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0 = {"__pyx_fuse_0_csr_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0 = {"__pyx_fuse_0_csr_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   PyArrayObject *__pyx_v_X_indices = 0;
@@ -3569,13 +3569,13 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_25_csr_mean
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_csr_mean_variance_axis0", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 72, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 72, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 74, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices);
 
   /* function exit code */
   goto __pyx_L0;
@@ -3586,7 +3586,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_25_csr_mean
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_24_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices) {
   unsigned int __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -3667,7 +3667,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   }
   __pyx_pybuffernd_X_indices.diminfo[0].strides = __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indices.diminfo[0].shape = __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":77
+  /* "gawml/utils/sparsefuncs_fast.pyx":77
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -3680,7 +3680,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":78
+  /* "gawml/utils/sparsefuncs_fast.pyx":78
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -3693,7 +3693,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":81
+  /* "gawml/utils/sparsefuncs_fast.pyx":81
  * 
  *     cdef unsigned int i
  *     cdef unsigned int non_zero = X_indices.shape[0]             # <<<<<<<<<<<<<<
@@ -3702,7 +3702,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
  */
   __pyx_v_non_zero = (__pyx_v_X_indices->dimensions[0]);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":91
+  /* "gawml/utils/sparsefuncs_fast.pyx":91
  * 
  *     if floating is float:
  *         dtype = np.float32             # <<<<<<<<<<<<<<
@@ -3717,7 +3717,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __pyx_v_dtype = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":95
+  /* "gawml/utils/sparsefuncs_fast.pyx":95
  *         dtype = np.float64
  * 
  *     means = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -3766,7 +3766,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __pyx_v_means = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":96
+  /* "gawml/utils/sparsefuncs_fast.pyx":96
  * 
  *     means = np.zeros(n_features, dtype=dtype)
  *     variances = np.zeros_like(means, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -3813,7 +3813,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __pyx_v_variances = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":99
+  /* "gawml/utils/sparsefuncs_fast.pyx":99
  * 
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,             # <<<<<<<<<<<<<<
@@ -3833,7 +3833,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":100
+  /* "gawml/utils/sparsefuncs_fast.pyx":100
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,
  *                                                    dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -3850,7 +3850,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_12) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":99
+  /* "gawml/utils/sparsefuncs_fast.pyx":99
  * 
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,             # <<<<<<<<<<<<<<
@@ -3876,7 +3876,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __pyx_v_counts = ((PyArrayObject *)__pyx_t_12);
   __pyx_t_12 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":102
+  /* "gawml/utils/sparsefuncs_fast.pyx":102
  *                                                    dtype=np.int32)
  * 
  *     for i in xrange(non_zero):             # <<<<<<<<<<<<<<
@@ -3887,7 +3887,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":103
+    /* "gawml/utils/sparsefuncs_fast.pyx":103
  * 
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]             # <<<<<<<<<<<<<<
@@ -3897,7 +3897,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __pyx_t_15 = __pyx_v_i;
     __pyx_v_col_ind = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_X_indices.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":104
+    /* "gawml/utils/sparsefuncs_fast.pyx":104
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]
  *         means[col_ind] += X_data[i]             # <<<<<<<<<<<<<<
@@ -3909,7 +3909,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_means.diminfo[0].strides) += (*__Pyx_BufPtrCContig1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_X_data.diminfo[0].strides));
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":106
+  /* "gawml/utils/sparsefuncs_fast.pyx":106
  *         means[col_ind] += X_data[i]
  * 
  *     means /= n_samples             # <<<<<<<<<<<<<<
@@ -3943,7 +3943,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __Pyx_DECREF_SET(__pyx_v_means, ((PyArrayObject *)__pyx_t_1));
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":108
+  /* "gawml/utils/sparsefuncs_fast.pyx":108
  *     means /= n_samples
  * 
  *     for i in xrange(non_zero):             # <<<<<<<<<<<<<<
@@ -3954,7 +3954,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":109
+    /* "gawml/utils/sparsefuncs_fast.pyx":109
  * 
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]             # <<<<<<<<<<<<<<
@@ -3964,7 +3964,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __pyx_t_18 = __pyx_v_i;
     __pyx_v_col_ind = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_X_indices.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":110
+    /* "gawml/utils/sparsefuncs_fast.pyx":110
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]
  *         diff = X_data[i] - means[col_ind]             # <<<<<<<<<<<<<<
@@ -3975,7 +3975,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __pyx_t_20 = __pyx_v_col_ind;
     __pyx_v_diff = ((*__Pyx_BufPtrCContig1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_X_data.diminfo[0].strides)) - (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":111
+    /* "gawml/utils/sparsefuncs_fast.pyx":111
  *         col_ind = X_indices[i]
  *         diff = X_data[i] - means[col_ind]
  *         variances[col_ind] += diff * diff             # <<<<<<<<<<<<<<
@@ -3985,7 +3985,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __pyx_t_21 = __pyx_v_col_ind;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_variances.diminfo[0].strides) += (__pyx_v_diff * __pyx_v_diff);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":112
+    /* "gawml/utils/sparsefuncs_fast.pyx":112
  *         diff = X_data[i] - means[col_ind]
  *         variances[col_ind] += diff * diff
  *         counts[col_ind] += 1             # <<<<<<<<<<<<<<
@@ -3996,7 +3996,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_counts.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_counts.diminfo[0].strides) += 1;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":114
+  /* "gawml/utils/sparsefuncs_fast.pyx":114
  *         counts[col_ind] += 1
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -4007,7 +4007,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":115
+    /* "gawml/utils/sparsefuncs_fast.pyx":115
  * 
  *     for i in xrange(n_features):
  *         variances[i] += (n_samples - counts[i]) * means[i] ** 2             # <<<<<<<<<<<<<<
@@ -4019,7 +4019,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __pyx_t_25 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_variances.diminfo[0].strides) += ((__pyx_v_n_samples - (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_counts.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_counts.diminfo[0].strides))) * powf((*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_means.diminfo[0].strides)), 2.0));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":116
+    /* "gawml/utils/sparsefuncs_fast.pyx":116
  *     for i in xrange(n_features):
  *         variances[i] += (n_samples - counts[i]) * means[i] ** 2
  *         variances[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -4030,7 +4030,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_variances.diminfo[0].strides) /= __pyx_v_n_samples;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":118
+  /* "gawml/utils/sparsefuncs_fast.pyx":118
  *         variances[i] /= n_samples
  * 
  *     return means, variances             # <<<<<<<<<<<<<<
@@ -4050,7 +4050,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":72
+  /* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -4075,7 +4075,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_means.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_variances.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4095,9 +4095,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_24_csr_mean_variance_ax
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0 = {"__pyx_fuse_1_csr_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0 = {"__pyx_fuse_1_csr_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   PyArrayObject *__pyx_v_X_indices = 0;
@@ -4151,13 +4151,13 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_27_csr_mean
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_csr_mean_variance_axis0", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 72, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 72, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 74, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices);
 
   /* function exit code */
   goto __pyx_L0;
@@ -4168,7 +4168,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_27_csr_mean
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_26_csr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices) {
   unsigned int __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -4249,7 +4249,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   }
   __pyx_pybuffernd_X_indices.diminfo[0].strides = __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indices.diminfo[0].shape = __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":77
+  /* "gawml/utils/sparsefuncs_fast.pyx":77
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -4262,7 +4262,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":78
+  /* "gawml/utils/sparsefuncs_fast.pyx":78
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -4275,7 +4275,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":81
+  /* "gawml/utils/sparsefuncs_fast.pyx":81
  * 
  *     cdef unsigned int i
  *     cdef unsigned int non_zero = X_indices.shape[0]             # <<<<<<<<<<<<<<
@@ -4284,7 +4284,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
  */
   __pyx_v_non_zero = (__pyx_v_X_indices->dimensions[0]);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":93
+  /* "gawml/utils/sparsefuncs_fast.pyx":93
  *         dtype = np.float32
  *     else:
  *         dtype = np.float64             # <<<<<<<<<<<<<<
@@ -4299,7 +4299,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __pyx_v_dtype = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":95
+  /* "gawml/utils/sparsefuncs_fast.pyx":95
  *         dtype = np.float64
  * 
  *     means = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -4348,7 +4348,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __pyx_v_means = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":96
+  /* "gawml/utils/sparsefuncs_fast.pyx":96
  * 
  *     means = np.zeros(n_features, dtype=dtype)
  *     variances = np.zeros_like(means, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -4395,7 +4395,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __pyx_v_variances = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":99
+  /* "gawml/utils/sparsefuncs_fast.pyx":99
  * 
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,             # <<<<<<<<<<<<<<
@@ -4415,7 +4415,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":100
+  /* "gawml/utils/sparsefuncs_fast.pyx":100
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,
  *                                                    dtype=np.int32)             # <<<<<<<<<<<<<<
@@ -4432,7 +4432,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_12) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":99
+  /* "gawml/utils/sparsefuncs_fast.pyx":99
  * 
  *     # counts[j] contains the number of samples where feature j is non-zero
  *     cdef np.ndarray[int, ndim=1] counts = np.zeros(n_features,             # <<<<<<<<<<<<<<
@@ -4458,7 +4458,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __pyx_v_counts = ((PyArrayObject *)__pyx_t_12);
   __pyx_t_12 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":102
+  /* "gawml/utils/sparsefuncs_fast.pyx":102
  *                                                    dtype=np.int32)
  * 
  *     for i in xrange(non_zero):             # <<<<<<<<<<<<<<
@@ -4469,7 +4469,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":103
+    /* "gawml/utils/sparsefuncs_fast.pyx":103
  * 
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]             # <<<<<<<<<<<<<<
@@ -4479,7 +4479,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __pyx_t_15 = __pyx_v_i;
     __pyx_v_col_ind = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_X_indices.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":104
+    /* "gawml/utils/sparsefuncs_fast.pyx":104
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]
  *         means[col_ind] += X_data[i]             # <<<<<<<<<<<<<<
@@ -4491,7 +4491,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_means.diminfo[0].strides) += (*__Pyx_BufPtrCContig1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_X_data.diminfo[0].strides));
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":106
+  /* "gawml/utils/sparsefuncs_fast.pyx":106
  *         means[col_ind] += X_data[i]
  * 
  *     means /= n_samples             # <<<<<<<<<<<<<<
@@ -4525,7 +4525,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __Pyx_DECREF_SET(__pyx_v_means, ((PyArrayObject *)__pyx_t_1));
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":108
+  /* "gawml/utils/sparsefuncs_fast.pyx":108
  *     means /= n_samples
  * 
  *     for i in xrange(non_zero):             # <<<<<<<<<<<<<<
@@ -4536,7 +4536,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":109
+    /* "gawml/utils/sparsefuncs_fast.pyx":109
  * 
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]             # <<<<<<<<<<<<<<
@@ -4546,7 +4546,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __pyx_t_18 = __pyx_v_i;
     __pyx_v_col_ind = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indices.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_X_indices.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":110
+    /* "gawml/utils/sparsefuncs_fast.pyx":110
  *     for i in xrange(non_zero):
  *         col_ind = X_indices[i]
  *         diff = X_data[i] - means[col_ind]             # <<<<<<<<<<<<<<
@@ -4557,7 +4557,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __pyx_t_20 = __pyx_v_col_ind;
     __pyx_v_diff = ((*__Pyx_BufPtrCContig1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_X_data.diminfo[0].strides)) - (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":111
+    /* "gawml/utils/sparsefuncs_fast.pyx":111
  *         col_ind = X_indices[i]
  *         diff = X_data[i] - means[col_ind]
  *         variances[col_ind] += diff * diff             # <<<<<<<<<<<<<<
@@ -4567,7 +4567,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __pyx_t_21 = __pyx_v_col_ind;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_variances.diminfo[0].strides) += (__pyx_v_diff * __pyx_v_diff);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":112
+    /* "gawml/utils/sparsefuncs_fast.pyx":112
  *         diff = X_data[i] - means[col_ind]
  *         variances[col_ind] += diff * diff
  *         counts[col_ind] += 1             # <<<<<<<<<<<<<<
@@ -4578,7 +4578,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_counts.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_counts.diminfo[0].strides) += 1;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":114
+  /* "gawml/utils/sparsefuncs_fast.pyx":114
  *         counts[col_ind] += 1
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -4589,7 +4589,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_2; __pyx_t_14+=1) {
     __pyx_v_i = __pyx_t_14;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":115
+    /* "gawml/utils/sparsefuncs_fast.pyx":115
  * 
  *     for i in xrange(n_features):
  *         variances[i] += (n_samples - counts[i]) * means[i] ** 2             # <<<<<<<<<<<<<<
@@ -4601,7 +4601,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __pyx_t_25 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_variances.diminfo[0].strides) += ((__pyx_v_n_samples - (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_counts.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_counts.diminfo[0].strides))) * pow((*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_means.diminfo[0].strides)), 2.0));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":116
+    /* "gawml/utils/sparsefuncs_fast.pyx":116
  *     for i in xrange(n_features):
  *         variances[i] += (n_samples - counts[i]) * means[i] ** 2
  *         variances[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -4612,7 +4612,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_variances.diminfo[0].strides) /= __pyx_v_n_samples;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":118
+  /* "gawml/utils/sparsefuncs_fast.pyx":118
  *         variances[i] /= n_samples
  * 
  *     return means, variances             # <<<<<<<<<<<<<<
@@ -4632,7 +4632,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":72
+  /* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -4657,7 +4657,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_means.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_variances.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4676,7 +4676,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":121
+/* "gawml/utils/sparsefuncs_fast.pyx":121
  * 
  * 
  * def csc_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -4685,21 +4685,21 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_26_csr_mean_variance_ax
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSC matrix\n\n    Parameters\n    ----------\n    X: CSC sparse matrix, shape (n_samples, n_features)\n        Input data.\n\n    Returns\n    -------\n\n    means: float array with shape (n_features,)\n        Feature-wise means\n\n    variances: float array with shape (n_features,)\n        Feature-wise variances\n\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0 = {"csc_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0, METH_O, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSC matrix\n\n    Parameters\n    ----------\n    X: CSC sparse matrix, shape (n_samples, n_features)\n        Input data.\n\n    Returns\n    -------\n\n    means: float array with shape (n_features,)\n        Feature-wise means\n\n    variances: float array with shape (n_features,)\n        Feature-wise variances\n\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0 = {"csc_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0, METH_O, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("csc_mean_variance_axis0 (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(__pyx_self, ((PyObject *)__pyx_v_X));
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(__pyx_self, ((PyObject *)__pyx_v_X));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_6csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -4715,7 +4715,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
   __Pyx_RefNannySetupContext("csc_mean_variance_axis0", 0);
   __Pyx_INCREF(__pyx_v_X);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":139
+  /* "gawml/utils/sparsefuncs_fast.pyx":139
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -4736,7 +4736,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":140
+    /* "gawml/utils/sparsefuncs_fast.pyx":140
  *     """
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)             # <<<<<<<<<<<<<<
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
     __Pyx_DECREF_SET(__pyx_v_X, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":139
+    /* "gawml/utils/sparsefuncs_fast.pyx":139
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -4788,7 +4788,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":141
+  /* "gawml/utils/sparsefuncs_fast.pyx":141
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)
  *     return _csc_mean_variance_axis0(X.data, X.shape, X.indices, X.indptr)             # <<<<<<<<<<<<<<
@@ -4843,7 +4843,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":121
+  /* "gawml/utils/sparsefuncs_fast.pyx":121
  * 
  * 
  * def csc_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -4861,7 +4861,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_X);
@@ -4870,7 +4870,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":144
+/* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -4879,9 +4879,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_6csc_mean_variance_axis
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0 = {"_csc_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0 = {"_csc_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -4944,18 +4944,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axi
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 144, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_8_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -5037,7 +5037,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axi
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 144, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -5475,7 +5475,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axi
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -5495,9 +5495,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_8_csc_mean_variance_axi
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0 = {"__pyx_fuse_0_csc_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0 = {"__pyx_fuse_0_csc_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -5560,14 +5560,14 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_31_csc_mean
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_csc_mean_variance_axis0", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 144, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 144, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 146, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 147, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -5578,7 +5578,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_31_csc_mean
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_30_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -5665,7 +5665,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":150
+  /* "gawml/utils/sparsefuncs_fast.pyx":150
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -5678,7 +5678,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":151
+  /* "gawml/utils/sparsefuncs_fast.pyx":151
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -5691,7 +5691,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":165
+  /* "gawml/utils/sparsefuncs_fast.pyx":165
  *     cdef np.ndarray[floating, ndim=1] variances
  *     if floating is float:
  *         dtype = np.float32             # <<<<<<<<<<<<<<
@@ -5706,7 +5706,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __pyx_v_dtype = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":169
+  /* "gawml/utils/sparsefuncs_fast.pyx":169
  *         dtype = np.float64
  * 
  *     means = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -5755,7 +5755,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __pyx_v_means = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":170
+  /* "gawml/utils/sparsefuncs_fast.pyx":170
  * 
  *     means = np.zeros(n_features, dtype=dtype)
  *     variances = np.zeros_like(means, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -5802,7 +5802,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __pyx_v_variances = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":172
+  /* "gawml/utils/sparsefuncs_fast.pyx":172
  *     variances = np.zeros_like(means, dtype=dtype)
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -5813,7 +5813,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_2; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":174
+    /* "gawml/utils/sparsefuncs_fast.pyx":174
  *     for i in xrange(n_features):
  * 
  *         startptr = X_indptr[i]             # <<<<<<<<<<<<<<
@@ -5823,7 +5823,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     __pyx_t_13 = __pyx_v_i;
     __pyx_v_startptr = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_X_indptr.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":175
+    /* "gawml/utils/sparsefuncs_fast.pyx":175
  * 
  *         startptr = X_indptr[i]
  *         endptr = X_indptr[i + 1]             # <<<<<<<<<<<<<<
@@ -5833,7 +5833,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     __pyx_t_14 = (__pyx_v_i + 1);
     __pyx_v_endptr = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_X_indptr.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":176
+    /* "gawml/utils/sparsefuncs_fast.pyx":176
  *         startptr = X_indptr[i]
  *         endptr = X_indptr[i + 1]
  *         counts = endptr - startptr             # <<<<<<<<<<<<<<
@@ -5842,7 +5842,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
  */
     __pyx_v_counts = (__pyx_v_endptr - __pyx_v_startptr);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":178
+    /* "gawml/utils/sparsefuncs_fast.pyx":178
  *         counts = endptr - startptr
  * 
  *         for j in xrange(startptr, endptr):             # <<<<<<<<<<<<<<
@@ -5853,7 +5853,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     for (__pyx_t_16 = __pyx_v_startptr; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
       __pyx_v_j = __pyx_t_16;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":179
+      /* "gawml/utils/sparsefuncs_fast.pyx":179
  * 
  *         for j in xrange(startptr, endptr):
  *             means[i] += X_data[j]             # <<<<<<<<<<<<<<
@@ -5865,7 +5865,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
       *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_means.diminfo[0].strides) += (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_X_data.diminfo[0].strides));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":180
+    /* "gawml/utils/sparsefuncs_fast.pyx":180
  *         for j in xrange(startptr, endptr):
  *             means[i] += X_data[j]
  *         means[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -5875,7 +5875,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     __pyx_t_19 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_means.diminfo[0].strides) /= __pyx_v_n_samples;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":182
+    /* "gawml/utils/sparsefuncs_fast.pyx":182
  *         means[i] /= n_samples
  * 
  *         for j in xrange(startptr, endptr):             # <<<<<<<<<<<<<<
@@ -5886,7 +5886,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     for (__pyx_t_16 = __pyx_v_startptr; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
       __pyx_v_j = __pyx_t_16;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":183
+      /* "gawml/utils/sparsefuncs_fast.pyx":183
  * 
  *         for j in xrange(startptr, endptr):
  *             diff = X_data[j] - means[i]             # <<<<<<<<<<<<<<
@@ -5897,7 +5897,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
       __pyx_t_21 = __pyx_v_i;
       __pyx_v_diff = ((*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_X_data.diminfo[0].strides)) - (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":184
+      /* "gawml/utils/sparsefuncs_fast.pyx":184
  *         for j in xrange(startptr, endptr):
  *             diff = X_data[j] - means[i]
  *             variances[i] += diff * diff             # <<<<<<<<<<<<<<
@@ -5908,7 +5908,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
       *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_variances.diminfo[0].strides) += (__pyx_v_diff * __pyx_v_diff);
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":186
+    /* "gawml/utils/sparsefuncs_fast.pyx":186
  *             variances[i] += diff * diff
  * 
  *         variances[i] += (n_samples - counts) * means[i] * means[i]             # <<<<<<<<<<<<<<
@@ -5920,7 +5920,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     __pyx_t_25 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_variances.diminfo[0].strides) += (((__pyx_v_n_samples - __pyx_v_counts) * (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_means.diminfo[0].strides))) * (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":187
+    /* "gawml/utils/sparsefuncs_fast.pyx":187
  * 
  *         variances[i] += (n_samples - counts) * means[i] * means[i]
  *         variances[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -5931,7 +5931,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_variances.diminfo[0].strides) /= __pyx_v_n_samples;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":189
+  /* "gawml/utils/sparsefuncs_fast.pyx":189
  *         variances[i] /= n_samples
  * 
  *     return means, variances             # <<<<<<<<<<<<<<
@@ -5951,7 +5951,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":144
+  /* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -5975,7 +5975,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_means.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_variances.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5994,9 +5994,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_30_csc_mean_variance_ax
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0 = {"__pyx_fuse_1_csc_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0 = {"__pyx_fuse_1_csc_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -6059,14 +6059,14 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_33_csc_mean
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_csc_mean_variance_axis0", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 144, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 144, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 146, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 147, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -6077,7 +6077,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_33_csc_mean
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_32_csc_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -6164,7 +6164,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":150
+  /* "gawml/utils/sparsefuncs_fast.pyx":150
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -6177,7 +6177,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":151
+  /* "gawml/utils/sparsefuncs_fast.pyx":151
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -6190,7 +6190,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":167
+  /* "gawml/utils/sparsefuncs_fast.pyx":167
  *         dtype = np.float32
  *     else:
  *         dtype = np.float64             # <<<<<<<<<<<<<<
@@ -6205,7 +6205,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __pyx_v_dtype = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":169
+  /* "gawml/utils/sparsefuncs_fast.pyx":169
  *         dtype = np.float64
  * 
  *     means = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -6254,7 +6254,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __pyx_v_means = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":170
+  /* "gawml/utils/sparsefuncs_fast.pyx":170
  * 
  *     means = np.zeros(n_features, dtype=dtype)
  *     variances = np.zeros_like(means, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -6301,7 +6301,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __pyx_v_variances = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":172
+  /* "gawml/utils/sparsefuncs_fast.pyx":172
  *     variances = np.zeros_like(means, dtype=dtype)
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -6312,7 +6312,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_2; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":174
+    /* "gawml/utils/sparsefuncs_fast.pyx":174
  *     for i in xrange(n_features):
  * 
  *         startptr = X_indptr[i]             # <<<<<<<<<<<<<<
@@ -6322,7 +6322,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     __pyx_t_13 = __pyx_v_i;
     __pyx_v_startptr = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_X_indptr.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":175
+    /* "gawml/utils/sparsefuncs_fast.pyx":175
  * 
  *         startptr = X_indptr[i]
  *         endptr = X_indptr[i + 1]             # <<<<<<<<<<<<<<
@@ -6332,7 +6332,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     __pyx_t_14 = (__pyx_v_i + 1);
     __pyx_v_endptr = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_X_indptr.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":176
+    /* "gawml/utils/sparsefuncs_fast.pyx":176
  *         startptr = X_indptr[i]
  *         endptr = X_indptr[i + 1]
  *         counts = endptr - startptr             # <<<<<<<<<<<<<<
@@ -6341,7 +6341,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
  */
     __pyx_v_counts = (__pyx_v_endptr - __pyx_v_startptr);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":178
+    /* "gawml/utils/sparsefuncs_fast.pyx":178
  *         counts = endptr - startptr
  * 
  *         for j in xrange(startptr, endptr):             # <<<<<<<<<<<<<<
@@ -6352,7 +6352,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     for (__pyx_t_16 = __pyx_v_startptr; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
       __pyx_v_j = __pyx_t_16;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":179
+      /* "gawml/utils/sparsefuncs_fast.pyx":179
  * 
  *         for j in xrange(startptr, endptr):
  *             means[i] += X_data[j]             # <<<<<<<<<<<<<<
@@ -6364,7 +6364,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
       *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_means.diminfo[0].strides) += (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_X_data.diminfo[0].strides));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":180
+    /* "gawml/utils/sparsefuncs_fast.pyx":180
  *         for j in xrange(startptr, endptr):
  *             means[i] += X_data[j]
  *         means[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -6374,7 +6374,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     __pyx_t_19 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_means.diminfo[0].strides) /= __pyx_v_n_samples;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":182
+    /* "gawml/utils/sparsefuncs_fast.pyx":182
  *         means[i] /= n_samples
  * 
  *         for j in xrange(startptr, endptr):             # <<<<<<<<<<<<<<
@@ -6385,7 +6385,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     for (__pyx_t_16 = __pyx_v_startptr; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
       __pyx_v_j = __pyx_t_16;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":183
+      /* "gawml/utils/sparsefuncs_fast.pyx":183
  * 
  *         for j in xrange(startptr, endptr):
  *             diff = X_data[j] - means[i]             # <<<<<<<<<<<<<<
@@ -6396,7 +6396,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
       __pyx_t_21 = __pyx_v_i;
       __pyx_v_diff = ((*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_X_data.diminfo[0].strides)) - (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":184
+      /* "gawml/utils/sparsefuncs_fast.pyx":184
  *         for j in xrange(startptr, endptr):
  *             diff = X_data[j] - means[i]
  *             variances[i] += diff * diff             # <<<<<<<<<<<<<<
@@ -6407,7 +6407,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
       *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_variances.diminfo[0].strides) += (__pyx_v_diff * __pyx_v_diff);
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":186
+    /* "gawml/utils/sparsefuncs_fast.pyx":186
  *             variances[i] += diff * diff
  * 
  *         variances[i] += (n_samples - counts) * means[i] * means[i]             # <<<<<<<<<<<<<<
@@ -6419,7 +6419,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     __pyx_t_25 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_variances.diminfo[0].strides) += (((__pyx_v_n_samples - __pyx_v_counts) * (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_means.diminfo[0].strides))) * (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_means.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_means.diminfo[0].strides)));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":187
+    /* "gawml/utils/sparsefuncs_fast.pyx":187
  * 
  *         variances[i] += (n_samples - counts) * means[i] * means[i]
  *         variances[i] /= n_samples             # <<<<<<<<<<<<<<
@@ -6430,7 +6430,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_variances.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_variances.diminfo[0].strides) /= __pyx_v_n_samples;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":189
+  /* "gawml/utils/sparsefuncs_fast.pyx":189
  *         variances[i] /= n_samples
  * 
  *     return means, variances             # <<<<<<<<<<<<<<
@@ -6450,7 +6450,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":144
+  /* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -6474,7 +6474,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_means.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_variances.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._csc_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -6492,7 +6492,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":192
+/* "gawml/utils/sparsefuncs_fast.pyx":192
  * 
  * 
  * def incr_mean_variance_axis0(X, last_mean, last_var, unsigned long last_n):             # <<<<<<<<<<<<<<
@@ -6501,10 +6501,10 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_32_csc_mean_variance_ax
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSR or CSC matrix.\n\n    last_mean, last_var are the statistics computed at the last step by this\n    function. Both must be initilized to 0.0. last_n is the\n    number of samples encountered until now and is initialized at 0.\n\n    Parameters\n    ----------\n    X: CSR or CSC sparse matrix, shape (n_samples, n_features)\n      Input data.\n\n    last_mean: float array with shape (n_features,)\n      Array of feature-wise means to update with the new data X.\n\n    last_var: float array with shape (n_features,)\n      Array of feature-wise var to update with the new data X.\n\n    last_n: int\n      Number of samples seen so far, before X.\n\n    Returns\n    -------\n\n    updated_mean: float array with shape (n_features,)\n      Feature-wise means\n\n    updated_variance: float array with shape (n_features,)\n      Feature-wise variances\n\n    updated_n : int\n      Updated number of samples seen\n\n    References\n    ----------\n\n    T. Chan, G. Golub, R. LeVeque. Algorithms for computing the sample\n      variance: recommendations, The American Statistician, Vol. 37, No. 3,\n      pp. 242-247\n\n    Also, see the non-sparse implementation of this in\n    `utils.extmath._batch_mean_variance_update`.\n\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0 = {"incr_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0[] = "Compute mean and variance along axis 0 on a CSR or CSC matrix.\n\n    last_mean, last_var are the statistics computed at the last step by this\n    function. Both must be initilized to 0.0. last_n is the\n    number of samples encountered until now and is initialized at 0.\n\n    Parameters\n    ----------\n    X: CSR or CSC sparse matrix, shape (n_samples, n_features)\n      Input data.\n\n    last_mean: float array with shape (n_features,)\n      Array of feature-wise means to update with the new data X.\n\n    last_var: float array with shape (n_features,)\n      Array of feature-wise var to update with the new data X.\n\n    last_n: int\n      Number of samples seen so far, before X.\n\n    Returns\n    -------\n\n    updated_mean: float array with shape (n_features,)\n      Feature-wise means\n\n    updated_variance: float array with shape (n_features,)\n      Feature-wise variances\n\n    updated_n : int\n      Updated number of samples seen\n\n    References\n    ----------\n\n    T. Chan, G. Golub, R. LeVeque. Algorithms for computing the sample\n      variance: recommendations, The American Statistician, Vol. 37, No. 3,\n      pp. 242-247\n\n    Also, see the non-sparse implementation of this in\n    `utils.extmath._batch_mean_variance_update`.\n\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0 = {"incr_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_X = 0;
   PyObject *__pyx_v_last_mean = 0;
   PyObject *__pyx_v_last_var = 0;
@@ -6567,18 +6567,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_ax
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("incr_mean_variance_axis0", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 192, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(__pyx_self, __pyx_v_X, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(__pyx_self, __pyx_v_X, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_10incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -6596,7 +6596,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   __Pyx_RefNannySetupContext("incr_mean_variance_axis0", 0);
   __Pyx_INCREF(__pyx_v_X);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":236
+  /* "gawml/utils/sparsefuncs_fast.pyx":236
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -6617,7 +6617,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":237
+    /* "gawml/utils/sparsefuncs_fast.pyx":237
  *     """
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)             # <<<<<<<<<<<<<<
@@ -6660,7 +6660,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
     __Pyx_DECREF_SET(__pyx_v_X, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":236
+    /* "gawml/utils/sparsefuncs_fast.pyx":236
  * 
  *     """
  *     if X.dtype != np.float32:             # <<<<<<<<<<<<<<
@@ -6669,7 +6669,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":238
+  /* "gawml/utils/sparsefuncs_fast.pyx":238
  *     if X.dtype != np.float32:
  *         X = X.astype(np.float64)
  *     return _incr_mean_variance_axis0(X.data, X.shape, X.indices, X.indptr,             # <<<<<<<<<<<<<<
@@ -6688,7 +6688,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_X, __pyx_n_s_indptr); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":239
+  /* "gawml/utils/sparsefuncs_fast.pyx":239
  *         X = X.astype(np.float64)
  *     return _incr_mean_variance_axis0(X.data, X.shape, X.indices, X.indptr,
  *                                      X.format, last_mean, last_var, last_n)             # <<<<<<<<<<<<<<
@@ -6748,7 +6748,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":192
+  /* "gawml/utils/sparsefuncs_fast.pyx":192
  * 
  * 
  * def incr_mean_variance_axis0(X, last_mean, last_var, unsigned long last_n):             # <<<<<<<<<<<<<<
@@ -6768,7 +6768,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_12);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_X);
@@ -6777,7 +6777,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":242
+/* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -6786,9 +6786,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_10incr_mean_variance_ax
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0 = {"_incr_mean_variance_axis0", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0 = {"_incr_mean_variance_axis0", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -6851,18 +6851,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_a
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 242, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_12_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -6944,7 +6944,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_a
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 242, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -7382,7 +7382,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_a
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -7402,9 +7402,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_12_incr_mean_variance_a
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0 = {"__pyx_fuse_0_incr_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0 = {"__pyx_fuse_0_incr_mean_variance_axis0", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   PyArrayObject *__pyx_v_X_indices = 0;
@@ -7503,14 +7503,14 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_37_incr_mea
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_incr_mean_variance_axis0", 1, 8, 8, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 242, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 242, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 244, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 245, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr, __pyx_v_X_format, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr, __pyx_v_X_format, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
 
   /* function exit code */
   goto __pyx_L0;
@@ -7521,7 +7521,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_37_incr_mea
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_36_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
   unsigned long __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -7624,7 +7624,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":252
+  /* "gawml/utils/sparsefuncs_fast.pyx":252
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned long n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -7637,7 +7637,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":253
+  /* "gawml/utils/sparsefuncs_fast.pyx":253
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned long n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -7650,7 +7650,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_3;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":265
+  /* "gawml/utils/sparsefuncs_fast.pyx":265
  *     cdef np.ndarray[floating, ndim=1] updated_var
  *     if floating is float:
  *         dtype = np.float32             # <<<<<<<<<<<<<<
@@ -7665,7 +7665,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_v_dtype = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":269
+  /* "gawml/utils/sparsefuncs_fast.pyx":269
  *         dtype = np.float64
  * 
  *     new_mean = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -7714,7 +7714,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_v_new_mean = ((PyArrayObject *)__pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":270
+  /* "gawml/utils/sparsefuncs_fast.pyx":270
  * 
  *     new_mean = np.zeros(n_features, dtype=dtype)
  *     new_var = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -7761,7 +7761,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_v_new_var = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":271
+  /* "gawml/utils/sparsefuncs_fast.pyx":271
  *     new_mean = np.zeros(n_features, dtype=dtype)
  *     new_var = np.zeros_like(new_mean, dtype=dtype)
  *     updated_mean = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -7808,7 +7808,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_v_updated_mean = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":272
+  /* "gawml/utils/sparsefuncs_fast.pyx":272
  *     new_var = np.zeros_like(new_mean, dtype=dtype)
  *     updated_mean = np.zeros_like(new_mean, dtype=dtype)
  *     updated_var = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -7855,7 +7855,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_v_updated_var = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":279
+  /* "gawml/utils/sparsefuncs_fast.pyx":279
  * 
  *     # Obtain new stats first
  *     new_n = n_samples             # <<<<<<<<<<<<<<
@@ -7864,7 +7864,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
  */
   __pyx_v_new_n = __pyx_v_n_samples;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":281
+  /* "gawml/utils/sparsefuncs_fast.pyx":281
  *     new_n = n_samples
  * 
  *     if X_format == 'csr':             # <<<<<<<<<<<<<<
@@ -7874,7 +7874,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_t_15 = (__Pyx_PyString_Equals(__pyx_v_X_format, __pyx_n_s_csr, Py_EQ)); if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(0, 281, __pyx_L1_error)
   if (__pyx_t_15) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":283
+    /* "gawml/utils/sparsefuncs_fast.pyx":283
  *     if X_format == 'csr':
  *         # X is a CSR matrix
  *         new_mean, new_var = _csr_mean_variance_axis0(X_data, shape, X_indices)             # <<<<<<<<<<<<<<
@@ -8006,7 +8006,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __Pyx_DECREF_SET(__pyx_v_new_var, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":281
+    /* "gawml/utils/sparsefuncs_fast.pyx":281
  *     new_n = n_samples
  * 
  *     if X_format == 'csr':             # <<<<<<<<<<<<<<
@@ -8016,7 +8016,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":286
+  /* "gawml/utils/sparsefuncs_fast.pyx":286
  *     else:
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,             # <<<<<<<<<<<<<<
@@ -8027,7 +8027,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_6 = __Pyx_GetModuleGlobalName(__pyx_n_s_csc_mean_variance_axis0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":287
+    /* "gawml/utils/sparsefuncs_fast.pyx":287
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,
  *                                                      X_indptr)             # <<<<<<<<<<<<<<
@@ -8118,7 +8118,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
       __pyx_L7_unpacking_done:;
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":286
+    /* "gawml/utils/sparsefuncs_fast.pyx":286
  *     else:
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,             # <<<<<<<<<<<<<<
@@ -8170,7 +8170,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":290
+  /* "gawml/utils/sparsefuncs_fast.pyx":290
  * 
  *     # First pass
  *     if last_n == 0:             # <<<<<<<<<<<<<<
@@ -8180,7 +8180,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_t_15 = ((__pyx_v_last_n == 0) != 0);
   if (__pyx_t_15) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":291
+    /* "gawml/utils/sparsefuncs_fast.pyx":291
  *     # First pass
  *     if last_n == 0:
  *         return new_mean, new_var, new_n             # <<<<<<<<<<<<<<
@@ -8205,7 +8205,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_4 = 0;
     goto __pyx_L0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":290
+    /* "gawml/utils/sparsefuncs_fast.pyx":290
  * 
  *     # First pass
  *     if last_n == 0:             # <<<<<<<<<<<<<<
@@ -8214,7 +8214,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":294
+  /* "gawml/utils/sparsefuncs_fast.pyx":294
  *     # Next passes
  *     else:
  *         updated_n = last_n + new_n             # <<<<<<<<<<<<<<
@@ -8224,7 +8224,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   /*else*/ {
     __pyx_v_updated_n = (__pyx_v_last_n + __pyx_v_new_n);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":295
+    /* "gawml/utils/sparsefuncs_fast.pyx":295
  *     else:
  *         updated_n = last_n + new_n
  *         last_over_new_n = last_n / new_n             # <<<<<<<<<<<<<<
@@ -8234,7 +8234,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_v_last_over_new_n = (__pyx_v_last_n / __pyx_v_new_n);
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":297
+  /* "gawml/utils/sparsefuncs_fast.pyx":297
  *         last_over_new_n = last_n / new_n
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -8245,7 +8245,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_3; __pyx_t_18+=1) {
     __pyx_v_i = __pyx_t_18;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":299
+    /* "gawml/utils/sparsefuncs_fast.pyx":299
  *     for i in xrange(n_features):
  *         # Unnormalized old stats
  *         last_mean[i] *= last_n             # <<<<<<<<<<<<<<
@@ -8264,7 +8264,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     if (unlikely(__Pyx_SetItemInt(__pyx_v_last_mean, __pyx_t_19, __pyx_t_6, unsigned int, 0, __Pyx_PyInt_From_unsigned_int, 0, 0, 0) < 0)) __PYX_ERR(0, 299, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":300
+    /* "gawml/utils/sparsefuncs_fast.pyx":300
  *         # Unnormalized old stats
  *         last_mean[i] *= last_n
  *         last_var[i] *= last_n             # <<<<<<<<<<<<<<
@@ -8283,7 +8283,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     if (unlikely(__Pyx_SetItemInt(__pyx_v_last_var, __pyx_t_19, __pyx_t_4, unsigned int, 0, __Pyx_PyInt_From_unsigned_int, 0, 0, 0) < 0)) __PYX_ERR(0, 300, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":303
+    /* "gawml/utils/sparsefuncs_fast.pyx":303
  * 
  *         # Unnormalized new stats
  *         new_mean[i] *= new_n             # <<<<<<<<<<<<<<
@@ -8293,7 +8293,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_20 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_new_mean.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_new_mean.diminfo[0].strides) *= __pyx_v_new_n;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":304
+    /* "gawml/utils/sparsefuncs_fast.pyx":304
  *         # Unnormalized new stats
  *         new_mean[i] *= new_n
  *         new_var[i] *= new_n             # <<<<<<<<<<<<<<
@@ -8303,7 +8303,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_21 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_new_var.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_new_var.diminfo[0].strides) *= __pyx_v_new_n;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":307
+    /* "gawml/utils/sparsefuncs_fast.pyx":307
  * 
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +             # <<<<<<<<<<<<<<
@@ -8320,7 +8320,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":308
+    /* "gawml/utils/sparsefuncs_fast.pyx":308
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *             # <<<<<<<<<<<<<<
@@ -8330,7 +8330,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_5 = PyFloat_FromDouble((__pyx_v_last_over_new_n / __pyx_v_updated_n)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 308, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":309
+    /* "gawml/utils/sparsefuncs_fast.pyx":309
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *
  *                           (last_mean[i] / last_over_new_n - new_mean[i]) ** 2)             # <<<<<<<<<<<<<<
@@ -8356,7 +8356,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":308
+    /* "gawml/utils/sparsefuncs_fast.pyx":308
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *             # <<<<<<<<<<<<<<
@@ -8368,7 +8368,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":307
+    /* "gawml/utils/sparsefuncs_fast.pyx":307
  * 
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +             # <<<<<<<<<<<<<<
@@ -8384,7 +8384,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_26 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_updated_var.diminfo[0].strides) = __pyx_t_25;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":311
+    /* "gawml/utils/sparsefuncs_fast.pyx":311
  *                           (last_mean[i] / last_over_new_n - new_mean[i]) ** 2)
  * 
  *         updated_mean[i] = (last_mean[i] + new_mean[i]) / updated_n             # <<<<<<<<<<<<<<
@@ -8411,7 +8411,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __pyx_t_28 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_updated_mean.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_updated_mean.diminfo[0].strides) = __pyx_t_25;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":312
+    /* "gawml/utils/sparsefuncs_fast.pyx":312
  * 
  *         updated_mean[i] = (last_mean[i] + new_mean[i]) / updated_n
  *         updated_var[i] = updated_var[i] / updated_n             # <<<<<<<<<<<<<<
@@ -8423,7 +8423,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     *__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_updated_var.diminfo[0].strides) = ((*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_29, __pyx_pybuffernd_updated_var.diminfo[0].strides)) / __pyx_v_updated_n);
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":314
+  /* "gawml/utils/sparsefuncs_fast.pyx":314
  *         updated_var[i] = updated_var[i] / updated_n
  * 
  *     return updated_mean, updated_var, updated_n             # <<<<<<<<<<<<<<
@@ -8448,7 +8448,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":242
+  /* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -8475,7 +8475,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_updated_mean.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_updated_var.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -8498,9 +8498,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_36_incr_mean_variance_a
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0 = {"__pyx_fuse_1_incr_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0 = {"__pyx_fuse_1_incr_mean_variance_axis0", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   PyArrayObject *__pyx_v_X_indices = 0;
@@ -8599,14 +8599,14 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_39_incr_mea
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_incr_mean_variance_axis0", 1, 8, 8, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 242, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 242, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 244, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 245, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr, __pyx_v_X_format, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr, __pyx_v_X_format, __pyx_v_last_mean, __pyx_v_last_var, __pyx_v_last_n);
 
   /* function exit code */
   goto __pyx_L0;
@@ -8617,7 +8617,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_39_incr_mea
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_38_incr_mean_variance_axis0(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr, PyObject *__pyx_v_X_format, PyObject *__pyx_v_last_mean, PyObject *__pyx_v_last_var, unsigned long __pyx_v_last_n) {
   unsigned long __pyx_v_n_samples;
   unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -8720,7 +8720,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":252
+  /* "gawml/utils/sparsefuncs_fast.pyx":252
  *     # Implement the function here since variables using fused types
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned long n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -8733,7 +8733,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":253
+  /* "gawml/utils/sparsefuncs_fast.pyx":253
  *     # cannot be declared directly and can only be passed as function arguments
  *     cdef unsigned long n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -8746,7 +8746,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_3;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":267
+  /* "gawml/utils/sparsefuncs_fast.pyx":267
  *         dtype = np.float32
  *     else:
  *         dtype = np.float64             # <<<<<<<<<<<<<<
@@ -8761,7 +8761,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_v_dtype = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":269
+  /* "gawml/utils/sparsefuncs_fast.pyx":269
  *         dtype = np.float64
  * 
  *     new_mean = np.zeros(n_features, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -8810,7 +8810,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_v_new_mean = ((PyArrayObject *)__pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":270
+  /* "gawml/utils/sparsefuncs_fast.pyx":270
  * 
  *     new_mean = np.zeros(n_features, dtype=dtype)
  *     new_var = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -8857,7 +8857,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_v_new_var = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":271
+  /* "gawml/utils/sparsefuncs_fast.pyx":271
  *     new_mean = np.zeros(n_features, dtype=dtype)
  *     new_var = np.zeros_like(new_mean, dtype=dtype)
  *     updated_mean = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -8904,7 +8904,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_v_updated_mean = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":272
+  /* "gawml/utils/sparsefuncs_fast.pyx":272
  *     new_var = np.zeros_like(new_mean, dtype=dtype)
  *     updated_mean = np.zeros_like(new_mean, dtype=dtype)
  *     updated_var = np.zeros_like(new_mean, dtype=dtype)             # <<<<<<<<<<<<<<
@@ -8951,7 +8951,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_v_updated_var = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":279
+  /* "gawml/utils/sparsefuncs_fast.pyx":279
  * 
  *     # Obtain new stats first
  *     new_n = n_samples             # <<<<<<<<<<<<<<
@@ -8960,7 +8960,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
  */
   __pyx_v_new_n = __pyx_v_n_samples;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":281
+  /* "gawml/utils/sparsefuncs_fast.pyx":281
  *     new_n = n_samples
  * 
  *     if X_format == 'csr':             # <<<<<<<<<<<<<<
@@ -8970,7 +8970,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_t_15 = (__Pyx_PyString_Equals(__pyx_v_X_format, __pyx_n_s_csr, Py_EQ)); if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(0, 281, __pyx_L1_error)
   if (__pyx_t_15) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":283
+    /* "gawml/utils/sparsefuncs_fast.pyx":283
  *     if X_format == 'csr':
  *         # X is a CSR matrix
  *         new_mean, new_var = _csr_mean_variance_axis0(X_data, shape, X_indices)             # <<<<<<<<<<<<<<
@@ -9102,7 +9102,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __Pyx_DECREF_SET(__pyx_v_new_var, ((PyArrayObject *)__pyx_t_6));
     __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":281
+    /* "gawml/utils/sparsefuncs_fast.pyx":281
  *     new_n = n_samples
  * 
  *     if X_format == 'csr':             # <<<<<<<<<<<<<<
@@ -9112,7 +9112,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":286
+  /* "gawml/utils/sparsefuncs_fast.pyx":286
  *     else:
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,             # <<<<<<<<<<<<<<
@@ -9123,7 +9123,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_6 = __Pyx_GetModuleGlobalName(__pyx_n_s_csc_mean_variance_axis0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":287
+    /* "gawml/utils/sparsefuncs_fast.pyx":287
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,
  *                                                      X_indptr)             # <<<<<<<<<<<<<<
@@ -9214,7 +9214,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
       __pyx_L7_unpacking_done:;
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":286
+    /* "gawml/utils/sparsefuncs_fast.pyx":286
  *     else:
  *         # X is a CSC matrix
  *         new_mean, new_var = _csc_mean_variance_axis0(X_data, shape, X_indices,             # <<<<<<<<<<<<<<
@@ -9266,7 +9266,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":290
+  /* "gawml/utils/sparsefuncs_fast.pyx":290
  * 
  *     # First pass
  *     if last_n == 0:             # <<<<<<<<<<<<<<
@@ -9276,7 +9276,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_t_15 = ((__pyx_v_last_n == 0) != 0);
   if (__pyx_t_15) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":291
+    /* "gawml/utils/sparsefuncs_fast.pyx":291
  *     # First pass
  *     if last_n == 0:
  *         return new_mean, new_var, new_n             # <<<<<<<<<<<<<<
@@ -9301,7 +9301,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_4 = 0;
     goto __pyx_L0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":290
+    /* "gawml/utils/sparsefuncs_fast.pyx":290
  * 
  *     # First pass
  *     if last_n == 0:             # <<<<<<<<<<<<<<
@@ -9310,7 +9310,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":294
+  /* "gawml/utils/sparsefuncs_fast.pyx":294
  *     # Next passes
  *     else:
  *         updated_n = last_n + new_n             # <<<<<<<<<<<<<<
@@ -9320,7 +9320,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   /*else*/ {
     __pyx_v_updated_n = (__pyx_v_last_n + __pyx_v_new_n);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":295
+    /* "gawml/utils/sparsefuncs_fast.pyx":295
  *     else:
  *         updated_n = last_n + new_n
  *         last_over_new_n = last_n / new_n             # <<<<<<<<<<<<<<
@@ -9330,7 +9330,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_v_last_over_new_n = (__pyx_v_last_n / __pyx_v_new_n);
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":297
+  /* "gawml/utils/sparsefuncs_fast.pyx":297
  *         last_over_new_n = last_n / new_n
  * 
  *     for i in xrange(n_features):             # <<<<<<<<<<<<<<
@@ -9341,7 +9341,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   for (__pyx_t_18 = 0; __pyx_t_18 < __pyx_t_3; __pyx_t_18+=1) {
     __pyx_v_i = __pyx_t_18;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":299
+    /* "gawml/utils/sparsefuncs_fast.pyx":299
  *     for i in xrange(n_features):
  *         # Unnormalized old stats
  *         last_mean[i] *= last_n             # <<<<<<<<<<<<<<
@@ -9360,7 +9360,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     if (unlikely(__Pyx_SetItemInt(__pyx_v_last_mean, __pyx_t_19, __pyx_t_6, unsigned int, 0, __Pyx_PyInt_From_unsigned_int, 0, 0, 0) < 0)) __PYX_ERR(0, 299, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":300
+    /* "gawml/utils/sparsefuncs_fast.pyx":300
  *         # Unnormalized old stats
  *         last_mean[i] *= last_n
  *         last_var[i] *= last_n             # <<<<<<<<<<<<<<
@@ -9379,7 +9379,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     if (unlikely(__Pyx_SetItemInt(__pyx_v_last_var, __pyx_t_19, __pyx_t_4, unsigned int, 0, __Pyx_PyInt_From_unsigned_int, 0, 0, 0) < 0)) __PYX_ERR(0, 300, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":303
+    /* "gawml/utils/sparsefuncs_fast.pyx":303
  * 
  *         # Unnormalized new stats
  *         new_mean[i] *= new_n             # <<<<<<<<<<<<<<
@@ -9389,7 +9389,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_20 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_new_mean.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_new_mean.diminfo[0].strides) *= __pyx_v_new_n;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":304
+    /* "gawml/utils/sparsefuncs_fast.pyx":304
  *         # Unnormalized new stats
  *         new_mean[i] *= new_n
  *         new_var[i] *= new_n             # <<<<<<<<<<<<<<
@@ -9399,7 +9399,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_21 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_new_var.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_new_var.diminfo[0].strides) *= __pyx_v_new_n;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":307
+    /* "gawml/utils/sparsefuncs_fast.pyx":307
  * 
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +             # <<<<<<<<<<<<<<
@@ -9416,7 +9416,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":308
+    /* "gawml/utils/sparsefuncs_fast.pyx":308
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *             # <<<<<<<<<<<<<<
@@ -9426,7 +9426,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_5 = PyFloat_FromDouble((__pyx_v_last_over_new_n / __pyx_v_updated_n)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 308, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":309
+    /* "gawml/utils/sparsefuncs_fast.pyx":309
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *
  *                           (last_mean[i] / last_over_new_n - new_mean[i]) ** 2)             # <<<<<<<<<<<<<<
@@ -9452,7 +9452,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":308
+    /* "gawml/utils/sparsefuncs_fast.pyx":308
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +
  *                           last_over_new_n / updated_n *             # <<<<<<<<<<<<<<
@@ -9464,7 +9464,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":307
+    /* "gawml/utils/sparsefuncs_fast.pyx":307
  * 
  *         # Update stats
  *         updated_var[i] = (last_var[i] + new_var[i] +             # <<<<<<<<<<<<<<
@@ -9480,7 +9480,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_26 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_updated_var.diminfo[0].strides) = __pyx_t_25;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":311
+    /* "gawml/utils/sparsefuncs_fast.pyx":311
  *                           (last_mean[i] / last_over_new_n - new_mean[i]) ** 2)
  * 
  *         updated_mean[i] = (last_mean[i] + new_mean[i]) / updated_n             # <<<<<<<<<<<<<<
@@ -9507,7 +9507,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __pyx_t_28 = __pyx_v_i;
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_updated_mean.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_updated_mean.diminfo[0].strides) = __pyx_t_25;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":312
+    /* "gawml/utils/sparsefuncs_fast.pyx":312
  * 
  *         updated_mean[i] = (last_mean[i] + new_mean[i]) / updated_n
  *         updated_var[i] = updated_var[i] / updated_n             # <<<<<<<<<<<<<<
@@ -9519,7 +9519,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     *__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_updated_var.diminfo[0].strides) = ((*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_updated_var.rcbuffer->pybuffer.buf, __pyx_t_29, __pyx_pybuffernd_updated_var.diminfo[0].strides)) / __pyx_v_updated_n);
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":314
+  /* "gawml/utils/sparsefuncs_fast.pyx":314
  *         updated_var[i] = updated_var[i] / updated_n
  * 
  *     return updated_mean, updated_var, updated_n             # <<<<<<<<<<<<<<
@@ -9544,7 +9544,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":242
+  /* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -9571,7 +9571,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_updated_mean.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_updated_var.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._incr_mean_variance_axis0", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -9593,7 +9593,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":317
+/* "gawml/utils/sparsefuncs_fast.pyx":317
  * 
  * 
  * def inplace_csr_row_normalize_l1(X):             # <<<<<<<<<<<<<<
@@ -9602,21 +9602,21 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_38_incr_mean_variance_a
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1[] = "Inplace row normalize using the l1 norm";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1 = {"inplace_csr_row_normalize_l1", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1, METH_O, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1[] = "Inplace row normalize using the l1 norm";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1 = {"inplace_csr_row_normalize_l1", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1, METH_O, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("inplace_csr_row_normalize_l1 (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(__pyx_self, ((PyObject *)__pyx_v_X));
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(__pyx_self, ((PyObject *)__pyx_v_X));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_14inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -9630,7 +9630,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_norma
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("inplace_csr_row_normalize_l1", 0);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":319
+  /* "gawml/utils/sparsefuncs_fast.pyx":319
  * def inplace_csr_row_normalize_l1(X):
  *     """Inplace row normalize using the l1 norm"""
  *     _inplace_csr_row_normalize_l1(X.data, X.shape, X.indices, X.indptr)             # <<<<<<<<<<<<<<
@@ -9682,7 +9682,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_norma
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":317
+  /* "gawml/utils/sparsefuncs_fast.pyx":317
  * 
  * 
  * def inplace_csr_row_normalize_l1(X):             # <<<<<<<<<<<<<<
@@ -9702,7 +9702,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_norma
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -9710,7 +9710,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_norma
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":322
+/* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -9719,9 +9719,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_14inplace_csr_row_norma
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1 = {"_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1 = {"_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -9784,18 +9784,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_norm
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 322, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_16_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -9877,7 +9877,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_norm
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 322, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -10315,7 +10315,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_norm
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -10335,9 +10335,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_16_inplace_csr_row_norm
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1 = {"__pyx_fuse_0_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1 = {"__pyx_fuse_0_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -10400,14 +10400,14 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_43_inplace_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_inplace_csr_row_normalize_l1", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 322, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 322, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 324, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 325, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -10418,7 +10418,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_43_inplace_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_42_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   CYTHON_UNUSED unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -10473,7 +10473,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":326
+  /* "gawml/utils/sparsefuncs_fast.pyx":326
  *                                   np.ndarray[int, ndim=1] X_indices,
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -10486,7 +10486,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":327
+  /* "gawml/utils/sparsefuncs_fast.pyx":327
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -10499,7 +10499,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":337
+  /* "gawml/utils/sparsefuncs_fast.pyx":337
  *     cdef double sum_
  * 
  *     for i in xrange(n_samples):             # <<<<<<<<<<<<<<
@@ -10510,7 +10510,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":338
+    /* "gawml/utils/sparsefuncs_fast.pyx":338
  * 
  *     for i in xrange(n_samples):
  *         sum_ = 0.0             # <<<<<<<<<<<<<<
@@ -10519,7 +10519,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
  */
     __pyx_v_sum_ = 0.0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":340
+    /* "gawml/utils/sparsefuncs_fast.pyx":340
  *         sum_ = 0.0
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -10532,7 +10532,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":341
+      /* "gawml/utils/sparsefuncs_fast.pyx":341
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             sum_ += fabs(X_data[j])             # <<<<<<<<<<<<<<
@@ -10543,7 +10543,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
       __pyx_v_sum_ = (__pyx_v_sum_ + fabs((*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_X_data.diminfo[0].strides))));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":343
+    /* "gawml/utils/sparsefuncs_fast.pyx":343
  *             sum_ += fabs(X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -10553,7 +10553,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
     __pyx_t_9 = ((__pyx_v_sum_ == 0.0) != 0);
     if (__pyx_t_9) {
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":346
+      /* "gawml/utils/sparsefuncs_fast.pyx":346
  *             # do not normalize empty rows (can happen if CSR is not pruned
  *             # correctly)
  *             continue             # <<<<<<<<<<<<<<
@@ -10562,7 +10562,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
  */
       goto __pyx_L3_continue;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":343
+      /* "gawml/utils/sparsefuncs_fast.pyx":343
  *             sum_ += fabs(X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -10571,7 +10571,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
  */
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":348
+    /* "gawml/utils/sparsefuncs_fast.pyx":348
  *             continue
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -10584,7 +10584,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":349
+      /* "gawml/utils/sparsefuncs_fast.pyx":349
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             X_data[j] /= sum_             # <<<<<<<<<<<<<<
@@ -10597,7 +10597,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
     __pyx_L3_continue:;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":322
+  /* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -10618,7 +10618,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indices.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indptr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -10632,9 +10632,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_42_inplace_csr_row_norm
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1 = {"__pyx_fuse_1_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1 = {"__pyx_fuse_1_inplace_csr_row_normalize_l1", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -10697,14 +10697,14 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_45_inplace_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_inplace_csr_row_normalize_l1", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 322, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 322, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 324, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 325, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -10715,7 +10715,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_45_inplace_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_44_inplace_csr_row_normalize_l1(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   CYTHON_UNUSED unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -10770,7 +10770,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":326
+  /* "gawml/utils/sparsefuncs_fast.pyx":326
  *                                   np.ndarray[int, ndim=1] X_indices,
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -10783,7 +10783,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":327
+  /* "gawml/utils/sparsefuncs_fast.pyx":327
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -10796,7 +10796,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":337
+  /* "gawml/utils/sparsefuncs_fast.pyx":337
  *     cdef double sum_
  * 
  *     for i in xrange(n_samples):             # <<<<<<<<<<<<<<
@@ -10807,7 +10807,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":338
+    /* "gawml/utils/sparsefuncs_fast.pyx":338
  * 
  *     for i in xrange(n_samples):
  *         sum_ = 0.0             # <<<<<<<<<<<<<<
@@ -10816,7 +10816,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
  */
     __pyx_v_sum_ = 0.0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":340
+    /* "gawml/utils/sparsefuncs_fast.pyx":340
  *         sum_ = 0.0
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -10829,7 +10829,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":341
+      /* "gawml/utils/sparsefuncs_fast.pyx":341
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             sum_ += fabs(X_data[j])             # <<<<<<<<<<<<<<
@@ -10840,7 +10840,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
       __pyx_v_sum_ = (__pyx_v_sum_ + fabs((*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_X_data.diminfo[0].strides))));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":343
+    /* "gawml/utils/sparsefuncs_fast.pyx":343
  *             sum_ += fabs(X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -10850,7 +10850,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
     __pyx_t_9 = ((__pyx_v_sum_ == 0.0) != 0);
     if (__pyx_t_9) {
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":346
+      /* "gawml/utils/sparsefuncs_fast.pyx":346
  *             # do not normalize empty rows (can happen if CSR is not pruned
  *             # correctly)
  *             continue             # <<<<<<<<<<<<<<
@@ -10859,7 +10859,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
  */
       goto __pyx_L3_continue;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":343
+      /* "gawml/utils/sparsefuncs_fast.pyx":343
  *             sum_ += fabs(X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -10868,7 +10868,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
  */
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":348
+    /* "gawml/utils/sparsefuncs_fast.pyx":348
  *             continue
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -10881,7 +10881,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":349
+      /* "gawml/utils/sparsefuncs_fast.pyx":349
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             X_data[j] /= sum_             # <<<<<<<<<<<<<<
@@ -10894,7 +10894,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
     __pyx_L3_continue:;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":322
+  /* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -10915,7 +10915,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indices.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indptr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l1", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -10928,7 +10928,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":352
+/* "gawml/utils/sparsefuncs_fast.pyx":352
  * 
  * 
  * def inplace_csr_row_normalize_l2(X):             # <<<<<<<<<<<<<<
@@ -10937,21 +10937,21 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_44_inplace_csr_row_norm
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2[] = "Inplace row normalize using the l2 norm";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2 = {"inplace_csr_row_normalize_l2", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2, METH_O, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2[] = "Inplace row normalize using the l2 norm";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2 = {"inplace_csr_row_normalize_l2", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2, METH_O, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("inplace_csr_row_normalize_l2 (wrapper)", 0);
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(__pyx_self, ((PyObject *)__pyx_v_X));
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(__pyx_self, ((PyObject *)__pyx_v_X));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_18inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -10965,7 +10965,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_norma
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("inplace_csr_row_normalize_l2", 0);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":354
+  /* "gawml/utils/sparsefuncs_fast.pyx":354
  * def inplace_csr_row_normalize_l2(X):
  *     """Inplace row normalize using the l2 norm"""
  *     _inplace_csr_row_normalize_l2(X.data, X.shape, X.indices, X.indptr)             # <<<<<<<<<<<<<<
@@ -11017,7 +11017,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_norma
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":352
+  /* "gawml/utils/sparsefuncs_fast.pyx":352
  * 
  * 
  * def inplace_csr_row_normalize_l2(X):             # <<<<<<<<<<<<<<
@@ -11037,7 +11037,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_norma
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -11045,7 +11045,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_norma
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":357
+/* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -11054,9 +11054,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_18inplace_csr_row_norma
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2 = {"_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2 = {"_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -11119,18 +11119,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_norm
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 357, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_20_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -11212,7 +11212,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_norm
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 357, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -11650,7 +11650,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_norm
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -11670,9 +11670,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_20_inplace_csr_row_norm
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2 = {"__pyx_fuse_0_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2 = {"__pyx_fuse_0_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -11735,14 +11735,14 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_49_inplace_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_inplace_csr_row_normalize_l2", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 357, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 357, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 359, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 360, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -11753,7 +11753,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_49_inplace_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_48_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   CYTHON_UNUSED unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -11809,7 +11809,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":361
+  /* "gawml/utils/sparsefuncs_fast.pyx":361
  *                                   np.ndarray[int, ndim=1] X_indices,
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -11822,7 +11822,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":362
+  /* "gawml/utils/sparsefuncs_fast.pyx":362
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -11835,7 +11835,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":368
+  /* "gawml/utils/sparsefuncs_fast.pyx":368
  *     cdef double sum_
  * 
  *     for i in xrange(n_samples):             # <<<<<<<<<<<<<<
@@ -11846,7 +11846,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":369
+    /* "gawml/utils/sparsefuncs_fast.pyx":369
  * 
  *     for i in xrange(n_samples):
  *         sum_ = 0.0             # <<<<<<<<<<<<<<
@@ -11855,7 +11855,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
  */
     __pyx_v_sum_ = 0.0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":371
+    /* "gawml/utils/sparsefuncs_fast.pyx":371
  *         sum_ = 0.0
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -11868,7 +11868,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":372
+      /* "gawml/utils/sparsefuncs_fast.pyx":372
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             sum_ += (X_data[j] * X_data[j])             # <<<<<<<<<<<<<<
@@ -11880,7 +11880,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
       __pyx_v_sum_ = (__pyx_v_sum_ + ((*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_X_data.diminfo[0].strides)) * (*__Pyx_BufPtrStrided1d(float *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_X_data.diminfo[0].strides))));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":374
+    /* "gawml/utils/sparsefuncs_fast.pyx":374
  *             sum_ += (X_data[j] * X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -11890,7 +11890,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
     __pyx_t_10 = ((__pyx_v_sum_ == 0.0) != 0);
     if (__pyx_t_10) {
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":377
+      /* "gawml/utils/sparsefuncs_fast.pyx":377
  *             # do not normalize empty rows (can happen if CSR is not pruned
  *             # correctly)
  *             continue             # <<<<<<<<<<<<<<
@@ -11899,7 +11899,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
  */
       goto __pyx_L3_continue;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":374
+      /* "gawml/utils/sparsefuncs_fast.pyx":374
  *             sum_ += (X_data[j] * X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -11908,7 +11908,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
  */
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":379
+    /* "gawml/utils/sparsefuncs_fast.pyx":379
  *             continue
  * 
  *         sum_ = sqrt(sum_)             # <<<<<<<<<<<<<<
@@ -11917,7 +11917,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
  */
     __pyx_v_sum_ = sqrt(__pyx_v_sum_);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":381
+    /* "gawml/utils/sparsefuncs_fast.pyx":381
  *         sum_ = sqrt(sum_)
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -11930,7 +11930,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":382
+      /* "gawml/utils/sparsefuncs_fast.pyx":382
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             X_data[j] /= sum_             # <<<<<<<<<<<<<<
@@ -11943,7 +11943,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
     __pyx_L3_continue:;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":357
+  /* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -11964,7 +11964,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indices.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indptr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -11978,9 +11978,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_48_inplace_csr_row_norm
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2 = {"__pyx_fuse_1_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2 = {"__pyx_fuse_1_inplace_csr_row_normalize_l2", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_X_data = 0;
   PyObject *__pyx_v_shape = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices = 0;
@@ -12043,14 +12043,14 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_51_inplace_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("_inplace_csr_row_normalize_l2", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 357, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_data), __pyx_ptype_5numpy_ndarray, 1, "X_data", 0))) __PYX_ERR(0, 357, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indices), __pyx_ptype_5numpy_ndarray, 1, "X_indices", 0))) __PYX_ERR(0, 359, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_indptr), __pyx_ptype_5numpy_ndarray, 1, "X_indptr", 0))) __PYX_ERR(0, 360, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(__pyx_self, __pyx_v_X_data, __pyx_v_shape, __pyx_v_X_indices, __pyx_v_X_indptr);
 
   /* function exit code */
   goto __pyx_L0;
@@ -12061,7 +12061,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_51_inplace_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_50_inplace_csr_row_normalize_l2(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X_data, PyObject *__pyx_v_shape, CYTHON_UNUSED PyArrayObject *__pyx_v_X_indices, PyArrayObject *__pyx_v_X_indptr) {
   unsigned int __pyx_v_n_samples;
   CYTHON_UNUSED unsigned int __pyx_v_n_features;
   unsigned int __pyx_v_i;
@@ -12117,7 +12117,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
   }
   __pyx_pybuffernd_X_indptr.diminfo[0].strides = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_X_indptr.diminfo[0].shape = __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":361
+  /* "gawml/utils/sparsefuncs_fast.pyx":361
  *                                   np.ndarray[int, ndim=1] X_indices,
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]             # <<<<<<<<<<<<<<
@@ -12130,7 +12130,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_samples = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":362
+  /* "gawml/utils/sparsefuncs_fast.pyx":362
  *                                   np.ndarray[int, ndim=1] X_indptr):
  *     cdef unsigned int n_samples = shape[0]
  *     cdef unsigned int n_features = shape[1]             # <<<<<<<<<<<<<<
@@ -12143,7 +12143,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_n_features = __pyx_t_2;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":368
+  /* "gawml/utils/sparsefuncs_fast.pyx":368
  *     cdef double sum_
  * 
  *     for i in xrange(n_samples):             # <<<<<<<<<<<<<<
@@ -12154,7 +12154,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":369
+    /* "gawml/utils/sparsefuncs_fast.pyx":369
  * 
  *     for i in xrange(n_samples):
  *         sum_ = 0.0             # <<<<<<<<<<<<<<
@@ -12163,7 +12163,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
  */
     __pyx_v_sum_ = 0.0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":371
+    /* "gawml/utils/sparsefuncs_fast.pyx":371
  *         sum_ = 0.0
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -12176,7 +12176,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":372
+      /* "gawml/utils/sparsefuncs_fast.pyx":372
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             sum_ += (X_data[j] * X_data[j])             # <<<<<<<<<<<<<<
@@ -12188,7 +12188,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
       __pyx_v_sum_ = (__pyx_v_sum_ + ((*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_X_data.diminfo[0].strides)) * (*__Pyx_BufPtrStrided1d(double *, __pyx_pybuffernd_X_data.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_X_data.diminfo[0].strides))));
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":374
+    /* "gawml/utils/sparsefuncs_fast.pyx":374
  *             sum_ += (X_data[j] * X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -12198,7 +12198,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
     __pyx_t_10 = ((__pyx_v_sum_ == 0.0) != 0);
     if (__pyx_t_10) {
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":377
+      /* "gawml/utils/sparsefuncs_fast.pyx":377
  *             # do not normalize empty rows (can happen if CSR is not pruned
  *             # correctly)
  *             continue             # <<<<<<<<<<<<<<
@@ -12207,7 +12207,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
  */
       goto __pyx_L3_continue;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":374
+      /* "gawml/utils/sparsefuncs_fast.pyx":374
  *             sum_ += (X_data[j] * X_data[j])
  * 
  *         if sum_ == 0.0:             # <<<<<<<<<<<<<<
@@ -12216,7 +12216,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
  */
     }
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":379
+    /* "gawml/utils/sparsefuncs_fast.pyx":379
  *             continue
  * 
  *         sum_ = sqrt(sum_)             # <<<<<<<<<<<<<<
@@ -12225,7 +12225,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
  */
     __pyx_v_sum_ = sqrt(__pyx_v_sum_);
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":381
+    /* "gawml/utils/sparsefuncs_fast.pyx":381
  *         sum_ = sqrt(sum_)
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -12238,7 +12238,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
     for (__pyx_t_7 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_X_indptr.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_X_indptr.diminfo[0].strides)); __pyx_t_7 < __pyx_t_5; __pyx_t_7+=1) {
       __pyx_v_j = __pyx_t_7;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":382
+      /* "gawml/utils/sparsefuncs_fast.pyx":382
  * 
  *         for j in xrange(X_indptr[i], X_indptr[i + 1]):
  *             X_data[j] /= sum_             # <<<<<<<<<<<<<<
@@ -12251,7 +12251,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
     __pyx_L3_continue:;
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":357
+  /* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -12272,7 +12272,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indices.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_X_indptr.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast._inplace_csr_row_normalize_l2", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -12285,7 +12285,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":385
+/* "gawml/utils/sparsefuncs_fast.pyx":385
  * 
  * 
  * cdef void add_row_csr(np.ndarray[np.float64_t, ndim=1] data,             # <<<<<<<<<<<<<<
@@ -12293,7 +12293,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_50_inplace_csr_row_norm
  *                       np.ndarray[int, ndim=1] indptr,
  */
 
-static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__pyx_v_data, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, int __pyx_v_i, PyArrayObject *__pyx_v_out) {
+static void __pyx_f_5gawml_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__pyx_v_data, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, int __pyx_v_i, PyArrayObject *__pyx_v_out) {
   int __pyx_v_ind;
   int __pyx_v_j;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_data;
@@ -12350,7 +12350,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":395
+  /* "gawml/utils/sparsefuncs_fast.pyx":395
  *     cdef int ind, j
  * 
  *     for ind in range(indptr[i], indptr[i + 1]):             # <<<<<<<<<<<<<<
@@ -12363,7 +12363,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
   for (__pyx_t_4 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_t_4 < __pyx_t_2; __pyx_t_4+=1) {
     __pyx_v_ind = __pyx_t_4;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":396
+    /* "gawml/utils/sparsefuncs_fast.pyx":396
  * 
  *     for ind in range(indptr[i], indptr[i + 1]):
  *         j = indices[ind]             # <<<<<<<<<<<<<<
@@ -12373,7 +12373,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
     __pyx_t_5 = __pyx_v_ind;
     __pyx_v_j = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":397
+    /* "gawml/utils/sparsefuncs_fast.pyx":397
  *     for ind in range(indptr[i], indptr[i + 1]):
  *         j = indices[ind]
  *         out[j] += data[ind]             # <<<<<<<<<<<<<<
@@ -12385,7 +12385,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
     *__Pyx_BufPtrCContig1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_out.diminfo[0].strides) += (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_float64_t *, __pyx_pybuffernd_data.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_data.diminfo[0].strides));
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":385
+  /* "gawml/utils/sparsefuncs_fast.pyx":385
  * 
  * 
  * cdef void add_row_csr(np.ndarray[np.float64_t, ndim=1] data,             # <<<<<<<<<<<<<<
@@ -12405,7 +12405,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsefuncs_fast.add_row_csr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsefuncs_fast.add_row_csr", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_data.rcbuffer->pybuffer);
@@ -12416,7 +12416,7 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/sparsefuncs_fast.pyx":400
+/* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -12425,10 +12425,10 @@ static void __pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr(PyArrayObject *__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr[] = "Densify selected rows of a CSR matrix into a preallocated array.\n\n    Like out[out_rows] = X[X_rows].toarray() but without copying.\n    No-copy supported for both dtype=np.float32 and dtype=np.float64.\n\n    Parameters\n    ----------\n    X : scipy.sparse.csr_matrix, shape=(n_samples, n_features)\n    X_rows : array, dtype=np.intp, shape=n_rows\n    out_rows : array, dtype=np.intp, shape=n_rows\n    out : array, shape=(arbitrary, n_features)\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr = {"assign_rows_csr", (PyCFunction)__pyx_pw_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr};
-static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_23assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr[] = "Densify selected rows of a CSR matrix into a preallocated array.\n\n    Like out[out_rows] = X[X_rows].toarray() but without copying.\n    No-copy supported for both dtype=np.float32 and dtype=np.float64.\n\n    Parameters\n    ----------\n    X : scipy.sparse.csr_matrix, shape=(n_samples, n_features)\n    X_rows : array, dtype=np.intp, shape=n_rows\n    out_rows : array, dtype=np.intp, shape=n_rows\n    out : array, shape=(arbitrary, n_features)\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_16sparsefuncs_fast_23assign_rows_csr = {"assign_rows_csr", (PyCFunction)__pyx_pw_5gawml_5utils_16sparsefuncs_fast_23assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr};
+static PyObject *__pyx_pw_5gawml_5utils_16sparsefuncs_fast_23assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_signatures = 0;
   PyObject *__pyx_v_args = 0;
   PyObject *__pyx_v_kwargs = 0;
@@ -12491,18 +12491,18 @@ static PyObject *__pyx_pw_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr(PyObj
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__pyx_fused_cpdef", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 400, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr(__pyx_self, __pyx_v_signatures, __pyx_v_args, __pyx_v_kwargs, __pyx_v_defaults);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_signatures, PyObject *__pyx_v_args, PyObject *__pyx_v_kwargs, CYTHON_UNUSED PyObject *__pyx_v_defaults) {
   PyObject *__pyx_v_dest_sig = NULL;
   PyTypeObject *__pyx_v_ndarray = 0;
   PyObject *__pyx_v_numpy = NULL;
@@ -12584,7 +12584,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHO
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_7 = __Pyx_PyErr_ExceptionMatches(__pyx_builtin_ImportError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_AttributeError) || __Pyx_PyErr_ExceptionMatches(__pyx_builtin_TypeError);
     if (__pyx_t_7) {
-      __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
       if (__Pyx_GetException(&__pyx_t_1, &__pyx_t_8, &__pyx_t_9) < 0) __PYX_ERR(0, 400, __pyx_L6_except_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_GOTREF(__pyx_t_8);
@@ -13022,7 +13022,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHO
   __Pyx_XDECREF(__pyx_t_16);
   __Pyx_XDECREF(__pyx_t_17);
   __Pyx_XDECREF(__pyx_t_18);
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.__pyx_fused_cpdef", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dest_sig);
@@ -13042,9 +13042,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr(CYTHO
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_55assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_55assign_rows_csr = {"__pyx_fuse_0assign_rows_csr", (PyCFunction)__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_55assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr};
-static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_55assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_55assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_55assign_rows_csr = {"__pyx_fuse_0assign_rows_csr", (PyCFunction)__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_55assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr};
+static PyObject *__pyx_fuse_0__pyx_pw_5gawml_5utils_16sparsefuncs_fast_55assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_X = 0;
   PyArrayObject *__pyx_v_X_rows = 0;
   PyArrayObject *__pyx_v_out_rows = 0;
@@ -13107,14 +13107,14 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_55assign_ro
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("assign_rows_csr", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 400, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_rows), __pyx_ptype_5numpy_ndarray, 1, "X_rows", 0))) __PYX_ERR(0, 401, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out_rows), __pyx_ptype_5numpy_ndarray, 1, "out_rows", 0))) __PYX_ERR(0, 402, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 403, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(__pyx_self, __pyx_v_X, __pyx_v_X_rows, __pyx_v_out_rows, __pyx_v_out);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_54assign_rows_csr(__pyx_self, __pyx_v_X, __pyx_v_X_rows, __pyx_v_out_rows, __pyx_v_out);
 
   /* function exit code */
   goto __pyx_L0;
@@ -13125,7 +13125,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_3gaw_5utils_16sparsefuncs_fast_55assign_ro
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out) {
   int __pyx_v_i;
   int __pyx_v_ind;
   int __pyx_v_j;
@@ -13206,7 +13206,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_out.diminfo[1].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_out.diminfo[1].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":421
+  /* "gawml/utils/sparsefuncs_fast.pyx":421
  *         int i, ind, j
  *         np.npy_intp rX
  *         np.ndarray[floating, ndim=1] data = X.data             # <<<<<<<<<<<<<<
@@ -13229,7 +13229,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
   __pyx_v_data = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":422
+  /* "gawml/utils/sparsefuncs_fast.pyx":422
  *         np.npy_intp rX
  *         np.ndarray[floating, ndim=1] data = X.data
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr             # <<<<<<<<<<<<<<
@@ -13267,7 +13267,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
   __pyx_v_indptr = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":424
+  /* "gawml/utils/sparsefuncs_fast.pyx":424
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:             # <<<<<<<<<<<<<<
@@ -13277,7 +13277,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
   __pyx_t_4 = (((__pyx_v_X_rows->dimensions[0]) != (__pyx_v_out_rows->dimensions[0])) != 0);
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":426
+    /* "gawml/utils/sparsefuncs_fast.pyx":426
  *     if X_rows.shape[0] != out_rows.shape[0]:
  *         raise ValueError("cannot assign %d rows to %d"
  *                          % (X_rows.shape[0], out_rows.shape[0]))             # <<<<<<<<<<<<<<
@@ -13300,7 +13300,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":425
+    /* "gawml/utils/sparsefuncs_fast.pyx":425
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:
  *         raise ValueError("cannot assign %d rows to %d"             # <<<<<<<<<<<<<<
@@ -13319,7 +13319,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_ERR(0, 425, __pyx_L1_error)
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":424
+    /* "gawml/utils/sparsefuncs_fast.pyx":424
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:             # <<<<<<<<<<<<<<
@@ -13328,7 +13328,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":428
+  /* "gawml/utils/sparsefuncs_fast.pyx":428
  *                          % (X_rows.shape[0], out_rows.shape[0]))
  * 
  *     out[out_rows] = 0.             # <<<<<<<<<<<<<<
@@ -13337,7 +13337,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
  */
   if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_out), ((PyObject *)__pyx_v_out_rows), __pyx_float_0_) < 0)) __PYX_ERR(0, 428, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":429
+  /* "gawml/utils/sparsefuncs_fast.pyx":429
  * 
  *     out[out_rows] = 0.
  *     for i in range(X_rows.shape[0]):             # <<<<<<<<<<<<<<
@@ -13348,7 +13348,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_i = __pyx_t_8;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":432
+    /* "gawml/utils/sparsefuncs_fast.pyx":432
  *         # XXX we could reuse add_row_csr here, but the array slice
  *         # is not optimized away.
  *         rX = X_rows[i]             # <<<<<<<<<<<<<<
@@ -13358,7 +13358,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     __pyx_t_9 = __pyx_v_i;
     __pyx_v_rX = (*__Pyx_BufPtrStrided1d(npy_intp *, __pyx_pybuffernd_X_rows.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_X_rows.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":433
+    /* "gawml/utils/sparsefuncs_fast.pyx":433
  *         # is not optimized away.
  *         rX = X_rows[i]
  *         for ind in range(indptr[rX], indptr[rX + 1]):             # <<<<<<<<<<<<<<
@@ -13371,7 +13371,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     for (__pyx_t_13 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_t_13 < __pyx_t_11; __pyx_t_13+=1) {
       __pyx_v_ind = __pyx_t_13;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":434
+      /* "gawml/utils/sparsefuncs_fast.pyx":434
  *         rX = X_rows[i]
  *         for ind in range(indptr[rX], indptr[rX + 1]):
  *             j = indices[ind]             # <<<<<<<<<<<<<<
@@ -13380,7 +13380,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
       __pyx_t_14 = __pyx_v_ind;
       __pyx_v_j = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":435
+      /* "gawml/utils/sparsefuncs_fast.pyx":435
  *         for ind in range(indptr[rX], indptr[rX + 1]):
  *             j = indices[ind]
  *             out[out_rows[i], j] = data[ind]             # <<<<<<<<<<<<<<
@@ -13393,7 +13393,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     }
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":400
+  /* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -13419,7 +13419,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out_rows.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -13439,9 +13439,9 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_54assign_rows_csr(CYTHO
 }
 
 /* Python wrapper */
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_57assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_57assign_rows_csr = {"__pyx_fuse_1assign_rows_csr", (PyCFunction)__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_57assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_16sparsefuncs_fast_22assign_rows_csr};
-static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_57assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_57assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_57assign_rows_csr = {"__pyx_fuse_1assign_rows_csr", (PyCFunction)__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_57assign_rows_csr, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_16sparsefuncs_fast_22assign_rows_csr};
+static PyObject *__pyx_fuse_1__pyx_pw_5gawml_5utils_16sparsefuncs_fast_57assign_rows_csr(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_X = 0;
   PyArrayObject *__pyx_v_X_rows = 0;
   PyArrayObject *__pyx_v_out_rows = 0;
@@ -13504,14 +13504,14 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_57assign_ro
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("assign_rows_csr", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 400, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X_rows), __pyx_ptype_5numpy_ndarray, 1, "X_rows", 0))) __PYX_ERR(0, 401, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out_rows), __pyx_ptype_5numpy_ndarray, 1, "out_rows", 0))) __PYX_ERR(0, 402, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_out), __pyx_ptype_5numpy_ndarray, 1, "out", 0))) __PYX_ERR(0, 403, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(__pyx_self, __pyx_v_X, __pyx_v_X_rows, __pyx_v_out_rows, __pyx_v_out);
+  __pyx_r = __pyx_pf_5gawml_5utils_16sparsefuncs_fast_56assign_rows_csr(__pyx_self, __pyx_v_X, __pyx_v_X_rows, __pyx_v_out_rows, __pyx_v_out);
 
   /* function exit code */
   goto __pyx_L0;
@@ -13522,7 +13522,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_3gaw_5utils_16sparsefuncs_fast_57assign_ro
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out) {
+static PyObject *__pyx_pf_5gawml_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_X, PyArrayObject *__pyx_v_X_rows, PyArrayObject *__pyx_v_out_rows, PyArrayObject *__pyx_v_out) {
   int __pyx_v_i;
   int __pyx_v_ind;
   int __pyx_v_j;
@@ -13603,7 +13603,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
   }
   __pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_out.diminfo[1].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_out.diminfo[1].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":421
+  /* "gawml/utils/sparsefuncs_fast.pyx":421
  *         int i, ind, j
  *         np.npy_intp rX
  *         np.ndarray[floating, ndim=1] data = X.data             # <<<<<<<<<<<<<<
@@ -13626,7 +13626,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
   __pyx_v_data = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":422
+  /* "gawml/utils/sparsefuncs_fast.pyx":422
  *         np.npy_intp rX
  *         np.ndarray[floating, ndim=1] data = X.data
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr             # <<<<<<<<<<<<<<
@@ -13664,7 +13664,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
   __pyx_v_indptr = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":424
+  /* "gawml/utils/sparsefuncs_fast.pyx":424
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:             # <<<<<<<<<<<<<<
@@ -13674,7 +13674,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
   __pyx_t_4 = (((__pyx_v_X_rows->dimensions[0]) != (__pyx_v_out_rows->dimensions[0])) != 0);
   if (__pyx_t_4) {
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":426
+    /* "gawml/utils/sparsefuncs_fast.pyx":426
  *     if X_rows.shape[0] != out_rows.shape[0]:
  *         raise ValueError("cannot assign %d rows to %d"
  *                          % (X_rows.shape[0], out_rows.shape[0]))             # <<<<<<<<<<<<<<
@@ -13697,7 +13697,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":425
+    /* "gawml/utils/sparsefuncs_fast.pyx":425
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:
  *         raise ValueError("cannot assign %d rows to %d"             # <<<<<<<<<<<<<<
@@ -13716,7 +13716,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __PYX_ERR(0, 425, __pyx_L1_error)
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":424
+    /* "gawml/utils/sparsefuncs_fast.pyx":424
  *         np.ndarray[int, ndim=1] indices = X.indices, indptr = X.indptr
  * 
  *     if X_rows.shape[0] != out_rows.shape[0]:             # <<<<<<<<<<<<<<
@@ -13725,7 +13725,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
  */
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":428
+  /* "gawml/utils/sparsefuncs_fast.pyx":428
  *                          % (X_rows.shape[0], out_rows.shape[0]))
  * 
  *     out[out_rows] = 0.             # <<<<<<<<<<<<<<
@@ -13734,7 +13734,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
  */
   if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_out), ((PyObject *)__pyx_v_out_rows), __pyx_float_0_) < 0)) __PYX_ERR(0, 428, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":429
+  /* "gawml/utils/sparsefuncs_fast.pyx":429
  * 
  *     out[out_rows] = 0.
  *     for i in range(X_rows.shape[0]):             # <<<<<<<<<<<<<<
@@ -13745,7 +13745,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_i = __pyx_t_8;
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":432
+    /* "gawml/utils/sparsefuncs_fast.pyx":432
  *         # XXX we could reuse add_row_csr here, but the array slice
  *         # is not optimized away.
  *         rX = X_rows[i]             # <<<<<<<<<<<<<<
@@ -13755,7 +13755,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     __pyx_t_9 = __pyx_v_i;
     __pyx_v_rX = (*__Pyx_BufPtrStrided1d(npy_intp *, __pyx_pybuffernd_X_rows.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_X_rows.diminfo[0].strides));
 
-    /* "gaw/utils/sparsefuncs_fast.pyx":433
+    /* "gawml/utils/sparsefuncs_fast.pyx":433
  *         # is not optimized away.
  *         rX = X_rows[i]
  *         for ind in range(indptr[rX], indptr[rX + 1]):             # <<<<<<<<<<<<<<
@@ -13768,7 +13768,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     for (__pyx_t_13 = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_t_13 < __pyx_t_11; __pyx_t_13+=1) {
       __pyx_v_ind = __pyx_t_13;
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":434
+      /* "gawml/utils/sparsefuncs_fast.pyx":434
  *         rX = X_rows[i]
  *         for ind in range(indptr[rX], indptr[rX + 1]):
  *             j = indices[ind]             # <<<<<<<<<<<<<<
@@ -13777,7 +13777,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
       __pyx_t_14 = __pyx_v_ind;
       __pyx_v_j = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-      /* "gaw/utils/sparsefuncs_fast.pyx":435
+      /* "gawml/utils/sparsefuncs_fast.pyx":435
  *         for ind in range(indptr[rX], indptr[rX + 1]):
  *             j = indices[ind]
  *             out[out_rows[i], j] = data[ind]             # <<<<<<<<<<<<<<
@@ -13790,7 +13790,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     }
   }
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":400
+  /* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -13816,7 +13816,7 @@ static PyObject *__pyx_pf_3gaw_5utils_16sparsefuncs_fast_56assign_rows_csr(CYTHO
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out_rows.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsefuncs_fast.assign_rows_csr", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -27652,7 +27652,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.utils.sparsefuncs_fast.array", /*tp_name*/
+  "gawml.utils.sparsefuncs_fast.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -27758,7 +27758,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.utils.sparsefuncs_fast.Enum", /*tp_name*/
+  "gawml.utils.sparsefuncs_fast.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -28005,7 +28005,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.utils.sparsefuncs_fast.memoryview", /*tp_name*/
+  "gawml.utils.sparsefuncs_fast.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -28130,7 +28130,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.utils.sparsefuncs_fast._memoryviewslice", /*tp_name*/
+  "gawml.utils.sparsefuncs_fast._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -28291,7 +28291,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
   {&__pyx_n_s_fortran, __pyx_k_fortran, sizeof(__pyx_k_fortran), 0, 0, 1, 1},
   {&__pyx_n_u_fortran, __pyx_k_fortran, sizeof(__pyx_k_fortran), 0, 1, 0, 1},
-  {&__pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_k_gaw_utils_sparsefuncs_fast, sizeof(__pyx_k_gaw_utils_sparsefuncs_fast), 0, 0, 1, 1},
+  {&__pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_k_gawml_utils_sparsefuncs_fast, sizeof(__pyx_k_gawml_utils_sparsefuncs_fast), 0, 0, 1, 1},
   {&__pyx_kp_s_got_differing_extents_in_dimensi, __pyx_k_got_differing_extents_in_dimensi, sizeof(__pyx_k_got_differing_extents_in_dimensi), 0, 0, 1, 0},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_id, __pyx_k_id, sizeof(__pyx_k_id), 0, 0, 1, 1},
@@ -28400,7 +28400,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":72
+  /* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -28420,7 +28420,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":144
+  /* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28440,7 +28440,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":242
+  /* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28460,7 +28460,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":322
+  /* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28480,7 +28480,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":357
+  /* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28500,7 +28500,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":400
+  /* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -28732,7 +28732,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__45);
   __Pyx_GIVEREF(__pyx_tuple__45);
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":24
+  /* "gawml/utils/sparsefuncs_fast.pyx":24
  * ctypedef np.float64_t DOUBLE
  * 
  * def csr_row_norms(X):             # <<<<<<<<<<<<<<
@@ -28744,7 +28744,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__47);
   __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(1, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csr_row_norms, 24, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) __PYX_ERR(0, 24, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":49
+  /* "gawml/utils/sparsefuncs_fast.pyx":49
  * 
  * 
  * def csr_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -28756,7 +28756,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__49);
   __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csr_mean_variance_axis0_2, 49, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) __PYX_ERR(0, 49, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":72
+  /* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -28768,7 +28768,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__51);
   __pyx_codeobj__52 = (PyObject*)__Pyx_PyCode_New(3, 0, 13, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__51, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csr_mean_variance_axis0, 72, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__52)) __PYX_ERR(0, 72, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":121
+  /* "gawml/utils/sparsefuncs_fast.pyx":121
  * 
  * 
  * def csc_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
@@ -28780,7 +28780,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__53);
   __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csc_mean_variance_axis0_2, 121, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(0, 121, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":144
+  /* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28792,7 +28792,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__55);
   __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(4, 0, 15, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_csc_mean_variance_axis0, 144, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) __PYX_ERR(0, 144, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":192
+  /* "gawml/utils/sparsefuncs_fast.pyx":192
  * 
  * 
  * def incr_mean_variance_axis0(X, last_mean, last_var, unsigned long last_n):             # <<<<<<<<<<<<<<
@@ -28804,7 +28804,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__57);
   __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(4, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_incr_mean_variance_axis0_2, 192, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) __PYX_ERR(0, 192, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":242
+  /* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28816,7 +28816,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__59);
   __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(8, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_incr_mean_variance_axis0, 242, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) __PYX_ERR(0, 242, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":317
+  /* "gawml/utils/sparsefuncs_fast.pyx":317
  * 
  * 
  * def inplace_csr_row_normalize_l1(X):             # <<<<<<<<<<<<<<
@@ -28828,7 +28828,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__61);
   __pyx_codeobj__62 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__61, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_inplace_csr_row_normalize_l1_2, 317, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__62)) __PYX_ERR(0, 317, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":322
+  /* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28840,7 +28840,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__63);
   __pyx_codeobj__64 = (PyObject*)__Pyx_PyCode_New(4, 0, 9, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__63, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_inplace_csr_row_normalize_l1, 322, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__64)) __PYX_ERR(0, 322, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":352
+  /* "gawml/utils/sparsefuncs_fast.pyx":352
  * 
  * 
  * def inplace_csr_row_normalize_l2(X):             # <<<<<<<<<<<<<<
@@ -28852,7 +28852,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__65);
   __pyx_codeobj__66 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__65, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_inplace_csr_row_normalize_l2_2, 352, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__66)) __PYX_ERR(0, 352, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":357
+  /* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -28864,7 +28864,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__67);
   __pyx_codeobj__68 = (PyObject*)__Pyx_PyCode_New(4, 0, 9, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__67, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_inplace_csr_row_normalize_l2, 357, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__68)) __PYX_ERR(0, 357, __pyx_L1_error)
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":400
+  /* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -29027,14 +29027,14 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__sparsefuncs_fast) {
+  if (__pyx_module_is_main_gawml__utils__sparsefuncs_fast) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.sparsefuncs_fast")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.sparsefuncs_fast", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.sparsefuncs_fast")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.sparsefuncs_fast", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -29050,7 +29050,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   indirect_contiguous = Py_None; Py_INCREF(Py_None);
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
-  if (__Pyx_ExportFunction("add_row_csr", (void (*)(void))__pyx_f_3gaw_5utils_16sparsefuncs_fast_add_row_csr, "void (PyArrayObject *, PyArrayObject *, PyArrayObject *, int, PyArrayObject *)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_ExportFunction("add_row_csr", (void (*)(void))__pyx_f_5gawml_5utils_16sparsefuncs_fast_add_row_csr, "void (PyArrayObject *, PyArrayObject *, PyArrayObject *, int, PyArrayObject *)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   /*--- Type init code ---*/
   __pyx_vtabptr_array = &__pyx_vtable_array;
   __pyx_vtable_array.get_memview = (PyObject *(*)(struct __pyx_array_obj *))__pyx_array_get_memview;
@@ -29102,7 +29102,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":14
+  /* "gawml/utils/sparsefuncs_fast.pyx":14
  * from libc.math cimport fabs, sqrt, pow
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -29114,7 +29114,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":15
+  /* "gawml/utils/sparsefuncs_fast.pyx":15
  * cimport numpy as np
  * import numpy as np
  * import scipy.sparse as sp             # <<<<<<<<<<<<<<
@@ -29132,7 +29132,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sp, __pyx_t_2) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":19
+  /* "gawml/utils/sparsefuncs_fast.pyx":19
  * from cython cimport floating
  * 
  * np.import_array()             # <<<<<<<<<<<<<<
@@ -29141,31 +29141,31 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   import_array();
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":24
+  /* "gawml/utils/sparsefuncs_fast.pyx":24
  * ctypedef np.float64_t DOUBLE
  * 
  * def csr_row_norms(X):             # <<<<<<<<<<<<<<
  *     """L2 norm of each row in CSR matrix X."""
  *     cdef:
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_1csr_row_norms, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_1csr_row_norms, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csr_row_norms, __pyx_t_2) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":49
+  /* "gawml/utils/sparsefuncs_fast.pyx":49
  * 
  * 
  * def csr_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
  *     """Compute mean and variance along axis 0 on a CSR matrix
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_3csr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csr_mean_variance_axis0_2, __pyx_t_2) < 0) __PYX_ERR(0, 49, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":72
+  /* "gawml/utils/sparsefuncs_fast.pyx":72
  * 
  * 
  * def _csr_mean_variance_axis0(np.ndarray[floating, ndim=1, mode="c"] X_data,             # <<<<<<<<<<<<<<
@@ -29174,17 +29174,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_25_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_float, __pyx_t_1) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_27_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_double, __pyx_t_1) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_1 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_5_csr_mean_variance_axis0, 0, __pyx_n_s_csr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__52)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_1, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_1)->__signatures__ = __pyx_t_2;
@@ -29192,19 +29192,19 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csr_mean_variance_axis0, __pyx_t_1) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":121
+  /* "gawml/utils/sparsefuncs_fast.pyx":121
  * 
  * 
  * def csc_mean_variance_axis0(X):             # <<<<<<<<<<<<<<
  *     """Compute mean and variance along axis 0 on a CSC matrix
  * 
  */
-  __pyx_t_3 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_3 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_7csc_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csc_mean_variance_axis0_2, __pyx_t_3) < 0) __PYX_ERR(0, 121, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":144
+  /* "gawml/utils/sparsefuncs_fast.pyx":144
  * 
  * 
  * def _csc_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -29213,17 +29213,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_3 = PyDict_New(); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_31_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_float, __pyx_t_4) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_33_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_double, __pyx_t_4) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __pyx_t_4 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_9_csc_mean_variance_axis0, 0, __pyx_n_s_csc_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__56)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_4, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_4)->__signatures__ = __pyx_t_3;
@@ -29231,19 +29231,19 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_csc_mean_variance_axis0, __pyx_t_4) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":192
+  /* "gawml/utils/sparsefuncs_fast.pyx":192
  * 
  * 
  * def incr_mean_variance_axis0(X, last_mean, last_var, unsigned long last_n):             # <<<<<<<<<<<<<<
  *     """Compute mean and variance along axis 0 on a CSR or CSC matrix.
  * 
  */
-  __pyx_t_5 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 192, __pyx_L1_error)
+  __pyx_t_5 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_11incr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_incr_mean_variance_axis0_2, __pyx_t_5) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":242
+  /* "gawml/utils/sparsefuncs_fast.pyx":242
  * 
  * 
  * def _incr_mean_variance_axis0(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -29252,17 +29252,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_5 = PyDict_New(); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
+  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_37_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_6, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_float, __pyx_t_6) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
+  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_39_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_6, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_double, __pyx_t_6) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
+  __pyx_t_6 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_13_incr_mean_variance_axis0, 0, __pyx_n_s_incr_mean_variance_axis0, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__60)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_6, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_6)->__signatures__ = __pyx_t_5;
@@ -29270,19 +29270,19 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_incr_mean_variance_axis0, __pyx_t_6) < 0) __PYX_ERR(0, 242, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":317
+  /* "gawml/utils/sparsefuncs_fast.pyx":317
  * 
  * 
  * def inplace_csr_row_normalize_l1(X):             # <<<<<<<<<<<<<<
  *     """Inplace row normalize using the l1 norm"""
  *     _inplace_csr_row_normalize_l1(X.data, X.shape, X.indices, X.indptr)
  */
-  __pyx_t_7 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 317, __pyx_L1_error)
+  __pyx_t_7 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_15inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 317, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_inplace_csr_row_normalize_l1_2, __pyx_t_7) < 0) __PYX_ERR(0, 317, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":322
+  /* "gawml/utils/sparsefuncs_fast.pyx":322
  * 
  * 
  * def _inplace_csr_row_normalize_l1(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -29291,17 +29291,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_7 = PyDict_New(); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
+  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_43_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_8, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_float, __pyx_t_8) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
+  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_45_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_8, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_double, __pyx_t_8) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
+  __pyx_t_8 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_17_inplace_csr_row_normalize_l1, 0, __pyx_n_s_inplace_csr_row_normalize_l1, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__64)); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_8, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_8)->__signatures__ = __pyx_t_7;
@@ -29309,19 +29309,19 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_inplace_csr_row_normalize_l1, __pyx_t_8) < 0) __PYX_ERR(0, 322, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":352
+  /* "gawml/utils/sparsefuncs_fast.pyx":352
  * 
  * 
  * def inplace_csr_row_normalize_l2(X):             # <<<<<<<<<<<<<<
  *     """Inplace row normalize using the l2 norm"""
  *     _inplace_csr_row_normalize_l2(X.data, X.shape, X.indices, X.indptr)
  */
-  __pyx_t_9 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 352, __pyx_L1_error)
+  __pyx_t_9 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_19inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_inplace_csr_row_normalize_l2_2, __pyx_t_9) < 0) __PYX_ERR(0, 352, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":357
+  /* "gawml/utils/sparsefuncs_fast.pyx":357
  * 
  * 
  * def _inplace_csr_row_normalize_l2(np.ndarray[floating, ndim=1] X_data,             # <<<<<<<<<<<<<<
@@ -29330,17 +29330,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_9 = PyDict_New(); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_49_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_10, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_float, __pyx_t_10) < 0) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_51_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_10, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_9, __pyx_n_s_double, __pyx_t_10) < 0) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
+  __pyx_t_10 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_21_inplace_csr_row_normalize_l2, 0, __pyx_n_s_inplace_csr_row_normalize_l2, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__68)); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_10, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_10)->__signatures__ = __pyx_t_9;
@@ -29348,7 +29348,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_inplace_csr_row_normalize_l2, __pyx_t_10) < 0) __PYX_ERR(0, 357, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":400
+  /* "gawml/utils/sparsefuncs_fast.pyx":400
  * 
  * 
  * def assign_rows_csr(X,             # <<<<<<<<<<<<<<
@@ -29357,17 +29357,17 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
  */
   __pyx_t_11 = PyDict_New(); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_55assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
+  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_fuse_0__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_55assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_12, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_float, __pyx_t_12) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_57assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
+  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_fuse_1__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_57assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_12, __pyx_empty_tuple);
   if (PyDict_SetItem(__pyx_t_11, __pyx_n_s_double, __pyx_t_12) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_mdef_3gaw_5utils_16sparsefuncs_fast_23assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gaw_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
+  __pyx_t_12 = __pyx_FusedFunction_NewEx(&__pyx_mdef_5gawml_5utils_16sparsefuncs_fast_23assign_rows_csr, 0, __pyx_n_s_assign_rows_csr, NULL, __pyx_n_s_gawml_utils_sparsefuncs_fast, __pyx_d, ((PyObject *)__pyx_codeobj__70)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_12, __pyx_empty_tuple);
   ((__pyx_FusedFunctionObject *) __pyx_t_12)->__signatures__ = __pyx_t_11;
@@ -29375,7 +29375,7 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_assign_rows_csr, __pyx_t_12) < 0) __PYX_ERR(0, 400, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "gaw/utils/sparsefuncs_fast.pyx":1
+  /* "gawml/utils/sparsefuncs_fast.pyx":1
  * # Authors: Mathieu Blondel             # <<<<<<<<<<<<<<
  * #          Olivier Grisel
  * #          Peter Prettenhofer
@@ -29547,11 +29547,11 @@ PyMODINIT_FUNC PyInit_sparsefuncs_fast(void)
   __Pyx_XDECREF(__pyx_t_13);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.sparsefuncs_fast", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.sparsefuncs_fast", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.sparsefuncs_fast");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.sparsefuncs_fast");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

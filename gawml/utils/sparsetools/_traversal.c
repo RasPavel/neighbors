@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__sparsetools___traversal
-#define __PYX_HAVE_API__gaw__utils__sparsetools___traversal
+#define __PYX_HAVE__gawml__utils__sparsetools___traversal
+#define __PYX_HAVE_API__gawml__utils__sparsetools___traversal
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -502,7 +502,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/sparsetools/_traversal.pyx",
+  "gawml/utils/sparsetools/_traversal.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -732,23 +732,23 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "gaw/utils/sparsetools/_traversal.pyx":19
+/* "gawml/utils/sparsetools/_traversal.pyx":19
  * 
  * DTYPE = np.float64
  * ctypedef np.float64_t DTYPE_t             # <<<<<<<<<<<<<<
  * 
  * ITYPE = np.int32
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_5utils_11sparsetools_10_traversal_DTYPE_t;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_5utils_11sparsetools_10_traversal_DTYPE_t;
 
-/* "gaw/utils/sparsetools/_traversal.pyx":22
+/* "gawml/utils/sparsetools/_traversal.pyx":22
  * 
  * ITYPE = np.int32
  * ctypedef np.int32_t ITYPE_t             # <<<<<<<<<<<<<<
  * 
  * # EPS is the precision of DTYPE
  */
-typedef __pyx_t_5numpy_int32_t __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t;
+typedef __pyx_t_5numpy_int32_t __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1292,20 +1292,20 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc' */
 
-/* Module declarations from 'gaw.utils.sparsetools._traversal' */
-static __pyx_t_3gaw_5utils_11sparsetools_10_traversal_DTYPE_t __pyx_v_3gaw_5utils_11sparsetools_10_traversal_DTYPE_EPS;
-static __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX;
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_directed(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_undirected(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_directed(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_undirected(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_directed(PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_undirected(PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t), 0 };
-#define __Pyx_MODULE_NAME "gaw.utils.sparsetools._traversal"
-int __pyx_module_is_main_gaw__utils__sparsetools___traversal = 0;
+/* Module declarations from 'gawml.utils.sparsetools._traversal' */
+static __pyx_t_5gawml_5utils_11sparsetools_10_traversal_DTYPE_t __pyx_v_5gawml_5utils_11sparsetools_10_traversal_DTYPE_EPS;
+static __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX;
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_directed(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_undirected(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_directed(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_undirected(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_directed(PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_undirected(PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *); /*proto*/
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t), 0 };
+#define __Pyx_MODULE_NAME "gawml.utils.sparsetools._traversal"
+int __pyx_module_is_main_gawml__utils__sparsetools___traversal = 0;
 
-/* Implementation of 'gaw.utils.sparsetools._traversal' */
+/* Implementation of 'gawml.utils.sparsetools._traversal' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -1367,14 +1367,14 @@ static const char __pyx_k_depth_first_tree_line_169[] = "depth_first_tree (line 
 static const char __pyx_k_breadth_first_tree_line_99[] = "breadth_first_tree (line 99)";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_Routines_for_traversing_graphs[] = "\nRoutines for traversing graphs in compressed sparse format\n";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/utils/sparsetools/_traversal.pyx";
+static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gawml/utils/sparsetools/_traversal.pyx";
 static const char __pyx_k_breadth_first_tree_csgraph_i_st[] = "\n    breadth_first_tree(csgraph, i_start, directed=True)\n\n    Return the tree generated by a breadth-first search\n\n    Note that a breadth-first tree from a specified node is unique.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the breadth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph          breadth first tree from (0)\n\n             (0)                         (0)\n            /   \\                       /   \\\n           3     8                     3     8\n          /       \\                   /       \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                           /\n           6     2                           2\n            \\   /                           /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import breadth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ...                 [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],""\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = breadth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 3],\n           [0, 0, 2, 0],\n           [0, 0, 0, 0],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  A breadth-first tree from a given node is unique.\n    ";
 static const char __pyx_k_depth_first_tree_csgraph_i_star[] = "\n    depth_first_tree(csgraph, i_start, directed=True)\n\n    Return a tree generated by a depth-first search.\n\n    Note that a tree generated by a depth-first search is not unique:\n    it depends on the order that the children of each node are searched.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the depth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph           depth first tree from (0)\n\n             (0)                         (0)\n            /   \\                           \\\n           3     8                           8\n          /       \\                           \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                   \\       /\n           6     2                     6     2\n            \\   /                       \\   /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import depth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ... ""                [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = depth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 0],\n           [0, 0, 2, 0],\n           [0, 0, 0, 6],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  Unlike a breadth-first tree, a depth-first tree of a given\n    graph is not unique if the graph contains cycles.  If the above solution\n    had begun with the edge connecting nodes 0 and 3, the result would have\n    been different.\n    ";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static const char __pyx_k_connection_must_be_weak_or_stron[] = "connection must be 'weak' or 'strong'";
-static const char __pyx_k_gaw_utils_sparsetools__traversal[] = "gaw.utils.sparsetools._traversal";
+static const char __pyx_k_gawml_utils_sparsetools__travers[] = "gawml.utils.sparsetools._traversal";
 static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
 static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
 static PyObject *__pyx_n_s_DTYPE;
@@ -1408,7 +1408,7 @@ static PyObject *__pyx_n_s_empty;
 static PyObject *__pyx_n_s_fill;
 static PyObject *__pyx_n_s_flag;
 static PyObject *__pyx_n_s_float64;
-static PyObject *__pyx_n_s_gaw_utils_sparsetools__traversal;
+static PyObject *__pyx_n_s_gawml_utils_sparsetools__travers;
 static PyObject *__pyx_n_s_graph_tools;
 static PyObject *__pyx_n_s_graph_validation;
 static PyObject *__pyx_n_s_i_start;
@@ -1444,11 +1444,11 @@ static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_validate_graph;
 static PyObject *__pyx_n_s_weak;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_components(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_directed, PyObject *__pyx_v_connection, PyObject *__pyx_v_return_labels); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_connected_components(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_directed, PyObject *__pyx_v_connection, PyObject *__pyx_v_return_labels); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_2breadth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_4depth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_6breadth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_8depth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_int_neg_1;
@@ -1470,7 +1470,7 @@ static PyObject *__pyx_codeobj__13;
 static PyObject *__pyx_codeobj__15;
 static PyObject *__pyx_codeobj__17;
 
-/* "gaw/utils/sparsetools/_traversal.pyx":30
+/* "gawml/utils/sparsetools/_traversal.pyx":30
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def connected_components(csgraph, directed=True, connection='weak',             # <<<<<<<<<<<<<<
@@ -1479,10 +1479,10 @@ static PyObject *__pyx_codeobj__17;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_components(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_connected_components[] = "\n    connected_components(csgraph, directed=True, connection='weak',\n                         return_labels=True)\n\n    Analyze the connected components of a sparse graph\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    connection : str, optional\n        ['weak'|'strong'].  For directed graphs, the type of connection to\n        use.  Nodes i and j are strongly connected if a path exists both\n        from i to j and from j to i.  Nodes i and j are weakly connected if\n        only one of these paths exists.  If directed == False, this keyword\n        is not referenced.\n    return_labels : str, optional\n        If True (default), then return the labels for each of the connected\n        components.\n\n    Returns\n    -------\n    n_components: int\n        The number of connected components.\n    labels: ndarray\n        The length-N array of labels of the connected components.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_1connected_components = {"connected_components", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_components, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_connected_components};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_components(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_1connected_components(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_connected_components[] = "\n    connected_components(csgraph, directed=True, connection='weak',\n                         return_labels=True)\n\n    Analyze the connected components of a sparse graph\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    connection : str, optional\n        ['weak'|'strong'].  For directed graphs, the type of connection to\n        use.  Nodes i and j are strongly connected if a path exists both\n        from i to j and from j to i.  Nodes i and j are weakly connected if\n        only one of these paths exists.  If directed == False, this keyword\n        is not referenced.\n    return_labels : str, optional\n        If True (default), then return the labels for each of the connected\n        components.\n\n    Returns\n    -------\n    n_components: int\n        The number of connected components.\n    labels: ndarray\n        The length-N array of labels of the connected components.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_1connected_components = {"connected_components", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_1connected_components, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_connected_components};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_1connected_components(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_directed = 0;
   PyObject *__pyx_v_connection = 0;
@@ -1496,7 +1496,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_comp
     values[1] = ((PyObject *)Py_True);
     values[2] = ((PyObject *)__pyx_n_s_weak);
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":31
+    /* "gawml/utils/sparsetools/_traversal.pyx":31
  * 
  * def connected_components(csgraph, directed=True, connection='weak',
  *                          return_labels=True):             # <<<<<<<<<<<<<<
@@ -1558,13 +1558,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_comp
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("connected_components", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 30, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.connected_components", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.connected_components", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_components(__pyx_self, __pyx_v_csgraph, __pyx_v_directed, __pyx_v_connection, __pyx_v_return_labels);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_10_traversal_connected_components(__pyx_self, __pyx_v_csgraph, __pyx_v_directed, __pyx_v_connection, __pyx_v_return_labels);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":30
+  /* "gawml/utils/sparsetools/_traversal.pyx":30
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def connected_components(csgraph, directed=True, connection='weak',             # <<<<<<<<<<<<<<
@@ -1577,7 +1577,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_1connected_comp
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_components(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_directed, PyObject *__pyx_v_connection, PyObject *__pyx_v_return_labels) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_connected_components(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_directed, PyObject *__pyx_v_connection, PyObject *__pyx_v_return_labels) {
   PyObject *__pyx_v_labels = NULL;
   int __pyx_v_n_components;
   PyObject *__pyx_v_csgraph_T = NULL;
@@ -1594,7 +1594,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_INCREF(__pyx_v_csgraph);
   __Pyx_INCREF(__pyx_v_directed);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":68
+  /* "gawml/utils/sparsetools/_traversal.pyx":68
  *         The length-N array of labels of the connected components.
  *     """
  *     if connection.lower() not in ['weak', 'strong']:             # <<<<<<<<<<<<<<
@@ -1634,7 +1634,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":69
+    /* "gawml/utils/sparsetools/_traversal.pyx":69
  *     """
  *     if connection.lower() not in ['weak', 'strong']:
  *         raise ValueError("connection must be 'weak' or 'strong'")             # <<<<<<<<<<<<<<
@@ -1647,7 +1647,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __PYX_ERR(0, 69, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":68
+    /* "gawml/utils/sparsetools/_traversal.pyx":68
  *         The length-N array of labels of the connected components.
  *     """
  *     if connection.lower() not in ['weak', 'strong']:             # <<<<<<<<<<<<<<
@@ -1656,7 +1656,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":72
+  /* "gawml/utils/sparsetools/_traversal.pyx":72
  * 
  *     # weak connections <=> components of undirected graph
  *     if connection.lower() == 'weak':             # <<<<<<<<<<<<<<
@@ -1687,7 +1687,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":73
+    /* "gawml/utils/sparsetools/_traversal.pyx":73
  *     # weak connections <=> components of undirected graph
  *     if connection.lower() == 'weak':
  *         directed = False             # <<<<<<<<<<<<<<
@@ -1697,7 +1697,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_INCREF(Py_False);
     __Pyx_DECREF_SET(__pyx_v_directed, Py_False);
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":72
+    /* "gawml/utils/sparsetools/_traversal.pyx":72
  * 
  *     # weak connections <=> components of undirected graph
  *     if connection.lower() == 'weak':             # <<<<<<<<<<<<<<
@@ -1706,7 +1706,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":75
+  /* "gawml/utils/sparsetools/_traversal.pyx":75
  *         directed = False
  * 
  *     csgraph = validate_graph(csgraph, directed,             # <<<<<<<<<<<<<<
@@ -1724,7 +1724,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_GIVEREF(__pyx_v_directed);
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_directed);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":76
+  /* "gawml/utils/sparsetools/_traversal.pyx":76
  * 
  *     csgraph = validate_graph(csgraph, directed,
  *                              dense_output=False)             # <<<<<<<<<<<<<<
@@ -1735,7 +1735,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dense_output, Py_False) < 0) __PYX_ERR(0, 76, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":75
+  /* "gawml/utils/sparsetools/_traversal.pyx":75
  *         directed = False
  * 
  *     csgraph = validate_graph(csgraph, directed,             # <<<<<<<<<<<<<<
@@ -1750,7 +1750,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_DECREF_SET(__pyx_v_csgraph, __pyx_t_6);
   __pyx_t_6 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":78
+  /* "gawml/utils/sparsetools/_traversal.pyx":78
  *                              dense_output=False)
  * 
  *     labels = np.empty(csgraph.shape[0], dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -1786,7 +1786,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __pyx_v_labels = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":79
+  /* "gawml/utils/sparsetools/_traversal.pyx":79
  * 
  *     labels = np.empty(csgraph.shape[0], dtype=ITYPE)
  *     labels.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -1795,7 +1795,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
   __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_labels, __pyx_n_s_fill); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_3 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_2))) {
@@ -1825,7 +1825,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":81
+  /* "gawml/utils/sparsetools/_traversal.pyx":81
  *     labels.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -1835,7 +1835,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_directed); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 81, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":82
+    /* "gawml/utils/sparsetools/_traversal.pyx":82
  * 
  *     if directed:
  *         n_components = _connected_components_directed(csgraph.indices,             # <<<<<<<<<<<<<<
@@ -1846,7 +1846,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_1);
     if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 82, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":83
+    /* "gawml/utils/sparsetools/_traversal.pyx":83
  *     if directed:
  *         n_components = _connected_components_directed(csgraph.indices,
  *                                                       csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -1857,7 +1857,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_2);
     if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 83, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":84
+    /* "gawml/utils/sparsetools/_traversal.pyx":84
  *         n_components = _connected_components_directed(csgraph.indices,
  *                                                       csgraph.indptr,
  *                                                       labels)             # <<<<<<<<<<<<<<
@@ -1866,18 +1866,18 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
     if (!(likely(((__pyx_v_labels) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_labels, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 84, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":82
+    /* "gawml/utils/sparsetools/_traversal.pyx":82
  * 
  *     if directed:
  *         n_components = _connected_components_directed(csgraph.indices,             # <<<<<<<<<<<<<<
  *                                                       csgraph.indptr,
  *                                                       labels)
  */
-    __pyx_v_n_components = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_directed(((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_v_labels));
+    __pyx_v_n_components = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_directed(((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_v_labels));
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":81
+    /* "gawml/utils/sparsetools/_traversal.pyx":81
  *     labels.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -1887,7 +1887,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     goto __pyx_L7;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":86
+  /* "gawml/utils/sparsetools/_traversal.pyx":86
  *                                                       labels)
  *     else:
  *         csgraph_T = csgraph.T.tocsr()             # <<<<<<<<<<<<<<
@@ -1921,7 +1921,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __pyx_v_csgraph_T = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":87
+    /* "gawml/utils/sparsetools/_traversal.pyx":87
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         n_components = _connected_components_undirected(csgraph.indices,             # <<<<<<<<<<<<<<
@@ -1932,7 +1932,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_2);
     if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 87, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":88
+    /* "gawml/utils/sparsetools/_traversal.pyx":88
  *         csgraph_T = csgraph.T.tocsr()
  *         n_components = _connected_components_undirected(csgraph.indices,
  *                                                         csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -1943,7 +1943,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_7);
     if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 88, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":89
+    /* "gawml/utils/sparsetools/_traversal.pyx":89
  *         n_components = _connected_components_undirected(csgraph.indices,
  *                                                         csgraph.indptr,
  *                                                         csgraph_T.indices,             # <<<<<<<<<<<<<<
@@ -1954,7 +1954,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_1);
     if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 89, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":90
+    /* "gawml/utils/sparsetools/_traversal.pyx":90
  *                                                         csgraph.indptr,
  *                                                         csgraph_T.indices,
  *                                                         csgraph_T.indptr,             # <<<<<<<<<<<<<<
@@ -1965,7 +1965,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __Pyx_GOTREF(__pyx_t_6);
     if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 90, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":91
+    /* "gawml/utils/sparsetools/_traversal.pyx":91
  *                                                         csgraph_T.indices,
  *                                                         csgraph_T.indptr,
  *                                                         labels)             # <<<<<<<<<<<<<<
@@ -1974,14 +1974,14 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
     if (!(likely(((__pyx_v_labels) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_labels, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 91, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":87
+    /* "gawml/utils/sparsetools/_traversal.pyx":87
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         n_components = _connected_components_undirected(csgraph.indices,             # <<<<<<<<<<<<<<
  *                                                         csgraph.indptr,
  *                                                         csgraph_T.indices,
  */
-    __pyx_v_n_components = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_undirected(((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_7), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_6), ((PyArrayObject *)__pyx_v_labels));
+    __pyx_v_n_components = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_undirected(((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_7), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_6), ((PyArrayObject *)__pyx_v_labels));
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -1989,7 +1989,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   }
   __pyx_L7:;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":93
+  /* "gawml/utils/sparsetools/_traversal.pyx":93
  *                                                         labels)
  * 
  *     if return_labels:             # <<<<<<<<<<<<<<
@@ -1999,7 +1999,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_return_labels); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 93, __pyx_L1_error)
   if (__pyx_t_5) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":94
+    /* "gawml/utils/sparsetools/_traversal.pyx":94
  * 
  *     if return_labels:
  *         return n_components, labels             # <<<<<<<<<<<<<<
@@ -2021,7 +2021,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":93
+    /* "gawml/utils/sparsetools/_traversal.pyx":93
  *                                                         labels)
  * 
  *     if return_labels:             # <<<<<<<<<<<<<<
@@ -2030,7 +2030,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":96
+  /* "gawml/utils/sparsetools/_traversal.pyx":96
  *         return n_components, labels
  *     else:
  *         return n_components             # <<<<<<<<<<<<<<
@@ -2046,7 +2046,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
     goto __pyx_L0;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":30
+  /* "gawml/utils/sparsetools/_traversal.pyx":30
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def connected_components(csgraph, directed=True, connection='weak',             # <<<<<<<<<<<<<<
@@ -2061,7 +2061,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.connected_components", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.connected_components", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_labels);
@@ -2073,7 +2073,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":99
+/* "gawml/utils/sparsetools/_traversal.pyx":99
  * 
  * 
  * def breadth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -2082,10 +2082,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_connected_compo
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_tree[] = "\n    breadth_first_tree(csgraph, i_start, directed=True)\n\n    Return the tree generated by a breadth-first search\n\n    Note that a breadth-first tree from a specified node is unique.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the breadth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph          breadth first tree from (0)\n\n             (0)                         (0)\n            /   \\                       /   \\\n           3     8                     3     8\n          /       \\                   /       \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                           /\n           6     2                           2\n            \\   /                           /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import breadth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ...                 [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],""\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = breadth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 3],\n           [0, 0, 2, 0],\n           [0, 0, 0, 0],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  A breadth-first tree from a given node is unique.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_tree = {"breadth_first_tree", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_tree, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_tree};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_3breadth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_2breadth_first_tree[] = "\n    breadth_first_tree(csgraph, i_start, directed=True)\n\n    Return the tree generated by a breadth-first search\n\n    Note that a breadth-first tree from a specified node is unique.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the breadth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph          breadth first tree from (0)\n\n             (0)                         (0)\n            /   \\                       /   \\\n           3     8                     3     8\n          /       \\                   /       \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                           /\n           6     2                           2\n            \\   /                           /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import breadth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ...                 [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],""\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = breadth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 3],\n           [0, 0, 2, 0],\n           [0, 0, 0, 0],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  A breadth-first tree from a given node is unique.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_3breadth_first_tree = {"breadth_first_tree", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_3breadth_first_tree, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_2breadth_first_tree};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_3breadth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_i_start = 0;
   PyObject *__pyx_v_directed = 0;
@@ -2142,18 +2142,18 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("breadth_first_tree", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 99, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.breadth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.breadth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_tree(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_10_traversal_2breadth_first_tree(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_2breadth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed) {
   CYTHON_UNUSED PyObject *__pyx_v_node_list = NULL;
   PyObject *__pyx_v_predecessors = NULL;
   PyObject *__pyx_r = NULL;
@@ -2166,7 +2166,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   PyObject *(*__pyx_t_6)(PyObject *);
   __Pyx_RefNannySetupContext("breadth_first_tree", 0);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":164
+  /* "gawml/utils/sparsetools/_traversal.pyx":164
  *     the graph.  A breadth-first tree from a given node is unique.
  *     """
  *     node_list, predecessors = breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2176,7 +2176,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_breadth_first_order); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 164, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":165
+  /* "gawml/utils/sparsetools/_traversal.pyx":165
  *     """
  *     node_list, predecessors = breadth_first_order(csgraph, i_start,
  *                                                   directed, True)             # <<<<<<<<<<<<<<
@@ -2267,7 +2267,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
     __pyx_L4_unpacking_done:;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":164
+  /* "gawml/utils/sparsetools/_traversal.pyx":164
  *     the graph.  A breadth-first tree from a given node is unique.
  *     """
  *     node_list, predecessors = breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2279,7 +2279,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   __pyx_v_predecessors = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":166
+  /* "gawml/utils/sparsetools/_traversal.pyx":166
  *     node_list, predecessors = breadth_first_order(csgraph, i_start,
  *                                                   directed, True)
  *     return reconstruct_path(csgraph, predecessors, directed)             # <<<<<<<<<<<<<<
@@ -2323,7 +2323,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":99
+  /* "gawml/utils/sparsetools/_traversal.pyx":99
  * 
  * 
  * def breadth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -2337,7 +2337,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.breadth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.breadth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_node_list);
@@ -2347,7 +2347,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":169
+/* "gawml/utils/sparsetools/_traversal.pyx":169
  * 
  * 
  * def depth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -2356,10 +2356,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_2breadth_first_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tree[] = "\n    depth_first_tree(csgraph, i_start, directed=True)\n\n    Return a tree generated by a depth-first search.\n\n    Note that a tree generated by a depth-first search is not unique:\n    it depends on the order that the children of each node are searched.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the depth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph           depth first tree from (0)\n\n             (0)                         (0)\n            /   \\                           \\\n           3     8                           8\n          /       \\                           \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                   \\       /\n           6     2                     6     2\n            \\   /                       \\   /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import depth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ... ""                [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = depth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 0],\n           [0, 0, 2, 0],\n           [0, 0, 0, 6],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  Unlike a breadth-first tree, a depth-first tree of a given\n    graph is not unique if the graph contains cycles.  If the above solution\n    had begun with the edge connecting nodes 0 and 3, the result would have\n    been different.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tree = {"depth_first_tree", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tree, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tree};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_5depth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_4depth_first_tree[] = "\n    depth_first_tree(csgraph, i_start, directed=True)\n\n    Return a tree generated by a depth-first search.\n\n    Note that a tree generated by a depth-first search is not unique:\n    it depends on the order that the children of each node are searched.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N matrix representing the compressed sparse graph.  The input\n        csgraph will be converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n\n    Returns\n    -------\n    cstree : csr matrix\n        The N x N directed compressed-sparse representation of the depth-\n        first tree drawn from csgraph, starting at the specified node.\n\n    Examples\n    --------\n    The following example shows the computation of a depth-first tree\n    over a simple four-component graph, starting at node 0::\n\n         input graph           depth first tree from (0)\n\n             (0)                         (0)\n            /   \\                           \\\n           3     8                           8\n          /       \\                           \\\n        (3)---5---(1)               (3)       (1)\n          \\       /                   \\       /\n           6     2                     6     2\n            \\   /                       \\   /\n             (2)                         (2)\n\n    In compressed sparse representation, the solution looks like this:\n\n    >>> from scipy.sparse import csr_matrix\n    >>> from scipy.sparse.csgraph import depth_first_tree\n    >>> X = csr_matrix([[0, 8, 0, 3],\n    ... ""                [0, 0, 2, 5],\n    ...                 [0, 0, 0, 6],\n    ...                 [0, 0, 0, 0]])\n    >>> Tcsr = depth_first_tree(X, 0, directed=False)\n    >>> Tcsr.toarray().astype(int)\n    array([[0, 8, 0, 0],\n           [0, 0, 2, 0],\n           [0, 0, 0, 6],\n           [0, 0, 0, 0]])\n\n    Note that the resulting graph is a Directed Acyclic Graph which spans\n    the graph.  Unlike a breadth-first tree, a depth-first tree of a given\n    graph is not unique if the graph contains cycles.  If the above solution\n    had begun with the edge connecting nodes 0 and 3, the result would have\n    been different.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_5depth_first_tree = {"depth_first_tree", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_5depth_first_tree, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_4depth_first_tree};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_5depth_first_tree(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_i_start = 0;
   PyObject *__pyx_v_directed = 0;
@@ -2416,18 +2416,18 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tr
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("depth_first_tree", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 169, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.depth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.depth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tree(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_10_traversal_4depth_first_tree(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_4depth_first_tree(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed) {
   CYTHON_UNUSED PyObject *__pyx_v_node_list = NULL;
   PyObject *__pyx_v_predecessors = NULL;
   PyObject *__pyx_r = NULL;
@@ -2440,7 +2440,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   PyObject *(*__pyx_t_6)(PyObject *);
   __Pyx_RefNannySetupContext("depth_first_tree", 0);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":238
+  /* "gawml/utils/sparsetools/_traversal.pyx":238
  *     been different.
  *     """
  *     node_list, predecessors = depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2450,7 +2450,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_depth_first_order); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":239
+  /* "gawml/utils/sparsetools/_traversal.pyx":239
  *     """
  *     node_list, predecessors = depth_first_order(csgraph, i_start,
  *                                                 directed, True)             # <<<<<<<<<<<<<<
@@ -2541,7 +2541,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
     __pyx_L4_unpacking_done:;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":238
+  /* "gawml/utils/sparsetools/_traversal.pyx":238
  *     been different.
  *     """
  *     node_list, predecessors = depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2553,7 +2553,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   __pyx_v_predecessors = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":240
+  /* "gawml/utils/sparsetools/_traversal.pyx":240
  *     node_list, predecessors = depth_first_order(csgraph, i_start,
  *                                                 directed, True)
  *     return reconstruct_path(csgraph, predecessors, directed)             # <<<<<<<<<<<<<<
@@ -2597,7 +2597,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":169
+  /* "gawml/utils/sparsetools/_traversal.pyx":169
  * 
  * 
  * def depth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -2611,7 +2611,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.depth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.depth_first_tree", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_node_list);
@@ -2621,7 +2621,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":243
+/* "gawml/utils/sparsetools/_traversal.pyx":243
  * 
  * 
  * def breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2630,10 +2630,10 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_4depth_first_tr
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_order[] = "\n    breadth_first_order(csgraph, i_start, directed=True, return_predecessors=True)\n\n    Return a breadth-first ordering starting with specified node.\n\n    Note that a breadth-first order is not unique, but the tree which it\n    generates is unique.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N compressed sparse graph.  The input csgraph will be\n        converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    return_predecessors : bool, optional\n        If True (default), then return the predecesor array (see below).\n\n    Returns\n    -------\n    node_array : ndarray, one dimension\n        The breadth-first list of nodes, starting with specified node.  The\n        length of node_array is the number of nodes reachable from the\n        specified node.\n    predecessors : ndarray, one dimension\n        Returned only if return_predecessors is True.\n        The length-N list of predecessors of each node in a breadth-first\n        tree.  If node i is in the tree, then its parent is given by\n        predecessors[i]. If node i is not in the tree (and for the parent\n        node) then predecessors[i] = -9999.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_order = {"breadth_first_order", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_order, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_order};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_7breadth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_6breadth_first_order[] = "\n    breadth_first_order(csgraph, i_start, directed=True, return_predecessors=True)\n\n    Return a breadth-first ordering starting with specified node.\n\n    Note that a breadth-first order is not unique, but the tree which it\n    generates is unique.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N compressed sparse graph.  The input csgraph will be\n        converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    return_predecessors : bool, optional\n        If True (default), then return the predecesor array (see below).\n\n    Returns\n    -------\n    node_array : ndarray, one dimension\n        The breadth-first list of nodes, starting with specified node.  The\n        length of node_array is the number of nodes reachable from the\n        specified node.\n    predecessors : ndarray, one dimension\n        Returned only if return_predecessors is True.\n        The length-N list of predecessors of each node in a breadth-first\n        tree.  If node i is in the tree, then its parent is given by\n        predecessors[i]. If node i is not in the tree (and for the parent\n        node) then predecessors[i] = -9999.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_7breadth_first_order = {"breadth_first_order", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_7breadth_first_order, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_6breadth_first_order};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_7breadth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_i_start = 0;
   PyObject *__pyx_v_directed = 0;
@@ -2645,7 +2645,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_csgraph,&__pyx_n_s_i_start,&__pyx_n_s_directed,&__pyx_n_s_return_predecessors,0};
     PyObject* values[4] = {0,0,0,0};
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":244
+    /* "gawml/utils/sparsetools/_traversal.pyx":244
  * 
  * def breadth_first_order(csgraph, i_start,
  *                         directed=True, return_predecessors=True):             # <<<<<<<<<<<<<<
@@ -2708,13 +2708,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("breadth_first_order", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 243, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.breadth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.breadth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_order(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed, __pyx_v_return_predecessors);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_10_traversal_6breadth_first_order(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed, __pyx_v_return_predecessors);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":243
+  /* "gawml/utils/sparsetools/_traversal.pyx":243
  * 
  * 
  * def breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -2727,7 +2727,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_6breadth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors) {
   int __pyx_v_N;
   PyArrayObject *__pyx_v_node_list = 0;
   PyArrayObject *__pyx_v_predecessors = 0;
@@ -2746,7 +2746,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_RefNannySetupContext("breadth_first_order", 0);
   __Pyx_INCREF(__pyx_v_csgraph);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":285
+  /* "gawml/utils/sparsetools/_traversal.pyx":285
  *     """
  *     global NULL_IDX
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)             # <<<<<<<<<<<<<<
@@ -2774,7 +2774,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_DECREF_SET(__pyx_v_csgraph, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":286
+  /* "gawml/utils/sparsetools/_traversal.pyx":286
  *     global NULL_IDX
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)
  *     cdef int N = csgraph.shape[0]             # <<<<<<<<<<<<<<
@@ -2790,7 +2790,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_N = __pyx_t_5;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":288
+  /* "gawml/utils/sparsetools/_traversal.pyx":288
  *     cdef int N = csgraph.shape[0]
  * 
  *     cdef np.ndarray node_list = np.empty(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -2824,7 +2824,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __pyx_v_node_list = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":289
+  /* "gawml/utils/sparsetools/_traversal.pyx":289
  * 
  *     cdef np.ndarray node_list = np.empty(N, dtype=ITYPE)
  *     cdef np.ndarray predecessors = np.empty(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -2858,7 +2858,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __pyx_v_predecessors = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":290
+  /* "gawml/utils/sparsetools/_traversal.pyx":290
  *     cdef np.ndarray node_list = np.empty(N, dtype=ITYPE)
  *     cdef np.ndarray predecessors = np.empty(N, dtype=ITYPE)
  *     node_list.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -2867,7 +2867,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_node_list), __pyx_n_s_fill); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_1))) {
@@ -2897,7 +2897,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":291
+  /* "gawml/utils/sparsetools/_traversal.pyx":291
  *     cdef np.ndarray predecessors = np.empty(N, dtype=ITYPE)
  *     node_list.fill(NULL_IDX)
  *     predecessors.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -2906,7 +2906,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_predecessors), __pyx_n_s_fill); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_2 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_1))) {
@@ -2936,7 +2936,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":293
+  /* "gawml/utils/sparsetools/_traversal.pyx":293
  *     predecessors.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -2946,7 +2946,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_v_directed); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 293, __pyx_L1_error)
   if (__pyx_t_7) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":294
+    /* "gawml/utils/sparsetools/_traversal.pyx":294
  * 
  *     if directed:
  *         length = _breadth_first_directed(i_start,             # <<<<<<<<<<<<<<
@@ -2955,7 +2955,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  */
     __pyx_t_8 = __Pyx_PyInt_As_unsigned_int(__pyx_v_i_start); if (unlikely((__pyx_t_8 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 294, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":295
+    /* "gawml/utils/sparsetools/_traversal.pyx":295
  *     if directed:
  *         length = _breadth_first_directed(i_start,
  *                                 csgraph.indices, csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -2969,18 +2969,18 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     __Pyx_GOTREF(__pyx_t_1);
     if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 295, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":294
+    /* "gawml/utils/sparsetools/_traversal.pyx":294
  * 
  *     if directed:
  *         length = _breadth_first_directed(i_start,             # <<<<<<<<<<<<<<
  *                                 csgraph.indices, csgraph.indptr,
  *                                 node_list, predecessors)
  */
-    __pyx_v_length = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_directed(__pyx_t_8, ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors));
+    __pyx_v_length = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_directed(__pyx_t_8, ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors));
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":293
+    /* "gawml/utils/sparsetools/_traversal.pyx":293
  *     predecessors.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -2990,7 +2990,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":298
+  /* "gawml/utils/sparsetools/_traversal.pyx":298
  *                                 node_list, predecessors)
  *     else:
  *         csgraph_T = csgraph.T.tocsr()             # <<<<<<<<<<<<<<
@@ -3024,7 +3024,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     __pyx_v_csgraph_T = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":299
+    /* "gawml/utils/sparsetools/_traversal.pyx":299
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _breadth_first_undirected(i_start,             # <<<<<<<<<<<<<<
@@ -3033,7 +3033,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  */
     __pyx_t_8 = __Pyx_PyInt_As_unsigned_int(__pyx_v_i_start); if (unlikely((__pyx_t_8 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 299, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":300
+    /* "gawml/utils/sparsetools/_traversal.pyx":300
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _breadth_first_undirected(i_start,
  *                                            csgraph.indices, csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -3047,7 +3047,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     __Pyx_GOTREF(__pyx_t_3);
     if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 300, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":301
+    /* "gawml/utils/sparsetools/_traversal.pyx":301
  *         length = _breadth_first_undirected(i_start,
  *                                            csgraph.indices, csgraph.indptr,
  *                                            csgraph_T.indices, csgraph_T.indptr,             # <<<<<<<<<<<<<<
@@ -3061,14 +3061,14 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     __Pyx_GOTREF(__pyx_t_6);
     if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 301, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":299
+    /* "gawml/utils/sparsetools/_traversal.pyx":299
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _breadth_first_undirected(i_start,             # <<<<<<<<<<<<<<
  *                                            csgraph.indices, csgraph.indptr,
  *                                            csgraph_T.indices, csgraph_T.indptr,
  */
-    __pyx_v_length = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_undirected(__pyx_t_8, ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_t_6), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors));
+    __pyx_v_length = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_undirected(__pyx_t_8, ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_t_6), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors));
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -3076,7 +3076,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":304
+  /* "gawml/utils/sparsetools/_traversal.pyx":304
  *                                            node_list, predecessors)
  * 
  *     if return_predecessors:             # <<<<<<<<<<<<<<
@@ -3086,7 +3086,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_v_return_predecessors); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 304, __pyx_L1_error)
   if (__pyx_t_7) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":305
+    /* "gawml/utils/sparsetools/_traversal.pyx":305
  * 
  *     if return_predecessors:
  *         return node_list[:length], predecessors             # <<<<<<<<<<<<<<
@@ -3108,7 +3108,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     __pyx_t_4 = 0;
     goto __pyx_L0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":304
+    /* "gawml/utils/sparsetools/_traversal.pyx":304
  *                                            node_list, predecessors)
  * 
  *     if return_predecessors:             # <<<<<<<<<<<<<<
@@ -3117,7 +3117,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  */
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":307
+  /* "gawml/utils/sparsetools/_traversal.pyx":307
  *         return node_list[:length], predecessors
  *     else:
  *         return node_list[:length]             # <<<<<<<<<<<<<<
@@ -3133,7 +3133,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
     goto __pyx_L0;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":243
+  /* "gawml/utils/sparsetools/_traversal.pyx":243
  * 
  * 
  * def breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -3148,7 +3148,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.breadth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.breadth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF((PyObject *)__pyx_v_node_list);
@@ -3160,7 +3160,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":310
+/* "gawml/utils/sparsetools/_traversal.pyx":310
  * 
  * 
  * cdef unsigned int _breadth_first_directed(             # <<<<<<<<<<<<<<
@@ -3168,7 +3168,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_6breadth_first_
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] indices,
  */
 
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_directed(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors) {
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_directed(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors) {
   unsigned int __pyx_v_i;
   unsigned int __pyx_v_pnode;
   unsigned int __pyx_v_cnode;
@@ -3191,7 +3191,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   size_t __pyx_t_4;
   size_t __pyx_t_5;
   Py_ssize_t __pyx_t_6;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_7;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_7;
   size_t __pyx_t_8;
   size_t __pyx_t_9;
   size_t __pyx_t_10;
@@ -3215,26 +3215,26 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   __pyx_pybuffernd_predecessors.rcbuffer = &__pyx_pybuffer_predecessors;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices.diminfo[0].strides = __pyx_pybuffernd_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices.diminfo[0].shape = __pyx_pybuffernd_indices.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr.diminfo[0].strides = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr.diminfo[0].shape = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
   }
   __pyx_pybuffernd_node_list.diminfo[0].strides = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_node_list.diminfo[0].shape = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 310, __pyx_L1_error)
   }
   __pyx_pybuffernd_predecessors.diminfo[0].strides = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_predecessors.diminfo[0].shape = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":329
+  /* "gawml/utils/sparsetools/_traversal.pyx":329
  *     cdef unsigned int i, pnode, cnode
  *     cdef unsigned int i_nl, i_nl_end
  *     cdef unsigned int N = node_list.shape[0]             # <<<<<<<<<<<<<<
@@ -3243,7 +3243,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_N = (__pyx_v_node_list->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":331
+  /* "gawml/utils/sparsetools/_traversal.pyx":331
  *     cdef unsigned int N = node_list.shape[0]
  * 
  *     node_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -3260,9 +3260,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 331, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":332
+  /* "gawml/utils/sparsetools/_traversal.pyx":332
  * 
  *     node_list[0] = head_node
  *     i_nl = 0             # <<<<<<<<<<<<<<
@@ -3271,7 +3271,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_i_nl = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":333
+  /* "gawml/utils/sparsetools/_traversal.pyx":333
  *     node_list[0] = head_node
  *     i_nl = 0
  *     i_nl_end = 1             # <<<<<<<<<<<<<<
@@ -3280,7 +3280,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_i_nl_end = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":335
+  /* "gawml/utils/sparsetools/_traversal.pyx":335
  *     i_nl_end = 1
  * 
  *     while i_nl < i_nl_end:             # <<<<<<<<<<<<<<
@@ -3291,7 +3291,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __pyx_t_3 = ((__pyx_v_i_nl < __pyx_v_i_nl_end) != 0);
     if (!__pyx_t_3) break;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":336
+    /* "gawml/utils/sparsetools/_traversal.pyx":336
  * 
  *     while i_nl < i_nl_end:
  *         pnode = node_list[i_nl]             # <<<<<<<<<<<<<<
@@ -3305,9 +3305,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 336, __pyx_L1_error)
     }
-    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_node_list.diminfo[0].strides));
+    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_node_list.diminfo[0].strides));
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":338
+    /* "gawml/utils/sparsetools/_traversal.pyx":338
  *         pnode = node_list[i_nl]
  * 
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -3331,10 +3331,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 338, __pyx_L1_error)
     }
-    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
+    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":339
+      /* "gawml/utils/sparsetools/_traversal.pyx":339
  * 
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]             # <<<<<<<<<<<<<<
@@ -3348,9 +3348,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 339, __pyx_L1_error)
       }
-      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indices.diminfo[0].strides));
+      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":340
+      /* "gawml/utils/sparsetools/_traversal.pyx":340
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3360,7 +3360,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_t_3 = ((__pyx_v_cnode == __pyx_v_head_node) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":341
+        /* "gawml/utils/sparsetools/_traversal.pyx":341
  *             cnode = indices[i]
  *             if (cnode == head_node):
  *                 continue             # <<<<<<<<<<<<<<
@@ -3369,7 +3369,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         goto __pyx_L5_continue;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":340
+        /* "gawml/utils/sparsetools/_traversal.pyx":340
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3378,7 +3378,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":342
+      /* "gawml/utils/sparsetools/_traversal.pyx":342
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3392,10 +3392,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 342, __pyx_L1_error)
       }
-      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
+      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":343
+        /* "gawml/utils/sparsetools/_traversal.pyx":343
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -3409,9 +3409,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 343, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":344
+        /* "gawml/utils/sparsetools/_traversal.pyx":344
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -3425,9 +3425,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 344, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":345
+        /* "gawml/utils/sparsetools/_traversal.pyx":345
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode
  *                 i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -3436,7 +3436,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":342
+        /* "gawml/utils/sparsetools/_traversal.pyx":342
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3447,7 +3447,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_L5_continue:;
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":347
+    /* "gawml/utils/sparsetools/_traversal.pyx":347
  *                 i_nl_end += 1
  * 
  *         i_nl += 1             # <<<<<<<<<<<<<<
@@ -3457,7 +3457,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __pyx_v_i_nl = (__pyx_v_i_nl + 1);
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":349
+  /* "gawml/utils/sparsetools/_traversal.pyx":349
  *         i_nl += 1
  * 
  *     return i_nl             # <<<<<<<<<<<<<<
@@ -3467,7 +3467,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   __pyx_r = __pyx_v_i_nl;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":310
+  /* "gawml/utils/sparsetools/_traversal.pyx":310
  * 
  * 
  * cdef unsigned int _breadth_first_directed(             # <<<<<<<<<<<<<<
@@ -3486,7 +3486,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._breadth_first_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._breadth_first_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3499,7 +3499,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":352
+/* "gawml/utils/sparsetools/_traversal.pyx":352
  * 
  * 
  * cdef unsigned int _breadth_first_undirected(             # <<<<<<<<<<<<<<
@@ -3507,7 +3507,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] indices1,
  */
 
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_first_undirected(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors) {
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__breadth_first_undirected(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors) {
   unsigned int __pyx_v_i;
   unsigned int __pyx_v_pnode;
   unsigned int __pyx_v_cnode;
@@ -3534,7 +3534,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   size_t __pyx_t_4;
   size_t __pyx_t_5;
   Py_ssize_t __pyx_t_6;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_7;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_7;
   size_t __pyx_t_8;
   size_t __pyx_t_9;
   size_t __pyx_t_10;
@@ -3572,36 +3572,36 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   __pyx_pybuffernd_predecessors.rcbuffer = &__pyx_pybuffer_predecessors;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices1.diminfo[0].strides = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices1.diminfo[0].shape = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr1.diminfo[0].strides = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr1.diminfo[0].shape = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices2.diminfo[0].strides = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices2.diminfo[0].shape = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr2.diminfo[0].strides = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr2.diminfo[0].shape = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_node_list.diminfo[0].strides = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_node_list.diminfo[0].shape = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 352, __pyx_L1_error)
   }
   __pyx_pybuffernd_predecessors.diminfo[0].strides = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_predecessors.diminfo[0].shape = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":375
+  /* "gawml/utils/sparsetools/_traversal.pyx":375
  *     cdef unsigned int i, pnode, cnode
  *     cdef unsigned int i_nl, i_nl_end
  *     cdef unsigned int N = node_list.shape[0]             # <<<<<<<<<<<<<<
@@ -3610,7 +3610,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_N = (__pyx_v_node_list->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":377
+  /* "gawml/utils/sparsetools/_traversal.pyx":377
  *     cdef unsigned int N = node_list.shape[0]
  * 
  *     node_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -3627,9 +3627,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 377, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":378
+  /* "gawml/utils/sparsetools/_traversal.pyx":378
  * 
  *     node_list[0] = head_node
  *     i_nl = 0             # <<<<<<<<<<<<<<
@@ -3638,7 +3638,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_i_nl = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":379
+  /* "gawml/utils/sparsetools/_traversal.pyx":379
  *     node_list[0] = head_node
  *     i_nl = 0
  *     i_nl_end = 1             # <<<<<<<<<<<<<<
@@ -3647,7 +3647,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
   __pyx_v_i_nl_end = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":381
+  /* "gawml/utils/sparsetools/_traversal.pyx":381
  *     i_nl_end = 1
  * 
  *     while i_nl < i_nl_end:             # <<<<<<<<<<<<<<
@@ -3658,7 +3658,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __pyx_t_3 = ((__pyx_v_i_nl < __pyx_v_i_nl_end) != 0);
     if (!__pyx_t_3) break;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":382
+    /* "gawml/utils/sparsetools/_traversal.pyx":382
  * 
  *     while i_nl < i_nl_end:
  *         pnode = node_list[i_nl]             # <<<<<<<<<<<<<<
@@ -3672,9 +3672,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 382, __pyx_L1_error)
     }
-    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_node_list.diminfo[0].strides));
+    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_node_list.diminfo[0].strides));
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":384
+    /* "gawml/utils/sparsetools/_traversal.pyx":384
  *         pnode = node_list[i_nl]
  * 
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -3698,10 +3698,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 384, __pyx_L1_error)
     }
-    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr1.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
+    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_indptr1.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_5, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":385
+      /* "gawml/utils/sparsetools/_traversal.pyx":385
  * 
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]             # <<<<<<<<<<<<<<
@@ -3715,9 +3715,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 385, __pyx_L1_error)
       }
-      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indices1.diminfo[0].strides));
+      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indices1.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":386
+      /* "gawml/utils/sparsetools/_traversal.pyx":386
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3727,7 +3727,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_t_3 = ((__pyx_v_cnode == __pyx_v_head_node) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":387
+        /* "gawml/utils/sparsetools/_traversal.pyx":387
  *             cnode = indices1[i]
  *             if (cnode == head_node):
  *                 continue             # <<<<<<<<<<<<<<
@@ -3736,7 +3736,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         goto __pyx_L5_continue;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":386
+        /* "gawml/utils/sparsetools/_traversal.pyx":386
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3745,7 +3745,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":388
+      /* "gawml/utils/sparsetools/_traversal.pyx":388
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3759,10 +3759,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 388, __pyx_L1_error)
       }
-      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
+      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":389
+        /* "gawml/utils/sparsetools/_traversal.pyx":389
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -3776,9 +3776,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 389, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":390
+        /* "gawml/utils/sparsetools/_traversal.pyx":390
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -3792,9 +3792,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 390, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":391
+        /* "gawml/utils/sparsetools/_traversal.pyx":391
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode
  *                 i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -3803,7 +3803,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":388
+        /* "gawml/utils/sparsetools/_traversal.pyx":388
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3814,7 +3814,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_L5_continue:;
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":393
+    /* "gawml/utils/sparsetools/_traversal.pyx":393
  *                 i_nl_end += 1
  * 
  *         for i from indptr2[pnode] <= i < indptr2[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -3838,10 +3838,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 393, __pyx_L1_error)
     }
-    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_indptr2.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
+    __pyx_t_7 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_indptr2.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":394
+      /* "gawml/utils/sparsetools/_traversal.pyx":394
  * 
  *         for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *             cnode = indices2[i]             # <<<<<<<<<<<<<<
@@ -3855,9 +3855,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 394, __pyx_L1_error)
       }
-      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indices2.diminfo[0].strides));
+      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indices2.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":395
+      /* "gawml/utils/sparsetools/_traversal.pyx":395
  *         for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *             cnode = indices2[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3867,7 +3867,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_t_3 = ((__pyx_v_cnode == __pyx_v_head_node) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":396
+        /* "gawml/utils/sparsetools/_traversal.pyx":396
  *             cnode = indices2[i]
  *             if (cnode == head_node):
  *                 continue             # <<<<<<<<<<<<<<
@@ -3876,7 +3876,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         goto __pyx_L8_continue;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":395
+        /* "gawml/utils/sparsetools/_traversal.pyx":395
  *         for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *             cnode = indices2[i]
  *             if (cnode == head_node):             # <<<<<<<<<<<<<<
@@ -3885,7 +3885,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":397
+      /* "gawml/utils/sparsetools/_traversal.pyx":397
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3899,10 +3899,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 397, __pyx_L1_error)
       }
-      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
+      __pyx_t_3 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_predecessors.diminfo[0].strides)) == __pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX) != 0);
       if (__pyx_t_3) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":398
+        /* "gawml/utils/sparsetools/_traversal.pyx":398
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -3916,9 +3916,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 398, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":399
+        /* "gawml/utils/sparsetools/_traversal.pyx":399
  *             elif (predecessors[cnode] == NULL_IDX):
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -3932,9 +3932,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 399, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":400
+        /* "gawml/utils/sparsetools/_traversal.pyx":400
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode
  *                 i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -3943,7 +3943,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
         __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":397
+        /* "gawml/utils/sparsetools/_traversal.pyx":397
  *             if (cnode == head_node):
  *                 continue
  *             elif (predecessors[cnode] == NULL_IDX):             # <<<<<<<<<<<<<<
@@ -3954,7 +3954,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
       __pyx_L8_continue:;
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":402
+    /* "gawml/utils/sparsetools/_traversal.pyx":402
  *                 i_nl_end += 1
  * 
  *         i_nl += 1             # <<<<<<<<<<<<<<
@@ -3964,7 +3964,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __pyx_v_i_nl = (__pyx_v_i_nl + 1);
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":404
+  /* "gawml/utils/sparsetools/_traversal.pyx":404
  *         i_nl += 1
  * 
  *     return i_nl             # <<<<<<<<<<<<<<
@@ -3974,7 +3974,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   __pyx_r = __pyx_v_i_nl;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":352
+  /* "gawml/utils/sparsetools/_traversal.pyx":352
  * 
  * 
  * cdef unsigned int _breadth_first_undirected(             # <<<<<<<<<<<<<<
@@ -3995,7 +3995,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._breadth_first_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._breadth_first_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -4010,7 +4010,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":407
+/* "gawml/utils/sparsetools/_traversal.pyx":407
  * 
  * 
  * def depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -4019,10 +4019,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__breadth_firs
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_8depth_first_order[] = "\n    depth_first_order(csgraph, i_start, directed=True, return_predecessors=True)\n\n    Return a depth-first ordering starting with specified node.\n\n    Note that a depth-first order is not unique.  Furthermore, for graphs\n    with cycles, the tree generated by a depth-first search is not\n    unique either.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N compressed sparse graph.  The input csgraph will be\n        converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    return_predecessors : bool, optional\n        If True (default), then return the predecesor array (see below).\n\n    Returns\n    -------\n    node_array : ndarray, one dimension\n        The breadth-first list of nodes, starting with specified node.  The\n        length of node_array is the number of nodes reachable from the\n        specified node.\n    predecessors : ndarray, one dimension\n        Returned only if return_predecessors is True.\n        The length-N list of predecessors of each node in a breadth-first\n        tree.  If node i is in the tree, then its parent is given by\n        predecessors[i]. If node i is not in the tree (and for the parent\n        node) then predecessors[i] = -9999.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_9depth_first_order = {"depth_first_order", (PyCFunction)__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_order, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_11sparsetools_10_traversal_8depth_first_order};
-static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_9depth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_8depth_first_order[] = "\n    depth_first_order(csgraph, i_start, directed=True, return_predecessors=True)\n\n    Return a depth-first ordering starting with specified node.\n\n    Note that a depth-first order is not unique.  Furthermore, for graphs\n    with cycles, the tree generated by a depth-first search is not\n    unique either.\n\n    .. versionadded:: 0.11.0\n\n    Parameters\n    ----------\n    csgraph : array_like or sparse matrix\n        The N x N compressed sparse graph.  The input csgraph will be\n        converted to csr format for the calculation.\n    i_start : int\n        The index of starting node.\n    directed : bool, optional\n        If True (default), then operate on a directed graph: only\n        move from point i to point j along paths csgraph[i, j].\n        If False, then find the shortest path on an undirected graph: the\n        algorithm can progress from point i to j along csgraph[i, j] or\n        csgraph[j, i].\n    return_predecessors : bool, optional\n        If True (default), then return the predecesor array (see below).\n\n    Returns\n    -------\n    node_array : ndarray, one dimension\n        The breadth-first list of nodes, starting with specified node.  The\n        length of node_array is the number of nodes reachable from the\n        specified node.\n    predecessors : ndarray, one dimension\n        Returned only if return_predecessors is True.\n        The length-N list of predecessors of each node in a breadth-first\n        tree.  If node i is in the tree, then its parent is given by\n        predecessors[i]. If node i is not in the tree (and for the parent\n        node) then predecessors[i] = -9999.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_9depth_first_order = {"depth_first_order", (PyCFunction)__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_9depth_first_order, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_11sparsetools_10_traversal_8depth_first_order};
+static PyObject *__pyx_pw_5gawml_5utils_11sparsetools_10_traversal_9depth_first_order(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_csgraph = 0;
   PyObject *__pyx_v_i_start = 0;
   PyObject *__pyx_v_directed = 0;
@@ -4034,7 +4034,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_or
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_csgraph,&__pyx_n_s_i_start,&__pyx_n_s_directed,&__pyx_n_s_return_predecessors,0};
     PyObject* values[4] = {0,0,0,0};
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":408
+    /* "gawml/utils/sparsetools/_traversal.pyx":408
  * 
  * def depth_first_order(csgraph, i_start,
  *                       directed=True, return_predecessors=True):             # <<<<<<<<<<<<<<
@@ -4097,13 +4097,13 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_or
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("depth_first_order", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 407, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.depth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.depth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_order(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed, __pyx_v_return_predecessors);
+  __pyx_r = __pyx_pf_5gawml_5utils_11sparsetools_10_traversal_8depth_first_order(__pyx_self, __pyx_v_csgraph, __pyx_v_i_start, __pyx_v_directed, __pyx_v_return_predecessors);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":407
+  /* "gawml/utils/sparsetools/_traversal.pyx":407
  * 
  * 
  * def depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -4116,7 +4116,7 @@ static PyObject *__pyx_pw_3gaw_5utils_11sparsetools_10_traversal_9depth_first_or
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors) {
+static PyObject *__pyx_pf_5gawml_5utils_11sparsetools_10_traversal_8depth_first_order(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_csgraph, PyObject *__pyx_v_i_start, PyObject *__pyx_v_directed, PyObject *__pyx_v_return_predecessors) {
   int __pyx_v_N;
   PyObject *__pyx_v_node_list = NULL;
   PyObject *__pyx_v_predecessors = NULL;
@@ -4137,7 +4137,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_RefNannySetupContext("depth_first_order", 0);
   __Pyx_INCREF(__pyx_v_csgraph);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":450
+  /* "gawml/utils/sparsetools/_traversal.pyx":450
  *     """
  *     global NULL_IDX
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)             # <<<<<<<<<<<<<<
@@ -4165,7 +4165,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_DECREF_SET(__pyx_v_csgraph, __pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":451
+  /* "gawml/utils/sparsetools/_traversal.pyx":451
  *     global NULL_IDX
  *     csgraph = validate_graph(csgraph, directed, dense_output=False)
  *     cdef int N = csgraph.shape[0]             # <<<<<<<<<<<<<<
@@ -4181,7 +4181,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_N = __pyx_t_5;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":453
+  /* "gawml/utils/sparsetools/_traversal.pyx":453
  *     cdef int N = csgraph.shape[0]
  * 
  *     node_list = np.empty(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -4214,7 +4214,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_v_node_list = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":454
+  /* "gawml/utils/sparsetools/_traversal.pyx":454
  * 
  *     node_list = np.empty(N, dtype=ITYPE)
  *     predecessors = np.empty(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -4247,7 +4247,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_v_predecessors = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":455
+  /* "gawml/utils/sparsetools/_traversal.pyx":455
  *     node_list = np.empty(N, dtype=ITYPE)
  *     predecessors = np.empty(N, dtype=ITYPE)
  *     root_list = np.empty(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -4280,7 +4280,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_v_root_list = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":456
+  /* "gawml/utils/sparsetools/_traversal.pyx":456
  *     predecessors = np.empty(N, dtype=ITYPE)
  *     root_list = np.empty(N, dtype=ITYPE)
  *     flag = np.zeros(N, dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -4313,7 +4313,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_v_flag = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":457
+  /* "gawml/utils/sparsetools/_traversal.pyx":457
  *     root_list = np.empty(N, dtype=ITYPE)
  *     flag = np.zeros(N, dtype=ITYPE)
  *     node_list.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -4322,7 +4322,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_node_list, __pyx_n_s_fill); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 457, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 457, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 457, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_3))) {
@@ -4352,7 +4352,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":458
+  /* "gawml/utils/sparsetools/_traversal.pyx":458
  *     flag = np.zeros(N, dtype=ITYPE)
  *     node_list.fill(NULL_IDX)
  *     predecessors.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -4361,7 +4361,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_predecessors, __pyx_n_s_fill); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 458, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 458, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 458, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_2 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_3))) {
@@ -4391,7 +4391,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":459
+  /* "gawml/utils/sparsetools/_traversal.pyx":459
  *     node_list.fill(NULL_IDX)
  *     predecessors.fill(NULL_IDX)
  *     root_list.fill(NULL_IDX)             # <<<<<<<<<<<<<<
@@ -4400,7 +4400,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_root_list, __pyx_n_s_fill); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 459, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyInt_From_npy_int32(__pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_npy_int32(__pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 459, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_6 = NULL;
   if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_3))) {
@@ -4430,7 +4430,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":461
+  /* "gawml/utils/sparsetools/_traversal.pyx":461
  *     root_list.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -4440,7 +4440,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_v_directed); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 461, __pyx_L1_error)
   if (__pyx_t_7) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":462
+    /* "gawml/utils/sparsetools/_traversal.pyx":462
  * 
  *     if directed:
  *         length = _depth_first_directed(i_start,             # <<<<<<<<<<<<<<
@@ -4449,7 +4449,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
     __pyx_t_8 = __Pyx_PyInt_As_unsigned_int(__pyx_v_i_start); if (unlikely((__pyx_t_8 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 462, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":463
+    /* "gawml/utils/sparsetools/_traversal.pyx":463
  *     if directed:
  *         length = _depth_first_directed(i_start,
  *                               csgraph.indices, csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -4463,7 +4463,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     __Pyx_GOTREF(__pyx_t_3);
     if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 463, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":464
+    /* "gawml/utils/sparsetools/_traversal.pyx":464
  *         length = _depth_first_directed(i_start,
  *                               csgraph.indices, csgraph.indptr,
  *                               node_list, predecessors,             # <<<<<<<<<<<<<<
@@ -4473,7 +4473,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     if (!(likely(((__pyx_v_node_list) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_node_list, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 464, __pyx_L1_error)
     if (!(likely(((__pyx_v_predecessors) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_predecessors, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 464, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":465
+    /* "gawml/utils/sparsetools/_traversal.pyx":465
  *                               csgraph.indices, csgraph.indptr,
  *                               node_list, predecessors,
  *                               root_list, flag)             # <<<<<<<<<<<<<<
@@ -4483,18 +4483,18 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     if (!(likely(((__pyx_v_root_list) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_root_list, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 465, __pyx_L1_error)
     if (!(likely(((__pyx_v_flag) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_flag, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 465, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":462
+    /* "gawml/utils/sparsetools/_traversal.pyx":462
  * 
  *     if directed:
  *         length = _depth_first_directed(i_start,             # <<<<<<<<<<<<<<
  *                               csgraph.indices, csgraph.indptr,
  *                               node_list, predecessors,
  */
-    __pyx_v_length = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_directed(__pyx_t_8, ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_root_list), ((PyArrayObject *)__pyx_v_flag));
+    __pyx_v_length = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_directed(__pyx_t_8, ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_root_list), ((PyArrayObject *)__pyx_v_flag));
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":461
+    /* "gawml/utils/sparsetools/_traversal.pyx":461
  *     root_list.fill(NULL_IDX)
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -4504,7 +4504,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":467
+  /* "gawml/utils/sparsetools/_traversal.pyx":467
  *                               root_list, flag)
  *     else:
  *         csgraph_T = csgraph.T.tocsr()             # <<<<<<<<<<<<<<
@@ -4538,7 +4538,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     __pyx_v_csgraph_T = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":468
+    /* "gawml/utils/sparsetools/_traversal.pyx":468
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _depth_first_undirected(i_start,             # <<<<<<<<<<<<<<
@@ -4547,7 +4547,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
     __pyx_t_8 = __Pyx_PyInt_As_unsigned_int(__pyx_v_i_start); if (unlikely((__pyx_t_8 == (unsigned int)-1) && PyErr_Occurred())) __PYX_ERR(0, 468, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":469
+    /* "gawml/utils/sparsetools/_traversal.pyx":469
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _depth_first_undirected(i_start,
  *                                          csgraph.indices, csgraph.indptr,             # <<<<<<<<<<<<<<
@@ -4561,7 +4561,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     __Pyx_GOTREF(__pyx_t_2);
     if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 469, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":470
+    /* "gawml/utils/sparsetools/_traversal.pyx":470
  *         length = _depth_first_undirected(i_start,
  *                                          csgraph.indices, csgraph.indptr,
  *                                          csgraph_T.indices, csgraph_T.indptr,             # <<<<<<<<<<<<<<
@@ -4575,7 +4575,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     __Pyx_GOTREF(__pyx_t_4);
     if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 470, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":471
+    /* "gawml/utils/sparsetools/_traversal.pyx":471
  *                                          csgraph.indices, csgraph.indptr,
  *                                          csgraph_T.indices, csgraph_T.indptr,
  *                                          node_list, predecessors,             # <<<<<<<<<<<<<<
@@ -4585,7 +4585,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     if (!(likely(((__pyx_v_node_list) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_node_list, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 471, __pyx_L1_error)
     if (!(likely(((__pyx_v_predecessors) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_predecessors, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 471, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":472
+    /* "gawml/utils/sparsetools/_traversal.pyx":472
  *                                          csgraph_T.indices, csgraph_T.indptr,
  *                                          node_list, predecessors,
  *                                          root_list, flag)             # <<<<<<<<<<<<<<
@@ -4595,14 +4595,14 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     if (!(likely(((__pyx_v_root_list) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_root_list, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 472, __pyx_L1_error)
     if (!(likely(((__pyx_v_flag) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_flag, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 472, __pyx_L1_error)
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":468
+    /* "gawml/utils/sparsetools/_traversal.pyx":468
  *     else:
  *         csgraph_T = csgraph.T.tocsr()
  *         length = _depth_first_undirected(i_start,             # <<<<<<<<<<<<<<
  *                                          csgraph.indices, csgraph.indptr,
  *                                          csgraph_T.indices, csgraph_T.indptr,
  */
-    __pyx_v_length = __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_undirected(__pyx_t_8, ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_root_list), ((PyArrayObject *)__pyx_v_flag));
+    __pyx_v_length = __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_undirected(__pyx_t_8, ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_1), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_v_node_list), ((PyArrayObject *)__pyx_v_predecessors), ((PyArrayObject *)__pyx_v_root_list), ((PyArrayObject *)__pyx_v_flag));
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4610,7 +4610,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   }
   __pyx_L3:;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":474
+  /* "gawml/utils/sparsetools/_traversal.pyx":474
  *                                          root_list, flag)
  * 
  *     if return_predecessors:             # <<<<<<<<<<<<<<
@@ -4620,7 +4620,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_v_return_predecessors); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 474, __pyx_L1_error)
   if (__pyx_t_7) {
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":475
+    /* "gawml/utils/sparsetools/_traversal.pyx":475
  * 
  *     if return_predecessors:
  *         return node_list[:length], predecessors             # <<<<<<<<<<<<<<
@@ -4642,7 +4642,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":474
+    /* "gawml/utils/sparsetools/_traversal.pyx":474
  *                                          root_list, flag)
  * 
  *     if return_predecessors:             # <<<<<<<<<<<<<<
@@ -4651,7 +4651,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  */
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":477
+  /* "gawml/utils/sparsetools/_traversal.pyx":477
  *         return node_list[:length], predecessors
  *     else:
  *         return node_list[:length]             # <<<<<<<<<<<<<<
@@ -4667,7 +4667,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
     goto __pyx_L0;
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":407
+  /* "gawml/utils/sparsetools/_traversal.pyx":407
  * 
  * 
  * def depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -4682,7 +4682,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
-  __Pyx_AddTraceback("gaw.utils.sparsetools._traversal.depth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.sparsetools._traversal.depth_first_order", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_node_list);
@@ -4696,7 +4696,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":480
+/* "gawml/utils/sparsetools/_traversal.pyx":480
  * 
  * 
  * cdef unsigned int _depth_first_directed(             # <<<<<<<<<<<<<<
@@ -4704,7 +4704,7 @@ static PyObject *__pyx_pf_3gaw_5utils_11sparsetools_10_traversal_8depth_first_or
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] indices,
  */
 
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_directed(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors, PyArrayObject *__pyx_v_root_list, PyArrayObject *__pyx_v_flag) {
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_directed(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors, PyArrayObject *__pyx_v_root_list, PyArrayObject *__pyx_v_flag) {
   unsigned int __pyx_v_i;
   unsigned int __pyx_v_i_nl_end;
   unsigned int __pyx_v_cnode;
@@ -4734,7 +4734,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   Py_ssize_t __pyx_t_6;
   size_t __pyx_t_7;
   Py_ssize_t __pyx_t_8;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_9;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_9;
   size_t __pyx_t_10;
   size_t __pyx_t_11;
   Py_ssize_t __pyx_t_12;
@@ -4768,36 +4768,36 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   __pyx_pybuffernd_flag.rcbuffer = &__pyx_pybuffer_flag;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices.diminfo[0].strides = __pyx_pybuffernd_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices.diminfo[0].shape = __pyx_pybuffernd_indices.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr.diminfo[0].strides = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr.diminfo[0].shape = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_node_list.diminfo[0].strides = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_node_list.diminfo[0].shape = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_predecessors.diminfo[0].strides = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_predecessors.diminfo[0].shape = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_root_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_root_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_root_list.diminfo[0].strides = __pyx_pybuffernd_root_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_root_list.diminfo[0].shape = __pyx_pybuffernd_root_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flag.rcbuffer->pybuffer, (PyObject*)__pyx_v_flag, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flag.rcbuffer->pybuffer, (PyObject*)__pyx_v_flag, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 480, __pyx_L1_error)
   }
   __pyx_pybuffernd_flag.diminfo[0].strides = __pyx_pybuffernd_flag.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_flag.diminfo[0].shape = __pyx_pybuffernd_flag.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":489
+  /* "gawml/utils/sparsetools/_traversal.pyx":489
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] flag):
  *     cdef unsigned int i, j, i_nl_end, cnode, pnode
  *     cdef unsigned int N = node_list.shape[0]             # <<<<<<<<<<<<<<
@@ -4806,7 +4806,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_N = (__pyx_v_node_list->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":492
+  /* "gawml/utils/sparsetools/_traversal.pyx":492
  *     cdef int no_children, i_root
  * 
  *     node_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -4823,9 +4823,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 492, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":493
+  /* "gawml/utils/sparsetools/_traversal.pyx":493
  * 
  *     node_list[0] = head_node
  *     root_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -4842,9 +4842,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 493, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":494
+  /* "gawml/utils/sparsetools/_traversal.pyx":494
  *     node_list[0] = head_node
  *     root_list[0] = head_node
  *     i_root = 0             # <<<<<<<<<<<<<<
@@ -4853,7 +4853,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_i_root = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":495
+  /* "gawml/utils/sparsetools/_traversal.pyx":495
  *     root_list[0] = head_node
  *     i_root = 0
  *     i_nl_end = 1             # <<<<<<<<<<<<<<
@@ -4862,7 +4862,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_i_nl_end = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":496
+  /* "gawml/utils/sparsetools/_traversal.pyx":496
  *     i_root = 0
  *     i_nl_end = 1
  *     flag[head_node] = 1             # <<<<<<<<<<<<<<
@@ -4876,9 +4876,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 496, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":498
+  /* "gawml/utils/sparsetools/_traversal.pyx":498
  *     flag[head_node] = 1
  * 
  *     while i_root >= 0:             # <<<<<<<<<<<<<<
@@ -4889,7 +4889,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = ((__pyx_v_i_root >= 0) != 0);
     if (!__pyx_t_5) break;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":499
+    /* "gawml/utils/sparsetools/_traversal.pyx":499
  * 
  *     while i_root >= 0:
  *         pnode = root_list[i_root]             # <<<<<<<<<<<<<<
@@ -4906,9 +4906,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 499, __pyx_L1_error)
     }
-    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_root_list.diminfo[0].strides));
+    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_root_list.diminfo[0].strides));
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":500
+    /* "gawml/utils/sparsetools/_traversal.pyx":500
  *     while i_root >= 0:
  *         pnode = root_list[i_root]
  *         no_children = True             # <<<<<<<<<<<<<<
@@ -4917,7 +4917,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
     __pyx_v_no_children = 1;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":501
+    /* "gawml/utils/sparsetools/_traversal.pyx":501
  *         pnode = root_list[i_root]
  *         no_children = True
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -4941,10 +4941,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 501, __pyx_L1_error)
     }
-    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
+    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":502
+      /* "gawml/utils/sparsetools/_traversal.pyx":502
  *         no_children = True
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]             # <<<<<<<<<<<<<<
@@ -4958,9 +4958,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 502, __pyx_L1_error)
       }
-      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices.diminfo[0].strides));
+      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":503
+      /* "gawml/utils/sparsetools/_traversal.pyx":503
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]
  *             if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -4974,10 +4974,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 503, __pyx_L1_error)
       }
-      __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
+      __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
       if (__pyx_t_5) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":504
+        /* "gawml/utils/sparsetools/_traversal.pyx":504
  *             cnode = indices[i]
  *             if flag[cnode]:
  *                 continue             # <<<<<<<<<<<<<<
@@ -4986,7 +4986,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         goto __pyx_L5_continue;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":503
+        /* "gawml/utils/sparsetools/_traversal.pyx":503
  *         for i from indptr[pnode] <= i < indptr[pnode + 1]:
  *             cnode = indices[i]
  *             if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -4995,7 +4995,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":506
+      /* "gawml/utils/sparsetools/_traversal.pyx":506
  *                 continue
  *             else:
  *                 i_root += 1             # <<<<<<<<<<<<<<
@@ -5005,7 +5005,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       /*else*/ {
         __pyx_v_i_root = (__pyx_v_i_root + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":507
+        /* "gawml/utils/sparsetools/_traversal.pyx":507
  *             else:
  *                 i_root += 1
  *                 root_list[i_root] = cnode             # <<<<<<<<<<<<<<
@@ -5022,9 +5022,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 507, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":508
+        /* "gawml/utils/sparsetools/_traversal.pyx":508
  *                 i_root += 1
  *                 root_list[i_root] = cnode
  *                 node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -5038,9 +5038,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 508, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":509
+        /* "gawml/utils/sparsetools/_traversal.pyx":509
  *                 root_list[i_root] = cnode
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -5054,9 +5054,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 509, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":510
+        /* "gawml/utils/sparsetools/_traversal.pyx":510
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode
  *                 flag[cnode] = 1             # <<<<<<<<<<<<<<
@@ -5070,9 +5070,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 510, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":511
+        /* "gawml/utils/sparsetools/_traversal.pyx":511
  *                 predecessors[cnode] = pnode
  *                 flag[cnode] = 1
  *                 i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -5081,7 +5081,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":512
+        /* "gawml/utils/sparsetools/_traversal.pyx":512
  *                 flag[cnode] = 1
  *                 i_nl_end += 1
  *                 no_children = False             # <<<<<<<<<<<<<<
@@ -5090,7 +5090,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         __pyx_v_no_children = 0;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":513
+        /* "gawml/utils/sparsetools/_traversal.pyx":513
  *                 i_nl_end += 1
  *                 no_children = False
  *                 break             # <<<<<<<<<<<<<<
@@ -5103,7 +5103,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     }
     __pyx_L6_break:;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":515
+    /* "gawml/utils/sparsetools/_traversal.pyx":515
  *                 break
  * 
  *         if i_nl_end == N:             # <<<<<<<<<<<<<<
@@ -5113,7 +5113,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = ((__pyx_v_i_nl_end == __pyx_v_N) != 0);
     if (__pyx_t_5) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":516
+      /* "gawml/utils/sparsetools/_traversal.pyx":516
  * 
  *         if i_nl_end == N:
  *             break             # <<<<<<<<<<<<<<
@@ -5122,7 +5122,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       goto __pyx_L4_break;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":515
+      /* "gawml/utils/sparsetools/_traversal.pyx":515
  *                 break
  * 
  *         if i_nl_end == N:             # <<<<<<<<<<<<<<
@@ -5131,7 +5131,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":518
+    /* "gawml/utils/sparsetools/_traversal.pyx":518
  *             break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5141,7 +5141,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = (__pyx_v_no_children != 0);
     if (__pyx_t_5) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":519
+      /* "gawml/utils/sparsetools/_traversal.pyx":519
  * 
  *         if no_children:
  *             i_root -= 1             # <<<<<<<<<<<<<<
@@ -5150,7 +5150,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       __pyx_v_i_root = (__pyx_v_i_root - 1);
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":518
+      /* "gawml/utils/sparsetools/_traversal.pyx":518
  *             break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5161,7 +5161,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   }
   __pyx_L4_break:;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":521
+  /* "gawml/utils/sparsetools/_traversal.pyx":521
  *             i_root -= 1
  * 
  *     return i_nl_end             # <<<<<<<<<<<<<<
@@ -5171,7 +5171,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   __pyx_r = __pyx_v_i_nl_end;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":480
+  /* "gawml/utils/sparsetools/_traversal.pyx":480
  * 
  * 
  * cdef unsigned int _depth_first_directed(             # <<<<<<<<<<<<<<
@@ -5192,7 +5192,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._depth_first_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._depth_first_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5207,7 +5207,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":524
+/* "gawml/utils/sparsetools/_traversal.pyx":524
  * 
  * 
  * cdef unsigned int _depth_first_undirected(             # <<<<<<<<<<<<<<
@@ -5215,7 +5215,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] indices1,
  */
 
-static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_undirected(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors, PyArrayObject *__pyx_v_root_list, PyArrayObject *__pyx_v_flag) {
+static unsigned int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__depth_first_undirected(unsigned int __pyx_v_head_node, PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_node_list, PyArrayObject *__pyx_v_predecessors, PyArrayObject *__pyx_v_root_list, PyArrayObject *__pyx_v_flag) {
   unsigned int __pyx_v_i;
   unsigned int __pyx_v_i_nl_end;
   unsigned int __pyx_v_cnode;
@@ -5249,7 +5249,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   Py_ssize_t __pyx_t_6;
   size_t __pyx_t_7;
   Py_ssize_t __pyx_t_8;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_9;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_9;
   size_t __pyx_t_10;
   size_t __pyx_t_11;
   Py_ssize_t __pyx_t_12;
@@ -5299,46 +5299,46 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   __pyx_pybuffernd_flag.rcbuffer = &__pyx_pybuffer_flag;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices1.diminfo[0].strides = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices1.diminfo[0].shape = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr1.diminfo[0].strides = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr1.diminfo[0].shape = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices2.diminfo[0].strides = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices2.diminfo[0].shape = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr2.diminfo[0].strides = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr2.diminfo[0].shape = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_node_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_node_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_node_list.diminfo[0].strides = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_node_list.diminfo[0].shape = __pyx_pybuffernd_node_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer, (PyObject*)__pyx_v_predecessors, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_predecessors.diminfo[0].strides = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_predecessors.diminfo[0].shape = __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_root_list, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer, (PyObject*)__pyx_v_root_list, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_root_list.diminfo[0].strides = __pyx_pybuffernd_root_list.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_root_list.diminfo[0].shape = __pyx_pybuffernd_root_list.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flag.rcbuffer->pybuffer, (PyObject*)__pyx_v_flag, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_flag.rcbuffer->pybuffer, (PyObject*)__pyx_v_flag, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 524, __pyx_L1_error)
   }
   __pyx_pybuffernd_flag.diminfo[0].strides = __pyx_pybuffernd_flag.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_flag.diminfo[0].shape = __pyx_pybuffernd_flag.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":535
+  /* "gawml/utils/sparsetools/_traversal.pyx":535
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] flag):
  *     cdef unsigned int i, j, i_nl_end, cnode, pnode
  *     cdef unsigned int N = node_list.shape[0]             # <<<<<<<<<<<<<<
@@ -5347,7 +5347,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_N = (__pyx_v_node_list->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":538
+  /* "gawml/utils/sparsetools/_traversal.pyx":538
  *     cdef int no_children, i_root
  * 
  *     node_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -5364,9 +5364,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 538, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_1, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":539
+  /* "gawml/utils/sparsetools/_traversal.pyx":539
  * 
  *     node_list[0] = head_node
  *     root_list[0] = head_node             # <<<<<<<<<<<<<<
@@ -5383,9 +5383,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 539, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_head_node;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_head_node;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":540
+  /* "gawml/utils/sparsetools/_traversal.pyx":540
  *     node_list[0] = head_node
  *     root_list[0] = head_node
  *     i_root = 0             # <<<<<<<<<<<<<<
@@ -5394,7 +5394,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_i_root = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":541
+  /* "gawml/utils/sparsetools/_traversal.pyx":541
  *     root_list[0] = head_node
  *     i_root = 0
  *     i_nl_end = 1             # <<<<<<<<<<<<<<
@@ -5403,7 +5403,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
   __pyx_v_i_nl_end = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":542
+  /* "gawml/utils/sparsetools/_traversal.pyx":542
  *     i_root = 0
  *     i_nl_end = 1
  *     flag[head_node] = 1             # <<<<<<<<<<<<<<
@@ -5417,9 +5417,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_RaiseBufferIndexError(__pyx_t_2);
     __PYX_ERR(0, 542, __pyx_L1_error)
   }
-  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
+  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":544
+  /* "gawml/utils/sparsetools/_traversal.pyx":544
  *     flag[head_node] = 1
  * 
  *     while i_root >= 0:             # <<<<<<<<<<<<<<
@@ -5430,7 +5430,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = ((__pyx_v_i_root >= 0) != 0);
     if (!__pyx_t_5) break;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":545
+    /* "gawml/utils/sparsetools/_traversal.pyx":545
  * 
  *     while i_root >= 0:
  *         pnode = root_list[i_root]             # <<<<<<<<<<<<<<
@@ -5447,9 +5447,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 545, __pyx_L1_error)
     }
-    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_root_list.diminfo[0].strides));
+    __pyx_v_pnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_root_list.diminfo[0].strides));
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":546
+    /* "gawml/utils/sparsetools/_traversal.pyx":546
  *     while i_root >= 0:
  *         pnode = root_list[i_root]
  *         no_children = True             # <<<<<<<<<<<<<<
@@ -5458,7 +5458,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
     __pyx_v_no_children = 1;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":548
+    /* "gawml/utils/sparsetools/_traversal.pyx":548
  *         no_children = True
  * 
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -5482,10 +5482,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       __Pyx_RaiseBufferIndexError(__pyx_t_2);
       __PYX_ERR(0, 548, __pyx_L1_error)
     }
-    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr1.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
+    __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr1.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":549
+      /* "gawml/utils/sparsetools/_traversal.pyx":549
  * 
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]             # <<<<<<<<<<<<<<
@@ -5499,9 +5499,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 549, __pyx_L1_error)
       }
-      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices1.diminfo[0].strides));
+      __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_indices1.diminfo[0].strides));
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":550
+      /* "gawml/utils/sparsetools/_traversal.pyx":550
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]
  *             if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -5515,10 +5515,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 550, __pyx_L1_error)
       }
-      __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
+      __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
       if (__pyx_t_5) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":551
+        /* "gawml/utils/sparsetools/_traversal.pyx":551
  *             cnode = indices1[i]
  *             if flag[cnode]:
  *                 continue             # <<<<<<<<<<<<<<
@@ -5527,7 +5527,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         goto __pyx_L5_continue;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":550
+        /* "gawml/utils/sparsetools/_traversal.pyx":550
  *         for i from indptr1[pnode] <= i < indptr1[pnode + 1]:
  *             cnode = indices1[i]
  *             if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -5536,7 +5536,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":553
+      /* "gawml/utils/sparsetools/_traversal.pyx":553
  *                 continue
  *             else:
  *                 i_root += 1             # <<<<<<<<<<<<<<
@@ -5546,7 +5546,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       /*else*/ {
         __pyx_v_i_root = (__pyx_v_i_root + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":554
+        /* "gawml/utils/sparsetools/_traversal.pyx":554
  *             else:
  *                 i_root += 1
  *                 root_list[i_root] = cnode             # <<<<<<<<<<<<<<
@@ -5563,9 +5563,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 554, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":555
+        /* "gawml/utils/sparsetools/_traversal.pyx":555
  *                 i_root += 1
  *                 root_list[i_root] = cnode
  *                 node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -5579,9 +5579,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 555, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":556
+        /* "gawml/utils/sparsetools/_traversal.pyx":556
  *                 root_list[i_root] = cnode
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -5595,9 +5595,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 556, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":557
+        /* "gawml/utils/sparsetools/_traversal.pyx":557
  *                 node_list[i_nl_end] = cnode
  *                 predecessors[cnode] = pnode
  *                 flag[cnode] = 1             # <<<<<<<<<<<<<<
@@ -5611,9 +5611,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 557, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":558
+        /* "gawml/utils/sparsetools/_traversal.pyx":558
  *                 predecessors[cnode] = pnode
  *                 flag[cnode] = 1
  *                 i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -5622,7 +5622,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":559
+        /* "gawml/utils/sparsetools/_traversal.pyx":559
  *                 flag[cnode] = 1
  *                 i_nl_end += 1
  *                 no_children = False             # <<<<<<<<<<<<<<
@@ -5631,7 +5631,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         __pyx_v_no_children = 0;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":560
+        /* "gawml/utils/sparsetools/_traversal.pyx":560
  *                 i_nl_end += 1
  *                 no_children = False
  *                 break             # <<<<<<<<<<<<<<
@@ -5644,7 +5644,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     }
     __pyx_L6_break:;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":562
+    /* "gawml/utils/sparsetools/_traversal.pyx":562
  *                 break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5654,7 +5654,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = (__pyx_v_no_children != 0);
     if (__pyx_t_5) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":563
+      /* "gawml/utils/sparsetools/_traversal.pyx":563
  * 
  *         if no_children:
  *             for i from indptr2[pnode] <= i < indptr2[pnode + 1]:             # <<<<<<<<<<<<<<
@@ -5678,10 +5678,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         __Pyx_RaiseBufferIndexError(__pyx_t_2);
         __PYX_ERR(0, 563, __pyx_L1_error)
       }
-      __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_indptr2.diminfo[0].strides));
-      for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
+      __pyx_t_9 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_indptr2.diminfo[0].strides));
+      for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":564
+        /* "gawml/utils/sparsetools/_traversal.pyx":564
  *         if no_children:
  *             for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *                 cnode = indices2[i]             # <<<<<<<<<<<<<<
@@ -5695,9 +5695,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 564, __pyx_L1_error)
         }
-        __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_indices2.diminfo[0].strides));
+        __pyx_v_cnode = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_indices2.diminfo[0].strides));
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":565
+        /* "gawml/utils/sparsetools/_traversal.pyx":565
  *             for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *                 cnode = indices2[i]
  *                 if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -5711,10 +5711,10 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
           __Pyx_RaiseBufferIndexError(__pyx_t_2);
           __PYX_ERR(0, 565, __pyx_L1_error)
         }
-        __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
+        __pyx_t_5 = ((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_flag.diminfo[0].strides)) != 0);
         if (__pyx_t_5) {
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":566
+          /* "gawml/utils/sparsetools/_traversal.pyx":566
  *                 cnode = indices2[i]
  *                 if flag[cnode]:
  *                     continue             # <<<<<<<<<<<<<<
@@ -5723,7 +5723,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
           goto __pyx_L9_continue;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":565
+          /* "gawml/utils/sparsetools/_traversal.pyx":565
  *             for i from indptr2[pnode] <= i < indptr2[pnode + 1]:
  *                 cnode = indices2[i]
  *                 if flag[cnode]:             # <<<<<<<<<<<<<<
@@ -5732,7 +5732,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
         }
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":568
+        /* "gawml/utils/sparsetools/_traversal.pyx":568
  *                     continue
  *                 else:
  *                     i_root += 1             # <<<<<<<<<<<<<<
@@ -5742,7 +5742,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
         /*else*/ {
           __pyx_v_i_root = (__pyx_v_i_root + 1);
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":569
+          /* "gawml/utils/sparsetools/_traversal.pyx":569
  *                 else:
  *                     i_root += 1
  *                     root_list[i_root] = cnode             # <<<<<<<<<<<<<<
@@ -5759,9 +5759,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
             __Pyx_RaiseBufferIndexError(__pyx_t_2);
             __PYX_ERR(0, 569, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_root_list.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_root_list.diminfo[0].strides) = __pyx_v_cnode;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":570
+          /* "gawml/utils/sparsetools/_traversal.pyx":570
  *                     i_root += 1
  *                     root_list[i_root] = cnode
  *                     node_list[i_nl_end] = cnode             # <<<<<<<<<<<<<<
@@ -5775,9 +5775,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
             __Pyx_RaiseBufferIndexError(__pyx_t_2);
             __PYX_ERR(0, 570, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_node_list.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_node_list.diminfo[0].strides) = __pyx_v_cnode;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":571
+          /* "gawml/utils/sparsetools/_traversal.pyx":571
  *                     root_list[i_root] = cnode
  *                     node_list[i_nl_end] = cnode
  *                     predecessors[cnode] = pnode             # <<<<<<<<<<<<<<
@@ -5791,9 +5791,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
             __Pyx_RaiseBufferIndexError(__pyx_t_2);
             __PYX_ERR(0, 571, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_predecessors.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_predecessors.diminfo[0].strides) = __pyx_v_pnode;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":572
+          /* "gawml/utils/sparsetools/_traversal.pyx":572
  *                     node_list[i_nl_end] = cnode
  *                     predecessors[cnode] = pnode
  *                     flag[cnode] = 1             # <<<<<<<<<<<<<<
@@ -5807,9 +5807,9 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
             __Pyx_RaiseBufferIndexError(__pyx_t_2);
             __PYX_ERR(0, 572, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_flag.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_flag.diminfo[0].strides) = 1;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":573
+          /* "gawml/utils/sparsetools/_traversal.pyx":573
  *                     predecessors[cnode] = pnode
  *                     flag[cnode] = 1
  *                     i_nl_end += 1             # <<<<<<<<<<<<<<
@@ -5818,7 +5818,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
           __pyx_v_i_nl_end = (__pyx_v_i_nl_end + 1);
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":574
+          /* "gawml/utils/sparsetools/_traversal.pyx":574
  *                     flag[cnode] = 1
  *                     i_nl_end += 1
  *                     no_children = False             # <<<<<<<<<<<<<<
@@ -5827,7 +5827,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
           __pyx_v_no_children = 0;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":575
+          /* "gawml/utils/sparsetools/_traversal.pyx":575
  *                     i_nl_end += 1
  *                     no_children = False
  *                     break             # <<<<<<<<<<<<<<
@@ -5840,7 +5840,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
       }
       __pyx_L10_break:;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":562
+      /* "gawml/utils/sparsetools/_traversal.pyx":562
  *                 break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5849,7 +5849,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":577
+    /* "gawml/utils/sparsetools/_traversal.pyx":577
  *                     break
  * 
  *         if i_nl_end == N:             # <<<<<<<<<<<<<<
@@ -5859,7 +5859,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = ((__pyx_v_i_nl_end == __pyx_v_N) != 0);
     if (__pyx_t_5) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":578
+      /* "gawml/utils/sparsetools/_traversal.pyx":578
  * 
  *         if i_nl_end == N:
  *             break             # <<<<<<<<<<<<<<
@@ -5868,7 +5868,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       goto __pyx_L4_break;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":577
+      /* "gawml/utils/sparsetools/_traversal.pyx":577
  *                     break
  * 
  *         if i_nl_end == N:             # <<<<<<<<<<<<<<
@@ -5877,7 +5877,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
     }
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":580
+    /* "gawml/utils/sparsetools/_traversal.pyx":580
  *             break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5887,7 +5887,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __pyx_t_5 = (__pyx_v_no_children != 0);
     if (__pyx_t_5) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":581
+      /* "gawml/utils/sparsetools/_traversal.pyx":581
  * 
  *         if no_children:
  *             i_root -= 1             # <<<<<<<<<<<<<<
@@ -5896,7 +5896,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  */
       __pyx_v_i_root = (__pyx_v_i_root - 1);
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":580
+      /* "gawml/utils/sparsetools/_traversal.pyx":580
  *             break
  * 
  *         if no_children:             # <<<<<<<<<<<<<<
@@ -5907,7 +5907,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   }
   __pyx_L4_break:;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":583
+  /* "gawml/utils/sparsetools/_traversal.pyx":583
  *             i_root -= 1
  * 
  *     return i_nl_end             # <<<<<<<<<<<<<<
@@ -5917,7 +5917,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   __pyx_r = __pyx_v_i_nl_end;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":524
+  /* "gawml/utils/sparsetools/_traversal.pyx":524
  * 
  * 
  * cdef unsigned int _depth_first_undirected(             # <<<<<<<<<<<<<<
@@ -5940,7 +5940,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_predecessors.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_root_list.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._depth_first_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._depth_first_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -5957,7 +5957,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":586
+/* "gawml/utils/sparsetools/_traversal.pyx":586
  * 
  * 
  * cdef int _connected_components_directed(             # <<<<<<<<<<<<<<
@@ -5965,7 +5965,7 @@ static unsigned int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__depth_first_
  *                                  np.ndarray[ITYPE_t, ndim=1, mode='c'] indptr,
  */
 
-static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_directed(PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_labels) {
+static int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_directed(PyArrayObject *__pyx_v_indices, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_labels) {
   int __pyx_v_v;
   int __pyx_v_w;
   int __pyx_v_index;
@@ -6020,7 +6020,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
   Py_ssize_t __pyx_t_19;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_20;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_20;
   Py_ssize_t __pyx_t_21;
   Py_ssize_t __pyx_t_22;
   Py_ssize_t __pyx_t_23;
@@ -6082,21 +6082,21 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices.diminfo[0].strides = __pyx_pybuffernd_indices.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices.diminfo[0].shape = __pyx_pybuffernd_indices.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr.diminfo[0].strides = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr.diminfo[0].shape = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 586, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":604
+  /* "gawml/utils/sparsetools/_traversal.pyx":604
  *     cdef int v, w, index, low_v, low_w, label, j
  *     cdef int SS_head, root, stack_head, f, b
  *     cdef int VOID = -1             # <<<<<<<<<<<<<<
@@ -6105,7 +6105,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_VOID = -1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":605
+  /* "gawml/utils/sparsetools/_traversal.pyx":605
  *     cdef int SS_head, root, stack_head, f, b
  *     cdef int VOID = -1
  *     cdef int END = -2             # <<<<<<<<<<<<<<
@@ -6114,7 +6114,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_END = -2;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":606
+  /* "gawml/utils/sparsetools/_traversal.pyx":606
  *     cdef int VOID = -1
  *     cdef int END = -2
  *     cdef int N = labels.shape[0]             # <<<<<<<<<<<<<<
@@ -6123,7 +6123,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_N = (__pyx_v_labels->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":609
+  /* "gawml/utils/sparsetools/_traversal.pyx":609
  *     cdef np.ndarray[ITYPE_t, ndim=1, mode="c"] SS, lowlinks, stack_f, stack_b
  * 
  *     lowlinks = labels             # <<<<<<<<<<<<<<
@@ -6133,10 +6133,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_lowlinks.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_lowlinks.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_v_labels), &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_lowlinks.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_v_labels), &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_2, &__pyx_t_3, &__pyx_t_4);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_lowlinks.rcbuffer->pybuffer, (PyObject*)__pyx_v_lowlinks, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_lowlinks.rcbuffer->pybuffer, (PyObject*)__pyx_v_lowlinks, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_2); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_4);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -6149,7 +6149,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_INCREF(((PyObject *)__pyx_v_labels));
   __pyx_v_lowlinks = ((PyArrayObject *)__pyx_v_labels);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":610
+  /* "gawml/utils/sparsetools/_traversal.pyx":610
  * 
  *     lowlinks = labels
  *     SS = np.ndarray((N,), dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -6181,10 +6181,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_SS.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_7), &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_7), &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_4, &__pyx_t_3, &__pyx_t_2);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)__pyx_v_SS, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)__pyx_v_SS, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_4); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_2);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -6197,7 +6197,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_v_SS = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":611
+  /* "gawml/utils/sparsetools/_traversal.pyx":611
  *     lowlinks = labels
  *     SS = np.ndarray((N,), dtype=ITYPE)
  *     stack_b = np.ndarray((N,), dtype=ITYPE)             # <<<<<<<<<<<<<<
@@ -6229,10 +6229,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_5), &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_5), &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_2, &__pyx_t_3, &__pyx_t_4);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_stack_b, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer, (PyObject*)__pyx_v_stack_b, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_2); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_4);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -6245,7 +6245,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_v_stack_b = ((PyArrayObject *)__pyx_t_5);
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":612
+  /* "gawml/utils/sparsetools/_traversal.pyx":612
  *     SS = np.ndarray((N,), dtype=ITYPE)
  *     stack_b = np.ndarray((N,), dtype=ITYPE)
  *     stack_f = SS             # <<<<<<<<<<<<<<
@@ -6255,10 +6255,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer, (PyObject*)__pyx_v_SS, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer, (PyObject*)__pyx_v_SS, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_4, &__pyx_t_3, &__pyx_t_2);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer, (PyObject*)__pyx_v_stack_f, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer, (PyObject*)__pyx_v_stack_f, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_4); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_2);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -6271,7 +6271,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_INCREF(((PyObject *)__pyx_v_SS));
   __pyx_v_stack_f = __pyx_v_SS;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":615
+  /* "gawml/utils/sparsetools/_traversal.pyx":615
  * 
  *     # The stack of nodes which have been backtracked and are in the current SCC
  *     SS.fill(VOID)             # <<<<<<<<<<<<<<
@@ -6310,7 +6310,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":616
+  /* "gawml/utils/sparsetools/_traversal.pyx":616
  *     # The stack of nodes which have been backtracked and are in the current SCC
  *     SS.fill(VOID)
  *     SS_head = END             # <<<<<<<<<<<<<<
@@ -6319,7 +6319,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_SS_head = __pyx_v_END;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":620
+  /* "gawml/utils/sparsetools/_traversal.pyx":620
  *     # The array containing the lowlinks of nodes not yet assigned an SCC. Shares
  *     # memory with the labels array, since they are not used at the same time.
  *     lowlinks.fill(VOID)             # <<<<<<<<<<<<<<
@@ -6358,7 +6358,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":626
+  /* "gawml/utils/sparsetools/_traversal.pyx":626
  *     # each node once. stack_f shares memory with SS, as nodes aren't put on the
  *     # SS stack until after they've been popped from the DFS stack.
  *     stack_head = END             # <<<<<<<<<<<<<<
@@ -6367,7 +6367,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_stack_head = __pyx_v_END;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":627
+  /* "gawml/utils/sparsetools/_traversal.pyx":627
  *     # SS stack until after they've been popped from the DFS stack.
  *     stack_head = END
  *     stack_f.fill(VOID)             # <<<<<<<<<<<<<<
@@ -6406,7 +6406,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":628
+  /* "gawml/utils/sparsetools/_traversal.pyx":628
  *     stack_head = END
  *     stack_f.fill(VOID)
  *     stack_b.fill(VOID)             # <<<<<<<<<<<<<<
@@ -6445,7 +6445,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":630
+  /* "gawml/utils/sparsetools/_traversal.pyx":630
  *     stack_b.fill(VOID)
  * 
  *     index = 0             # <<<<<<<<<<<<<<
@@ -6454,7 +6454,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_index = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":632
+  /* "gawml/utils/sparsetools/_traversal.pyx":632
  *     index = 0
  *     # Count SCC labels backwards so as not to class with lowlinks values.
  *     label = N - 1             # <<<<<<<<<<<<<<
@@ -6463,7 +6463,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_label = (__pyx_v_N - 1);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":633
+  /* "gawml/utils/sparsetools/_traversal.pyx":633
  *     # Count SCC labels backwards so as not to class with lowlinks values.
  *     label = N - 1
  *     for v in range(N):             # <<<<<<<<<<<<<<
@@ -6474,7 +6474,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_1; __pyx_t_10+=1) {
     __pyx_v_v = __pyx_t_10;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":634
+    /* "gawml/utils/sparsetools/_traversal.pyx":634
  *     label = N - 1
  *     for v in range(N):
  *         if lowlinks[v] == VOID:             # <<<<<<<<<<<<<<
@@ -6491,10 +6491,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
       __Pyx_RaiseBufferIndexError(__pyx_t_12);
       __PYX_ERR(0, 634, __pyx_L1_error)
     }
-    __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+    __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
     if (__pyx_t_13) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":636
+      /* "gawml/utils/sparsetools/_traversal.pyx":636
  *         if lowlinks[v] == VOID:
  *             # DFS-stack push
  *             stack_head = v             # <<<<<<<<<<<<<<
@@ -6503,7 +6503,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
       __pyx_v_stack_head = __pyx_v_v;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":637
+      /* "gawml/utils/sparsetools/_traversal.pyx":637
  *             # DFS-stack push
  *             stack_head = v
  *             stack_f[v] = END             # <<<<<<<<<<<<<<
@@ -6520,9 +6520,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __Pyx_RaiseBufferIndexError(__pyx_t_12);
         __PYX_ERR(0, 637, __pyx_L1_error)
       }
-      *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_END;
+      *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_END;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":638
+      /* "gawml/utils/sparsetools/_traversal.pyx":638
  *             stack_head = v
  *             stack_f[v] = END
  *             stack_b[v] = END             # <<<<<<<<<<<<<<
@@ -6539,9 +6539,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __Pyx_RaiseBufferIndexError(__pyx_t_12);
         __PYX_ERR(0, 638, __pyx_L1_error)
       }
-      *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
+      *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":639
+      /* "gawml/utils/sparsetools/_traversal.pyx":639
  *             stack_f[v] = END
  *             stack_b[v] = END
  *             while stack_head != END:             # <<<<<<<<<<<<<<
@@ -6552,7 +6552,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __pyx_t_13 = ((__pyx_v_stack_head != __pyx_v_END) != 0);
         if (!__pyx_t_13) break;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":640
+        /* "gawml/utils/sparsetools/_traversal.pyx":640
  *             stack_b[v] = END
  *             while stack_head != END:
  *                 v = stack_head             # <<<<<<<<<<<<<<
@@ -6561,7 +6561,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
         __pyx_v_v = __pyx_v_stack_head;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":641
+        /* "gawml/utils/sparsetools/_traversal.pyx":641
  *             while stack_head != END:
  *                 v = stack_head
  *                 if lowlinks[v] == VOID:             # <<<<<<<<<<<<<<
@@ -6578,10 +6578,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __Pyx_RaiseBufferIndexError(__pyx_t_12);
           __PYX_ERR(0, 641, __pyx_L1_error)
         }
-        __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+        __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_16, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
         if (__pyx_t_13) {
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":642
+          /* "gawml/utils/sparsetools/_traversal.pyx":642
  *                 v = stack_head
  *                 if lowlinks[v] == VOID:
  *                     lowlinks[v] = index             # <<<<<<<<<<<<<<
@@ -6598,9 +6598,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 642, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_lowlinks.diminfo[0].strides) = __pyx_v_index;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_lowlinks.diminfo[0].strides) = __pyx_v_index;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":643
+          /* "gawml/utils/sparsetools/_traversal.pyx":643
  *                 if lowlinks[v] == VOID:
  *                     lowlinks[v] = index
  *                     index += 1             # <<<<<<<<<<<<<<
@@ -6609,7 +6609,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
           __pyx_v_index = (__pyx_v_index + 1);
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":646
+          /* "gawml/utils/sparsetools/_traversal.pyx":646
  * 
  *                     # Add successor nodes
  *                     for j from indptr[v] <= j < indptr[v+1]:             # <<<<<<<<<<<<<<
@@ -6636,10 +6636,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 646, __pyx_L1_error)
           }
-          __pyx_t_20 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_indptr.diminfo[0].strides));
-          for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_j < __pyx_t_20; __pyx_v_j++) {
+          __pyx_t_20 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_indptr.diminfo[0].strides));
+          for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_j < __pyx_t_20; __pyx_v_j++) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":647
+            /* "gawml/utils/sparsetools/_traversal.pyx":647
  *                     # Add successor nodes
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         w = indices[j]             # <<<<<<<<<<<<<<
@@ -6656,9 +6656,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 647, __pyx_L1_error)
             }
-            __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_indices.diminfo[0].strides));
+            __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_indices.diminfo[0].strides));
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":648
+            /* "gawml/utils/sparsetools/_traversal.pyx":648
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         w = indices[j]
  *                         if lowlinks[w] == VOID:             # <<<<<<<<<<<<<<
@@ -6675,10 +6675,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 648, __pyx_L1_error)
             }
-            __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+            __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) == __pyx_v_VOID) != 0);
             if (__pyx_t_13) {
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":650
+              /* "gawml/utils/sparsetools/_traversal.pyx":650
  *                         if lowlinks[w] == VOID:
  *                             # DFS-stack push
  *                             if stack_f[w] != VOID:             # <<<<<<<<<<<<<<
@@ -6695,10 +6695,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 650, __pyx_L1_error)
               }
-              __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_stack_f.diminfo[0].strides)) != __pyx_v_VOID) != 0);
+              __pyx_t_13 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_stack_f.diminfo[0].strides)) != __pyx_v_VOID) != 0);
               if (__pyx_t_13) {
 
-                /* "gaw/utils/sparsetools/_traversal.pyx":652
+                /* "gawml/utils/sparsetools/_traversal.pyx":652
  *                             if stack_f[w] != VOID:
  *                                 # w is already inside the stack, so excise it.
  *                                 f = stack_f[w]             # <<<<<<<<<<<<<<
@@ -6715,9 +6715,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                   __Pyx_RaiseBufferIndexError(__pyx_t_12);
                   __PYX_ERR(0, 652, __pyx_L1_error)
                 }
-                __pyx_v_f = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_stack_f.diminfo[0].strides));
+                __pyx_v_f = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_stack_f.diminfo[0].strides));
 
-                /* "gaw/utils/sparsetools/_traversal.pyx":653
+                /* "gawml/utils/sparsetools/_traversal.pyx":653
  *                                 # w is already inside the stack, so excise it.
  *                                 f = stack_f[w]
  *                                 b = stack_b[w]             # <<<<<<<<<<<<<<
@@ -6734,9 +6734,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                   __Pyx_RaiseBufferIndexError(__pyx_t_12);
                   __PYX_ERR(0, 653, __pyx_L1_error)
                 }
-                __pyx_v_b = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_stack_b.diminfo[0].strides));
+                __pyx_v_b = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_25, __pyx_pybuffernd_stack_b.diminfo[0].strides));
 
-                /* "gaw/utils/sparsetools/_traversal.pyx":654
+                /* "gawml/utils/sparsetools/_traversal.pyx":654
  *                                 f = stack_f[w]
  *                                 b = stack_b[w]
  *                                 if b != END:             # <<<<<<<<<<<<<<
@@ -6746,7 +6746,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __pyx_t_13 = ((__pyx_v_b != __pyx_v_END) != 0);
                 if (__pyx_t_13) {
 
-                  /* "gaw/utils/sparsetools/_traversal.pyx":655
+                  /* "gawml/utils/sparsetools/_traversal.pyx":655
  *                                 b = stack_b[w]
  *                                 if b != END:
  *                                     stack_f[b] = f             # <<<<<<<<<<<<<<
@@ -6763,9 +6763,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                     __Pyx_RaiseBufferIndexError(__pyx_t_12);
                     __PYX_ERR(0, 655, __pyx_L1_error)
                   }
-                  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_f;
+                  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_f;
 
-                  /* "gaw/utils/sparsetools/_traversal.pyx":654
+                  /* "gawml/utils/sparsetools/_traversal.pyx":654
  *                                 f = stack_f[w]
  *                                 b = stack_b[w]
  *                                 if b != END:             # <<<<<<<<<<<<<<
@@ -6774,7 +6774,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
                 }
 
-                /* "gaw/utils/sparsetools/_traversal.pyx":656
+                /* "gawml/utils/sparsetools/_traversal.pyx":656
  *                                 if b != END:
  *                                     stack_f[b] = f
  *                                 if f != END:             # <<<<<<<<<<<<<<
@@ -6784,7 +6784,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __pyx_t_13 = ((__pyx_v_f != __pyx_v_END) != 0);
                 if (__pyx_t_13) {
 
-                  /* "gaw/utils/sparsetools/_traversal.pyx":657
+                  /* "gawml/utils/sparsetools/_traversal.pyx":657
  *                                     stack_f[b] = f
  *                                 if f != END:
  *                                     stack_b[f] = b             # <<<<<<<<<<<<<<
@@ -6801,9 +6801,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                     __Pyx_RaiseBufferIndexError(__pyx_t_12);
                     __PYX_ERR(0, 657, __pyx_L1_error)
                   }
-                  *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_b;
+                  *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_27, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_b;
 
-                  /* "gaw/utils/sparsetools/_traversal.pyx":656
+                  /* "gawml/utils/sparsetools/_traversal.pyx":656
  *                                 if b != END:
  *                                     stack_f[b] = f
  *                                 if f != END:             # <<<<<<<<<<<<<<
@@ -6812,7 +6812,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
                 }
 
-                /* "gaw/utils/sparsetools/_traversal.pyx":650
+                /* "gawml/utils/sparsetools/_traversal.pyx":650
  *                         if lowlinks[w] == VOID:
  *                             # DFS-stack push
  *                             if stack_f[w] != VOID:             # <<<<<<<<<<<<<<
@@ -6821,7 +6821,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
               }
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":659
+              /* "gawml/utils/sparsetools/_traversal.pyx":659
  *                                     stack_b[f] = b
  * 
  *                             stack_f[w] = stack_head             # <<<<<<<<<<<<<<
@@ -6838,9 +6838,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 659, __pyx_L1_error)
               }
-              *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_stack_head;
+              *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_stack_head;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":660
+              /* "gawml/utils/sparsetools/_traversal.pyx":660
  * 
  *                             stack_f[w] = stack_head
  *                             stack_b[w] = END             # <<<<<<<<<<<<<<
@@ -6857,9 +6857,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 660, __pyx_L1_error)
               }
-              *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_29, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
+              *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_29, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":661
+              /* "gawml/utils/sparsetools/_traversal.pyx":661
  *                             stack_f[w] = stack_head
  *                             stack_b[w] = END
  *                             stack_b[stack_head] = w             # <<<<<<<<<<<<<<
@@ -6876,9 +6876,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 661, __pyx_L1_error)
               }
-              *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_w;
+              *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_w;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":662
+              /* "gawml/utils/sparsetools/_traversal.pyx":662
  *                             stack_b[w] = END
  *                             stack_b[stack_head] = w
  *                             stack_head = w             # <<<<<<<<<<<<<<
@@ -6887,7 +6887,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
               __pyx_v_stack_head = __pyx_v_w;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":648
+              /* "gawml/utils/sparsetools/_traversal.pyx":648
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         w = indices[j]
  *                         if lowlinks[w] == VOID:             # <<<<<<<<<<<<<<
@@ -6897,7 +6897,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             }
           }
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":641
+          /* "gawml/utils/sparsetools/_traversal.pyx":641
  *             while stack_head != END:
  *                 v = stack_head
  *                 if lowlinks[v] == VOID:             # <<<<<<<<<<<<<<
@@ -6907,7 +6907,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           goto __pyx_L8;
         }
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":666
+        /* "gawml/utils/sparsetools/_traversal.pyx":666
  *                 else:
  *                     # DFS-stack pop
  *                     stack_head = stack_f[v]             # <<<<<<<<<<<<<<
@@ -6925,9 +6925,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 666, __pyx_L1_error)
           }
-          __pyx_v_stack_head = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_31, __pyx_pybuffernd_stack_f.diminfo[0].strides));
+          __pyx_v_stack_head = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_31, __pyx_pybuffernd_stack_f.diminfo[0].strides));
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":667
+          /* "gawml/utils/sparsetools/_traversal.pyx":667
  *                     # DFS-stack pop
  *                     stack_head = stack_f[v]
  *                     if stack_head >= 0:             # <<<<<<<<<<<<<<
@@ -6937,7 +6937,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __pyx_t_13 = ((__pyx_v_stack_head >= 0) != 0);
           if (__pyx_t_13) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":668
+            /* "gawml/utils/sparsetools/_traversal.pyx":668
  *                     stack_head = stack_f[v]
  *                     if stack_head >= 0:
  *                         stack_b[stack_head] = END             # <<<<<<<<<<<<<<
@@ -6954,9 +6954,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 668, __pyx_L1_error)
             }
-            *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_32, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
+            *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_32, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_END;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":667
+            /* "gawml/utils/sparsetools/_traversal.pyx":667
  *                     # DFS-stack pop
  *                     stack_head = stack_f[v]
  *                     if stack_head >= 0:             # <<<<<<<<<<<<<<
@@ -6965,7 +6965,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
           }
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":669
+          /* "gawml/utils/sparsetools/_traversal.pyx":669
  *                     if stack_head >= 0:
  *                         stack_b[stack_head] = END
  *                     stack_f[v] = VOID             # <<<<<<<<<<<<<<
@@ -6982,9 +6982,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 669, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_33, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_VOID;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_f.rcbuffer->pybuffer.buf, __pyx_t_33, __pyx_pybuffernd_stack_f.diminfo[0].strides) = __pyx_v_VOID;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":670
+          /* "gawml/utils/sparsetools/_traversal.pyx":670
  *                         stack_b[stack_head] = END
  *                     stack_f[v] = VOID
  *                     stack_b[v] = VOID             # <<<<<<<<<<<<<<
@@ -7001,9 +7001,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 670, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_34, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_VOID;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_stack_b.rcbuffer->pybuffer.buf, __pyx_t_34, __pyx_pybuffernd_stack_b.diminfo[0].strides) = __pyx_v_VOID;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":672
+          /* "gawml/utils/sparsetools/_traversal.pyx":672
  *                     stack_b[v] = VOID
  * 
  *                     root = 1 # True             # <<<<<<<<<<<<<<
@@ -7012,7 +7012,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
           __pyx_v_root = 1;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":673
+          /* "gawml/utils/sparsetools/_traversal.pyx":673
  * 
  *                     root = 1 # True
  *                     low_v = lowlinks[v]             # <<<<<<<<<<<<<<
@@ -7029,9 +7029,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 673, __pyx_L1_error)
           }
-          __pyx_v_low_v = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_35, __pyx_pybuffernd_lowlinks.diminfo[0].strides));
+          __pyx_v_low_v = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_35, __pyx_pybuffernd_lowlinks.diminfo[0].strides));
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":674
+          /* "gawml/utils/sparsetools/_traversal.pyx":674
  *                     root = 1 # True
  *                     low_v = lowlinks[v]
  *                     for j from indptr[v] <= j < indptr[v+1]:             # <<<<<<<<<<<<<<
@@ -7058,10 +7058,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 674, __pyx_L1_error)
           }
-          __pyx_t_20 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_37, __pyx_pybuffernd_indptr.diminfo[0].strides));
-          for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_36, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_j < __pyx_t_20; __pyx_v_j++) {
+          __pyx_t_20 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_37, __pyx_pybuffernd_indptr.diminfo[0].strides));
+          for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_36, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_j < __pyx_t_20; __pyx_v_j++) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":675
+            /* "gawml/utils/sparsetools/_traversal.pyx":675
  *                     low_v = lowlinks[v]
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         low_w = lowlinks[indices[j]]             # <<<<<<<<<<<<<<
@@ -7078,7 +7078,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 675, __pyx_L1_error)
             }
-            __pyx_t_39 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_38, __pyx_pybuffernd_indices.diminfo[0].strides));
+            __pyx_t_39 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices.rcbuffer->pybuffer.buf, __pyx_t_38, __pyx_pybuffernd_indices.diminfo[0].strides));
             __pyx_t_12 = -1;
             if (__pyx_t_39 < 0) {
               __pyx_t_39 += __pyx_pybuffernd_lowlinks.diminfo[0].shape;
@@ -7088,9 +7088,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 675, __pyx_L1_error)
             }
-            __pyx_v_low_w = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_39, __pyx_pybuffernd_lowlinks.diminfo[0].strides));
+            __pyx_v_low_w = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_39, __pyx_pybuffernd_lowlinks.diminfo[0].strides));
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":676
+            /* "gawml/utils/sparsetools/_traversal.pyx":676
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         low_w = lowlinks[indices[j]]
  *                         if low_w < low_v:             # <<<<<<<<<<<<<<
@@ -7100,7 +7100,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __pyx_t_13 = ((__pyx_v_low_w < __pyx_v_low_v) != 0);
             if (__pyx_t_13) {
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":677
+              /* "gawml/utils/sparsetools/_traversal.pyx":677
  *                         low_w = lowlinks[indices[j]]
  *                         if low_w < low_v:
  *                             low_v = low_w             # <<<<<<<<<<<<<<
@@ -7109,7 +7109,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
               __pyx_v_low_v = __pyx_v_low_w;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":678
+              /* "gawml/utils/sparsetools/_traversal.pyx":678
  *                         if low_w < low_v:
  *                             low_v = low_w
  *                             root = 0 # False             # <<<<<<<<<<<<<<
@@ -7118,7 +7118,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
               __pyx_v_root = 0;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":676
+              /* "gawml/utils/sparsetools/_traversal.pyx":676
  *                     for j from indptr[v] <= j < indptr[v+1]:
  *                         low_w = lowlinks[indices[j]]
  *                         if low_w < low_v:             # <<<<<<<<<<<<<<
@@ -7128,7 +7128,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             }
           }
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":679
+          /* "gawml/utils/sparsetools/_traversal.pyx":679
  *                             low_v = low_w
  *                             root = 0 # False
  *                     lowlinks[v] = low_v             # <<<<<<<<<<<<<<
@@ -7145,9 +7145,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_12);
             __PYX_ERR(0, 679, __pyx_L1_error)
           }
-          *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_40, __pyx_pybuffernd_lowlinks.diminfo[0].strides) = __pyx_v_low_v;
+          *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_40, __pyx_pybuffernd_lowlinks.diminfo[0].strides) = __pyx_v_low_v;
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":681
+          /* "gawml/utils/sparsetools/_traversal.pyx":681
  *                     lowlinks[v] = low_v
  * 
  *                     if root: # Found a root node             # <<<<<<<<<<<<<<
@@ -7157,7 +7157,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __pyx_t_13 = (__pyx_v_root != 0);
           if (__pyx_t_13) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":682
+            /* "gawml/utils/sparsetools/_traversal.pyx":682
  * 
  *                     if root: # Found a root node
  *                         index -= 1             # <<<<<<<<<<<<<<
@@ -7166,7 +7166,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
             __pyx_v_index = (__pyx_v_index - 1);
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":684
+            /* "gawml/utils/sparsetools/_traversal.pyx":684
  *                         index -= 1
  *                         # while S not empty and rindex[v] <= rindex[top[S]
  *                         while SS_head != END and lowlinks[v] <= lowlinks[SS_head]:             # <<<<<<<<<<<<<<
@@ -7200,12 +7200,12 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 684, __pyx_L1_error)
               }
-              __pyx_t_41 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_42, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) <= (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_43, __pyx_pybuffernd_lowlinks.diminfo[0].strides))) != 0);
+              __pyx_t_41 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_42, __pyx_pybuffernd_lowlinks.diminfo[0].strides)) <= (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_lowlinks.rcbuffer->pybuffer.buf, __pyx_t_43, __pyx_pybuffernd_lowlinks.diminfo[0].strides))) != 0);
               __pyx_t_13 = __pyx_t_41;
               __pyx_L22_bool_binop_done:;
               if (!__pyx_t_13) break;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":685
+              /* "gawml/utils/sparsetools/_traversal.pyx":685
  *                         # while S not empty and rindex[v] <= rindex[top[S]
  *                         while SS_head != END and lowlinks[v] <= lowlinks[SS_head]:
  *                             w = SS_head        # w = pop(S)             # <<<<<<<<<<<<<<
@@ -7214,7 +7214,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
               __pyx_v_w = __pyx_v_SS_head;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":686
+              /* "gawml/utils/sparsetools/_traversal.pyx":686
  *                         while SS_head != END and lowlinks[v] <= lowlinks[SS_head]:
  *                             w = SS_head        # w = pop(S)
  *                             SS_head = SS[w]             # <<<<<<<<<<<<<<
@@ -7231,9 +7231,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 686, __pyx_L1_error)
               }
-              __pyx_v_SS_head = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_44, __pyx_pybuffernd_SS.diminfo[0].strides));
+              __pyx_v_SS_head = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_44, __pyx_pybuffernd_SS.diminfo[0].strides));
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":687
+              /* "gawml/utils/sparsetools/_traversal.pyx":687
  *                             w = SS_head        # w = pop(S)
  *                             SS_head = SS[w]
  *                             SS[w] = VOID             # <<<<<<<<<<<<<<
@@ -7250,9 +7250,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 687, __pyx_L1_error)
               }
-              *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_45, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_VOID;
+              *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_45, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_VOID;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":689
+              /* "gawml/utils/sparsetools/_traversal.pyx":689
  *                             SS[w] = VOID
  * 
  *                             labels[w] = label  # rindex[w] = c             # <<<<<<<<<<<<<<
@@ -7269,9 +7269,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
                 __Pyx_RaiseBufferIndexError(__pyx_t_12);
                 __PYX_ERR(0, 689, __pyx_L1_error)
               }
-              *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_46, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
+              *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_46, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
 
-              /* "gaw/utils/sparsetools/_traversal.pyx":690
+              /* "gawml/utils/sparsetools/_traversal.pyx":690
  * 
  *                             labels[w] = label  # rindex[w] = c
  *                             index -= 1         # index = index - 1             # <<<<<<<<<<<<<<
@@ -7281,7 +7281,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __pyx_v_index = (__pyx_v_index - 1);
             }
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":691
+            /* "gawml/utils/sparsetools/_traversal.pyx":691
  *                             labels[w] = label  # rindex[w] = c
  *                             index -= 1         # index = index - 1
  *                         labels[v] = label  # rindex[v] = c             # <<<<<<<<<<<<<<
@@ -7298,9 +7298,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 691, __pyx_L1_error)
             }
-            *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_47, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
+            *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_47, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":692
+            /* "gawml/utils/sparsetools/_traversal.pyx":692
  *                             index -= 1         # index = index - 1
  *                         labels[v] = label  # rindex[v] = c
  *                         label -= 1         # c = c - 1             # <<<<<<<<<<<<<<
@@ -7309,7 +7309,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
             __pyx_v_label = (__pyx_v_label - 1);
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":681
+            /* "gawml/utils/sparsetools/_traversal.pyx":681
  *                     lowlinks[v] = low_v
  * 
  *                     if root: # Found a root node             # <<<<<<<<<<<<<<
@@ -7319,7 +7319,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             goto __pyx_L19;
           }
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":694
+          /* "gawml/utils/sparsetools/_traversal.pyx":694
  *                         label -= 1         # c = c - 1
  *                     else:
  *                         SS[v] = SS_head  # push(S, v)             # <<<<<<<<<<<<<<
@@ -7337,9 +7337,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_12);
               __PYX_ERR(0, 694, __pyx_L1_error)
             }
-            *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_48, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
+            *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_48, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":695
+            /* "gawml/utils/sparsetools/_traversal.pyx":695
  *                     else:
  *                         SS[v] = SS_head  # push(S, v)
  *                         SS_head = v             # <<<<<<<<<<<<<<
@@ -7353,7 +7353,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __pyx_L8:;
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":634
+      /* "gawml/utils/sparsetools/_traversal.pyx":634
  *     label = N - 1
  *     for v in range(N):
  *         if lowlinks[v] == VOID:             # <<<<<<<<<<<<<<
@@ -7363,7 +7363,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
     }
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":699
+  /* "gawml/utils/sparsetools/_traversal.pyx":699
  *     # labels count down from N-1 to zero. Modify them so they
  *     # count upward from 0
  *     labels *= -1             # <<<<<<<<<<<<<<
@@ -7377,10 +7377,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_labels.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_t_49, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_t_49, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_2, &__pyx_t_3, &__pyx_t_4);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_2); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_4);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -7394,7 +7394,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_5));
   __pyx_t_5 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":700
+  /* "gawml/utils/sparsetools/_traversal.pyx":700
  *     # count upward from 0
  *     labels *= -1
  *     labels += (N - 1)             # <<<<<<<<<<<<<<
@@ -7411,10 +7411,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_labels.rcbuffer->pybuffer);
-    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_t_49, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
+    __pyx_t_1 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_t_49, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack);
     if (unlikely(__pyx_t_1 < 0)) {
       PyErr_Fetch(&__pyx_t_4, &__pyx_t_3, &__pyx_t_2);
-      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
         Py_XDECREF(__pyx_t_4); Py_XDECREF(__pyx_t_3); Py_XDECREF(__pyx_t_2);
         __Pyx_RaiseBufferFallbackError();
       } else {
@@ -7428,7 +7428,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF_SET(__pyx_v_labels, ((PyArrayObject *)__pyx_t_6));
   __pyx_t_6 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":701
+  /* "gawml/utils/sparsetools/_traversal.pyx":701
  *     labels *= -1
  *     labels += (N - 1)
  *     return (N - 1) - label             # <<<<<<<<<<<<<<
@@ -7438,7 +7438,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_r = ((__pyx_v_N - 1) - __pyx_v_label);
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":586
+  /* "gawml/utils/sparsetools/_traversal.pyx":586
  * 
  * 
  * cdef int _connected_components_directed(             # <<<<<<<<<<<<<<
@@ -7465,7 +7465,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_stack_b.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_stack_f.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._connected_components_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._connected_components_directed", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -7486,7 +7486,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   return __pyx_r;
 }
 
-/* "gaw/utils/sparsetools/_traversal.pyx":703
+/* "gawml/utils/sparsetools/_traversal.pyx":703
  *     return (N - 1) - label
  * 
  * cdef int _connected_components_undirected(             # <<<<<<<<<<<<<<
@@ -7494,7 +7494,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  *                            np.ndarray[ITYPE_t, ndim=1, mode='c'] indptr1,
  */
 
-static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_undirected(PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_labels) {
+static int __pyx_f_5gawml_5utils_11sparsetools_10_traversal__connected_components_undirected(PyArrayObject *__pyx_v_indices1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_indices2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_labels) {
   int __pyx_v_v;
   int __pyx_v_w;
   int __pyx_v_j;
@@ -7533,7 +7533,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   Py_ssize_t __pyx_t_13;
   Py_ssize_t __pyx_t_14;
   Py_ssize_t __pyx_t_15;
-  __pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_16;
+  __pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
   Py_ssize_t __pyx_t_19;
@@ -7569,31 +7569,31 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_pybuffernd_labels.rcbuffer = &__pyx_pybuffer_labels;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices1.diminfo[0].strides = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices1.diminfo[0].shape = __pyx_pybuffernd_indices1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr1.diminfo[0].strides = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr1.diminfo[0].shape = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indices2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indices2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
   }
   __pyx_pybuffernd_indices2.diminfo[0].strides = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indices2.diminfo[0].shape = __pyx_pybuffernd_indices2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr2.diminfo[0].strides = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr2.diminfo[0].shape = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_labels.rcbuffer->pybuffer, (PyObject*)__pyx_v_labels, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 703, __pyx_L1_error)
   }
   __pyx_pybuffernd_labels.diminfo[0].strides = __pyx_pybuffernd_labels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_labels.diminfo[0].shape = __pyx_pybuffernd_labels.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":711
+  /* "gawml/utils/sparsetools/_traversal.pyx":711
  * 
  *     cdef int v, w, j, label, SS_head
  *     cdef int N = labels.shape[0]             # <<<<<<<<<<<<<<
@@ -7602,7 +7602,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_N = (__pyx_v_labels->dimensions[0]);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":712
+  /* "gawml/utils/sparsetools/_traversal.pyx":712
  *     cdef int v, w, j, label, SS_head
  *     cdef int N = labels.shape[0]
  *     cdef int VOID = -1             # <<<<<<<<<<<<<<
@@ -7611,7 +7611,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_VOID = -1;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":713
+  /* "gawml/utils/sparsetools/_traversal.pyx":713
  *     cdef int N = labels.shape[0]
  *     cdef int VOID = -1
  *     cdef int END = -2             # <<<<<<<<<<<<<<
@@ -7620,7 +7620,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_END = -2;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":714
+  /* "gawml/utils/sparsetools/_traversal.pyx":714
  *     cdef int VOID = -1
  *     cdef int END = -2
  *     labels.fill(VOID)             # <<<<<<<<<<<<<<
@@ -7659,7 +7659,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":715
+  /* "gawml/utils/sparsetools/_traversal.pyx":715
  *     cdef int END = -2
  *     labels.fill(VOID)
  *     label = 0             # <<<<<<<<<<<<<<
@@ -7668,7 +7668,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_label = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":719
+  /* "gawml/utils/sparsetools/_traversal.pyx":719
  *     # Share memory for the stack and labels, since labels are only
  *     # applied once a node has been popped from the stack.
  *     cdef np.ndarray[ITYPE_t, ndim=1, mode="c"] SS = labels             # <<<<<<<<<<<<<<
@@ -7677,7 +7677,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_v_labels), &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_SS.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_v_labels), &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_SS = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf = NULL;
       __PYX_ERR(0, 719, __pyx_L1_error)
     } else {__pyx_pybuffernd_SS.diminfo[0].strides = __pyx_pybuffernd_SS.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_SS.diminfo[0].shape = __pyx_pybuffernd_SS.rcbuffer->pybuffer.shape[0];
@@ -7686,7 +7686,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __Pyx_INCREF(((PyObject *)__pyx_v_labels));
   __pyx_v_SS = ((PyArrayObject *)__pyx_v_labels);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":720
+  /* "gawml/utils/sparsetools/_traversal.pyx":720
  *     # applied once a node has been popped from the stack.
  *     cdef np.ndarray[ITYPE_t, ndim=1, mode="c"] SS = labels
  *     SS_head = END             # <<<<<<<<<<<<<<
@@ -7695,7 +7695,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
   __pyx_v_SS_head = __pyx_v_END;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":721
+  /* "gawml/utils/sparsetools/_traversal.pyx":721
  *     cdef np.ndarray[ITYPE_t, ndim=1, mode="c"] SS = labels
  *     SS_head = END
  *     for v in range(N):             # <<<<<<<<<<<<<<
@@ -7706,7 +7706,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   for (__pyx_t_7 = 0; __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
     __pyx_v_v = __pyx_t_7;
 
-    /* "gaw/utils/sparsetools/_traversal.pyx":722
+    /* "gawml/utils/sparsetools/_traversal.pyx":722
  *     SS_head = END
  *     for v in range(N):
  *         if labels[v] == VOID:             # <<<<<<<<<<<<<<
@@ -7723,10 +7723,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
       __Pyx_RaiseBufferIndexError(__pyx_t_9);
       __PYX_ERR(0, 722, __pyx_L1_error)
     }
-    __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_labels.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+    __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_labels.diminfo[0].strides)) == __pyx_v_VOID) != 0);
     if (__pyx_t_10) {
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":724
+      /* "gawml/utils/sparsetools/_traversal.pyx":724
  *         if labels[v] == VOID:
  *             # SS.push(v)
  *             SS_head = v             # <<<<<<<<<<<<<<
@@ -7735,7 +7735,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
       __pyx_v_SS_head = __pyx_v_v;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":725
+      /* "gawml/utils/sparsetools/_traversal.pyx":725
  *             # SS.push(v)
  *             SS_head = v
  *             SS[v] = END             # <<<<<<<<<<<<<<
@@ -7752,9 +7752,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __Pyx_RaiseBufferIndexError(__pyx_t_9);
         __PYX_ERR(0, 725, __pyx_L1_error)
       }
-      *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_END;
+      *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_END;
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":727
+      /* "gawml/utils/sparsetools/_traversal.pyx":727
  *             SS[v] = END
  * 
  *             while SS_head != END:             # <<<<<<<<<<<<<<
@@ -7765,7 +7765,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         __pyx_t_10 = ((__pyx_v_SS_head != __pyx_v_END) != 0);
         if (!__pyx_t_10) break;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":729
+        /* "gawml/utils/sparsetools/_traversal.pyx":729
  *             while SS_head != END:
  *                 # v = SS.pop()
  *                 v = SS_head             # <<<<<<<<<<<<<<
@@ -7774,7 +7774,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
         __pyx_v_v = __pyx_v_SS_head;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":730
+        /* "gawml/utils/sparsetools/_traversal.pyx":730
  *                 # v = SS.pop()
  *                 v = SS_head
  *                 SS_head = SS[v]             # <<<<<<<<<<<<<<
@@ -7791,9 +7791,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __Pyx_RaiseBufferIndexError(__pyx_t_9);
           __PYX_ERR(0, 730, __pyx_L1_error)
         }
-        __pyx_v_SS_head = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_SS.diminfo[0].strides));
+        __pyx_v_SS_head = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_SS.diminfo[0].strides));
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":732
+        /* "gawml/utils/sparsetools/_traversal.pyx":732
  *                 SS_head = SS[v]
  * 
  *                 labels[v] = label             # <<<<<<<<<<<<<<
@@ -7810,9 +7810,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __Pyx_RaiseBufferIndexError(__pyx_t_9);
           __PYX_ERR(0, 732, __pyx_L1_error)
         }
-        *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
+        *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_labels.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_labels.diminfo[0].strides) = __pyx_v_label;
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":736
+        /* "gawml/utils/sparsetools/_traversal.pyx":736
  *                 # Push children onto the stack if they havn't been
  *                 # seen at all yet.
  *                 for j from indptr1[v] <= j < indptr1[v+1]:             # <<<<<<<<<<<<<<
@@ -7839,10 +7839,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __Pyx_RaiseBufferIndexError(__pyx_t_9);
           __PYX_ERR(0, 736, __pyx_L1_error)
         }
-        __pyx_t_16 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_indptr1.diminfo[0].strides));
-        for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_j < __pyx_t_16; __pyx_v_j++) {
+        __pyx_t_16 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_indptr1.diminfo[0].strides));
+        for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_j < __pyx_t_16; __pyx_v_j++) {
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":737
+          /* "gawml/utils/sparsetools/_traversal.pyx":737
  *                 # seen at all yet.
  *                 for j from indptr1[v] <= j < indptr1[v+1]:
  *                     w = indices1[j]             # <<<<<<<<<<<<<<
@@ -7859,9 +7859,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_9);
             __PYX_ERR(0, 737, __pyx_L1_error)
           }
-          __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_indices1.diminfo[0].strides));
+          __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices1.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_indices1.diminfo[0].strides));
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":738
+          /* "gawml/utils/sparsetools/_traversal.pyx":738
  *                 for j from indptr1[v] <= j < indptr1[v+1]:
  *                     w = indices1[j]
  *                     if SS[w] == VOID:             # <<<<<<<<<<<<<<
@@ -7878,10 +7878,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_9);
             __PYX_ERR(0, 738, __pyx_L1_error)
           }
-          __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_SS.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+          __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_SS.diminfo[0].strides)) == __pyx_v_VOID) != 0);
           if (__pyx_t_10) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":739
+            /* "gawml/utils/sparsetools/_traversal.pyx":739
  *                     w = indices1[j]
  *                     if SS[w] == VOID:
  *                         SS[w] = SS_head             # <<<<<<<<<<<<<<
@@ -7898,9 +7898,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_9);
               __PYX_ERR(0, 739, __pyx_L1_error)
             }
-            *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
+            *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":740
+            /* "gawml/utils/sparsetools/_traversal.pyx":740
  *                     if SS[w] == VOID:
  *                         SS[w] = SS_head
  *                         SS_head = w             # <<<<<<<<<<<<<<
@@ -7909,7 +7909,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
             __pyx_v_SS_head = __pyx_v_w;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":738
+            /* "gawml/utils/sparsetools/_traversal.pyx":738
  *                 for j from indptr1[v] <= j < indptr1[v+1]:
  *                     w = indices1[j]
  *                     if SS[w] == VOID:             # <<<<<<<<<<<<<<
@@ -7919,7 +7919,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           }
         }
 
-        /* "gaw/utils/sparsetools/_traversal.pyx":741
+        /* "gawml/utils/sparsetools/_traversal.pyx":741
  *                         SS[w] = SS_head
  *                         SS_head = w
  *                 for j from indptr2[v] <= j < indptr2[v+1]:             # <<<<<<<<<<<<<<
@@ -7946,10 +7946,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
           __Pyx_RaiseBufferIndexError(__pyx_t_9);
           __PYX_ERR(0, 741, __pyx_L1_error)
         }
-        __pyx_t_16 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_indptr2.diminfo[0].strides));
-        for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_j < __pyx_t_16; __pyx_v_j++) {
+        __pyx_t_16 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_indptr2.diminfo[0].strides));
+        for (__pyx_v_j = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_j < __pyx_t_16; __pyx_v_j++) {
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":742
+          /* "gawml/utils/sparsetools/_traversal.pyx":742
  *                         SS_head = w
  *                 for j from indptr2[v] <= j < indptr2[v+1]:
  *                     w = indices2[j]             # <<<<<<<<<<<<<<
@@ -7966,9 +7966,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_9);
             __PYX_ERR(0, 742, __pyx_L1_error)
           }
-          __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_indices2.diminfo[0].strides));
+          __pyx_v_w = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_indices2.rcbuffer->pybuffer.buf, __pyx_t_22, __pyx_pybuffernd_indices2.diminfo[0].strides));
 
-          /* "gaw/utils/sparsetools/_traversal.pyx":743
+          /* "gawml/utils/sparsetools/_traversal.pyx":743
  *                 for j from indptr2[v] <= j < indptr2[v+1]:
  *                     w = indices2[j]
  *                     if SS[w] == VOID:             # <<<<<<<<<<<<<<
@@ -7985,10 +7985,10 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
             __Pyx_RaiseBufferIndexError(__pyx_t_9);
             __PYX_ERR(0, 743, __pyx_L1_error)
           }
-          __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_SS.diminfo[0].strides)) == __pyx_v_VOID) != 0);
+          __pyx_t_10 = (((*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_SS.diminfo[0].strides)) == __pyx_v_VOID) != 0);
           if (__pyx_t_10) {
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":744
+            /* "gawml/utils/sparsetools/_traversal.pyx":744
  *                     w = indices2[j]
  *                     if SS[w] == VOID:
  *                         SS[w] = SS_head             # <<<<<<<<<<<<<<
@@ -8005,9 +8005,9 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
               __Pyx_RaiseBufferIndexError(__pyx_t_9);
               __PYX_ERR(0, 744, __pyx_L1_error)
             }
-            *__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
+            *__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_11sparsetools_10_traversal_ITYPE_t *, __pyx_pybuffernd_SS.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_SS.diminfo[0].strides) = __pyx_v_SS_head;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":745
+            /* "gawml/utils/sparsetools/_traversal.pyx":745
  *                     if SS[w] == VOID:
  *                         SS[w] = SS_head
  *                         SS_head = w             # <<<<<<<<<<<<<<
@@ -8016,7 +8016,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
             __pyx_v_SS_head = __pyx_v_w;
 
-            /* "gaw/utils/sparsetools/_traversal.pyx":743
+            /* "gawml/utils/sparsetools/_traversal.pyx":743
  *                 for j from indptr2[v] <= j < indptr2[v+1]:
  *                     w = indices2[j]
  *                     if SS[w] == VOID:             # <<<<<<<<<<<<<<
@@ -8027,7 +8027,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
         }
       }
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":746
+      /* "gawml/utils/sparsetools/_traversal.pyx":746
  *                         SS[w] = SS_head
  *                         SS_head = w
  *             label += 1             # <<<<<<<<<<<<<<
@@ -8036,7 +8036,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
  */
       __pyx_v_label = (__pyx_v_label + 1);
 
-      /* "gaw/utils/sparsetools/_traversal.pyx":722
+      /* "gawml/utils/sparsetools/_traversal.pyx":722
  *     SS_head = END
  *     for v in range(N):
  *         if labels[v] == VOID:             # <<<<<<<<<<<<<<
@@ -8046,7 +8046,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
     }
   }
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":748
+  /* "gawml/utils/sparsetools/_traversal.pyx":748
  *             label += 1
  * 
  *     return label             # <<<<<<<<<<<<<<
@@ -8054,7 +8054,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
   __pyx_r = __pyx_v_label;
   goto __pyx_L0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":703
+  /* "gawml/utils/sparsetools/_traversal.pyx":703
  *     return (N - 1) - label
  * 
  * cdef int _connected_components_undirected(             # <<<<<<<<<<<<<<
@@ -8080,7 +8080,7 @@ static int __pyx_f_3gaw_5utils_11sparsetools_10_traversal__connected_components_
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_labels.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.sparsetools._traversal._connected_components_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.sparsetools._traversal._connected_components_undirected", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -10272,7 +10272,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_fill, __pyx_k_fill, sizeof(__pyx_k_fill), 0, 0, 1, 1},
   {&__pyx_n_s_flag, __pyx_k_flag, sizeof(__pyx_k_flag), 0, 0, 1, 1},
   {&__pyx_n_s_float64, __pyx_k_float64, sizeof(__pyx_k_float64), 0, 0, 1, 1},
-  {&__pyx_n_s_gaw_utils_sparsetools__traversal, __pyx_k_gaw_utils_sparsetools__traversal, sizeof(__pyx_k_gaw_utils_sparsetools__traversal), 0, 0, 1, 1},
+  {&__pyx_n_s_gawml_utils_sparsetools__travers, __pyx_k_gawml_utils_sparsetools__travers, sizeof(__pyx_k_gawml_utils_sparsetools__travers), 0, 0, 1, 1},
   {&__pyx_n_s_graph_tools, __pyx_k_graph_tools, sizeof(__pyx_k_graph_tools), 0, 0, 1, 1},
   {&__pyx_n_s_graph_validation, __pyx_k_graph_validation, sizeof(__pyx_k_graph_validation), 0, 0, 1, 1},
   {&__pyx_n_s_i_start, __pyx_k_i_start, sizeof(__pyx_k_i_start), 0, 0, 1, 1},
@@ -10323,7 +10323,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":69
+  /* "gawml/utils/sparsetools/_traversal.pyx":69
  *     """
  *     if connection.lower() not in ['weak', 'strong']:
  *         raise ValueError("connection must be 'weak' or 'strong'")             # <<<<<<<<<<<<<<
@@ -10400,7 +10400,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":30
+  /* "gawml/utils/sparsetools/_traversal.pyx":30
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def connected_components(csgraph, directed=True, connection='weak',             # <<<<<<<<<<<<<<
@@ -10412,7 +10412,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__8);
   __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_connected_components, 30, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 30, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":99
+  /* "gawml/utils/sparsetools/_traversal.pyx":99
  * 
  * 
  * def breadth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -10424,7 +10424,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__10);
   __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_breadth_first_tree, 99, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 99, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":169
+  /* "gawml/utils/sparsetools/_traversal.pyx":169
  * 
  * 
  * def depth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
@@ -10436,7 +10436,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__12);
   __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_depth_first_tree, 169, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) __PYX_ERR(0, 169, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":243
+  /* "gawml/utils/sparsetools/_traversal.pyx":243
  * 
  * 
  * def breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -10448,7 +10448,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__14);
   __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(4, 0, 9, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_breadth_first_order, 243, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) __PYX_ERR(0, 243, __pyx_L1_error)
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":407
+  /* "gawml/utils/sparsetools/_traversal.pyx":407
  * 
  * 
  * def depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
@@ -10540,14 +10540,14 @@ PyMODINIT_FUNC PyInit__traversal(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__sparsetools___traversal) {
+  if (__pyx_module_is_main_gawml__utils__sparsetools___traversal) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.sparsetools._traversal")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.sparsetools._traversal", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.sparsetools._traversal")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.sparsetools._traversal", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -10579,7 +10579,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":8
+  /* "gawml/utils/sparsetools/_traversal.pyx":8
  * # License: BSD, (C) 2012
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -10591,7 +10591,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":11
+  /* "gawml/utils/sparsetools/_traversal.pyx":11
  * cimport numpy as np
  * 
  * from scipy.sparse import csr_matrix, isspmatrix, isspmatrix_csr, isspmatrix_csc             # <<<<<<<<<<<<<<
@@ -10633,7 +10633,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":12
+  /* "gawml/utils/sparsetools/_traversal.pyx":12
  * 
  * from scipy.sparse import csr_matrix, isspmatrix, isspmatrix_csr, isspmatrix_csc
  * from ._graph_validation import validate_graph             # <<<<<<<<<<<<<<
@@ -10654,7 +10654,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":13
+  /* "gawml/utils/sparsetools/_traversal.pyx":13
  * from scipy.sparse import csr_matrix, isspmatrix, isspmatrix_csr, isspmatrix_csc
  * from ._graph_validation import validate_graph
  * from ._graph_tools import reconstruct_path             # <<<<<<<<<<<<<<
@@ -10675,7 +10675,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":18
+  /* "gawml/utils/sparsetools/_traversal.pyx":18
  * from libc cimport stdlib
  * 
  * DTYPE = np.float64             # <<<<<<<<<<<<<<
@@ -10690,7 +10690,7 @@ PyMODINIT_FUNC PyInit__traversal(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_1) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":21
+  /* "gawml/utils/sparsetools/_traversal.pyx":21
  * ctypedef np.float64_t DTYPE_t
  * 
  * ITYPE = np.int32             # <<<<<<<<<<<<<<
@@ -10705,85 +10705,85 @@ PyMODINIT_FUNC PyInit__traversal(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ITYPE, __pyx_t_2) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":25
+  /* "gawml/utils/sparsetools/_traversal.pyx":25
  * 
  * # EPS is the precision of DTYPE
  * cdef DTYPE_t DTYPE_EPS = 1E-15             # <<<<<<<<<<<<<<
  * 
  * # NULL_IDX is the index used in predecessor matrices to store a non-path
  */
-  __pyx_v_3gaw_5utils_11sparsetools_10_traversal_DTYPE_EPS = 1E-15;
+  __pyx_v_5gawml_5utils_11sparsetools_10_traversal_DTYPE_EPS = 1E-15;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":28
+  /* "gawml/utils/sparsetools/_traversal.pyx":28
  * 
  * # NULL_IDX is the index used in predecessor matrices to store a non-path
  * cdef ITYPE_t NULL_IDX = -9999             # <<<<<<<<<<<<<<
  * 
  * def connected_components(csgraph, directed=True, connection='weak',
  */
-  __pyx_v_3gaw_5utils_11sparsetools_10_traversal_NULL_IDX = -9999;
+  __pyx_v_5gawml_5utils_11sparsetools_10_traversal_NULL_IDX = -9999;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":30
+  /* "gawml/utils/sparsetools/_traversal.pyx":30
  * cdef ITYPE_t NULL_IDX = -9999
  * 
  * def connected_components(csgraph, directed=True, connection='weak',             # <<<<<<<<<<<<<<
  *                          return_labels=True):
  *     """
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_1connected_components, NULL, __pyx_n_s_gaw_utils_sparsetools__traversal); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_1connected_components, NULL, __pyx_n_s_gawml_utils_sparsetools__travers); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_connected_components, __pyx_t_2) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":99
+  /* "gawml/utils/sparsetools/_traversal.pyx":99
  * 
  * 
  * def breadth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
  *     r"""
  *     breadth_first_tree(csgraph, i_start, directed=True)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_3breadth_first_tree, NULL, __pyx_n_s_gaw_utils_sparsetools__traversal); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_3breadth_first_tree, NULL, __pyx_n_s_gawml_utils_sparsetools__travers); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_breadth_first_tree, __pyx_t_2) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":169
+  /* "gawml/utils/sparsetools/_traversal.pyx":169
  * 
  * 
  * def depth_first_tree(csgraph, i_start, directed=True):             # <<<<<<<<<<<<<<
  *     r"""
  *     depth_first_tree(csgraph, i_start, directed=True)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_5depth_first_tree, NULL, __pyx_n_s_gaw_utils_sparsetools__traversal); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 169, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_5depth_first_tree, NULL, __pyx_n_s_gawml_utils_sparsetools__travers); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_depth_first_tree, __pyx_t_2) < 0) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":243
+  /* "gawml/utils/sparsetools/_traversal.pyx":243
  * 
  * 
  * def breadth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
  *                         directed=True, return_predecessors=True):
  *     """
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_7breadth_first_order, NULL, __pyx_n_s_gaw_utils_sparsetools__traversal); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 243, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_7breadth_first_order, NULL, __pyx_n_s_gawml_utils_sparsetools__travers); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 243, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_breadth_first_order, __pyx_t_2) < 0) __PYX_ERR(0, 243, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":407
+  /* "gawml/utils/sparsetools/_traversal.pyx":407
  * 
  * 
  * def depth_first_order(csgraph, i_start,             # <<<<<<<<<<<<<<
  *                       directed=True, return_predecessors=True):
  *     """
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_11sparsetools_10_traversal_9depth_first_order, NULL, __pyx_n_s_gaw_utils_sparsetools__traversal); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_11sparsetools_10_traversal_9depth_first_order, NULL, __pyx_n_s_gawml_utils_sparsetools__travers); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_depth_first_order, __pyx_t_2) < 0) __PYX_ERR(0, 407, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/sparsetools/_traversal.pyx":1
+  /* "gawml/utils/sparsetools/_traversal.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Routines for traversing graphs in compressed sparse format
  * """
@@ -10811,11 +10811,11 @@ PyMODINIT_FUNC PyInit__traversal(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.sparsetools._traversal", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.sparsetools._traversal", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.sparsetools._traversal");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.sparsetools._traversal");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

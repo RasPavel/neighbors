@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__graph_shortest_path
-#define __PYX_HAVE_API__gaw__utils__graph_shortest_path
+#define __PYX_HAVE__gawml__utils__graph_shortest_path
+#define __PYX_HAVE_API__gawml__utils__graph_shortest_path
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -502,7 +502,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/graph_shortest_path.pyx",
+  "gawml/utils/graph_shortest_path.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -732,23 +732,23 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "gaw/utils/graph_shortest_path.pyx":24
+/* "gawml/utils/graph_shortest_path.pyx":24
  * 
  * DTYPE = np.float64
  * ctypedef np.float64_t DTYPE_t             # <<<<<<<<<<<<<<
  * 
  * ITYPE = np.int32
  */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t;
+typedef __pyx_t_5numpy_float64_t __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t;
 
-/* "gaw/utils/graph_shortest_path.pyx":27
+/* "gawml/utils/graph_shortest_path.pyx":27
  * 
  * ITYPE = np.int32
  * ctypedef np.int32_t ITYPE_t             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef __pyx_t_5numpy_int32_t __pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t;
+typedef __pyx_t_5numpy_int32_t __pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -809,85 +809,85 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_floyd_warshall;
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_dijkstra;
-struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode;
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_initialize_node;
-struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap;
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_floyd_warshall;
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_dijkstra;
+struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode;
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_initialize_node;
+struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap;
 
-/* "gaw/utils/graph_shortest_path.pyx":96
+/* "gawml/utils/graph_shortest_path.pyx":96
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray floyd_warshall(np.ndarray[DTYPE_t, ndim=2, mode='c'] graph,             # <<<<<<<<<<<<<<
  *                               int directed=0):
  *     """
  */
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_floyd_warshall {
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_floyd_warshall {
   int __pyx_n;
   int directed;
 };
 
-/* "gaw/utils/graph_shortest_path.pyx":158
+/* "gawml/utils/graph_shortest_path.pyx":158
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray dijkstra(dist_matrix,             # <<<<<<<<<<<<<<
  *                          np.ndarray[DTYPE_t, ndim=2] graph,
  *                          int directed=0):
  */
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_dijkstra {
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_dijkstra {
   int __pyx_n;
   int directed;
 };
 
-/* "gaw/utils/graph_shortest_path.pyx":244
+/* "gawml/utils/graph_shortest_path.pyx":244
  * #
  * 
  * cdef struct FibonacciNode:             # <<<<<<<<<<<<<<
  *     unsigned int index
  *     unsigned int rank
  */
-struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode {
+struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode {
   unsigned int index;
   unsigned int rank;
   unsigned int state;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t val;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *parent;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *left_sibling;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *right_sibling;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *children;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t val;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *parent;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *left_sibling;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *right_sibling;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *children;
 };
 
-/* "gaw/utils/graph_shortest_path.pyx":255
+/* "gawml/utils/graph_shortest_path.pyx":255
  * 
  * 
  * cdef void initialize_node(FibonacciNode* node,             # <<<<<<<<<<<<<<
  *                           unsigned int index,
  *                           DTYPE_t val=0):
  */
-struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_initialize_node {
+struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_initialize_node {
   int __pyx_n;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t val;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t val;
 };
 
-/* "gaw/utils/graph_shortest_path.pyx":341
+/* "gawml/utils/graph_shortest_path.pyx":341
  * #  routines to implement a Fibonacci heap
  * 
  * ctypedef FibonacciNode* pFibonacciNode             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_3gaw_5utils_19graph_shortest_path_pFibonacciNode;
+typedef struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_5gawml_5utils_19graph_shortest_path_pFibonacciNode;
 
-/* "gaw/utils/graph_shortest_path.pyx":344
+/* "gawml/utils/graph_shortest_path.pyx":344
  * 
  * 
  * cdef struct FibonacciHeap:             # <<<<<<<<<<<<<<
  *     FibonacciNode* min_node
  *     pFibonacciNode[100] roots_by_rank  # maximum number of nodes is ~2^100.
  */
-struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *min_node;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_pFibonacciNode roots_by_rank[0x64];
+struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *min_node;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_pFibonacciNode roots_by_rank[0x64];
 };
 
 /* --- Runtime support code (head) --- */
@@ -1347,27 +1347,27 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'gaw.utils.graph_shortest_path' */
-static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(PyArrayObject *, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_floyd_warshall *__pyx_optional_args); /*proto*/
-static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObject *, PyArrayObject *, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_dijkstra *__pyx_optional_args); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *, unsigned int, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_initialize_node *__pyx_optional_args); /*proto*/
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_rightmost_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_leftmost_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *, __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_remove_min(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t), 0 };
-#define __Pyx_MODULE_NAME "gaw.utils.graph_shortest_path"
-int __pyx_module_is_main_gaw__utils__graph_shortest_path = 0;
+/* Module declarations from 'gawml.utils.graph_shortest_path' */
+static PyArrayObject *__pyx_f_5gawml_5utils_19graph_shortest_path_floyd_warshall(PyArrayObject *, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_floyd_warshall *__pyx_optional_args); /*proto*/
+static PyArrayObject *__pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra(PyObject *, PyArrayObject *, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_dijkstra *__pyx_optional_args); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_initialize_node(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *, unsigned int, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_initialize_node *__pyx_optional_args); /*proto*/
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_rightmost_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_leftmost_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_add_child(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_add_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_remove(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_decrease_val(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *, __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_link(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_remove_min(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_directed_one_row(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_one_row(unsigned int, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, PyArrayObject *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *); /*proto*/
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t), { 0 }, 0, 'R', 0, 0 };
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t = { "ITYPE_t", NULL, sizeof(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t), 0 };
+#define __Pyx_MODULE_NAME "gawml.utils.graph_shortest_path"
+int __pyx_module_is_main_gawml__utils__graph_shortest_path = 0;
 
-/* Implementation of 'gaw.utils.graph_shortest_path' */
+/* Implementation of 'gawml.utils.graph_shortest_path' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -1415,9 +1415,9 @@ static const char __pyx_k_isspmatrix_csr[] = "isspmatrix_csr";
 static const char __pyx_k_graph_shortest_path[] = "graph_shortest_path";
 static const char __pyx_k_unrecognized_method_s[] = "unrecognized method '%s'";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
-static const char __pyx_k_gaw_utils_graph_shortest_path[] = "gaw.utils.graph_shortest_path";
 static const char __pyx_k_Routines_for_performing_shortes[] = "\nRoutines for performing shortest-path graph searches\n\nThe main interface is in the function `graph_shortest_path`.  This\ncalls cython routines that compute the shortest path using either\nthe Floyd-Warshall algorithm, or Dykstra's algorithm with Fibonacci Heaps.\n";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/utils/graph_shortest_path.pyx";
+static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gawml/utils/graph_shortest_path.pyx";
+static const char __pyx_k_gawml_utils_graph_shortest_path[] = "gawml.utils.graph_shortest_path";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
@@ -1446,7 +1446,7 @@ static PyObject *__pyx_n_s_dist_matrix;
 static PyObject *__pyx_n_s_dtype;
 static PyObject *__pyx_n_s_flat;
 static PyObject *__pyx_n_s_float64;
-static PyObject *__pyx_n_s_gaw_utils_graph_shortest_path;
+static PyObject *__pyx_n_s_gawml_utils_graph_shortest_path;
 static PyObject *__pyx_n_s_graph;
 static PyObject *__pyx_n_s_graph_shortest_path;
 static PyObject *__pyx_n_s_import;
@@ -1474,7 +1474,7 @@ static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_kp_s_unrecognized_method_s;
 static PyObject *__pyx_n_s_where;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dist_matrix, PyObject *__pyx_v_directed, PyObject *__pyx_v_method); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_19graph_shortest_path_graph_shortest_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dist_matrix, PyObject *__pyx_v_directed, PyObject *__pyx_v_method); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_int_0;
@@ -1488,7 +1488,7 @@ static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_codeobj__8;
 
-/* "gaw/utils/graph_shortest_path.pyx":30
+/* "gawml/utils/graph_shortest_path.pyx":30
  * 
  * 
  * def graph_shortest_path(dist_matrix, directed=True, method='auto'):             # <<<<<<<<<<<<<<
@@ -1497,10 +1497,10 @@ static PyObject *__pyx_codeobj__8;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_19graph_shortest_path_1graph_shortest_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_3gaw_5utils_19graph_shortest_path_graph_shortest_path[] = "\n    Perform a shortest-path graph search on a positive directed or\n    undirected graph.\n\n    Parameters\n    ----------\n    dist_matrix : arraylike or sparse matrix, shape = (N,N)\n        Array of positive distances.\n        If vertex i is connected to vertex j, then dist_matrix[i,j] gives\n        the distance between the vertices.\n        If vertex i is not connected to vertex j, then dist_matrix[i,j] = 0\n    directed : boolean\n        if True, then find the shortest path on a directed graph: only\n        progress from a point to its neighbors, not the other way around.\n        if False, then find the shortest path on an undirected graph: the\n        algorithm can progress from a point to its neighbors and vice versa.\n    method : string ['auto'|'FW'|'D']\n        method to use.  Options are\n        'auto' : attempt to choose the best method for the current problem\n        'FW' : Floyd-Warshall algorithm.  O[N^3]\n        'D' : Dijkstra's algorithm with Fibonacci stacks.  O[(k+log(N))N^2]\n\n    Returns\n    -------\n    G : np.ndarray, float, shape = [N,N]\n        G[i,j] gives the shortest distance from point i to point j\n        along the graph.\n\n    Notes\n    -----\n    As currently implemented, Dijkstra's algorithm does not work for\n    graphs with direction-dependent distances when directed == False.\n    i.e., if dist_matrix[i,j] and dist_matrix[j,i] are not equal and\n    both are nonzero, method='D' will not necessarily yield the correct\n    result.\n\n    Also, these routines have not been tested for graphs with negative\n    distances.  Negative distances can lead to infinite cycles that must\n    be handled by specialized algorithms.\n    ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_19graph_shortest_path_1graph_shortest_path = {"graph_shortest_path", (PyCFunction)__pyx_pw_3gaw_5utils_19graph_shortest_path_1graph_shortest_path, METH_VARARGS|METH_KEYWORDS, __pyx_doc_3gaw_5utils_19graph_shortest_path_graph_shortest_path};
-static PyObject *__pyx_pw_3gaw_5utils_19graph_shortest_path_1graph_shortest_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_5gawml_5utils_19graph_shortest_path_1graph_shortest_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_19graph_shortest_path_graph_shortest_path[] = "\n    Perform a shortest-path graph search on a positive directed or\n    undirected graph.\n\n    Parameters\n    ----------\n    dist_matrix : arraylike or sparse matrix, shape = (N,N)\n        Array of positive distances.\n        If vertex i is connected to vertex j, then dist_matrix[i,j] gives\n        the distance between the vertices.\n        If vertex i is not connected to vertex j, then dist_matrix[i,j] = 0\n    directed : boolean\n        if True, then find the shortest path on a directed graph: only\n        progress from a point to its neighbors, not the other way around.\n        if False, then find the shortest path on an undirected graph: the\n        algorithm can progress from a point to its neighbors and vice versa.\n    method : string ['auto'|'FW'|'D']\n        method to use.  Options are\n        'auto' : attempt to choose the best method for the current problem\n        'FW' : Floyd-Warshall algorithm.  O[N^3]\n        'D' : Dijkstra's algorithm with Fibonacci stacks.  O[(k+log(N))N^2]\n\n    Returns\n    -------\n    G : np.ndarray, float, shape = [N,N]\n        G[i,j] gives the shortest distance from point i to point j\n        along the graph.\n\n    Notes\n    -----\n    As currently implemented, Dijkstra's algorithm does not work for\n    graphs with direction-dependent distances when directed == False.\n    i.e., if dist_matrix[i,j] and dist_matrix[j,i] are not equal and\n    both are nonzero, method='D' will not necessarily yield the correct\n    result.\n\n    Also, these routines have not been tested for graphs with negative\n    distances.  Negative distances can lead to infinite cycles that must\n    be handled by specialized algorithms.\n    ";
+static PyMethodDef __pyx_mdef_5gawml_5utils_19graph_shortest_path_1graph_shortest_path = {"graph_shortest_path", (PyCFunction)__pyx_pw_5gawml_5utils_19graph_shortest_path_1graph_shortest_path, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_19graph_shortest_path_graph_shortest_path};
+static PyObject *__pyx_pw_5gawml_5utils_19graph_shortest_path_1graph_shortest_path(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_dist_matrix = 0;
   PyObject *__pyx_v_directed = 0;
   PyObject *__pyx_v_method = 0;
@@ -1558,18 +1558,18 @@ static PyObject *__pyx_pw_3gaw_5utils_19graph_shortest_path_1graph_shortest_path
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("graph_shortest_path", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 30, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.graph_shortest_path.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.graph_shortest_path.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(__pyx_self, __pyx_v_dist_matrix, __pyx_v_directed, __pyx_v_method);
+  __pyx_r = __pyx_pf_5gawml_5utils_19graph_shortest_path_graph_shortest_path(__pyx_self, __pyx_v_dist_matrix, __pyx_v_directed, __pyx_v_method);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dist_matrix, PyObject *__pyx_v_directed, PyObject *__pyx_v_method) {
+static PyObject *__pyx_pf_5gawml_5utils_19graph_shortest_path_graph_shortest_path(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_dist_matrix, PyObject *__pyx_v_directed, PyObject *__pyx_v_method) {
   PyObject *__pyx_v_N = NULL;
   Py_ssize_t __pyx_v_Nk;
   PyObject *__pyx_v_graph = NULL;
@@ -1583,13 +1583,13 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   int __pyx_t_6;
   Py_ssize_t __pyx_t_7;
   int __pyx_t_8;
-  struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_floyd_warshall __pyx_t_9;
-  struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_dijkstra __pyx_t_10;
+  struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_floyd_warshall __pyx_t_9;
+  struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_dijkstra __pyx_t_10;
   __Pyx_RefNannySetupContext("graph_shortest_path", 0);
   __Pyx_INCREF(__pyx_v_dist_matrix);
   __Pyx_INCREF(__pyx_v_method);
 
-  /* "gaw/utils/graph_shortest_path.pyx":71
+  /* "gawml/utils/graph_shortest_path.pyx":71
  *     be handled by specialized algorithms.
  *     """
  *     if not isspmatrix_csr(dist_matrix):             # <<<<<<<<<<<<<<
@@ -1628,7 +1628,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_t_6 = ((!__pyx_t_5) != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":72
+    /* "gawml/utils/graph_shortest_path.pyx":72
  *     """
  *     if not isspmatrix_csr(dist_matrix):
  *         dist_matrix = csr_matrix(dist_matrix)             # <<<<<<<<<<<<<<
@@ -1665,7 +1665,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __Pyx_DECREF_SET(__pyx_v_dist_matrix, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":71
+    /* "gawml/utils/graph_shortest_path.pyx":71
  *     be handled by specialized algorithms.
  *     """
  *     if not isspmatrix_csr(dist_matrix):             # <<<<<<<<<<<<<<
@@ -1674,7 +1674,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":74
+  /* "gawml/utils/graph_shortest_path.pyx":74
  *         dist_matrix = csr_matrix(dist_matrix)
  * 
  *     N = dist_matrix.shape[0]             # <<<<<<<<<<<<<<
@@ -1689,7 +1689,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_v_N = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":75
+  /* "gawml/utils/graph_shortest_path.pyx":75
  * 
  *     N = dist_matrix.shape[0]
  *     Nk = len(dist_matrix.data)             # <<<<<<<<<<<<<<
@@ -1702,7 +1702,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_Nk = __pyx_t_7;
 
-  /* "gaw/utils/graph_shortest_path.pyx":77
+  /* "gawml/utils/graph_shortest_path.pyx":77
  *     Nk = len(dist_matrix.data)
  * 
  *     if method == 'auto':             # <<<<<<<<<<<<<<
@@ -1712,7 +1712,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_t_6 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_auto, Py_EQ)); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 77, __pyx_L1_error)
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":78
+    /* "gawml/utils/graph_shortest_path.pyx":78
  * 
  *     if method == 'auto':
  *         if Nk < N * N / 4:             # <<<<<<<<<<<<<<
@@ -1733,7 +1733,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_6) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":79
+      /* "gawml/utils/graph_shortest_path.pyx":79
  *     if method == 'auto':
  *         if Nk < N * N / 4:
  *             method = 'D'             # <<<<<<<<<<<<<<
@@ -1743,7 +1743,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
       __Pyx_INCREF(__pyx_n_s_D);
       __Pyx_DECREF_SET(__pyx_v_method, __pyx_n_s_D);
 
-      /* "gaw/utils/graph_shortest_path.pyx":78
+      /* "gawml/utils/graph_shortest_path.pyx":78
  * 
  *     if method == 'auto':
  *         if Nk < N * N / 4:             # <<<<<<<<<<<<<<
@@ -1753,7 +1753,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
       goto __pyx_L5;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":81
+    /* "gawml/utils/graph_shortest_path.pyx":81
  *             method = 'D'
  *         else:
  *             method = 'FW'             # <<<<<<<<<<<<<<
@@ -1766,7 +1766,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     }
     __pyx_L5:;
 
-    /* "gaw/utils/graph_shortest_path.pyx":77
+    /* "gawml/utils/graph_shortest_path.pyx":77
  *     Nk = len(dist_matrix.data)
  * 
  *     if method == 'auto':             # <<<<<<<<<<<<<<
@@ -1775,7 +1775,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":83
+  /* "gawml/utils/graph_shortest_path.pyx":83
  *             method = 'FW'
  * 
  *     if method == 'FW':             # <<<<<<<<<<<<<<
@@ -1785,7 +1785,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_t_6 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_FW, Py_EQ)); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 83, __pyx_L1_error)
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":84
+    /* "gawml/utils/graph_shortest_path.pyx":84
  * 
  *     if method == 'FW':
  *         graph = np.asarray(dist_matrix.toarray(), dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -1837,7 +1837,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __pyx_v_graph = __pyx_t_4;
     __pyx_t_4 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":85
+    /* "gawml/utils/graph_shortest_path.pyx":85
  *     if method == 'FW':
  *         graph = np.asarray(dist_matrix.toarray(), dtype=DTYPE, order='C')
  *         floyd_warshall(graph, directed)             # <<<<<<<<<<<<<<
@@ -1848,11 +1848,11 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_directed); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 85, __pyx_L1_error)
     __pyx_t_9.__pyx_n = 1;
     __pyx_t_9.directed = __pyx_t_8;
-    __pyx_t_4 = ((PyObject *)__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(((PyArrayObject *)__pyx_v_graph), &__pyx_t_9)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
+    __pyx_t_4 = ((PyObject *)__pyx_f_5gawml_5utils_19graph_shortest_path_floyd_warshall(((PyArrayObject *)__pyx_v_graph), &__pyx_t_9)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 85, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":83
+    /* "gawml/utils/graph_shortest_path.pyx":83
  *             method = 'FW'
  * 
  *     if method == 'FW':             # <<<<<<<<<<<<<<
@@ -1862,7 +1862,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     goto __pyx_L6;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":86
+  /* "gawml/utils/graph_shortest_path.pyx":86
  *         graph = np.asarray(dist_matrix.toarray(), dtype=DTYPE, order='C')
  *         floyd_warshall(graph, directed)
  *     elif method == 'D':             # <<<<<<<<<<<<<<
@@ -1872,7 +1872,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_t_6 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_D, Py_EQ)); if (unlikely(__pyx_t_6 < 0)) __PYX_ERR(0, 86, __pyx_L1_error)
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":87
+    /* "gawml/utils/graph_shortest_path.pyx":87
  *         floyd_warshall(graph, directed)
  *     elif method == 'D':
  *         graph = np.zeros((N, N), dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -1912,7 +1912,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __pyx_v_graph = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":88
+    /* "gawml/utils/graph_shortest_path.pyx":88
  *     elif method == 'D':
  *         graph = np.zeros((N, N), dtype=DTYPE, order='C')
  *         dijkstra(dist_matrix, graph, directed)             # <<<<<<<<<<<<<<
@@ -1923,11 +1923,11 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_directed); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 88, __pyx_L1_error)
     __pyx_t_10.__pyx_n = 1;
     __pyx_t_10.directed = __pyx_t_8;
-    __pyx_t_3 = ((PyObject *)__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(__pyx_v_dist_matrix, ((PyArrayObject *)__pyx_v_graph), &__pyx_t_10)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
+    __pyx_t_3 = ((PyObject *)__pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra(__pyx_v_dist_matrix, ((PyArrayObject *)__pyx_v_graph), &__pyx_t_10)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":86
+    /* "gawml/utils/graph_shortest_path.pyx":86
  *         graph = np.asarray(dist_matrix.toarray(), dtype=DTYPE, order='C')
  *         floyd_warshall(graph, directed)
  *     elif method == 'D':             # <<<<<<<<<<<<<<
@@ -1937,7 +1937,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
     goto __pyx_L6;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":90
+  /* "gawml/utils/graph_shortest_path.pyx":90
  *         dijkstra(dist_matrix, graph, directed)
  *     else:
  *         raise ValueError("unrecognized method '%s'" % method)             # <<<<<<<<<<<<<<
@@ -1961,7 +1961,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   }
   __pyx_L6:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":92
+  /* "gawml/utils/graph_shortest_path.pyx":92
  *         raise ValueError("unrecognized method '%s'" % method)
  * 
  *     return graph             # <<<<<<<<<<<<<<
@@ -1973,7 +1973,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __pyx_r = __pyx_v_graph;
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":30
+  /* "gawml/utils/graph_shortest_path.pyx":30
  * 
  * 
  * def graph_shortest_path(dist_matrix, directed=True, method='auto'):             # <<<<<<<<<<<<<<
@@ -1987,7 +1987,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_AddTraceback("gaw.utils.graph_shortest_path.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.graph_shortest_path.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_N);
@@ -1999,7 +1999,7 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":96
+/* "gawml/utils/graph_shortest_path.pyx":96
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray floyd_warshall(np.ndarray[DTYPE_t, ndim=2, mode='c'] graph,             # <<<<<<<<<<<<<<
@@ -2007,21 +2007,21 @@ static PyObject *__pyx_pf_3gaw_5utils_19graph_shortest_path_graph_shortest_path(
  *     """
  */
 
-static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(PyArrayObject *__pyx_v_graph, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_floyd_warshall *__pyx_optional_args) {
+static PyArrayObject *__pyx_f_5gawml_5utils_19graph_shortest_path_floyd_warshall(PyArrayObject *__pyx_v_graph, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_floyd_warshall *__pyx_optional_args) {
   int __pyx_v_directed = ((int)0);
   int __pyx_v_N;
   unsigned int __pyx_v_i;
   unsigned int __pyx_v_j;
   unsigned int __pyx_v_k;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_infinity;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_sum_ijk;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_infinity;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_sum_ijk;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_graph;
   __Pyx_Buffer __pyx_pybuffer_graph;
   PyArrayObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_t_3;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_t_3;
   PyObject *__pyx_t_4 = NULL;
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
@@ -2064,11 +2064,11 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __pyx_pybuffernd_graph.rcbuffer = &__pyx_pybuffer_graph;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 96, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 96, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/graph_shortest_path.pyx":119
+  /* "gawml/utils/graph_shortest_path.pyx":119
  *         If no path exists, the path length is zero
  *     """
  *     cdef int N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -2077,7 +2077,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/graph_shortest_path.pyx":120
+  /* "gawml/utils/graph_shortest_path.pyx":120
  *     """
  *     cdef int N = graph.shape[0]
  *     assert graph.shape[1] == N             # <<<<<<<<<<<<<<
@@ -2093,7 +2093,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   }
   #endif
 
-  /* "gaw/utils/graph_shortest_path.pyx":124
+  /* "gawml/utils/graph_shortest_path.pyx":124
  *     cdef unsigned int i, j, k, m
  * 
  *     cdef DTYPE_t infinity = np.inf             # <<<<<<<<<<<<<<
@@ -2109,7 +2109,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_infinity = __pyx_t_3;
 
-  /* "gaw/utils/graph_shortest_path.pyx":128
+  /* "gawml/utils/graph_shortest_path.pyx":128
  * 
  *     #initialize all distances to infinity
  *     graph[np.where(graph == 0)] = infinity             # <<<<<<<<<<<<<<
@@ -2154,7 +2154,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":131
+  /* "gawml/utils/graph_shortest_path.pyx":131
  * 
  *     #graph[i,i] should be zero
  *     graph.flat[::N + 1] = 0             # <<<<<<<<<<<<<<
@@ -2172,7 +2172,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":134
+  /* "gawml/utils/graph_shortest_path.pyx":134
  * 
  *     # for a non-directed graph, we need to symmetrize the distances
  *     if not directed:             # <<<<<<<<<<<<<<
@@ -2182,7 +2182,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __pyx_t_8 = ((!(__pyx_v_directed != 0)) != 0);
   if (__pyx_t_8) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":135
+    /* "gawml/utils/graph_shortest_path.pyx":135
  *     # for a non-directed graph, we need to symmetrize the distances
  *     if not directed:
  *         for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -2192,7 +2192,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
     __pyx_t_9 = __pyx_v_N;
     for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_9; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":136
+      /* "gawml/utils/graph_shortest_path.pyx":136
  *     if not directed:
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:             # <<<<<<<<<<<<<<
@@ -2202,7 +2202,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
       __pyx_t_10 = __pyx_v_N;
       for (__pyx_v_j = (__pyx_v_i + 1); __pyx_v_j < __pyx_t_10; __pyx_v_j++) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":137
+        /* "gawml/utils/graph_shortest_path.pyx":137
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:             # <<<<<<<<<<<<<<
@@ -2213,10 +2213,10 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
         __pyx_t_12 = __pyx_v_i;
         __pyx_t_13 = __pyx_v_i;
         __pyx_t_14 = __pyx_v_j;
-        __pyx_t_8 = (((*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[1].strides)) <= (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
+        __pyx_t_8 = (((*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_12, __pyx_pybuffernd_graph.diminfo[1].strides)) <= (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
         if (__pyx_t_8) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":138
+          /* "gawml/utils/graph_shortest_path.pyx":138
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:
  *                     graph[i, j] = graph[j, i]             # <<<<<<<<<<<<<<
@@ -2227,9 +2227,9 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
           __pyx_t_16 = __pyx_v_i;
           __pyx_t_17 = __pyx_v_i;
           __pyx_t_18 = __pyx_v_j;
-          *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[1].strides));
+          *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_16, __pyx_pybuffernd_graph.diminfo[1].strides));
 
-          /* "gaw/utils/graph_shortest_path.pyx":137
+          /* "gawml/utils/graph_shortest_path.pyx":137
  *         for i from 0 <= i < N:
  *             for j from i + 1 <= j < N:
  *                 if graph[j, i] <= graph[i, j]:             # <<<<<<<<<<<<<<
@@ -2239,7 +2239,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
           goto __pyx_L8;
         }
 
-        /* "gaw/utils/graph_shortest_path.pyx":140
+        /* "gawml/utils/graph_shortest_path.pyx":140
  *                     graph[i, j] = graph[j, i]
  *                 else:
  *                     graph[j, i] = graph[i, j]             # <<<<<<<<<<<<<<
@@ -2251,13 +2251,13 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
           __pyx_t_20 = __pyx_v_j;
           __pyx_t_21 = __pyx_v_j;
           __pyx_t_22 = __pyx_v_i;
-          *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_graph.diminfo[1].strides));
+          *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_21, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_22, __pyx_pybuffernd_graph.diminfo[1].strides) = (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_19, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_graph.diminfo[1].strides));
         }
         __pyx_L8:;
       }
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":134
+    /* "gawml/utils/graph_shortest_path.pyx":134
  * 
  *     # for a non-directed graph, we need to symmetrize the distances
  *     if not directed:             # <<<<<<<<<<<<<<
@@ -2266,7 +2266,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":143
+  /* "gawml/utils/graph_shortest_path.pyx":143
  * 
  *     #now perform the Floyd-Warshall algorithm
  *     for k from 0 <= k < N:             # <<<<<<<<<<<<<<
@@ -2276,7 +2276,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __pyx_t_9 = __pyx_v_N;
   for (__pyx_v_k = 0; __pyx_v_k < __pyx_t_9; __pyx_v_k++) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":144
+    /* "gawml/utils/graph_shortest_path.pyx":144
  *     #now perform the Floyd-Warshall algorithm
  *     for k from 0 <= k < N:
  *         for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -2286,7 +2286,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
     __pyx_t_10 = __pyx_v_N;
     for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_10; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":145
+      /* "gawml/utils/graph_shortest_path.pyx":145
  *     for k from 0 <= k < N:
  *         for i from 0 <= i < N:
  *             if graph[i, k] == infinity:             # <<<<<<<<<<<<<<
@@ -2295,10 +2295,10 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
       __pyx_t_23 = __pyx_v_i;
       __pyx_t_24 = __pyx_v_k;
-      __pyx_t_8 = (((*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_graph.diminfo[1].strides)) == __pyx_v_infinity) != 0);
+      __pyx_t_8 = (((*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_23, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_graph.diminfo[1].strides)) == __pyx_v_infinity) != 0);
       if (__pyx_t_8) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":146
+        /* "gawml/utils/graph_shortest_path.pyx":146
  *         for i from 0 <= i < N:
  *             if graph[i, k] == infinity:
  *                 continue             # <<<<<<<<<<<<<<
@@ -2307,7 +2307,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
         goto __pyx_L11_continue;
 
-        /* "gaw/utils/graph_shortest_path.pyx":145
+        /* "gawml/utils/graph_shortest_path.pyx":145
  *     for k from 0 <= k < N:
  *         for i from 0 <= i < N:
  *             if graph[i, k] == infinity:             # <<<<<<<<<<<<<<
@@ -2316,7 +2316,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
       }
 
-      /* "gaw/utils/graph_shortest_path.pyx":147
+      /* "gawml/utils/graph_shortest_path.pyx":147
  *             if graph[i, k] == infinity:
  *                 continue
  *             for j from 0 <= j < N:             # <<<<<<<<<<<<<<
@@ -2326,7 +2326,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
       __pyx_t_25 = __pyx_v_N;
       for (__pyx_v_j = 0; __pyx_v_j < __pyx_t_25; __pyx_v_j++) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":148
+        /* "gawml/utils/graph_shortest_path.pyx":148
  *                 continue
  *             for j from 0 <= j < N:
  *                 sum_ijk = graph[i, k] + graph[k, j]             # <<<<<<<<<<<<<<
@@ -2337,9 +2337,9 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
         __pyx_t_27 = __pyx_v_k;
         __pyx_t_28 = __pyx_v_k;
         __pyx_t_29 = __pyx_v_j;
-        __pyx_v_sum_ijk = ((*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_27, __pyx_pybuffernd_graph.diminfo[1].strides)) + (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_29, __pyx_pybuffernd_graph.diminfo[1].strides)));
+        __pyx_v_sum_ijk = ((*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_26, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_27, __pyx_pybuffernd_graph.diminfo[1].strides)) + (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_28, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_29, __pyx_pybuffernd_graph.diminfo[1].strides)));
 
-        /* "gaw/utils/graph_shortest_path.pyx":149
+        /* "gawml/utils/graph_shortest_path.pyx":149
  *             for j from 0 <= j < N:
  *                 sum_ijk = graph[i, k] + graph[k, j]
  *                 if sum_ijk < graph[i, j]:             # <<<<<<<<<<<<<<
@@ -2348,10 +2348,10 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
         __pyx_t_30 = __pyx_v_i;
         __pyx_t_31 = __pyx_v_j;
-        __pyx_t_8 = ((__pyx_v_sum_ijk < (*__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_31, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
+        __pyx_t_8 = ((__pyx_v_sum_ijk < (*__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_30, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_31, __pyx_pybuffernd_graph.diminfo[1].strides))) != 0);
         if (__pyx_t_8) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":150
+          /* "gawml/utils/graph_shortest_path.pyx":150
  *                 sum_ijk = graph[i, k] + graph[k, j]
  *                 if sum_ijk < graph[i, j]:
  *                     graph[i, j] = sum_ijk             # <<<<<<<<<<<<<<
@@ -2360,9 +2360,9 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  */
           __pyx_t_32 = __pyx_v_i;
           __pyx_t_33 = __pyx_v_j;
-          *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_32, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_33, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_v_sum_ijk;
+          *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_32, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_33, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_v_sum_ijk;
 
-          /* "gaw/utils/graph_shortest_path.pyx":149
+          /* "gawml/utils/graph_shortest_path.pyx":149
  *             for j from 0 <= j < N:
  *                 sum_ijk = graph[i, k] + graph[k, j]
  *                 if sum_ijk < graph[i, j]:             # <<<<<<<<<<<<<<
@@ -2375,7 +2375,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
     }
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":152
+  /* "gawml/utils/graph_shortest_path.pyx":152
  *                     graph[i, j] = sum_ijk
  * 
  *     graph[np.where(np.isinf(graph))] = 0             # <<<<<<<<<<<<<<
@@ -2446,7 +2446,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_graph), __pyx_t_5, __pyx_int_0) < 0)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":154
+  /* "gawml/utils/graph_shortest_path.pyx":154
  *     graph[np.where(np.isinf(graph))] = 0
  * 
  *     return graph             # <<<<<<<<<<<<<<
@@ -2458,7 +2458,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   __pyx_r = ((PyArrayObject *)__pyx_v_graph);
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":96
+  /* "gawml/utils/graph_shortest_path.pyx":96
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray floyd_warshall(np.ndarray[DTYPE_t, ndim=2, mode='c'] graph,             # <<<<<<<<<<<<<<
@@ -2480,7 +2480,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_graph.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.graph_shortest_path.floyd_warshall", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.graph_shortest_path.floyd_warshall", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -2491,7 +2491,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":158
+/* "gawml/utils/graph_shortest_path.pyx":158
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray dijkstra(dist_matrix,             # <<<<<<<<<<<<<<
@@ -2499,12 +2499,12 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_floyd_warshall(P
  *                          int directed=0):
  */
 
-static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObject *__pyx_v_dist_matrix, PyArrayObject *__pyx_v_graph, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_dijkstra *__pyx_optional_args) {
+static PyArrayObject *__pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra(PyObject *__pyx_v_dist_matrix, PyArrayObject *__pyx_v_graph, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_dijkstra *__pyx_optional_args) {
   int __pyx_v_directed = ((int)0);
   unsigned int __pyx_v_N;
   unsigned int __pyx_v_i;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap __pyx_v_heap;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap __pyx_v_heap;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes;
   PyArrayObject *__pyx_v_distances = 0;
   PyArrayObject *__pyx_v_neighbors = 0;
   PyArrayObject *__pyx_v_indptr = 0;
@@ -2536,11 +2536,11 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_pybuffernd_graph.rcbuffer = &__pyx_pybuffer_graph;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 158, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 158, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/graph_shortest_path.pyx":189
+  /* "gawml/utils/graph_shortest_path.pyx":189
  *         If no path exists, the path length is zero
  *     """
  *     cdef unsigned int N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -2549,16 +2549,16 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/graph_shortest_path.pyx":194
+  /* "gawml/utils/graph_shortest_path.pyx":194
  *     cdef FibonacciHeap heap
  * 
  *     cdef FibonacciNode* nodes = <FibonacciNode*> malloc(N *             # <<<<<<<<<<<<<<
  *                                                         sizeof(FibonacciNode))
  * 
  */
-  __pyx_v_nodes = ((struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *)malloc((__pyx_v_N * (sizeof(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode)))));
+  __pyx_v_nodes = ((struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *)malloc((__pyx_v_N * (sizeof(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode)))));
 
-  /* "gaw/utils/graph_shortest_path.pyx":200
+  /* "gawml/utils/graph_shortest_path.pyx":200
  *     cdef np.ndarray distances2, neighbors2, indptr2
  * 
  *     if not isspmatrix_csr(dist_matrix):             # <<<<<<<<<<<<<<
@@ -2597,7 +2597,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_t_6 = ((!__pyx_t_5) != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":201
+    /* "gawml/utils/graph_shortest_path.pyx":201
  * 
  *     if not isspmatrix_csr(dist_matrix):
  *         dist_matrix = csr_matrix(dist_matrix)             # <<<<<<<<<<<<<<
@@ -2634,7 +2634,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __Pyx_DECREF_SET(__pyx_v_dist_matrix, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":200
+    /* "gawml/utils/graph_shortest_path.pyx":200
  *     cdef np.ndarray distances2, neighbors2, indptr2
  * 
  *     if not isspmatrix_csr(dist_matrix):             # <<<<<<<<<<<<<<
@@ -2643,7 +2643,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":203
+  /* "gawml/utils/graph_shortest_path.pyx":203
  *         dist_matrix = csr_matrix(dist_matrix)
  * 
  *     distances = np.asarray(dist_matrix.data, dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2678,7 +2678,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_v_distances = ((PyArrayObject *)__pyx_t_4);
   __pyx_t_4 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":204
+  /* "gawml/utils/graph_shortest_path.pyx":204
  * 
  *     distances = np.asarray(dist_matrix.data, dtype=DTYPE, order='C')
  *     neighbors = np.asarray(dist_matrix.indices, dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2713,7 +2713,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_v_neighbors = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":205
+  /* "gawml/utils/graph_shortest_path.pyx":205
  *     distances = np.asarray(dist_matrix.data, dtype=DTYPE, order='C')
  *     neighbors = np.asarray(dist_matrix.indices, dtype=ITYPE, order='C')
  *     indptr = np.asarray(dist_matrix.indptr, dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2748,7 +2748,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_v_indptr = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":207
+  /* "gawml/utils/graph_shortest_path.pyx":207
  *     indptr = np.asarray(dist_matrix.indptr, dtype=ITYPE, order='C')
  * 
  *     for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -2758,17 +2758,17 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_t_7 = __pyx_v_N;
   for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":208
+    /* "gawml/utils/graph_shortest_path.pyx":208
  * 
  *     for i from 0 <= i < N:
  *         initialize_node(&nodes[i], i)             # <<<<<<<<<<<<<<
  * 
  *     heap.min_node = NULL
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node((&(__pyx_v_nodes[__pyx_v_i])), __pyx_v_i, NULL);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_initialize_node((&(__pyx_v_nodes[__pyx_v_i])), __pyx_v_i, NULL);
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":210
+  /* "gawml/utils/graph_shortest_path.pyx":210
  *         initialize_node(&nodes[i], i)
  * 
  *     heap.min_node = NULL             # <<<<<<<<<<<<<<
@@ -2777,7 +2777,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
  */
   __pyx_v_heap.min_node = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":212
+  /* "gawml/utils/graph_shortest_path.pyx":212
  *     heap.min_node = NULL
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -2787,7 +2787,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_t_6 = (__pyx_v_directed != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":213
+    /* "gawml/utils/graph_shortest_path.pyx":213
  * 
  *     if directed:
  *         for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -2797,17 +2797,17 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_t_7 = __pyx_v_N;
     for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":214
+      /* "gawml/utils/graph_shortest_path.pyx":214
  *     if directed:
  *         for i from 0 <= i < N:
  *             dijkstra_directed_one_row(i, neighbors, distances, indptr,             # <<<<<<<<<<<<<<
  *                                       graph, &heap, nodes)
  *     else:
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(__pyx_v_i, ((PyArrayObject *)__pyx_v_neighbors), ((PyArrayObject *)__pyx_v_distances), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_graph), (&__pyx_v_heap), __pyx_v_nodes);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_directed_one_row(__pyx_v_i, ((PyArrayObject *)__pyx_v_neighbors), ((PyArrayObject *)__pyx_v_distances), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_graph), (&__pyx_v_heap), __pyx_v_nodes);
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":212
+    /* "gawml/utils/graph_shortest_path.pyx":212
  *     heap.min_node = NULL
  * 
  *     if directed:             # <<<<<<<<<<<<<<
@@ -2817,7 +2817,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     goto __pyx_L6;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":219
+  /* "gawml/utils/graph_shortest_path.pyx":219
  *         #use the csr -> csc sparse matrix conversion to quickly get
  *         # both directions of neigbors
  *         dist_matrix_T = dist_matrix.T.tocsr()             # <<<<<<<<<<<<<<
@@ -2851,7 +2851,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_v_dist_matrix_T = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":221
+    /* "gawml/utils/graph_shortest_path.pyx":221
  *         dist_matrix_T = dist_matrix.T.tocsr()
  * 
  *         distances2 = np.asarray(dist_matrix_T.data,             # <<<<<<<<<<<<<<
@@ -2871,7 +2871,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":222
+    /* "gawml/utils/graph_shortest_path.pyx":222
  * 
  *         distances2 = np.asarray(dist_matrix_T.data,
  *                                 dtype=DTYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2886,7 +2886,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_order, __pyx_n_s_C) < 0) __PYX_ERR(0, 222, __pyx_L1_error)
 
-    /* "gaw/utils/graph_shortest_path.pyx":221
+    /* "gawml/utils/graph_shortest_path.pyx":221
  *         dist_matrix_T = dist_matrix.T.tocsr()
  * 
  *         distances2 = np.asarray(dist_matrix_T.data,             # <<<<<<<<<<<<<<
@@ -2902,7 +2902,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_v_distances2 = ((PyArrayObject *)__pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":223
+    /* "gawml/utils/graph_shortest_path.pyx":223
  *         distances2 = np.asarray(dist_matrix_T.data,
  *                                 dtype=DTYPE, order='C')
  *         neighbors2 = np.asarray(dist_matrix_T.indices,             # <<<<<<<<<<<<<<
@@ -2922,7 +2922,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":224
+    /* "gawml/utils/graph_shortest_path.pyx":224
  *                                 dtype=DTYPE, order='C')
  *         neighbors2 = np.asarray(dist_matrix_T.indices,
  *                                 dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2937,7 +2937,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_order, __pyx_n_s_C) < 0) __PYX_ERR(0, 224, __pyx_L1_error)
 
-    /* "gaw/utils/graph_shortest_path.pyx":223
+    /* "gawml/utils/graph_shortest_path.pyx":223
  *         distances2 = np.asarray(dist_matrix_T.data,
  *                                 dtype=DTYPE, order='C')
  *         neighbors2 = np.asarray(dist_matrix_T.indices,             # <<<<<<<<<<<<<<
@@ -2953,7 +2953,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_v_neighbors2 = ((PyArrayObject *)__pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":225
+    /* "gawml/utils/graph_shortest_path.pyx":225
  *         neighbors2 = np.asarray(dist_matrix_T.indices,
  *                                 dtype=ITYPE, order='C')
  *         indptr2 = np.asarray(dist_matrix_T.indptr,             # <<<<<<<<<<<<<<
@@ -2973,7 +2973,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":226
+    /* "gawml/utils/graph_shortest_path.pyx":226
  *                                 dtype=ITYPE, order='C')
  *         indptr2 = np.asarray(dist_matrix_T.indptr,
  *                              dtype=ITYPE, order='C')             # <<<<<<<<<<<<<<
@@ -2988,7 +2988,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_order, __pyx_n_s_C) < 0) __PYX_ERR(0, 226, __pyx_L1_error)
 
-    /* "gaw/utils/graph_shortest_path.pyx":225
+    /* "gawml/utils/graph_shortest_path.pyx":225
  *         neighbors2 = np.asarray(dist_matrix_T.indices,
  *                                 dtype=ITYPE, order='C')
  *         indptr2 = np.asarray(dist_matrix_T.indptr,             # <<<<<<<<<<<<<<
@@ -3004,7 +3004,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_v_indptr2 = ((PyArrayObject *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":228
+    /* "gawml/utils/graph_shortest_path.pyx":228
  *                              dtype=ITYPE, order='C')
  * 
  *         for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -3014,19 +3014,19 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __pyx_t_7 = __pyx_v_N;
     for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":229
+      /* "gawml/utils/graph_shortest_path.pyx":229
  * 
  *         for i from 0 <= i < N:
  *             dijkstra_one_row(i, neighbors, distances, indptr,             # <<<<<<<<<<<<<<
  *                              neighbors2, distances2, indptr2,
  *                              graph, &heap, nodes)
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(__pyx_v_i, ((PyArrayObject *)__pyx_v_neighbors), ((PyArrayObject *)__pyx_v_distances), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_neighbors2), ((PyArrayObject *)__pyx_v_distances2), ((PyArrayObject *)__pyx_v_indptr2), ((PyArrayObject *)__pyx_v_graph), (&__pyx_v_heap), __pyx_v_nodes);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_one_row(__pyx_v_i, ((PyArrayObject *)__pyx_v_neighbors), ((PyArrayObject *)__pyx_v_distances), ((PyArrayObject *)__pyx_v_indptr), ((PyArrayObject *)__pyx_v_neighbors2), ((PyArrayObject *)__pyx_v_distances2), ((PyArrayObject *)__pyx_v_indptr2), ((PyArrayObject *)__pyx_v_graph), (&__pyx_v_heap), __pyx_v_nodes);
     }
   }
   __pyx_L6:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":233
+  /* "gawml/utils/graph_shortest_path.pyx":233
  *                              graph, &heap, nodes)
  * 
  *     free(nodes)             # <<<<<<<<<<<<<<
@@ -3035,7 +3035,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
  */
   free(__pyx_v_nodes);
 
-  /* "gaw/utils/graph_shortest_path.pyx":235
+  /* "gawml/utils/graph_shortest_path.pyx":235
  *     free(nodes)
  * 
  *     return graph             # <<<<<<<<<<<<<<
@@ -3047,7 +3047,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   __pyx_r = ((PyArrayObject *)__pyx_v_graph);
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":158
+  /* "gawml/utils/graph_shortest_path.pyx":158
  * 
  * @cython.boundscheck(False)
  * cdef np.ndarray dijkstra(dist_matrix,             # <<<<<<<<<<<<<<
@@ -3067,7 +3067,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_graph.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.graph_shortest_path.dijkstra", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.graph_shortest_path.dijkstra", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3086,7 +3086,7 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":255
+/* "gawml/utils/graph_shortest_path.pyx":255
  * 
  * 
  * cdef void initialize_node(FibonacciNode* node,             # <<<<<<<<<<<<<<
@@ -3094,8 +3094,8 @@ static PyArrayObject *__pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra(PyObjec
  *                           DTYPE_t val=0):
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, unsigned int __pyx_v_index, struct __pyx_opt_args_3gaw_5utils_19graph_shortest_path_initialize_node *__pyx_optional_args) {
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_val = ((__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t)0.0);
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_initialize_node(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, unsigned int __pyx_v_index, struct __pyx_opt_args_5gawml_5utils_19graph_shortest_path_initialize_node *__pyx_optional_args) {
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_val = ((__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t)0.0);
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("initialize_node", 0);
   if (__pyx_optional_args) {
@@ -3104,7 +3104,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
     }
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":260
+  /* "gawml/utils/graph_shortest_path.pyx":260
  *     # Assumptions: - node is a valid pointer
  *     #              - node is not currently part of a heap
  *     node.index = index             # <<<<<<<<<<<<<<
@@ -3113,7 +3113,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->index = __pyx_v_index;
 
-  /* "gaw/utils/graph_shortest_path.pyx":261
+  /* "gawml/utils/graph_shortest_path.pyx":261
  *     #              - node is not currently part of a heap
  *     node.index = index
  *     node.val = val             # <<<<<<<<<<<<<<
@@ -3122,7 +3122,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->val = __pyx_v_val;
 
-  /* "gaw/utils/graph_shortest_path.pyx":262
+  /* "gawml/utils/graph_shortest_path.pyx":262
  *     node.index = index
  *     node.val = val
  *     node.rank = 0             # <<<<<<<<<<<<<<
@@ -3131,7 +3131,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->rank = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":263
+  /* "gawml/utils/graph_shortest_path.pyx":263
  *     node.val = val
  *     node.rank = 0
  *     node.state = 0  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -3140,7 +3140,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->state = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":265
+  /* "gawml/utils/graph_shortest_path.pyx":265
  *     node.state = 0  # 0 -> NOT_IN_HEAP
  * 
  *     node.parent = NULL             # <<<<<<<<<<<<<<
@@ -3149,7 +3149,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->parent = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":266
+  /* "gawml/utils/graph_shortest_path.pyx":266
  * 
  *     node.parent = NULL
  *     node.left_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3158,7 +3158,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->left_sibling = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":267
+  /* "gawml/utils/graph_shortest_path.pyx":267
  *     node.parent = NULL
  *     node.left_sibling = NULL
  *     node.right_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3167,7 +3167,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->right_sibling = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":268
+  /* "gawml/utils/graph_shortest_path.pyx":268
  *     node.left_sibling = NULL
  *     node.right_sibling = NULL
  *     node.children = NULL             # <<<<<<<<<<<<<<
@@ -3176,7 +3176,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  */
   __pyx_v_node->children = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":255
+  /* "gawml/utils/graph_shortest_path.pyx":255
  * 
  * 
  * cdef void initialize_node(FibonacciNode* node,             # <<<<<<<<<<<<<<
@@ -3188,7 +3188,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":271
+/* "gawml/utils/graph_shortest_path.pyx":271
  * 
  * 
  * cdef FibonacciNode* rightmost_sibling(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3196,15 +3196,15 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node(struct __p
  *     cdef FibonacciNode* temp = node
  */
 
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_rightmost_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_rightmost_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
   __Pyx_RefNannySetupContext("rightmost_sibling", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":273
+  /* "gawml/utils/graph_shortest_path.pyx":273
  * cdef FibonacciNode* rightmost_sibling(FibonacciNode* node):
  *     # Assumptions: - node is a valid pointer
  *     cdef FibonacciNode* temp = node             # <<<<<<<<<<<<<<
@@ -3213,7 +3213,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   __pyx_v_temp = __pyx_v_node;
 
-  /* "gaw/utils/graph_shortest_path.pyx":274
+  /* "gawml/utils/graph_shortest_path.pyx":274
  *     # Assumptions: - node is a valid pointer
  *     cdef FibonacciNode* temp = node
  *     while(temp.right_sibling):             # <<<<<<<<<<<<<<
@@ -3224,7 +3224,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_1 = (__pyx_v_temp->right_sibling != 0);
     if (!__pyx_t_1) break;
 
-    /* "gaw/utils/graph_shortest_path.pyx":275
+    /* "gawml/utils/graph_shortest_path.pyx":275
  *     cdef FibonacciNode* temp = node
  *     while(temp.right_sibling):
  *         temp = temp.right_sibling             # <<<<<<<<<<<<<<
@@ -3235,7 +3235,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_v_temp = __pyx_t_2;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":276
+  /* "gawml/utils/graph_shortest_path.pyx":276
  *     while(temp.right_sibling):
  *         temp = temp.right_sibling
  *     return temp             # <<<<<<<<<<<<<<
@@ -3245,7 +3245,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_r = __pyx_v_temp;
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":271
+  /* "gawml/utils/graph_shortest_path.pyx":271
  * 
  * 
  * cdef FibonacciNode* rightmost_sibling(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3259,7 +3259,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":279
+/* "gawml/utils/graph_shortest_path.pyx":279
  * 
  * 
  * cdef FibonacciNode* leftmost_sibling(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3267,15 +3267,15 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  *     cdef FibonacciNode* temp = node
  */
 
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_leftmost_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_leftmost_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
   __Pyx_RefNannySetupContext("leftmost_sibling", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":281
+  /* "gawml/utils/graph_shortest_path.pyx":281
  * cdef FibonacciNode* leftmost_sibling(FibonacciNode* node):
  *     # Assumptions: - node is a valid pointer
  *     cdef FibonacciNode* temp = node             # <<<<<<<<<<<<<<
@@ -3284,7 +3284,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   __pyx_v_temp = __pyx_v_node;
 
-  /* "gaw/utils/graph_shortest_path.pyx":282
+  /* "gawml/utils/graph_shortest_path.pyx":282
  *     # Assumptions: - node is a valid pointer
  *     cdef FibonacciNode* temp = node
  *     while(temp.left_sibling):             # <<<<<<<<<<<<<<
@@ -3295,7 +3295,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_1 = (__pyx_v_temp->left_sibling != 0);
     if (!__pyx_t_1) break;
 
-    /* "gaw/utils/graph_shortest_path.pyx":283
+    /* "gawml/utils/graph_shortest_path.pyx":283
  *     cdef FibonacciNode* temp = node
  *     while(temp.left_sibling):
  *         temp = temp.left_sibling             # <<<<<<<<<<<<<<
@@ -3306,7 +3306,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_v_temp = __pyx_t_2;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":284
+  /* "gawml/utils/graph_shortest_path.pyx":284
  *     while(temp.left_sibling):
  *         temp = temp.left_sibling
  *     return temp             # <<<<<<<<<<<<<<
@@ -3316,7 +3316,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_r = __pyx_v_temp;
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":279
+  /* "gawml/utils/graph_shortest_path.pyx":279
  * 
  * 
  * cdef FibonacciNode* leftmost_sibling(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3330,7 +3330,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":287
+/* "gawml/utils/graph_shortest_path.pyx":287
  * 
  * 
  * cdef void add_child(FibonacciNode* node, FibonacciNode* new_child):             # <<<<<<<<<<<<<<
@@ -3338,12 +3338,12 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  *     #              - new_child is a valid pointer
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_new_child) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_add_child(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_new_child) {
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("add_child", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":291
+  /* "gawml/utils/graph_shortest_path.pyx":291
  *     #              - new_child is a valid pointer
  *     #              - new_child is not the sibling or child of another node
  *     new_child.parent = node             # <<<<<<<<<<<<<<
@@ -3352,7 +3352,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
  */
   __pyx_v_new_child->parent = __pyx_v_node;
 
-  /* "gaw/utils/graph_shortest_path.pyx":293
+  /* "gawml/utils/graph_shortest_path.pyx":293
  *     new_child.parent = node
  * 
  *     if node.children:             # <<<<<<<<<<<<<<
@@ -3362,16 +3362,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
   __pyx_t_1 = (__pyx_v_node->children != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":294
+    /* "gawml/utils/graph_shortest_path.pyx":294
  * 
  *     if node.children:
  *         add_sibling(node.children, new_child)             # <<<<<<<<<<<<<<
  *     else:
  *         node.children = new_child
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(__pyx_v_node->children, __pyx_v_new_child);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_add_sibling(__pyx_v_node->children, __pyx_v_new_child);
 
-    /* "gaw/utils/graph_shortest_path.pyx":293
+    /* "gawml/utils/graph_shortest_path.pyx":293
  *     new_child.parent = node
  * 
  *     if node.children:             # <<<<<<<<<<<<<<
@@ -3381,7 +3381,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":296
+  /* "gawml/utils/graph_shortest_path.pyx":296
  *         add_sibling(node.children, new_child)
  *     else:
  *         node.children = new_child             # <<<<<<<<<<<<<<
@@ -3391,7 +3391,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
   /*else*/ {
     __pyx_v_node->children = __pyx_v_new_child;
 
-    /* "gaw/utils/graph_shortest_path.pyx":297
+    /* "gawml/utils/graph_shortest_path.pyx":297
  *     else:
  *         node.children = new_child
  *         new_child.right_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3400,7 +3400,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
  */
     __pyx_v_new_child->right_sibling = NULL;
 
-    /* "gaw/utils/graph_shortest_path.pyx":298
+    /* "gawml/utils/graph_shortest_path.pyx":298
  *         node.children = new_child
  *         new_child.right_sibling = NULL
  *         new_child.left_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
  */
     __pyx_v_new_child->left_sibling = NULL;
 
-    /* "gaw/utils/graph_shortest_path.pyx":299
+    /* "gawml/utils/graph_shortest_path.pyx":299
  *         new_child.right_sibling = NULL
  *         new_child.left_sibling = NULL
  *         node.rank = 1             # <<<<<<<<<<<<<<
@@ -3420,7 +3420,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
   }
   __pyx_L3:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":287
+  /* "gawml/utils/graph_shortest_path.pyx":287
  * 
  * 
  * cdef void add_child(FibonacciNode* node, FibonacciNode* new_child):             # <<<<<<<<<<<<<<
@@ -3432,7 +3432,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":302
+/* "gawml/utils/graph_shortest_path.pyx":302
  * 
  * 
  * cdef void add_sibling(FibonacciNode* node, FibonacciNode* new_sibling):             # <<<<<<<<<<<<<<
@@ -3440,23 +3440,23 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(struct __pyx_t_3
  *     #              - new_sibling is a valid pointer
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_new_sibling) {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_add_sibling(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_new_sibling) {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
   __Pyx_RefNannyDeclarations
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_1;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_1;
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("add_sibling", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":306
+  /* "gawml/utils/graph_shortest_path.pyx":306
  *     #              - new_sibling is a valid pointer
  *     #              - new_sibling is not the child or sibling of another node
  *     cdef FibonacciNode* temp = rightmost_sibling(node)             # <<<<<<<<<<<<<<
  *     temp.right_sibling = new_sibling
  *     new_sibling.left_sibling = temp
  */
-  __pyx_v_temp = __pyx_f_3gaw_5utils_19graph_shortest_path_rightmost_sibling(__pyx_v_node);
+  __pyx_v_temp = __pyx_f_5gawml_5utils_19graph_shortest_path_rightmost_sibling(__pyx_v_node);
 
-  /* "gaw/utils/graph_shortest_path.pyx":307
+  /* "gawml/utils/graph_shortest_path.pyx":307
  *     #              - new_sibling is not the child or sibling of another node
  *     cdef FibonacciNode* temp = rightmost_sibling(node)
  *     temp.right_sibling = new_sibling             # <<<<<<<<<<<<<<
@@ -3465,7 +3465,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  */
   __pyx_v_temp->right_sibling = __pyx_v_new_sibling;
 
-  /* "gaw/utils/graph_shortest_path.pyx":308
+  /* "gawml/utils/graph_shortest_path.pyx":308
  *     cdef FibonacciNode* temp = rightmost_sibling(node)
  *     temp.right_sibling = new_sibling
  *     new_sibling.left_sibling = temp             # <<<<<<<<<<<<<<
@@ -3474,7 +3474,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  */
   __pyx_v_new_sibling->left_sibling = __pyx_v_temp;
 
-  /* "gaw/utils/graph_shortest_path.pyx":309
+  /* "gawml/utils/graph_shortest_path.pyx":309
  *     temp.right_sibling = new_sibling
  *     new_sibling.left_sibling = temp
  *     new_sibling.right_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3483,7 +3483,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  */
   __pyx_v_new_sibling->right_sibling = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":310
+  /* "gawml/utils/graph_shortest_path.pyx":310
  *     new_sibling.left_sibling = temp
  *     new_sibling.right_sibling = NULL
  *     new_sibling.parent = node.parent             # <<<<<<<<<<<<<<
@@ -3493,7 +3493,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
   __pyx_t_1 = __pyx_v_node->parent;
   __pyx_v_new_sibling->parent = __pyx_t_1;
 
-  /* "gaw/utils/graph_shortest_path.pyx":311
+  /* "gawml/utils/graph_shortest_path.pyx":311
  *     new_sibling.right_sibling = NULL
  *     new_sibling.parent = node.parent
  *     if new_sibling.parent:             # <<<<<<<<<<<<<<
@@ -3503,7 +3503,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
   __pyx_t_2 = (__pyx_v_new_sibling->parent != 0);
   if (__pyx_t_2) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":312
+    /* "gawml/utils/graph_shortest_path.pyx":312
  *     new_sibling.parent = node.parent
  *     if new_sibling.parent:
  *         new_sibling.parent.rank += 1             # <<<<<<<<<<<<<<
@@ -3512,7 +3512,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  */
     __pyx_v_new_sibling->parent->rank = (__pyx_v_new_sibling->parent->rank + 1);
 
-    /* "gaw/utils/graph_shortest_path.pyx":311
+    /* "gawml/utils/graph_shortest_path.pyx":311
  *     new_sibling.right_sibling = NULL
  *     new_sibling.parent = node.parent
  *     if new_sibling.parent:             # <<<<<<<<<<<<<<
@@ -3521,7 +3521,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":302
+  /* "gawml/utils/graph_shortest_path.pyx":302
  * 
  * 
  * cdef void add_sibling(FibonacciNode* node, FibonacciNode* new_sibling):             # <<<<<<<<<<<<<<
@@ -3533,7 +3533,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":315
+/* "gawml/utils/graph_shortest_path.pyx":315
  * 
  * 
  * cdef void remove(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3541,13 +3541,13 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(struct __pyx_t
  *     if node.parent:
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_remove(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
   __Pyx_RefNannySetupContext("remove", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":317
+  /* "gawml/utils/graph_shortest_path.pyx":317
  * cdef void remove(FibonacciNode* node):
  *     # Assumptions: - node is a valid pointer
  *     if node.parent:             # <<<<<<<<<<<<<<
@@ -3557,7 +3557,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
   __pyx_t_1 = (__pyx_v_node->parent != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":318
+    /* "gawml/utils/graph_shortest_path.pyx":318
  *     # Assumptions: - node is a valid pointer
  *     if node.parent:
  *         node.parent.rank -= 1             # <<<<<<<<<<<<<<
@@ -3566,7 +3566,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
     __pyx_v_node->parent->rank = (__pyx_v_node->parent->rank - 1);
 
-    /* "gaw/utils/graph_shortest_path.pyx":319
+    /* "gawml/utils/graph_shortest_path.pyx":319
  *     if node.parent:
  *         node.parent.rank -= 1
  *         if node.left_sibling:             # <<<<<<<<<<<<<<
@@ -3576,7 +3576,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
     __pyx_t_1 = (__pyx_v_node->left_sibling != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":320
+      /* "gawml/utils/graph_shortest_path.pyx":320
  *         node.parent.rank -= 1
  *         if node.left_sibling:
  *             node.parent.children = node.left_sibling             # <<<<<<<<<<<<<<
@@ -3586,7 +3586,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
       __pyx_t_2 = __pyx_v_node->left_sibling;
       __pyx_v_node->parent->children = __pyx_t_2;
 
-      /* "gaw/utils/graph_shortest_path.pyx":319
+      /* "gawml/utils/graph_shortest_path.pyx":319
  *     if node.parent:
  *         node.parent.rank -= 1
  *         if node.left_sibling:             # <<<<<<<<<<<<<<
@@ -3596,7 +3596,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
       goto __pyx_L4;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":321
+    /* "gawml/utils/graph_shortest_path.pyx":321
  *         if node.left_sibling:
  *             node.parent.children = node.left_sibling
  *         elif node.right_sibling:             # <<<<<<<<<<<<<<
@@ -3606,7 +3606,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
     __pyx_t_1 = (__pyx_v_node->right_sibling != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":322
+      /* "gawml/utils/graph_shortest_path.pyx":322
  *             node.parent.children = node.left_sibling
  *         elif node.right_sibling:
  *             node.parent.children = node.right_sibling             # <<<<<<<<<<<<<<
@@ -3616,7 +3616,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
       __pyx_t_2 = __pyx_v_node->right_sibling;
       __pyx_v_node->parent->children = __pyx_t_2;
 
-      /* "gaw/utils/graph_shortest_path.pyx":321
+      /* "gawml/utils/graph_shortest_path.pyx":321
  *         if node.left_sibling:
  *             node.parent.children = node.left_sibling
  *         elif node.right_sibling:             # <<<<<<<<<<<<<<
@@ -3626,7 +3626,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
       goto __pyx_L4;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":324
+    /* "gawml/utils/graph_shortest_path.pyx":324
  *             node.parent.children = node.right_sibling
  *         else:
  *             node.parent.children = NULL             # <<<<<<<<<<<<<<
@@ -3638,7 +3638,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
     }
     __pyx_L4:;
 
-    /* "gaw/utils/graph_shortest_path.pyx":317
+    /* "gawml/utils/graph_shortest_path.pyx":317
  * cdef void remove(FibonacciNode* node):
  *     # Assumptions: - node is a valid pointer
  *     if node.parent:             # <<<<<<<<<<<<<<
@@ -3647,7 +3647,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":326
+  /* "gawml/utils/graph_shortest_path.pyx":326
  *             node.parent.children = NULL
  * 
  *     if node.left_sibling:             # <<<<<<<<<<<<<<
@@ -3657,7 +3657,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
   __pyx_t_1 = (__pyx_v_node->left_sibling != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":327
+    /* "gawml/utils/graph_shortest_path.pyx":327
  * 
  *     if node.left_sibling:
  *         node.left_sibling.right_sibling = node.right_sibling             # <<<<<<<<<<<<<<
@@ -3667,7 +3667,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
     __pyx_t_2 = __pyx_v_node->right_sibling;
     __pyx_v_node->left_sibling->right_sibling = __pyx_t_2;
 
-    /* "gaw/utils/graph_shortest_path.pyx":326
+    /* "gawml/utils/graph_shortest_path.pyx":326
  *             node.parent.children = NULL
  * 
  *     if node.left_sibling:             # <<<<<<<<<<<<<<
@@ -3676,7 +3676,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":328
+  /* "gawml/utils/graph_shortest_path.pyx":328
  *     if node.left_sibling:
  *         node.left_sibling.right_sibling = node.right_sibling
  *     if node.right_sibling:             # <<<<<<<<<<<<<<
@@ -3686,7 +3686,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
   __pyx_t_1 = (__pyx_v_node->right_sibling != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":329
+    /* "gawml/utils/graph_shortest_path.pyx":329
  *         node.left_sibling.right_sibling = node.right_sibling
  *     if node.right_sibling:
  *         node.right_sibling.left_sibling = node.left_sibling             # <<<<<<<<<<<<<<
@@ -3696,7 +3696,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
     __pyx_t_2 = __pyx_v_node->left_sibling;
     __pyx_v_node->right_sibling->left_sibling = __pyx_t_2;
 
-    /* "gaw/utils/graph_shortest_path.pyx":328
+    /* "gawml/utils/graph_shortest_path.pyx":328
  *     if node.left_sibling:
  *         node.left_sibling.right_sibling = node.right_sibling
  *     if node.right_sibling:             # <<<<<<<<<<<<<<
@@ -3705,7 +3705,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":331
+  /* "gawml/utils/graph_shortest_path.pyx":331
  *         node.right_sibling.left_sibling = node.left_sibling
  * 
  *     node.left_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3714,7 +3714,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   __pyx_v_node->left_sibling = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":332
+  /* "gawml/utils/graph_shortest_path.pyx":332
  * 
  *     node.left_sibling = NULL
  *     node.right_sibling = NULL             # <<<<<<<<<<<<<<
@@ -3723,7 +3723,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   __pyx_v_node->right_sibling = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":333
+  /* "gawml/utils/graph_shortest_path.pyx":333
  *     node.left_sibling = NULL
  *     node.right_sibling = NULL
  *     node.parent = NULL             # <<<<<<<<<<<<<<
@@ -3732,7 +3732,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  */
   __pyx_v_node->parent = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":315
+  /* "gawml/utils/graph_shortest_path.pyx":315
  * 
  * 
  * cdef void remove(FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3744,7 +3744,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":349
+/* "gawml/utils/graph_shortest_path.pyx":349
  * 
  * 
  * cdef void insert_node(FibonacciHeap* heap,             # <<<<<<<<<<<<<<
@@ -3752,12 +3752,12 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_remove(struct __pyx_t_3gaw
  *     # Assumptions: - heap is a valid pointer
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("insert_node", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":354
+  /* "gawml/utils/graph_shortest_path.pyx":354
  *     #              - node is a valid pointer
  *     #              - node is not the child or sibling of another node
  *     if heap.min_node:             # <<<<<<<<<<<<<<
@@ -3767,16 +3767,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
   __pyx_t_1 = (__pyx_v_heap->min_node != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":355
+    /* "gawml/utils/graph_shortest_path.pyx":355
  *     #              - node is not the child or sibling of another node
  *     if heap.min_node:
  *         add_sibling(heap.min_node, node)             # <<<<<<<<<<<<<<
  *         if node.val < heap.min_node.val:
  *             heap.min_node = node
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(__pyx_v_heap->min_node, __pyx_v_node);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_add_sibling(__pyx_v_heap->min_node, __pyx_v_node);
 
-    /* "gaw/utils/graph_shortest_path.pyx":356
+    /* "gawml/utils/graph_shortest_path.pyx":356
  *     if heap.min_node:
  *         add_sibling(heap.min_node, node)
  *         if node.val < heap.min_node.val:             # <<<<<<<<<<<<<<
@@ -3786,7 +3786,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
     __pyx_t_1 = ((__pyx_v_node->val < __pyx_v_heap->min_node->val) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":357
+      /* "gawml/utils/graph_shortest_path.pyx":357
  *         add_sibling(heap.min_node, node)
  *         if node.val < heap.min_node.val:
  *             heap.min_node = node             # <<<<<<<<<<<<<<
@@ -3795,7 +3795,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
  */
       __pyx_v_heap->min_node = __pyx_v_node;
 
-      /* "gaw/utils/graph_shortest_path.pyx":356
+      /* "gawml/utils/graph_shortest_path.pyx":356
  *     if heap.min_node:
  *         add_sibling(heap.min_node, node)
  *         if node.val < heap.min_node.val:             # <<<<<<<<<<<<<<
@@ -3804,7 +3804,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
  */
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":354
+    /* "gawml/utils/graph_shortest_path.pyx":354
  *     #              - node is a valid pointer
  *     #              - node is not the child or sibling of another node
  *     if heap.min_node:             # <<<<<<<<<<<<<<
@@ -3814,7 +3814,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":359
+  /* "gawml/utils/graph_shortest_path.pyx":359
  *             heap.min_node = node
  *     else:
  *         heap.min_node = node             # <<<<<<<<<<<<<<
@@ -3826,7 +3826,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
   }
   __pyx_L3:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":349
+  /* "gawml/utils/graph_shortest_path.pyx":349
  * 
  * 
  * cdef void insert_node(FibonacciHeap* heap,             # <<<<<<<<<<<<<<
@@ -3838,7 +3838,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":362
+/* "gawml/utils/graph_shortest_path.pyx":362
  * 
  * 
  * cdef void decrease_val(FibonacciHeap* heap,             # <<<<<<<<<<<<<<
@@ -3846,13 +3846,13 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(struct __pyx_t
  *                        DTYPE_t newval):
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_newval) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_decrease_val(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node, __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_newval) {
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("decrease_val", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":369
+  /* "gawml/utils/graph_shortest_path.pyx":369
  *     #              - node is a valid pointer
  *     #              - node is not the child or sibling of another node
  *     node.val = newval             # <<<<<<<<<<<<<<
@@ -3861,7 +3861,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
  */
   __pyx_v_node->val = __pyx_v_newval;
 
-  /* "gaw/utils/graph_shortest_path.pyx":370
+  /* "gawml/utils/graph_shortest_path.pyx":370
  *     #              - node is not the child or sibling of another node
  *     node.val = newval
  *     if node.parent and (node.parent.val >= newval):             # <<<<<<<<<<<<<<
@@ -3879,25 +3879,25 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":371
+    /* "gawml/utils/graph_shortest_path.pyx":371
  *     node.val = newval
  *     if node.parent and (node.parent.val >= newval):
  *         remove(node)             # <<<<<<<<<<<<<<
  *         insert_node(heap, node)
  *     elif heap.min_node.val > node.val:
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_remove(__pyx_v_node);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_remove(__pyx_v_node);
 
-    /* "gaw/utils/graph_shortest_path.pyx":372
+    /* "gawml/utils/graph_shortest_path.pyx":372
  *     if node.parent and (node.parent.val >= newval):
  *         remove(node)
  *         insert_node(heap, node)             # <<<<<<<<<<<<<<
  *     elif heap.min_node.val > node.val:
  *         heap.min_node = node
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_node);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_node);
 
-    /* "gaw/utils/graph_shortest_path.pyx":370
+    /* "gawml/utils/graph_shortest_path.pyx":370
  *     #              - node is not the child or sibling of another node
  *     node.val = newval
  *     if node.parent and (node.parent.val >= newval):             # <<<<<<<<<<<<<<
@@ -3907,7 +3907,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":373
+  /* "gawml/utils/graph_shortest_path.pyx":373
  *         remove(node)
  *         insert_node(heap, node)
  *     elif heap.min_node.val > node.val:             # <<<<<<<<<<<<<<
@@ -3917,7 +3917,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
   __pyx_t_1 = ((__pyx_v_heap->min_node->val > __pyx_v_node->val) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":374
+    /* "gawml/utils/graph_shortest_path.pyx":374
  *         insert_node(heap, node)
  *     elif heap.min_node.val > node.val:
  *         heap.min_node = node             # <<<<<<<<<<<<<<
@@ -3926,7 +3926,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
  */
     __pyx_v_heap->min_node = __pyx_v_node;
 
-    /* "gaw/utils/graph_shortest_path.pyx":373
+    /* "gawml/utils/graph_shortest_path.pyx":373
  *         remove(node)
  *         insert_node(heap, node)
  *     elif heap.min_node.val > node.val:             # <<<<<<<<<<<<<<
@@ -3936,7 +3936,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
   }
   __pyx_L3:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":362
+  /* "gawml/utils/graph_shortest_path.pyx":362
  * 
  * 
  * cdef void decrease_val(FibonacciHeap* heap,             # <<<<<<<<<<<<<<
@@ -3948,7 +3948,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":377
+/* "gawml/utils/graph_shortest_path.pyx":377
  * 
  * 
  * cdef void link(FibonacciHeap* heap, FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -3956,14 +3956,14 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(struct __pyx_
  *     #              - node is a valid pointer
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_linknode;
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_link(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_node) {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_linknode;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("link", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":386
+  /* "gawml/utils/graph_shortest_path.pyx":386
  *     cdef FibonacciNode *child
  * 
  *     if heap.roots_by_rank[node.rank] == NULL:             # <<<<<<<<<<<<<<
@@ -3973,7 +3973,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
   __pyx_t_1 = (((__pyx_v_heap->roots_by_rank[__pyx_v_node->rank]) == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":387
+    /* "gawml/utils/graph_shortest_path.pyx":387
  * 
  *     if heap.roots_by_rank[node.rank] == NULL:
  *         heap.roots_by_rank[node.rank] = node             # <<<<<<<<<<<<<<
@@ -3982,7 +3982,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
  */
     (__pyx_v_heap->roots_by_rank[__pyx_v_node->rank]) = __pyx_v_node;
 
-    /* "gaw/utils/graph_shortest_path.pyx":386
+    /* "gawml/utils/graph_shortest_path.pyx":386
  *     cdef FibonacciNode *child
  * 
  *     if heap.roots_by_rank[node.rank] == NULL:             # <<<<<<<<<<<<<<
@@ -3992,7 +3992,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
     goto __pyx_L3;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":389
+  /* "gawml/utils/graph_shortest_path.pyx":389
  *         heap.roots_by_rank[node.rank] = node
  *     else:
  *         linknode = heap.roots_by_rank[node.rank]             # <<<<<<<<<<<<<<
@@ -4002,7 +4002,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
   /*else*/ {
     __pyx_v_linknode = (__pyx_v_heap->roots_by_rank[__pyx_v_node->rank]);
 
-    /* "gaw/utils/graph_shortest_path.pyx":390
+    /* "gawml/utils/graph_shortest_path.pyx":390
  *     else:
  *         linknode = heap.roots_by_rank[node.rank]
  *         heap.roots_by_rank[node.rank] = NULL             # <<<<<<<<<<<<<<
@@ -4011,7 +4011,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
  */
     (__pyx_v_heap->roots_by_rank[__pyx_v_node->rank]) = NULL;
 
-    /* "gaw/utils/graph_shortest_path.pyx":392
+    /* "gawml/utils/graph_shortest_path.pyx":392
  *         heap.roots_by_rank[node.rank] = NULL
  * 
  *         if node.val < linknode.val or node == heap.min_node:             # <<<<<<<<<<<<<<
@@ -4029,34 +4029,34 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
     __pyx_L5_bool_binop_done:;
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":393
+      /* "gawml/utils/graph_shortest_path.pyx":393
  * 
  *         if node.val < linknode.val or node == heap.min_node:
  *             remove(linknode)             # <<<<<<<<<<<<<<
  *             add_child(node, linknode)
  *             link(heap, node)
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_remove(__pyx_v_linknode);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_remove(__pyx_v_linknode);
 
-      /* "gaw/utils/graph_shortest_path.pyx":394
+      /* "gawml/utils/graph_shortest_path.pyx":394
  *         if node.val < linknode.val or node == heap.min_node:
  *             remove(linknode)
  *             add_child(node, linknode)             # <<<<<<<<<<<<<<
  *             link(heap, node)
  *         else:
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(__pyx_v_node, __pyx_v_linknode);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_add_child(__pyx_v_node, __pyx_v_linknode);
 
-      /* "gaw/utils/graph_shortest_path.pyx":395
+      /* "gawml/utils/graph_shortest_path.pyx":395
  *             remove(linknode)
  *             add_child(node, linknode)
  *             link(heap, node)             # <<<<<<<<<<<<<<
  *         else:
  *             remove(node)
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_node);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_node);
 
-      /* "gaw/utils/graph_shortest_path.pyx":392
+      /* "gawml/utils/graph_shortest_path.pyx":392
  *         heap.roots_by_rank[node.rank] = NULL
  * 
  *         if node.val < linknode.val or node == heap.min_node:             # <<<<<<<<<<<<<<
@@ -4066,7 +4066,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
       goto __pyx_L4;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":397
+    /* "gawml/utils/graph_shortest_path.pyx":397
  *             link(heap, node)
  *         else:
  *             remove(node)             # <<<<<<<<<<<<<<
@@ -4074,31 +4074,31 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
  *             link(heap, linknode)
  */
     /*else*/ {
-      __pyx_f_3gaw_5utils_19graph_shortest_path_remove(__pyx_v_node);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_remove(__pyx_v_node);
 
-      /* "gaw/utils/graph_shortest_path.pyx":398
+      /* "gawml/utils/graph_shortest_path.pyx":398
  *         else:
  *             remove(node)
  *             add_child(linknode, node)             # <<<<<<<<<<<<<<
  *             link(heap, linknode)
  * 
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_add_child(__pyx_v_linknode, __pyx_v_node);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_add_child(__pyx_v_linknode, __pyx_v_node);
 
-      /* "gaw/utils/graph_shortest_path.pyx":399
+      /* "gawml/utils/graph_shortest_path.pyx":399
  *             remove(node)
  *             add_child(linknode, node)
  *             link(heap, linknode)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_linknode);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_linknode);
     }
     __pyx_L4:;
   }
   __pyx_L3:;
 
-  /* "gaw/utils/graph_shortest_path.pyx":377
+  /* "gawml/utils/graph_shortest_path.pyx":377
  * 
  * 
  * cdef void link(FibonacciHeap* heap, FibonacciNode* node):             # <<<<<<<<<<<<<<
@@ -4110,7 +4110,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":402
+/* "gawml/utils/graph_shortest_path.pyx":402
  * 
  * 
  * cdef FibonacciNode* remove_min(FibonacciHeap* heap):             # <<<<<<<<<<<<<<
@@ -4118,18 +4118,18 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_link(struct __pyx_t_3gaw_5
  *     #              - heap.min_node is a valid pointer
  */
 
-static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3gaw_5utils_19graph_shortest_path_remove_min(struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap) {
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp_right;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_out;
+static struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_5gawml_5utils_19graph_shortest_path_remove_min(struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap) {
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_temp_right;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_out;
   unsigned int __pyx_v_i;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_r;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_t_2;
   __Pyx_RefNannySetupContext("remove_min", 0);
 
-  /* "gaw/utils/graph_shortest_path.pyx":411
+  /* "gawml/utils/graph_shortest_path.pyx":411
  * 
  *     # make all min_node children into root nodes
  *     if heap.min_node.children:             # <<<<<<<<<<<<<<
@@ -4139,16 +4139,16 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_t_1 = (__pyx_v_heap->min_node->children != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":412
+    /* "gawml/utils/graph_shortest_path.pyx":412
  *     # make all min_node children into root nodes
  *     if heap.min_node.children:
  *         temp = leftmost_sibling(heap.min_node.children)             # <<<<<<<<<<<<<<
  *         temp_right = NULL
  * 
  */
-    __pyx_v_temp = __pyx_f_3gaw_5utils_19graph_shortest_path_leftmost_sibling(__pyx_v_heap->min_node->children);
+    __pyx_v_temp = __pyx_f_5gawml_5utils_19graph_shortest_path_leftmost_sibling(__pyx_v_heap->min_node->children);
 
-    /* "gaw/utils/graph_shortest_path.pyx":413
+    /* "gawml/utils/graph_shortest_path.pyx":413
  *     if heap.min_node.children:
  *         temp = leftmost_sibling(heap.min_node.children)
  *         temp_right = NULL             # <<<<<<<<<<<<<<
@@ -4157,7 +4157,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
     __pyx_v_temp_right = NULL;
 
-    /* "gaw/utils/graph_shortest_path.pyx":415
+    /* "gawml/utils/graph_shortest_path.pyx":415
  *         temp_right = NULL
  * 
  *         while temp:             # <<<<<<<<<<<<<<
@@ -4168,7 +4168,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       __pyx_t_1 = (__pyx_v_temp != 0);
       if (!__pyx_t_1) break;
 
-      /* "gaw/utils/graph_shortest_path.pyx":416
+      /* "gawml/utils/graph_shortest_path.pyx":416
  * 
  *         while temp:
  *             temp_right = temp.right_sibling             # <<<<<<<<<<<<<<
@@ -4178,25 +4178,25 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       __pyx_t_2 = __pyx_v_temp->right_sibling;
       __pyx_v_temp_right = __pyx_t_2;
 
-      /* "gaw/utils/graph_shortest_path.pyx":417
+      /* "gawml/utils/graph_shortest_path.pyx":417
  *         while temp:
  *             temp_right = temp.right_sibling
  *             remove(temp)             # <<<<<<<<<<<<<<
  *             add_sibling(heap.min_node, temp)
  *             temp = temp_right
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_remove(__pyx_v_temp);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_remove(__pyx_v_temp);
 
-      /* "gaw/utils/graph_shortest_path.pyx":418
+      /* "gawml/utils/graph_shortest_path.pyx":418
  *             temp_right = temp.right_sibling
  *             remove(temp)
  *             add_sibling(heap.min_node, temp)             # <<<<<<<<<<<<<<
  *             temp = temp_right
  * 
  */
-      __pyx_f_3gaw_5utils_19graph_shortest_path_add_sibling(__pyx_v_heap->min_node, __pyx_v_temp);
+      __pyx_f_5gawml_5utils_19graph_shortest_path_add_sibling(__pyx_v_heap->min_node, __pyx_v_temp);
 
-      /* "gaw/utils/graph_shortest_path.pyx":419
+      /* "gawml/utils/graph_shortest_path.pyx":419
  *             remove(temp)
  *             add_sibling(heap.min_node, temp)
  *             temp = temp_right             # <<<<<<<<<<<<<<
@@ -4206,7 +4206,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       __pyx_v_temp = __pyx_v_temp_right;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":421
+    /* "gawml/utils/graph_shortest_path.pyx":421
  *             temp = temp_right
  * 
  *         heap.min_node.children = NULL             # <<<<<<<<<<<<<<
@@ -4215,7 +4215,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
     __pyx_v_heap->min_node->children = NULL;
 
-    /* "gaw/utils/graph_shortest_path.pyx":411
+    /* "gawml/utils/graph_shortest_path.pyx":411
  * 
  *     # make all min_node children into root nodes
  *     if heap.min_node.children:             # <<<<<<<<<<<<<<
@@ -4224,16 +4224,16 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":424
+  /* "gawml/utils/graph_shortest_path.pyx":424
  * 
  *     # choose a root node other than min_node
  *     temp = leftmost_sibling(heap.min_node)             # <<<<<<<<<<<<<<
  *     if temp == heap.min_node:
  *         if heap.min_node.right_sibling:
  */
-  __pyx_v_temp = __pyx_f_3gaw_5utils_19graph_shortest_path_leftmost_sibling(__pyx_v_heap->min_node);
+  __pyx_v_temp = __pyx_f_5gawml_5utils_19graph_shortest_path_leftmost_sibling(__pyx_v_heap->min_node);
 
-  /* "gaw/utils/graph_shortest_path.pyx":425
+  /* "gawml/utils/graph_shortest_path.pyx":425
  *     # choose a root node other than min_node
  *     temp = leftmost_sibling(heap.min_node)
  *     if temp == heap.min_node:             # <<<<<<<<<<<<<<
@@ -4243,7 +4243,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_t_1 = ((__pyx_v_temp == __pyx_v_heap->min_node) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":426
+    /* "gawml/utils/graph_shortest_path.pyx":426
  *     temp = leftmost_sibling(heap.min_node)
  *     if temp == heap.min_node:
  *         if heap.min_node.right_sibling:             # <<<<<<<<<<<<<<
@@ -4253,7 +4253,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_1 = (__pyx_v_heap->min_node->right_sibling != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":427
+      /* "gawml/utils/graph_shortest_path.pyx":427
  *     if temp == heap.min_node:
  *         if heap.min_node.right_sibling:
  *             temp = heap.min_node.right_sibling             # <<<<<<<<<<<<<<
@@ -4263,7 +4263,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       __pyx_t_2 = __pyx_v_heap->min_node->right_sibling;
       __pyx_v_temp = __pyx_t_2;
 
-      /* "gaw/utils/graph_shortest_path.pyx":426
+      /* "gawml/utils/graph_shortest_path.pyx":426
  *     temp = leftmost_sibling(heap.min_node)
  *     if temp == heap.min_node:
  *         if heap.min_node.right_sibling:             # <<<<<<<<<<<<<<
@@ -4273,7 +4273,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       goto __pyx_L7;
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":429
+    /* "gawml/utils/graph_shortest_path.pyx":429
  *             temp = heap.min_node.right_sibling
  *         else:
  *             out = heap.min_node             # <<<<<<<<<<<<<<
@@ -4284,7 +4284,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
       __pyx_t_2 = __pyx_v_heap->min_node;
       __pyx_v_out = __pyx_t_2;
 
-      /* "gaw/utils/graph_shortest_path.pyx":430
+      /* "gawml/utils/graph_shortest_path.pyx":430
  *         else:
  *             out = heap.min_node
  *             heap.min_node = NULL             # <<<<<<<<<<<<<<
@@ -4293,7 +4293,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
       __pyx_v_heap->min_node = NULL;
 
-      /* "gaw/utils/graph_shortest_path.pyx":431
+      /* "gawml/utils/graph_shortest_path.pyx":431
  *             out = heap.min_node
  *             heap.min_node = NULL
  *             return out             # <<<<<<<<<<<<<<
@@ -4305,7 +4305,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     }
     __pyx_L7:;
 
-    /* "gaw/utils/graph_shortest_path.pyx":425
+    /* "gawml/utils/graph_shortest_path.pyx":425
  *     # choose a root node other than min_node
  *     temp = leftmost_sibling(heap.min_node)
  *     if temp == heap.min_node:             # <<<<<<<<<<<<<<
@@ -4314,7 +4314,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":434
+  /* "gawml/utils/graph_shortest_path.pyx":434
  * 
  *     # remove min_node, and point heap to the new min
  *     out = heap.min_node             # <<<<<<<<<<<<<<
@@ -4324,16 +4324,16 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_t_2 = __pyx_v_heap->min_node;
   __pyx_v_out = __pyx_t_2;
 
-  /* "gaw/utils/graph_shortest_path.pyx":435
+  /* "gawml/utils/graph_shortest_path.pyx":435
  *     # remove min_node, and point heap to the new min
  *     out = heap.min_node
  *     remove(heap.min_node)             # <<<<<<<<<<<<<<
  *     heap.min_node = temp
  * 
  */
-  __pyx_f_3gaw_5utils_19graph_shortest_path_remove(__pyx_v_heap->min_node);
+  __pyx_f_5gawml_5utils_19graph_shortest_path_remove(__pyx_v_heap->min_node);
 
-  /* "gaw/utils/graph_shortest_path.pyx":436
+  /* "gawml/utils/graph_shortest_path.pyx":436
  *     out = heap.min_node
  *     remove(heap.min_node)
  *     heap.min_node = temp             # <<<<<<<<<<<<<<
@@ -4342,7 +4342,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   __pyx_v_heap->min_node = __pyx_v_temp;
 
-  /* "gaw/utils/graph_shortest_path.pyx":439
+  /* "gawml/utils/graph_shortest_path.pyx":439
  * 
  *     # re-link the heap
  *     for i from 0 <= i < 100:             # <<<<<<<<<<<<<<
@@ -4351,7 +4351,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
   for (__pyx_v_i = 0; __pyx_v_i < 0x64; __pyx_v_i++) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":440
+    /* "gawml/utils/graph_shortest_path.pyx":440
  *     # re-link the heap
  *     for i from 0 <= i < 100:
  *         heap.roots_by_rank[i] = NULL             # <<<<<<<<<<<<<<
@@ -4361,7 +4361,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     (__pyx_v_heap->roots_by_rank[__pyx_v_i]) = NULL;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":442
+  /* "gawml/utils/graph_shortest_path.pyx":442
  *         heap.roots_by_rank[i] = NULL
  * 
  *     while temp:             # <<<<<<<<<<<<<<
@@ -4372,7 +4372,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_1 = (__pyx_v_temp != 0);
     if (!__pyx_t_1) break;
 
-    /* "gaw/utils/graph_shortest_path.pyx":443
+    /* "gawml/utils/graph_shortest_path.pyx":443
  * 
  *     while temp:
  *         if temp.val < heap.min_node.val:             # <<<<<<<<<<<<<<
@@ -4382,7 +4382,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_1 = ((__pyx_v_temp->val < __pyx_v_heap->min_node->val) != 0);
     if (__pyx_t_1) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":444
+      /* "gawml/utils/graph_shortest_path.pyx":444
  *     while temp:
  *         if temp.val < heap.min_node.val:
  *             heap.min_node = temp             # <<<<<<<<<<<<<<
@@ -4391,7 +4391,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
       __pyx_v_heap->min_node = __pyx_v_temp;
 
-      /* "gaw/utils/graph_shortest_path.pyx":443
+      /* "gawml/utils/graph_shortest_path.pyx":443
  * 
  *     while temp:
  *         if temp.val < heap.min_node.val:             # <<<<<<<<<<<<<<
@@ -4400,7 +4400,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  */
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":445
+    /* "gawml/utils/graph_shortest_path.pyx":445
  *         if temp.val < heap.min_node.val:
  *             heap.min_node = temp
  *         temp_right = temp.right_sibling             # <<<<<<<<<<<<<<
@@ -4410,16 +4410,16 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_t_2 = __pyx_v_temp->right_sibling;
     __pyx_v_temp_right = __pyx_t_2;
 
-    /* "gaw/utils/graph_shortest_path.pyx":446
+    /* "gawml/utils/graph_shortest_path.pyx":446
  *             heap.min_node = temp
  *         temp_right = temp.right_sibling
  *         link(heap, temp)             # <<<<<<<<<<<<<<
  *         temp = temp_right
  * 
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_temp);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_link(__pyx_v_heap, __pyx_v_temp);
 
-    /* "gaw/utils/graph_shortest_path.pyx":447
+    /* "gawml/utils/graph_shortest_path.pyx":447
  *         temp_right = temp.right_sibling
  *         link(heap, temp)
  *         temp = temp_right             # <<<<<<<<<<<<<<
@@ -4429,7 +4429,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
     __pyx_v_temp = __pyx_v_temp_right;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":449
+  /* "gawml/utils/graph_shortest_path.pyx":449
  *         temp = temp_right
  * 
  *     return out             # <<<<<<<<<<<<<<
@@ -4439,7 +4439,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   __pyx_r = __pyx_v_out;
   goto __pyx_L0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":402
+  /* "gawml/utils/graph_shortest_path.pyx":402
  * 
  * 
  * cdef FibonacciNode* remove_min(FibonacciHeap* heap):             # <<<<<<<<<<<<<<
@@ -4453,7 +4453,7 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
   return __pyx_r;
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":472
+/* "gawml/utils/graph_shortest_path.pyx":472
  * 
  * @cython.boundscheck(False)
  * cdef void dijkstra_directed_one_row(             # <<<<<<<<<<<<<<
@@ -4461,12 +4461,12 @@ static struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_f_3
  *                     np.ndarray[ITYPE_t, ndim=1, mode='c'] neighbors,
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(unsigned int __pyx_v_i_node, PyArrayObject *__pyx_v_neighbors, PyArrayObject *__pyx_v_distances, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_graph, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_directed_one_row(unsigned int __pyx_v_i_node, PyArrayObject *__pyx_v_neighbors, PyArrayObject *__pyx_v_distances, PyArrayObject *__pyx_v_indptr, PyArrayObject *__pyx_v_graph, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes) {
   unsigned int __pyx_v_N;
   unsigned int __pyx_v_i;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_v;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_current_neighbor;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_dist;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_v;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_current_neighbor;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_dist;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_distances;
   __Pyx_Buffer __pyx_pybuffer_distances;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_graph;
@@ -4480,10 +4480,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
   int __pyx_t_2;
   size_t __pyx_t_3;
   Py_ssize_t __pyx_t_4;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t __pyx_t_5;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t __pyx_t_5;
   size_t __pyx_t_6;
   size_t __pyx_t_7;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_t_8;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_t_8;
   size_t __pyx_t_9;
   size_t __pyx_t_10;
   __Pyx_RefNannySetupContext("dijkstra_directed_one_row", 0);
@@ -4505,26 +4505,26 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
   __pyx_pybuffernd_graph.rcbuffer = &__pyx_pybuffer_graph;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
   }
   __pyx_pybuffernd_neighbors.diminfo[0].strides = __pyx_pybuffernd_neighbors.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_neighbors.diminfo[0].shape = __pyx_pybuffernd_neighbors.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
   }
   __pyx_pybuffernd_distances.diminfo[0].strides = __pyx_pybuffernd_distances.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_distances.diminfo[0].shape = __pyx_pybuffernd_distances.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr.diminfo[0].strides = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr.diminfo[0].shape = __pyx_pybuffernd_indptr.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 472, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/graph_shortest_path.pyx":500
+  /* "gawml/utils/graph_shortest_path.pyx":500
  *     nodes : the array of nodes to use
  *     """
  *     cdef unsigned int N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -4533,7 +4533,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/graph_shortest_path.pyx":507
+  /* "gawml/utils/graph_shortest_path.pyx":507
  * 
  *     # initialize nodes
  *     for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -4543,17 +4543,17 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
   __pyx_t_1 = __pyx_v_N;
   for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_1; __pyx_v_i++) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":508
+    /* "gawml/utils/graph_shortest_path.pyx":508
  *     # initialize nodes
  *     for i from 0 <= i < N:
  *         initialize_node(&nodes[i], i)             # <<<<<<<<<<<<<<
  * 
  *     heap.min_node = NULL
  */
-    __pyx_f_3gaw_5utils_19graph_shortest_path_initialize_node((&(__pyx_v_nodes[__pyx_v_i])), __pyx_v_i, NULL);
+    __pyx_f_5gawml_5utils_19graph_shortest_path_initialize_node((&(__pyx_v_nodes[__pyx_v_i])), __pyx_v_i, NULL);
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":510
+  /* "gawml/utils/graph_shortest_path.pyx":510
  *         initialize_node(&nodes[i], i)
  * 
  *     heap.min_node = NULL             # <<<<<<<<<<<<<<
@@ -4562,16 +4562,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  */
   __pyx_v_heap->min_node = NULL;
 
-  /* "gaw/utils/graph_shortest_path.pyx":511
+  /* "gawml/utils/graph_shortest_path.pyx":511
  * 
  *     heap.min_node = NULL
  *     insert_node(heap, &nodes[i_node])             # <<<<<<<<<<<<<<
  * 
  *     while heap.min_node:
  */
-  __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, (&(__pyx_v_nodes[__pyx_v_i_node])));
+  __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, (&(__pyx_v_nodes[__pyx_v_i_node])));
 
-  /* "gaw/utils/graph_shortest_path.pyx":513
+  /* "gawml/utils/graph_shortest_path.pyx":513
  *     insert_node(heap, &nodes[i_node])
  * 
  *     while heap.min_node:             # <<<<<<<<<<<<<<
@@ -4582,16 +4582,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
     __pyx_t_2 = (__pyx_v_heap->min_node != 0);
     if (!__pyx_t_2) break;
 
-    /* "gaw/utils/graph_shortest_path.pyx":514
+    /* "gawml/utils/graph_shortest_path.pyx":514
  * 
  *     while heap.min_node:
  *         v = remove_min(heap)             # <<<<<<<<<<<<<<
  *         v.state = 2  # 2 -> SCANNED
  * 
  */
-    __pyx_v_v = __pyx_f_3gaw_5utils_19graph_shortest_path_remove_min(__pyx_v_heap);
+    __pyx_v_v = __pyx_f_5gawml_5utils_19graph_shortest_path_remove_min(__pyx_v_heap);
 
-    /* "gaw/utils/graph_shortest_path.pyx":515
+    /* "gawml/utils/graph_shortest_path.pyx":515
  *     while heap.min_node:
  *         v = remove_min(heap)
  *         v.state = 2  # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -4600,7 +4600,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  */
     __pyx_v_v->state = 2;
 
-    /* "gaw/utils/graph_shortest_path.pyx":517
+    /* "gawml/utils/graph_shortest_path.pyx":517
  *         v.state = 2  # 2 -> SCANNED
  * 
  *         for i from indptr[v.index] <= i < indptr[v.index + 1]:             # <<<<<<<<<<<<<<
@@ -4610,10 +4610,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
     __pyx_t_3 = __pyx_v_v->index;
     __pyx_t_4 = (__pyx_v_v->index + 1);
     if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_pybuffernd_indptr.diminfo[0].shape;
-    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_indptr.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
+    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_indptr.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_indptr.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":518
+      /* "gawml/utils/graph_shortest_path.pyx":518
  * 
  *         for i from indptr[v.index] <= i < indptr[v.index + 1]:
  *             current_neighbor = &nodes[neighbors[i]]             # <<<<<<<<<<<<<<
@@ -4621,9 +4621,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  *                 dist = distances[i]
  */
       __pyx_t_6 = __pyx_v_i;
-      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_neighbors.diminfo[0].strides))]));
+      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_neighbors.diminfo[0].strides))]));
 
-      /* "gaw/utils/graph_shortest_path.pyx":519
+      /* "gawml/utils/graph_shortest_path.pyx":519
  *         for i from indptr[v.index] <= i < indptr[v.index + 1]:
  *             current_neighbor = &nodes[neighbors[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -4633,7 +4633,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
       __pyx_t_2 = ((__pyx_v_current_neighbor->state != 2) != 0);
       if (__pyx_t_2) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":520
+        /* "gawml/utils/graph_shortest_path.pyx":520
  *             current_neighbor = &nodes[neighbors[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances[i]             # <<<<<<<<<<<<<<
@@ -4641,9 +4641,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  */
         __pyx_t_7 = __pyx_v_i;
-        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_distances.diminfo[0].strides));
+        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_distances.diminfo[0].strides));
 
-        /* "gaw/utils/graph_shortest_path.pyx":521
+        /* "gawml/utils/graph_shortest_path.pyx":521
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -4653,7 +4653,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
         __pyx_t_2 = ((__pyx_v_current_neighbor->state == 0) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":522
+          /* "gawml/utils/graph_shortest_path.pyx":522
  *                 dist = distances[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP             # <<<<<<<<<<<<<<
@@ -4662,7 +4662,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  */
           __pyx_v_current_neighbor->state = 1;
 
-          /* "gaw/utils/graph_shortest_path.pyx":523
+          /* "gawml/utils/graph_shortest_path.pyx":523
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist             # <<<<<<<<<<<<<<
@@ -4671,16 +4671,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  */
           __pyx_v_current_neighbor->val = (__pyx_v_v->val + __pyx_v_dist);
 
-          /* "gaw/utils/graph_shortest_path.pyx":524
+          /* "gawml/utils/graph_shortest_path.pyx":524
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)             # <<<<<<<<<<<<<<
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
+          __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
 
-          /* "gaw/utils/graph_shortest_path.pyx":521
+          /* "gawml/utils/graph_shortest_path.pyx":521
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -4690,7 +4690,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
           goto __pyx_L10;
         }
 
-        /* "gaw/utils/graph_shortest_path.pyx":525
+        /* "gawml/utils/graph_shortest_path.pyx":525
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -4700,16 +4700,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
         __pyx_t_2 = ((__pyx_v_current_neighbor->val > (__pyx_v_v->val + __pyx_v_dist)) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":526
+          /* "gawml/utils/graph_shortest_path.pyx":526
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,             # <<<<<<<<<<<<<<
  *                                  v.val + dist)
  * 
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
+          __pyx_f_5gawml_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
 
-          /* "gaw/utils/graph_shortest_path.pyx":525
+          /* "gawml/utils/graph_shortest_path.pyx":525
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -4719,7 +4719,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
         }
         __pyx_L10:;
 
-        /* "gaw/utils/graph_shortest_path.pyx":519
+        /* "gawml/utils/graph_shortest_path.pyx":519
  *         for i from indptr[v.index] <= i < indptr[v.index + 1]:
  *             current_neighbor = &nodes[neighbors[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -4729,7 +4729,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
       }
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":530
+    /* "gawml/utils/graph_shortest_path.pyx":530
  * 
  *         #v has now been scanned: add the distance to the results
  *         graph[i_node, v.index] = v.val             # <<<<<<<<<<<<<<
@@ -4739,10 +4739,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
     __pyx_t_8 = __pyx_v_v->val;
     __pyx_t_9 = __pyx_v_i_node;
     __pyx_t_10 = __pyx_v_v->index;
-    *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_t_8;
+    *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_10, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_t_8;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":472
+  /* "gawml/utils/graph_shortest_path.pyx":472
  * 
  * @cython.boundscheck(False)
  * cdef void dijkstra_directed_one_row(             # <<<<<<<<<<<<<<
@@ -4762,7 +4762,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_indptr.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_neighbors.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.graph_shortest_path.dijkstra_directed_one_row", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.graph_shortest_path.dijkstra_directed_one_row", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_distances.rcbuffer->pybuffer);
@@ -4773,7 +4773,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
   __Pyx_RefNannyFinishContext();
 }
 
-/* "gaw/utils/graph_shortest_path.pyx":534
+/* "gawml/utils/graph_shortest_path.pyx":534
  * 
  * @cython.boundscheck(False)
  * cdef void dijkstra_one_row(unsigned int i_node,             # <<<<<<<<<<<<<<
@@ -4781,12 +4781,12 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_directed_one_row(
  *                     np.ndarray[DTYPE_t, ndim=1, mode='c'] distances1,
  */
 
-static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned int __pyx_v_i_node, PyArrayObject *__pyx_v_neighbors1, PyArrayObject *__pyx_v_distances1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_neighbors2, PyArrayObject *__pyx_v_distances2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_graph, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes) {
+static void __pyx_f_5gawml_5utils_19graph_shortest_path_dijkstra_one_row(unsigned int __pyx_v_i_node, PyArrayObject *__pyx_v_neighbors1, PyArrayObject *__pyx_v_distances1, PyArrayObject *__pyx_v_indptr1, PyArrayObject *__pyx_v_neighbors2, PyArrayObject *__pyx_v_distances2, PyArrayObject *__pyx_v_indptr2, PyArrayObject *__pyx_v_graph, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciHeap *__pyx_v_heap, struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_nodes) {
   unsigned int __pyx_v_N;
   unsigned int __pyx_v_i;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_v;
-  struct __pyx_t_3gaw_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_current_neighbor;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_v_dist;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_v;
+  struct __pyx_t_5gawml_5utils_19graph_shortest_path_FibonacciNode *__pyx_v_current_neighbor;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_v_dist;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_distances1;
   __Pyx_Buffer __pyx_pybuffer_distances1;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_distances2;
@@ -4806,14 +4806,14 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
   int __pyx_t_2;
   size_t __pyx_t_3;
   Py_ssize_t __pyx_t_4;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t __pyx_t_5;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t __pyx_t_5;
   size_t __pyx_t_6;
   size_t __pyx_t_7;
   size_t __pyx_t_8;
   Py_ssize_t __pyx_t_9;
   size_t __pyx_t_10;
   size_t __pyx_t_11;
-  __pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t __pyx_t_12;
+  __pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t __pyx_t_12;
   size_t __pyx_t_13;
   size_t __pyx_t_14;
   __Pyx_RefNannySetupContext("dijkstra_one_row", 0);
@@ -4847,41 +4847,41 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
   __pyx_pybuffernd_graph.rcbuffer = &__pyx_pybuffer_graph;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors1.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors1.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_neighbors1.diminfo[0].strides = __pyx_pybuffernd_neighbors1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_neighbors1.diminfo[0].shape = __pyx_pybuffernd_neighbors1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances1.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances1.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_distances1.diminfo[0].strides = __pyx_pybuffernd_distances1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_distances1.diminfo[0].shape = __pyx_pybuffernd_distances1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr1.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr1, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr1.diminfo[0].strides = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr1.diminfo[0].shape = __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors2.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_neighbors2.rcbuffer->pybuffer, (PyObject*)__pyx_v_neighbors2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_neighbors2.diminfo[0].strides = __pyx_pybuffernd_neighbors2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_neighbors2.diminfo[0].shape = __pyx_pybuffernd_neighbors2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances2.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_distances2.rcbuffer->pybuffer, (PyObject*)__pyx_v_distances2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_distances2.diminfo[0].strides = __pyx_pybuffernd_distances2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_distances2.diminfo[0].shape = __pyx_pybuffernd_distances2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_indptr2.rcbuffer->pybuffer, (PyObject*)__pyx_v_indptr2, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_indptr2.diminfo[0].strides = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_indptr2.diminfo[0].shape = __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.shape[0];
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_graph.rcbuffer->pybuffer, (PyObject*)__pyx_v_graph, &__Pyx_TypeInfo_nn___pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t, PyBUF_FORMAT| PyBUF_C_CONTIGUOUS| PyBUF_WRITABLE, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 534, __pyx_L1_error)
   }
   __pyx_pybuffernd_graph.diminfo[0].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_graph.diminfo[0].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_graph.diminfo[1].strides = __pyx_pybuffernd_graph.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_graph.diminfo[1].shape = __pyx_pybuffernd_graph.rcbuffer->pybuffer.shape[1];
 
-  /* "gaw/utils/graph_shortest_path.pyx":565
+  /* "gawml/utils/graph_shortest_path.pyx":565
  *     nodes : the array of nodes to use
  *     """
  *     cdef unsigned int N = graph.shape[0]             # <<<<<<<<<<<<<<
@@ -4890,7 +4890,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
   __pyx_v_N = (__pyx_v_graph->dimensions[0]);
 
-  /* "gaw/utils/graph_shortest_path.pyx":575
+  /* "gawml/utils/graph_shortest_path.pyx":575
  *     # rank should already be 0, index will already be set
  *     # we just need to re-set state and val
  *     for i from 0 <= i < N:             # <<<<<<<<<<<<<<
@@ -4900,7 +4900,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
   __pyx_t_1 = __pyx_v_N;
   for (__pyx_v_i = 0; __pyx_v_i < __pyx_t_1; __pyx_v_i++) {
 
-    /* "gaw/utils/graph_shortest_path.pyx":576
+    /* "gawml/utils/graph_shortest_path.pyx":576
  *     # we just need to re-set state and val
  *     for i from 0 <= i < N:
  *         nodes[i].state = 0  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -4909,7 +4909,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
     (__pyx_v_nodes[__pyx_v_i]).state = 0;
 
-    /* "gaw/utils/graph_shortest_path.pyx":577
+    /* "gawml/utils/graph_shortest_path.pyx":577
  *     for i from 0 <= i < N:
  *         nodes[i].state = 0  # 0 -> NOT_IN_HEAP
  *         nodes[i].val = 0             # <<<<<<<<<<<<<<
@@ -4919,16 +4919,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     (__pyx_v_nodes[__pyx_v_i]).val = 0.0;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":579
+  /* "gawml/utils/graph_shortest_path.pyx":579
  *         nodes[i].val = 0
  * 
  *     insert_node(heap, &nodes[i_node])             # <<<<<<<<<<<<<<
  * 
  *     while heap.min_node:
  */
-  __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, (&(__pyx_v_nodes[__pyx_v_i_node])));
+  __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, (&(__pyx_v_nodes[__pyx_v_i_node])));
 
-  /* "gaw/utils/graph_shortest_path.pyx":581
+  /* "gawml/utils/graph_shortest_path.pyx":581
  *     insert_node(heap, &nodes[i_node])
  * 
  *     while heap.min_node:             # <<<<<<<<<<<<<<
@@ -4939,16 +4939,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     __pyx_t_2 = (__pyx_v_heap->min_node != 0);
     if (!__pyx_t_2) break;
 
-    /* "gaw/utils/graph_shortest_path.pyx":582
+    /* "gawml/utils/graph_shortest_path.pyx":582
  * 
  *     while heap.min_node:
  *         v = remove_min(heap)             # <<<<<<<<<<<<<<
  *         v.state = 2  # 2 -> SCANNED
  * 
  */
-    __pyx_v_v = __pyx_f_3gaw_5utils_19graph_shortest_path_remove_min(__pyx_v_heap);
+    __pyx_v_v = __pyx_f_5gawml_5utils_19graph_shortest_path_remove_min(__pyx_v_heap);
 
-    /* "gaw/utils/graph_shortest_path.pyx":583
+    /* "gawml/utils/graph_shortest_path.pyx":583
  *     while heap.min_node:
  *         v = remove_min(heap)
  *         v.state = 2  # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -4957,7 +4957,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
     __pyx_v_v->state = 2;
 
-    /* "gaw/utils/graph_shortest_path.pyx":585
+    /* "gawml/utils/graph_shortest_path.pyx":585
  *         v.state = 2  # 2 -> SCANNED
  * 
  *         for i from indptr1[v.index] <= i < indptr1[v.index + 1]:             # <<<<<<<<<<<<<<
@@ -4967,10 +4967,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     __pyx_t_3 = __pyx_v_v->index;
     __pyx_t_4 = (__pyx_v_v->index + 1);
     if (__pyx_t_4 < 0) __pyx_t_4 += __pyx_pybuffernd_indptr1.diminfo[0].shape;
-    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_indptr1.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
+    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_4, __pyx_pybuffernd_indptr1.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr1.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_indptr1.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":586
+      /* "gawml/utils/graph_shortest_path.pyx":586
  * 
  *         for i from indptr1[v.index] <= i < indptr1[v.index + 1]:
  *             current_neighbor = &nodes[neighbors1[i]]             # <<<<<<<<<<<<<<
@@ -4978,9 +4978,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  *                 dist = distances1[i]
  */
       __pyx_t_6 = __pyx_v_i;
-      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors1.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_neighbors1.diminfo[0].strides))]));
+      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors1.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_neighbors1.diminfo[0].strides))]));
 
-      /* "gaw/utils/graph_shortest_path.pyx":587
+      /* "gawml/utils/graph_shortest_path.pyx":587
  *         for i from indptr1[v.index] <= i < indptr1[v.index + 1]:
  *             current_neighbor = &nodes[neighbors1[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -4990,7 +4990,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
       __pyx_t_2 = ((__pyx_v_current_neighbor->state != 2) != 0);
       if (__pyx_t_2) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":588
+        /* "gawml/utils/graph_shortest_path.pyx":588
  *             current_neighbor = &nodes[neighbors1[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances1[i]             # <<<<<<<<<<<<<<
@@ -4998,9 +4998,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  */
         __pyx_t_7 = __pyx_v_i;
-        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances1.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_distances1.diminfo[0].strides));
+        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances1.rcbuffer->pybuffer.buf, __pyx_t_7, __pyx_pybuffernd_distances1.diminfo[0].strides));
 
-        /* "gaw/utils/graph_shortest_path.pyx":589
+        /* "gawml/utils/graph_shortest_path.pyx":589
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances1[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -5010,7 +5010,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         __pyx_t_2 = ((__pyx_v_current_neighbor->state == 0) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":590
+          /* "gawml/utils/graph_shortest_path.pyx":590
  *                 dist = distances1[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP             # <<<<<<<<<<<<<<
@@ -5019,7 +5019,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
           __pyx_v_current_neighbor->state = 1;
 
-          /* "gaw/utils/graph_shortest_path.pyx":591
+          /* "gawml/utils/graph_shortest_path.pyx":591
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist             # <<<<<<<<<<<<<<
@@ -5028,16 +5028,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
           __pyx_v_current_neighbor->val = (__pyx_v_v->val + __pyx_v_dist);
 
-          /* "gaw/utils/graph_shortest_path.pyx":592
+          /* "gawml/utils/graph_shortest_path.pyx":592
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)             # <<<<<<<<<<<<<<
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
+          __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
 
-          /* "gaw/utils/graph_shortest_path.pyx":589
+          /* "gawml/utils/graph_shortest_path.pyx":589
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances1[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -5047,7 +5047,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
           goto __pyx_L10;
         }
 
-        /* "gaw/utils/graph_shortest_path.pyx":593
+        /* "gawml/utils/graph_shortest_path.pyx":593
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -5057,16 +5057,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         __pyx_t_2 = ((__pyx_v_current_neighbor->val > (__pyx_v_v->val + __pyx_v_dist)) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":594
+          /* "gawml/utils/graph_shortest_path.pyx":594
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,             # <<<<<<<<<<<<<<
  *                                  v.val + dist)
  * 
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
+          __pyx_f_5gawml_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
 
-          /* "gaw/utils/graph_shortest_path.pyx":593
+          /* "gawml/utils/graph_shortest_path.pyx":593
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -5076,7 +5076,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         }
         __pyx_L10:;
 
-        /* "gaw/utils/graph_shortest_path.pyx":587
+        /* "gawml/utils/graph_shortest_path.pyx":587
  *         for i from indptr1[v.index] <= i < indptr1[v.index + 1]:
  *             current_neighbor = &nodes[neighbors1[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -5086,7 +5086,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
       }
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":597
+    /* "gawml/utils/graph_shortest_path.pyx":597
  *                                  v.val + dist)
  * 
  *         for i from indptr2[v.index] <= i < indptr2[v.index + 1]:             # <<<<<<<<<<<<<<
@@ -5096,10 +5096,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     __pyx_t_8 = __pyx_v_v->index;
     __pyx_t_9 = (__pyx_v_v->index + 1);
     if (__pyx_t_9 < 0) __pyx_t_9 += __pyx_pybuffernd_indptr2.diminfo[0].shape;
-    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_indptr2.diminfo[0].strides));
-    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
+    __pyx_t_5 = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_indptr2.diminfo[0].strides));
+    for (__pyx_v_i = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_indptr2.rcbuffer->pybuffer.buf, __pyx_t_8, __pyx_pybuffernd_indptr2.diminfo[0].strides)); __pyx_v_i < __pyx_t_5; __pyx_v_i++) {
 
-      /* "gaw/utils/graph_shortest_path.pyx":598
+      /* "gawml/utils/graph_shortest_path.pyx":598
  * 
  *         for i from indptr2[v.index] <= i < indptr2[v.index + 1]:
  *             current_neighbor = &nodes[neighbors2[i]]             # <<<<<<<<<<<<<<
@@ -5107,9 +5107,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  *                 dist = distances2[i]
  */
       __pyx_t_10 = __pyx_v_i;
-      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors2.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_neighbors2.diminfo[0].strides))]));
+      __pyx_v_current_neighbor = (&(__pyx_v_nodes[(*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_ITYPE_t *, __pyx_pybuffernd_neighbors2.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_neighbors2.diminfo[0].strides))]));
 
-      /* "gaw/utils/graph_shortest_path.pyx":599
+      /* "gawml/utils/graph_shortest_path.pyx":599
  *         for i from indptr2[v.index] <= i < indptr2[v.index + 1]:
  *             current_neighbor = &nodes[neighbors2[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -5119,7 +5119,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
       __pyx_t_2 = ((__pyx_v_current_neighbor->state != 2) != 0);
       if (__pyx_t_2) {
 
-        /* "gaw/utils/graph_shortest_path.pyx":600
+        /* "gawml/utils/graph_shortest_path.pyx":600
  *             current_neighbor = &nodes[neighbors2[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances2[i]             # <<<<<<<<<<<<<<
@@ -5127,9 +5127,9 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  */
         __pyx_t_11 = __pyx_v_i;
-        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances2.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_distances2.diminfo[0].strides));
+        __pyx_v_dist = (*__Pyx_BufPtrCContig1d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_distances2.rcbuffer->pybuffer.buf, __pyx_t_11, __pyx_pybuffernd_distances2.diminfo[0].strides));
 
-        /* "gaw/utils/graph_shortest_path.pyx":601
+        /* "gawml/utils/graph_shortest_path.pyx":601
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances2[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -5139,7 +5139,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         __pyx_t_2 = ((__pyx_v_current_neighbor->state == 0) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":602
+          /* "gawml/utils/graph_shortest_path.pyx":602
  *                 dist = distances2[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP             # <<<<<<<<<<<<<<
@@ -5148,7 +5148,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
           __pyx_v_current_neighbor->state = 1;
 
-          /* "gaw/utils/graph_shortest_path.pyx":603
+          /* "gawml/utils/graph_shortest_path.pyx":603
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist             # <<<<<<<<<<<<<<
@@ -5157,16 +5157,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
  */
           __pyx_v_current_neighbor->val = (__pyx_v_v->val + __pyx_v_dist);
 
-          /* "gaw/utils/graph_shortest_path.pyx":604
+          /* "gawml/utils/graph_shortest_path.pyx":604
  *                     current_neighbor.state = 1   # 1 -> IN_HEAP
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)             # <<<<<<<<<<<<<<
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
+          __pyx_f_5gawml_5utils_19graph_shortest_path_insert_node(__pyx_v_heap, __pyx_v_current_neighbor);
 
-          /* "gaw/utils/graph_shortest_path.pyx":601
+          /* "gawml/utils/graph_shortest_path.pyx":601
  *             if current_neighbor.state != 2:      # 2 -> SCANNED
  *                 dist = distances2[i]
  *                 if current_neighbor.state == 0:  # 0 -> NOT_IN_HEAP             # <<<<<<<<<<<<<<
@@ -5176,7 +5176,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
           goto __pyx_L14;
         }
 
-        /* "gaw/utils/graph_shortest_path.pyx":605
+        /* "gawml/utils/graph_shortest_path.pyx":605
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -5186,16 +5186,16 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         __pyx_t_2 = ((__pyx_v_current_neighbor->val > (__pyx_v_v->val + __pyx_v_dist)) != 0);
         if (__pyx_t_2) {
 
-          /* "gaw/utils/graph_shortest_path.pyx":606
+          /* "gawml/utils/graph_shortest_path.pyx":606
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:
  *                     decrease_val(heap, current_neighbor,             # <<<<<<<<<<<<<<
  *                                  v.val + dist)
  * 
  */
-          __pyx_f_3gaw_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
+          __pyx_f_5gawml_5utils_19graph_shortest_path_decrease_val(__pyx_v_heap, __pyx_v_current_neighbor, (__pyx_v_v->val + __pyx_v_dist));
 
-          /* "gaw/utils/graph_shortest_path.pyx":605
+          /* "gawml/utils/graph_shortest_path.pyx":605
  *                     current_neighbor.val = v.val + dist
  *                     insert_node(heap, current_neighbor)
  *                 elif current_neighbor.val > v.val + dist:             # <<<<<<<<<<<<<<
@@ -5205,7 +5205,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
         }
         __pyx_L14:;
 
-        /* "gaw/utils/graph_shortest_path.pyx":599
+        /* "gawml/utils/graph_shortest_path.pyx":599
  *         for i from indptr2[v.index] <= i < indptr2[v.index + 1]:
  *             current_neighbor = &nodes[neighbors2[i]]
  *             if current_neighbor.state != 2:      # 2 -> SCANNED             # <<<<<<<<<<<<<<
@@ -5215,7 +5215,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
       }
     }
 
-    /* "gaw/utils/graph_shortest_path.pyx":610
+    /* "gawml/utils/graph_shortest_path.pyx":610
  * 
  *         #v has now been scanned: add the distance to the results
  *         graph[i_node, v.index] = v.val             # <<<<<<<<<<<<<<
@@ -5223,10 +5223,10 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     __pyx_t_12 = __pyx_v_v->val;
     __pyx_t_13 = __pyx_v_i_node;
     __pyx_t_14 = __pyx_v_v->index;
-    *__Pyx_BufPtrCContig2d(__pyx_t_3gaw_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_t_12;
+    *__Pyx_BufPtrCContig2d(__pyx_t_5gawml_5utils_19graph_shortest_path_DTYPE_t *, __pyx_pybuffernd_graph.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_graph.diminfo[0].strides, __pyx_t_14, __pyx_pybuffernd_graph.diminfo[1].strides) = __pyx_t_12;
   }
 
-  /* "gaw/utils/graph_shortest_path.pyx":534
+  /* "gawml/utils/graph_shortest_path.pyx":534
  * 
  * @cython.boundscheck(False)
  * cdef void dijkstra_one_row(unsigned int i_node,             # <<<<<<<<<<<<<<
@@ -5249,7 +5249,7 @@ static void __pyx_f_3gaw_5utils_19graph_shortest_path_dijkstra_one_row(unsigned 
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_neighbors1.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_neighbors2.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_WriteUnraisable("gaw.utils.graph_shortest_path.dijkstra_one_row", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
+  __Pyx_WriteUnraisable("gawml.utils.graph_shortest_path.dijkstra_one_row", __pyx_clineno, __pyx_lineno, __pyx_filename, 0, 0);
   goto __pyx_L2;
   __pyx_L0:;
   __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_distances1.rcbuffer->pybuffer);
@@ -7431,7 +7431,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
   {&__pyx_n_s_flat, __pyx_k_flat, sizeof(__pyx_k_flat), 0, 0, 1, 1},
   {&__pyx_n_s_float64, __pyx_k_float64, sizeof(__pyx_k_float64), 0, 0, 1, 1},
-  {&__pyx_n_s_gaw_utils_graph_shortest_path, __pyx_k_gaw_utils_graph_shortest_path, sizeof(__pyx_k_gaw_utils_graph_shortest_path), 0, 0, 1, 1},
+  {&__pyx_n_s_gawml_utils_graph_shortest_path, __pyx_k_gawml_utils_graph_shortest_path, sizeof(__pyx_k_gawml_utils_graph_shortest_path), 0, 0, 1, 1},
   {&__pyx_n_s_graph, __pyx_k_graph, sizeof(__pyx_k_graph), 0, 0, 1, 1},
   {&__pyx_n_s_graph_shortest_path, __pyx_k_graph_shortest_path, sizeof(__pyx_k_graph_shortest_path), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -7540,7 +7540,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "gaw/utils/graph_shortest_path.pyx":30
+  /* "gawml/utils/graph_shortest_path.pyx":30
  * 
  * 
  * def graph_shortest_path(dist_matrix, directed=True, method='auto'):             # <<<<<<<<<<<<<<
@@ -7633,14 +7633,14 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__graph_shortest_path) {
+  if (__pyx_module_is_main_gawml__utils__graph_shortest_path) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.graph_shortest_path")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.graph_shortest_path", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.graph_shortest_path")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.graph_shortest_path", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -7672,7 +7672,7 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/graph_shortest_path.pyx":12
+  /* "gawml/utils/graph_shortest_path.pyx":12
  * # License: BSD 3 clause, (C) 2011
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -7684,7 +7684,7 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":15
+  /* "gawml/utils/graph_shortest_path.pyx":15
  * cimport numpy as np
  * 
  * from scipy.sparse import csr_matrix, isspmatrix, isspmatrix_csr             # <<<<<<<<<<<<<<
@@ -7719,7 +7719,7 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":21
+  /* "gawml/utils/graph_shortest_path.pyx":21
  * from libc.stdlib cimport malloc, free
  * 
  * np.import_array()             # <<<<<<<<<<<<<<
@@ -7728,7 +7728,7 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
  */
   import_array();
 
-  /* "gaw/utils/graph_shortest_path.pyx":23
+  /* "gawml/utils/graph_shortest_path.pyx":23
  * np.import_array()
  * 
  * DTYPE = np.float64             # <<<<<<<<<<<<<<
@@ -7743,7 +7743,7 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_1) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":26
+  /* "gawml/utils/graph_shortest_path.pyx":26
  * ctypedef np.float64_t DTYPE_t
  * 
  * ITYPE = np.int32             # <<<<<<<<<<<<<<
@@ -7758,19 +7758,19 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ITYPE, __pyx_t_2) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":30
+  /* "gawml/utils/graph_shortest_path.pyx":30
  * 
  * 
  * def graph_shortest_path(dist_matrix, directed=True, method='auto'):             # <<<<<<<<<<<<<<
  *     """
  *     Perform a shortest-path graph search on a positive directed or
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_19graph_shortest_path_1graph_shortest_path, NULL, __pyx_n_s_gaw_utils_graph_shortest_path); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5gawml_5utils_19graph_shortest_path_1graph_shortest_path, NULL, __pyx_n_s_gawml_utils_graph_shortest_path); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_graph_shortest_path, __pyx_t_2) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/graph_shortest_path.pyx":1
+  /* "gawml/utils/graph_shortest_path.pyx":1
  * """             # <<<<<<<<<<<<<<
  * Routines for performing shortest-path graph searches
  * 
@@ -7796,11 +7796,11 @@ PyMODINIT_FUNC PyInit_graph_shortest_path(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.graph_shortest_path", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.graph_shortest_path");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.graph_shortest_path");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

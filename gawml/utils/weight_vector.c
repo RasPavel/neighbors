@@ -258,8 +258,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__weight_vector
-#define __PYX_HAVE_API__gaw__utils__weight_vector
+#define __PYX_HAVE__gawml__utils__weight_vector
+#define __PYX_HAVE_API__gawml__utils__weight_vector
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -505,7 +505,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/weight_vector.pyx",
+  "gawml/utils/weight_vector.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -758,7 +758,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
 
 /*--- Type declarations ---*/
-struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector;
+struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector;
 
 /* "../../../../../usr/local/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":764
  * ctypedef npy_longdouble longdouble_t
@@ -796,16 +796,16 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
 
-/* "gaw/utils/weight_vector.pxd":10
+/* "gawml/utils/weight_vector.pxd":10
  * 
  * 
  * cdef class WeightVector(object):             # <<<<<<<<<<<<<<
  *     cdef np.ndarray w
  *     cdef np.ndarray aw
  */
-struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector {
+struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector {
   PyObject_HEAD
-  struct __pyx_vtabstruct_3gaw_5utils_13weight_vector_WeightVector *__pyx_vtab;
+  struct __pyx_vtabstruct_5gawml_5utils_13weight_vector_WeightVector *__pyx_vtab;
   PyArrayObject *w;
   PyArrayObject *aw;
   double *w_data_ptr;
@@ -819,7 +819,7 @@ struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector {
 
 
 
-/* "gaw/utils/weight_vector.pyx":27
+/* "gawml/utils/weight_vector.pyx":27
  * 
  * 
  * cdef class WeightVector(object):             # <<<<<<<<<<<<<<
@@ -827,15 +827,15 @@ struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector {
  * 
  */
 
-struct __pyx_vtabstruct_3gaw_5utils_13weight_vector_WeightVector {
-  void (*add)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int, double);
-  void (*add_average)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int, double, double);
-  double (*dot)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int);
-  void (*scale)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double);
-  void (*reset_wscale)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *);
-  double (*norm)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *);
+struct __pyx_vtabstruct_5gawml_5utils_13weight_vector_WeightVector {
+  void (*add)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int, double);
+  void (*add_average)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int, double, double);
+  double (*dot)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int);
+  void (*scale)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double);
+  void (*reset_wscale)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *);
+  double (*norm)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *);
 };
-static struct __pyx_vtabstruct_3gaw_5utils_13weight_vector_WeightVector *__pyx_vtabptr_3gaw_5utils_13weight_vector_WeightVector;
+static struct __pyx_vtabstruct_5gawml_5utils_13weight_vector_WeightVector *__pyx_vtabptr_5gawml_5utils_13weight_vector_WeightVector;
 
 /* --- Runtime support code (head) --- */
 /* Refnanny.proto */
@@ -1206,12 +1206,12 @@ static PyTypeObject *__Pyx_ImportType(const char *module_name, const char *class
 /* InitStrings.proto */
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c); /* proto*/
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c, double __pyx_v_num_iter); /* proto*/
-static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz); /* proto*/
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double __pyx_v_c); /* proto*/
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self); /* proto*/
-static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_norm(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self); /* proto*/
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c); /* proto*/
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add_average(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c, double __pyx_v_num_iter); /* proto*/
+static double __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_dot(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz); /* proto*/
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_scale(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double __pyx_v_c); /* proto*/
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_reset_wscale(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self); /* proto*/
+static double __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_norm(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self); /* proto*/
 
 /* Module declarations from 'cpython.buffer' */
 
@@ -1248,13 +1248,13 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'gaw.utils.weight_vector' */
-static PyTypeObject *__pyx_ptype_3gaw_5utils_13weight_vector_WeightVector = 0;
+/* Module declarations from 'gawml.utils.weight_vector' */
+static PyTypeObject *__pyx_ptype_5gawml_5utils_13weight_vector_WeightVector = 0;
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "gaw.utils.weight_vector"
-int __pyx_module_is_main_gaw__utils__weight_vector = 0;
+#define __Pyx_MODULE_NAME "gawml.utils.weight_vector"
+int __pyx_module_is_main_gawml__utils__weight_vector = 0;
 
-/* Implementation of 'gaw.utils.weight_vector' */
+/* Implementation of 'gawml.utils.weight_vector' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -1294,10 +1294,10 @@ static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_w;
-static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, PyArrayObject *__pyx_v_w, PyArrayObject *__pyx_v_aw); /* proto */
+static int __pyx_pf_5gawml_5utils_13weight_vector_12WeightVector___cinit__(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, PyArrayObject *__pyx_v_w, PyArrayObject *__pyx_v_aw); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
-static PyObject *__pyx_tp_new_3gaw_5utils_13weight_vector_WeightVector(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_tp_new_5gawml_5utils_13weight_vector_WeightVector(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tuple_;
 static PyObject *__pyx_tuple__2;
 static PyObject *__pyx_tuple__3;
@@ -1305,7 +1305,7 @@ static PyObject *__pyx_tuple__4;
 static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__6;
 
-/* "gaw/utils/weight_vector.pyx":51
+/* "gawml/utils/weight_vector.pyx":51
  *     """
  * 
  *     def __cinit__(self,             # <<<<<<<<<<<<<<
@@ -1314,8 +1314,8 @@ static PyObject *__pyx_tuple__6;
  */
 
 /* Python wrapper */
-static int __pyx_pw_3gaw_5utils_13weight_vector_12WeightVector_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static int __pyx_pw_3gaw_5utils_13weight_vector_12WeightVector_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static int __pyx_pw_5gawml_5utils_13weight_vector_12WeightVector_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static int __pyx_pw_5gawml_5utils_13weight_vector_12WeightVector_1__cinit__(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_w = 0;
   PyArrayObject *__pyx_v_aw = 0;
   int __pyx_r;
@@ -1360,13 +1360,13 @@ static int __pyx_pw_3gaw_5utils_13weight_vector_12WeightVector_1__cinit__(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("__cinit__", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 51, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.weight_vector.WeightVector.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.weight_vector.WeightVector.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_w), __pyx_ptype_5numpy_ndarray, 1, "w", 0))) __PYX_ERR(0, 52, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_aw), __pyx_ptype_5numpy_ndarray, 1, "aw", 0))) __PYX_ERR(0, 53, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(((struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *)__pyx_v_self), __pyx_v_w, __pyx_v_aw);
+  __pyx_r = __pyx_pf_5gawml_5utils_13weight_vector_12WeightVector___cinit__(((struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *)__pyx_v_self), __pyx_v_w, __pyx_v_aw);
 
   /* function exit code */
   goto __pyx_L0;
@@ -1377,7 +1377,7 @@ static int __pyx_pw_3gaw_5utils_13weight_vector_12WeightVector_1__cinit__(PyObje
   return __pyx_r;
 }
 
-static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, PyArrayObject *__pyx_v_w, PyArrayObject *__pyx_v_aw) {
+static int __pyx_pf_5gawml_5utils_13weight_vector_12WeightVector___cinit__(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, PyArrayObject *__pyx_v_w, PyArrayObject *__pyx_v_aw) {
   double *__pyx_v_wdata;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_aw;
   __Pyx_Buffer __pyx_pybuffer_aw;
@@ -1410,7 +1410,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   }
   __pyx_pybuffernd_aw.diminfo[0].strides = __pyx_pybuffernd_aw.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_aw.diminfo[0].shape = __pyx_pybuffernd_aw.rcbuffer->pybuffer.shape[0];
 
-  /* "gaw/utils/weight_vector.pyx":54
+  /* "gawml/utils/weight_vector.pyx":54
  *                   np.ndarray[double, ndim=1, mode='c'] w,
  *                   np.ndarray[double, ndim=1, mode='c'] aw):
  *         cdef double *wdata = <double *>w.data             # <<<<<<<<<<<<<<
@@ -1419,7 +1419,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   __pyx_v_wdata = ((double *)__pyx_v_w->data);
 
-  /* "gaw/utils/weight_vector.pyx":56
+  /* "gawml/utils/weight_vector.pyx":56
  *         cdef double *wdata = <double *>w.data
  * 
  *         if w.shape[0] > INT_MAX:             # <<<<<<<<<<<<<<
@@ -1429,7 +1429,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   __pyx_t_1 = (((__pyx_v_w->dimensions[0]) > INT_MAX) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/weight_vector.pyx":58
+    /* "gawml/utils/weight_vector.pyx":58
  *         if w.shape[0] > INT_MAX:
  *             raise ValueError("More than %d features not supported; got %d."
  *                              % (INT_MAX, w.shape[0]))             # <<<<<<<<<<<<<<
@@ -1452,7 +1452,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/weight_vector.pyx":57
+    /* "gawml/utils/weight_vector.pyx":57
  * 
  *         if w.shape[0] > INT_MAX:
  *             raise ValueError("More than %d features not supported; got %d."             # <<<<<<<<<<<<<<
@@ -1471,7 +1471,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(0, 57, __pyx_L1_error)
 
-    /* "gaw/utils/weight_vector.pyx":56
+    /* "gawml/utils/weight_vector.pyx":56
  *         cdef double *wdata = <double *>w.data
  * 
  *         if w.shape[0] > INT_MAX:             # <<<<<<<<<<<<<<
@@ -1480,7 +1480,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   }
 
-  /* "gaw/utils/weight_vector.pyx":59
+  /* "gawml/utils/weight_vector.pyx":59
  *             raise ValueError("More than %d features not supported; got %d."
  *                              % (INT_MAX, w.shape[0]))
  *         self.w = w             # <<<<<<<<<<<<<<
@@ -1493,7 +1493,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   __Pyx_DECREF(((PyObject *)__pyx_v_self->w));
   __pyx_v_self->w = ((PyArrayObject *)__pyx_v_w);
 
-  /* "gaw/utils/weight_vector.pyx":60
+  /* "gawml/utils/weight_vector.pyx":60
  *                              % (INT_MAX, w.shape[0]))
  *         self.w = w
  *         self.w_data_ptr = wdata             # <<<<<<<<<<<<<<
@@ -1502,7 +1502,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   __pyx_v_self->w_data_ptr = __pyx_v_wdata;
 
-  /* "gaw/utils/weight_vector.pyx":61
+  /* "gawml/utils/weight_vector.pyx":61
  *         self.w = w
  *         self.w_data_ptr = wdata
  *         self.wscale = 1.0             # <<<<<<<<<<<<<<
@@ -1511,7 +1511,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   __pyx_v_self->wscale = 1.0;
 
-  /* "gaw/utils/weight_vector.pyx":62
+  /* "gawml/utils/weight_vector.pyx":62
  *         self.w_data_ptr = wdata
  *         self.wscale = 1.0
  *         self.n_features = w.shape[0]             # <<<<<<<<<<<<<<
@@ -1520,7 +1520,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   __pyx_v_self->n_features = (__pyx_v_w->dimensions[0]);
 
-  /* "gaw/utils/weight_vector.pyx":63
+  /* "gawml/utils/weight_vector.pyx":63
  *         self.wscale = 1.0
  *         self.n_features = w.shape[0]
  *         self.sq_norm = ddot(<int>w.shape[0], wdata, 1, wdata, 1)             # <<<<<<<<<<<<<<
@@ -1529,7 +1529,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   __pyx_v_self->sq_norm = cblas_ddot(((int)(__pyx_v_w->dimensions[0])), __pyx_v_wdata, 1, __pyx_v_wdata, 1);
 
-  /* "gaw/utils/weight_vector.pyx":65
+  /* "gawml/utils/weight_vector.pyx":65
  *         self.sq_norm = ddot(<int>w.shape[0], wdata, 1, wdata, 1)
  * 
  *         self.aw = aw             # <<<<<<<<<<<<<<
@@ -1542,7 +1542,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   __Pyx_DECREF(((PyObject *)__pyx_v_self->aw));
   __pyx_v_self->aw = ((PyArrayObject *)__pyx_v_aw);
 
-  /* "gaw/utils/weight_vector.pyx":66
+  /* "gawml/utils/weight_vector.pyx":66
  * 
  *         self.aw = aw
  *         if self.aw is not None:             # <<<<<<<<<<<<<<
@@ -1553,7 +1553,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   __pyx_t_5 = (__pyx_t_1 != 0);
   if (__pyx_t_5) {
 
-    /* "gaw/utils/weight_vector.pyx":67
+    /* "gawml/utils/weight_vector.pyx":67
  *         self.aw = aw
  *         if self.aw is not None:
  *             self.aw_data_ptr = <double *>aw.data             # <<<<<<<<<<<<<<
@@ -1562,7 +1562,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
     __pyx_v_self->aw_data_ptr = ((double *)__pyx_v_aw->data);
 
-    /* "gaw/utils/weight_vector.pyx":68
+    /* "gawml/utils/weight_vector.pyx":68
  *         if self.aw is not None:
  *             self.aw_data_ptr = <double *>aw.data
  *             self.average_a = 0.0             # <<<<<<<<<<<<<<
@@ -1571,7 +1571,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
     __pyx_v_self->average_a = 0.0;
 
-    /* "gaw/utils/weight_vector.pyx":69
+    /* "gawml/utils/weight_vector.pyx":69
  *             self.aw_data_ptr = <double *>aw.data
  *             self.average_a = 0.0
  *             self.average_b = 1.0             # <<<<<<<<<<<<<<
@@ -1580,7 +1580,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
     __pyx_v_self->average_b = 1.0;
 
-    /* "gaw/utils/weight_vector.pyx":66
+    /* "gawml/utils/weight_vector.pyx":66
  * 
  *         self.aw = aw
  *         if self.aw is not None:             # <<<<<<<<<<<<<<
@@ -1589,7 +1589,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  */
   }
 
-  /* "gaw/utils/weight_vector.pyx":51
+  /* "gawml/utils/weight_vector.pyx":51
  *     """
  * 
  *     def __cinit__(self,             # <<<<<<<<<<<<<<
@@ -1611,7 +1611,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_aw.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_w.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gaw.utils.weight_vector.WeightVector.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils.weight_vector.WeightVector.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = -1;
   goto __pyx_L2;
   __pyx_L0:;
@@ -1622,7 +1622,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
   return __pyx_r;
 }
 
-/* "gaw/utils/weight_vector.pyx":71
+/* "gawml/utils/weight_vector.pyx":71
  *             self.average_b = 1.0
  * 
  *     cdef void add(self, double *x_data_ptr, int *x_ind_ptr, int xnnz,             # <<<<<<<<<<<<<<
@@ -1630,7 +1630,7 @@ static int __pyx_pf_3gaw_5utils_13weight_vector_12WeightVector___cinit__(struct 
  *         """Scales sample x by constant c and adds it to the weight vector.
  */
 
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c) {
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c) {
   int __pyx_v_j;
   int __pyx_v_idx;
   double __pyx_v_val;
@@ -1644,7 +1644,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
   int __pyx_t_4;
   int __pyx_t_5;
 
-  /* "gaw/utils/weight_vector.pyx":91
+  /* "gawml/utils/weight_vector.pyx":91
  *         cdef int idx
  *         cdef double val
  *         cdef double innerprod = 0.0             # <<<<<<<<<<<<<<
@@ -1653,7 +1653,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
   __pyx_v_innerprod = 0.0;
 
-  /* "gaw/utils/weight_vector.pyx":92
+  /* "gawml/utils/weight_vector.pyx":92
  *         cdef double val
  *         cdef double innerprod = 0.0
  *         cdef double xsqnorm = 0.0             # <<<<<<<<<<<<<<
@@ -1662,7 +1662,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
   __pyx_v_xsqnorm = 0.0;
 
-  /* "gaw/utils/weight_vector.pyx":95
+  /* "gawml/utils/weight_vector.pyx":95
  * 
  *         # the next two lines save a factor of 2!
  *         cdef double wscale = self.wscale             # <<<<<<<<<<<<<<
@@ -1672,7 +1672,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
   __pyx_t_1 = __pyx_v_self->wscale;
   __pyx_v_wscale = __pyx_t_1;
 
-  /* "gaw/utils/weight_vector.pyx":96
+  /* "gawml/utils/weight_vector.pyx":96
  *         # the next two lines save a factor of 2!
  *         cdef double wscale = self.wscale
  *         cdef double* w_data_ptr = self.w_data_ptr             # <<<<<<<<<<<<<<
@@ -1682,7 +1682,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
   __pyx_t_2 = __pyx_v_self->w_data_ptr;
   __pyx_v_w_data_ptr = __pyx_t_2;
 
-  /* "gaw/utils/weight_vector.pyx":98
+  /* "gawml/utils/weight_vector.pyx":98
  *         cdef double* w_data_ptr = self.w_data_ptr
  * 
  *         for j in range(xnnz):             # <<<<<<<<<<<<<<
@@ -1693,7 +1693,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_j = __pyx_t_4;
 
-    /* "gaw/utils/weight_vector.pyx":99
+    /* "gawml/utils/weight_vector.pyx":99
  * 
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]             # <<<<<<<<<<<<<<
@@ -1702,7 +1702,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
     __pyx_v_idx = (__pyx_v_x_ind_ptr[__pyx_v_j]);
 
-    /* "gaw/utils/weight_vector.pyx":100
+    /* "gawml/utils/weight_vector.pyx":100
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]
  *             val = x_data_ptr[j]             # <<<<<<<<<<<<<<
@@ -1711,7 +1711,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
     __pyx_v_val = (__pyx_v_x_data_ptr[__pyx_v_j]);
 
-    /* "gaw/utils/weight_vector.pyx":101
+    /* "gawml/utils/weight_vector.pyx":101
  *             idx = x_ind_ptr[j]
  *             val = x_data_ptr[j]
  *             innerprod += (w_data_ptr[idx] * val)             # <<<<<<<<<<<<<<
@@ -1720,7 +1720,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
     __pyx_v_innerprod = (__pyx_v_innerprod + ((__pyx_v_w_data_ptr[__pyx_v_idx]) * __pyx_v_val));
 
-    /* "gaw/utils/weight_vector.pyx":102
+    /* "gawml/utils/weight_vector.pyx":102
  *             val = x_data_ptr[j]
  *             innerprod += (w_data_ptr[idx] * val)
  *             xsqnorm += (val * val)             # <<<<<<<<<<<<<<
@@ -1729,7 +1729,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
     __pyx_v_xsqnorm = (__pyx_v_xsqnorm + (__pyx_v_val * __pyx_v_val));
 
-    /* "gaw/utils/weight_vector.pyx":103
+    /* "gawml/utils/weight_vector.pyx":103
  *             innerprod += (w_data_ptr[idx] * val)
  *             xsqnorm += (val * val)
  *             w_data_ptr[idx] += val * (c / wscale)             # <<<<<<<<<<<<<<
@@ -1740,7 +1740,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
     (__pyx_v_w_data_ptr[__pyx_t_5]) = ((__pyx_v_w_data_ptr[__pyx_t_5]) + (__pyx_v_val * (__pyx_v_c / __pyx_v_wscale)));
   }
 
-  /* "gaw/utils/weight_vector.pyx":105
+  /* "gawml/utils/weight_vector.pyx":105
  *             w_data_ptr[idx] += val * (c / wscale)
  * 
  *         self.sq_norm += (xsqnorm * c * c) + (2.0 * innerprod * wscale * c)             # <<<<<<<<<<<<<<
@@ -1749,7 +1749,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  */
   __pyx_v_self->sq_norm = (__pyx_v_self->sq_norm + (((__pyx_v_xsqnorm * __pyx_v_c) * __pyx_v_c) + (((2.0 * __pyx_v_innerprod) * __pyx_v_wscale) * __pyx_v_c)));
 
-  /* "gaw/utils/weight_vector.pyx":71
+  /* "gawml/utils/weight_vector.pyx":71
  *             self.average_b = 1.0
  * 
  *     cdef void add(self, double *x_data_ptr, int *x_ind_ptr, int xnnz,             # <<<<<<<<<<<<<<
@@ -1760,7 +1760,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
   /* function exit code */
 }
 
-/* "gaw/utils/weight_vector.pyx":110
+/* "gawml/utils/weight_vector.pyx":110
  *     # here: http://research.microsoft.com/pubs/192769/tricks-2012.pdf
  *     # by Leon Bottou
  *     cdef void add_average(self, double *x_data_ptr, int *x_ind_ptr, int xnnz,             # <<<<<<<<<<<<<<
@@ -1768,7 +1768,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add(struct __pyx_
  *         """Updates the average weight vector.
  */
 
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c, double __pyx_v_num_iter) {
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add_average(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz, double __pyx_v_c, double __pyx_v_num_iter) {
   int __pyx_v_j;
   int __pyx_v_idx;
   double __pyx_v_val;
@@ -1783,7 +1783,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   int __pyx_t_5;
   int __pyx_t_6;
 
-  /* "gaw/utils/weight_vector.pyx":130
+  /* "gawml/utils/weight_vector.pyx":130
  *         cdef int idx
  *         cdef double val
  *         cdef double mu = 1.0 / num_iter             # <<<<<<<<<<<<<<
@@ -1792,7 +1792,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
   __pyx_v_mu = (1.0 / __pyx_v_num_iter);
 
-  /* "gaw/utils/weight_vector.pyx":131
+  /* "gawml/utils/weight_vector.pyx":131
  *         cdef double val
  *         cdef double mu = 1.0 / num_iter
  *         cdef double average_a = self.average_a             # <<<<<<<<<<<<<<
@@ -1802,7 +1802,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   __pyx_t_1 = __pyx_v_self->average_a;
   __pyx_v_average_a = __pyx_t_1;
 
-  /* "gaw/utils/weight_vector.pyx":132
+  /* "gawml/utils/weight_vector.pyx":132
  *         cdef double mu = 1.0 / num_iter
  *         cdef double average_a = self.average_a
  *         cdef double wscale = self.wscale             # <<<<<<<<<<<<<<
@@ -1812,7 +1812,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   __pyx_t_1 = __pyx_v_self->wscale;
   __pyx_v_wscale = __pyx_t_1;
 
-  /* "gaw/utils/weight_vector.pyx":133
+  /* "gawml/utils/weight_vector.pyx":133
  *         cdef double average_a = self.average_a
  *         cdef double wscale = self.wscale
  *         cdef double* aw_data_ptr = self.aw_data_ptr             # <<<<<<<<<<<<<<
@@ -1822,7 +1822,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   __pyx_t_2 = __pyx_v_self->aw_data_ptr;
   __pyx_v_aw_data_ptr = __pyx_t_2;
 
-  /* "gaw/utils/weight_vector.pyx":135
+  /* "gawml/utils/weight_vector.pyx":135
  *         cdef double* aw_data_ptr = self.aw_data_ptr
  * 
  *         for j in range(xnnz):             # <<<<<<<<<<<<<<
@@ -1833,7 +1833,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_j = __pyx_t_4;
 
-    /* "gaw/utils/weight_vector.pyx":136
+    /* "gawml/utils/weight_vector.pyx":136
  * 
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]             # <<<<<<<<<<<<<<
@@ -1842,7 +1842,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
     __pyx_v_idx = (__pyx_v_x_ind_ptr[__pyx_v_j]);
 
-    /* "gaw/utils/weight_vector.pyx":137
+    /* "gawml/utils/weight_vector.pyx":137
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]
  *             val = x_data_ptr[j]             # <<<<<<<<<<<<<<
@@ -1851,7 +1851,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
     __pyx_v_val = (__pyx_v_x_data_ptr[__pyx_v_j]);
 
-    /* "gaw/utils/weight_vector.pyx":138
+    /* "gawml/utils/weight_vector.pyx":138
  *             idx = x_ind_ptr[j]
  *             val = x_data_ptr[j]
  *             aw_data_ptr[idx] += (self.average_a * val * (-c / wscale))             # <<<<<<<<<<<<<<
@@ -1862,7 +1862,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
     (__pyx_v_aw_data_ptr[__pyx_t_5]) = ((__pyx_v_aw_data_ptr[__pyx_t_5]) + ((__pyx_v_self->average_a * __pyx_v_val) * ((-__pyx_v_c) / __pyx_v_wscale)));
   }
 
-  /* "gaw/utils/weight_vector.pyx":142
+  /* "gawml/utils/weight_vector.pyx":142
  *         # Once the sample has been processed
  *         # update the average_a and average_b
  *         if num_iter > 1:             # <<<<<<<<<<<<<<
@@ -1872,7 +1872,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   __pyx_t_6 = ((__pyx_v_num_iter > 1.0) != 0);
   if (__pyx_t_6) {
 
-    /* "gaw/utils/weight_vector.pyx":143
+    /* "gawml/utils/weight_vector.pyx":143
  *         # update the average_a and average_b
  *         if num_iter > 1:
  *             self.average_b /= (1.0 - mu)             # <<<<<<<<<<<<<<
@@ -1881,7 +1881,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
     __pyx_v_self->average_b = (__pyx_v_self->average_b / (1.0 - __pyx_v_mu));
 
-    /* "gaw/utils/weight_vector.pyx":142
+    /* "gawml/utils/weight_vector.pyx":142
  *         # Once the sample has been processed
  *         # update the average_a and average_b
  *         if num_iter > 1:             # <<<<<<<<<<<<<<
@@ -1890,7 +1890,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
   }
 
-  /* "gaw/utils/weight_vector.pyx":144
+  /* "gawml/utils/weight_vector.pyx":144
  *         if num_iter > 1:
  *             self.average_b /= (1.0 - mu)
  *         self.average_a += mu * self.average_b * wscale             # <<<<<<<<<<<<<<
@@ -1899,7 +1899,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  */
   __pyx_v_self->average_a = (__pyx_v_self->average_a + ((__pyx_v_mu * __pyx_v_self->average_b) * __pyx_v_wscale));
 
-  /* "gaw/utils/weight_vector.pyx":110
+  /* "gawml/utils/weight_vector.pyx":110
  *     # here: http://research.microsoft.com/pubs/192769/tricks-2012.pdf
  *     # by Leon Bottou
  *     cdef void add_average(self, double *x_data_ptr, int *x_ind_ptr, int xnnz,             # <<<<<<<<<<<<<<
@@ -1910,7 +1910,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
   /* function exit code */
 }
 
-/* "gaw/utils/weight_vector.pyx":146
+/* "gawml/utils/weight_vector.pyx":146
  *         self.average_a += mu * self.average_b * wscale
  * 
  *     cdef double dot(self, double *x_data_ptr, int *x_ind_ptr,             # <<<<<<<<<<<<<<
@@ -1918,7 +1918,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average(struc
  *         """Computes the dot product of a sample x and the weight vector.
  */
 
-static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz) {
+static double __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_dot(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double *__pyx_v_x_data_ptr, int *__pyx_v_x_ind_ptr, int __pyx_v_xnnz) {
   int __pyx_v_j;
   int __pyx_v_idx;
   double __pyx_v_innerprod;
@@ -1928,7 +1928,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
   int __pyx_t_2;
   int __pyx_t_3;
 
-  /* "gaw/utils/weight_vector.pyx":166
+  /* "gawml/utils/weight_vector.pyx":166
  *         cdef int j
  *         cdef int idx
  *         cdef double innerprod = 0.0             # <<<<<<<<<<<<<<
@@ -1937,7 +1937,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
  */
   __pyx_v_innerprod = 0.0;
 
-  /* "gaw/utils/weight_vector.pyx":167
+  /* "gawml/utils/weight_vector.pyx":167
  *         cdef int idx
  *         cdef double innerprod = 0.0
  *         cdef double* w_data_ptr = self.w_data_ptr             # <<<<<<<<<<<<<<
@@ -1947,7 +1947,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
   __pyx_t_1 = __pyx_v_self->w_data_ptr;
   __pyx_v_w_data_ptr = __pyx_t_1;
 
-  /* "gaw/utils/weight_vector.pyx":168
+  /* "gawml/utils/weight_vector.pyx":168
  *         cdef double innerprod = 0.0
  *         cdef double* w_data_ptr = self.w_data_ptr
  *         for j in range(xnnz):             # <<<<<<<<<<<<<<
@@ -1958,7 +1958,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_j = __pyx_t_3;
 
-    /* "gaw/utils/weight_vector.pyx":169
+    /* "gawml/utils/weight_vector.pyx":169
  *         cdef double* w_data_ptr = self.w_data_ptr
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]             # <<<<<<<<<<<<<<
@@ -1967,7 +1967,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
  */
     __pyx_v_idx = (__pyx_v_x_ind_ptr[__pyx_v_j]);
 
-    /* "gaw/utils/weight_vector.pyx":170
+    /* "gawml/utils/weight_vector.pyx":170
  *         for j in range(xnnz):
  *             idx = x_ind_ptr[j]
  *             innerprod += w_data_ptr[idx] * x_data_ptr[j]             # <<<<<<<<<<<<<<
@@ -1977,7 +1977,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
     __pyx_v_innerprod = (__pyx_v_innerprod + ((__pyx_v_w_data_ptr[__pyx_v_idx]) * (__pyx_v_x_data_ptr[__pyx_v_j])));
   }
 
-  /* "gaw/utils/weight_vector.pyx":171
+  /* "gawml/utils/weight_vector.pyx":171
  *             idx = x_ind_ptr[j]
  *             innerprod += w_data_ptr[idx] * x_data_ptr[j]
  *         innerprod *= self.wscale             # <<<<<<<<<<<<<<
@@ -1986,7 +1986,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
  */
   __pyx_v_innerprod = (__pyx_v_innerprod * __pyx_v_self->wscale);
 
-  /* "gaw/utils/weight_vector.pyx":172
+  /* "gawml/utils/weight_vector.pyx":172
  *             innerprod += w_data_ptr[idx] * x_data_ptr[j]
  *         innerprod *= self.wscale
  *         return innerprod             # <<<<<<<<<<<<<<
@@ -1996,7 +1996,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
   __pyx_r = __pyx_v_innerprod;
   goto __pyx_L0;
 
-  /* "gaw/utils/weight_vector.pyx":146
+  /* "gawml/utils/weight_vector.pyx":146
  *         self.average_a += mu * self.average_b * wscale
  * 
  *     cdef double dot(self, double *x_data_ptr, int *x_ind_ptr,             # <<<<<<<<<<<<<<
@@ -2009,7 +2009,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
   return __pyx_r;
 }
 
-/* "gaw/utils/weight_vector.pyx":174
+/* "gawml/utils/weight_vector.pyx":174
  *         return innerprod
  * 
  *     cdef void scale(self, double c) nogil:             # <<<<<<<<<<<<<<
@@ -2017,10 +2017,10 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot(struct __py
  * 
  */
 
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self, double __pyx_v_c) {
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_scale(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self, double __pyx_v_c) {
   int __pyx_t_1;
 
-  /* "gaw/utils/weight_vector.pyx":179
+  /* "gawml/utils/weight_vector.pyx":179
  *         It updates ``wscale`` and ``sq_norm``. If ``wscale`` gets too
  *         small we call ``reset_swcale``."""
  *         self.wscale *= c             # <<<<<<<<<<<<<<
@@ -2029,7 +2029,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
  */
   __pyx_v_self->wscale = (__pyx_v_self->wscale * __pyx_v_c);
 
-  /* "gaw/utils/weight_vector.pyx":180
+  /* "gawml/utils/weight_vector.pyx":180
  *         small we call ``reset_swcale``."""
  *         self.wscale *= c
  *         self.sq_norm *= (c * c)             # <<<<<<<<<<<<<<
@@ -2038,7 +2038,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
  */
   __pyx_v_self->sq_norm = (__pyx_v_self->sq_norm * (__pyx_v_c * __pyx_v_c));
 
-  /* "gaw/utils/weight_vector.pyx":181
+  /* "gawml/utils/weight_vector.pyx":181
  *         self.wscale *= c
  *         self.sq_norm *= (c * c)
  *         if self.wscale < 1e-9:             # <<<<<<<<<<<<<<
@@ -2048,16 +2048,16 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
   __pyx_t_1 = ((__pyx_v_self->wscale < 1e-9) != 0);
   if (__pyx_t_1) {
 
-    /* "gaw/utils/weight_vector.pyx":182
+    /* "gawml/utils/weight_vector.pyx":182
  *         self.sq_norm *= (c * c)
  *         if self.wscale < 1e-9:
  *             self.reset_wscale()             # <<<<<<<<<<<<<<
  * 
  *     cdef void reset_wscale(self) nogil:
  */
-    ((struct __pyx_vtabstruct_3gaw_5utils_13weight_vector_WeightVector *)__pyx_v_self->__pyx_vtab)->reset_wscale(__pyx_v_self);
+    ((struct __pyx_vtabstruct_5gawml_5utils_13weight_vector_WeightVector *)__pyx_v_self->__pyx_vtab)->reset_wscale(__pyx_v_self);
 
-    /* "gaw/utils/weight_vector.pyx":181
+    /* "gawml/utils/weight_vector.pyx":181
  *         self.wscale *= c
  *         self.sq_norm *= (c * c)
  *         if self.wscale < 1e-9:             # <<<<<<<<<<<<<<
@@ -2066,7 +2066,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
  */
   }
 
-  /* "gaw/utils/weight_vector.pyx":174
+  /* "gawml/utils/weight_vector.pyx":174
  *         return innerprod
  * 
  *     cdef void scale(self, double c) nogil:             # <<<<<<<<<<<<<<
@@ -2077,7 +2077,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
   /* function exit code */
 }
 
-/* "gaw/utils/weight_vector.pyx":184
+/* "gawml/utils/weight_vector.pyx":184
  *             self.reset_wscale()
  * 
  *     cdef void reset_wscale(self) nogil:             # <<<<<<<<<<<<<<
@@ -2085,11 +2085,11 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale(struct __py
  *         if self.aw is not None:
  */
 
-static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self) {
+static void __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_reset_wscale(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self) {
   int __pyx_t_1;
   int __pyx_t_2;
 
-  /* "gaw/utils/weight_vector.pyx":186
+  /* "gawml/utils/weight_vector.pyx":186
  *     cdef void reset_wscale(self) nogil:
  *         """Scales each coef of ``w`` by ``wscale`` and resets it to 1. """
  *         if self.aw is not None:             # <<<<<<<<<<<<<<
@@ -2100,7 +2100,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "gaw/utils/weight_vector.pyx":187
+    /* "gawml/utils/weight_vector.pyx":187
  *         """Scales each coef of ``w`` by ``wscale`` and resets it to 1. """
  *         if self.aw is not None:
  *             daxpy(<int>self.aw.shape[0], self.average_a,             # <<<<<<<<<<<<<<
@@ -2109,7 +2109,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
     cblas_daxpy(((int)(__pyx_v_self->aw->dimensions[0])), __pyx_v_self->average_a, ((double *)__pyx_v_self->w->data), 1, ((double *)__pyx_v_self->aw->data), 1);
 
-    /* "gaw/utils/weight_vector.pyx":189
+    /* "gawml/utils/weight_vector.pyx":189
  *             daxpy(<int>self.aw.shape[0], self.average_a,
  *                   <double *>self.w.data, 1, <double *>self.aw.data, 1)
  *             dscal(<int>self.aw.shape[0], 1.0 / self.average_b,             # <<<<<<<<<<<<<<
@@ -2118,7 +2118,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
     cblas_dscal(((int)(__pyx_v_self->aw->dimensions[0])), (1.0 / __pyx_v_self->average_b), ((double *)__pyx_v_self->aw->data), 1);
 
-    /* "gaw/utils/weight_vector.pyx":191
+    /* "gawml/utils/weight_vector.pyx":191
  *             dscal(<int>self.aw.shape[0], 1.0 / self.average_b,
  *                   <double *>self.aw.data, 1)
  *             self.average_a = 0.0             # <<<<<<<<<<<<<<
@@ -2127,7 +2127,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
     __pyx_v_self->average_a = 0.0;
 
-    /* "gaw/utils/weight_vector.pyx":192
+    /* "gawml/utils/weight_vector.pyx":192
  *                   <double *>self.aw.data, 1)
  *             self.average_a = 0.0
  *             self.average_b = 1.0             # <<<<<<<<<<<<<<
@@ -2136,7 +2136,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
     __pyx_v_self->average_b = 1.0;
 
-    /* "gaw/utils/weight_vector.pyx":186
+    /* "gawml/utils/weight_vector.pyx":186
  *     cdef void reset_wscale(self) nogil:
  *         """Scales each coef of ``w`` by ``wscale`` and resets it to 1. """
  *         if self.aw is not None:             # <<<<<<<<<<<<<<
@@ -2145,7 +2145,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
   }
 
-  /* "gaw/utils/weight_vector.pyx":194
+  /* "gawml/utils/weight_vector.pyx":194
  *             self.average_b = 1.0
  * 
  *         dscal(<int>self.w.shape[0], self.wscale, <double *>self.w.data, 1)             # <<<<<<<<<<<<<<
@@ -2154,7 +2154,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
   cblas_dscal(((int)(__pyx_v_self->w->dimensions[0])), __pyx_v_self->wscale, ((double *)__pyx_v_self->w->data), 1);
 
-  /* "gaw/utils/weight_vector.pyx":195
+  /* "gawml/utils/weight_vector.pyx":195
  * 
  *         dscal(<int>self.w.shape[0], self.wscale, <double *>self.w.data, 1)
  *         self.wscale = 1.0             # <<<<<<<<<<<<<<
@@ -2163,7 +2163,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  */
   __pyx_v_self->wscale = 1.0;
 
-  /* "gaw/utils/weight_vector.pyx":184
+  /* "gawml/utils/weight_vector.pyx":184
  *             self.reset_wscale()
  * 
  *     cdef void reset_wscale(self) nogil:             # <<<<<<<<<<<<<<
@@ -2174,7 +2174,7 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
   /* function exit code */
 }
 
-/* "gaw/utils/weight_vector.pyx":197
+/* "gawml/utils/weight_vector.pyx":197
  *         self.wscale = 1.0
  * 
  *     cdef double norm(self) nogil:             # <<<<<<<<<<<<<<
@@ -2182,10 +2182,10 @@ static void __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale(stru
  *         return sqrt(self.sq_norm)
  */
 
-static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_norm(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *__pyx_v_self) {
+static double __pyx_f_5gawml_5utils_13weight_vector_12WeightVector_norm(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *__pyx_v_self) {
   double __pyx_r;
 
-  /* "gaw/utils/weight_vector.pyx":199
+  /* "gawml/utils/weight_vector.pyx":199
  *     cdef double norm(self) nogil:
  *         """The L2 norm of the weight vector. """
  *         return sqrt(self.sq_norm)             # <<<<<<<<<<<<<<
@@ -2193,7 +2193,7 @@ static double __pyx_f_3gaw_5utils_13weight_vector_12WeightVector_norm(struct __p
   __pyx_r = sqrt(__pyx_v_self->sq_norm);
   goto __pyx_L0;
 
-  /* "gaw/utils/weight_vector.pyx":197
+  /* "gawml/utils/weight_vector.pyx":197
  *         self.wscale = 1.0
  * 
  *     cdef double norm(self) nogil:             # <<<<<<<<<<<<<<
@@ -4327,10 +4327,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
-static struct __pyx_vtabstruct_3gaw_5utils_13weight_vector_WeightVector __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector;
+static struct __pyx_vtabstruct_5gawml_5utils_13weight_vector_WeightVector __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector;
 
-static PyObject *__pyx_tp_new_3gaw_5utils_13weight_vector_WeightVector(PyTypeObject *t, PyObject *a, PyObject *k) {
-  struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *p;
+static PyObject *__pyx_tp_new_5gawml_5utils_13weight_vector_WeightVector(PyTypeObject *t, PyObject *a, PyObject *k) {
+  struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *p;
   PyObject *o;
   if (likely((t->tp_flags & Py_TPFLAGS_IS_ABSTRACT) == 0)) {
     o = (*t->tp_alloc)(t, 0);
@@ -4338,18 +4338,18 @@ static PyObject *__pyx_tp_new_3gaw_5utils_13weight_vector_WeightVector(PyTypeObj
     o = (PyObject *) PyBaseObject_Type.tp_new(t, __pyx_empty_tuple, 0);
   }
   if (unlikely(!o)) return 0;
-  p = ((struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *)o);
-  p->__pyx_vtab = __pyx_vtabptr_3gaw_5utils_13weight_vector_WeightVector;
+  p = ((struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *)o);
+  p->__pyx_vtab = __pyx_vtabptr_5gawml_5utils_13weight_vector_WeightVector;
   p->w = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->aw = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
-  if (unlikely(__pyx_pw_3gaw_5utils_13weight_vector_12WeightVector_1__cinit__(o, a, k) < 0)) {
+  if (unlikely(__pyx_pw_5gawml_5utils_13weight_vector_12WeightVector_1__cinit__(o, a, k) < 0)) {
     Py_DECREF(o); o = 0;
   }
   return o;
 }
 
-static void __pyx_tp_dealloc_3gaw_5utils_13weight_vector_WeightVector(PyObject *o) {
-  struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *)o;
+static void __pyx_tp_dealloc_5gawml_5utils_13weight_vector_WeightVector(PyObject *o) {
+  struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *)o;
   #if PY_VERSION_HEX >= 0x030400a1
   if (unlikely(Py_TYPE(o)->tp_finalize) && !_PyGC_FINALIZED(o)) {
     if (PyObject_CallFinalizerFromDealloc(o)) return;
@@ -4361,9 +4361,9 @@ static void __pyx_tp_dealloc_3gaw_5utils_13weight_vector_WeightVector(PyObject *
   (*Py_TYPE(o)->tp_free)(o);
 }
 
-static int __pyx_tp_traverse_3gaw_5utils_13weight_vector_WeightVector(PyObject *o, visitproc v, void *a) {
+static int __pyx_tp_traverse_5gawml_5utils_13weight_vector_WeightVector(PyObject *o, visitproc v, void *a) {
   int e;
-  struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *)o;
+  struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *)o;
   if (p->w) {
     e = (*v)(((PyObject*)p->w), a); if (e) return e;
   }
@@ -4373,9 +4373,9 @@ static int __pyx_tp_traverse_3gaw_5utils_13weight_vector_WeightVector(PyObject *
   return 0;
 }
 
-static int __pyx_tp_clear_3gaw_5utils_13weight_vector_WeightVector(PyObject *o) {
+static int __pyx_tp_clear_5gawml_5utils_13weight_vector_WeightVector(PyObject *o) {
   PyObject* tmp;
-  struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *)o;
+  struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *p = (struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *)o;
   tmp = ((PyObject*)p->w);
   p->w = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
@@ -4385,16 +4385,16 @@ static int __pyx_tp_clear_3gaw_5utils_13weight_vector_WeightVector(PyObject *o) 
   return 0;
 }
 
-static PyMethodDef __pyx_methods_3gaw_5utils_13weight_vector_WeightVector[] = {
+static PyMethodDef __pyx_methods_5gawml_5utils_13weight_vector_WeightVector[] = {
   {0, 0, 0, 0}
 };
 
-static PyTypeObject __pyx_type_3gaw_5utils_13weight_vector_WeightVector = {
+static PyTypeObject __pyx_type_5gawml_5utils_13weight_vector_WeightVector = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gaw.utils.weight_vector.WeightVector", /*tp_name*/
-  sizeof(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector), /*tp_basicsize*/
+  "gawml.utils.weight_vector.WeightVector", /*tp_name*/
+  sizeof(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector), /*tp_basicsize*/
   0, /*tp_itemsize*/
-  __pyx_tp_dealloc_3gaw_5utils_13weight_vector_WeightVector, /*tp_dealloc*/
+  __pyx_tp_dealloc_5gawml_5utils_13weight_vector_WeightVector, /*tp_dealloc*/
   0, /*tp_print*/
   0, /*tp_getattr*/
   0, /*tp_setattr*/
@@ -4416,13 +4416,13 @@ static PyTypeObject __pyx_type_3gaw_5utils_13weight_vector_WeightVector = {
   0, /*tp_as_buffer*/
   Py_TPFLAGS_DEFAULT|Py_TPFLAGS_HAVE_VERSION_TAG|Py_TPFLAGS_CHECKTYPES|Py_TPFLAGS_HAVE_NEWBUFFER|Py_TPFLAGS_BASETYPE|Py_TPFLAGS_HAVE_GC, /*tp_flags*/
   "Dense vector represented by a scalar and a numpy array.\n\n    The class provides methods to ``add`` a sparse vector\n    and scale the vector.\n    Representing a vector explicitly as a scalar times a\n    vector allows for efficient scaling operations.\n\n    Attributes\n    ----------\n    w : ndarray, dtype=double, order='C'\n        The numpy array which backs the weight vector.\n    aw : ndarray, dtype=double, order='C'\n        The numpy array which backs the average_weight vector.\n    w_data_ptr : double*\n        A pointer to the data of the numpy array.\n    wscale : double\n        The scale of the vector.\n    n_features : int\n        The number of features (= dimensionality of ``w``).\n    sq_norm : double\n        The squared norm of ``w``.\n    ", /*tp_doc*/
-  __pyx_tp_traverse_3gaw_5utils_13weight_vector_WeightVector, /*tp_traverse*/
-  __pyx_tp_clear_3gaw_5utils_13weight_vector_WeightVector, /*tp_clear*/
+  __pyx_tp_traverse_5gawml_5utils_13weight_vector_WeightVector, /*tp_traverse*/
+  __pyx_tp_clear_5gawml_5utils_13weight_vector_WeightVector, /*tp_clear*/
   0, /*tp_richcompare*/
   0, /*tp_weaklistoffset*/
   0, /*tp_iter*/
   0, /*tp_iternext*/
-  __pyx_methods_3gaw_5utils_13weight_vector_WeightVector, /*tp_methods*/
+  __pyx_methods_5gawml_5utils_13weight_vector_WeightVector, /*tp_methods*/
   0, /*tp_members*/
   0, /*tp_getset*/
   0, /*tp_base*/
@@ -4432,7 +4432,7 @@ static PyTypeObject __pyx_type_3gaw_5utils_13weight_vector_WeightVector = {
   0, /*tp_dictoffset*/
   0, /*tp_init*/
   0, /*tp_alloc*/
-  __pyx_tp_new_3gaw_5utils_13weight_vector_WeightVector, /*tp_new*/
+  __pyx_tp_new_5gawml_5utils_13weight_vector_WeightVector, /*tp_new*/
   0, /*tp_free*/
   0, /*tp_is_gc*/
   0, /*tp_bases*/
@@ -4647,14 +4647,14 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__weight_vector) {
+  if (__pyx_module_is_main_gawml__utils__weight_vector) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.weight_vector")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.weight_vector", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils.weight_vector")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils.weight_vector", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -4666,18 +4666,18 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
   /*--- Type init code ---*/
-  __pyx_vtabptr_3gaw_5utils_13weight_vector_WeightVector = &__pyx_vtable_3gaw_5utils_13weight_vector_WeightVector;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.add = (void (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int, double))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.add_average = (void (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int, double, double))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_add_average;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.dot = (double (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double *, int *, int))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_dot;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.scale = (void (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *, double))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_scale;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.reset_wscale = (void (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_reset_wscale;
-  __pyx_vtable_3gaw_5utils_13weight_vector_WeightVector.norm = (double (*)(struct __pyx_obj_3gaw_5utils_13weight_vector_WeightVector *))__pyx_f_3gaw_5utils_13weight_vector_12WeightVector_norm;
-  if (PyType_Ready(&__pyx_type_3gaw_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
-  __pyx_type_3gaw_5utils_13weight_vector_WeightVector.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_3gaw_5utils_13weight_vector_WeightVector.tp_dict, __pyx_vtabptr_3gaw_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "WeightVector", (PyObject *)&__pyx_type_3gaw_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
-  __pyx_ptype_3gaw_5utils_13weight_vector_WeightVector = &__pyx_type_3gaw_5utils_13weight_vector_WeightVector;
+  __pyx_vtabptr_5gawml_5utils_13weight_vector_WeightVector = &__pyx_vtable_5gawml_5utils_13weight_vector_WeightVector;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.add = (void (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int, double))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.add_average = (void (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int, double, double))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_add_average;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.dot = (double (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double *, int *, int))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_dot;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.scale = (void (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *, double))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_scale;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.reset_wscale = (void (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_reset_wscale;
+  __pyx_vtable_5gawml_5utils_13weight_vector_WeightVector.norm = (double (*)(struct __pyx_obj_5gawml_5utils_13weight_vector_WeightVector *))__pyx_f_5gawml_5utils_13weight_vector_12WeightVector_norm;
+  if (PyType_Ready(&__pyx_type_5gawml_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_type_5gawml_5utils_13weight_vector_WeightVector.tp_print = 0;
+  if (__Pyx_SetVtable(__pyx_type_5gawml_5utils_13weight_vector_WeightVector.tp_dict, __pyx_vtabptr_5gawml_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
+  if (PyObject_SetAttrString(__pyx_m, "WeightVector", (PyObject *)&__pyx_type_5gawml_5utils_13weight_vector_WeightVector) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_ptype_5gawml_5utils_13weight_vector_WeightVector = &__pyx_type_5gawml_5utils_13weight_vector_WeightVector;
   /*--- Type import code ---*/
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
   #if CYTHON_COMPILING_IN_PYPY
@@ -4698,7 +4698,7 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/weight_vector.pyx":14
+  /* "gawml/utils/weight_vector.pyx":14
  * from libc.limits cimport INT_MAX
  * from libc.math cimport sqrt
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -4710,7 +4710,7 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/weight_vector.pyx":24
+  /* "gawml/utils/weight_vector.pyx":24
  * 
  * 
  * np.import_array()             # <<<<<<<<<<<<<<
@@ -4719,7 +4719,7 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
  */
   import_array();
 
-  /* "gaw/utils/weight_vector.pyx":1
+  /* "gawml/utils/weight_vector.pyx":1
  * # cython: cdivision=True             # <<<<<<<<<<<<<<
  * # cython: boundscheck=False
  * # cython: wraparound=False
@@ -4744,11 +4744,11 @@ PyMODINIT_FUNC PyInit_weight_vector(void)
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.weight_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils.weight_vector", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.weight_vector");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils.weight_vector");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

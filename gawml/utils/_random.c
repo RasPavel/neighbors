@@ -246,8 +246,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #define __Pyx_PyNumber_Divide(x,y)         PyNumber_TrueDivide(x,y)
   #define __Pyx_PyNumber_InPlaceDivide(x,y)  PyNumber_InPlaceTrueDivide(x,y)
 #else
-  #define __Pyx_PyNumber_Divide(x,y)         PyNumber_Divide(x,y)
-  #define __Pyx_PyNumber_InPlaceDivide(x,y)  PyNumber_InPlaceDivide(x,y)
+  #define __Pyx_PyNumber_Divide(x,y)         PyNumber_TrueDivide(x,y)
+  #define __Pyx_PyNumber_InPlaceDivide(x,y)  PyNumber_InPlaceTrueDivide(x,y)
 #endif
 
 #ifndef __PYX_EXTERN_C
@@ -258,15 +258,13 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gaw__utils__arrayfuncs
-#define __PYX_HAVE_API__gaw__utils__arrayfuncs
+#define __PYX_HAVE__gawml__utils___random
+#define __PYX_HAVE_API__gawml__utils___random
 #include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
 #include "numpy/arrayobject.h"
 #include "numpy/ufuncobject.h"
-#include "float.h"
-#include "src/cholesky_delete.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -504,10 +502,46 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "gaw/utils/arrayfuncs.pyx",
+  "gawml/utils/_random.pyx",
   "__init__.pxd",
   "type.pxd",
 };
+/* BufferFormatStructs.proto */
+#define IS_UNSIGNED(type) (((type) -1) > 0)
+struct __Pyx_StructField_;
+#define __PYX_BUF_FLAGS_PACKED_STRUCT (1 << 0)
+typedef struct {
+  const char* name;
+  struct __Pyx_StructField_* fields;
+  size_t size;
+  size_t arraysize[8];
+  int ndim;
+  char typegroup;
+  char is_unsigned;
+  int flags;
+} __Pyx_TypeInfo;
+typedef struct __Pyx_StructField_ {
+  __Pyx_TypeInfo* type;
+  const char* name;
+  size_t offset;
+} __Pyx_StructField;
+typedef struct {
+  __Pyx_StructField* field;
+  size_t parent_offset;
+} __Pyx_BufFmt_StackElem;
+typedef struct {
+  __Pyx_StructField root;
+  __Pyx_BufFmt_StackElem* head;
+  size_t fmt_offset;
+  size_t new_count, enc_count;
+  size_t struct_alignment;
+  int is_complex;
+  char enc_type;
+  char new_packmode;
+  char enc_packmode;
+  char is_valid_array;
+} __Pyx_BufFmt_Context;
+
 
 /* "../../../../../usr/local/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":725
  * # in Cython to enable them only on the right systems.
@@ -697,15 +731,6 @@ typedef npy_double __pyx_t_5numpy_double_t;
  * ctypedef npy_cfloat      cfloat_t
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
-
-/* "gaw/utils/arrayfuncs.pyx":16
- *     int cholesky_delete_flt(int m, int n, float  *L, int go_out)
- * 
- * ctypedef np.float64_t DOUBLE             # <<<<<<<<<<<<<<
- * 
- * 
- */
-typedef __pyx_t_5numpy_float64_t __pyx_t_3gaw_5utils_10arrayfuncs_DOUBLE;
 /* None.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -766,6 +791,59 @@ typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
+struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement;
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection;
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool;
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling;
+
+/* "gawml/utils/_random.pxd":10
+ * 
+ * 
+ * cpdef sample_without_replacement(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                  np.int_t n_samples,
+ *                                  method=*,
+ */
+struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement {
+  int __pyx_n;
+  PyObject *method;
+  PyObject *random_state;
+};
+
+/* "gawml/utils/_random.pyx":42
+ * 
+ * cpdef _sample_without_replacement_with_tracking_selection(
+ *         np.int_t n_population,             # <<<<<<<<<<<<<<
+ *         np.int_t n_samples,
+ *         random_state=None):
+ */
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection {
+  int __pyx_n;
+  PyObject *random_state;
+};
+
+/* "gawml/utils/_random.pyx":107
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):
+ */
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool {
+  int __pyx_n;
+  PyObject *random_state;
+};
+
+/* "gawml/utils/_random.pyx":168
+ * 
+ * cpdef _sample_without_replacement_with_reservoir_sampling(
+ *     np.int_t n_population,             # <<<<<<<<<<<<<<
+ *     np.int_t n_samples,
+ *     random_state=None):
+ */
+struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling {
+  int __pyx_n;
+  PyObject *random_state;
+};
 
 /* --- Runtime support code (head) --- */
 /* Refnanny.proto */
@@ -850,26 +928,6 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject
 /* GetBuiltinName.proto */
 static PyObject *__Pyx_GetBuiltinName(PyObject *name);
 
-/* ArgTypeTest.proto */
-static CYTHON_INLINE int __Pyx_ArgTypeTest(PyObject *obj, PyTypeObject *type, int none_allowed,
-    const char *name, int exact);
-
-/* IncludeStringH.proto */
-#include <string.h>
-
-/* BytesEquals.proto */
-static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals);
-
-/* UnicodeEquals.proto */
-static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
-
-/* StrEquals.proto */
-#if PY_MAJOR_VERSION >= 3
-#define __Pyx_PyString_Equals __Pyx_PyUnicode_Equals
-#else
-#define __Pyx_PyString_Equals __Pyx_PyBytes_Equals
-#endif
-
 /* PyObjectCall.proto */
 #if CYTHON_COMPILING_IN_CPYTHON
 static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw);
@@ -916,6 +974,52 @@ static int __Pyx_ParseOptionalKeywords(PyObject *kwds, PyObject **argnames[],\
     PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args,\
     const char* function_name);
 
+/* GetModuleGlobalName.proto */
+static CYTHON_INLINE PyObject *__Pyx_GetModuleGlobalName(PyObject *name);
+
+/* ExtTypeTest.proto */
+static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type);
+
+/* BufferFormatCheck.proto */
+static CYTHON_INLINE int  __Pyx_GetBufferAndValidate(Py_buffer* buf, PyObject* obj,
+    __Pyx_TypeInfo* dtype, int flags, int nd, int cast, __Pyx_BufFmt_StackElem* stack);
+static CYTHON_INLINE void __Pyx_SafeReleaseBuffer(Py_buffer* info);
+static const char* __Pyx_BufFmt_CheckString(__Pyx_BufFmt_Context* ctx, const char* ts);
+static void __Pyx_BufFmt_Init(__Pyx_BufFmt_Context* ctx,
+                              __Pyx_BufFmt_StackElem* stack,
+                              __Pyx_TypeInfo* type); // PROTO
+
+/* PyObjectCallMethO.proto */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg);
+#endif
+
+/* PyObjectCallOneArg.proto */
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg);
+
+/* PySequenceContains.proto */
+static CYTHON_INLINE int __Pyx_PySequence_ContainsTF(PyObject* item, PyObject* seq, int eq) {
+    int result = PySequence_Contains(seq, item);
+    return unlikely(result < 0) ? result : (result == (eq == Py_EQ));
+}
+
+#define __Pyx_BufPtrStrided1d(type, buf, i0, s0) (type)((char*)buf + i0 * s0)
+/* IncludeStringH.proto */
+#include <string.h>
+
+/* BytesEquals.proto */
+static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals);
+
+/* UnicodeEquals.proto */
+static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
+
+/* StrEquals.proto */
+#if PY_MAJOR_VERSION >= 3
+#define __Pyx_PyString_Equals __Pyx_PyUnicode_Equals
+#else
+#define __Pyx_PyString_Equals __Pyx_PyBytes_Equals
+#endif
+
 /* DictGetItem.proto */
 #if PY_MAJOR_VERSION >= 3 && !CYTHON_COMPILING_IN_PYPY
 static PyObject *__Pyx_PyDict_GetItem(PyObject *d, PyObject* key) {
@@ -946,11 +1050,11 @@ static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index);
 /* RaiseNoneIterError.proto */
 static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void);
 
-/* ExtTypeTest.proto */
-static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type);
-
 /* Import.proto */
 static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
+
+/* ImportFrom.proto */
+static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name);
 
 /* CodeObjectCache.proto */
 typedef struct {
@@ -970,6 +1074,36 @@ static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object);
 /* AddTraceback.proto */
 static void __Pyx_AddTraceback(const char *funcname, int c_line,
                                int py_line, const char *filename);
+
+/* BufferStructDeclare.proto */
+typedef struct {
+  Py_ssize_t shape, strides, suboffsets;
+} __Pyx_Buf_DimInfo;
+typedef struct {
+  size_t refcount;
+  Py_buffer pybuffer;
+} __Pyx_Buffer;
+typedef struct {
+  __Pyx_Buffer *rcbuffer;
+  char *data;
+  __Pyx_Buf_DimInfo diminfo[8];
+} __Pyx_LocalBuf_ND;
+
+#if PY_MAJOR_VERSION < 3
+    static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags);
+    static void __Pyx_ReleaseBuffer(Py_buffer *view);
+#else
+    #define __Pyx_GetBuffer PyObject_GetBuffer
+    #define __Pyx_ReleaseBuffer PyBuffer_Release
+#endif
+
+
+/* None.proto */
+static Py_ssize_t __Pyx_zeros[] = {0, 0, 0, 0, 0, 0, 0, 0};
+static Py_ssize_t __Pyx_minusones[] = {-1, -1, -1, -1, -1, -1, -1, -1};
+
+/* CIntToPy.proto */
+static CYTHON_INLINE PyObject* __Pyx_PyInt_From_npy_long(npy_long value);
 
 /* None.proto */
 #if CYTHON_CCOMPLEX
@@ -1081,6 +1215,9 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value);
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value);
 
 /* CIntFromPy.proto */
+static CYTHON_INLINE npy_long __Pyx_PyInt_As_npy_long(PyObject *);
+
+/* CIntFromPy.proto */
 static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *);
 
 /* CIntToPy.proto */
@@ -1091,6 +1228,9 @@ static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *);
 
 /* CheckBinaryVersion.proto */
 static int __Pyx_check_binary_version(void);
+
+/* FunctionExport.proto */
+static int __Pyx_ExportFunction(const char *name, void (*f)(void), const char *sig);
 
 /* PyIdentifierFromString.proto */
 #if !defined(__Pyx_PyIdentifier_FromString)
@@ -1142,86 +1282,94 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, cha
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'libc.float' */
+/* Module declarations from 'gawml.utils._random' */
+static PyObject *__pyx_f_5gawml_5utils_7_random_sample_without_replacement(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement *__pyx_optional_args); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection *__pyx_optional_args); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_pool(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool *__pyx_optional_args); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling *__pyx_optional_args); /*proto*/
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int_t = { "int_t", NULL, sizeof(__pyx_t_5numpy_int_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int_t), 0 };
+#define __Pyx_MODULE_NAME "gawml.utils._random"
+int __pyx_module_is_main_gawml__utils___random = 0;
 
-/* Module declarations from 'gaw.utils.arrayfuncs' */
-static float __pyx_f_3gaw_5utils_10arrayfuncs__float_min_pos(float *, Py_ssize_t); /*proto*/
-static double __pyx_f_3gaw_5utils_10arrayfuncs__double_min_pos(double *, Py_ssize_t); /*proto*/
-#define __Pyx_MODULE_NAME "gaw.utils.arrayfuncs"
-int __pyx_module_is_main_gaw__utils__arrayfuncs = 0;
-
-/* Implementation of 'gaw.utils.arrayfuncs' */
+/* Implementation of 'gawml.utils._random' */
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
-static PyObject *__pyx_builtin_TypeError;
+static PyObject *__pyx_builtin_xrange;
 static PyObject *__pyx_builtin_RuntimeError;
-static const char __pyx_k_L[] = "L";
-static const char __pyx_k_X[] = "X";
-static const char __pyx_k_m[] = "m";
-static const char __pyx_k_n[] = "n";
 static const char __pyx_k_np[] = "np";
+static const char __pyx_k_int[] = "int";
+static const char __pyx_k_auto[] = "auto";
 static const char __pyx_k_main[] = "__main__";
-static const char __pyx_k_name[] = "name";
-static const char __pyx_k_size[] = "size";
+static const char __pyx_k_pool[] = "pool";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_dtype[] = "dtype";
+static const char __pyx_k_empty[] = "empty";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_range[] = "range";
-static const char __pyx_k_go_out[] = "go_out";
 static const char __pyx_k_import[] = "__import__";
-static const char __pyx_k_float32[] = "float32";
-static const char __pyx_k_float64[] = "float64";
-static const char __pyx_k_min_pos[] = "min_pos";
-static const char __pyx_k_TypeError[] = "TypeError";
+static const char __pyx_k_method[] = "method";
+static const char __pyx_k_xrange[] = "xrange";
+static const char __pyx_k_randint[] = "randint";
+static const char __pyx_k_n_samples[] = "n_samples";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_RuntimeError[] = "RuntimeError";
-static const char __pyx_k_cholesky_delete[] = "cholesky_delete";
-static const char __pyx_k_unsupported_dtype_r[] = "unsupported dtype %r.";
-static const char __pyx_k_gaw_utils_arrayfuncs[] = "gaw.utils.arrayfuncs";
+static const char __pyx_k_n_population[] = "n_population";
+static const char __pyx_k_random_state[] = "random_state";
+static const char __pyx_k_sklearn_utils[] = "sklearn.utils";
+static const char __pyx_k_check_random_state[] = "check_random_state";
+static const char __pyx_k_reservoir_sampling[] = "reservoir_sampling";
+static const char __pyx_k_tracking_selection[] = "tracking_selection";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
-static const char __pyx_k_Unsupported_dtype_for_array_X[] = "Unsupported dtype for array X";
-static const char __pyx_k_Small_collection_of_auxiliary_f[] = "\nSmall collection of auxiliary functions that operate on arrays\n\n";
-static const char __pyx_k_Users_nkdhny_Documents_datasoup[] = "/Users/nkdhny/Documents/datasoup/gawdistance/gaw/utils/arrayfuncs.pyx";
+static const char __pyx_k_Expected_a_method_name_in_s_got[] = "Expected a method name in %s, got %s. ";
+static const char __pyx_k_Random_utility_function_This_mo[] = "\nRandom utility function\n=======================\nThis module complements missing features of ``numpy.random``.\n\nThe module contains:\n    * Several algorithms to sample integers without replacement.\n\n";
 static const char __pyx_k_unknown_dtype_code_in_numpy_pxd[] = "unknown dtype code in numpy.pxd (%d)";
 static const char __pyx_k_Format_string_allocated_too_shor[] = "Format string allocated too short, see comment in numpy.pxd";
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
+static const char __pyx_k_n_population_should_be_greater_o[] = "n_population should be greater or equal than n_samples, got n_samples > n_population (%s > %s)";
+static const char __pyx_k_n_population_should_be_greater_t[] = "n_population should be greater than 0, got %s.";
 static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
 static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
+static PyObject *__pyx_kp_s_Expected_a_method_name_in_s_got;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor;
 static PyObject *__pyx_kp_u_Format_string_allocated_too_shor_2;
-static PyObject *__pyx_n_s_L;
 static PyObject *__pyx_kp_u_Non_native_byte_order_not_suppor;
 static PyObject *__pyx_n_s_RuntimeError;
-static PyObject *__pyx_n_s_TypeError;
-static PyObject *__pyx_kp_s_Unsupported_dtype_for_array_X;
-static PyObject *__pyx_kp_s_Users_nkdhny_Documents_datasoup;
 static PyObject *__pyx_n_s_ValueError;
-static PyObject *__pyx_n_s_X;
-static PyObject *__pyx_n_s_cholesky_delete;
+static PyObject *__pyx_n_s_auto;
+static PyObject *__pyx_n_s_check_random_state;
 static PyObject *__pyx_n_s_dtype;
-static PyObject *__pyx_n_s_float32;
-static PyObject *__pyx_n_s_float64;
-static PyObject *__pyx_n_s_gaw_utils_arrayfuncs;
-static PyObject *__pyx_n_s_go_out;
+static PyObject *__pyx_n_s_empty;
 static PyObject *__pyx_n_s_import;
-static PyObject *__pyx_n_s_m;
+static PyObject *__pyx_n_s_int;
 static PyObject *__pyx_n_s_main;
-static PyObject *__pyx_n_s_min_pos;
-static PyObject *__pyx_n_s_n;
-static PyObject *__pyx_n_s_name;
+static PyObject *__pyx_n_s_method;
+static PyObject *__pyx_n_s_n_population;
+static PyObject *__pyx_kp_s_n_population_should_be_greater_o;
+static PyObject *__pyx_kp_s_n_population_should_be_greater_t;
+static PyObject *__pyx_n_s_n_samples;
 static PyObject *__pyx_kp_u_ndarray_is_not_C_contiguous;
 static PyObject *__pyx_kp_u_ndarray_is_not_Fortran_contiguou;
 static PyObject *__pyx_n_s_np;
 static PyObject *__pyx_n_s_numpy;
+static PyObject *__pyx_n_s_pool;
+static PyObject *__pyx_n_s_randint;
+static PyObject *__pyx_n_s_random_state;
 static PyObject *__pyx_n_s_range;
-static PyObject *__pyx_n_s_size;
+static PyObject *__pyx_n_s_reservoir_sampling;
+static PyObject *__pyx_n_s_sklearn_utils;
 static PyObject *__pyx_n_s_test;
+static PyObject *__pyx_n_s_tracking_selection;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
-static PyObject *__pyx_kp_s_unsupported_dtype_r;
-static PyObject *__pyx_pf_3gaw_5utils_10arrayfuncs_min_pos(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X); /* proto */
-static PyObject *__pyx_pf_3gaw_5utils_10arrayfuncs_2cholesky_delete(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_L, int __pyx_v_go_out); /* proto */
+static PyObject *__pyx_n_s_xrange;
+static PyObject *__pyx_pf_5gawml_5utils_7_random__sample_without_replacement_check_input(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_7_random_2_sample_without_replacement_with_tracking_selection(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_7_random_4_sample_without_replacement_with_pool(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_7_random_6_sample_without_replacement_with_reservoir_sampling(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state); /* proto */
+static PyObject *__pyx_pf_5gawml_5utils_7_random_8sample_without_replacement(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_method, PyObject *__pyx_v_random_state); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
+static PyObject *__pyx_int_0;
 static PyObject *__pyx_tuple_;
 static PyObject *__pyx_tuple__2;
 static PyObject *__pyx_tuple__3;
@@ -1229,380 +1377,171 @@ static PyObject *__pyx_tuple__4;
 static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
-static PyObject *__pyx_tuple__8;
-static PyObject *__pyx_tuple__10;
-static PyObject *__pyx_codeobj__9;
-static PyObject *__pyx_codeobj__11;
 
-/* "gaw/utils/arrayfuncs.pyx":22
+/* "gawml/utils/_random.pyx":28
  * 
  * 
- * def min_pos(np.ndarray X):             # <<<<<<<<<<<<<<
- *    """
- *    Find the minimum value of an array over positive values
+ * cpdef _sample_without_replacement_check_input(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                               np.int_t n_samples):
+ *     """ Check that input are consistent for sample_without_replacement"""
  */
 
-/* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_1min_pos(PyObject *__pyx_self, PyObject *__pyx_v_X); /*proto*/
-static char __pyx_doc_3gaw_5utils_10arrayfuncs_min_pos[] = "\n   Find the minimum value of an array over positive values\n\n   Returns a huge value if none of the values are positive\n   ";
-static PyMethodDef __pyx_mdef_3gaw_5utils_10arrayfuncs_1min_pos = {"min_pos", (PyCFunction)__pyx_pw_3gaw_5utils_10arrayfuncs_1min_pos, METH_O, __pyx_doc_3gaw_5utils_10arrayfuncs_min_pos};
-static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_1min_pos(PyObject *__pyx_self, PyObject *__pyx_v_X) {
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("min_pos (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_X), __pyx_ptype_5numpy_ndarray, 1, "X", 0))) __PYX_ERR(0, 22, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_10arrayfuncs_min_pos(__pyx_self, ((PyArrayObject *)__pyx_v_X));
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_3gaw_5utils_10arrayfuncs_min_pos(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_X) {
+static PyObject *__pyx_pw_5gawml_5utils_7_random_1_sample_without_replacement_check_input(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, CYTHON_UNUSED int __pyx_skip_dispatch) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
+  int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
-  int __pyx_t_3;
-  Py_ssize_t __pyx_t_4;
-  __Pyx_RefNannySetupContext("min_pos", 0);
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_check_input", 0);
 
-  /* "gaw/utils/arrayfuncs.pyx":28
- *    Returns a huge value if none of the values are positive
- *    """
- *    if X.dtype.name == 'float32':             # <<<<<<<<<<<<<<
- *       return _float_min_pos(<float *> X.data, X.size)
- *    elif X.dtype.name == 'float64':
+  /* "gawml/utils/_random.pyx":31
+ *                                               np.int_t n_samples):
+ *     """ Check that input are consistent for sample_without_replacement"""
+ *     if n_population < 0:             # <<<<<<<<<<<<<<
+ *         raise ValueError('n_population should be greater than 0, got %s.'
+ *                          % n_population)
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_X), __pyx_n_s_dtype); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_t_2, __pyx_n_s_float32, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
+  __pyx_t_1 = ((__pyx_v_n_population < 0) != 0);
+  if (__pyx_t_1) {
 
-    /* "gaw/utils/arrayfuncs.pyx":29
- *    """
- *    if X.dtype.name == 'float32':
- *       return _float_min_pos(<float *> X.data, X.size)             # <<<<<<<<<<<<<<
- *    elif X.dtype.name == 'float64':
- *       return _double_min_pos(<double *> X.data, X.size)
+    /* "gawml/utils/_random.pyx":33
+ *     if n_population < 0:
+ *         raise ValueError('n_population should be greater than 0, got %s.'
+ *                          % n_population)             # <<<<<<<<<<<<<<
+ * 
+ *     if n_samples > n_population:
  */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_X), __pyx_n_s_size); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_n_population); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyIndex_AsSsize_t(__pyx_t_2); if (unlikely((__pyx_t_4 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 29, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyString_Format(__pyx_kp_s_n_population_should_be_greater_t, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 33, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_f_3gaw_5utils_10arrayfuncs__float_min_pos(((float *)__pyx_v_X->data), __pyx_t_4)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
+
+    /* "gawml/utils/_random.pyx":32
+ *     """ Check that input are consistent for sample_without_replacement"""
+ *     if n_population < 0:
+ *         raise ValueError('n_population should be greater than 0, got %s.'             # <<<<<<<<<<<<<<
+ *                          % n_population)
+ * 
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_r = __pyx_t_2;
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 32, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __PYX_ERR(0, 32, __pyx_L1_error)
+
+    /* "gawml/utils/_random.pyx":31
+ *                                               np.int_t n_samples):
+ *     """ Check that input are consistent for sample_without_replacement"""
+ *     if n_population < 0:             # <<<<<<<<<<<<<<
+ *         raise ValueError('n_population should be greater than 0, got %s.'
+ *                          % n_population)
+ */
+  }
+
+  /* "gawml/utils/_random.pyx":35
+ *                          % n_population)
+ * 
+ *     if n_samples > n_population:             # <<<<<<<<<<<<<<
+ *         raise ValueError('n_population should be greater or equal than '
+ *                          'n_samples, got n_samples > n_population (%s > %s)'
+ */
+  __pyx_t_1 = ((__pyx_v_n_samples > __pyx_v_n_population) != 0);
+  if (__pyx_t_1) {
+
+    /* "gawml/utils/_random.pyx":38
+ *         raise ValueError('n_population should be greater or equal than '
+ *                          'n_samples, got n_samples > n_population (%s > %s)'
+ *                          % (n_samples, n_population))             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+    __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_n_samples); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 38, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_n_population); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 38, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 38, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_2);
+    PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_2);
+    __pyx_t_3 = 0;
     __pyx_t_2 = 0;
-    goto __pyx_L0;
+    __pyx_t_2 = __Pyx_PyString_Format(__pyx_kp_s_n_population_should_be_greater_o, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 38, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "gaw/utils/arrayfuncs.pyx":28
- *    Returns a huge value if none of the values are positive
- *    """
- *    if X.dtype.name == 'float32':             # <<<<<<<<<<<<<<
- *       return _float_min_pos(<float *> X.data, X.size)
- *    elif X.dtype.name == 'float64':
+    /* "gawml/utils/_random.pyx":36
+ * 
+ *     if n_samples > n_population:
+ *         raise ValueError('n_population should be greater or equal than '             # <<<<<<<<<<<<<<
+ *                          'n_samples, got n_samples > n_population (%s > %s)'
+ *                          % (n_samples, n_population))
+ */
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 36, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_2);
+    PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
+    __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 36, __pyx_L1_error)
+
+    /* "gawml/utils/_random.pyx":35
+ *                          % n_population)
+ * 
+ *     if n_samples > n_population:             # <<<<<<<<<<<<<<
+ *         raise ValueError('n_population should be greater or equal than '
+ *                          'n_samples, got n_samples > n_population (%s > %s)'
  */
   }
 
-  /* "gaw/utils/arrayfuncs.pyx":30
- *    if X.dtype.name == 'float32':
- *       return _float_min_pos(<float *> X.data, X.size)
- *    elif X.dtype.name == 'float64':             # <<<<<<<<<<<<<<
- *       return _double_min_pos(<double *> X.data, X.size)
- *    else:
- */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_X), __pyx_n_s_dtype); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_float64, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__pyx_t_3) {
-
-    /* "gaw/utils/arrayfuncs.pyx":31
- *       return _float_min_pos(<float *> X.data, X.size)
- *    elif X.dtype.name == 'float64':
- *       return _double_min_pos(<double *> X.data, X.size)             # <<<<<<<<<<<<<<
- *    else:
- *       raise ValueError('Unsupported dtype for array X')
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_X), __pyx_n_s_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyIndex_AsSsize_t(__pyx_t_1); if (unlikely((__pyx_t_4 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 31, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyFloat_FromDouble(__pyx_f_3gaw_5utils_10arrayfuncs__double_min_pos(((double *)__pyx_v_X->data), __pyx_t_4)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_r = __pyx_t_1;
-    __pyx_t_1 = 0;
-    goto __pyx_L0;
-
-    /* "gaw/utils/arrayfuncs.pyx":30
- *    if X.dtype.name == 'float32':
- *       return _float_min_pos(<float *> X.data, X.size)
- *    elif X.dtype.name == 'float64':             # <<<<<<<<<<<<<<
- *       return _double_min_pos(<double *> X.data, X.size)
- *    else:
- */
-  }
-
-  /* "gaw/utils/arrayfuncs.pyx":33
- *       return _double_min_pos(<double *> X.data, X.size)
- *    else:
- *       raise ValueError('Unsupported dtype for array X')             # <<<<<<<<<<<<<<
+  /* "gawml/utils/_random.pyx":28
  * 
  * 
- */
-  /*else*/ {
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_Raise(__pyx_t_1, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 33, __pyx_L1_error)
-  }
-
-  /* "gaw/utils/arrayfuncs.pyx":22
- * 
- * 
- * def min_pos(np.ndarray X):             # <<<<<<<<<<<<<<
- *    """
- *    Find the minimum value of an array over positive values
+ * cpdef _sample_without_replacement_check_input(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                               np.int_t n_samples):
+ *     """ Check that input are consistent for sample_without_replacement"""
  */
 
   /* function exit code */
+  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  goto __pyx_L0;
   __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.utils.arrayfuncs.min_pos", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_check_input", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = 0;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "gaw/utils/arrayfuncs.pyx":36
- * 
- * 
- * cdef float _float_min_pos(float *X, Py_ssize_t size):             # <<<<<<<<<<<<<<
- *    cdef Py_ssize_t i
- *    cdef float min_val = DBL_MAX
- */
-
-static float __pyx_f_3gaw_5utils_10arrayfuncs__float_min_pos(float *__pyx_v_X, Py_ssize_t __pyx_v_size) {
-  Py_ssize_t __pyx_v_i;
-  float __pyx_v_min_val;
-  float __pyx_r;
-  __Pyx_RefNannyDeclarations
-  Py_ssize_t __pyx_t_1;
-  Py_ssize_t __pyx_t_2;
-  int __pyx_t_3;
-  int __pyx_t_4;
-  __Pyx_RefNannySetupContext("_float_min_pos", 0);
-
-  /* "gaw/utils/arrayfuncs.pyx":38
- * cdef float _float_min_pos(float *X, Py_ssize_t size):
- *    cdef Py_ssize_t i
- *    cdef float min_val = DBL_MAX             # <<<<<<<<<<<<<<
- *    for i in range(size):
- *       if 0. < X[i] < min_val:
- */
-  __pyx_v_min_val = DBL_MAX;
-
-  /* "gaw/utils/arrayfuncs.pyx":39
- *    cdef Py_ssize_t i
- *    cdef float min_val = DBL_MAX
- *    for i in range(size):             # <<<<<<<<<<<<<<
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]
- */
-  __pyx_t_1 = __pyx_v_size;
-  for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
-    __pyx_v_i = __pyx_t_2;
-
-    /* "gaw/utils/arrayfuncs.pyx":40
- *    cdef float min_val = DBL_MAX
- *    for i in range(size):
- *       if 0. < X[i] < min_val:             # <<<<<<<<<<<<<<
- *          min_val = X[i]
- *    return min_val
- */
-    __pyx_t_3 = (0. < (__pyx_v_X[__pyx_v_i]));
-    if (__pyx_t_3) {
-      __pyx_t_3 = ((__pyx_v_X[__pyx_v_i]) < __pyx_v_min_val);
-    }
-    __pyx_t_4 = (__pyx_t_3 != 0);
-    if (__pyx_t_4) {
-
-      /* "gaw/utils/arrayfuncs.pyx":41
- *    for i in range(size):
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]             # <<<<<<<<<<<<<<
- *    return min_val
- * 
- */
-      __pyx_v_min_val = (__pyx_v_X[__pyx_v_i]);
-
-      /* "gaw/utils/arrayfuncs.pyx":40
- *    cdef float min_val = DBL_MAX
- *    for i in range(size):
- *       if 0. < X[i] < min_val:             # <<<<<<<<<<<<<<
- *          min_val = X[i]
- *    return min_val
- */
-    }
-  }
-
-  /* "gaw/utils/arrayfuncs.pyx":42
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]
- *    return min_val             # <<<<<<<<<<<<<<
- * 
- * 
- */
-  __pyx_r = __pyx_v_min_val;
-  goto __pyx_L0;
-
-  /* "gaw/utils/arrayfuncs.pyx":36
- * 
- * 
- * cdef float _float_min_pos(float *X, Py_ssize_t size):             # <<<<<<<<<<<<<<
- *    cdef Py_ssize_t i
- *    cdef float min_val = DBL_MAX
- */
-
-  /* function exit code */
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "gaw/utils/arrayfuncs.pyx":45
- * 
- * 
- * cdef double _double_min_pos(double *X, Py_ssize_t size):             # <<<<<<<<<<<<<<
- *    cdef Py_ssize_t i
- *    cdef np.float64_t min_val = FLT_MAX
- */
-
-static double __pyx_f_3gaw_5utils_10arrayfuncs__double_min_pos(double *__pyx_v_X, Py_ssize_t __pyx_v_size) {
-  Py_ssize_t __pyx_v_i;
-  __pyx_t_5numpy_float64_t __pyx_v_min_val;
-  double __pyx_r;
-  __Pyx_RefNannyDeclarations
-  Py_ssize_t __pyx_t_1;
-  Py_ssize_t __pyx_t_2;
-  int __pyx_t_3;
-  int __pyx_t_4;
-  __Pyx_RefNannySetupContext("_double_min_pos", 0);
-
-  /* "gaw/utils/arrayfuncs.pyx":47
- * cdef double _double_min_pos(double *X, Py_ssize_t size):
- *    cdef Py_ssize_t i
- *    cdef np.float64_t min_val = FLT_MAX             # <<<<<<<<<<<<<<
- *    for i in range(size):
- *       if 0. < X[i] < min_val:
- */
-  __pyx_v_min_val = FLT_MAX;
-
-  /* "gaw/utils/arrayfuncs.pyx":48
- *    cdef Py_ssize_t i
- *    cdef np.float64_t min_val = FLT_MAX
- *    for i in range(size):             # <<<<<<<<<<<<<<
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]
- */
-  __pyx_t_1 = __pyx_v_size;
-  for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
-    __pyx_v_i = __pyx_t_2;
-
-    /* "gaw/utils/arrayfuncs.pyx":49
- *    cdef np.float64_t min_val = FLT_MAX
- *    for i in range(size):
- *       if 0. < X[i] < min_val:             # <<<<<<<<<<<<<<
- *          min_val = X[i]
- *    return min_val
- */
-    __pyx_t_3 = (0. < (__pyx_v_X[__pyx_v_i]));
-    if (__pyx_t_3) {
-      __pyx_t_3 = ((__pyx_v_X[__pyx_v_i]) < __pyx_v_min_val);
-    }
-    __pyx_t_4 = (__pyx_t_3 != 0);
-    if (__pyx_t_4) {
-
-      /* "gaw/utils/arrayfuncs.pyx":50
- *    for i in range(size):
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]             # <<<<<<<<<<<<<<
- *    return min_val
- * 
- */
-      __pyx_v_min_val = (__pyx_v_X[__pyx_v_i]);
-
-      /* "gaw/utils/arrayfuncs.pyx":49
- *    cdef np.float64_t min_val = FLT_MAX
- *    for i in range(size):
- *       if 0. < X[i] < min_val:             # <<<<<<<<<<<<<<
- *          min_val = X[i]
- *    return min_val
- */
-    }
-  }
-
-  /* "gaw/utils/arrayfuncs.pyx":51
- *       if 0. < X[i] < min_val:
- *          min_val = X[i]
- *    return min_val             # <<<<<<<<<<<<<<
- * 
- * 
- */
-  __pyx_r = __pyx_v_min_val;
-  goto __pyx_L0;
-
-  /* "gaw/utils/arrayfuncs.pyx":45
- * 
- * 
- * cdef double _double_min_pos(double *X, Py_ssize_t size):             # <<<<<<<<<<<<<<
- *    cdef Py_ssize_t i
- *    cdef np.float64_t min_val = FLT_MAX
- */
-
-  /* function exit code */
-  __pyx_L0:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "gaw/utils/arrayfuncs.pyx":55
- * 
- * # we should be using np.npy_intp or Py_ssize_t for indices, but BLAS wants int
- * def cholesky_delete(np.ndarray L, int go_out):             # <<<<<<<<<<<<<<
- *     cdef int n = <int> L.shape[0]
- *     cdef int m = <int> L.strides[0]
- */
-
 /* Python wrapper */
-static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_3cholesky_delete(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_3gaw_5utils_10arrayfuncs_3cholesky_delete = {"cholesky_delete", (PyCFunction)__pyx_pw_3gaw_5utils_10arrayfuncs_3cholesky_delete, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_3cholesky_delete(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyArrayObject *__pyx_v_L = 0;
-  int __pyx_v_go_out;
+static PyObject *__pyx_pw_5gawml_5utils_7_random_1_sample_without_replacement_check_input(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_7_random__sample_without_replacement_check_input[] = " Check that input are consistent for sample_without_replacement";
+static PyObject *__pyx_pw_5gawml_5utils_7_random_1_sample_without_replacement_check_input(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  __pyx_t_5numpy_int_t __pyx_v_n_population;
+  __pyx_t_5numpy_int_t __pyx_v_n_samples;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("cholesky_delete (wrapper)", 0);
+  __Pyx_RefNannySetupContext("_sample_without_replacement_check_input (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_L,&__pyx_n_s_go_out,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_n_population,&__pyx_n_s_n_samples,0};
     PyObject* values[2] = {0,0};
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
@@ -1616,16 +1555,16 @@ static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_3cholesky_delete(PyObject *__
       kw_args = PyDict_Size(__pyx_kwds);
       switch (pos_args) {
         case  0:
-        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_L)) != 0)) kw_args--;
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_population)) != 0)) kw_args--;
         else goto __pyx_L5_argtuple_error;
         case  1:
-        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_go_out)) != 0)) kw_args--;
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_samples)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("cholesky_delete", 1, 2, 2, 1); __PYX_ERR(0, 55, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_check_input", 1, 2, 2, 1); __PYX_ERR(0, 28, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "cholesky_delete") < 0)) __PYX_ERR(0, 55, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_sample_without_replacement_check_input") < 0)) __PYX_ERR(0, 28, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -1633,178 +1572,1930 @@ static PyObject *__pyx_pw_3gaw_5utils_10arrayfuncs_3cholesky_delete(PyObject *__
       values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
     }
-    __pyx_v_L = ((PyArrayObject *)values[0]);
-    __pyx_v_go_out = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_go_out == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 55, __pyx_L3_error)
+    __pyx_v_n_population = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_n_population == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 28, __pyx_L3_error)
+    __pyx_v_n_samples = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_n_samples == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 29, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("cholesky_delete", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 55, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_check_input", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 28, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gaw.utils.arrayfuncs.cholesky_delete", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_check_input", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_L), __pyx_ptype_5numpy_ndarray, 1, "L", 0))) __PYX_ERR(0, 55, __pyx_L1_error)
-  __pyx_r = __pyx_pf_3gaw_5utils_10arrayfuncs_2cholesky_delete(__pyx_self, __pyx_v_L, __pyx_v_go_out);
+  __pyx_r = __pyx_pf_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_self, __pyx_v_n_population, __pyx_v_n_samples);
 
   /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  __pyx_L0:;
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_3gaw_5utils_10arrayfuncs_2cholesky_delete(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_L, int __pyx_v_go_out) {
-  int __pyx_v_n;
-  int __pyx_v_m;
+static PyObject *__pyx_pf_5gawml_5utils_7_random__sample_without_replacement_check_input(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples) {
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_check_input", 0);
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_v_n_population, __pyx_v_n_samples, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_check_input", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "gawml/utils/_random.pyx":41
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_tracking_selection(             # <<<<<<<<<<<<<<
+ *         np.int_t n_population,
+ *         np.int_t n_samples,
+ */
+
+static PyObject *__pyx_pw_5gawml_5utils_7_random_3_sample_without_replacement_with_tracking_selection(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection(__pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, CYTHON_UNUSED int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection *__pyx_optional_args) {
+
+  /* "gawml/utils/_random.pyx":44
+ *         np.int_t n_population,
+ *         np.int_t n_samples,
+ *         random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+  PyObject *__pyx_v_random_state = ((PyObject *)Py_None);
+  __pyx_t_5numpy_int_t __pyx_v_i;
+  __pyx_t_5numpy_int_t __pyx_v_j;
+  PyArrayObject *__pyx_v_out = 0;
+  PyObject *__pyx_v_rng = NULL;
+  PyObject *__pyx_v_rng_randint = NULL;
+  PyObject *__pyx_v_selected = 0;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_out;
+  __Pyx_Buffer __pyx_pybuffer_out;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
-  int __pyx_t_3;
-  size_t __pyx_t_4;
-  __Pyx_RefNannySetupContext("cholesky_delete", 0);
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
+  PyArrayObject *__pyx_t_6 = NULL;
+  __pyx_t_5numpy_int_t __pyx_t_7;
+  __pyx_t_5numpy_int_t __pyx_t_8;
+  __pyx_t_5numpy_int_t __pyx_t_9;
+  int __pyx_t_10;
+  int __pyx_t_11;
+  int __pyx_t_12;
+  Py_ssize_t __pyx_t_13;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_tracking_selection", 0);
+  if (__pyx_optional_args) {
+    if (__pyx_optional_args->__pyx_n > 0) {
+      __pyx_v_random_state = __pyx_optional_args->random_state;
+    }
+  }
+  __pyx_pybuffer_out.pybuffer.buf = NULL;
+  __pyx_pybuffer_out.refcount = 0;
+  __pyx_pybuffernd_out.data = NULL;
+  __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
 
-  /* "gaw/utils/arrayfuncs.pyx":56
- * # we should be using np.npy_intp or Py_ssize_t for indices, but BLAS wants int
- * def cholesky_delete(np.ndarray L, int go_out):
- *     cdef int n = <int> L.shape[0]             # <<<<<<<<<<<<<<
- *     cdef int m = <int> L.strides[0]
+  /* "gawml/utils/_random.pyx":83
+ *         The sampled subsets of integer.
+ *     """
+ *     _sample_without_replacement_check_input(n_population, n_samples)             # <<<<<<<<<<<<<<
  * 
+ *     cdef np.int_t i
  */
-  __pyx_v_n = ((int)(__pyx_v_L->dimensions[0]));
-
-  /* "gaw/utils/arrayfuncs.pyx":57
- * def cholesky_delete(np.ndarray L, int go_out):
- *     cdef int n = <int> L.shape[0]
- *     cdef int m = <int> L.strides[0]             # <<<<<<<<<<<<<<
- * 
- *     if L.dtype.name == 'float64':
- */
-  __pyx_v_m = ((int)(__pyx_v_L->strides[0]));
-
-  /* "gaw/utils/arrayfuncs.pyx":59
- *     cdef int m = <int> L.strides[0]
- * 
- *     if L.dtype.name == 'float64':             # <<<<<<<<<<<<<<
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)
- *     elif L.dtype.name == 'float32':
- */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_L), __pyx_n_s_dtype); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_v_n_population, __pyx_v_n_samples, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "gawml/utils/_random.pyx":87
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_t_2, __pyx_n_s_float64, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 59, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__pyx_t_3) {
-
-    /* "gaw/utils/arrayfuncs.pyx":60
- * 
- *     if L.dtype.name == 'float64':
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)             # <<<<<<<<<<<<<<
- *     elif L.dtype.name == 'float32':
- *         cholesky_delete_flt(m / sizeof(float),  n, <float *> L.data,  go_out)
- */
-    __pyx_t_4 = (sizeof(double));
-    if (unlikely(__pyx_t_4 == 0)) {
-      PyErr_SetString(PyExc_ZeroDivisionError, "integer division or modulo by zero");
-      __PYX_ERR(0, 60, __pyx_L1_error)
-    }
-    cholesky_delete_dbl((__pyx_v_m / __pyx_t_4), __pyx_v_n, ((double *)__pyx_v_L->data), __pyx_v_go_out);
-
-    /* "gaw/utils/arrayfuncs.pyx":59
- *     cdef int m = <int> L.strides[0]
- * 
- *     if L.dtype.name == 'float64':             # <<<<<<<<<<<<<<
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)
- *     elif L.dtype.name == 'float32':
- */
-    goto __pyx_L3;
-  }
-
-  /* "gaw/utils/arrayfuncs.pyx":61
- *     if L.dtype.name == 'float64':
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)
- *     elif L.dtype.name == 'float32':             # <<<<<<<<<<<<<<
- *         cholesky_delete_flt(m / sizeof(float),  n, <float *> L.data,  go_out)
- *     else:
- */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_L), __pyx_n_s_dtype); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 61, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_npy_long(__pyx_v_n_samples); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_3);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_3);
+  __pyx_t_3 = 0;
+
+  /* "gawml/utils/_random.pyx":88
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),
+ *                                                      dtype=np.int)             # <<<<<<<<<<<<<<
+ * 
+ *     rng = check_random_state(random_state)
+ */
+  __pyx_t_3 = PyDict_New(); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":87
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_float32, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 61, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__pyx_t_3) {
-
-    /* "gaw/utils/arrayfuncs.pyx":62
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)
- *     elif L.dtype.name == 'float32':
- *         cholesky_delete_flt(m / sizeof(float),  n, <float *> L.data,  go_out)             # <<<<<<<<<<<<<<
- *     else:
- *         raise TypeError("unsupported dtype %r." % L.dtype)
- */
-    __pyx_t_4 = (sizeof(float));
-    if (unlikely(__pyx_t_4 == 0)) {
-      PyErr_SetString(PyExc_ZeroDivisionError, "integer division or modulo by zero");
-      __PYX_ERR(0, 62, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 87, __pyx_L1_error)
+  __pyx_t_6 = ((PyArrayObject *)__pyx_t_5);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_t_6, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_out = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_out.rcbuffer->pybuffer.buf = NULL;
+      __PYX_ERR(0, 87, __pyx_L1_error)
+    } else {__pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
     }
-    cholesky_delete_flt((__pyx_v_m / __pyx_t_4), __pyx_v_n, ((float *)__pyx_v_L->data), __pyx_v_go_out);
-
-    /* "gaw/utils/arrayfuncs.pyx":61
- *     if L.dtype.name == 'float64':
- *         cholesky_delete_dbl(m / sizeof(double), n, <double *> L.data, go_out)
- *     elif L.dtype.name == 'float32':             # <<<<<<<<<<<<<<
- *         cholesky_delete_flt(m / sizeof(float),  n, <float *> L.data,  go_out)
- *     else:
- */
-    goto __pyx_L3;
   }
+  __pyx_t_6 = 0;
+  __pyx_v_out = ((PyArrayObject *)__pyx_t_5);
+  __pyx_t_5 = 0;
 
-  /* "gaw/utils/arrayfuncs.pyx":64
- *         cholesky_delete_flt(m / sizeof(float),  n, <float *> L.data,  go_out)
- *     else:
- *         raise TypeError("unsupported dtype %r." % L.dtype)             # <<<<<<<<<<<<<<
+  /* "gawml/utils/_random.pyx":90
+ *                                                      dtype=np.int)
+ * 
+ *     rng = check_random_state(random_state)             # <<<<<<<<<<<<<<
+ *     rng_randint = rng.randint
+ * 
  */
-  /*else*/ {
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_L), __pyx_n_s_dtype); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_2 = __Pyx_PyString_Format(__pyx_kp_s_unsupported_dtype_r, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_check_random_state); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 90, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_1 = NULL;
+  if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+    if (likely(__pyx_t_1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_3, function);
+    }
+  }
+  if (!__pyx_t_1) {
+    __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_random_state); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+  } else {
+    __pyx_t_2 = PyTuple_New(1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_GIVEREF(__pyx_t_2);
-    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_2);
-    __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    __Pyx_INCREF(__pyx_v_random_state);
+    __Pyx_GIVEREF(__pyx_v_random_state);
+    PyTuple_SET_ITEM(__pyx_t_2, 0+1, __pyx_v_random_state);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 90, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 64, __pyx_L1_error)
   }
-  __pyx_L3:;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_v_rng = __pyx_t_5;
+  __pyx_t_5 = 0;
 
-  /* "gaw/utils/arrayfuncs.pyx":55
+  /* "gawml/utils/_random.pyx":91
  * 
- * # we should be using np.npy_intp or Py_ssize_t for indices, but BLAS wants int
- * def cholesky_delete(np.ndarray L, int go_out):             # <<<<<<<<<<<<<<
- *     cdef int n = <int> L.shape[0]
- *     cdef int m = <int> L.strides[0]
+ *     rng = check_random_state(random_state)
+ *     rng_randint = rng.randint             # <<<<<<<<<<<<<<
+ * 
+ *     # The following line of code are heavily inspired from python core,
+ */
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_rng, __pyx_n_s_randint); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 91, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_v_rng_randint = __pyx_t_5;
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":95
+ *     # The following line of code are heavily inspired from python core,
+ *     # more precisely of random.sample.
+ *     cdef set selected = set()             # <<<<<<<<<<<<<<
+ * 
+ *     for i in range(n_samples):
+ */
+  __pyx_t_5 = PySet_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 95, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_v_selected = ((PyObject*)__pyx_t_5);
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":97
+ *     cdef set selected = set()
+ * 
+ *     for i in range(n_samples):             # <<<<<<<<<<<<<<
+ *         j = rng_randint(n_population)
+ *         while j in selected:
+ */
+  __pyx_t_7 = __pyx_v_n_samples;
+  for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
+    __pyx_v_i = __pyx_t_8;
+
+    /* "gawml/utils/_random.pyx":98
+ * 
+ *     for i in range(n_samples):
+ *         j = rng_randint(n_population)             # <<<<<<<<<<<<<<
+ *         while j in selected:
+ *             j = rng_randint(n_population)
+ */
+    __pyx_t_3 = __Pyx_PyInt_From_npy_long(__pyx_v_n_population); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx_v_rng_randint);
+    __pyx_t_2 = __pyx_v_rng_randint; __pyx_t_1 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_2))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
+      if (likely(__pyx_t_1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+        __Pyx_INCREF(__pyx_t_1);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_2, function);
+      }
+    }
+    if (!__pyx_t_1) {
+      __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+    } else {
+      __pyx_t_4 = PyTuple_New(1+1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1); __pyx_t_1 = NULL;
+      __Pyx_GIVEREF(__pyx_t_3);
+      PyTuple_SET_ITEM(__pyx_t_4, 0+1, __pyx_t_3);
+      __pyx_t_3 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 98, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_9 = __Pyx_PyInt_As_npy_long(__pyx_t_5); if (unlikely((__pyx_t_9 == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 98, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_v_j = __pyx_t_9;
+
+    /* "gawml/utils/_random.pyx":99
+ *     for i in range(n_samples):
+ *         j = rng_randint(n_population)
+ *         while j in selected:             # <<<<<<<<<<<<<<
+ *             j = rng_randint(n_population)
+ *         selected.add(j)
+ */
+    while (1) {
+      __pyx_t_5 = __Pyx_PyInt_From_npy_long(__pyx_v_j); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 99, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_10 = (__Pyx_PySequence_ContainsTF(__pyx_t_5, __pyx_v_selected, Py_EQ)); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 99, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_11 = (__pyx_t_10 != 0);
+      if (!__pyx_t_11) break;
+
+      /* "gawml/utils/_random.pyx":100
+ *         j = rng_randint(n_population)
+ *         while j in selected:
+ *             j = rng_randint(n_population)             # <<<<<<<<<<<<<<
+ *         selected.add(j)
+ *         out[i] = j
+ */
+      __pyx_t_2 = __Pyx_PyInt_From_npy_long(__pyx_v_n_population); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_INCREF(__pyx_v_rng_randint);
+      __pyx_t_4 = __pyx_v_rng_randint; __pyx_t_3 = NULL;
+      if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_4))) {
+        __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
+        if (likely(__pyx_t_3)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+          __Pyx_INCREF(__pyx_t_3);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_4, function);
+        }
+      }
+      if (!__pyx_t_3) {
+        __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GOTREF(__pyx_t_5);
+      } else {
+        __pyx_t_1 = PyTuple_New(1+1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_3); __pyx_t_3 = NULL;
+        __Pyx_GIVEREF(__pyx_t_2);
+        PyTuple_SET_ITEM(__pyx_t_1, 0+1, __pyx_t_2);
+        __pyx_t_2 = 0;
+        __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_1, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 100, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_9 = __Pyx_PyInt_As_npy_long(__pyx_t_5); if (unlikely((__pyx_t_9 == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 100, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_v_j = __pyx_t_9;
+    }
+
+    /* "gawml/utils/_random.pyx":101
+ *         while j in selected:
+ *             j = rng_randint(n_population)
+ *         selected.add(j)             # <<<<<<<<<<<<<<
+ *         out[i] = j
+ * 
+ */
+    __pyx_t_5 = __Pyx_PyInt_From_npy_long(__pyx_v_j); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 101, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_12 = PySet_Add(__pyx_v_selected, __pyx_t_5); if (unlikely(__pyx_t_12 == -1)) __PYX_ERR(0, 101, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+    /* "gawml/utils/_random.pyx":102
+ *             j = rng_randint(n_population)
+ *         selected.add(j)
+ *         out[i] = j             # <<<<<<<<<<<<<<
+ * 
+ *     return out
+ */
+    __pyx_t_13 = __pyx_v_i;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = __pyx_v_j;
+  }
+
+  /* "gawml/utils/_random.pyx":104
+ *         out[i] = j
+ * 
+ *     return out             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_out));
+  __pyx_r = ((PyObject *)__pyx_v_out);
+  goto __pyx_L0;
+
+  /* "gawml/utils/_random.pyx":41
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_tracking_selection(             # <<<<<<<<<<<<<<
+ *         np.int_t n_population,
+ *         np.int_t n_samples,
  */
 
   /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-  goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_AddTraceback("gaw.utils.arrayfuncs.cholesky_delete", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_PyThreadState_declare
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_tracking_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = 0;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_out);
+  __Pyx_XDECREF(__pyx_v_rng);
+  __Pyx_XDECREF(__pyx_v_rng_randint);
+  __Pyx_XDECREF(__pyx_v_selected);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* Python wrapper */
+static PyObject *__pyx_pw_5gawml_5utils_7_random_3_sample_without_replacement_with_tracking_selection(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_7_random_2_sample_without_replacement_with_tracking_selection[] = "Sample integers without replacement.\n\n    Select n_samples integers from the set [0, n_population) without\n    replacement.\n\n    Time complexity:\n        - Worst-case: unbounded\n        - Average-case:\n            O(O(np.random.randint) * \\sum_{i=1}^n_samples 1 /\n                                              (1 - i / n_population)))\n            <= O(O(np.random.randint) *\n                   n_population * ln((n_population - 2)\n                                     /(n_population - 1 - n_samples)))\n            <= O(O(np.random.randint) *\n                 n_population * 1 / (1 - n_samples / n_population))\n\n    Space complexity of O(n_samples) in a python set.\n\n\n    Parameters\n    ----------\n    n_population : int,\n        The size of the set to sample from.\n\n    n_samples : int,\n        The number of integer to sample.\n\n    random_state : int, RandomState instance or None, optional (default=None)\n        If int, random_state is the seed used by the random number generator;\n        If RandomState instance, random_state is the random number generator;\n        If None, the random number generator is the RandomState instance used\n        by `np.random`.\n\n    Returns\n    -------\n    out : array of size (n_samples, )\n        The sampled subsets of integer.\n    ";
+static PyObject *__pyx_pw_5gawml_5utils_7_random_3_sample_without_replacement_with_tracking_selection(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  __pyx_t_5numpy_int_t __pyx_v_n_population;
+  __pyx_t_5numpy_int_t __pyx_v_n_samples;
+  PyObject *__pyx_v_random_state = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_tracking_selection (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_n_population,&__pyx_n_s_n_samples,&__pyx_n_s_random_state,0};
+    PyObject* values[3] = {0,0,0};
+
+    /* "gawml/utils/_random.pyx":44
+ *         np.int_t n_population,
+ *         np.int_t n_samples,
+ *         random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+    values[2] = ((PyObject *)Py_None);
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_population)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_samples)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_tracking_selection", 0, 2, 3, 1); __PYX_ERR(0, 41, __pyx_L3_error)
+        }
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = PyDict_GetItem(__pyx_kwds, __pyx_n_s_random_state);
+          if (value) { values[2] = value; kw_args--; }
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_sample_without_replacement_with_tracking_selection") < 0)) __PYX_ERR(0, 41, __pyx_L3_error)
+      }
+    } else {
+      switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+    }
+    __pyx_v_n_population = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_n_population == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 42, __pyx_L3_error)
+    __pyx_v_n_samples = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_n_samples == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 43, __pyx_L3_error)
+    __pyx_v_random_state = values[2];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_tracking_selection", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 41, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_tracking_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_5gawml_5utils_7_random_2_sample_without_replacement_with_tracking_selection(__pyx_self, __pyx_v_n_population, __pyx_v_n_samples, __pyx_v_random_state);
+
+  /* "gawml/utils/_random.pyx":41
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_tracking_selection(             # <<<<<<<<<<<<<<
+ *         np.int_t n_population,
+ *         np.int_t n_samples,
+ */
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_5gawml_5utils_7_random_2_sample_without_replacement_with_tracking_selection(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state) {
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection __pyx_t_2;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_tracking_selection", 0);
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2.__pyx_n = 1;
+  __pyx_t_2.random_state = __pyx_v_random_state;
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 41, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_tracking_selection", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "gawml/utils/_random.pyx":107
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):
+ */
+
+static PyObject *__pyx_pw_5gawml_5utils_7_random_5_sample_without_replacement_with_pool(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_pool(__pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, CYTHON_UNUSED int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool *__pyx_optional_args) {
+
+  /* "gawml/utils/_random.pyx":109
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+  PyObject *__pyx_v_random_state = ((PyObject *)Py_None);
+  __pyx_t_5numpy_int_t __pyx_v_i;
+  __pyx_t_5numpy_int_t __pyx_v_j;
+  PyArrayObject *__pyx_v_out = 0;
+  PyArrayObject *__pyx_v_pool = 0;
+  PyObject *__pyx_v_rng = NULL;
+  PyObject *__pyx_v_rng_randint = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_out;
+  __Pyx_Buffer __pyx_pybuffer_out;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_pool;
+  __Pyx_Buffer __pyx_pybuffer_pool;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
+  PyArrayObject *__pyx_t_6 = NULL;
+  PyArrayObject *__pyx_t_7 = NULL;
+  __pyx_t_5numpy_int_t __pyx_t_8;
+  __pyx_t_5numpy_int_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  __pyx_t_5numpy_int_t __pyx_t_11;
+  Py_ssize_t __pyx_t_12;
+  Py_ssize_t __pyx_t_13;
+  Py_ssize_t __pyx_t_14;
+  Py_ssize_t __pyx_t_15;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_pool", 0);
+  if (__pyx_optional_args) {
+    if (__pyx_optional_args->__pyx_n > 0) {
+      __pyx_v_random_state = __pyx_optional_args->random_state;
+    }
+  }
+  __pyx_pybuffer_out.pybuffer.buf = NULL;
+  __pyx_pybuffer_out.refcount = 0;
+  __pyx_pybuffernd_out.data = NULL;
+  __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
+  __pyx_pybuffer_pool.pybuffer.buf = NULL;
+  __pyx_pybuffer_pool.refcount = 0;
+  __pyx_pybuffernd_pool.data = NULL;
+  __pyx_pybuffernd_pool.rcbuffer = &__pyx_pybuffer_pool;
+
+  /* "gawml/utils/_random.pyx":139
+ *         The sampled subsets of integer.
+ *     """
+ *     _sample_without_replacement_check_input(n_population, n_samples)             # <<<<<<<<<<<<<<
+ * 
+ *     cdef np.int_t i
+ */
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_v_n_population, __pyx_v_n_samples, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 139, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "gawml/utils/_random.pyx":143
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyInt_From_npy_long(__pyx_v_n_samples); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_3);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_3);
+  __pyx_t_3 = 0;
+
+  /* "gawml/utils/_random.pyx":144
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),
+ *                                                      dtype=np.int)             # <<<<<<<<<<<<<<
+ * 
+ *     cdef np.ndarray[np.int_t, ndim=1] pool = np.empty((n_population, ),
+ */
+  __pyx_t_3 = PyDict_New(); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":143
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 143, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 143, __pyx_L1_error)
+  __pyx_t_6 = ((PyArrayObject *)__pyx_t_5);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_t_6, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_out = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_out.rcbuffer->pybuffer.buf = NULL;
+      __PYX_ERR(0, 143, __pyx_L1_error)
+    } else {__pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_6 = 0;
+  __pyx_v_out = ((PyArrayObject *)__pyx_t_5);
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":146
+ *                                                      dtype=np.int)
+ * 
+ *     cdef np.ndarray[np.int_t, ndim=1] pool = np.empty((n_population, ),             # <<<<<<<<<<<<<<
+ *                                                       dtype=np.int)
+ * 
+ */
+  __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_PyInt_From_npy_long(__pyx_v_n_population); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_5);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5);
+  __pyx_t_5 = 0;
+  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+
+  /* "gawml/utils/_random.pyx":147
+ * 
+ *     cdef np.ndarray[np.int_t, ndim=1] pool = np.empty((n_population, ),
+ *                                                       dtype=np.int)             # <<<<<<<<<<<<<<
+ * 
+ *     rng = check_random_state(random_state)
+ */
+  __pyx_t_1 = PyDict_New(); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 147, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_int); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 147, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_4) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+  /* "gawml/utils/_random.pyx":146
+ *                                                      dtype=np.int)
+ * 
+ *     cdef np.ndarray[np.int_t, ndim=1] pool = np.empty((n_population, ),             # <<<<<<<<<<<<<<
+ *                                                       dtype=np.int)
+ * 
+ */
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (!(likely(((__pyx_t_4) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_t_7 = ((PyArrayObject *)__pyx_t_4);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_pool.rcbuffer->pybuffer, (PyObject*)__pyx_t_7, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_pool = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_pool.rcbuffer->pybuffer.buf = NULL;
+      __PYX_ERR(0, 146, __pyx_L1_error)
+    } else {__pyx_pybuffernd_pool.diminfo[0].strides = __pyx_pybuffernd_pool.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_pool.diminfo[0].shape = __pyx_pybuffernd_pool.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_7 = 0;
+  __pyx_v_pool = ((PyArrayObject *)__pyx_t_4);
+  __pyx_t_4 = 0;
+
+  /* "gawml/utils/_random.pyx":149
+ *                                                       dtype=np.int)
+ * 
+ *     rng = check_random_state(random_state)             # <<<<<<<<<<<<<<
+ *     rng_randint = rng.randint
+ * 
+ */
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_check_random_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = NULL;
+  if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  if (!__pyx_t_5) {
+    __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_random_state); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+  } else {
+    __pyx_t_3 = PyTuple_New(1+1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5); __pyx_t_5 = NULL;
+    __Pyx_INCREF(__pyx_v_random_state);
+    __Pyx_GIVEREF(__pyx_v_random_state);
+    PyTuple_SET_ITEM(__pyx_t_3, 0+1, __pyx_v_random_state);
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_rng = __pyx_t_4;
+  __pyx_t_4 = 0;
+
+  /* "gawml/utils/_random.pyx":150
+ * 
+ *     rng = check_random_state(random_state)
+ *     rng_randint = rng.randint             # <<<<<<<<<<<<<<
+ * 
+ *     # Initialize the pool
+ */
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_rng, __pyx_n_s_randint); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 150, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_v_rng_randint = __pyx_t_4;
+  __pyx_t_4 = 0;
+
+  /* "gawml/utils/_random.pyx":153
+ * 
+ *     # Initialize the pool
+ *     for i in xrange(n_population):             # <<<<<<<<<<<<<<
+ *         pool[i] = i
+ * 
+ */
+  __pyx_t_8 = __pyx_v_n_population;
+  for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+    __pyx_v_i = __pyx_t_9;
+
+    /* "gawml/utils/_random.pyx":154
+ *     # Initialize the pool
+ *     for i in xrange(n_population):
+ *         pool[i] = i             # <<<<<<<<<<<<<<
+ * 
+ *     # The following line of code are heavily inspired from python core,
+ */
+    __pyx_t_10 = __pyx_v_i;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_pool.rcbuffer->pybuffer.buf, __pyx_t_10, __pyx_pybuffernd_pool.diminfo[0].strides) = __pyx_v_i;
+  }
+
+  /* "gawml/utils/_random.pyx":158
+ *     # The following line of code are heavily inspired from python core,
+ *     # more precisely of random.sample.
+ *     for i in xrange(n_samples):             # <<<<<<<<<<<<<<
+ *         j = rng_randint(n_population - i)  # invariant: non-selected at [0,n-i)
+ *         out[i] = pool[j]
+ */
+  __pyx_t_8 = __pyx_v_n_samples;
+  for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
+    __pyx_v_i = __pyx_t_9;
+
+    /* "gawml/utils/_random.pyx":159
+ *     # more precisely of random.sample.
+ *     for i in xrange(n_samples):
+ *         j = rng_randint(n_population - i)  # invariant: non-selected at [0,n-i)             # <<<<<<<<<<<<<<
+ *         out[i] = pool[j]
+ *         pool[j] = pool[n_population - i - 1]  # move non-selected item into
+ */
+    __pyx_t_1 = __Pyx_PyInt_From_npy_long((__pyx_v_n_population - __pyx_v_i)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 159, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_INCREF(__pyx_v_rng_randint);
+    __pyx_t_3 = __pyx_v_rng_randint; __pyx_t_5 = NULL;
+    if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_5)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_5);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
+      }
+    }
+    if (!__pyx_t_5) {
+      __pyx_t_4 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_4);
+    } else {
+      __pyx_t_2 = PyTuple_New(1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 159, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_5); __pyx_t_5 = NULL;
+      __Pyx_GIVEREF(__pyx_t_1);
+      PyTuple_SET_ITEM(__pyx_t_2, 0+1, __pyx_t_1);
+      __pyx_t_1 = 0;
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_11 = __Pyx_PyInt_As_npy_long(__pyx_t_4); if (unlikely((__pyx_t_11 == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 159, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_j = __pyx_t_11;
+
+    /* "gawml/utils/_random.pyx":160
+ *     for i in xrange(n_samples):
+ *         j = rng_randint(n_population - i)  # invariant: non-selected at [0,n-i)
+ *         out[i] = pool[j]             # <<<<<<<<<<<<<<
+ *         pool[j] = pool[n_population - i - 1]  # move non-selected item into
+ *                                               # vacancy
+ */
+    __pyx_t_12 = __pyx_v_j;
+    __pyx_t_13 = __pyx_v_i;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_13, __pyx_pybuffernd_out.diminfo[0].strides) = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_pool.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_pool.diminfo[0].strides));
+
+    /* "gawml/utils/_random.pyx":161
+ *         j = rng_randint(n_population - i)  # invariant: non-selected at [0,n-i)
+ *         out[i] = pool[j]
+ *         pool[j] = pool[n_population - i - 1]  # move non-selected item into             # <<<<<<<<<<<<<<
+ *                                               # vacancy
+ * 
+ */
+    __pyx_t_14 = ((__pyx_v_n_population - __pyx_v_i) - 1);
+    __pyx_t_15 = __pyx_v_j;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_pool.rcbuffer->pybuffer.buf, __pyx_t_15, __pyx_pybuffernd_pool.diminfo[0].strides) = (*__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_pool.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_pool.diminfo[0].strides));
+  }
+
+  /* "gawml/utils/_random.pyx":164
+ *                                               # vacancy
+ * 
+ *     return out             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_out));
+  __pyx_r = ((PyObject *)__pyx_v_out);
+  goto __pyx_L0;
+
+  /* "gawml/utils/_random.pyx":107
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_PyThreadState_declare
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pool.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_pool", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = 0;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pool.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_out);
+  __Pyx_XDECREF((PyObject *)__pyx_v_pool);
+  __Pyx_XDECREF(__pyx_v_rng);
+  __Pyx_XDECREF(__pyx_v_rng_randint);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* Python wrapper */
+static PyObject *__pyx_pw_5gawml_5utils_7_random_5_sample_without_replacement_with_pool(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_7_random_4_sample_without_replacement_with_pool[] = "Sample integers without replacement.\n\n    Select n_samples integers from the set [0, n_population) without\n    replacement.\n\n    Time complexity: O(n_population +  O(np.random.randint) * n_samples)\n\n    Space complexity of O(n_population + n_samples).\n\n\n    Parameters\n    ----------\n    n_population : int,\n        The size of the set to sample from.\n\n    n_samples : int,\n        The number of integer to sample.\n\n    random_state : int, RandomState instance or None, optional (default=None)\n        If int, random_state is the seed used by the random number generator;\n        If RandomState instance, random_state is the random number generator;\n        If None, the random number generator is the RandomState instance used\n        by `np.random`.\n\n    Returns\n    -------\n    out : array of size (n_samples, )\n        The sampled subsets of integer.\n    ";
+static PyObject *__pyx_pw_5gawml_5utils_7_random_5_sample_without_replacement_with_pool(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  __pyx_t_5numpy_int_t __pyx_v_n_population;
+  __pyx_t_5numpy_int_t __pyx_v_n_samples;
+  PyObject *__pyx_v_random_state = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_pool (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_n_population,&__pyx_n_s_n_samples,&__pyx_n_s_random_state,0};
+    PyObject* values[3] = {0,0,0};
+
+    /* "gawml/utils/_random.pyx":109
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+    values[2] = ((PyObject *)Py_None);
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_population)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_samples)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_pool", 0, 2, 3, 1); __PYX_ERR(0, 107, __pyx_L3_error)
+        }
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = PyDict_GetItem(__pyx_kwds, __pyx_n_s_random_state);
+          if (value) { values[2] = value; kw_args--; }
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_sample_without_replacement_with_pool") < 0)) __PYX_ERR(0, 107, __pyx_L3_error)
+      }
+    } else {
+      switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+    }
+    __pyx_v_n_population = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_n_population == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 107, __pyx_L3_error)
+    __pyx_v_n_samples = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_n_samples == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 108, __pyx_L3_error)
+    __pyx_v_random_state = values[2];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_pool", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 107, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_pool", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_5gawml_5utils_7_random_4_sample_without_replacement_with_pool(__pyx_self, __pyx_v_n_population, __pyx_v_n_samples, __pyx_v_random_state);
+
+  /* "gawml/utils/_random.pyx":107
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_pool(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                             np.int_t n_samples,
+ *                                             random_state=None):
+ */
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_5gawml_5utils_7_random_4_sample_without_replacement_with_pool(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state) {
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool __pyx_t_2;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_pool", 0);
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2.__pyx_n = 1;
+  __pyx_t_2.random_state = __pyx_v_random_state;
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_pool(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_pool", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "gawml/utils/_random.pyx":167
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_reservoir_sampling(             # <<<<<<<<<<<<<<
+ *     np.int_t n_population,
+ *     np.int_t n_samples,
+ */
+
+static PyObject *__pyx_pw_5gawml_5utils_7_random_7_sample_without_replacement_with_reservoir_sampling(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling(__pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, CYTHON_UNUSED int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling *__pyx_optional_args) {
+
+  /* "gawml/utils/_random.pyx":170
+ *     np.int_t n_population,
+ *     np.int_t n_samples,
+ *     random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+  PyObject *__pyx_v_random_state = ((PyObject *)Py_None);
+  __pyx_t_5numpy_int_t __pyx_v_i;
+  __pyx_t_5numpy_int_t __pyx_v_j;
+  PyArrayObject *__pyx_v_out = 0;
+  PyObject *__pyx_v_rng = NULL;
+  PyObject *__pyx_v_rng_randint = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_out;
+  __Pyx_Buffer __pyx_pybuffer_out;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
+  PyArrayObject *__pyx_t_6 = NULL;
+  __pyx_t_5numpy_int_t __pyx_t_7;
+  __pyx_t_5numpy_int_t __pyx_t_8;
+  Py_ssize_t __pyx_t_9;
+  Py_ssize_t __pyx_t_10;
+  int __pyx_t_11;
+  Py_ssize_t __pyx_t_12;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_reservoir_sampling", 0);
+  if (__pyx_optional_args) {
+    if (__pyx_optional_args->__pyx_n > 0) {
+      __pyx_v_random_state = __pyx_optional_args->random_state;
+    }
+  }
+  __pyx_pybuffer_out.pybuffer.buf = NULL;
+  __pyx_pybuffer_out.refcount = 0;
+  __pyx_pybuffernd_out.data = NULL;
+  __pyx_pybuffernd_out.rcbuffer = &__pyx_pybuffer_out;
+
+  /* "gawml/utils/_random.pyx":202
+ *         of the items has to be randomized.
+ *     """
+ *     _sample_without_replacement_check_input(n_population, n_samples)             # <<<<<<<<<<<<<<
+ * 
+ *     cdef np.int_t i
+ */
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_v_n_population, __pyx_v_n_samples, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "gawml/utils/_random.pyx":206
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyInt_From_npy_long(__pyx_v_n_samples); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_3);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_3);
+  __pyx_t_3 = 0;
+
+  /* "gawml/utils/_random.pyx":207
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),
+ *                                                      dtype=np.int)             # <<<<<<<<<<<<<<
+ * 
+ *     rng = check_random_state(random_state)
+ */
+  __pyx_t_3 = PyDict_New(); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_int); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 207, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 207, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":206
+ *     cdef np.int_t i
+ *     cdef np.int_t j
+ *     cdef np.ndarray[np.int_t, ndim=1] out = np.empty((n_samples, ),             # <<<<<<<<<<<<<<
+ *                                                      dtype=np.int)
+ * 
+ */
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 206, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 206, __pyx_L1_error)
+  __pyx_t_6 = ((PyArrayObject *)__pyx_t_5);
+  {
+    __Pyx_BufFmt_StackElem __pyx_stack[1];
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_out.rcbuffer->pybuffer, (PyObject*)__pyx_t_6, &__Pyx_TypeInfo_nn___pyx_t_5numpy_int_t, PyBUF_FORMAT| PyBUF_STRIDES| PyBUF_WRITABLE, 1, 0, __pyx_stack) == -1)) {
+      __pyx_v_out = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_out.rcbuffer->pybuffer.buf = NULL;
+      __PYX_ERR(0, 206, __pyx_L1_error)
+    } else {__pyx_pybuffernd_out.diminfo[0].strides = __pyx_pybuffernd_out.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_out.diminfo[0].shape = __pyx_pybuffernd_out.rcbuffer->pybuffer.shape[0];
+    }
+  }
+  __pyx_t_6 = 0;
+  __pyx_v_out = ((PyArrayObject *)__pyx_t_5);
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":209
+ *                                                      dtype=np.int)
+ * 
+ *     rng = check_random_state(random_state)             # <<<<<<<<<<<<<<
+ *     rng_randint = rng.randint
+ * 
+ */
+  __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_check_random_state); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 209, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_1 = NULL;
+  if (CYTHON_COMPILING_IN_CPYTHON && unlikely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+    if (likely(__pyx_t_1)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_3, function);
+    }
+  }
+  if (!__pyx_t_1) {
+    __pyx_t_5 = __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_random_state); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 209, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+  } else {
+    __pyx_t_2 = PyTuple_New(1+1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    __Pyx_INCREF(__pyx_v_random_state);
+    __Pyx_GIVEREF(__pyx_v_random_state);
+    PyTuple_SET_ITEM(__pyx_t_2, 0+1, __pyx_v_random_state);
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 209, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_v_rng = __pyx_t_5;
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":210
+ * 
+ *     rng = check_random_state(random_state)
+ *     rng_randint = rng.randint             # <<<<<<<<<<<<<<
+ * 
+ *     # This cython implementation is based on the one of Robert Kern:
+ */
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_rng, __pyx_n_s_randint); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 210, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_v_rng_randint = __pyx_t_5;
+  __pyx_t_5 = 0;
+
+  /* "gawml/utils/_random.pyx":216
+ *     # 054289.html
+ *     #
+ *     for i in range(n_samples):             # <<<<<<<<<<<<<<
+ *         out[i] = i
+ * 
+ */
+  __pyx_t_7 = __pyx_v_n_samples;
+  for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
+    __pyx_v_i = __pyx_t_8;
+
+    /* "gawml/utils/_random.pyx":217
+ *     #
+ *     for i in range(n_samples):
+ *         out[i] = i             # <<<<<<<<<<<<<<
+ * 
+ *     for i from n_samples <= i < n_population:
+ */
+    __pyx_t_9 = __pyx_v_i;
+    *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_9, __pyx_pybuffernd_out.diminfo[0].strides) = __pyx_v_i;
+  }
+
+  /* "gawml/utils/_random.pyx":219
+ *         out[i] = i
+ * 
+ *     for i from n_samples <= i < n_population:             # <<<<<<<<<<<<<<
+ *         j = rng_randint(0, i + 1)
+ *         if j < n_samples:
+ */
+  __pyx_t_7 = __pyx_v_n_population;
+  for (__pyx_v_i = __pyx_v_n_samples; __pyx_v_i < __pyx_t_7; __pyx_v_i++) {
+
+    /* "gawml/utils/_random.pyx":220
+ * 
+ *     for i from n_samples <= i < n_population:
+ *         j = rng_randint(0, i + 1)             # <<<<<<<<<<<<<<
+ *         if j < n_samples:
+ *             out[j] = i
+ */
+    __pyx_t_3 = __Pyx_PyInt_From_npy_long((__pyx_v_i + 1)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx_v_rng_randint);
+    __pyx_t_2 = __pyx_v_rng_randint; __pyx_t_1 = NULL;
+    __pyx_t_10 = 0;
+    if (CYTHON_COMPILING_IN_CPYTHON && likely(PyMethod_Check(__pyx_t_2))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_2);
+      if (likely(__pyx_t_1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+        __Pyx_INCREF(__pyx_t_1);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_2, function);
+        __pyx_t_10 = 1;
+      }
+    }
+    __pyx_t_4 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (__pyx_t_1) {
+      __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1); __pyx_t_1 = NULL;
+    }
+    __Pyx_INCREF(__pyx_int_0);
+    __Pyx_GIVEREF(__pyx_int_0);
+    PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_10, __pyx_int_0);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_10, __pyx_t_3);
+    __pyx_t_3 = 0;
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_4, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_8 = __Pyx_PyInt_As_npy_long(__pyx_t_5); if (unlikely((__pyx_t_8 == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_v_j = __pyx_t_8;
+
+    /* "gawml/utils/_random.pyx":221
+ *     for i from n_samples <= i < n_population:
+ *         j = rng_randint(0, i + 1)
+ *         if j < n_samples:             # <<<<<<<<<<<<<<
+ *             out[j] = i
+ * 
+ */
+    __pyx_t_11 = ((__pyx_v_j < __pyx_v_n_samples) != 0);
+    if (__pyx_t_11) {
+
+      /* "gawml/utils/_random.pyx":222
+ *         j = rng_randint(0, i + 1)
+ *         if j < n_samples:
+ *             out[j] = i             # <<<<<<<<<<<<<<
+ * 
+ *     return out
+ */
+      __pyx_t_12 = __pyx_v_j;
+      *__Pyx_BufPtrStrided1d(__pyx_t_5numpy_int_t *, __pyx_pybuffernd_out.rcbuffer->pybuffer.buf, __pyx_t_12, __pyx_pybuffernd_out.diminfo[0].strides) = __pyx_v_i;
+
+      /* "gawml/utils/_random.pyx":221
+ *     for i from n_samples <= i < n_population:
+ *         j = rng_randint(0, i + 1)
+ *         if j < n_samples:             # <<<<<<<<<<<<<<
+ *             out[j] = i
+ * 
+ */
+    }
+  }
+
+  /* "gawml/utils/_random.pyx":224
+ *             out[j] = i
+ * 
+ *     return out             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __Pyx_INCREF(((PyObject *)__pyx_v_out));
+  __pyx_r = ((PyObject *)__pyx_v_out);
+  goto __pyx_L0;
+
+  /* "gawml/utils/_random.pyx":167
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_reservoir_sampling(             # <<<<<<<<<<<<<<
+ *     np.int_t n_population,
+ *     np.int_t n_samples,
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
+  { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
+    __Pyx_PyThreadState_declare
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+  __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_reservoir_sampling", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = 0;
+  goto __pyx_L2;
+  __pyx_L0:;
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_out.rcbuffer->pybuffer);
+  __pyx_L2:;
+  __Pyx_XDECREF((PyObject *)__pyx_v_out);
+  __Pyx_XDECREF(__pyx_v_rng);
+  __Pyx_XDECREF(__pyx_v_rng_randint);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* Python wrapper */
+static PyObject *__pyx_pw_5gawml_5utils_7_random_7_sample_without_replacement_with_reservoir_sampling(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_7_random_6_sample_without_replacement_with_reservoir_sampling[] = "Sample integers without replacement.\n\n    Select n_samples integers from the set [0, n_population) without\n    replacement.\n\n    Time complexity of\n        O((n_population - n_samples) * O(np.random.randint) + n_samples)\n    Space complexity of O(n_samples)\n\n\n    Parameters\n    ----------\n    n_population : int,\n        The size of the set to sample from.\n\n    n_samples : int,\n         The number of integer to sample.\n\n    random_state : int, RandomState instance or None, optional (default=None)\n        If int, random_state is the seed used by the random number generator;\n        If RandomState instance, random_state is the random number generator;\n        If None, the random number generator is the RandomState instance used\n        by `np.random`.\n\n    Returns\n    -------\n    out : array of size (n_samples, )\n        The sampled subsets of integer. The order of the items is not\n        necessarily random. Use a random permutation of the array if the order\n        of the items has to be randomized.\n    ";
+static PyObject *__pyx_pw_5gawml_5utils_7_random_7_sample_without_replacement_with_reservoir_sampling(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  __pyx_t_5numpy_int_t __pyx_v_n_population;
+  __pyx_t_5numpy_int_t __pyx_v_n_samples;
+  PyObject *__pyx_v_random_state = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_reservoir_sampling (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_n_population,&__pyx_n_s_n_samples,&__pyx_n_s_random_state,0};
+    PyObject* values[3] = {0,0,0};
+
+    /* "gawml/utils/_random.pyx":170
+ *     np.int_t n_population,
+ *     np.int_t n_samples,
+ *     random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+    values[2] = ((PyObject *)Py_None);
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_population)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_samples)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_reservoir_sampling", 0, 2, 3, 1); __PYX_ERR(0, 167, __pyx_L3_error)
+        }
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = PyDict_GetItem(__pyx_kwds, __pyx_n_s_random_state);
+          if (value) { values[2] = value; kw_args--; }
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_sample_without_replacement_with_reservoir_sampling") < 0)) __PYX_ERR(0, 167, __pyx_L3_error)
+      }
+    } else {
+      switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+    }
+    __pyx_v_n_population = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_n_population == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 168, __pyx_L3_error)
+    __pyx_v_n_samples = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_n_samples == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 169, __pyx_L3_error)
+    __pyx_v_random_state = values[2];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("_sample_without_replacement_with_reservoir_sampling", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 167, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_reservoir_sampling", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_5gawml_5utils_7_random_6_sample_without_replacement_with_reservoir_sampling(__pyx_self, __pyx_v_n_population, __pyx_v_n_samples, __pyx_v_random_state);
+
+  /* "gawml/utils/_random.pyx":167
+ * 
+ * 
+ * cpdef _sample_without_replacement_with_reservoir_sampling(             # <<<<<<<<<<<<<<
+ *     np.int_t n_population,
+ *     np.int_t n_samples,
+ */
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_5gawml_5utils_7_random_6_sample_without_replacement_with_reservoir_sampling(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_random_state) {
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling __pyx_t_2;
+  __Pyx_RefNannySetupContext("_sample_without_replacement_with_reservoir_sampling", 0);
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2.__pyx_n = 1;
+  __pyx_t_2.random_state = __pyx_v_random_state;
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 167, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("gawml.utils._random._sample_without_replacement_with_reservoir_sampling", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "gawml/utils/_random.pyx":227
+ * 
+ * 
+ * cpdef sample_without_replacement(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                  np.int_t n_samples,
+ *                                  method="auto",
+ */
+
+static PyObject *__pyx_pw_5gawml_5utils_7_random_9sample_without_replacement(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_5gawml_5utils_7_random_sample_without_replacement(__pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, CYTHON_UNUSED int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement *__pyx_optional_args) {
+  PyObject *__pyx_v_method = ((PyObject *)__pyx_n_s_auto);
+
+  /* "gawml/utils/_random.pyx":230
+ *                                  np.int_t n_samples,
+ *                                  method="auto",
+ *                                  random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+  PyObject *__pyx_v_random_state = ((PyObject *)Py_None);
+  PyObject *__pyx_v_all_methods = NULL;
+  double __pyx_v_ratio;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  int __pyx_t_2;
+  int __pyx_t_3;
+  double __pyx_t_4;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection __pyx_t_5;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling __pyx_t_6;
+  struct __pyx_opt_args_5gawml_5utils_7_random__sample_without_replacement_with_pool __pyx_t_7;
+  PyObject *__pyx_t_8 = NULL;
+  __Pyx_RefNannySetupContext("sample_without_replacement", 0);
+  if (__pyx_optional_args) {
+    if (__pyx_optional_args->__pyx_n > 0) {
+      __pyx_v_method = __pyx_optional_args->method;
+      if (__pyx_optional_args->__pyx_n > 1) {
+        __pyx_v_random_state = __pyx_optional_args->random_state;
+      }
+    }
+  }
+
+  /* "gawml/utils/_random.pyx":276
+ *         not be randomized, see the method argument.
+ *     """
+ *     _sample_without_replacement_check_input(n_population, n_samples)             # <<<<<<<<<<<<<<
+ * 
+ *     all_methods = ("auto", "tracking_selection", "reservoir_sampling", "pool")
+ */
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_check_input(__pyx_v_n_population, __pyx_v_n_samples, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 276, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "gawml/utils/_random.pyx":278
+ *     _sample_without_replacement_check_input(n_population, n_samples)
+ * 
+ *     all_methods = ("auto", "tracking_selection", "reservoir_sampling", "pool")             # <<<<<<<<<<<<<<
+ * 
+ *     if method == "auto" or method == "tracking_selection":
+ */
+  __Pyx_INCREF(__pyx_tuple_);
+  __pyx_v_all_methods = __pyx_tuple_;
+
+  /* "gawml/utils/_random.pyx":280
+ *     all_methods = ("auto", "tracking_selection", "reservoir_sampling", "pool")
+ * 
+ *     if method == "auto" or method == "tracking_selection":             # <<<<<<<<<<<<<<
+ *         # TODO the pool based method can also be used.
+ *         #      however, it requires special benchmark to take into account
+ */
+  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_auto, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 280, __pyx_L1_error)
+  if (!__pyx_t_3) {
+  } else {
+    __pyx_t_2 = __pyx_t_3;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __pyx_t_3 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_tracking_selection, Py_EQ)); if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(0, 280, __pyx_L1_error)
+  __pyx_t_2 = __pyx_t_3;
+  __pyx_L4_bool_binop_done:;
+  if (__pyx_t_2) {
+
+    /* "gawml/utils/_random.pyx":284
+ *         #      however, it requires special benchmark to take into account
+ *         #      the memory requirement of the array vs the set.
+ *         ratio = n_samples / n_population if n_population != 0.0 else 1.0             # <<<<<<<<<<<<<<
+ * 
+ *         # The value 0.2 has been determined through benchmarking.
+ */
+    if (((__pyx_v_n_population != 0.0) != 0)) {
+      __pyx_t_4 = (__pyx_v_n_samples / __pyx_v_n_population);
+    } else {
+      __pyx_t_4 = 1.0;
+    }
+    __pyx_v_ratio = __pyx_t_4;
+
+    /* "gawml/utils/_random.pyx":287
+ * 
+ *         # The value 0.2 has been determined through benchmarking.
+ *         if ratio < 0.2:             # <<<<<<<<<<<<<<
+ *             return _sample_without_replacement_with_tracking_selection(
+ *                 n_population, n_samples, random_state)
+ */
+    __pyx_t_2 = ((__pyx_v_ratio < 0.2) != 0);
+    if (__pyx_t_2) {
+
+      /* "gawml/utils/_random.pyx":288
+ *         # The value 0.2 has been determined through benchmarking.
+ *         if ratio < 0.2:
+ *             return _sample_without_replacement_with_tracking_selection(             # <<<<<<<<<<<<<<
+ *                 n_population, n_samples, random_state)
+ *         else:
+ */
+      __Pyx_XDECREF(__pyx_r);
+
+      /* "gawml/utils/_random.pyx":289
+ *         if ratio < 0.2:
+ *             return _sample_without_replacement_with_tracking_selection(
+ *                 n_population, n_samples, random_state)             # <<<<<<<<<<<<<<
+ *         else:
+ *             return _sample_without_replacement_with_reservoir_sampling(
+ */
+      __pyx_t_5.__pyx_n = 1;
+      __pyx_t_5.random_state = __pyx_v_random_state;
+      __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_tracking_selection(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 288, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_r = __pyx_t_1;
+      __pyx_t_1 = 0;
+      goto __pyx_L0;
+
+      /* "gawml/utils/_random.pyx":287
+ * 
+ *         # The value 0.2 has been determined through benchmarking.
+ *         if ratio < 0.2:             # <<<<<<<<<<<<<<
+ *             return _sample_without_replacement_with_tracking_selection(
+ *                 n_population, n_samples, random_state)
+ */
+    }
+
+    /* "gawml/utils/_random.pyx":291
+ *                 n_population, n_samples, random_state)
+ *         else:
+ *             return _sample_without_replacement_with_reservoir_sampling(             # <<<<<<<<<<<<<<
+ *                 n_population, n_samples, random_state)
+ * 
+ */
+    /*else*/ {
+      __Pyx_XDECREF(__pyx_r);
+
+      /* "gawml/utils/_random.pyx":292
+ *         else:
+ *             return _sample_without_replacement_with_reservoir_sampling(
+ *                 n_population, n_samples, random_state)             # <<<<<<<<<<<<<<
+ * 
+ *     elif method == "reservoir_sampling":
+ */
+      __pyx_t_6.__pyx_n = 1;
+      __pyx_t_6.random_state = __pyx_v_random_state;
+      __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 291, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_r = __pyx_t_1;
+      __pyx_t_1 = 0;
+      goto __pyx_L0;
+    }
+
+    /* "gawml/utils/_random.pyx":280
+ *     all_methods = ("auto", "tracking_selection", "reservoir_sampling", "pool")
+ * 
+ *     if method == "auto" or method == "tracking_selection":             # <<<<<<<<<<<<<<
+ *         # TODO the pool based method can also be used.
+ *         #      however, it requires special benchmark to take into account
+ */
+  }
+
+  /* "gawml/utils/_random.pyx":294
+ *                 n_population, n_samples, random_state)
+ * 
+ *     elif method == "reservoir_sampling":             # <<<<<<<<<<<<<<
+ *         return _sample_without_replacement_with_reservoir_sampling(
+ *             n_population, n_samples, random_state)
+ */
+  __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_reservoir_sampling, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 294, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "gawml/utils/_random.pyx":295
+ * 
+ *     elif method == "reservoir_sampling":
+ *         return _sample_without_replacement_with_reservoir_sampling(             # <<<<<<<<<<<<<<
+ *             n_population, n_samples, random_state)
+ * 
+ */
+    __Pyx_XDECREF(__pyx_r);
+
+    /* "gawml/utils/_random.pyx":296
+ *     elif method == "reservoir_sampling":
+ *         return _sample_without_replacement_with_reservoir_sampling(
+ *             n_population, n_samples, random_state)             # <<<<<<<<<<<<<<
+ * 
+ *     elif method == "pool":
+ */
+    __pyx_t_6.__pyx_n = 1;
+    __pyx_t_6.random_state = __pyx_v_random_state;
+    __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_reservoir_sampling(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 295, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_r = __pyx_t_1;
+    __pyx_t_1 = 0;
+    goto __pyx_L0;
+
+    /* "gawml/utils/_random.pyx":294
+ *                 n_population, n_samples, random_state)
+ * 
+ *     elif method == "reservoir_sampling":             # <<<<<<<<<<<<<<
+ *         return _sample_without_replacement_with_reservoir_sampling(
+ *             n_population, n_samples, random_state)
+ */
+  }
+
+  /* "gawml/utils/_random.pyx":298
+ *             n_population, n_samples, random_state)
+ * 
+ *     elif method == "pool":             # <<<<<<<<<<<<<<
+ *         return _sample_without_replacement_with_pool(n_population, n_samples,
+ *                                                     random_state)
+ */
+  __pyx_t_2 = (__Pyx_PyString_Equals(__pyx_v_method, __pyx_n_s_pool, Py_EQ)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 298, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "gawml/utils/_random.pyx":299
+ * 
+ *     elif method == "pool":
+ *         return _sample_without_replacement_with_pool(n_population, n_samples,             # <<<<<<<<<<<<<<
+ *                                                     random_state)
+ *     else:
+ */
+    __Pyx_XDECREF(__pyx_r);
+
+    /* "gawml/utils/_random.pyx":300
+ *     elif method == "pool":
+ *         return _sample_without_replacement_with_pool(n_population, n_samples,
+ *                                                     random_state)             # <<<<<<<<<<<<<<
+ *     else:
+ *         raise ValueError('Expected a method name in %s, got %s. '
+ */
+    __pyx_t_7.__pyx_n = 1;
+    __pyx_t_7.random_state = __pyx_v_random_state;
+    __pyx_t_1 = __pyx_f_5gawml_5utils_7_random__sample_without_replacement_with_pool(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 299, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_r = __pyx_t_1;
+    __pyx_t_1 = 0;
+    goto __pyx_L0;
+
+    /* "gawml/utils/_random.pyx":298
+ *             n_population, n_samples, random_state)
+ * 
+ *     elif method == "pool":             # <<<<<<<<<<<<<<
+ *         return _sample_without_replacement_with_pool(n_population, n_samples,
+ *                                                     random_state)
+ */
+  }
+
+  /* "gawml/utils/_random.pyx":302
+ *                                                     random_state)
+ *     else:
+ *         raise ValueError('Expected a method name in %s, got %s. '             # <<<<<<<<<<<<<<
+ *                          % (all_methods, method))
+ */
+  /*else*/ {
+
+    /* "gawml/utils/_random.pyx":303
+ *     else:
+ *         raise ValueError('Expected a method name in %s, got %s. '
+ *                          % (all_methods, method))             # <<<<<<<<<<<<<<
+ */
+    __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_INCREF(__pyx_v_all_methods);
+    __Pyx_GIVEREF(__pyx_v_all_methods);
+    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_all_methods);
+    __Pyx_INCREF(__pyx_v_method);
+    __Pyx_GIVEREF(__pyx_v_method);
+    PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_method);
+    __pyx_t_8 = __Pyx_PyString_Format(__pyx_kp_s_Expected_a_method_name_in_s_got, __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 303, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "gawml/utils/_random.pyx":302
+ *                                                     random_state)
+ *     else:
+ *         raise ValueError('Expected a method name in %s, got %s. '             # <<<<<<<<<<<<<<
+ *                          % (all_methods, method))
+ */
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_GIVEREF(__pyx_t_8);
+    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_8);
+    __pyx_t_8 = 0;
+    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_t_1, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 302, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_Raise(__pyx_t_8, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __PYX_ERR(0, 302, __pyx_L1_error)
+  }
+
+  /* "gawml/utils/_random.pyx":227
+ * 
+ * 
+ * cpdef sample_without_replacement(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                  np.int_t n_samples,
+ *                                  method="auto",
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_AddTraceback("gawml.utils._random.sample_without_replacement", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = 0;
+  __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_all_methods);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* Python wrapper */
+static PyObject *__pyx_pw_5gawml_5utils_7_random_9sample_without_replacement(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_5gawml_5utils_7_random_8sample_without_replacement[] = "Sample integers without replacement.\n\n    Select n_samples integers from the set [0, n_population) without\n    replacement.\n\n\n    Parameters\n    ----------\n    n_population : int,\n        The size of the set to sample from.\n\n    n_samples : int,\n        The number of integer to sample.\n\n    random_state : int, RandomState instance or None, optional (default=None)\n        If int, random_state is the seed used by the random number generator;\n        If RandomState instance, random_state is the random number generator;\n        If None, the random number generator is the RandomState instance used\n        by `np.random`.\n\n    method : \"auto\", \"tracking_selection\", \"reservoir_sampling\" or \"pool\"\n        If method == \"auto\", an algorithm is automatically selected.\n        The order of the selected integers is undefined. If a random order is\n        desired, the selected subset should be shuffled.\n\n        If method ==\"tracking_selection\", a set based implementation is used\n        which is suitable for `n_samples` <<< `n_population`.\n\n        If method == \"reservoir_sampling\", a reservoir sampling algorithm is\n        used which is suitable for high memory constraint or when\n        O(`n_samples`) ~ O(`n_population`).\n        The order of the selected integers is undefined. If a random order is\n        desired, the selected subset should be shuffled.\n\n        If method == \"pool\", a pool based algorithm is particularly fast, even\n        faster than the tracking selection method. Hovewer, a vector containing\n        the entire population has to be initialized.\n        If n_samples ~ n_population, the reservoir sampling method is faster.\n\n    Returns\n    -------\n    out : array of size (n_samples, )\n        The sampled subsets of integer. The subset of selected integer might\n        not be randomized, see the method argument.\n    ";
+static PyObject *__pyx_pw_5gawml_5utils_7_random_9sample_without_replacement(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  __pyx_t_5numpy_int_t __pyx_v_n_population;
+  __pyx_t_5numpy_int_t __pyx_v_n_samples;
+  PyObject *__pyx_v_method = 0;
+  PyObject *__pyx_v_random_state = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("sample_without_replacement (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_n_population,&__pyx_n_s_n_samples,&__pyx_n_s_method,&__pyx_n_s_random_state,0};
+    PyObject* values[4] = {0,0,0,0};
+    values[2] = ((PyObject *)__pyx_n_s_auto);
+
+    /* "gawml/utils/_random.pyx":230
+ *                                  np.int_t n_samples,
+ *                                  method="auto",
+ *                                  random_state=None):             # <<<<<<<<<<<<<<
+ *     """Sample integers without replacement.
+ * 
+ */
+    values[3] = ((PyObject *)Py_None);
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_population)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        case  1:
+        if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_n_samples)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("sample_without_replacement", 0, 2, 4, 1); __PYX_ERR(0, 227, __pyx_L3_error)
+        }
+        case  2:
+        if (kw_args > 0) {
+          PyObject* value = PyDict_GetItem(__pyx_kwds, __pyx_n_s_method);
+          if (value) { values[2] = value; kw_args--; }
+        }
+        case  3:
+        if (kw_args > 0) {
+          PyObject* value = PyDict_GetItem(__pyx_kwds, __pyx_n_s_random_state);
+          if (value) { values[3] = value; kw_args--; }
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "sample_without_replacement") < 0)) __PYX_ERR(0, 227, __pyx_L3_error)
+      }
+    } else {
+      switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+    }
+    __pyx_v_n_population = __Pyx_PyInt_As_npy_long(values[0]); if (unlikely((__pyx_v_n_population == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 227, __pyx_L3_error)
+    __pyx_v_n_samples = __Pyx_PyInt_As_npy_long(values[1]); if (unlikely((__pyx_v_n_samples == (npy_long)-1) && PyErr_Occurred())) __PYX_ERR(0, 228, __pyx_L3_error)
+    __pyx_v_method = values[2];
+    __pyx_v_random_state = values[3];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("sample_without_replacement", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 227, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("gawml.utils._random.sample_without_replacement", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_5gawml_5utils_7_random_8sample_without_replacement(__pyx_self, __pyx_v_n_population, __pyx_v_n_samples, __pyx_v_method, __pyx_v_random_state);
+
+  /* "gawml/utils/_random.pyx":227
+ * 
+ * 
+ * cpdef sample_without_replacement(np.int_t n_population,             # <<<<<<<<<<<<<<
+ *                                  np.int_t n_samples,
+ *                                  method="auto",
+ */
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_5gawml_5utils_7_random_8sample_without_replacement(CYTHON_UNUSED PyObject *__pyx_self, __pyx_t_5numpy_int_t __pyx_v_n_population, __pyx_t_5numpy_int_t __pyx_v_n_samples, PyObject *__pyx_v_method, PyObject *__pyx_v_random_state) {
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement __pyx_t_2;
+  __Pyx_RefNannySetupContext("sample_without_replacement", 0);
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2.__pyx_n = 2;
+  __pyx_t_2.method = __pyx_v_method;
+  __pyx_t_2.random_state = __pyx_v_random_state;
+  __pyx_t_1 = __pyx_f_5gawml_5utils_7_random_sample_without_replacement(__pyx_v_n_population, __pyx_v_n_samples, 0, &__pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 227, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_r = __pyx_t_1;
+  __pyx_t_1 = 0;
+  goto __pyx_L0;
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_AddTraceback("gawml.utils._random.sample_without_replacement", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -3935,6 +5626,11 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 }
 
 static PyMethodDef __pyx_methods[] = {
+  {"_sample_without_replacement_check_input", (PyCFunction)__pyx_pw_5gawml_5utils_7_random_1_sample_without_replacement_check_input, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_7_random__sample_without_replacement_check_input},
+  {"_sample_without_replacement_with_tracking_selection", (PyCFunction)__pyx_pw_5gawml_5utils_7_random_3_sample_without_replacement_with_tracking_selection, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_7_random_2_sample_without_replacement_with_tracking_selection},
+  {"_sample_without_replacement_with_pool", (PyCFunction)__pyx_pw_5gawml_5utils_7_random_5_sample_without_replacement_with_pool, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_7_random_4_sample_without_replacement_with_pool},
+  {"_sample_without_replacement_with_reservoir_sampling", (PyCFunction)__pyx_pw_5gawml_5utils_7_random_7_sample_without_replacement_with_reservoir_sampling, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_7_random_6_sample_without_replacement_with_reservoir_sampling},
+  {"sample_without_replacement", (PyCFunction)__pyx_pw_5gawml_5utils_7_random_9sample_without_replacement, METH_VARARGS|METH_KEYWORDS, __pyx_doc_5gawml_5utils_7_random_8sample_without_replacement},
   {0, 0, 0, 0}
 };
 
@@ -3945,8 +5641,8 @@ static struct PyModuleDef __pyx_moduledef = {
   #else
     PyModuleDef_HEAD_INIT,
   #endif
-    "arrayfuncs",
-    __pyx_k_Small_collection_of_auxiliary_f, /* m_doc */
+    "_random",
+    __pyx_k_Random_utility_function_This_mo, /* m_doc */
     -1, /* m_size */
     __pyx_methods /* m_methods */,
     NULL, /* m_reload */
@@ -3957,43 +5653,48 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
+  {&__pyx_kp_s_Expected_a_method_name_in_s_got, __pyx_k_Expected_a_method_name_in_s_got, sizeof(__pyx_k_Expected_a_method_name_in_s_got), 0, 0, 1, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor, __pyx_k_Format_string_allocated_too_shor, sizeof(__pyx_k_Format_string_allocated_too_shor), 0, 1, 0, 0},
   {&__pyx_kp_u_Format_string_allocated_too_shor_2, __pyx_k_Format_string_allocated_too_shor_2, sizeof(__pyx_k_Format_string_allocated_too_shor_2), 0, 1, 0, 0},
-  {&__pyx_n_s_L, __pyx_k_L, sizeof(__pyx_k_L), 0, 0, 1, 1},
   {&__pyx_kp_u_Non_native_byte_order_not_suppor, __pyx_k_Non_native_byte_order_not_suppor, sizeof(__pyx_k_Non_native_byte_order_not_suppor), 0, 1, 0, 0},
   {&__pyx_n_s_RuntimeError, __pyx_k_RuntimeError, sizeof(__pyx_k_RuntimeError), 0, 0, 1, 1},
-  {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
-  {&__pyx_kp_s_Unsupported_dtype_for_array_X, __pyx_k_Unsupported_dtype_for_array_X, sizeof(__pyx_k_Unsupported_dtype_for_array_X), 0, 0, 1, 0},
-  {&__pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_k_Users_nkdhny_Documents_datasoup, sizeof(__pyx_k_Users_nkdhny_Documents_datasoup), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
-  {&__pyx_n_s_X, __pyx_k_X, sizeof(__pyx_k_X), 0, 0, 1, 1},
-  {&__pyx_n_s_cholesky_delete, __pyx_k_cholesky_delete, sizeof(__pyx_k_cholesky_delete), 0, 0, 1, 1},
+  {&__pyx_n_s_auto, __pyx_k_auto, sizeof(__pyx_k_auto), 0, 0, 1, 1},
+  {&__pyx_n_s_check_random_state, __pyx_k_check_random_state, sizeof(__pyx_k_check_random_state), 0, 0, 1, 1},
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
-  {&__pyx_n_s_float32, __pyx_k_float32, sizeof(__pyx_k_float32), 0, 0, 1, 1},
-  {&__pyx_n_s_float64, __pyx_k_float64, sizeof(__pyx_k_float64), 0, 0, 1, 1},
-  {&__pyx_n_s_gaw_utils_arrayfuncs, __pyx_k_gaw_utils_arrayfuncs, sizeof(__pyx_k_gaw_utils_arrayfuncs), 0, 0, 1, 1},
-  {&__pyx_n_s_go_out, __pyx_k_go_out, sizeof(__pyx_k_go_out), 0, 0, 1, 1},
+  {&__pyx_n_s_empty, __pyx_k_empty, sizeof(__pyx_k_empty), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
-  {&__pyx_n_s_m, __pyx_k_m, sizeof(__pyx_k_m), 0, 0, 1, 1},
+  {&__pyx_n_s_int, __pyx_k_int, sizeof(__pyx_k_int), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
-  {&__pyx_n_s_min_pos, __pyx_k_min_pos, sizeof(__pyx_k_min_pos), 0, 0, 1, 1},
-  {&__pyx_n_s_n, __pyx_k_n, sizeof(__pyx_k_n), 0, 0, 1, 1},
-  {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
+  {&__pyx_n_s_method, __pyx_k_method, sizeof(__pyx_k_method), 0, 0, 1, 1},
+  {&__pyx_n_s_n_population, __pyx_k_n_population, sizeof(__pyx_k_n_population), 0, 0, 1, 1},
+  {&__pyx_kp_s_n_population_should_be_greater_o, __pyx_k_n_population_should_be_greater_o, sizeof(__pyx_k_n_population_should_be_greater_o), 0, 0, 1, 0},
+  {&__pyx_kp_s_n_population_should_be_greater_t, __pyx_k_n_population_should_be_greater_t, sizeof(__pyx_k_n_population_should_be_greater_t), 0, 0, 1, 0},
+  {&__pyx_n_s_n_samples, __pyx_k_n_samples, sizeof(__pyx_k_n_samples), 0, 0, 1, 1},
   {&__pyx_kp_u_ndarray_is_not_C_contiguous, __pyx_k_ndarray_is_not_C_contiguous, sizeof(__pyx_k_ndarray_is_not_C_contiguous), 0, 1, 0, 0},
   {&__pyx_kp_u_ndarray_is_not_Fortran_contiguou, __pyx_k_ndarray_is_not_Fortran_contiguou, sizeof(__pyx_k_ndarray_is_not_Fortran_contiguou), 0, 1, 0, 0},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
   {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
+  {&__pyx_n_s_pool, __pyx_k_pool, sizeof(__pyx_k_pool), 0, 0, 1, 1},
+  {&__pyx_n_s_randint, __pyx_k_randint, sizeof(__pyx_k_randint), 0, 0, 1, 1},
+  {&__pyx_n_s_random_state, __pyx_k_random_state, sizeof(__pyx_k_random_state), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
-  {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
+  {&__pyx_n_s_reservoir_sampling, __pyx_k_reservoir_sampling, sizeof(__pyx_k_reservoir_sampling), 0, 0, 1, 1},
+  {&__pyx_n_s_sklearn_utils, __pyx_k_sklearn_utils, sizeof(__pyx_k_sklearn_utils), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
+  {&__pyx_n_s_tracking_selection, __pyx_k_tracking_selection, sizeof(__pyx_k_tracking_selection), 0, 0, 1, 1},
   {&__pyx_kp_u_unknown_dtype_code_in_numpy_pxd, __pyx_k_unknown_dtype_code_in_numpy_pxd, sizeof(__pyx_k_unknown_dtype_code_in_numpy_pxd), 0, 1, 0, 0},
-  {&__pyx_kp_s_unsupported_dtype_r, __pyx_k_unsupported_dtype_r, sizeof(__pyx_k_unsupported_dtype_r), 0, 0, 1, 0},
+  {&__pyx_n_s_xrange, __pyx_k_xrange, sizeof(__pyx_k_xrange), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 33, __pyx_L1_error)
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 39, __pyx_L1_error)
-  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 97, __pyx_L1_error)
+  #if PY_MAJOR_VERSION >= 3
+  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_xrange) __PYX_ERR(0, 153, __pyx_L1_error)
+  #else
+  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_xrange); if (!__pyx_builtin_xrange) __PYX_ERR(0, 153, __pyx_L1_error)
+  #endif
   __pyx_builtin_RuntimeError = __Pyx_GetBuiltinName(__pyx_n_s_RuntimeError); if (!__pyx_builtin_RuntimeError) __PYX_ERR(1, 799, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
@@ -4004,14 +5705,14 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "gaw/utils/arrayfuncs.pyx":33
- *       return _double_min_pos(<double *> X.data, X.size)
- *    else:
- *       raise ValueError('Unsupported dtype for array X')             # <<<<<<<<<<<<<<
+  /* "gawml/utils/_random.pyx":278
+ *     _sample_without_replacement_check_input(n_population, n_samples)
  * 
+ *     all_methods = ("auto", "tracking_selection", "reservoir_sampling", "pool")             # <<<<<<<<<<<<<<
  * 
+ *     if method == "auto" or method == "tracking_selection":
  */
-  __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_s_Unsupported_dtype_for_array_X); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_tuple_ = PyTuple_Pack(4, __pyx_n_s_auto, __pyx_n_s_tracking_selection, __pyx_n_s_reservoir_sampling, __pyx_n_s_pool); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 278, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
@@ -4080,30 +5781,6 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(1, 823, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
-
-  /* "gaw/utils/arrayfuncs.pyx":22
- * 
- * 
- * def min_pos(np.ndarray X):             # <<<<<<<<<<<<<<
- *    """
- *    Find the minimum value of an array over positive values
- */
-  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_n_s_X); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 22, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
-  __pyx_codeobj__9 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__8, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_min_pos, 22, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__9)) __PYX_ERR(0, 22, __pyx_L1_error)
-
-  /* "gaw/utils/arrayfuncs.pyx":55
- * 
- * # we should be using np.npy_intp or Py_ssize_t for indices, but BLAS wants int
- * def cholesky_delete(np.ndarray L, int go_out):             # <<<<<<<<<<<<<<
- *     cdef int n = <int> L.shape[0]
- *     cdef int m = <int> L.strides[0]
- */
-  __pyx_tuple__10 = PyTuple_Pack(4, __pyx_n_s_L, __pyx_n_s_go_out, __pyx_n_s_n, __pyx_n_s_m); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 55, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_nkdhny_Documents_datasoup, __pyx_n_s_cholesky_delete, 55, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) __PYX_ERR(0, 55, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -4113,20 +5790,22 @@ static int __Pyx_InitCachedConstants(void) {
 
 static int __Pyx_InitGlobals(void) {
   if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
+  __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
 }
 
 #if PY_MAJOR_VERSION < 3
-PyMODINIT_FUNC initarrayfuncs(void); /*proto*/
-PyMODINIT_FUNC initarrayfuncs(void)
+PyMODINIT_FUNC init_random(void); /*proto*/
+PyMODINIT_FUNC init_random(void)
 #else
-PyMODINIT_FUNC PyInit_arrayfuncs(void); /*proto*/
-PyMODINIT_FUNC PyInit_arrayfuncs(void)
+PyMODINIT_FUNC PyInit__random(void); /*proto*/
+PyMODINIT_FUNC PyInit__random(void)
 #endif
 {
   PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannyDeclarations
   #if CYTHON_REFNANNY
   __Pyx_RefNanny = __Pyx_RefNannyImportAPI("refnanny");
@@ -4137,7 +5816,7 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
           Py_FatalError("failed to import 'refnanny' module");
   }
   #endif
-  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit_arrayfuncs(void)", 0);
+  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit__random(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_tuple = PyTuple_New(0); if (unlikely(!__pyx_empty_tuple)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_bytes)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -4166,7 +5845,7 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
   #endif
   /*--- Module creation code ---*/
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("arrayfuncs", __pyx_methods, __pyx_k_Small_collection_of_auxiliary_f, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("_random", __pyx_methods, __pyx_k_Random_utility_function_This_mo, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -4183,14 +5862,14 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gaw__utils__arrayfuncs) {
+  if (__pyx_module_is_main_gawml__utils___random) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gaw.utils.arrayfuncs")) {
-      if (unlikely(PyDict_SetItemString(modules, "gaw.utils.arrayfuncs", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "gawml.utils._random")) {
+      if (unlikely(PyDict_SetItemString(modules, "gawml.utils._random", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -4201,6 +5880,7 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
   /*--- Global init code ---*/
   /*--- Variable export code ---*/
   /*--- Function export code ---*/
+  if (__Pyx_ExportFunction("sample_without_replacement", (void (*)(void))__pyx_f_5gawml_5utils_7_random_sample_without_replacement, "PyObject *(__pyx_t_5numpy_int_t, __pyx_t_5numpy_int_t, int __pyx_skip_dispatch, struct __pyx_opt_args_5gawml_5utils_7_random_sample_without_replacement *__pyx_optional_args)") < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   /*--- Type init code ---*/
   /*--- Type import code ---*/
   __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
@@ -4222,60 +5902,57 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gaw/utils/arrayfuncs.pyx":6
- * """
- * cimport numpy as np
- * import  numpy as np             # <<<<<<<<<<<<<<
- * 
+  /* "gawml/utils/_random.pyx":21
  * cimport cython
+ * 
+ * import numpy as np             # <<<<<<<<<<<<<<
+ * cimport numpy as np
+ * np.import_array()
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gaw/utils/arrayfuncs.pyx":19
- * 
- * 
+  /* "gawml/utils/_random.pyx":23
+ * import numpy as np
+ * cimport numpy as np
  * np.import_array()             # <<<<<<<<<<<<<<
  * 
- * 
+ * from sklearn.utils import check_random_state
  */
   import_array();
 
-  /* "gaw/utils/arrayfuncs.pyx":22
+  /* "gawml/utils/_random.pyx":25
+ * np.import_array()
+ * 
+ * from sklearn.utils import check_random_state             # <<<<<<<<<<<<<<
  * 
  * 
- * def min_pos(np.ndarray X):             # <<<<<<<<<<<<<<
- *    """
- *    Find the minimum value of an array over positive values
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_10arrayfuncs_1min_pos, NULL, __pyx_n_s_gaw_utils_arrayfuncs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_min_pos, __pyx_t_1) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
+  __Pyx_INCREF(__pyx_n_s_check_random_state);
+  __Pyx_GIVEREF(__pyx_n_s_check_random_state);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_check_random_state);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_sklearn_utils, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_check_random_state); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_check_random_state, __pyx_t_1) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gaw/utils/arrayfuncs.pyx":55
- * 
- * # we should be using np.npy_intp or Py_ssize_t for indices, but BLAS wants int
- * def cholesky_delete(np.ndarray L, int go_out):             # <<<<<<<<<<<<<<
- *     cdef int n = <int> L.shape[0]
- *     cdef int m = <int> L.strides[0]
+  /* "gawml/utils/_random.pyx":1
+ * # cython: cdivision=True             # <<<<<<<<<<<<<<
+ * # cython: boundscheck=False
+ * # cython: wraparound=False
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_3gaw_5utils_10arrayfuncs_3cholesky_delete, NULL, __pyx_n_s_gaw_utils_arrayfuncs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 55, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_cholesky_delete, __pyx_t_1) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "gaw/utils/arrayfuncs.pyx":1
- * """             # <<<<<<<<<<<<<<
- * Small collection of auxiliary functions that operate on arrays
- * 
- */
-  __pyx_t_1 = PyDict_New(); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "../../../../../usr/local/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
@@ -4290,13 +5967,14 @@ PyMODINIT_FUNC PyInit_arrayfuncs(void)
   goto __pyx_L0;
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gaw.utils.arrayfuncs", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init gawml.utils._random", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gaw.utils.arrayfuncs");
+    PyErr_SetString(PyExc_ImportError, "init gawml.utils._random");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
@@ -4337,155 +6015,6 @@ static PyObject *__Pyx_GetBuiltinName(PyObject *name) {
 #endif
     }
     return result;
-}
-
-/* ArgTypeTest */
-static void __Pyx_RaiseArgumentTypeInvalid(const char* name, PyObject *obj, PyTypeObject *type) {
-    PyErr_Format(PyExc_TypeError,
-        "Argument '%.200s' has incorrect type (expected %.200s, got %.200s)",
-        name, type->tp_name, Py_TYPE(obj)->tp_name);
-}
-static CYTHON_INLINE int __Pyx_ArgTypeTest(PyObject *obj, PyTypeObject *type, int none_allowed,
-    const char *name, int exact)
-{
-    if (unlikely(!type)) {
-        PyErr_SetString(PyExc_SystemError, "Missing type object");
-        return 0;
-    }
-    if (none_allowed && obj == Py_None) return 1;
-    else if (exact) {
-        if (likely(Py_TYPE(obj) == type)) return 1;
-        #if PY_MAJOR_VERSION == 2
-        else if ((type == &PyBaseString_Type) && likely(__Pyx_PyBaseString_CheckExact(obj))) return 1;
-        #endif
-    }
-    else {
-        if (likely(PyObject_TypeCheck(obj, type))) return 1;
-    }
-    __Pyx_RaiseArgumentTypeInvalid(name, obj, type);
-    return 0;
-}
-
-/* BytesEquals */
-static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals) {
-#if CYTHON_COMPILING_IN_PYPY
-    return PyObject_RichCompareBool(s1, s2, equals);
-#else
-    if (s1 == s2) {
-        return (equals == Py_EQ);
-    } else if (PyBytes_CheckExact(s1) & PyBytes_CheckExact(s2)) {
-        const char *ps1, *ps2;
-        Py_ssize_t length = PyBytes_GET_SIZE(s1);
-        if (length != PyBytes_GET_SIZE(s2))
-            return (equals == Py_NE);
-        ps1 = PyBytes_AS_STRING(s1);
-        ps2 = PyBytes_AS_STRING(s2);
-        if (ps1[0] != ps2[0]) {
-            return (equals == Py_NE);
-        } else if (length == 1) {
-            return (equals == Py_EQ);
-        } else {
-            int result = memcmp(ps1, ps2, (size_t)length);
-            return (equals == Py_EQ) ? (result == 0) : (result != 0);
-        }
-    } else if ((s1 == Py_None) & PyBytes_CheckExact(s2)) {
-        return (equals == Py_NE);
-    } else if ((s2 == Py_None) & PyBytes_CheckExact(s1)) {
-        return (equals == Py_NE);
-    } else {
-        int result;
-        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
-        if (!py_result)
-            return -1;
-        result = __Pyx_PyObject_IsTrue(py_result);
-        Py_DECREF(py_result);
-        return result;
-    }
-#endif
-}
-
-/* UnicodeEquals */
-static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals) {
-#if CYTHON_COMPILING_IN_PYPY
-    return PyObject_RichCompareBool(s1, s2, equals);
-#else
-#if PY_MAJOR_VERSION < 3
-    PyObject* owned_ref = NULL;
-#endif
-    int s1_is_unicode, s2_is_unicode;
-    if (s1 == s2) {
-        goto return_eq;
-    }
-    s1_is_unicode = PyUnicode_CheckExact(s1);
-    s2_is_unicode = PyUnicode_CheckExact(s2);
-#if PY_MAJOR_VERSION < 3
-    if ((s1_is_unicode & (!s2_is_unicode)) && PyString_CheckExact(s2)) {
-        owned_ref = PyUnicode_FromObject(s2);
-        if (unlikely(!owned_ref))
-            return -1;
-        s2 = owned_ref;
-        s2_is_unicode = 1;
-    } else if ((s2_is_unicode & (!s1_is_unicode)) && PyString_CheckExact(s1)) {
-        owned_ref = PyUnicode_FromObject(s1);
-        if (unlikely(!owned_ref))
-            return -1;
-        s1 = owned_ref;
-        s1_is_unicode = 1;
-    } else if (((!s2_is_unicode) & (!s1_is_unicode))) {
-        return __Pyx_PyBytes_Equals(s1, s2, equals);
-    }
-#endif
-    if (s1_is_unicode & s2_is_unicode) {
-        Py_ssize_t length;
-        int kind;
-        void *data1, *data2;
-        if (unlikely(__Pyx_PyUnicode_READY(s1) < 0) || unlikely(__Pyx_PyUnicode_READY(s2) < 0))
-            return -1;
-        length = __Pyx_PyUnicode_GET_LENGTH(s1);
-        if (length != __Pyx_PyUnicode_GET_LENGTH(s2)) {
-            goto return_ne;
-        }
-        kind = __Pyx_PyUnicode_KIND(s1);
-        if (kind != __Pyx_PyUnicode_KIND(s2)) {
-            goto return_ne;
-        }
-        data1 = __Pyx_PyUnicode_DATA(s1);
-        data2 = __Pyx_PyUnicode_DATA(s2);
-        if (__Pyx_PyUnicode_READ(kind, data1, 0) != __Pyx_PyUnicode_READ(kind, data2, 0)) {
-            goto return_ne;
-        } else if (length == 1) {
-            goto return_eq;
-        } else {
-            int result = memcmp(data1, data2, (size_t)(length * kind));
-            #if PY_MAJOR_VERSION < 3
-            Py_XDECREF(owned_ref);
-            #endif
-            return (equals == Py_EQ) ? (result == 0) : (result != 0);
-        }
-    } else if ((s1 == Py_None) & s2_is_unicode) {
-        goto return_ne;
-    } else if ((s2 == Py_None) & s1_is_unicode) {
-        goto return_ne;
-    } else {
-        int result;
-        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
-        if (!py_result)
-            return -1;
-        result = __Pyx_PyObject_IsTrue(py_result);
-        Py_DECREF(py_result);
-        return result;
-    }
-return_eq:
-    #if PY_MAJOR_VERSION < 3
-    Py_XDECREF(owned_ref);
-    #endif
-    return (equals == Py_EQ);
-return_ne:
-    #if PY_MAJOR_VERSION < 3
-    Py_XDECREF(owned_ref);
-    #endif
-    return (equals == Py_NE);
-#endif
 }
 
 /* PyObjectCall */
@@ -4837,26 +6366,26 @@ bad:
     return -1;
 }
 
-/* RaiseTooManyValuesToUnpack */
-  static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {
-    PyErr_Format(PyExc_ValueError,
-                 "too many values to unpack (expected %" CYTHON_FORMAT_SSIZE_T "d)", expected);
-}
-
-/* RaiseNeedMoreValuesToUnpack */
-  static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {
-    PyErr_Format(PyExc_ValueError,
-                 "need more than %" CYTHON_FORMAT_SSIZE_T "d value%.1s to unpack",
-                 index, (index == 1) ? "" : "s");
-}
-
-/* RaiseNoneIterError */
-  static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {
-    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
+/* GetModuleGlobalName */
+  static CYTHON_INLINE PyObject *__Pyx_GetModuleGlobalName(PyObject *name) {
+    PyObject *result;
+#if CYTHON_COMPILING_IN_CPYTHON
+    result = PyDict_GetItem(__pyx_d, name);
+    if (likely(result)) {
+        Py_INCREF(result);
+    } else {
+#else
+    result = PyObject_GetItem(__pyx_d, name);
+    if (!result) {
+        PyErr_Clear();
+#endif
+        result = __Pyx_GetBuiltinName(name);
+    }
+    return result;
 }
 
 /* ExtTypeTest */
-  static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type) {
+    static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type) {
     if (unlikely(!type)) {
         PyErr_SetString(PyExc_SystemError, "Missing type object");
         return 0;
@@ -4868,8 +6397,753 @@ bad:
     return 0;
 }
 
+/* BufferFormatCheck */
+    static CYTHON_INLINE int __Pyx_IsLittleEndian(void) {
+  unsigned int n = 1;
+  return *(unsigned char*)(&n) != 0;
+}
+static void __Pyx_BufFmt_Init(__Pyx_BufFmt_Context* ctx,
+                              __Pyx_BufFmt_StackElem* stack,
+                              __Pyx_TypeInfo* type) {
+  stack[0].field = &ctx->root;
+  stack[0].parent_offset = 0;
+  ctx->root.type = type;
+  ctx->root.name = "buffer dtype";
+  ctx->root.offset = 0;
+  ctx->head = stack;
+  ctx->head->field = &ctx->root;
+  ctx->fmt_offset = 0;
+  ctx->head->parent_offset = 0;
+  ctx->new_packmode = '@';
+  ctx->enc_packmode = '@';
+  ctx->new_count = 1;
+  ctx->enc_count = 0;
+  ctx->enc_type = 0;
+  ctx->is_complex = 0;
+  ctx->is_valid_array = 0;
+  ctx->struct_alignment = 0;
+  while (type->typegroup == 'S') {
+    ++ctx->head;
+    ctx->head->field = type->fields;
+    ctx->head->parent_offset = 0;
+    type = type->fields->type;
+  }
+}
+static int __Pyx_BufFmt_ParseNumber(const char** ts) {
+    int count;
+    const char* t = *ts;
+    if (*t < '0' || *t > '9') {
+      return -1;
+    } else {
+        count = *t++ - '0';
+        while (*t >= '0' && *t < '9') {
+            count *= 10;
+            count += *t++ - '0';
+        }
+    }
+    *ts = t;
+    return count;
+}
+static int __Pyx_BufFmt_ExpectNumber(const char **ts) {
+    int number = __Pyx_BufFmt_ParseNumber(ts);
+    if (number == -1)
+        PyErr_Format(PyExc_ValueError,\
+                     "Does not understand character buffer dtype format string ('%c')", **ts);
+    return number;
+}
+static void __Pyx_BufFmt_RaiseUnexpectedChar(char ch) {
+  PyErr_Format(PyExc_ValueError,
+               "Unexpected format string character: '%c'", ch);
+}
+static const char* __Pyx_BufFmt_DescribeTypeChar(char ch, int is_complex) {
+  switch (ch) {
+    case 'c': return "'char'";
+    case 'b': return "'signed char'";
+    case 'B': return "'unsigned char'";
+    case 'h': return "'short'";
+    case 'H': return "'unsigned short'";
+    case 'i': return "'int'";
+    case 'I': return "'unsigned int'";
+    case 'l': return "'long'";
+    case 'L': return "'unsigned long'";
+    case 'q': return "'long long'";
+    case 'Q': return "'unsigned long long'";
+    case 'f': return (is_complex ? "'complex float'" : "'float'");
+    case 'd': return (is_complex ? "'complex double'" : "'double'");
+    case 'g': return (is_complex ? "'complex long double'" : "'long double'");
+    case 'T': return "a struct";
+    case 'O': return "Python object";
+    case 'P': return "a pointer";
+    case 's': case 'p': return "a string";
+    case 0: return "end";
+    default: return "unparseable format string";
+  }
+}
+static size_t __Pyx_BufFmt_TypeCharToStandardSize(char ch, int is_complex) {
+  switch (ch) {
+    case '?': case 'c': case 'b': case 'B': case 's': case 'p': return 1;
+    case 'h': case 'H': return 2;
+    case 'i': case 'I': case 'l': case 'L': return 4;
+    case 'q': case 'Q': return 8;
+    case 'f': return (is_complex ? 8 : 4);
+    case 'd': return (is_complex ? 16 : 8);
+    case 'g': {
+      PyErr_SetString(PyExc_ValueError, "Python does not define a standard format string size for long double ('g')..");
+      return 0;
+    }
+    case 'O': case 'P': return sizeof(void*);
+    default:
+      __Pyx_BufFmt_RaiseUnexpectedChar(ch);
+      return 0;
+    }
+}
+static size_t __Pyx_BufFmt_TypeCharToNativeSize(char ch, int is_complex) {
+  switch (ch) {
+    case 'c': case 'b': case 'B': case 's': case 'p': return 1;
+    case 'h': case 'H': return sizeof(short);
+    case 'i': case 'I': return sizeof(int);
+    case 'l': case 'L': return sizeof(long);
+    #ifdef HAVE_LONG_LONG
+    case 'q': case 'Q': return sizeof(PY_LONG_LONG);
+    #endif
+    case 'f': return sizeof(float) * (is_complex ? 2 : 1);
+    case 'd': return sizeof(double) * (is_complex ? 2 : 1);
+    case 'g': return sizeof(long double) * (is_complex ? 2 : 1);
+    case 'O': case 'P': return sizeof(void*);
+    default: {
+      __Pyx_BufFmt_RaiseUnexpectedChar(ch);
+      return 0;
+    }
+  }
+}
+typedef struct { char c; short x; } __Pyx_st_short;
+typedef struct { char c; int x; } __Pyx_st_int;
+typedef struct { char c; long x; } __Pyx_st_long;
+typedef struct { char c; float x; } __Pyx_st_float;
+typedef struct { char c; double x; } __Pyx_st_double;
+typedef struct { char c; long double x; } __Pyx_st_longdouble;
+typedef struct { char c; void *x; } __Pyx_st_void_p;
+#ifdef HAVE_LONG_LONG
+typedef struct { char c; PY_LONG_LONG x; } __Pyx_st_longlong;
+#endif
+static size_t __Pyx_BufFmt_TypeCharToAlignment(char ch, CYTHON_UNUSED int is_complex) {
+  switch (ch) {
+    case '?': case 'c': case 'b': case 'B': case 's': case 'p': return 1;
+    case 'h': case 'H': return sizeof(__Pyx_st_short) - sizeof(short);
+    case 'i': case 'I': return sizeof(__Pyx_st_int) - sizeof(int);
+    case 'l': case 'L': return sizeof(__Pyx_st_long) - sizeof(long);
+#ifdef HAVE_LONG_LONG
+    case 'q': case 'Q': return sizeof(__Pyx_st_longlong) - sizeof(PY_LONG_LONG);
+#endif
+    case 'f': return sizeof(__Pyx_st_float) - sizeof(float);
+    case 'd': return sizeof(__Pyx_st_double) - sizeof(double);
+    case 'g': return sizeof(__Pyx_st_longdouble) - sizeof(long double);
+    case 'P': case 'O': return sizeof(__Pyx_st_void_p) - sizeof(void*);
+    default:
+      __Pyx_BufFmt_RaiseUnexpectedChar(ch);
+      return 0;
+    }
+}
+/* These are for computing the padding at the end of the struct to align
+   on the first member of the struct. This will probably the same as above,
+   but we don't have any guarantees.
+ */
+typedef struct { short x; char c; } __Pyx_pad_short;
+typedef struct { int x; char c; } __Pyx_pad_int;
+typedef struct { long x; char c; } __Pyx_pad_long;
+typedef struct { float x; char c; } __Pyx_pad_float;
+typedef struct { double x; char c; } __Pyx_pad_double;
+typedef struct { long double x; char c; } __Pyx_pad_longdouble;
+typedef struct { void *x; char c; } __Pyx_pad_void_p;
+#ifdef HAVE_LONG_LONG
+typedef struct { PY_LONG_LONG x; char c; } __Pyx_pad_longlong;
+#endif
+static size_t __Pyx_BufFmt_TypeCharToPadding(char ch, CYTHON_UNUSED int is_complex) {
+  switch (ch) {
+    case '?': case 'c': case 'b': case 'B': case 's': case 'p': return 1;
+    case 'h': case 'H': return sizeof(__Pyx_pad_short) - sizeof(short);
+    case 'i': case 'I': return sizeof(__Pyx_pad_int) - sizeof(int);
+    case 'l': case 'L': return sizeof(__Pyx_pad_long) - sizeof(long);
+#ifdef HAVE_LONG_LONG
+    case 'q': case 'Q': return sizeof(__Pyx_pad_longlong) - sizeof(PY_LONG_LONG);
+#endif
+    case 'f': return sizeof(__Pyx_pad_float) - sizeof(float);
+    case 'd': return sizeof(__Pyx_pad_double) - sizeof(double);
+    case 'g': return sizeof(__Pyx_pad_longdouble) - sizeof(long double);
+    case 'P': case 'O': return sizeof(__Pyx_pad_void_p) - sizeof(void*);
+    default:
+      __Pyx_BufFmt_RaiseUnexpectedChar(ch);
+      return 0;
+    }
+}
+static char __Pyx_BufFmt_TypeCharToGroup(char ch, int is_complex) {
+  switch (ch) {
+    case 'c':
+        return 'H';
+    case 'b': case 'h': case 'i':
+    case 'l': case 'q': case 's': case 'p':
+        return 'I';
+    case 'B': case 'H': case 'I': case 'L': case 'Q':
+        return 'U';
+    case 'f': case 'd': case 'g':
+        return (is_complex ? 'C' : 'R');
+    case 'O':
+        return 'O';
+    case 'P':
+        return 'P';
+    default: {
+      __Pyx_BufFmt_RaiseUnexpectedChar(ch);
+      return 0;
+    }
+  }
+}
+static void __Pyx_BufFmt_RaiseExpected(__Pyx_BufFmt_Context* ctx) {
+  if (ctx->head == NULL || ctx->head->field == &ctx->root) {
+    const char* expected;
+    const char* quote;
+    if (ctx->head == NULL) {
+      expected = "end";
+      quote = "";
+    } else {
+      expected = ctx->head->field->type->name;
+      quote = "'";
+    }
+    PyErr_Format(PyExc_ValueError,
+                 "Buffer dtype mismatch, expected %s%s%s but got %s",
+                 quote, expected, quote,
+                 __Pyx_BufFmt_DescribeTypeChar(ctx->enc_type, ctx->is_complex));
+  } else {
+    __Pyx_StructField* field = ctx->head->field;
+    __Pyx_StructField* parent = (ctx->head - 1)->field;
+    PyErr_Format(PyExc_ValueError,
+                 "Buffer dtype mismatch, expected '%s' but got %s in '%s.%s'",
+                 field->type->name, __Pyx_BufFmt_DescribeTypeChar(ctx->enc_type, ctx->is_complex),
+                 parent->type->name, field->name);
+  }
+}
+static int __Pyx_BufFmt_ProcessTypeChunk(__Pyx_BufFmt_Context* ctx) {
+  char group;
+  size_t size, offset, arraysize = 1;
+  if (ctx->enc_type == 0) return 0;
+  if (ctx->head->field->type->arraysize[0]) {
+    int i, ndim = 0;
+    if (ctx->enc_type == 's' || ctx->enc_type == 'p') {
+        ctx->is_valid_array = ctx->head->field->type->ndim == 1;
+        ndim = 1;
+        if (ctx->enc_count != ctx->head->field->type->arraysize[0]) {
+            PyErr_Format(PyExc_ValueError,
+                         "Expected a dimension of size %zu, got %zu",
+                         ctx->head->field->type->arraysize[0], ctx->enc_count);
+            return -1;
+        }
+    }
+    if (!ctx->is_valid_array) {
+      PyErr_Format(PyExc_ValueError, "Expected %d dimensions, got %d",
+                   ctx->head->field->type->ndim, ndim);
+      return -1;
+    }
+    for (i = 0; i < ctx->head->field->type->ndim; i++) {
+      arraysize *= ctx->head->field->type->arraysize[i];
+    }
+    ctx->is_valid_array = 0;
+    ctx->enc_count = 1;
+  }
+  group = __Pyx_BufFmt_TypeCharToGroup(ctx->enc_type, ctx->is_complex);
+  do {
+    __Pyx_StructField* field = ctx->head->field;
+    __Pyx_TypeInfo* type = field->type;
+    if (ctx->enc_packmode == '@' || ctx->enc_packmode == '^') {
+      size = __Pyx_BufFmt_TypeCharToNativeSize(ctx->enc_type, ctx->is_complex);
+    } else {
+      size = __Pyx_BufFmt_TypeCharToStandardSize(ctx->enc_type, ctx->is_complex);
+    }
+    if (ctx->enc_packmode == '@') {
+      size_t align_at = __Pyx_BufFmt_TypeCharToAlignment(ctx->enc_type, ctx->is_complex);
+      size_t align_mod_offset;
+      if (align_at == 0) return -1;
+      align_mod_offset = ctx->fmt_offset % align_at;
+      if (align_mod_offset > 0) ctx->fmt_offset += align_at - align_mod_offset;
+      if (ctx->struct_alignment == 0)
+          ctx->struct_alignment = __Pyx_BufFmt_TypeCharToPadding(ctx->enc_type,
+                                                                 ctx->is_complex);
+    }
+    if (type->size != size || type->typegroup != group) {
+      if (type->typegroup == 'C' && type->fields != NULL) {
+        size_t parent_offset = ctx->head->parent_offset + field->offset;
+        ++ctx->head;
+        ctx->head->field = type->fields;
+        ctx->head->parent_offset = parent_offset;
+        continue;
+      }
+      if ((type->typegroup == 'H' || group == 'H') && type->size == size) {
+      } else {
+          __Pyx_BufFmt_RaiseExpected(ctx);
+          return -1;
+      }
+    }
+    offset = ctx->head->parent_offset + field->offset;
+    if (ctx->fmt_offset != offset) {
+      PyErr_Format(PyExc_ValueError,
+                   "Buffer dtype mismatch; next field is at offset %" CYTHON_FORMAT_SSIZE_T "d but %" CYTHON_FORMAT_SSIZE_T "d expected",
+                   (Py_ssize_t)ctx->fmt_offset, (Py_ssize_t)offset);
+      return -1;
+    }
+    ctx->fmt_offset += size;
+    if (arraysize)
+      ctx->fmt_offset += (arraysize - 1) * size;
+    --ctx->enc_count;
+    while (1) {
+      if (field == &ctx->root) {
+        ctx->head = NULL;
+        if (ctx->enc_count != 0) {
+          __Pyx_BufFmt_RaiseExpected(ctx);
+          return -1;
+        }
+        break;
+      }
+      ctx->head->field = ++field;
+      if (field->type == NULL) {
+        --ctx->head;
+        field = ctx->head->field;
+        continue;
+      } else if (field->type->typegroup == 'S') {
+        size_t parent_offset = ctx->head->parent_offset + field->offset;
+        if (field->type->fields->type == NULL) continue;
+        field = field->type->fields;
+        ++ctx->head;
+        ctx->head->field = field;
+        ctx->head->parent_offset = parent_offset;
+        break;
+      } else {
+        break;
+      }
+    }
+  } while (ctx->enc_count);
+  ctx->enc_type = 0;
+  ctx->is_complex = 0;
+  return 0;
+}
+static CYTHON_INLINE PyObject *
+__pyx_buffmt_parse_array(__Pyx_BufFmt_Context* ctx, const char** tsp)
+{
+    const char *ts = *tsp;
+    int i = 0, number;
+    int ndim = ctx->head->field->type->ndim;
+;
+    ++ts;
+    if (ctx->new_count != 1) {
+        PyErr_SetString(PyExc_ValueError,
+                        "Cannot handle repeated arrays in format string");
+        return NULL;
+    }
+    if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+    while (*ts && *ts != ')') {
+        switch (*ts) {
+            case ' ': case '\f': case '\r': case '\n': case '\t': case '\v':  continue;
+            default:  break;
+        }
+        number = __Pyx_BufFmt_ExpectNumber(&ts);
+        if (number == -1) return NULL;
+        if (i < ndim && (size_t) number != ctx->head->field->type->arraysize[i])
+            return PyErr_Format(PyExc_ValueError,
+                        "Expected a dimension of size %zu, got %d",
+                        ctx->head->field->type->arraysize[i], number);
+        if (*ts != ',' && *ts != ')')
+            return PyErr_Format(PyExc_ValueError,
+                                "Expected a comma in format string, got '%c'", *ts);
+        if (*ts == ',') ts++;
+        i++;
+    }
+    if (i != ndim)
+        return PyErr_Format(PyExc_ValueError, "Expected %d dimension(s), got %d",
+                            ctx->head->field->type->ndim, i);
+    if (!*ts) {
+        PyErr_SetString(PyExc_ValueError,
+                        "Unexpected end of format string, expected ')'");
+        return NULL;
+    }
+    ctx->is_valid_array = 1;
+    ctx->new_count = 1;
+    *tsp = ++ts;
+    return Py_None;
+}
+static const char* __Pyx_BufFmt_CheckString(__Pyx_BufFmt_Context* ctx, const char* ts) {
+  int got_Z = 0;
+  while (1) {
+    switch(*ts) {
+      case 0:
+        if (ctx->enc_type != 0 && ctx->head == NULL) {
+          __Pyx_BufFmt_RaiseExpected(ctx);
+          return NULL;
+        }
+        if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+        if (ctx->head != NULL) {
+          __Pyx_BufFmt_RaiseExpected(ctx);
+          return NULL;
+        }
+        return ts;
+      case ' ':
+      case '\r':
+      case '\n':
+        ++ts;
+        break;
+      case '<':
+        if (!__Pyx_IsLittleEndian()) {
+          PyErr_SetString(PyExc_ValueError, "Little-endian buffer not supported on big-endian compiler");
+          return NULL;
+        }
+        ctx->new_packmode = '=';
+        ++ts;
+        break;
+      case '>':
+      case '!':
+        if (__Pyx_IsLittleEndian()) {
+          PyErr_SetString(PyExc_ValueError, "Big-endian buffer not supported on little-endian compiler");
+          return NULL;
+        }
+        ctx->new_packmode = '=';
+        ++ts;
+        break;
+      case '=':
+      case '@':
+      case '^':
+        ctx->new_packmode = *ts++;
+        break;
+      case 'T':
+        {
+          const char* ts_after_sub;
+          size_t i, struct_count = ctx->new_count;
+          size_t struct_alignment = ctx->struct_alignment;
+          ctx->new_count = 1;
+          ++ts;
+          if (*ts != '{') {
+            PyErr_SetString(PyExc_ValueError, "Buffer acquisition: Expected '{' after 'T'");
+            return NULL;
+          }
+          if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+          ctx->enc_type = 0;
+          ctx->enc_count = 0;
+          ctx->struct_alignment = 0;
+          ++ts;
+          ts_after_sub = ts;
+          for (i = 0; i != struct_count; ++i) {
+            ts_after_sub = __Pyx_BufFmt_CheckString(ctx, ts);
+            if (!ts_after_sub) return NULL;
+          }
+          ts = ts_after_sub;
+          if (struct_alignment) ctx->struct_alignment = struct_alignment;
+        }
+        break;
+      case '}':
+        {
+          size_t alignment = ctx->struct_alignment;
+          ++ts;
+          if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+          ctx->enc_type = 0;
+          if (alignment && ctx->fmt_offset % alignment) {
+            ctx->fmt_offset += alignment - (ctx->fmt_offset % alignment);
+          }
+        }
+        return ts;
+      case 'x':
+        if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+        ctx->fmt_offset += ctx->new_count;
+        ctx->new_count = 1;
+        ctx->enc_count = 0;
+        ctx->enc_type = 0;
+        ctx->enc_packmode = ctx->new_packmode;
+        ++ts;
+        break;
+      case 'Z':
+        got_Z = 1;
+        ++ts;
+        if (*ts != 'f' && *ts != 'd' && *ts != 'g') {
+          __Pyx_BufFmt_RaiseUnexpectedChar('Z');
+          return NULL;
+        }
+      case 'c': case 'b': case 'B': case 'h': case 'H': case 'i': case 'I':
+      case 'l': case 'L': case 'q': case 'Q':
+      case 'f': case 'd': case 'g':
+      case 'O': case 'p':
+        if (ctx->enc_type == *ts && got_Z == ctx->is_complex &&
+            ctx->enc_packmode == ctx->new_packmode) {
+          ctx->enc_count += ctx->new_count;
+          ctx->new_count = 1;
+          got_Z = 0;
+          ++ts;
+          break;
+        }
+      case 's':
+        if (__Pyx_BufFmt_ProcessTypeChunk(ctx) == -1) return NULL;
+        ctx->enc_count = ctx->new_count;
+        ctx->enc_packmode = ctx->new_packmode;
+        ctx->enc_type = *ts;
+        ctx->is_complex = got_Z;
+        ++ts;
+        ctx->new_count = 1;
+        got_Z = 0;
+        break;
+      case ':':
+        ++ts;
+        while(*ts != ':') ++ts;
+        ++ts;
+        break;
+      case '(':
+        if (!__pyx_buffmt_parse_array(ctx, &ts)) return NULL;
+        break;
+      default:
+        {
+          int number = __Pyx_BufFmt_ExpectNumber(&ts);
+          if (number == -1) return NULL;
+          ctx->new_count = (size_t)number;
+        }
+    }
+  }
+}
+static CYTHON_INLINE void __Pyx_ZeroBuffer(Py_buffer* buf) {
+  buf->buf = NULL;
+  buf->obj = NULL;
+  buf->strides = __Pyx_zeros;
+  buf->shape = __Pyx_zeros;
+  buf->suboffsets = __Pyx_minusones;
+}
+static CYTHON_INLINE int __Pyx_GetBufferAndValidate(
+        Py_buffer* buf, PyObject* obj,  __Pyx_TypeInfo* dtype, int flags,
+        int nd, int cast, __Pyx_BufFmt_StackElem* stack)
+{
+  if (obj == Py_None || obj == NULL) {
+    __Pyx_ZeroBuffer(buf);
+    return 0;
+  }
+  buf->buf = NULL;
+  if (__Pyx_GetBuffer(obj, buf, flags) == -1) goto fail;
+  if (buf->ndim != nd) {
+    PyErr_Format(PyExc_ValueError,
+                 "Buffer has wrong number of dimensions (expected %d, got %d)",
+                 nd, buf->ndim);
+    goto fail;
+  }
+  if (!cast) {
+    __Pyx_BufFmt_Context ctx;
+    __Pyx_BufFmt_Init(&ctx, stack, dtype);
+    if (!__Pyx_BufFmt_CheckString(&ctx, buf->format)) goto fail;
+  }
+  if ((unsigned)buf->itemsize != dtype->size) {
+    PyErr_Format(PyExc_ValueError,
+      "Item size of buffer (%" CYTHON_FORMAT_SSIZE_T "d byte%s) does not match size of '%s' (%" CYTHON_FORMAT_SSIZE_T "d byte%s)",
+      buf->itemsize, (buf->itemsize > 1) ? "s" : "",
+      dtype->name, (Py_ssize_t)dtype->size, (dtype->size > 1) ? "s" : "");
+    goto fail;
+  }
+  if (buf->suboffsets == NULL) buf->suboffsets = __Pyx_minusones;
+  return 0;
+fail:;
+  __Pyx_ZeroBuffer(buf);
+  return -1;
+}
+static CYTHON_INLINE void __Pyx_SafeReleaseBuffer(Py_buffer* info) {
+  if (info->buf == NULL) return;
+  if (info->suboffsets == __Pyx_minusones) info->suboffsets = NULL;
+  __Pyx_ReleaseBuffer(info);
+}
+
+/* PyObjectCallMethO */
+      #if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg) {
+    PyObject *self, *result;
+    PyCFunction cfunc;
+    cfunc = PyCFunction_GET_FUNCTION(func);
+    self = PyCFunction_GET_SELF(func);
+    if (unlikely(Py_EnterRecursiveCall((char*)" while calling a Python object")))
+        return NULL;
+    result = cfunc(self, arg);
+    Py_LeaveRecursiveCall();
+    if (unlikely(!result) && unlikely(!PyErr_Occurred())) {
+        PyErr_SetString(
+            PyExc_SystemError,
+            "NULL result without error in PyObject_Call");
+    }
+    return result;
+}
+#endif
+
+/* PyObjectCallOneArg */
+      #if CYTHON_COMPILING_IN_CPYTHON
+static PyObject* __Pyx__PyObject_CallOneArg(PyObject *func, PyObject *arg) {
+    PyObject *result;
+    PyObject *args = PyTuple_New(1);
+    if (unlikely(!args)) return NULL;
+    Py_INCREF(arg);
+    PyTuple_SET_ITEM(args, 0, arg);
+    result = __Pyx_PyObject_Call(func, args, NULL);
+    Py_DECREF(args);
+    return result;
+}
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg) {
+#ifdef __Pyx_CyFunction_USED
+    if (likely(PyCFunction_Check(func) || PyObject_TypeCheck(func, __pyx_CyFunctionType))) {
+#else
+    if (likely(PyCFunction_Check(func))) {
+#endif
+        if (likely(PyCFunction_GET_FLAGS(func) & METH_O)) {
+            return __Pyx_PyObject_CallMethO(func, arg);
+        }
+    }
+    return __Pyx__PyObject_CallOneArg(func, arg);
+}
+#else
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg) {
+    PyObject *result;
+    PyObject *args = PyTuple_Pack(1, arg);
+    if (unlikely(!args)) return NULL;
+    result = __Pyx_PyObject_Call(func, args, NULL);
+    Py_DECREF(args);
+    return result;
+}
+#endif
+
+/* BytesEquals */
+        static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals) {
+#if CYTHON_COMPILING_IN_PYPY
+    return PyObject_RichCompareBool(s1, s2, equals);
+#else
+    if (s1 == s2) {
+        return (equals == Py_EQ);
+    } else if (PyBytes_CheckExact(s1) & PyBytes_CheckExact(s2)) {
+        const char *ps1, *ps2;
+        Py_ssize_t length = PyBytes_GET_SIZE(s1);
+        if (length != PyBytes_GET_SIZE(s2))
+            return (equals == Py_NE);
+        ps1 = PyBytes_AS_STRING(s1);
+        ps2 = PyBytes_AS_STRING(s2);
+        if (ps1[0] != ps2[0]) {
+            return (equals == Py_NE);
+        } else if (length == 1) {
+            return (equals == Py_EQ);
+        } else {
+            int result = memcmp(ps1, ps2, (size_t)length);
+            return (equals == Py_EQ) ? (result == 0) : (result != 0);
+        }
+    } else if ((s1 == Py_None) & PyBytes_CheckExact(s2)) {
+        return (equals == Py_NE);
+    } else if ((s2 == Py_None) & PyBytes_CheckExact(s1)) {
+        return (equals == Py_NE);
+    } else {
+        int result;
+        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
+        if (!py_result)
+            return -1;
+        result = __Pyx_PyObject_IsTrue(py_result);
+        Py_DECREF(py_result);
+        return result;
+    }
+#endif
+}
+
+/* UnicodeEquals */
+        static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals) {
+#if CYTHON_COMPILING_IN_PYPY
+    return PyObject_RichCompareBool(s1, s2, equals);
+#else
+#if PY_MAJOR_VERSION < 3
+    PyObject* owned_ref = NULL;
+#endif
+    int s1_is_unicode, s2_is_unicode;
+    if (s1 == s2) {
+        goto return_eq;
+    }
+    s1_is_unicode = PyUnicode_CheckExact(s1);
+    s2_is_unicode = PyUnicode_CheckExact(s2);
+#if PY_MAJOR_VERSION < 3
+    if ((s1_is_unicode & (!s2_is_unicode)) && PyString_CheckExact(s2)) {
+        owned_ref = PyUnicode_FromObject(s2);
+        if (unlikely(!owned_ref))
+            return -1;
+        s2 = owned_ref;
+        s2_is_unicode = 1;
+    } else if ((s2_is_unicode & (!s1_is_unicode)) && PyString_CheckExact(s1)) {
+        owned_ref = PyUnicode_FromObject(s1);
+        if (unlikely(!owned_ref))
+            return -1;
+        s1 = owned_ref;
+        s1_is_unicode = 1;
+    } else if (((!s2_is_unicode) & (!s1_is_unicode))) {
+        return __Pyx_PyBytes_Equals(s1, s2, equals);
+    }
+#endif
+    if (s1_is_unicode & s2_is_unicode) {
+        Py_ssize_t length;
+        int kind;
+        void *data1, *data2;
+        if (unlikely(__Pyx_PyUnicode_READY(s1) < 0) || unlikely(__Pyx_PyUnicode_READY(s2) < 0))
+            return -1;
+        length = __Pyx_PyUnicode_GET_LENGTH(s1);
+        if (length != __Pyx_PyUnicode_GET_LENGTH(s2)) {
+            goto return_ne;
+        }
+        kind = __Pyx_PyUnicode_KIND(s1);
+        if (kind != __Pyx_PyUnicode_KIND(s2)) {
+            goto return_ne;
+        }
+        data1 = __Pyx_PyUnicode_DATA(s1);
+        data2 = __Pyx_PyUnicode_DATA(s2);
+        if (__Pyx_PyUnicode_READ(kind, data1, 0) != __Pyx_PyUnicode_READ(kind, data2, 0)) {
+            goto return_ne;
+        } else if (length == 1) {
+            goto return_eq;
+        } else {
+            int result = memcmp(data1, data2, (size_t)(length * kind));
+            #if PY_MAJOR_VERSION < 3
+            Py_XDECREF(owned_ref);
+            #endif
+            return (equals == Py_EQ) ? (result == 0) : (result != 0);
+        }
+    } else if ((s1 == Py_None) & s2_is_unicode) {
+        goto return_ne;
+    } else if ((s2 == Py_None) & s1_is_unicode) {
+        goto return_ne;
+    } else {
+        int result;
+        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
+        if (!py_result)
+            return -1;
+        result = __Pyx_PyObject_IsTrue(py_result);
+        Py_DECREF(py_result);
+        return result;
+    }
+return_eq:
+    #if PY_MAJOR_VERSION < 3
+    Py_XDECREF(owned_ref);
+    #endif
+    return (equals == Py_EQ);
+return_ne:
+    #if PY_MAJOR_VERSION < 3
+    Py_XDECREF(owned_ref);
+    #endif
+    return (equals == Py_NE);
+#endif
+}
+
+/* RaiseTooManyValuesToUnpack */
+        static CYTHON_INLINE void __Pyx_RaiseTooManyValuesError(Py_ssize_t expected) {
+    PyErr_Format(PyExc_ValueError,
+                 "too many values to unpack (expected %" CYTHON_FORMAT_SSIZE_T "d)", expected);
+}
+
+/* RaiseNeedMoreValuesToUnpack */
+        static CYTHON_INLINE void __Pyx_RaiseNeedMoreValuesError(Py_ssize_t index) {
+    PyErr_Format(PyExc_ValueError,
+                 "need more than %" CYTHON_FORMAT_SSIZE_T "d value%.1s to unpack",
+                 index, (index == 1) ? "" : "s");
+}
+
+/* RaiseNoneIterError */
+        static CYTHON_INLINE void __Pyx_RaiseNoneNotIterableError(void) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not iterable");
+}
+
 /* Import */
-  static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
+        static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
     PyObject *empty_list = 0;
     PyObject *module = 0;
     PyObject *global_dict = 0;
@@ -4942,8 +7216,22 @@ bad:
     return module;
 }
 
+/* ImportFrom */
+        static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
+    PyObject* value = __Pyx_PyObject_GetAttrStr(module, name);
+    if (unlikely(!value) && PyErr_ExceptionMatches(PyExc_AttributeError)) {
+        PyErr_Format(PyExc_ImportError,
+        #if PY_MAJOR_VERSION < 3
+            "cannot import name %.230s", PyString_AS_STRING(name));
+        #else
+            "cannot import name %S", name);
+        #endif
+    }
+    return value;
+}
+
 /* CodeObjectCache */
-  static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {
+        static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {
     int start = 0, mid = 0, end = count - 1;
     if (end >= 0 && code_line > entries[end].code_line) {
         return count;
@@ -5023,7 +7311,7 @@ static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object) {
 }
 
 /* AddTraceback */
-  #include "compile.h"
+        #include "compile.h"
 #include "frameobject.h"
 #include "traceback.h"
 static PyCodeObject* __Pyx_CreateCodeObjectForTraceback(
@@ -5103,8 +7391,29 @@ bad:
     Py_XDECREF(py_frame);
 }
 
-/* CIntFromPyVerify */
-  #define __PYX_VERIFY_RETURN_INT(target_type, func_type, func_value)\
+#if PY_MAJOR_VERSION < 3
+static int __Pyx_GetBuffer(PyObject *obj, Py_buffer *view, int flags) {
+    if (PyObject_CheckBuffer(obj)) return PyObject_GetBuffer(obj, view, flags);
+        if (PyObject_TypeCheck(obj, __pyx_ptype_5numpy_ndarray)) return __pyx_pw_5numpy_7ndarray_1__getbuffer__(obj, view, flags);
+    PyErr_Format(PyExc_TypeError, "'%.200s' does not have the buffer interface", Py_TYPE(obj)->tp_name);
+    return -1;
+}
+static void __Pyx_ReleaseBuffer(Py_buffer *view) {
+    PyObject *obj = view->obj;
+    if (!obj) return;
+    if (PyObject_CheckBuffer(obj)) {
+        PyBuffer_Release(view);
+        return;
+    }
+        if (PyObject_TypeCheck(obj, __pyx_ptype_5numpy_ndarray)) { __pyx_pw_5numpy_7ndarray_3__releasebuffer__(obj, view); return; }
+    Py_DECREF(obj);
+    view->obj = NULL;
+}
+#endif
+
+
+        /* CIntFromPyVerify */
+        #define __PYX_VERIFY_RETURN_INT(target_type, func_type, func_value)\
     __PYX__VERIFY_RETURN_INT(target_type, func_type, func_value, 0)
 #define __PYX_VERIFY_RETURN_INT_EXC(target_type, func_type, func_value)\
     __PYX__VERIFY_RETURN_INT(target_type, func_type, func_value, 1)
@@ -5125,8 +7434,35 @@ bad:
         return (target_type) value;\
     }
 
+/* CIntToPy */
+        static CYTHON_INLINE PyObject* __Pyx_PyInt_From_npy_long(npy_long value) {
+    const npy_long neg_one = (npy_long) -1, const_zero = (npy_long) 0;
+    const int is_unsigned = neg_one > const_zero;
+    if (is_unsigned) {
+        if (sizeof(npy_long) < sizeof(long)) {
+            return PyInt_FromLong((long) value);
+        } else if (sizeof(npy_long) <= sizeof(unsigned long)) {
+            return PyLong_FromUnsignedLong((unsigned long) value);
+        } else if (sizeof(npy_long) <= sizeof(unsigned PY_LONG_LONG)) {
+            return PyLong_FromUnsignedLongLong((unsigned PY_LONG_LONG) value);
+        }
+    } else {
+        if (sizeof(npy_long) <= sizeof(long)) {
+            return PyInt_FromLong((long) value);
+        } else if (sizeof(npy_long) <= sizeof(PY_LONG_LONG)) {
+            return PyLong_FromLongLong((PY_LONG_LONG) value);
+        }
+    }
+    {
+        int one = 1; int little = (int)*(unsigned char *)&one;
+        unsigned char *bytes = (unsigned char *)&value;
+        return _PyLong_FromByteArray(bytes, sizeof(npy_long),
+                                     little, !is_unsigned);
+    }
+}
+
 /* None */
-  #if CYTHON_CCOMPLEX
+        #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
     static CYTHON_INLINE __pyx_t_float_complex __pyx_t_float_complex_from_parts(float x, float y) {
       return ::std::complex< float >(x, y);
@@ -5146,7 +7482,7 @@ bad:
 #endif
 
 /* None */
-  #if CYTHON_CCOMPLEX
+        #if CYTHON_CCOMPLEX
 #else
     static CYTHON_INLINE int __Pyx_c_eqf(__pyx_t_float_complex a, __pyx_t_float_complex b) {
        return (a.real == b.real) && (a.imag == b.imag);
@@ -5248,7 +7584,7 @@ bad:
 #endif
 
 /* None */
-  #if CYTHON_CCOMPLEX
+        #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
     static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(double x, double y) {
       return ::std::complex< double >(x, y);
@@ -5268,7 +7604,7 @@ bad:
 #endif
 
 /* None */
-  #if CYTHON_CCOMPLEX
+        #if CYTHON_CCOMPLEX
 #else
     static CYTHON_INLINE int __Pyx_c_eq(__pyx_t_double_complex a, __pyx_t_double_complex b) {
        return (a.real == b.real) && (a.imag == b.imag);
@@ -5370,7 +7706,7 @@ bad:
 #endif
 
 /* CIntToPy */
-  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {
+        static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {
     const int neg_one = (int) -1, const_zero = (int) 0;
     const int is_unsigned = neg_one > const_zero;
     if (is_unsigned) {
@@ -5397,7 +7733,7 @@ bad:
 }
 
 /* CIntToPy */
-  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value) {
+        static CYTHON_INLINE PyObject* __Pyx_PyInt_From_enum__NPY_TYPES(enum NPY_TYPES value) {
     const enum NPY_TYPES neg_one = (enum NPY_TYPES) -1, const_zero = (enum NPY_TYPES) 0;
     const int is_unsigned = neg_one > const_zero;
     if (is_unsigned) {
@@ -5424,7 +7760,192 @@ bad:
 }
 
 /* CIntFromPy */
-  static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {
+        static CYTHON_INLINE npy_long __Pyx_PyInt_As_npy_long(PyObject *x) {
+    const npy_long neg_one = (npy_long) -1, const_zero = (npy_long) 0;
+    const int is_unsigned = neg_one > const_zero;
+#if PY_MAJOR_VERSION < 3
+    if (likely(PyInt_Check(x))) {
+        if (sizeof(npy_long) < sizeof(long)) {
+            __PYX_VERIFY_RETURN_INT(npy_long, long, PyInt_AS_LONG(x))
+        } else {
+            long val = PyInt_AS_LONG(x);
+            if (is_unsigned && unlikely(val < 0)) {
+                goto raise_neg_overflow;
+            }
+            return (npy_long) val;
+        }
+    } else
+#endif
+    if (likely(PyLong_Check(x))) {
+        if (is_unsigned) {
+#if CYTHON_USE_PYLONG_INTERNALS
+            const digit* digits = ((PyLongObject*)x)->ob_digit;
+            switch (Py_SIZE(x)) {
+                case  0: return (npy_long) 0;
+                case  1: __PYX_VERIFY_RETURN_INT(npy_long, digit, digits[0])
+                case 2:
+                    if (8 * sizeof(npy_long) > 1 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 2 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) >= 2 * PyLong_SHIFT) {
+                            return (npy_long) (((((npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0]));
+                        }
+                    }
+                    break;
+                case 3:
+                    if (8 * sizeof(npy_long) > 2 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 3 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((((unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) >= 3 * PyLong_SHIFT) {
+                            return (npy_long) (((((((npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0]));
+                        }
+                    }
+                    break;
+                case 4:
+                    if (8 * sizeof(npy_long) > 3 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 4 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((((((unsigned long)digits[3]) << PyLong_SHIFT) | (unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) >= 4 * PyLong_SHIFT) {
+                            return (npy_long) (((((((((npy_long)digits[3]) << PyLong_SHIFT) | (npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0]));
+                        }
+                    }
+                    break;
+            }
+#endif
+#if CYTHON_COMPILING_IN_CPYTHON
+            if (unlikely(Py_SIZE(x) < 0)) {
+                goto raise_neg_overflow;
+            }
+#else
+            {
+                int result = PyObject_RichCompareBool(x, Py_False, Py_LT);
+                if (unlikely(result < 0))
+                    return (npy_long) -1;
+                if (unlikely(result == 1))
+                    goto raise_neg_overflow;
+            }
+#endif
+            if (sizeof(npy_long) <= sizeof(unsigned long)) {
+                __PYX_VERIFY_RETURN_INT_EXC(npy_long, unsigned long, PyLong_AsUnsignedLong(x))
+            } else if (sizeof(npy_long) <= sizeof(unsigned PY_LONG_LONG)) {
+                __PYX_VERIFY_RETURN_INT_EXC(npy_long, unsigned PY_LONG_LONG, PyLong_AsUnsignedLongLong(x))
+            }
+        } else {
+#if CYTHON_USE_PYLONG_INTERNALS
+            const digit* digits = ((PyLongObject*)x)->ob_digit;
+            switch (Py_SIZE(x)) {
+                case  0: return (npy_long) 0;
+                case -1: __PYX_VERIFY_RETURN_INT(npy_long, sdigit, (sdigit) (-(sdigit)digits[0]))
+                case  1: __PYX_VERIFY_RETURN_INT(npy_long,  digit, +digits[0])
+                case -2:
+                    if (8 * sizeof(npy_long) - 1 > 1 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 2 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, long, -(long) (((((unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 2 * PyLong_SHIFT) {
+                            return (npy_long) (((npy_long)-1)*(((((npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+                case 2:
+                    if (8 * sizeof(npy_long) > 1 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 2 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 2 * PyLong_SHIFT) {
+                            return (npy_long) ((((((npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+                case -3:
+                    if (8 * sizeof(npy_long) - 1 > 2 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 3 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, long, -(long) (((((((unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 3 * PyLong_SHIFT) {
+                            return (npy_long) (((npy_long)-1)*(((((((npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+                case 3:
+                    if (8 * sizeof(npy_long) > 2 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 3 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((((unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 3 * PyLong_SHIFT) {
+                            return (npy_long) ((((((((npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+                case -4:
+                    if (8 * sizeof(npy_long) - 1 > 3 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 4 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, long, -(long) (((((((((unsigned long)digits[3]) << PyLong_SHIFT) | (unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 4 * PyLong_SHIFT) {
+                            return (npy_long) (((npy_long)-1)*(((((((((npy_long)digits[3]) << PyLong_SHIFT) | (npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+                case 4:
+                    if (8 * sizeof(npy_long) > 3 * PyLong_SHIFT) {
+                        if (8 * sizeof(unsigned long) > 4 * PyLong_SHIFT) {
+                            __PYX_VERIFY_RETURN_INT(npy_long, unsigned long, (((((((((unsigned long)digits[3]) << PyLong_SHIFT) | (unsigned long)digits[2]) << PyLong_SHIFT) | (unsigned long)digits[1]) << PyLong_SHIFT) | (unsigned long)digits[0])))
+                        } else if (8 * sizeof(npy_long) - 1 > 4 * PyLong_SHIFT) {
+                            return (npy_long) ((((((((((npy_long)digits[3]) << PyLong_SHIFT) | (npy_long)digits[2]) << PyLong_SHIFT) | (npy_long)digits[1]) << PyLong_SHIFT) | (npy_long)digits[0])));
+                        }
+                    }
+                    break;
+            }
+#endif
+            if (sizeof(npy_long) <= sizeof(long)) {
+                __PYX_VERIFY_RETURN_INT_EXC(npy_long, long, PyLong_AsLong(x))
+            } else if (sizeof(npy_long) <= sizeof(PY_LONG_LONG)) {
+                __PYX_VERIFY_RETURN_INT_EXC(npy_long, PY_LONG_LONG, PyLong_AsLongLong(x))
+            }
+        }
+        {
+#if CYTHON_COMPILING_IN_PYPY && !defined(_PyLong_AsByteArray)
+            PyErr_SetString(PyExc_RuntimeError,
+                            "_PyLong_AsByteArray() not available in PyPy, cannot convert large numbers");
+#else
+            npy_long val;
+            PyObject *v = __Pyx_PyNumber_IntOrLong(x);
+ #if PY_MAJOR_VERSION < 3
+            if (likely(v) && !PyLong_Check(v)) {
+                PyObject *tmp = v;
+                v = PyNumber_Long(tmp);
+                Py_DECREF(tmp);
+            }
+ #endif
+            if (likely(v)) {
+                int one = 1; int is_little = (int)*(unsigned char *)&one;
+                unsigned char *bytes = (unsigned char *)&val;
+                int ret = _PyLong_AsByteArray((PyLongObject *)v,
+                                              bytes, sizeof(val),
+                                              is_little, !is_unsigned);
+                Py_DECREF(v);
+                if (likely(!ret))
+                    return val;
+            }
+#endif
+            return (npy_long) -1;
+        }
+    } else {
+        npy_long val;
+        PyObject *tmp = __Pyx_PyNumber_IntOrLong(x);
+        if (!tmp) return (npy_long) -1;
+        val = __Pyx_PyInt_As_npy_long(tmp);
+        Py_DECREF(tmp);
+        return val;
+    }
+raise_overflow:
+    PyErr_SetString(PyExc_OverflowError,
+        "value too large to convert to npy_long");
+    return (npy_long) -1;
+raise_neg_overflow:
+    PyErr_SetString(PyExc_OverflowError,
+        "can't convert negative value to npy_long");
+    return (npy_long) -1;
+}
+
+/* CIntFromPy */
+        static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {
     const int neg_one = (int) -1, const_zero = (int) 0;
     const int is_unsigned = neg_one > const_zero;
 #if PY_MAJOR_VERSION < 3
@@ -5609,7 +8130,7 @@ raise_neg_overflow:
 }
 
 /* CIntToPy */
-  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
+        static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
     const long neg_one = (long) -1, const_zero = (long) 0;
     const int is_unsigned = neg_one > const_zero;
     if (is_unsigned) {
@@ -5636,7 +8157,7 @@ raise_neg_overflow:
 }
 
 /* CIntFromPy */
-  static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {
+        static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {
     const long neg_one = (long) -1, const_zero = (long) 0;
     const int is_unsigned = neg_one > const_zero;
 #if PY_MAJOR_VERSION < 3
@@ -5821,7 +8342,7 @@ raise_neg_overflow:
 }
 
 /* CheckBinaryVersion */
-  static int __Pyx_check_binary_version(void) {
+        static int __Pyx_check_binary_version(void) {
     char ctversion[4], rtversion[4];
     PyOS_snprintf(ctversion, 4, "%d.%d", PY_MAJOR_VERSION, PY_MINOR_VERSION);
     PyOS_snprintf(rtversion, 4, "%s", Py_GetVersion());
@@ -5836,8 +8357,45 @@ raise_neg_overflow:
     return 0;
 }
 
+/* FunctionExport */
+        static int __Pyx_ExportFunction(const char *name, void (*f)(void), const char *sig) {
+    PyObject *d = 0;
+    PyObject *cobj = 0;
+    union {
+        void (*fp)(void);
+        void *p;
+    } tmp;
+    d = PyObject_GetAttrString(__pyx_m, (char *)"__pyx_capi__");
+    if (!d) {
+        PyErr_Clear();
+        d = PyDict_New();
+        if (!d)
+            goto bad;
+        Py_INCREF(d);
+        if (PyModule_AddObject(__pyx_m, (char *)"__pyx_capi__", d) < 0)
+            goto bad;
+    }
+    tmp.fp = f;
+#if PY_VERSION_HEX >= 0x02070000
+    cobj = PyCapsule_New(tmp.p, sig, 0);
+#else
+    cobj = PyCObject_FromVoidPtrAndDesc(tmp.p, (void *)sig, 0);
+#endif
+    if (!cobj)
+        goto bad;
+    if (PyDict_SetItemString(d, name, cobj) < 0)
+        goto bad;
+    Py_DECREF(cobj);
+    Py_DECREF(d);
+    return 0;
+bad:
+    Py_XDECREF(cobj);
+    Py_XDECREF(d);
+    return -1;
+}
+
 /* ModuleImport */
-  #ifndef __PYX_HAVE_RT_ImportModule
+        #ifndef __PYX_HAVE_RT_ImportModule
 #define __PYX_HAVE_RT_ImportModule
 static PyObject *__Pyx_ImportModule(const char *name) {
     PyObject *py_name = 0;
@@ -5855,7 +8413,7 @@ bad:
 #endif
 
 /* TypeImport */
-  #ifndef __PYX_HAVE_RT_ImportType
+        #ifndef __PYX_HAVE_RT_ImportType
 #define __PYX_HAVE_RT_ImportType
 static PyTypeObject *__Pyx_ImportType(const char *module_name, const char *class_name,
     size_t size, int strict)
@@ -5920,7 +8478,7 @@ bad:
 #endif
 
 /* InitStrings */
-  static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {
+        static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {
     while (t->p) {
         #if PY_MAJOR_VERSION < 3
         if (t->is_unicode) {
