@@ -82,6 +82,10 @@ class KNeighborsRegressor(NeighborsBase, KNeighborsMixin,
         If ``-1``, then the number of jobs is set to the number of CPU cores.
         Doesn't affect :meth:`fit` method.
 
+    multiplicity : callable (default is None) callable returns multiplicity of samples
+                   by indeces (i.e. function from 1D np.array of integers to np.array
+                   of integers with same shape). Each sample is assumed uniqueue if None.
+
     Examples
     --------
     >>> X = [[0], [1], [2], [3]]
@@ -118,12 +122,15 @@ class KNeighborsRegressor(NeighborsBase, KNeighborsMixin,
     def __init__(self, n_neighbors=5, weights='uniform',
                  algorithm='auto', leaf_size=30,
                  p=2, metric='minkowski', metric_params=None, n_jobs=1,
+                 multiplicity=None,
                  **kwargs):
         self._init_params(n_neighbors=n_neighbors,
                           algorithm=algorithm,
                           leaf_size=leaf_size, metric=metric, p=p,
-                          metric_params=metric_params, n_jobs=n_jobs, **kwargs)
+                          metric_params=metric_params, n_jobs=n_jobs, 
+                          **kwargs)
         self.weights = _check_weights(weights)
+        self.multiplicity = multiplicity
 
     def predict(self, X):
         """Predict the target for the provided data
@@ -142,6 +149,18 @@ class KNeighborsRegressor(NeighborsBase, KNeighborsMixin,
         X = check_array(X, accept_sparse='csr')
 
         neigh_dist, neigh_ind = self.kneighbors(X)
+
+        repeated_dist = []
+        repeated_ind = []
+
+        if self.multiplicity:
+            mult = self.multiplicity(neigh_ind)
+            for i in range(mult.shape[0]):
+                repeated_dist.append(np.repeat(neigh_dist[i,:], mult[i, :])[:self.n_neighbors])
+                repeated_ind.append(np.repeat(neigh_ind[i,:], mult[i, :])[:self.n_neighbors])
+
+            neigh_dist = np.vstack(repeated_dist)
+            neigh_ind = np.vstack(repeated_ind)
 
         weights = _get_weights(neigh_dist, neigh_ind, self.weights)
 
