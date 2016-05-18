@@ -197,7 +197,7 @@ class KNeighborsClassifier(NeighborsBase, KNeighborsMixin,
 
         n_samples = X.shape[0]
 
-        weights = _get_weights(neigh_dist, self.weights)
+        weights = _get_weights(neigh_dist, neigh_ind, self.weights)
         if weights is None:
             weights = np.ones_like(neigh_ind)
 

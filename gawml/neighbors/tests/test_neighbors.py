@@ -44,7 +44,7 @@ neighbors.radius_neighbors_graph = ignore_warnings(
     neighbors.radius_neighbors_graph)
 
 
-def _weight_func(dist):
+def _weight_func(dist, indeces=None):
     """ Weight function to replace lambda d: d ** -2.
     The lambda function is not valid because:
     if d==0 then 0^-2 is not valid. """

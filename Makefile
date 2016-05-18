@@ -30,15 +30,15 @@ inplace:
 	$(PYTHON) setup.py build_ext -i
 
 trailing-spaces:
-	find gaw -name "*.py" -exec perl -pi -e 's/[ \t]*$$//' {} \;
+	find gawml -name "*.py" -exec perl -pi -e 's/[ \t]*$$//' {} \;
 
 cython:
-	python build_tools/cythonize.py gaw
+	python build_tools/cythonize.py gawml
 
 ctags:
 	# make tags for symbol based navigation in emacs and vim
 	# Install with: sudo apt-get install exuberant-ctags
-	$(CTAGS) --python-kinds=-i -R gaw
+	$(CTAGS) --python-kinds=-i -R gawml
 
 doc: inplace
 	$(MAKE) -C doc html

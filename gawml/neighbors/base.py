@@ -55,7 +55,7 @@ def _check_weights(weights):
                          "'distance', or a callable function")
 
 
-def _get_weights(dist, weights):
+def _get_weights(dist, indeces, weights):
     """Get the weights from an array of distances and a parameter ``weights``
 
     Parameters
@@ -93,7 +93,7 @@ def _get_weights(dist, weights):
             dist[inf_row] = inf_mask[inf_row]
         return dist
     elif callable(weights):
-        return weights(dist)
+        return weights(dist, indeces)
     else:
         raise ValueError("weights not recognized: should be 'uniform', "
                          "'distance', or a callable function")

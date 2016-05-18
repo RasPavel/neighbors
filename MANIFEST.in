@@ -1,4 +1,4 @@
 include *.rst
-recursive-include gaw *.c *.h *.pyx *.pxd *.pxi
+recursive-include gawml *.c *.h *.pyx *.pxd *.pxi
 include README.rst
 

@@ -143,7 +143,7 @@ class KNeighborsRegressor(NeighborsBase, KNeighborsMixin,
 
         neigh_dist, neigh_ind = self.kneighbors(X)
 
-        weights = _get_weights(neigh_dist, self.weights)
+        weights = _get_weights(neigh_dist, neigh_ind, self.weights)
 
         _y = self._y
         if _y.ndim == 1:
@@ -281,7 +281,7 @@ class RadiusNeighborsRegressor(NeighborsBase, RadiusNeighborsMixin,
 
         neigh_dist, neigh_ind = self.radius_neighbors(X)
 
-        weights = _get_weights(neigh_dist, self.weights)
+        weights = _get_weights(neigh_dist, neigh_ind, self.weights)
 
         _y = self._y
         if _y.ndim == 1:

@@ -12,7 +12,7 @@ def configuration(parent_package='', top_path=None):
     if os.name == 'posix':
         libraries.append('m')
 
-    config = Configuration('gaw', parent_package, top_path)
+    config = Configuration('gawml', parent_package, top_path)
     
     config.add_subpackage('externals')
     config.add_subpackage('neighbors')
