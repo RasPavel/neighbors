@@ -1121,3 +1121,68 @@ cdef class PyFuncDistance(DistanceMetric):
 
 cdef inline double fmax(double a, double b) nogil:
     return max(a, b)
+
+
+cdef class CompositeDistance(DistanceMetric):
+    """ Linear combination of metrics with positive coefficients
+
+    Triangle inequality (t. i.) holds since each component of composite metric is a metric, thus
+    t.i. is satisfied for each component.
+
+    It is strightforward to show correctness of other metric properties
+
+    Parameters
+    ----------
+    metrics : iterable
+        tri-tuple of (metric, its weight, first index, last)
+    """
+
+    cdef public object metrics
+
+    def __init__(self, metrics):
+       self.metrics = metrics
+
+    cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) except -1 with gil:
+
+        cdef DTYPE_t d = 0
+        cdef DTYPE_t* x_1_slice_beg = x1
+        cdef DTYPE_t* x_2_slice_beg = x2
+        cdef int slice_size = 0
+
+        cdef DistanceMetric metric
+        cdef DTYPE_t weight
+        cdef int beg, end
+
+        with gil:
+            for metric, weight, beg, end in self.metrics:
+                slice_size = end - beg
+
+                x_1_slice_beg = x1 + beg
+                x_2_slice_beg = x2 + beg
+
+                d += weight * metric.dist(x_1_slice_beg, x_2_slice_beg, slice_size)
+
+        return d
+
+    cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) except -1 with gil:
+
+        cdef DTYPE_t d = 0
+        cdef DTYPE_t* x_1_slice_beg = x1
+        cdef DTYPE_t* x_2_slice_beg = x2
+        cdef int slice_size = 0
+
+        cdef DistanceMetric metric
+        cdef DTYPE_t weight
+        cdef int beg, end
+
+        with gil:
+            for metric, weight, beg, end in self.metrics:
+                slice_size = end - beg
+
+                x_1_slice_beg = x1 + beg
+                x_2_slice_beg = x2 + beg
+
+                d += weight * metric.rdist(x_1_slice_beg, x_2_slice_beg, slice_size)
+
+        return d
+
