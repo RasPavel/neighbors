@@ -1,4 +1,4 @@
-Distance metrics for FB model
+Distance metrics for RPC model
 
 Almost ctrl-c ctrl-v from sklearn
 
