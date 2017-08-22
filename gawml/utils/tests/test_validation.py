@@ -9,24 +9,24 @@ import numpy as np
 from numpy.testing import assert_array_equal
 import scipy.sparse as sp
 
-from sklearn.utils.testing import assert_true, assert_false, assert_equal
-from sklearn.utils.testing import assert_raises, assert_raises_regexp
-from sklearn.utils.testing import assert_no_warnings
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.testing import SkipTest
-from sklearn.utils import as_float_array, check_array, check_symmetric
-from sklearn.utils import check_X_y
-from sklearn.utils.mocking import MockDataFrame
-from sklearn.utils.estimator_checks import NotAnArray
-from sklearn.random_projection import sparse_random_matrix
+from gawml.utils.testing import assert_true, assert_false, assert_equal
+from gawml.utils.testing import assert_raises, assert_raises_regexp
+from gawml.utils.testing import assert_no_warnings
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.testing import SkipTest
+from gawml.utils import as_float_array, check_array, check_symmetric
+from gawml.utils import check_X_y
+from gawml.utils.mocking import MockDataFrame
+from gawml.utils.estimator_checks import NotAnArray
+from gawml.random_projection import sparse_random_matrix
 from sklearn.linear_model import ARDRegression
-from sklearn.neighbors import KNeighborsClassifier
+from gawml.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.svm import SVR
 from sklearn.datasets import make_blobs
-from sklearn.utils.validation import (
+from gawml.utils.validation import (
     has_fit_parameter,
     check_is_fitted,
     check_consistent_length,
@@ -34,10 +34,10 @@ from sklearn.utils.validation import (
 )
 import sklearn
 
-from sklearn.exceptions import NotFittedError
-from sklearn.exceptions import DataConversionWarning
+from gawml.exceptions import NotFittedError
+from gawml.exceptions import DataConversionWarning
 
-from sklearn.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_raise_message
 
 def test_as_float_array():
     # Test function for as_float_array

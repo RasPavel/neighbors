@@ -2,8 +2,8 @@ from __future__ import division
 
 import numpy as np
 
-from sklearn.utils.linear_assignment_ import linear_assignment
-from sklearn.utils.validation import check_consistent_length, check_array
+from gawml.utils.linear_assignment_ import linear_assignment
+from gawml.utils.validation import check_consistent_length, check_array
 
 __all__ = ["consensus_score"]
 

@@ -9,7 +9,7 @@ import re
 import subprocess
 import threading
 
-from sklearn.externals.joblib._compat import PY3_OR_LATER
+from gawml.externals.joblib._compat import PY3_OR_LATER
 
 
 def warnings_to_stdout():

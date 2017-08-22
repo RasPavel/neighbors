@@ -9,21 +9,21 @@ Locality Sensitive Hashing Forest module
 import numpy as np
 import scipy.sparse as sp
 
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_array_less
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_not_equal
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_array_less
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_not_equal
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import ignore_warnings
 
-from sklearn.metrics.pairwise import pairwise_distances
-from sklearn.neighbors import LSHForest
-from sklearn.neighbors import NearestNeighbors
+from gawml.metrics.pairwise import pairwise_distances
+from gawml.neighbors import LSHForest
+from gawml.neighbors import NearestNeighbors
 
 
 def test_neighbors_accuracy_with_n_candidates():

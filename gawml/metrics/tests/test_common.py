@@ -7,54 +7,54 @@ import numpy as np
 import scipy.sparse as sp
 
 from sklearn.datasets import make_multilabel_classification
-from sklearn.preprocessing import LabelBinarizer
-from sklearn.utils.multiclass import type_of_target
-from sklearn.utils.validation import check_random_state
-from sklearn.utils import shuffle
+from gawml.preprocessing import LabelBinarizer
+from gawml.utils.multiclass import type_of_target
+from gawml.utils.validation import check_random_state
+from gawml.utils import shuffle
 
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_not_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.testing import _named_check
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_not_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.testing import _named_check
 
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import average_precision_score
-from sklearn.metrics import brier_score_loss
-from sklearn.metrics import cohen_kappa_score
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import coverage_error
-from sklearn.metrics import explained_variance_score
-from sklearn.metrics import f1_score
-from sklearn.metrics import fbeta_score
-from sklearn.metrics import hamming_loss
-from sklearn.metrics import hinge_loss
-from sklearn.metrics import jaccard_similarity_score
-from sklearn.metrics import label_ranking_average_precision_score
-from sklearn.metrics import label_ranking_loss
-from sklearn.metrics import log_loss
-from sklearn.metrics import matthews_corrcoef
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import median_absolute_error
-from sklearn.metrics import precision_score
-from sklearn.metrics import r2_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import zero_one_loss
+from gawml.metrics import accuracy_score
+from gawml.metrics import average_precision_score
+from gawml.metrics import brier_score_loss
+from gawml.metrics import cohen_kappa_score
+from gawml.metrics import confusion_matrix
+from gawml.metrics import coverage_error
+from gawml.metrics import explained_variance_score
+from gawml.metrics import f1_score
+from gawml.metrics import fbeta_score
+from gawml.metrics import hamming_loss
+from gawml.metrics import hinge_loss
+from gawml.metrics import jaccard_similarity_score
+from gawml.metrics import label_ranking_average_precision_score
+from gawml.metrics import label_ranking_loss
+from gawml.metrics import log_loss
+from gawml.metrics import matthews_corrcoef
+from gawml.metrics import mean_absolute_error
+from gawml.metrics import mean_squared_error
+from gawml.metrics import median_absolute_error
+from gawml.metrics import precision_score
+from gawml.metrics import r2_score
+from gawml.metrics import recall_score
+from gawml.metrics import roc_auc_score
+from gawml.metrics import zero_one_loss
 
 # TODO Curve are currently not covered by invariance test
 # from sklearn.metrics import precision_recall_curve
 # from sklearn.metrics import roc_curve
 
 
-from sklearn.metrics.base import _average_binary_score
+from gawml.metrics.base import _average_binary_score
 
 
 # Note toward developers about metric testing

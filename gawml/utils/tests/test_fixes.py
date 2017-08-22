@@ -5,11 +5,11 @@
 
 import pickle
 
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_array_equal
 
-from sklearn.utils.fixes import divide
-from sklearn.utils.fixes import MaskedArray
+from gawml.utils.fixes import divide
+from gawml.utils.fixes import MaskedArray
 
 
 def test_divide():

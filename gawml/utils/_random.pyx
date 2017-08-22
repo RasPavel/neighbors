@@ -21,7 +21,7 @@ import numpy as np
 cimport numpy as np
 np.import_array()
 
-from sklearn.utils import check_random_state
+from gawml.utils import check_random_state
 
 
 cpdef _sample_without_replacement_check_input(np.int_t n_population,

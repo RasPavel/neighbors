@@ -11,48 +11,48 @@ from scipy import sparse
 from scipy.stats import rankdata
 import struct
 
-from sklearn.externals.six.moves import zip
-from sklearn.externals.joblib import hash, Memory
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raises_regex
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_not_equal
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_in
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_allclose
-from sklearn.utils.testing import assert_allclose_dense_sparse
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import META_ESTIMATORS
-from sklearn.utils.testing import set_random_state
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_greater_equal
-from sklearn.utils.testing import SkipTest
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.testing import assert_dict_equal
+from gawml.externals.six.moves import zip
+from gawml.externals.joblib import hash, Memory
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raises_regex
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_not_equal
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_in
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_allclose
+from gawml.utils.testing import assert_allclose_dense_sparse
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import META_ESTIMATORS
+from gawml.utils.testing import set_random_state
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_greater_equal
+from gawml.utils.testing import SkipTest
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_dict_equal
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 
-from sklearn.base import (clone, TransformerMixin, ClusterMixin,
+from gawml.base import (clone, TransformerMixin, ClusterMixin,
                           BaseEstimator, is_classifier, is_regressor)
-from sklearn.metrics import accuracy_score, adjusted_rand_score, f1_score
+from gawml.metrics import accuracy_score, adjusted_rand_score, f1_score
 
-from sklearn.random_projection import BaseRandomProjection
+from gawml.random_projection import BaseRandomProjection
 from sklearn.feature_selection import SelectKBest
 from sklearn.svm.base import BaseLibSVM
 from sklearn.linear_model.stochastic_gradient import BaseSGD
 from sklearn.pipeline import make_pipeline
-from sklearn.exceptions import ConvergenceWarning
-from sklearn.exceptions import DataConversionWarning
-from sklearn.exceptions import SkipTestWarning
+from gawml.exceptions import ConvergenceWarning
+from gawml.exceptions import DataConversionWarning
+from gawml.exceptions import SkipTestWarning
 from sklearn.model_selection import train_test_split
 
-from sklearn.utils import shuffle
-from sklearn.utils.fixes import signature
-from sklearn.utils.validation import has_fit_parameter, _num_samples
-from sklearn.preprocessing import StandardScaler
+from gawml.utils import shuffle
+from gawml.utils.fixes import signature
+from gawml.utils.validation import has_fit_parameter, _num_samples
+from gawml.preprocessing import StandardScaler
 from sklearn.datasets import load_iris, load_boston, make_blobs
 
 

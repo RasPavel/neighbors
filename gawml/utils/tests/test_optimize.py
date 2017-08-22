@@ -1,9 +1,9 @@
 import numpy as np
 
-from sklearn.utils.optimize import newton_cg
+from gawml.utils.optimize import newton_cg
 from scipy.optimize import fmin_ncg
 
-from sklearn.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_array_almost_equal
 
 
 def test_newton_cg():

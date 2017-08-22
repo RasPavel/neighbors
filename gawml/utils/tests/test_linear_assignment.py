@@ -4,7 +4,7 @@
 import numpy as np
 
 # XXX we should be testing the public API here
-from sklearn.utils.linear_assignment_ import _hungarian
+from gawml.utils.linear_assignment_ import _hungarian
 
 
 def test_hungarian():

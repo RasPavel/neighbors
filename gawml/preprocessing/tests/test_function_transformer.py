@@ -1,8 +1,8 @@
 from nose.tools import assert_equal
 import numpy as np
 
-from sklearn.utils import testing
-from sklearn.preprocessing import FunctionTransformer
+from gawml.utils import testing
+from gawml.preprocessing import FunctionTransformer
 
 
 def _make_func(args_store, kwargs_store, func=lambda X, *a, **k: X):

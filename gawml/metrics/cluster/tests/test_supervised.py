@@ -1,19 +1,19 @@
 import numpy as np
 
-from sklearn.metrics.cluster import adjusted_mutual_info_score
-from sklearn.metrics.cluster import adjusted_rand_score
-from sklearn.metrics.cluster import completeness_score
-from sklearn.metrics.cluster import contingency_matrix
-from sklearn.metrics.cluster import entropy
-from sklearn.metrics.cluster import expected_mutual_information
-from sklearn.metrics.cluster import fowlkes_mallows_score
-from sklearn.metrics.cluster import homogeneity_completeness_v_measure
-from sklearn.metrics.cluster import homogeneity_score
-from sklearn.metrics.cluster import mutual_info_score
-from sklearn.metrics.cluster import normalized_mutual_info_score
-from sklearn.metrics.cluster import v_measure_score
+from gawml.metrics.cluster import adjusted_mutual_info_score
+from gawml.metrics.cluster import adjusted_rand_score
+from gawml.metrics.cluster import completeness_score
+from gawml.metrics.cluster import contingency_matrix
+from gawml.metrics.cluster import entropy
+from gawml.metrics.cluster import expected_mutual_information
+from gawml.metrics.cluster import fowlkes_mallows_score
+from gawml.metrics.cluster import homogeneity_completeness_v_measure
+from gawml.metrics.cluster import homogeneity_score
+from gawml.metrics.cluster import mutual_info_score
+from gawml.metrics.cluster import normalized_mutual_info_score
+from gawml.metrics.cluster import v_measure_score
 
-from sklearn.utils.testing import (
+from gawml.utils.testing import (
         assert_equal, assert_almost_equal, assert_raise_message,
 )
 from numpy.testing import assert_array_almost_equal

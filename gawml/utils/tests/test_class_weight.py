@@ -3,15 +3,15 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.datasets import make_blobs
 
-from sklearn.utils.class_weight import compute_class_weight
-from sklearn.utils.class_weight import compute_sample_weight
+from gawml.utils.class_weight import compute_class_weight
+from gawml.utils.class_weight import compute_sample_weight
 
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_equal
 
 
 def test_compute_class_weight():

@@ -1,8 +1,8 @@
 
 import datetime
 
-from sklearn.utils.bench import total_seconds
-from sklearn.utils.testing import assert_equal
+from gawml.utils.bench import total_seconds
+from gawml.utils.testing import assert_equal
 
 
 def test_total_seconds():

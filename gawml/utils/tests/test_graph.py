@@ -4,8 +4,8 @@
 import numpy as np
 from scipy import sparse
 
-from sklearn.utils.graph import graph_laplacian
-from sklearn.utils.testing import ignore_warnings
+from gawml.utils.graph import graph_laplacian
+from gawml.utils.testing import ignore_warnings
 
 
 @ignore_warnings(category=DeprecationWarning)

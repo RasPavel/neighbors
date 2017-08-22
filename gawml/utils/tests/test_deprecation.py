@@ -4,10 +4,10 @@
 
 import sys
 
-from sklearn.utils.deprecation import _is_deprecated
-from sklearn.utils.deprecation import deprecated
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import SkipTest
+from gawml.utils.deprecation import _is_deprecated
+from gawml.utils.deprecation import deprecated
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import SkipTest
 
 
 @deprecated('qwerty')

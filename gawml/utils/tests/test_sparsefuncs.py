@@ -8,17 +8,17 @@ from numpy.testing import (assert_array_almost_equal,
 from numpy.random import RandomState
 
 from sklearn.datasets import make_classification
-from sklearn.utils.sparsefuncs import (mean_variance_axis,
+from gawml.utils.sparsefuncs import (mean_variance_axis,
                                        incr_mean_variance_axis,
                                        inplace_column_scale,
                                        inplace_row_scale,
                                        inplace_swap_row, inplace_swap_column,
                                        min_max_axis,
                                        count_nonzero, csc_median_axis_0)
-from sklearn.utils.sparsefuncs_fast import (assign_rows_csr,
+from gawml.utils.sparsefuncs_fast import (assign_rows_csr,
                                             inplace_csr_row_normalize_l1,
                                             inplace_csr_row_normalize_l2)
-from sklearn.utils.testing import assert_raises
+from gawml.utils.testing import assert_raises
 
 
 def test_mean_variance_axis0():

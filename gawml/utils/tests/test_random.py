@@ -3,11 +3,11 @@ from __future__ import division
 import numpy as np
 import scipy.sparse as sp
 from numpy.testing import assert_array_almost_equal
-from sklearn.utils.random import sample_without_replacement
-from sklearn.utils.random import random_choice_csc
-from sklearn.utils.fixes import comb
+from gawml.utils.random import sample_without_replacement
+from gawml.utils.random import random_choice_csc
+from gawml.utils.fixes import comb
 
-from sklearn.utils.testing import (
+from gawml.utils.testing import (
     assert_raises,
     assert_equal,
     assert_true)

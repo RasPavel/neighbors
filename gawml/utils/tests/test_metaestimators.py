@@ -1,5 +1,5 @@
-from sklearn.utils.testing import assert_true, assert_false
-from sklearn.utils.metaestimators import if_delegate_has_method
+from gawml.utils.testing import assert_true, assert_false
+from gawml.utils.metaestimators import if_delegate_has_method
 
 
 class Prefix(object):

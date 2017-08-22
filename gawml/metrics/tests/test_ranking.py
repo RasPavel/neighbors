@@ -9,29 +9,29 @@ from sklearn import datasets
 from sklearn import svm
 
 from sklearn.datasets import make_multilabel_classification
-from sklearn.random_projection import sparse_random_matrix
-from sklearn.utils.validation import check_array, check_consistent_length
-from sklearn.utils.validation import check_random_state
+from gawml.random_projection import sparse_random_matrix
+from gawml.utils.validation import check_array, check_consistent_length
+from gawml.utils.validation import check_random_state
 
-from sklearn.utils.testing import assert_raises, clean_warning_registry
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_warns
+from gawml.utils.testing import assert_raises, clean_warning_registry
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_warns
 
-from sklearn.metrics import auc
-from sklearn.metrics import average_precision_score
-from sklearn.metrics import coverage_error
-from sklearn.metrics import label_ranking_average_precision_score
-from sklearn.metrics import precision_recall_curve
-from sklearn.metrics import label_ranking_loss
-from sklearn.metrics import roc_auc_score
-from sklearn.metrics import roc_curve
-from sklearn.metrics import ndcg_score
+from gawml.metrics import auc
+from gawml.metrics import average_precision_score
+from gawml.metrics import coverage_error
+from gawml.metrics import label_ranking_average_precision_score
+from gawml.metrics import precision_recall_curve
+from gawml.metrics import label_ranking_loss
+from gawml.metrics import roc_auc_score
+from gawml.metrics import roc_curve
+from gawml.metrics import ndcg_score
 
-from sklearn.exceptions import UndefinedMetricWarning
+from gawml.exceptions import UndefinedMetricWarning
 
 
 ###############################################################################

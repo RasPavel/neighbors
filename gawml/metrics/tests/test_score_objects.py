@@ -6,26 +6,26 @@ import numbers
 
 import numpy as np
 
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raises_regexp
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.testing import assert_not_equal
-from sklearn.utils.testing import assert_warns_message
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raises_regexp
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_not_equal
+from gawml.utils.testing import assert_warns_message
 
-from sklearn.base import BaseEstimator
-from sklearn.metrics import (f1_score, r2_score, roc_auc_score, fbeta_score,
+from gawml.base import BaseEstimator
+from gawml.metrics import (f1_score, r2_score, roc_auc_score, fbeta_score,
                              log_loss, precision_score, recall_score)
-from sklearn.metrics import cluster as cluster_module
-from sklearn.metrics.scorer import (check_scoring, _PredictScorer,
+from gawml.metrics import cluster as cluster_module
+from gawml.metrics.scorer import (check_scoring, _PredictScorer,
                                     _passthrough_scorer)
-from sklearn.metrics import accuracy_score
-from sklearn.metrics.scorer import _check_multimetric_scoring
-from sklearn.metrics import make_scorer, get_scorer, SCORERS
+from gawml.metrics import accuracy_score
+from gawml.metrics.scorer import _check_multimetric_scoring
+from gawml.metrics import make_scorer, get_scorer, SCORERS
 from sklearn.svm import LinearSVC
 from sklearn.pipeline import make_pipeline
 from sklearn.cluster import KMeans
@@ -38,7 +38,7 @@ from sklearn.datasets import load_diabetes
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.multiclass import OneVsRestClassifier
-from sklearn.externals import joblib
+from gawml.externals import joblib
 
 
 REGRESSION_SCORERS = ['explained_variance', 'r2',

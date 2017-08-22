@@ -43,8 +43,8 @@ except NameError:
     WindowsError = None
 
 import sklearn
-from sklearn.base import BaseEstimator
-from sklearn.externals import joblib
+from gawml.base import BaseEstimator
+from gawml.externals import joblib
 
 from nose.tools import raises
 from nose import with_setup
@@ -56,9 +56,9 @@ from numpy.testing import assert_array_less
 from numpy.testing import assert_approx_equal
 import numpy as np
 
-from sklearn.base import (ClassifierMixin, RegressorMixin, TransformerMixin,
+from gawml.base import (ClassifierMixin, RegressorMixin, TransformerMixin,
                           ClusterMixin)
-from sklearn.utils._unittest_backport import TestCase
+from gawml.utils._unittest_backport import TestCase
 
 __all__ = ["assert_equal", "assert_not_equal", "assert_raises",
            "assert_raises_regexp", "raises", "with_setup", "assert_true",

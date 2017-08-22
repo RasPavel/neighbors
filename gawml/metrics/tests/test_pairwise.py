@@ -4,44 +4,44 @@ from numpy import linalg
 from scipy.sparse import dok_matrix, csr_matrix, issparse
 from scipy.spatial.distance import cosine, cityblock, minkowski, wminkowski
 
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raises_regexp
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raises_regexp
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import ignore_warnings
 
-from sklearn.externals.six import iteritems
+from gawml.externals.six import iteritems
 
-from sklearn.metrics.pairwise import euclidean_distances
-from sklearn.metrics.pairwise import manhattan_distances
-from sklearn.metrics.pairwise import linear_kernel
-from sklearn.metrics.pairwise import chi2_kernel, additive_chi2_kernel
-from sklearn.metrics.pairwise import polynomial_kernel
-from sklearn.metrics.pairwise import rbf_kernel
-from sklearn.metrics.pairwise import laplacian_kernel
-from sklearn.metrics.pairwise import sigmoid_kernel
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.metrics.pairwise import cosine_distances
-from sklearn.metrics.pairwise import pairwise_distances
-from sklearn.metrics.pairwise import pairwise_distances_argmin_min
-from sklearn.metrics.pairwise import pairwise_distances_argmin
-from sklearn.metrics.pairwise import pairwise_kernels
-from sklearn.metrics.pairwise import PAIRWISE_KERNEL_FUNCTIONS
-from sklearn.metrics.pairwise import PAIRWISE_DISTANCE_FUNCTIONS
-from sklearn.metrics.pairwise import PAIRWISE_BOOLEAN_FUNCTIONS
-from sklearn.metrics.pairwise import PAIRED_DISTANCES
-from sklearn.metrics.pairwise import check_pairwise_arrays
-from sklearn.metrics.pairwise import check_paired_arrays
-from sklearn.metrics.pairwise import paired_distances
-from sklearn.metrics.pairwise import paired_euclidean_distances
-from sklearn.metrics.pairwise import paired_manhattan_distances
-from sklearn.preprocessing import normalize
-from sklearn.exceptions import DataConversionWarning
+from gawml.metrics.pairwise import euclidean_distances
+from gawml.metrics.pairwise import manhattan_distances
+from gawml.metrics.pairwise import linear_kernel
+from gawml.metrics.pairwise import chi2_kernel, additive_chi2_kernel
+from gawml.metrics.pairwise import polynomial_kernel
+from gawml.metrics.pairwise import rbf_kernel
+from gawml.metrics.pairwise import laplacian_kernel
+from gawml.metrics.pairwise import sigmoid_kernel
+from gawml.metrics.pairwise import cosine_similarity
+from gawml.metrics.pairwise import cosine_distances
+from gawml.metrics.pairwise import pairwise_distances
+from gawml.metrics.pairwise import pairwise_distances_argmin_min
+from gawml.metrics.pairwise import pairwise_distances_argmin
+from gawml.metrics.pairwise import pairwise_kernels
+from gawml.metrics.pairwise import PAIRWISE_KERNEL_FUNCTIONS
+from gawml.metrics.pairwise import PAIRWISE_DISTANCE_FUNCTIONS
+from gawml.metrics.pairwise import PAIRWISE_BOOLEAN_FUNCTIONS
+from gawml.metrics.pairwise import PAIRED_DISTANCES
+from gawml.metrics.pairwise import check_pairwise_arrays
+from gawml.metrics.pairwise import check_paired_arrays
+from gawml.metrics.pairwise import paired_distances
+from gawml.metrics.pairwise import paired_euclidean_distances
+from gawml.metrics.pairwise import paired_manhattan_distances
+from gawml.preprocessing import normalize
+from gawml.exceptions import DataConversionWarning
 
 
 def test_pairwise_distances():

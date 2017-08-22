@@ -6,7 +6,7 @@ from numpy.testing import assert_array_almost_equal
 
 import scipy
 from scipy.spatial.distance import cdist
-from sklearn.neighbors.dist_metrics import DistanceMetric
+from gawml.neighbors.dist_metrics import DistanceMetric
 from nose import SkipTest
 
 

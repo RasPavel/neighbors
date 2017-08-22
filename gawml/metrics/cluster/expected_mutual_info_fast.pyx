@@ -10,7 +10,7 @@ from scipy.special import gammaln
 import numpy as np
 cimport numpy as np
 cimport cython
-from sklearn.utils.lgamma cimport lgamma
+from gawml.utils.lgamma cimport lgamma
 
 np.import_array()
 ctypedef np.float64_t DOUBLE

@@ -2,18 +2,18 @@
 import numpy as np
 from scipy import sparse
 
-from sklearn.base import clone
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_true
+from gawml.base import clone
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_true
 
-from sklearn.preprocessing.imputation import Imputer
+from gawml.preprocessing.imputation import Imputer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 from sklearn import tree
-from sklearn.random_projection import sparse_random_matrix
+from gawml.random_projection import sparse_random_matrix
  
 
 def _check_statistics(X, X_true,

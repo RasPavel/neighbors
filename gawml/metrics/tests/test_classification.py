@@ -10,42 +10,42 @@ from sklearn import datasets
 from sklearn import svm
 
 from sklearn.datasets import make_multilabel_classification
-from sklearn.preprocessing import label_binarize
-from sklearn.utils.validation import check_random_state
+from gawml.preprocessing import label_binarize
+from gawml.utils.validation import check_random_state
 
-from sklearn.utils.testing import assert_raises, clean_warning_registry
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import assert_no_warnings
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import assert_not_equal
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.mocking import MockDataFrame
+from gawml.utils.testing import assert_raises, clean_warning_registry
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import assert_no_warnings
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import assert_not_equal
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.mocking import MockDataFrame
 
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import average_precision_score
-from sklearn.metrics import classification_report
-from sklearn.metrics import cohen_kappa_score
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import f1_score
-from sklearn.metrics import fbeta_score
-from sklearn.metrics import hamming_loss
-from sklearn.metrics import hinge_loss
-from sklearn.metrics import jaccard_similarity_score
-from sklearn.metrics import log_loss
-from sklearn.metrics import matthews_corrcoef
-from sklearn.metrics import precision_recall_fscore_support
-from sklearn.metrics import precision_score
-from sklearn.metrics import recall_score
-from sklearn.metrics import zero_one_loss
-from sklearn.metrics import brier_score_loss
+from gawml.metrics import accuracy_score
+from gawml.metrics import average_precision_score
+from gawml.metrics import classification_report
+from gawml.metrics import cohen_kappa_score
+from gawml.metrics import confusion_matrix
+from gawml.metrics import f1_score
+from gawml.metrics import fbeta_score
+from gawml.metrics import hamming_loss
+from gawml.metrics import hinge_loss
+from gawml.metrics import jaccard_similarity_score
+from gawml.metrics import log_loss
+from gawml.metrics import matthews_corrcoef
+from gawml.metrics import precision_recall_fscore_support
+from gawml.metrics import precision_score
+from gawml.metrics import recall_score
+from gawml.metrics import zero_one_loss
+from gawml.metrics import brier_score_loss
 
-from sklearn.metrics.classification import _check_targets
-from sklearn.exceptions import UndefinedMetricWarning
+from gawml.metrics.classification import _check_targets
+from gawml.exceptions import UndefinedMetricWarning
 
 from scipy.spatial.distance import hamming as sp_hamming
 

@@ -7,9 +7,9 @@ from scipy import sparse as sp
 from numpy.testing import assert_array_equal
 from numpy.testing import assert_equal
 
-from sklearn.neighbors import NearestCentroid
+from gawml.neighbors import NearestCentroid
 from sklearn import datasets
-from sklearn.metrics.pairwise import pairwise_distances
+from gawml.metrics.pairwise import pairwise_distances
 
 # toy sample
 X = [[-2, -1], [-1, -1], [-1, -2], [1, 1], [1, 2], [2, 1]]

@@ -1,11 +1,11 @@
 import pickle
 import numpy as np
 from numpy.testing import assert_array_almost_equal
-from sklearn.neighbors.ball_tree import (BallTree, NeighborsHeap,
+from gawml.neighbors.ball_tree import (BallTree, NeighborsHeap,
                                          simultaneous_sort, kernel_norm,
                                          nodeheap_sort, DTYPE, ITYPE)
-from sklearn.neighbors.dist_metrics import DistanceMetric
-from sklearn.utils.testing import SkipTest, assert_allclose
+from gawml.neighbors.dist_metrics import DistanceMetric
+from gawml.utils.testing import SkipTest, assert_allclose
 
 rng = np.random.RandomState(10)
 V = rng.rand(3, 3)

@@ -7,22 +7,22 @@ from scipy.sparse import csr_matrix
 from scipy.sparse import dok_matrix
 from scipy.sparse import lil_matrix
 
-from sklearn.utils.multiclass import type_of_target
+from gawml.utils.multiclass import type_of_target
 
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import ignore_warnings
 
-from sklearn.preprocessing.label import LabelBinarizer
-from sklearn.preprocessing.label import MultiLabelBinarizer
-from sklearn.preprocessing.label import LabelEncoder
-from sklearn.preprocessing.label import label_binarize
+from gawml.preprocessing.label import LabelBinarizer
+from gawml.preprocessing.label import MultiLabelBinarizer
+from gawml.preprocessing.label import LabelEncoder
+from gawml.preprocessing.label import label_binarize
 
-from sklearn.preprocessing.label import _inverse_binarize_thresholding
-from sklearn.preprocessing.label import _inverse_binarize_multiclass
+from gawml.preprocessing.label import _inverse_binarize_thresholding
+from gawml.preprocessing.label import _inverse_binarize_multiclass
 
 from sklearn import datasets
 

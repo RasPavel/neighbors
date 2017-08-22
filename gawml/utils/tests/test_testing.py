@@ -4,9 +4,9 @@ import sys
 import numpy as np
 from scipy import sparse
 
-from sklearn.utils.deprecation import deprecated
-from sklearn.utils.metaestimators import if_delegate_has_method
-from sklearn.utils.testing import (
+from gawml.utils.deprecation import deprecated
+from gawml.utils.metaestimators import if_delegate_has_method
+from gawml.utils.testing import (
     assert_true,
     assert_raises,
     assert_less,
@@ -23,7 +23,7 @@ from sklearn.utils.testing import (
     assert_allclose_dense_sparse,
     assert_raises_regex)
 
-from sklearn.utils.testing import SkipTest
+from gawml.utils.testing import SkipTest
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 

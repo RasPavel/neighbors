@@ -4,8 +4,8 @@ import numpy as np
 import scipy.sparse as sp
 from itertools import product
 
-from sklearn.externals.six.moves import xrange
-from sklearn.externals.six import iteritems
+from gawml.externals.six.moves import xrange
+from gawml.externals.six import iteritems
 
 from scipy.sparse import issparse
 from scipy.sparse import csc_matrix
@@ -14,21 +14,21 @@ from scipy.sparse import coo_matrix
 from scipy.sparse import dok_matrix
 from scipy.sparse import lil_matrix
 
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_raises_regex
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_raises_regex
 
-from sklearn.utils.multiclass import unique_labels
-from sklearn.utils.multiclass import is_multilabel
-from sklearn.utils.multiclass import type_of_target
-from sklearn.utils.multiclass import class_distribution
-from sklearn.utils.multiclass import check_classification_targets
+from gawml.utils.multiclass import unique_labels
+from gawml.utils.multiclass import is_multilabel
+from gawml.utils.multiclass import type_of_target
+from gawml.utils.multiclass import class_distribution
+from gawml.utils.multiclass import check_classification_targets
 
-from sklearn.utils.metaestimators import _safe_split
+from gawml.utils.metaestimators import _safe_split
 from sklearn.model_selection import ShuffleSplit
 from sklearn.svm import SVC
 from sklearn import datasets

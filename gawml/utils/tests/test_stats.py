@@ -1,6 +1,6 @@
-from sklearn.utils.testing import assert_array_equal, ignore_warnings
+from gawml.utils.testing import assert_array_equal, ignore_warnings
 
-from sklearn.utils.stats import rankdata
+from gawml.utils.stats import rankdata
 
 
 _cases = (

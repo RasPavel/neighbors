@@ -6,16 +6,16 @@ from scipy.sparse import (bsr_matrix, coo_matrix, csc_matrix, csr_matrix,
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.validation import check_random_state
-from sklearn.metrics.pairwise import pairwise_distances
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.testing import assert_greater
+from gawml.utils.validation import check_random_state
+from gawml.metrics.pairwise import pairwise_distances
 from sklearn import neighbors, datasets
 
 rng = np.random.RandomState(0)

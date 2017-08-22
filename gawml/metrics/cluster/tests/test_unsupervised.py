@@ -3,17 +3,17 @@ import scipy.sparse as sp
 from scipy.sparse import csr_matrix
 
 from sklearn import datasets
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_raises_regexp
-from sklearn.utils.testing import assert_raise_message
-from sklearn.utils.testing import assert_greater
-from sklearn.metrics.cluster import silhouette_score
-from sklearn.metrics.cluster import silhouette_samples
-from sklearn.metrics import pairwise_distances
-from sklearn.metrics.cluster import calinski_harabaz_score
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_raises_regexp
+from gawml.utils.testing import assert_raise_message
+from gawml.utils.testing import assert_greater
+from gawml.metrics.cluster import silhouette_score
+from gawml.metrics.cluster import silhouette_samples
+from gawml.metrics import pairwise_distances
+from gawml.metrics.cluster import calinski_harabaz_score
 
 
 def test_silhouette():

@@ -6,21 +6,21 @@ import scipy.sparse as sp
 from scipy.linalg import pinv2
 from scipy.sparse.csgraph import laplacian
 
-from sklearn.utils.testing import (assert_equal, assert_raises, assert_true,
+from gawml.utils.testing import (assert_equal, assert_raises, assert_true,
                                    assert_almost_equal, assert_array_equal,
                                    SkipTest, assert_raises_regex,
                                    assert_greater_equal, ignore_warnings)
-from sklearn.utils import check_random_state
-from sklearn.utils import deprecated
-from sklearn.utils import resample
-from sklearn.utils import safe_mask
-from sklearn.utils import column_or_1d
-from sklearn.utils import safe_indexing
-from sklearn.utils import shuffle
-from sklearn.utils import gen_even_slices
-from sklearn.utils.extmath import pinvh
-from sklearn.utils.arpack import eigsh
-from sklearn.utils.mocking import MockDataFrame
+from gawml.utils import check_random_state
+from gawml.utils import deprecated
+from gawml.utils import resample
+from gawml.utils import safe_mask
+from gawml.utils import column_or_1d
+from gawml.utils import safe_indexing
+from gawml.utils import shuffle
+from gawml.utils import gen_even_slices
+from gawml.utils.extmath import pinvh
+from gawml.utils.arpack import eigsh
+from gawml.utils.mocking import MockDataFrame
 
 
 def test_make_rng():

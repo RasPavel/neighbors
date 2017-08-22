@@ -9,33 +9,33 @@ from scipy import sparse
 from scipy import linalg
 from scipy import stats
 
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import assert_warns_message
-from sklearn.utils.testing import skip_if_32bit
-from sklearn.utils.testing import SkipTest
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.fixes import np_version
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import assert_warns_message
+from gawml.utils.testing import skip_if_32bit
+from gawml.utils.testing import SkipTest
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.fixes import np_version
 
-from sklearn.utils.extmath import density
-from sklearn.utils.extmath import logsumexp
-from sklearn.utils.extmath import norm, squared_norm
-from sklearn.utils.extmath import randomized_svd
-from sklearn.utils.extmath import row_norms
-from sklearn.utils.extmath import weighted_mode
-from sklearn.utils.extmath import cartesian
-from sklearn.utils.extmath import log_logistic
-from sklearn.utils.extmath import svd_flip
-from sklearn.utils.extmath import _incremental_mean_and_var
-from sklearn.utils.extmath import _deterministic_vector_sign_flip
-from sklearn.utils.extmath import softmax
-from sklearn.utils.extmath import stable_cumsum
+from gawml.utils.extmath import density
+from gawml.utils.extmath import logsumexp
+from gawml.utils.extmath import norm, squared_norm
+from gawml.utils.extmath import randomized_svd
+from gawml.utils.extmath import row_norms
+from gawml.utils.extmath import weighted_mode
+from gawml.utils.extmath import cartesian
+from gawml.utils.extmath import log_logistic
+from gawml.utils.extmath import svd_flip
+from gawml.utils.extmath import _incremental_mean_and_var
+from gawml.utils.extmath import _deterministic_vector_sign_flip
+from gawml.utils.extmath import softmax
+from gawml.utils.extmath import stable_cumsum
 from sklearn.datasets.samples_generator import make_low_rank_matrix
 
 

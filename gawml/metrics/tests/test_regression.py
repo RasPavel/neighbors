@@ -3,20 +3,20 @@ from __future__ import division, print_function
 import numpy as np
 from itertools import product
 
-from sklearn.utils.testing import assert_raises, assert_raises_regex
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_raises, assert_raises_regex
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_array_almost_equal
 
-from sklearn.metrics import explained_variance_score
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_squared_log_error
-from sklearn.metrics import median_absolute_error
-from sklearn.metrics import r2_score
+from gawml.metrics import explained_variance_score
+from gawml.metrics import mean_absolute_error
+from gawml.metrics import mean_squared_error
+from gawml.metrics import mean_squared_log_error
+from gawml.metrics import median_absolute_error
+from gawml.metrics import r2_score
 
-from sklearn.metrics.regression import _check_reg_targets
+from gawml.metrics.regression import _check_reg_targets
 
 
 def test_regression_metrics(n_samples=50):

@@ -3,11 +3,11 @@
 # License: BSD 3 clause
 
 import numpy as np
-from sklearn.externals.six import b, u
-from sklearn.utils.murmurhash import murmurhash3_32
+from gawml.externals.six import b, u
+from gawml.utils.murmurhash import murmurhash3_32
 from numpy.testing import assert_array_almost_equal
 from numpy.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal, assert_true
+from gawml.utils.testing import assert_equal, assert_true
 
 
 def test_mmhash3_int():
