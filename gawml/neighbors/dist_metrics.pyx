@@ -1141,8 +1141,11 @@ cdef class CompositeDistance(DistanceMetric):
     def __init__(self, metrics):
        self.metrics = metrics
 
-    cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) except -1 with gil:
+    cdef inline DTYPE_t dist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) nogil except -1:
+        return self._dist(x1, x2, size)
 
+    cdef inline DTYPE_t _dist(self, DTYPE_t * x1, DTYPE_t * x2,
+                              ITYPE_t size) except -1 with gil:
         cdef DTYPE_t d = 0
         cdef DTYPE_t* x_1_slice_beg = x1
         cdef DTYPE_t* x_2_slice_beg = x2
@@ -1152,19 +1155,20 @@ cdef class CompositeDistance(DistanceMetric):
         cdef DTYPE_t weight
         cdef int beg, end
 
-        with gil:
-            for metric, weight, beg, end in self.metrics:
-                slice_size = end - beg
+        for metric, weight, beg, end in self.metrics:
+            slice_size = end - beg
 
-                x_1_slice_beg = x1 + beg
-                x_2_slice_beg = x2 + beg
+            x_1_slice_beg = x1 + beg
+            x_2_slice_beg = x2 + beg
 
-                d += weight * metric.dist(x_1_slice_beg, x_2_slice_beg, slice_size)
+            d += weight * metric.dist(x_1_slice_beg, x_2_slice_beg, slice_size)
 
         return d
 
-    cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) except -1 with gil:
+    cdef inline DTYPE_t rdist(self, DTYPE_t* x1, DTYPE_t* x2, ITYPE_t size) nogil except -1:
+        return self._rdist(x1, x2, size)
 
+    cdef inline DTYPE_t _rdist(self, DTYPE_t * x1, DTYPE_t * x2, ITYPE_t size) except -1 with gil:
         cdef DTYPE_t d = 0
         cdef DTYPE_t* x_1_slice_beg = x1
         cdef DTYPE_t* x_2_slice_beg = x2
@@ -1174,14 +1178,13 @@ cdef class CompositeDistance(DistanceMetric):
         cdef DTYPE_t weight
         cdef int beg, end
 
-        with gil:
-            for metric, weight, beg, end in self.metrics:
-                slice_size = end - beg
+        for metric, weight, beg, end in self.metrics:
+            slice_size = end - beg
 
-                x_1_slice_beg = x1 + beg
-                x_2_slice_beg = x2 + beg
+            x_1_slice_beg = x1 + beg
+            x_2_slice_beg = x2 + beg
 
-                d += weight * metric.rdist(x_1_slice_beg, x_2_slice_beg, slice_size)
+            d += weight * metric.rdist(x_1_slice_beg, x_2_slice_beg, slice_size)
 
         return d
 
