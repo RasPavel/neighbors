@@ -2,6 +2,8 @@ import os
 from os.path import join
 import warnings
 
+from sklearn._build_utils import maybe_cythonize_extensions
+
 
 def configuration(parent_package='', top_path=None):
     from numpy.distutils.misc_util import Configuration
@@ -13,12 +15,15 @@ def configuration(parent_package='', top_path=None):
         libraries.append('m')
 
     config = Configuration('gawml', parent_package, top_path)
-    
-    config.add_subpackage('externals')
-    config.add_subpackage('neighbors')
+
+    # submodules with build utilities
     config.add_subpackage('preprocessing')
+    config.add_subpackage('preprocessing/tests')
+    config.add_subpackage('externals')
     config.add_subpackage('metrics')
     config.add_subpackage('metrics/cluster')
+    config.add_subpackage('neighbors')
+    config.add_subpackage('tree')
 
     # some libs needs cblas, fortran-compiled BLAS will not be sufficient
     blas_info = get_info('blas_opt', 0)
@@ -32,6 +37,7 @@ def configuration(parent_package='', top_path=None):
     # after the above.
     config.add_subpackage('utils')
 
+    maybe_cythonize_extensions(top_path, config)
 
     return config
 
