@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
-from sklearn.neighbors.quad_tree import _QuadTree
-from sklearn.utils import check_random_state
+from gawml.neighbors.quad_tree import _QuadTree
+from gawml.utils import check_random_state
 
 
 def test_quadtree_boundary_computation():

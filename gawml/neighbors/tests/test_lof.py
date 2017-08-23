@@ -9,13 +9,13 @@ from sklearn import neighbors
 from numpy.testing import assert_array_equal
 
 from sklearn import metrics
-from sklearn.metrics import roc_auc_score
+from gawml.metrics import roc_auc_score
 
-from sklearn.utils import check_random_state
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_warns_message
+from gawml.utils import check_random_state
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_warns_message
 
 from sklearn.datasets import load_iris
 

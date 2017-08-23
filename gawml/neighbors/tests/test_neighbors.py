@@ -6,22 +6,22 @@ from scipy.sparse import (bsr_matrix, coo_matrix, csc_matrix, csr_matrix,
 
 from sklearn import metrics
 from sklearn import neighbors, datasets
-from sklearn.exceptions import DataConversionWarning
-from sklearn.metrics.pairwise import pairwise_distances
+from gawml.exceptions import DataConversionWarning
+from gawml.metrics.pairwise import pairwise_distances
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors.base import VALID_METRICS_SPARSE, VALID_METRICS
-from sklearn.utils.testing import assert_array_almost_equal
-from sklearn.utils.testing import assert_array_equal
-from sklearn.utils.testing import assert_equal
-from sklearn.utils.testing import assert_false
-from sklearn.utils.testing import assert_greater
-from sklearn.utils.testing import assert_in
-from sklearn.utils.testing import assert_raises
-from sklearn.utils.testing import assert_true
-from sklearn.utils.testing import assert_warns
-from sklearn.utils.testing import ignore_warnings
-from sklearn.utils.validation import check_random_state
+from gawml.neighbors.base import VALID_METRICS_SPARSE, VALID_METRICS
+from gawml.utils.testing import assert_array_almost_equal
+from gawml.utils.testing import assert_array_equal
+from gawml.utils.testing import assert_equal
+from gawml.utils.testing import assert_false
+from gawml.utils.testing import assert_greater
+from gawml.utils.testing import assert_in
+from gawml.utils.testing import assert_raises
+from gawml.utils.testing import assert_true
+from gawml.utils.testing import assert_warns
+from gawml.utils.testing import ignore_warnings
+from gawml.utils.validation import check_random_state
 
 rng = np.random.RandomState(0)
 # load and shuffle iris dataset

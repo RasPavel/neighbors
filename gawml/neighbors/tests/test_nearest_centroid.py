@@ -8,7 +8,7 @@ from numpy.testing import assert_array_equal
 from numpy.testing import assert_equal
 from numpy.testing import assert_raises
 
-from sklearn.neighbors import NearestCentroid
+from gawml.neighbors import NearestCentroid
 from sklearn import datasets
 
 # toy sample

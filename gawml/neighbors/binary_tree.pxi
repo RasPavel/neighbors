@@ -144,7 +144,7 @@
 cimport cython
 cimport numpy as np
 from libc.math cimport fabs, sqrt, exp, cos, pow, log
-from sklearn.utils.lgamma cimport lgamma
+from gawml.utils.lgamma cimport lgamma
 
 import numpy as np
 import warnings

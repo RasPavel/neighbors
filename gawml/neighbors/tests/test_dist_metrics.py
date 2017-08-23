@@ -5,10 +5,10 @@ import numpy as np
 from numpy.testing import assert_array_almost_equal
 
 from scipy.spatial.distance import cdist
-from sklearn.neighbors.dist_metrics import DistanceMetric
-from sklearn.neighbors import BallTree
-from sklearn.utils import check_random_state
-from sklearn.utils.testing import assert_raises_regex
+from gawml.neighbors.dist_metrics import DistanceMetric
+from gawml.neighbors import BallTree
+from gawml.utils import check_random_state
+from gawml.utils.testing import assert_raises_regex
 
 
 def dist_func(x1, x2, p):
