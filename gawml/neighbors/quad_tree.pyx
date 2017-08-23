@@ -11,7 +11,7 @@ from libc.stdlib cimport malloc, free
 from libc.string cimport memcpy
 from libc.stdio cimport printf
 
-from sklearn.tree._utils cimport safe_realloc, sizet_ptr_to_ndarray
+from gawml.tree._utils cimport safe_realloc, sizet_ptr_to_ndarray
 from ..utils import check_array
 
 import numpy as np
