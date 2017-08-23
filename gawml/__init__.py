@@ -121,10 +121,6 @@ if __SKLEARN_SETUP__:
     # We are not importing the rest of the scikit during the build
     # process, as it may not be compiled yet
 else:
-    from . import __check_build
-    from .base import clone
-    __check_build  # avoid flakes unused variable error
-
     __all__ = ['calibration', 'cluster', 'covariance', 'cross_decomposition',
                'cross_validation', 'datasets', 'decomposition', 'dummy',
                'ensemble', 'exceptions', 'externals', 'feature_extraction',
